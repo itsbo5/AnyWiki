@@ -1,0 +1,25 @@
+{
+  "name": "anyps5-wiki",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check:links": "astro build",
+    "check:prose": "node scripts/check-prose.mjs",
+    "generate:data": "node scripts/generate-libraries.mjs && node scripts/generate-errors.mjs && node scripts/generate-contributors.mjs"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "0.42.7",
+    "astro": "7.4.2",
+    "sharp": "0.35.3",
+    "starlight-links-validator": "0.27.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.10",
+    "typescript": "5.8.2"
+  }
+}

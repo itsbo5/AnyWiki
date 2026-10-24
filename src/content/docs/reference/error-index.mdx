@@ -1,0 +1,131 @@
+---
+title: Error index
+description: Catalog and architectural index of runtime std::runtime_error messages emitted across AnyPS5.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import errors from '../../../data/errors.json';
+
+When AnyPS5 encounters an unsupported feature, illegal instruction, or invalid container format, it prints an exact message to standard error and throws `std::runtime_error`. This page indexes 2,057 distinct error messages extracted across `core/`.
+
+## Error handling architecture
+
+AnyPS5 follows a strict fail-fast policy:
+
+1. **No silent corruption**: The runtime never returns fabricated data or dummy pointers for unimplemented system state.
+2. **Explicit messages**: Functions report their component name and failure cause (such as missing relocations, invalid opcode encodings, or unmapped direct memory ranges).
+3. **Process termination**: The process aborts immediately, allowing developers to inspect call stacks with a debugger or examine core dumps.
+
+## Categorized error index
+
+Use the tabs below to inspect verbatim error messages by architectural subsystem.
+
+<Tabs>
+  <TabItem label="Relinker and core">
+    <p>Errors originating from ELF container parsing, program header decoding, relocations, and branch rewrites.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Error message</th>
+          <th>Component</th>
+        </tr>
+      </thead>
+      <tbody>
+        {errors.filter(e => e.component === 'relinker' || e.component === 'core').slice(0, 80).map((err, i) => (
+          <tr key={i}>
+            <td><code>{err.message}</code></td>
+            <td><code>{err.component}</code></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </TabItem>
+
+  <TabItem label="Kernel and libc">
+    <p>Errors triggered by memory allocation requests, thread synchronization, signal delivery, and POSIX filesystem calls.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Error message</th>
+          <th>Component</th>
+        </tr>
+      </thead>
+      <tbody>
+        {errors.filter(e => e.component === 'libkernel' || e.component === 'libc').slice(0, 80).map((err, i) => (
+          <tr key={i}>
+            <td><code>{err.message}</code></td>
+            <td><code>{err.component}</code></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </TabItem>
+
+  <TabItem label="Graphics and AGC">
+    <p>Errors raised during command buffer parsing, context binding, surface format mapping, and swapchain presentation.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Error message</th>
+          <th>Component</th>
+        </tr>
+      </thead>
+      <tbody>
+        {errors.filter(e => e.component === 'libSceAgc' || e.component === 'libSceVideoOut').slice(0, 80).map((err, i) => (
+          <tr key={i}>
+            <td><code>{err.message}</code></td>
+            <td><code>{err.component}</code></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </TabItem>
+
+  <TabItem label="Shader recompiler">
+    <p>Errors produced by invalid RDNA2 opcode formats, register operand overflows, or unhandled addressing modes.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Error message</th>
+          <th>Component</th>
+        </tr>
+      </thead>
+      <tbody>
+        {errors.filter(e => e.component === 'shader').slice(0, 80).map((err, i) => (
+          <tr key={i}>
+            <td><code>{err.message}</code></td>
+            <td><code>{err.component}</code></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </TabItem>
+
+  <TabItem label="Audio and media">
+    <p>Errors originating from audio voice synthesis, ATRAC9 stream decoding, and hardware video playback.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Error message</th>
+          <th>Component</th>
+        </tr>
+      </thead>
+      <tbody>
+        {errors.filter(e => e.component === 'libSceNgs2.native' || e.component === 'libSceVideodec2' || e.component === 'libSceAudio').slice(0, 80).map((err, i) => (
+          <tr key={i}>
+            <td><code>{err.message}</code></td>
+            <td><code>{err.component}</code></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </TabItem>
+</Tabs>
+
+## Resolving errors
+
+When troubleshooting an error message:
+
+1. Match the error string against the [troubleshooting guide](/AnyWiki/user-guide/troubleshooting/) for common root causes and fixes.
+2. Check the relevant subsystem technical debt file in `docs/dev/debt/` in the upstream repository to verify whether the behavior is a known limitation.
+3. If an export is unimplemented (`NotImplemented_nid_no_patch`), consult the [library model specification](/AnyWiki/reference/library-model/) and consider contributing an implementation following the [contributor workflow](/AnyWiki/contributing/workflow/).

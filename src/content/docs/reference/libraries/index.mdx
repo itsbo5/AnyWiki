@@ -1,0 +1,194 @@
+---
+title: System library index
+description: Index and implementation status of all 368 PlayStation 5 system PRX libraries in AnyPS5.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import data from '../../../../data/libraries.json';
+
+AnyPS5 provides native reimplementations and export declarations for 368 system PRX libraries. When a converted executable runs, the host dynamic linker resolves imported symbols directly against these libraries.
+
+## Implementation summary
+
+The project tracks implementation coverage across known function exports:
+
+- **Total declared libraries**: {data.summary.libraryCount}
+- **Total declared functions**: {data.summary.total}
+- **Implemented functions**: {data.summary.implemented} ({((data.summary.implemented / data.summary.total) * 100).toFixed(1)}%)
+- **Inert functions (silent stubs)**: {data.summary.inert} ({((data.summary.inert / data.summary.total) * 100).toFixed(1)}%)
+- **Unimplemented stubs**: {data.summary.stub} ({((data.summary.stub / data.summary.total) * 100).toFixed(1)}%)
+- **Effective coverage**: {data.summary.percent}% (implemented plus inert functions)
+
+For details on the function states and NID hashing specification, refer to the [library model guide](/AnyWiki/reference/library-model/).
+
+## Libraries by category
+
+<Tabs>
+  <TabItem label="Core system">
+    <p>Essential runtime primitives including memory management, threading, and POSIX standard C library functions.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Library</th>
+          <th>Implemented</th>
+          <th>Inert</th>
+          <th>Stubs</th>
+          <th>Total</th>
+          <th>Coverage</th>
+        </tr>
+      </thead>
+      <tbody>
+        {data.libraries.filter(l => l.category === 'Core system').map(lib => (
+          <tr key={lib.name}>
+            <td><code>{lib.name}</code></td>
+            <td>{lib.implemented}</td>
+            <td>{lib.inert}</td>
+            <td>{lib.stub}</td>
+            <td>{lib.total}</td>
+            <td>{lib.percent}%</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </TabItem>
+
+  <TabItem label="Graphics and video">
+    <p>AGC graphics drivers, display management, video decoding pipelines, and GPU memory synchronization.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Library</th>
+          <th>Implemented</th>
+          <th>Inert</th>
+          <th>Stubs</th>
+          <th>Total</th>
+          <th>Coverage</th>
+        </tr>
+      </thead>
+      <tbody>
+        {data.libraries.filter(l => l.category === 'Graphics and video').map(lib => (
+          <tr key={lib.name}>
+            <td><code>{lib.name}</code></td>
+            <td>{lib.implemented}</td>
+            <td>{lib.inert}</td>
+            <td>{lib.stub}</td>
+            <td>{lib.total}</td>
+            <td>{lib.percent}%</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </TabItem>
+
+  <TabItem label="Audio and media">
+    <p>Audio output streams, voice chat routing, NGS2 audio synthesis, and hardware audio decoders.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Library</th>
+          <th>Implemented</th>
+          <th>Inert</th>
+          <th>Stubs</th>
+          <th>Total</th>
+          <th>Coverage</th>
+        </tr>
+      </thead>
+      <tbody>
+        {data.libraries.filter(l => l.category === 'Audio and media').map(lib => (
+          <tr key={lib.name}>
+            <td><code>{lib.name}</code></td>
+            <td>{lib.implemented}</td>
+            <td>{lib.inert}</td>
+            <td>{lib.stub}</td>
+            <td>{lib.total}</td>
+            <td>{lib.percent}%</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </TabItem>
+
+  <TabItem label="Input and user">
+    <p>Controller pad inputs, user profiles, authentication tokens, and virtual keyboard dialogs.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Library</th>
+          <th>Implemented</th>
+          <th>Inert</th>
+          <th>Stubs</th>
+          <th>Total</th>
+          <th>Coverage</th>
+        </tr>
+      </thead>
+      <tbody>
+        {data.libraries.filter(l => l.category === 'Input and user').map(lib => (
+          <tr key={lib.name}>
+            <td><code>{lib.name}</code></td>
+            <td>{lib.implemented}</td>
+            <td>{lib.inert}</td>
+            <td>{lib.stub}</td>
+            <td>{lib.total}</td>
+            <td>{lib.percent}%</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </TabItem>
+
+  <TabItem label="Network and services">
+    <p>BSD socket networking, SSL transport, PlayStation Network services, and title commerce.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Library</th>
+          <th>Implemented</th>
+          <th>Inert</th>
+          <th>Stubs</th>
+          <th>Total</th>
+          <th>Coverage</th>
+        </tr>
+      </thead>
+      <tbody>
+        {data.libraries.filter(l => l.category === 'Network and services').map(lib => (
+          <tr key={lib.name}>
+            <td><code>{lib.name}</code></td>
+            <td>{lib.implemented}</td>
+            <td>{lib.inert}</td>
+            <td>{lib.stub}</td>
+            <td>{lib.total}</td>
+            <td>{lib.percent}%</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </TabItem>
+
+  <TabItem label="System utilities">
+    <p>Helper utilities, compression engines, font configuration, and system service clients.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Library</th>
+          <th>Implemented</th>
+          <th>Inert</th>
+          <th>Stubs</th>
+          <th>Total</th>
+          <th>Coverage</th>
+        </tr>
+      </thead>
+      <tbody>
+        {data.libraries.filter(l => l.category === 'System utilities').map(lib => (
+          <tr key={lib.name}>
+            <td><code>{lib.name}</code></td>
+            <td>{lib.implemented}</td>
+            <td>{lib.inert}</td>
+            <td>{lib.stub}</td>
+            <td>{lib.total}</td>
+            <td>{lib.percent}%</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </TabItem>
+</Tabs>

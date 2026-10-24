@@ -1,0 +1,35 @@
+---
+title: Contributors
+description: List of contributors to AnyPS5 and their areas of contribution.
+---
+
+import contributors from '../../../data/contributors.json';
+
+The AnyPS5 project develops through independent open-source contributions. Every feature, library stub, instruction test, and documentation fix comes from community members submitting code and test reports.
+
+## Community contributions
+
+The project tracks contributions through Git history and merged pull requests. The table below lists contributors ordered by merged pull request count, along with their primary focus areas. Email addresses are omitted to preserve privacy, and automated bot accounts are excluded.
+
+<table>
+  <thead>
+    <tr>
+      <th>Contributor</th>
+      <th>Merged pull requests</th>
+      <th>Focus areas</th>
+    </tr>
+  </thead>
+  <tbody>
+    {contributors.map((c) => (
+      <tr key={c.username}>
+        <td><a href={`https://github.com/${c.username}`}>@{c.username}</a></td>
+        <td>{c.prCount}</td>
+        <td>{c.summary}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
+## Contributing to AnyPS5
+
+If you want to contribute, review the [contributor workflow](/AnyWiki/contributing/workflow/) and [pull request checklist](/AnyWiki/contributing/pr-checklist/) to get started. Pull requests that expand hardware coverage, fix runtime bugs, or implement missing system exports are welcome.

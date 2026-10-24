@@ -1,0 +1,70 @@
+---
+title: Filing bring-up reports
+description: How to prepare and submit actionable game compatibility reports in GitHub Discussions.
+---
+
+import { Aside } from '@astrojs/starlight/components';
+
+Accurate bring-up reports allow developers to identify missing exports, shader recompiler gaps, and driver incompatibilities.
+
+## Discussion structure
+
+Before opening a new topic, search the [Game bring-up category](https://github.com/boykopovar/AnyPS5/discussions/categories/game-bring-up) for your title's Title ID (such as `PPSA01325`). If a thread already exists, post your findings as a comment. If no thread exists, create one with the title:
+
+```text
+<Title ID> - <Game Name>
+```
+
+## Report template
+
+Include the following sections in your post:
+
+### System environment
+
+- **Operating system**: Windows 11 23H2 / Ubuntu 24.04 LTS
+- **CPU**: AMD Ryzen 7 7800X3D / Intel Core i7-14700K
+- **GPU**: NVIDIA GeForce RTX 4070 / AMD Radeon RX 7800 XT
+- **GPU driver**: Version 555.58 / Mesa 24.1.2
+- **AnyPS5 commit**: Record the exact Git commit hash (for example, `5b65588`)
+
+### Conversion details
+
+Specify the exact relinker command used to convert the title:
+
+```sh
+relinker --windows --registry source/eboot.bin app.exe
+```
+
+Note whether `--to-intel`, custom `--module-dir`, or fixed base addresses were required.
+
+### Observed behavior
+
+Describe the outcome clearly:
+- Does the window open?
+- Does audio play?
+- Does rendering reach intro logos, title menu, or in-game scenes?
+- Does the process stop with an unhandled exception or `std::runtime_error`?
+
+### Log output
+
+Provide the terminal stderr output or the contents of `anyps5.log`:
+
+```text
+[cpu] Host CPU: AMD Ryzen 7 7800X3D
+[gpu] Surface format: VK_FORMAT_B8G8R8A8_UNORM
+FAIL: NotImplemented_nid_no_patch: sceKernelSomeMissingFunction
+```
+
+## Import audit data
+
+Before launching, run `tools/import_audit.py` to identify missing or stubbed functions:
+
+```sh
+python3 tools/import_audit.py app.registry.json --libs build/core/libs/libs --modules source/sce_module
+```
+
+Attach or paste the summary showing counts of implemented, stub, and absent imports.
+
+<Aside type="danger">
+Do not attach copyrighted assets, game dumps, decrypted executables, firmware files, or decryption keys. Reports containing proprietary binaries or links to unauthorized copies are removed.
+</Aside>

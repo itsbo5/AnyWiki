@@ -41,7 +41,7 @@ All switches are disabled by default. The `unused-filter` setting defaults to `0
 | `unused-filter=0` | None | Retains all imported NID references (default). |
 | `unused-filter=1` | None | Filters unused non-PLT imports through control-flow and GOT access analysis; preserves PLT imports. |
 | `unused-filter=2` | None | Applies strict unused-import analysis and compacts the PLT. |
-| `--registry` | None | Writes `<output-stem>.registry.json` and companion `.needed.json` files for the executable and converted guest modules. |
+| `--registry` | None | Writes ``[output-stem].registry.json`` and companion `.needed.json` files for the executable and converted guest modules. |
 | `--rpath` | `<path>` | Sets the system library search path (default: `$ORIGIN/libs`). On Windows, `$ORIGIN` represents the directory containing the executable. |
 | `--autorun` | None | Runs the output binary immediately after conversion and waits for Enter upon exit. Requires matching host operating system and prepared runtime layout. |
 | `--sce-module-path` | `<path>` | Specifies the parent directory containing `sce_module/`, `sce_modules/`, or `prx/` (default: directory of input ELF). |
@@ -122,4 +122,4 @@ description = "pool size override"
 - `min`, `max`, `align`: Optional bounds checks for typed entries.
 - `description`: Optional text printed in the patch manifest.
 
-When patches are applied, the relinker writes `<output-stem>.patches.toml` beside the generated binary, recording all applied modifications.
+When patches are applied, the relinker writes ``[output-stem].patches.toml`` beside the generated binary, recording all applied modifications.

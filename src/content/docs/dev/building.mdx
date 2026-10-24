@@ -63,7 +63,7 @@ cmake --build build --parallel
 cmake --build build --target libs --parallel
 ```
 
-<Aside type="important">
+<Aside type="caution">
 The `libs` target compiles the system PRX libraries located in `core/libs/prx/`. These libraries are configured with `EXCLUDE_FROM_ALL`. If you do not execute `cmake --build build --target libs`, the system will not generate the `.prx` files under `build/core/libs/libs/`.
 </Aside>
 

@@ -33,7 +33,7 @@ The `ElfReader` component reads the first 64 bytes (`0x40`) of the main executab
 
 ### 3. Byte patching
 
-When `relinker-patches.toml` or `--patches <file>` is provided, `GamePatch::PatchTarget` applies byte-level substitutions. Patches are validated before application:
+When `relinker-patches.toml` or ``--patches <file>`` is provided, `GamePatch::PatchTarget` applies byte-level substitutions. Patches are validated before application:
 - Target bytes in the binary must match the `expected` values.
 - Patch ranges must lie entirely within a `PT_LOAD` segment.
 - Patch ranges must not overlap ELF headers, relinker trampolines, or relocation targets.

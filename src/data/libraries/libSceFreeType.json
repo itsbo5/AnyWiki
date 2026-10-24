@@ -1,0 +1,237 @@
+{
+  "name": "libSceFreeType",
+  "label": "FreeType",
+  "category": "System utilities",
+  "implemented": 44,
+  "inert": 0,
+  "stub": 1,
+  "total": 45,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "FT_Bitmap_Convert_nid_postfix",
+      "nid": "7OqWEEvQogc",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Bitmap_Copy_nid_postfix",
+      "nid": "M3jEcFdiz-A",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Bitmap_Done_nid_postfix",
+      "nid": "BpJlzG6NRRA",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Bitmap_New_nid_postfix",
+      "nid": "ryK0z+7RTWY",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Done_Face_nid_postfix",
+      "nid": "RfFYmRx348Y",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Done_FreeType_nid_postfix",
+      "nid": "47uT7r-DZnI",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_CMap_Format_nid_postfix",
+      "nid": "4HsWJO-ACB8",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_CMap_Language_ID_nid_postfix",
+      "nid": "n5AJMJs6fVo",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_Char_Index_nid_postfix",
+      "nid": "AbMglQDKans",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_Charmap_Index_nid_postfix",
+      "nid": "0fnzWYhtf4Q",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_FSType_Flags_nid_postfix",
+      "nid": "W-jb63IhXV8",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_First_Char_nid_postfix",
+      "nid": "wkk8Jf79xzk",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_Gasp_nid_postfix",
+      "nid": "K+ckNkczrhg",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_Glyph_Name_nid_postfix",
+      "nid": "cW3J5PymaWA",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_Kerning_nid_postfix",
+      "nid": "0QtBEt8JkF0",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_Name_Index_nid_postfix",
+      "nid": "9QTapYTvnl0",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_Next_Char_nid_postfix",
+      "nid": "q4jaNWSHTPg",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_Postscript_Name_nid_postfix",
+      "nid": "SUFPdQuk3l0",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_Sfnt_Name_Count_nid_postfix",
+      "nid": "qC6sIZiR28Q",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_Sfnt_Name_nid_postfix",
+      "nid": "yVjh4lrVb9Q",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Get_X11_Font_Format_nid_postfix",
+      "nid": "T14RV3vT96I",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Init_FreeType_nid_postfix",
+      "nid": "0-XzKR9XIc4",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_List_Add_nid_postfix",
+      "nid": "0EfJjvFVOTc",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_List_Finalize_nid_postfix",
+      "nid": "FLnSS0TGivc",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_List_Find_nid_postfix",
+      "nid": "Kcdt2rLLAS8",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_List_Insert_nid_postfix",
+      "nid": "vvJStdUEMwA",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_List_Iterate_nid_postfix",
+      "nid": "s6B+J0Q0IGs",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_List_Remove_nid_postfix",
+      "nid": "raJ9TBd0XJA",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_List_Up_nid_postfix",
+      "nid": "DTdfk6W+vAA",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Load_Char_nid_postfix",
+      "nid": "4Ks7lUIQAww",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Load_Glyph_nid_postfix",
+      "nid": "+N-zOhgCeI0",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_New_Face_nid_postfix",
+      "nid": "z3eyS2zAhIc",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_New_Memory_Face_nid_postfix",
+      "nid": "CJECrffsCOc",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Outline_Check_nid_postfix",
+      "nid": "tV74k+OWrG4",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Outline_Get_CBox_nid_postfix",
+      "nid": "nSIoilzV9MA",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Outline_Get_Orientation_nid_postfix",
+      "nid": "LVT9FAELtk0",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Outline_Reverse_nid_postfix",
+      "nid": "YzvPzZQxs6U",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Outline_Translate_nid_postfix",
+      "nid": "3ZUMeGMitXw",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Render_Glyph_nid_postfix",
+      "nid": "DgEEefhm4xg",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Request_Size_nid_postfix",
+      "nid": "s3Im2tlC1og",
+      "state": "stub"
+    },
+    {
+      "name": "FT_Select_Charmap_nid_postfix",
+      "nid": "qtmyvnmkFXc",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Set_Char_Size_nid_postfix",
+      "nid": "8r0MQRC5TPg",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Set_Charmap_nid_postfix",
+      "nid": "bG1i4VoIyMs",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Set_Pixel_Sizes_nid_postfix",
+      "nid": "cSUqcddmzgU",
+      "state": "implemented"
+    },
+    {
+      "name": "FT_Set_Transform_nid_postfix",
+      "nid": "E7ZR81OgEWA",
+      "state": "implemented"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "libSceAudioLatencyEstimation",
+  "label": "AudioLatencyEstimation",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 4,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAudioLatencyEstimationAddData",
+      "nid": "VeiZKFxdh8k",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioLatencyEstimationGetDelayTime",
+      "nid": "Z1w28FnOa9o",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioLatencyEstimationInitialize",
+      "nid": "V++vjESqpWU",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioLatencyEstimationRelease",
+      "nid": "yR3k0vfjKII",
+      "state": "stub"
+    }
+  ]
+}

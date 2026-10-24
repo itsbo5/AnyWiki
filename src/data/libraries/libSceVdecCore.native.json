@@ -1,0 +1,32 @@
+{
+  "name": "libSceVdecCore.native",
+  "label": "VdecCore.native",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 4,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVdecCoreCreateDecoderBid",
+      "nid": "ZZnvlKc8nfg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreCreateDecoderSvp",
+      "nid": "xI8avtVkGWw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreMapMemory",
+      "nid": "hUza-a0hX2c",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreSetDecodeInputSvp",
+      "nid": "cPn3fXO-J5M",
+      "state": "stub"
+    }
+  ]
+}

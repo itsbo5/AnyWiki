@@ -1,0 +1,252 @@
+{
+  "name": "libSceSpSysCallWrapper",
+  "label": "SpSysCallWrapper",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 48,
+  "total": 48,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSpGetPid",
+      "nid": "jWd9FwvNv4E",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpKernelGettimeofday",
+      "nid": "SGSNz6luI2s",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpKernelNanosleep",
+      "nid": "Bs3QDmfuh4w",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetConnect",
+      "nid": "GNfPC72c3fs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetEpollAbort",
+      "nid": "7pl2UBkJIRk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetEpollControl",
+      "nid": "loIvEsvUejI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetEpollCreate",
+      "nid": "L25oH9QaTaQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetEpollDestroy",
+      "nid": "EGt+sFM8+WI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetEpollWait",
+      "nid": "uaXURZ5NMGw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetErrnoLoc",
+      "nid": "Uv+1RNg62iU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetPoolCreate",
+      "nid": "sTqVHpVwnyE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetPoolDestroy",
+      "nid": "yrOv0czHCp4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetRecv",
+      "nid": "p8VOOvRtBwI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetResolverAbort",
+      "nid": "81ZjjD6MqDk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetResolverCreate",
+      "nid": "y6AEzLH6ZXk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetResolverDestroy",
+      "nid": "2mcSJjH5VLc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetResolverGetError",
+      "nid": "DVAUSbVTZnU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetResolverStartNtoa",
+      "nid": "WwtboQmJ37U",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetSend",
+      "nid": "k1OoMsQ7tQ8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetSetsockopt",
+      "nid": "akGUA-sxyYk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetSocket",
+      "nid": "kyKiXG-dCyc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpNetSocketClose",
+      "nid": "2-bYnN1qoQM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadAttrDestroy",
+      "nid": "dVY7nLRddBM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadAttrInit",
+      "nid": "WwzNbMVtOJA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadAttrSetinheritsched",
+      "nid": "xS43U4VgIXE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadAttrSetschedparam",
+      "nid": "NwWU0vvhPTc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadAttrSetstacksize",
+      "nid": "-p2Gvg7QqFo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadCondDestroy",
+      "nid": "Jaa16wSEA9U",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadCondInit",
+      "nid": "INOiD5QWHNg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadCondSignal",
+      "nid": "aODvnvMj8vs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadCondWait",
+      "nid": "4hl78F9jMCM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadCondattrDestroy",
+      "nid": "Fql-di-dWu0",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadCondattrInit",
+      "nid": "537ZOR325ZI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadCreate",
+      "nid": "-7ovXt8hp6g",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadDetach",
+      "nid": "Mlo+OHFpOeY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadExit",
+      "nid": "B59oMLpCo6s",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadJoin",
+      "nid": "rP40jSNZ-6Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadMutexDestroy",
+      "nid": "gMlHVhsO9lk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadMutexInit",
+      "nid": "S3qFxKMTgKQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadMutexLock",
+      "nid": "cukQjzNcSFw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadMutexUnlock",
+      "nid": "OecFSm0BxdI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadMutexattrDestroy",
+      "nid": "59JzpduJC-k",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadMutexattrInit",
+      "nid": "a6yeQI2uXGk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadMutexattrSetprioceiling",
+      "nid": "l29UO6Oj0ds",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadMutexattrSetprotocol",
+      "nid": "4jZLf+MFU8U",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadMutexattrSettype",
+      "nid": "0aJMoN6KBpg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpPthreadSetprio",
+      "nid": "zsVbNbWPYzg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSpSelect",
+      "nid": "YsLBZ7qPu20",
+      "state": "stub"
+    }
+  ]
+}

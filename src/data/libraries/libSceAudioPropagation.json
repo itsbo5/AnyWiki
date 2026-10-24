@@ -1,0 +1,177 @@
+{
+  "name": "libSceAudioPropagation",
+  "label": "AudioPropagation",
+  "category": "Audio and media",
+  "implemented": 24,
+  "inert": 0,
+  "stub": 9,
+  "total": 33,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAudioPropagationPathGetNumPoints",
+      "nid": "tL2AEPejVQE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationPortalCreate",
+      "nid": "b-dYXrjSNZU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationPortalDestroy",
+      "nid": "ZQXE-xS6MTE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationPortalSetAttributes",
+      "nid": "WXMhENV2NcA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationReportApi",
+      "nid": "gCmQm6dvMxw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioPropagationReportRegisterHandler",
+      "nid": "Pu7M-nsmtnk",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioPropagationReportUnregisterHandler",
+      "nid": "IIdp9zd3hWk",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioPropagationResetAttributes",
+      "nid": "BbOT4vBwAjs",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioPropagationRoomCreate",
+      "nid": "8bI5h8req30",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationRoomDestroy",
+      "nid": "S0JwP2AFTTE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSourceCalculateAudioPaths",
+      "nid": "PBcrVpEqUVY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSourceCreate",
+      "nid": "d84otraxt2s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSourceDestroy",
+      "nid": "wkseM3LWPuc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSourceGetAudioPath",
+      "nid": "eEeKqFeNI3o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSourceGetAudioPathCount",
+      "nid": "G+QLTfyLMYk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSourceGetRays",
+      "nid": "aKJZx7wCma8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSourceQueryInfo",
+      "nid": "3aEY9tPXGKc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioPropagationSourceRender",
+      "nid": "hhz9pITnC8k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSourceSetAttributes",
+      "nid": "-wsUTr31yeg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSourceSetAudioPath",
+      "nid": "tKSmk2JsMAA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSourceSetAudioPaths",
+      "nid": "5vzOS2pHMFc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSystemCreate",
+      "nid": "aNEqtSHdUSo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSystemDestroy",
+      "nid": "x5VPqg5iyAk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSystemEnumHandles",
+      "nid": "7M5a7mw3QV8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioPropagationSystemGetRays",
+      "nid": "ht-QXT3zGxo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSystemLock",
+      "nid": "B2KI2AachWE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioPropagationSystemQueryInfo",
+      "nid": "GrA9ke1QT+E",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioPropagationSystemQueryMemory",
+      "nid": "7xyAxrusLko",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSystemRegisterMaterial",
+      "nid": "CPLV6G-eXmk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSystemSetAttributes",
+      "nid": "kIdb+iQUzCs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSystemSetRays",
+      "nid": "VlBT16890mA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioPropagationSystemUnlock",
+      "nid": "I47SAcHIwKY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioPropagationSystemUnregisterMaterial",
+      "nid": "XKCN4gpeYsM",
+      "state": "implemented"
+    }
+  ]
+}

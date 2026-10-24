@@ -1,0 +1,32 @@
+{
+  "name": "libSceJpegEnc",
+  "label": "JpegEnc",
+  "category": "System utilities",
+  "implemented": 4,
+  "inert": 0,
+  "stub": 0,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceJpegEncCreate",
+      "nid": "K+rocojkr-I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceJpegEncDelete",
+      "nid": "j1LyMdaM+C0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceJpegEncEncode",
+      "nid": "QbrU0cUghEM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceJpegEncQueryMemorySize",
+      "nid": "o6ZgXfFdWXQ",
+      "state": "implemented"
+    }
+  ]
+}

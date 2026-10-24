@@ -1,0 +1,27 @@
+{
+  "name": "libSceEsvm",
+  "label": "Esvm",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 3,
+  "total": 3,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceEsvmAppAudioSyncCreateContext",
+      "nid": "DD5ZHlln-Lw",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmAppAudioSyncFlush",
+      "nid": "QGvOV94hqoQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmSyncVideo",
+      "nid": "uKCetxaMr-Q",
+      "state": "stub"
+    }
+  ]
+}

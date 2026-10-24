@@ -1,0 +1,32 @@
+{
+  "name": "libSceDseehx",
+  "label": "Dseehx",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 4,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceDseehxConvert",
+      "nid": "hYqnvZqn6XA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDseehxExtInit",
+      "nid": "f3w+k7lAQKg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDseehxFlush",
+      "nid": "Ob34lg2OTG0",
+      "state": "stub"
+    },
+    {
+      "name": "sceDseehxInit",
+      "nid": "Sfr8N-9Sdhw",
+      "state": "stub"
+    }
+  ]
+}

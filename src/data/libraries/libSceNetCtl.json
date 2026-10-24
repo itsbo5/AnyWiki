@@ -1,0 +1,437 @@
+{
+  "name": "libSceNetCtl",
+  "label": "NetCtl",
+  "category": "Network and services",
+  "implemented": 14,
+  "inert": 12,
+  "stub": 59,
+  "total": 85,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNetBweCheckCallbackIpcInt",
+      "nid": "XtClSOC1xcU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetBweClearEventIpcInt",
+      "nid": "YALqoY4aeY0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetBweFinishInternetConnectionTestIpcInt",
+      "nid": "ouyROWhGUbM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetBweGetInfoIpcInt",
+      "nid": "G4vltQ0Vs+0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetBweRegisterCallbackIpcInt",
+      "nid": "GqETL5+INhU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetBweSetInternetConnectionTestResultIpcInt",
+      "nid": "mEUt-phGd5E",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetBweStartInternetConnectionTestBandwidthTestIpcInt",
+      "nid": "pQLJV5SEAqk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetBweStartInternetConnectionTestIpcInt",
+      "nid": "c+aYh130SV0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetBweUnregisterCallbackIpcInt",
+      "nid": "0lViPaTB-R8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlApAppInitWpaKey",
+      "nid": "R-4a9Yh4tG8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlApAppInitWpaKeyForQa",
+      "nid": "5oLJoOVBbGU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlApAppStartWithRetry",
+      "nid": "YtTwZ3pa4aQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlApAppStartWithRetryPid",
+      "nid": "sgWeDrEt24U",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlApCpStart",
+      "nid": "NQJ7AZW3ipk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlApCpStop",
+      "nid": "ke27GvSMU+s",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlApRestart",
+      "nid": "amqSGH8l--s",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlApRpCheckCallback",
+      "nid": "DufQZgH5ISc",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetCtlApRpClearEvent",
+      "nid": "qhZbOi+2qLY",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetCtlApRpGetInfo",
+      "nid": "VQl16Q+qXeY",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetCtlApRpGetResult",
+      "nid": "3pxwYqHzGcw",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetCtlApRpGetState",
+      "nid": "LEn8FGztKWc",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetCtlApRpRegisterCallback",
+      "nid": "ofGsK+xoAaM",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetCtlApRpStart",
+      "nid": "mjFgpqNavHg",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetCtlApRpStartConf",
+      "nid": "HMvaHoZWsn8",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetCtlApRpStartWithRetry",
+      "nid": "9Dxg7XSlr2s",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetCtlApRpStop",
+      "nid": "6uvAl4RlEyk",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetCtlApRpUnregisterCallback",
+      "nid": "8eyH37Ns8tk",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetCtlCheckCallback",
+      "nid": "iQw3iQPhvUQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlCheckCallbackForLibIpcInt",
+      "nid": "UF6H6+kjyQs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlCheckCallbackForNpToolkit",
+      "nid": "u5oqtlIP+Fw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlClearEventForLibIpcInt",
+      "nid": "vv6g8zoanL4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlClearEventForNpToolkit",
+      "nid": "saYB0b2ZWtI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlClearEventIpcInt",
+      "nid": "8OJ86vFucfo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlConnectConfIpcInt",
+      "nid": "HCD46HVTyQg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlConnectIpcInt",
+      "nid": "ID+Gq3Ddzbg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlConnectWithRetryIpcInt",
+      "nid": "aPpic8K75YA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlDisableBandwidthManagementIpcInt",
+      "nid": "9y4IcsJdTCc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlDisconnectIpcInt",
+      "nid": "qOefcpoSs0k",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlEnableBandwidthManagementIpcInt",
+      "nid": "x9bSmRSE+hc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetBandwidthInfoIpcInt",
+      "nid": "eCUIlA2t5CE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetConnectionElapsedTimeIpcInt",
+      "nid": "15JUzFaWTkY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetEtherLinkMode",
+      "nid": "2EfjPXVPk3s",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetIfStat",
+      "nid": "teuK4QnJTGg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlGetInfo",
+      "nid": "obuxdTiwkF8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlGetInfoIpcInt",
+      "nid": "xstcTqAhTys",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetInfoV6",
+      "nid": "Jy1EO5GdlcM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlGetInfoV6IpcInt",
+      "nid": "arAQRFlwqaA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetNatInfo",
+      "nid": "JO4yuTuMoKI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlGetNatInfoIpcInt",
+      "nid": "x+cnsAxKSHo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetNetEvConfigInfoIpcInt",
+      "nid": "hhTsdv99azU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetResult",
+      "nid": "0cBgduPRR+M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlGetResultIpcInt",
+      "nid": "NEtnusbZyAs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetResultV6",
+      "nid": "H5yARg37U5g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlGetResultV6IpcInt",
+      "nid": "vdsTa93atXY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetScanInfoBssidForSsidListScanIpcInt",
+      "nid": "wP0Ab2maR1Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetScanInfoBssidIpcInt",
+      "nid": "Wn-+887Lt2s",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetScanInfoByBssidIpcInt",
+      "nid": "FEdkOG1VbQo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetScanInfoForSsidListScanIpcInt",
+      "nid": "irV8voIAHDw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetScanInfoForSsidScanIpcInt",
+      "nid": "L97eAHI0xxs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetState",
+      "nid": "uBPlr0lbuiI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlGetState2IpcInt",
+      "nid": "JXlI9EZVjf4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetStateIpcInt",
+      "nid": "gvnJPMkSoAY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetStateV6",
+      "nid": "+lxqIKeU9UY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlGetStateV6IpcInt",
+      "nid": "O8Fk4w5MWss",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetWifiInfoIpcInt",
+      "nid": "HbZDtBLRKao",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlGetWifiType",
+      "nid": "BXW9b3R1Nw4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlInit",
+      "nid": "gky0+oaNM4k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlIsBandwidthManagementEnabledIpcInt",
+      "nid": "YtAnCkTR0K4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlRegisterCallback",
+      "nid": "UJ+Z7Q+4ck0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlRegisterCallbackForLibIpcInt",
+      "nid": "WRvDk2syatE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlRegisterCallbackForNpToolkit",
+      "nid": "wIsKy+TfeLs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlRegisterCallbackIpcInt",
+      "nid": "rqkh2kXvLSw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlRegisterCallbackV6",
+      "nid": "1NE9OWdBIww",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlRegisterCallbackV6IpcInt",
+      "nid": "ipqlpcIqRsQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlScanIpcInt",
+      "nid": "reIsHryCDx4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlSetErrorNotificationEnabledIpcInt",
+      "nid": "LJYiiIS4HB0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlSetStunWithPaddingFlagIpcInt",
+      "nid": "DjuqqqV08Nk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlTerm",
+      "nid": "Z4wwCFiBELQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetCtlUnregisterCallback",
+      "nid": "Rqm2OnZMCz0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlUnregisterCallbackForLibIpcInt",
+      "nid": "urWaUWkEGZg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlUnregisterCallbackForNpToolkit",
+      "nid": "2oUqKR5odGc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlUnregisterCallbackIpcInt",
+      "nid": "by9cbB7JGJE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlUnregisterCallbackV6",
+      "nid": "hIUVeUNxAwc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlUnregisterCallbackV6IpcInt",
+      "nid": "Hjxpy28aID8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetCtlUnsetStunWithPaddingFlagIpcInt",
+      "nid": "1HSvkN9oxO4",
+      "state": "stub"
+    }
+  ]
+}

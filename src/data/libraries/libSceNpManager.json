@@ -1,0 +1,1042 @@
+{
+  "name": "libSceNpManager",
+  "label": "NpManager",
+  "category": "Network and services",
+  "implemented": 41,
+  "inert": 9,
+  "stub": 156,
+  "total": 206,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpAbortRequest",
+      "nid": "OzKvTvg3ZYU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAsmAbort",
+      "nid": "JrXA7baBMPQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientAbortRequest",
+      "nid": "0cn2c-bk8wA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientClearNpTitleToken",
+      "nid": "coT6qsU5t9M",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientClearNpTitleTokenA",
+      "nid": "zHxRg0AUZm8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientCreateRequest2",
+      "nid": "tOJ-WGFDt-Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientCreateResourceContext",
+      "nid": "GPRRxFM01r4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientCreateResourceContext2",
+      "nid": "Auqk+H3qGuo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientDeleteRequest",
+      "nid": "1wMn3X94WME",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientDeleteResourceContext",
+      "nid": "KA2AITpVTCg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientDeleteResourceContext2",
+      "nid": "4gi0acCfJL4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetAppId",
+      "nid": "yWcto7E39+k",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetCacheControlMaxAge",
+      "nid": "Q7fnpdkjBp0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetGameNpTitleInfo",
+      "nid": "vf+lYeOXdI8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetGameNpTitleToken",
+      "nid": "YQ7-z4zFWok",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetGameTitleBanInfo",
+      "nid": "6bvqnBIINiY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetNpComInfo2",
+      "nid": "cOLn5A3ZoqU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetNpComInfo2A",
+      "nid": "P6fkTotWFEg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetNpComInfo3",
+      "nid": "uObO1I15Se0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetNpComInfo4",
+      "nid": "u+iH3rRyPEE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetNpTitleId",
+      "nid": "nuPl4uVXYMM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetNpTitleToken",
+      "nid": "HtpGVrVLOlA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetNpTitleToken2",
+      "nid": "2GbOPwcNJd0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetNpTitleTokenA",
+      "nid": "cugDQBHux8k",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetRelatedGameNpTitleIds",
+      "nid": "rT4NWysyX+g",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetRelatedGameNpTitleIdsA",
+      "nid": "scCBvfXGeRM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetRelatedGameNpTitleIdsResult",
+      "nid": "TtHBV0mH8kY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetServiceBaseUrl",
+      "nid": "O42ZlBvIPMM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetServiceBaseUrlA",
+      "nid": "iRvaaSfHBc8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetServiceBaseUrlWithNpTitleId",
+      "nid": "nxpboyvJGf4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetServiceBaseUrlWithNpTitleIdA",
+      "nid": "wXpm75McNZo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetServiceIdInfo",
+      "nid": "TiC81-OKjpg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientGetServiceIdInfoA",
+      "nid": "3rlqy6XxrmI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientInitialize",
+      "nid": "wZy5M6lzip0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientSetNpTitleId",
+      "nid": "9o4inFK-oWc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmClientTerminate",
+      "nid": "cu1LlJo+5EY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmCreateConnection",
+      "nid": "YDDHD6RP4HQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmCreateRequest",
+      "nid": "hIFFMeoLhcY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmDeleteConnection",
+      "nid": "UxOJvGmy3mA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmDeleteRequest",
+      "nid": "RfokKHMuOsE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmGenerateNpTitleToken",
+      "nid": "ulPuWk7bYCU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmGenerateNpTitleToken2",
+      "nid": "0bCpZmASTm4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmGetNpCommInfo",
+      "nid": "dSlkmPVTcvk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmGetNpCommInfo2",
+      "nid": "IDXFgpkpDsU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmGetRelatedGameNpTitleIds",
+      "nid": "Dkpw9X-HSVA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmGetServiceBaseUrl",
+      "nid": "kc-O9XKFRIE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmGetServiceIdInfo",
+      "nid": "1Xe+XZ1oI28",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmInitialize",
+      "nid": "j2dSNi+SJro",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAsmTerminate",
+      "nid": "Dt2rEe-d5c0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpCheckCallback",
+      "nid": "3Zl8BePTh9Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCheckCallbackForLib",
+      "nid": "JELHf4xPufo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCheckNpAvailability",
+      "nid": "2rsFmlGWleQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCheckNpAvailabilityA",
+      "nid": "8Z2Jc5GvGDI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCheckNpReachability",
+      "nid": "KfGZg2y73oM",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpCheckPlus",
+      "nid": "r6MyYJkryz8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCheckPremium",
+      "nid": "O80NrhUOPGY",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpCreateAsyncRequest",
+      "nid": "eiqMCt9UshI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCreateRequest",
+      "nid": "GpLQDNKICac",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpDeleteRequest",
+      "nid": "S7QTn72PrDw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetAccountAge",
+      "nid": "+4DegjBqV1g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetAccountCountry",
+      "nid": "Ghz9iWDUtC4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetAccountCountryA",
+      "nid": "JT+t00a3TxA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetAccountDateOfBirth",
+      "nid": "8VBTeRf1ZwI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetAccountDateOfBirthA",
+      "nid": "q3M7XzBKC3s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetAccountId",
+      "nid": "a8R9-75u4iM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetAccountIdA",
+      "nid": "rbknaUjpqWo",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpGetAccountLanguage",
+      "nid": "KZ1Mj9yEGYc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetAccountLanguage2",
+      "nid": "3Tcz5bNCfZQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpGetAccountLanguageA",
+      "nid": "TPMbgIxvog0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetGamePresenceStatus",
+      "nid": "IPb1hd1wAGc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetGamePresenceStatusA",
+      "nid": "oPO9U42YpgI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetNpId",
+      "nid": "p-o74CnoNzY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetNpReachabilityState",
+      "nid": "e-ZuhGEoeC4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetOnlineId",
+      "nid": "XDncXQIJUSk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetParentalControlInfo",
+      "nid": "ilwLM4zOmu4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetParentalControlInfoA",
+      "nid": "m9L3O6yst-U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetSandboxInfo",
+      "nid": "ZVZ++68nNI8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpGetState",
+      "nid": "eQH7nWPcAgc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetUserIdByAccountId",
+      "nid": "VgYczPGB5ss",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetUserIdByOnlineId",
+      "nid": "F6E4ycq9Dbg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpHasSignedUp",
+      "nid": "Oad3rvY-NJQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpIdMapperAbortRequest",
+      "nid": "fJuQuipzW10",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIdMapperAccountIdToNpId",
+      "nid": "alNLle2vACg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIdMapperAccountIdToOnlineId",
+      "nid": "TV3KKXZLUj4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIdMapperCreateRequest",
+      "nid": "lCAYAK4kfkc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIdMapperDeleteRequest",
+      "nid": "Z8nyVQCGCVo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIdMapperNpIdToAccountId",
+      "nid": "21FMz6O4B2E",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIdMapperOnlineIdToAccountId",
+      "nid": "zEZvGyjEhuk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpInGameMessageAbortHandle",
+      "nid": "BdykpTwq2bs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpInGameMessageCheckCallback",
+      "nid": "lp7vzwISXMg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpInGameMessageCreateHandle",
+      "nid": "s4UEa5iBJdc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpInGameMessageDeleteHandle",
+      "nid": "+anuSx2avHQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpInGameMessageGetMemoryPoolStatistics",
+      "nid": "Ubv+fP58W1U",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpInGameMessageInitialize",
+      "nid": "GFhVUpRmbHE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpInGameMessagePrepare",
+      "nid": "Vh1bhUG6mSs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpInGameMessagePrepareA",
+      "nid": "IkL62FMpIpo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpInGameMessageSendData",
+      "nid": "ON7Sf5XEMmI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpInGameMessageSendDataA",
+      "nid": "PQDFxcnqxtw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpInGameMessageTerminate",
+      "nid": "bMG3cVmUmuk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIntGetAppType",
+      "nid": "H6xqSNWg0wM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIntGetGamePresenceStatus",
+      "nid": "SdNiYQWjU6E",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIntGetNpTitleId",
+      "nid": "H0n1QHWdVwQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIntGetNpTitleIdSecret",
+      "nid": "LtYqw9M23hw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIntRegisterCheckCallback",
+      "nid": "fkUIszBPm4g",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIntRegisterGamePresenceCallback",
+      "nid": "bZ2mBvP79d8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIsPlusMember",
+      "nid": "Ybu6AxV6S0o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpManagerIntAbortRequest",
+      "nid": "AUuzKQIwhXY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntAddActiveSigninStateCallback",
+      "nid": "J0MUxuo9H9c",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntAddOnlineIdChangeCallback",
+      "nid": "wIX4m0mLfqA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntAddPlusMemberTypeCallback",
+      "nid": "E6rzFwsDFwE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntAddSigninStateCallback",
+      "nid": "S9xDus0Cums",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntAuthGetAuthorizationCode",
+      "nid": "1aifBDr9oqc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntAuthGetIdToken",
+      "nid": "fMWCG0Tqofg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntCheckNpAvailability",
+      "nid": "m4JiU8k2PyI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntCheckNpAvailabilityByPid",
+      "nid": "d+lmTLvsaRs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntCheckNpState",
+      "nid": "Dvk+xqAqXco",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntCheckNpStateA",
+      "nid": "U30AU92fWdU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntClearGameAccessToken",
+      "nid": "r7d8eEp5vJE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntClearOnlineIdChangeFlag",
+      "nid": "5ZoFb+9L7LY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntClearTicket",
+      "nid": "6TTRm8KRqbw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntClearUsedFlag",
+      "nid": "QZpXoz9wjbE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntClearVshAccessToken",
+      "nid": "miJIPnB2cfI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntCreateAuthenticationTicket",
+      "nid": "IxqaB0MHl0s",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntCreateLoginContext",
+      "nid": "6n8NT1pHW9g",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntCreateLoginRequest",
+      "nid": "CdQg39qlfgY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntCreateRequest",
+      "nid": "xZk+QcivrFE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntDeleteLoginContext",
+      "nid": "EgmlHG93Tpw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntDeleteRequest",
+      "nid": "HneC+SpeLwc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAccessTokenViaImplicitFlow",
+      "nid": "tea1EXJiSB8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAccountAge",
+      "nid": "+RVCwHtA5kU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAccountCountry",
+      "nid": "7+uKCMe4SLk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAccountCountryA",
+      "nid": "fjJ4xXM+3Tw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAccountCountrySdk",
+      "nid": "mUcn35JWAvI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAccountDateOfBirthSdk",
+      "nid": "3TbxIy0VEiU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAccountId",
+      "nid": "XS-eY7KRqjQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAccountIdSdk",
+      "nid": "1H07-M8fGec",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAccountLanguage",
+      "nid": "C6xstRBFOio",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAccountLanguageA",
+      "nid": "e6rTjFmcQjY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAccountNpEnv",
+      "nid": "HvNrMhlWBSk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAccountType",
+      "nid": "9lz4fkS+eEk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetActiveSigninState",
+      "nid": "UAA2-ZTmgJc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAuthServerErrorFlag",
+      "nid": "HkUgFhrpAD4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAuthorizationCode",
+      "nid": "BoD6du5+wxo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetAuthorizationCodeWithPsnoUri",
+      "nid": "xPvV6oMKOWY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetClientCredentialAccessToken",
+      "nid": "TXzpCgPmXEQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetCommunicationRestrictionStatus",
+      "nid": "A3m-y8VVgqM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetGameAccessToken",
+      "nid": "iTXe6EWAHek",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetIssuerId",
+      "nid": "es6OiIxGiL0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetNpEnv",
+      "nid": "BTRVfOx7K1c",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetNpId",
+      "nid": "azEmYv5NqWo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetNpIdByOnlineId",
+      "nid": "gFB0RmKjyaI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetNpIdSdk",
+      "nid": "41CVMRinjWU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetOfflineAccountId",
+      "nid": "70Swvw7h6ck",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetOnlineId",
+      "nid": "40GlkRTqRH0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetOnlineIdChangeFlag",
+      "nid": "lYkDUwyzr0s",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetOnlineIdSdk",
+      "nid": "sTtvF4QVhjg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetParentalControlFlag",
+      "nid": "FqtDOHUuDNw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetParentalControlInfo",
+      "nid": "NS1sEhoj-B0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetPlusMemberType",
+      "nid": "vrre3KW6OPg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetPlusMemberTypeNB",
+      "nid": "XRFchqddEVU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetServerError",
+      "nid": "iDlso2ZrQfA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetSigninState",
+      "nid": "6miba-pcQt8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetSigninTelemetryInfo",
+      "nid": "hnOWouVmZMY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetTicket",
+      "nid": "uVAfWmv+cc8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetTicketA",
+      "nid": "43B0lauksLY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetTitleToken",
+      "nid": "xY607JqjoPk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetTitleTokenWithCheck",
+      "nid": "HsHttp1Ktm0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetUserIdByAccountId",
+      "nid": "OZTedKNUeFU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetUserIdByNpId",
+      "nid": "MDczH3SxE9Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetUserIdByOnlineId",
+      "nid": "uSLgWz8ohak",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetUserIdByOnlineIdSdk",
+      "nid": "H33CwgKf4Rs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetUserList",
+      "nid": "PL10NiZ0XNA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetUserNum",
+      "nid": "etZ84Rf3Urw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetVshAccessToken",
+      "nid": "mBTFixSxTzQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetVshAccessTokenWithCheck",
+      "nid": "+waQfICfHaw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntGetVshClientId",
+      "nid": "3f0ejg9vcE8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntIsSubAccount",
+      "nid": "ossvuXednsc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntIsTemporarySignout",
+      "nid": "atgHp5dQi5k",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntIsUnregisteredClientError",
+      "nid": "jwOjEhWD6E4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntLoginAuthenticate",
+      "nid": "KQYLX4tVLe4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntLoginBind",
+      "nid": "bzf8a7LxtCQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntLoginCreateAuthenticationTicket",
+      "nid": "xR8S67myUos",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpManagerIntLoginGetAccessToken",
+      "nid": "-P0LG2EUFBE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpNotifyPlusFeature",
+      "nid": "Gaxrp3EWY-M",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpNotifyPremiumFeature",
+      "nid": "P6piso307SE",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpPollAsync",
+      "nid": "uqcPJLWL08M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpRegisterGamePresenceCallback",
+      "nid": "uFJpaKNBAj4",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpRegisterNpReachabilityStateCallback",
+      "nid": "hw5KNqAAels",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpRegisterPlusEventCallback",
+      "nid": "GImICnh+boA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpRegisterPremiumEventCallback",
+      "nid": "+yqjab2fUJA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpRegisterStateCallback",
+      "nid": "VfRSmPmj8Q8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpRegisterStateCallbackA",
+      "nid": "qQJfO8HAiaY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSetContentRestriction",
+      "nid": "A2CQ3kgSopQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSetGamePresenceOnline",
+      "nid": "KO+11cgC7N0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSetNpTitleId",
+      "nid": "Ec63y59l9tw",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpSetTimeout",
+      "nid": "-QglDeRr8D8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSnsFacebookCreateRequest",
+      "nid": "OoTjfxl8-wI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsFacebookDeleteRequest",
+      "nid": "pTvAKV1iQkE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsFacebookGetAccessToken",
+      "nid": "VtyS8XLBqNE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUnknown_8weiQyIdI3A",
+      "nid": "EW+L-VnPPsw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUnknown_WxLcN76q19o",
+      "nid": "qZ1wjf11idY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUnregisterNpReachabilityStateCallback",
+      "nid": "cRILAEvn+9M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUnregisterPlusEventCallback",
+      "nid": "xViqJdDgKl0",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpUnregisterPremiumEventCallback",
+      "nid": "-Rjp3-YViXc",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpUnregisterStateCallback",
+      "nid": "mjjTXh+NHWY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUnregisterStateCallbackA",
+      "nid": "M3wFXbYQtAA",
+      "state": "implemented"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "libSceVideoStreamingEngine",
+  "label": "VideoStreamingEngine",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 12,
+  "total": 12,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVideoStreamingEngineDestroyMediaKeySystemAccess",
+      "nid": "NuTNdlvrugI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoStreamingEngineMediaKeySessionGenerateRequest",
+      "nid": "9rLooB4jRvY",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoStreamingEngineMediaKeySessionGetExpiration",
+      "nid": "ntQlwZUs6N4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoStreamingEngineMediaKeySessionGetKeyStatuses",
+      "nid": "05Uv55TkoHc",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoStreamingEngineMediaKeySessionGetSessionId",
+      "nid": "l8vw5ia8Wac",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoStreamingEngineMediaKeySessionLoad",
+      "nid": "sJbzLdIr3Ks",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoStreamingEngineMediaKeySessionSetEventHandler",
+      "nid": "mvDN856KXI8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoStreamingEngineMediaKeySystemAccessCreateMediaKeys",
+      "nid": "MSWZmqyr3eM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoStreamingEngineMediaKeySystemAccessDestroyMediaKeys",
+      "nid": "A33uDRt2rQM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoStreamingEngineMediaKeySystemAccessGetKeySystem",
+      "nid": "ATdq3mGwqqU",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoStreamingEngineMediaKeySystemAccessSetCdmStorageConfig",
+      "nid": "LQ9g9lYxgmc",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoStreamingEngineMediaKeysCreateSession",
+      "nid": "405M9x9WM80",
+      "state": "stub"
+    }
+  ]
+}

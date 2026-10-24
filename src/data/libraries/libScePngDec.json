@@ -1,0 +1,42 @@
+{
+  "name": "libScePngDec",
+  "label": "PngDec",
+  "category": "System utilities",
+  "implemented": 5,
+  "inert": 0,
+  "stub": 1,
+  "total": 6,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePngDecCreate",
+      "nid": "m0uW+8pFyaw",
+      "state": "implemented"
+    },
+    {
+      "name": "scePngDecDecode",
+      "nid": "WC216DD3El4",
+      "state": "implemented"
+    },
+    {
+      "name": "scePngDecDecodeWithInputControl",
+      "nid": "cJ--1xAbj-I",
+      "state": "stub"
+    },
+    {
+      "name": "scePngDecDelete",
+      "nid": "QbD+eENEwo8",
+      "state": "implemented"
+    },
+    {
+      "name": "scePngDecParseHeader",
+      "nid": "U6h4e5JRPaQ",
+      "state": "implemented"
+    },
+    {
+      "name": "scePngDecQueryMemorySize",
+      "nid": "-6srIGbLTIU",
+      "state": "implemented"
+    }
+  ]
+}

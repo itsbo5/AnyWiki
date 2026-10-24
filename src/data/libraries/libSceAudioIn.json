@@ -1,0 +1,222 @@
+{
+  "name": "libSceAudioIn",
+  "label": "AudioIn",
+  "category": "Audio and media",
+  "implemented": 11,
+  "inert": 3,
+  "stub": 28,
+  "total": 42,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAudioInAsyncOpen",
+      "nid": "3YQ1qY5ePUk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioInChangeAppModuleState",
+      "nid": "IQtWgnrw6v8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInClose",
+      "nid": "Jh6WbHhnI68",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioInCountPorts",
+      "nid": "8mtcsG-Qp5E",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInDeviceHqOpen",
+      "nid": "5qRVfxOmbno",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInDeviceIdAsyncOpen",
+      "nid": "IMARKDQM5tI",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInDeviceIdHqOpen",
+      "nid": "gUNabrUkZNg",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInDeviceIdOpen",
+      "nid": "X-AQLtdxQOo",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInDeviceOpenEx",
+      "nid": "48-miagyJ2I",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInExtCtrl",
+      "nid": "mhAfefP9m2g",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInGetGain",
+      "nid": "S-rDUfQk9sg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioInGetHandleStatusInfo",
+      "nid": "NJam1-F7lNY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInGetRerouteCount",
+      "nid": "3shKmTrTw6c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioInGetSilentState",
+      "nid": "BohEAQ7DlUE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioInHqOpen",
+      "nid": "nya-R5gDYhM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioInHqOpenEx",
+      "nid": "CTh72m+IYbU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioInInit",
+      "nid": "SxQprgjttKE",
+      "state": "inert"
+    },
+    {
+      "name": "sceAudioInInput",
+      "nid": "LozEOU8+anM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioInInputs",
+      "nid": "rmgXsZ-2Tyk",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInIsPadEmbeddedMic",
+      "nid": "X+4jdIS75P0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioInIsSharedDevice",
+      "nid": "6QP1MzdFWhs",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInOpen",
+      "nid": "5NE8Sjc7VC8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioInOpenEx",
+      "nid": "+DY07NwJb0s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudioInSetCompressorPreGain",
+      "nid": "vyh-T6sMqnw",
+      "state": "inert"
+    },
+    {
+      "name": "sceAudioInSetConnections",
+      "nid": "YeBSNVAELe4",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInSetDevConnection",
+      "nid": "rcgv2ciDrtc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInSetDeviceMuteStatus",
+      "nid": "FZXcY33Bxjc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInSetMicLevel",
+      "nid": "5iAhhCI-A1A",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInSetMode",
+      "nid": "VAzfxqDwbQ0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInSetMode2",
+      "nid": "CwBFvAlOv7k",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInSetNoiseGateThreshold",
+      "nid": "6jUfpgzO2J0",
+      "state": "inert"
+    },
+    {
+      "name": "sceAudioInSetPortConnections",
+      "nid": "tQpOPpYwv7o",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInSetPortStatuses",
+      "nid": "NUWqWguYcNQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInSetSparkParam",
+      "nid": "U0ivfdKFZbA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInSetSparkSideTone",
+      "nid": "hWMCAPpqzDo",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInSetUsbGain",
+      "nid": "nqXpw3MaN50",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInSetUserMute",
+      "nid": "arJp991xk5k",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInVmicCreate",
+      "nid": "DVTn+iMSpBM",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInVmicDestroy",
+      "nid": "3ULZGIl+Acc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInVmicGetStatus",
+      "nid": "of5mcCceVvY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInVmicSetMute",
+      "nid": "VAyyCip8dVk",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioInVmicWrite",
+      "nid": "4kHw99LUG3A",
+      "state": "stub"
+    }
+  ]
+}

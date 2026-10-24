@@ -1,0 +1,37 @@
+{
+  "name": "libSceWkFontConfig",
+  "label": "WkFontConfig",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 5,
+  "total": 5,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceWkFontConfigGetAttr",
+      "nid": "xfw0+A2aiWE",
+      "state": "stub"
+    },
+    {
+      "name": "sceWkFontConfigGetFont",
+      "nid": "uBjfcMAhIJs",
+      "state": "stub"
+    },
+    {
+      "name": "sceWkFontConfigGetFontFromFontName",
+      "nid": "n3MYEpevnMo",
+      "state": "stub"
+    },
+    {
+      "name": "sceWkFontConfigGetFontName",
+      "nid": "8jNGivweX70",
+      "state": "stub"
+    },
+    {
+      "name": "sceWkFontConfigGetFontPath",
+      "nid": "HlPrXSZTbS0",
+      "state": "stub"
+    }
+  ]
+}

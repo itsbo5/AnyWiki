@@ -1,0 +1,1447 @@
+{
+  "name": "libSceCesCs",
+  "label": "CesCs",
+  "category": "System utilities",
+  "implemented": 214,
+  "inert": 3,
+  "stub": 70,
+  "total": 287,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceCesBig5ToUcs2",
+      "nid": "jEwvkt8gDBQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesBig5ToUtf16",
+      "nid": "GDYFXk0f-uI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesBig5ToUtf16be",
+      "nid": "7o8g-r6yVZk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesBig5ToUtf16le",
+      "nid": "9sSpOBHnrjM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesBig5ToUtf32",
+      "nid": "GSKko1I75XQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesBig5ToUtf32be",
+      "nid": "izT0rbXh7oA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesBig5ToUtf32le",
+      "nid": "-FIshKbdFRU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesBig5ToUtf8",
+      "nid": "S6G1p1bQBQo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucCnToUcs2",
+      "nid": "ulXqWMAxwRs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucCnToUtf16",
+      "nid": "MQkFqdChuic",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucCnToUtf16be",
+      "nid": "nPjJRaPCnL4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucCnToUtf16le",
+      "nid": "9vvSCbbEOow",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucCnToUtf32",
+      "nid": "dVd8O+Ol-GE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucCnToUtf32be",
+      "nid": "oXbddL+50eM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucCnToUtf32le",
+      "nid": "Z2s5dgbCIgg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucCnToUtf8",
+      "nid": "AMNjai0JfVU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucCnUcsProfileSetSbcs",
+      "nid": "q1X3ShQEW00",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesEucJpToUcs2",
+      "nid": "pJ1jG+C1oRM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucJpToUtf16",
+      "nid": "3BsxDbWqTBQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucJpToUtf16be",
+      "nid": "kQ-rPCg6ZWU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucJpToUtf16le",
+      "nid": "oirFwvQr1Yc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucJpToUtf32",
+      "nid": "cbTjX08xkIE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucJpToUtf32be",
+      "nid": "5G2Swzlv4dU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucJpToUtf32le",
+      "nid": "RBX1d-+nzpE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucJpToUtf8",
+      "nid": "zPdlo9OiO0g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucJpUcsProfileSetSbcs",
+      "nid": "Sh6Ue8RM0BY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesEucKrToUcs2",
+      "nid": "eScteZ9-xUc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucKrToUtf16",
+      "nid": "PfJQBFuXEBs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucKrToUtf16be",
+      "nid": "loCKwHzog0s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucKrToUtf16le",
+      "nid": "hWNh5HhvkO0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucKrToUtf32",
+      "nid": "8KMULEIpDx8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucKrToUtf32be",
+      "nid": "MBjBkaF-9IE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucKrToUtf32le",
+      "nid": "nBTHhrsp88o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucKrToUtf8",
+      "nid": "Y0Jl+IRTPCE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesEucKrUcsProfileSetSbcs",
+      "nid": "Fy96WkLemI0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesGbToUcs2",
+      "nid": "SDSatFdf8ug",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesGbToUtf16",
+      "nid": "CQt+pVKwL-0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesGbToUtf16be",
+      "nid": "+8oodhFUuas",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesGbToUtf16le",
+      "nid": "idrr8+P+8UU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesGbToUtf32",
+      "nid": "kUVkdSpBkVM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesGbToUtf32be",
+      "nid": "tVYTVNDLSl4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesGbToUtf32le",
+      "nid": "8lkg9dlBDtw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesGbToUtf8",
+      "nid": "r+J44kwe3nA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesGbUcsProfileSet4ByteCharRange",
+      "nid": "821E7f26Dy0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesGbUcsProfileSetSbcs",
+      "nid": "pWneteSVJeI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesGbUcsProfileSetUdaMapping",
+      "nid": "RGuaevtZkjc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesIso2022JpUcsProfileSetSbcs",
+      "nid": "HPvwGbCjCMA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesIso2022StrGetUcs2Len",
+      "nid": "a-DukhK9o9Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesIso2022StrGetUtf16Len",
+      "nid": "GkuFL+S22uc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesIso2022StrGetUtf32Len",
+      "nid": "Y+Cj0GwkL8w",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesIso2022StrGetUtf8Len",
+      "nid": "ClGNc0cii6I",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesIso2022StrToUcs2Str",
+      "nid": "eH8bMmzO02w",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesIso2022StrToUtf16Str",
+      "nid": "vjuXE9+Pj-c",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesIso2022StrToUtf32Str",
+      "nid": "GIwVmm8Rgvc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesIso2022StrToUtf8Str",
+      "nid": "iJlvTqyPypU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesIso2022UcsContextInit",
+      "nid": "2RykCI-4Kts",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesIso2022UcsContextInitCopy",
+      "nid": "QWGdqfZlfhU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesJisGetLevel",
+      "nid": "hQeUMTVgPHU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesJisX0208ToSJisCode",
+      "nid": "yS0Iib8DE+U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesJisX0213ToSJisCode",
+      "nid": "z7vL5ivaWso",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesJiscsToUcs",
+      "nid": "0TMX8PPpS0I",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesMbcToUcs2",
+      "nid": "9yf4dKVx9Nw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcToUtf16",
+      "nid": "yRC0ADN9ssU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcToUtf16be",
+      "nid": "fz9IVnkE9u8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcToUtf16le",
+      "nid": "bZC-mkEEBmI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcToUtf32",
+      "nid": "AJP3sETFdTI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcToUtf32be",
+      "nid": "ow6b-WuYPJQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcToUtf32le",
+      "nid": "fUJC7P8E1fM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcToUtf8",
+      "nid": "aqjnE9fG-OM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcsStrGetUcs2Len",
+      "nid": "WAIqT36MwJU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcsStrGetUtf16Len",
+      "nid": "KkcyBpHeV6Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcsStrGetUtf32Len",
+      "nid": "RtJ7a7UemgQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcsStrGetUtf8Len",
+      "nid": "r7Sr1i7KLus",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcsStrToUcs2Str",
+      "nid": "q9ONK5ZpMVQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcsStrToUtf16Str",
+      "nid": "RO-MRURI76g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcsStrToUtf32Str",
+      "nid": "hxFXyDfqukU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcsStrToUtf8Str",
+      "nid": "yGKn6vdYInc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcsUcsContextInit",
+      "nid": "538bRGc6Zo8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcsUcsContextInitCopy",
+      "nid": "FpCZBcq2c7Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesMbcsUcsSetMbcsReplacementCharCode",
+      "nid": "w7EWjn-P2xY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesMbcsUcsSetMbcsReplacementCharUCode",
+      "nid": "sJXQ9YzIJiU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileAscii",
+      "nid": "giw4lfOQJk0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileAsciiWithKatakana",
+      "nid": "C6-MvMXmvLc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileBs4730",
+      "nid": "sRuiwiiCnQg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp1250",
+      "nid": "qYu6y1E0Qbg",
+      "state": "inert"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp1251",
+      "nid": "99HNmYMUJZQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp1252",
+      "nid": "LPzYZ+FR0BI",
+      "state": "inert"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp1253",
+      "nid": "H0zRqu+IAsw",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp1254",
+      "nid": "jfTBAvEcfpE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp1255",
+      "nid": "qFA5cSGCjEo",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp1256",
+      "nid": "WMm7geoOfRo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp1257",
+      "nid": "P+RwmMQvqvA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp1258",
+      "nid": "NXRdaSk0GlI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp437",
+      "nid": "kvU1aLZ+1oc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp737",
+      "nid": "E29VzZty03U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp775",
+      "nid": "qT707tJvsQ8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp850",
+      "nid": "fE0f-EOIImg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp852",
+      "nid": "NTPazlahrDs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp855",
+      "nid": "YLinP6egkAw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp857",
+      "nid": "8vdyXEwToi0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp858",
+      "nid": "vvjtS0L3f6g",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp860",
+      "nid": "qoCSp8m0Ybo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp861",
+      "nid": "QMfpxQG9Tto",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp862",
+      "nid": "MYj6qtpieto",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp863",
+      "nid": "fIUVbmM-DDE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp864",
+      "nid": "zpPQkEySyxM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp865",
+      "nid": "dGQfEXqep7Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp866",
+      "nid": "9vDQuBQPGrk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp869",
+      "nid": "R7Vl+eA3OiY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileCp874",
+      "nid": "fDPDfnw6Z1g",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileGbT1988",
+      "nid": "OQPdKUpXO+U",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileGbT1988Tilde0x7e",
+      "nid": "Rz3BPMKO8aw",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_1",
+      "nid": "FW8H7tqgdbM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_10",
+      "nid": "YqNKLjnR1sI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_11",
+      "nid": "WCfhxDeLGEs",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_13",
+      "nid": "55U6ZRnK8+A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_14",
+      "nid": "R1QjB5b1l-4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_15",
+      "nid": "NLW0QcvJY-E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_16",
+      "nid": "UODyg3r3Uf8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_2",
+      "nid": "cCuAnD2NrwU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_3",
+      "nid": "qAKct8DTeBU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_4",
+      "nid": "7BFSgwCJBYI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_5",
+      "nid": "S8667Ll-PjE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_6",
+      "nid": "7UyNPNS3nUQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_7",
+      "nid": "kwEeiXCFuLg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_8",
+      "nid": "Uqq9dvyF6nE",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileIso8859_9",
+      "nid": "0c-HdcCIu3k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileJisX0201",
+      "nid": "YEfU5l4UYtQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileJisX0201Katakana",
+      "nid": "aq9XWp-0Cvg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileJisX0201Roman",
+      "nid": "nJVgJWVviE4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileJisX0201RomanTilde0x7e",
+      "nid": "8FuvovbHui4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileJisX0201Tilde0x7e",
+      "nid": "EHW+8T2LfP4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileKoi8R",
+      "nid": "-GQkEcaeblI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileKoi8U",
+      "nid": "6oIHlaJhz8w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesRefersUcsProfileKsX1003",
+      "nid": "kBjUiQc9P1w",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesRefersUcsProfileKsX1003Tilde0x7e",
+      "nid": "yR0qKU-abqY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesSJisCodeToJisX0208",
+      "nid": "Od2NaV700Ek",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSJisCodeToJisX0213",
+      "nid": "wMZIIoyhuHY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSJisGetCode",
+      "nid": "bUNHcd7Ia0U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSJisPutCode",
+      "nid": "Pm1Yrupb4UI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSJisToUcs2",
+      "nid": "LtaP8denrAU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSJisToUtf16",
+      "nid": "N2O4kbSD1s4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSJisToUtf16be",
+      "nid": "dRDquzClL+M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSJisToUtf16le",
+      "nid": "2cFJrJ+hxUQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSJisToUtf32",
+      "nid": "5g6-RbnXrbE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSJisToUtf32be",
+      "nid": "CuhaOAhwLHE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSJisToUtf32le",
+      "nid": "cNY-Qkk1CfA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSJisToUtf8",
+      "nid": "1n4BAyQEoAc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSJisUcsProfileSetSbcs",
+      "nid": "bswRLErFzy4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesSbcToUcs2",
+      "nid": "0kywPUxOxgE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSbcToUtf16",
+      "nid": "qLc40W8P7ZA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSbcToUtf16be",
+      "nid": "ZvTqRnxTV9c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSbcToUtf16le",
+      "nid": "9Cmcy0FRlOs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSbcToUtf32",
+      "nid": "r-TogOMFNc8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSbcToUtf32be",
+      "nid": "8TAXvaMXV4w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSbcToUtf32le",
+      "nid": "mLXQ6KRFdu4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesSbcToUtf8",
+      "nid": "xTd54EEL1Ao",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcs2StrGetIso2022Len",
+      "nid": "kkxVQKwPyNE",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUcs2StrGetMbcsLen",
+      "nid": "kz9bGYFvopY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcs2StrToIso2022Str",
+      "nid": "aZ5n2rbrF3M",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUcs2StrToMbcsStr",
+      "nid": "OfNANruoaxs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcs2ToBig5",
+      "nid": "UfWqjplpGC8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcs2ToEucCn",
+      "nid": "raCPuJElyf8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcs2ToEucJp",
+      "nid": "7EmaZ+NX7rg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcs2ToEucKr",
+      "nid": "G-7VqR7pzeA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcs2ToGb",
+      "nid": "IM8g1QaDCLA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcs2ToMbc",
+      "nid": "hi75DVfII3Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUcs2ToSJis",
+      "nid": "dbHh2xxKlEs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcs2ToSbc",
+      "nid": "676j8sJONxM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcs2ToUhc",
+      "nid": "-wX0puxJChY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcs2ToUtf8",
+      "nid": "5k6oMFx-ihY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsProfileInitBig5Cp950",
+      "nid": "Lota-iiR+8M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsProfileInitEucCnGb2312",
+      "nid": "mSG2okSQ7lI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsProfileInitEucJis2004",
+      "nid": "5ePaXQKhi2k",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUcsProfileInitEucJpCp51932",
+      "nid": "N3dPQZbNQPI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsProfileInitEucJpX0208",
+      "nid": "oH6EMqs-jUM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsProfileInitEucJpX0208Ss2",
+      "nid": "QIcDUVSdXw0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsProfileInitEucJpX0208Ss2Ss3",
+      "nid": "DnG4HGO0QZo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsProfileInitEucKr",
+      "nid": "uAiUQEGDoNM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsProfileInitGb18030_2000",
+      "nid": "6oPKxZwNhWo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsProfileInitGb18030_2005",
+      "nid": "UUXDikzOtWg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsProfileInitGbkCp936",
+      "nid": "rcAqicKKOmw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsProfileInitIso2022JpCp50221",
+      "nid": "4MJA9iZyYQs",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUcsProfileInitIso2022JpCp50222",
+      "nid": "osoNc2UwjJA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUcsProfileInitIso2022JpRfc1468",
+      "nid": "soXFgC22q8c",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUcsProfileInitSJis1997Cp932",
+      "nid": "ZiDCxUUGbec",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsProfileInitSJis1997X0208",
+      "nid": "5USjtgtV6Cg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsProfileInitSJis2004X0213",
+      "nid": "fIxLs+X4zBo",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUcsProfileInitUhc",
+      "nid": "kWjWUyOGZQs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUcsToJiscs",
+      "nid": "FFAsBnL6r28",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUhcToUcs2",
+      "nid": "73o7T9GCiNU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUhcToUtf16",
+      "nid": "-AYJga7O56c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUhcToUtf16be",
+      "nid": "uIJu0mEGQ60",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUhcToUtf16le",
+      "nid": "cZhAWU7WEVw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUhcToUtf32",
+      "nid": "X37PZSA8a34",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUhcToUtf32be",
+      "nid": "zH9I3DE6iBE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUhcToUtf32le",
+      "nid": "YGdliBvwjzo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUhcToUtf8",
+      "nid": "SbleT0oxFw0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUhcUcsProfileSetSbcs",
+      "nid": "+OavZyS-eMI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf16StrGetIso2022Len",
+      "nid": "zmzMriMPMag",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf16StrGetMbcsLen",
+      "nid": "7B668XL7yag",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16StrToIso2022Str",
+      "nid": "fkE41yBXT58",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf16StrToMbcsStr",
+      "nid": "cckSZEW4+oQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16ToBig5",
+      "nid": "ooSMrbrkkiE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16ToEucCn",
+      "nid": "bLGofENX+6M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16ToEucJp",
+      "nid": "LIH2mH9tzro",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16ToEucKr",
+      "nid": "rGBBgGamo5c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16ToGb",
+      "nid": "6roaZqVbD2o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16ToMbc",
+      "nid": "6EG6Zzcmrbg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf16ToSJis",
+      "nid": "G40-Idmfb-8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16ToSbc",
+      "nid": "b70pscdNZiE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16ToUhc",
+      "nid": "gd1AB3xDVgQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16ToUtf8",
+      "nid": "rVZ2PrNNKJg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16beToBig5",
+      "nid": "c1SCTsycK7k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16beToEucCn",
+      "nid": "wevBAVcbcII",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16beToEucJp",
+      "nid": "jWKXzwE1M+8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16beToEucKr",
+      "nid": "2oVMzn0Q23A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16beToGb",
+      "nid": "dYtbUAmNLBc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16beToMbc",
+      "nid": "NGjHS-+WpA4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf16beToSJis",
+      "nid": "kSoGcqsgEh0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16beToSbc",
+      "nid": "CIlQhaz-UNw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16beToUhc",
+      "nid": "KmnzivWo2xk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16beToUtf8",
+      "nid": "dDoDH0qtexE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16leToBig5",
+      "nid": "X1PsAOE5YU8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16leToEucCn",
+      "nid": "OM8mhVVwEzU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16leToEucJp",
+      "nid": "sbyLJgK1M8Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16leToEucKr",
+      "nid": "eCQoGkpAfA0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16leToGb",
+      "nid": "KqgeUD6DFjM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16leToMbc",
+      "nid": "V+P9rsOiLmM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf16leToSJis",
+      "nid": "48ujxTli9ao",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16leToSbc",
+      "nid": "JgTz1+RkB9M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16leToUhc",
+      "nid": "8rGA7ASyk8Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf16leToUtf8",
+      "nid": "b8upshFAom0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32StrGetIso2022Len",
+      "nid": "dBDFTSSa7gI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf32StrGetMbcsLen",
+      "nid": "uaxFW+LGzGY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32StrToIso2022Str",
+      "nid": "JpAP8BoYAmQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf32StrToMbcsStr",
+      "nid": "hd4Ta6XIFCE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32ToBig5",
+      "nid": "2HeYOG2bEcU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32ToEucCn",
+      "nid": "hcNLW1OyfTc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32ToEucJp",
+      "nid": "ZKhzRGuFjeM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32ToEucKr",
+      "nid": "LMZ77TNeslg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32ToGb",
+      "nid": "5c5XIIUOnw8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32ToMbc",
+      "nid": "zO7NlO2unTI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf32ToSJis",
+      "nid": "MVfGFf5tBf4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32ToSbc",
+      "nid": "QWV5S0xkefw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32ToUhc",
+      "nid": "WL2PIOhJfQs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32ToUtf8",
+      "nid": "4cBWKt8i5c4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32beToBig5",
+      "nid": "CcYWiRcCY38",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32beToEucCn",
+      "nid": "HNX6U3ERdRI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32beToEucJp",
+      "nid": "JETZShs6kqM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32beToEucKr",
+      "nid": "tSODkniGpoE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32beToGb",
+      "nid": "z6kAEifN7go",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32beToMbc",
+      "nid": "LDzoVPBgzc0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf32beToSJis",
+      "nid": "UvMSpJJz80s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32beToSbc",
+      "nid": "TWstzqFWGyo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32beToUhc",
+      "nid": "u1LTy5HZ1Z0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32beToUtf8",
+      "nid": "yMsd3ZjniL0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32leToBig5",
+      "nid": "3zM9I43piGc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32leToEucCn",
+      "nid": "zl51JMf2kGo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32leToEucJp",
+      "nid": "mndOlYOGP7w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32leToEucKr",
+      "nid": "rcAUV2nlB-Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32leToGb",
+      "nid": "d0r1sw3mTqM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32leToMbc",
+      "nid": "W+QrDTbhLkg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf32leToSJis",
+      "nid": "4Ty+Pa7lZXY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32leToSbc",
+      "nid": "OKX5-OHw1rE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32leToUhc",
+      "nid": "VZwjC-5cUKg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf32leToUtf8",
+      "nid": "cKjaZxqfgQY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8StrGetIso2022Len",
+      "nid": "K1pNyl3xEzo",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf8StrGetMbcsLen",
+      "nid": "IljzwFmlBKg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8StrToIso2022Str",
+      "nid": "6HzMb6bZM6k",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf8StrToMbcsStr",
+      "nid": "RZ8ra69Qkxw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToBig5",
+      "nid": "WaixXFWUcAY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToEucCn",
+      "nid": "+2GFBvON4Sk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToEucJp",
+      "nid": "D-7hSd3Ziqg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToEucKr",
+      "nid": "dMaMqNmzAeg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToGb",
+      "nid": "aQSyyT89490",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToMbc",
+      "nid": "EamBMojFPls",
+      "state": "stub"
+    },
+    {
+      "name": "sceCesUtf8ToSJis",
+      "nid": "M7xXaEUT0AM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToSbc",
+      "nid": "3Q1gOWWarcw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToUcs2",
+      "nid": "2OeA+kH1s1g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToUhc",
+      "nid": "HPw11phYb4g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToUtf16",
+      "nid": "sRYcNgFGq+0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToUtf16be",
+      "nid": "wFbJ1paXfPg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToUtf16le",
+      "nid": "9DeMz0wOHWc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToUtf32",
+      "nid": "qICXjhb1exk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToUtf32be",
+      "nid": "lQJnJoUTY4w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCesUtf8ToUtf32le",
+      "nid": "1spdlCFoiww",
+      "state": "implemented"
+    }
+  ]
+}

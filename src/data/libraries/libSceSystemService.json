@@ -1,0 +1,2932 @@
+{
+  "name": "libSceSystemService",
+  "label": "SystemService",
+  "category": "System utilities",
+  "implemented": 10,
+  "inert": 42,
+  "stub": 532,
+  "total": 584,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAppMessagingClearEventFlag",
+      "nid": "alZfRdr2RP8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppMessagingReceiveMsg",
+      "nid": "jKgAUl6cLy0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppMessagingSendMsg",
+      "nid": "+zuv20FsXrA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppMessagingSendMsgToShellCore",
+      "nid": "HIwEvx4kf6o",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppMessagingSendMsgToShellUI",
+      "nid": "5ygy1IPUh5c",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppMessagingSetEventFlag",
+      "nid": "hdoMbMFIDdE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppMessagingTryGetEventFlag",
+      "nid": "iKNXKsUtOjY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppMessagingTryReceiveMsg",
+      "nid": "ZVRXXqj1n80",
+      "state": "stub"
+    },
+    {
+      "name": "sceCoredumpSequenceHandlerCancelCoredump",
+      "nid": "1CKeTrj+8Ao",
+      "state": "stub"
+    },
+    {
+      "name": "sceCoredumpSequenceHandlerGetCoredumpStatus",
+      "nid": "2d2BsMJO49U",
+      "state": "stub"
+    },
+    {
+      "name": "sceCoredumpSequenceHandlerGetCoredumpStatusByAppId",
+      "nid": "CJ8JJNIwLsE",
+      "state": "stub"
+    },
+    {
+      "name": "sceCoredumpSequenceHandlerGetEventCache",
+      "nid": "jLUxdy7mfas",
+      "state": "stub"
+    },
+    {
+      "name": "sceCoredumpSequenceHandlerGetWorkingEventSummary",
+      "nid": "8wvqcgWin6Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceCoredumpSequenceHandlerUpdateEventCache",
+      "nid": "gQ-7OfXu59I",
+      "state": "stub"
+    },
+    {
+      "name": "sceCsbMgrCreateLocalSandbox",
+      "nid": "IhLsRADs3SM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCsbMgrDestroyLocalSandbox",
+      "nid": "+sk9SwUP9Kg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCsbMgrGetCurrentLocalSandboxId",
+      "nid": "oE3EQ-MjFko",
+      "state": "stub"
+    },
+    {
+      "name": "sceCsbMgrGetLocalSandboxIdList",
+      "nid": "n5+CkEyhykI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCsbMgrGetLocalSandboxInfo",
+      "nid": "fyQ-UCfwTlA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCsbMgrInitialize",
+      "nid": "2NtkcpO+bsM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCsbMgrIssueStreamingSandboxInfo",
+      "nid": "p1+-QpIg03M",
+      "state": "stub"
+    },
+    {
+      "name": "sceCsbMgrSetLocalSandboxInfo",
+      "nid": "DrbyEvy1sko",
+      "state": "stub"
+    },
+    {
+      "name": "sceCsbMgrSwitchLocalSandbox",
+      "nid": "TOU14PjsUbY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCsbMgrTerminate",
+      "nid": "09wWt3+necM",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilAcquireCpuBudgetOfExtraAudioDevices",
+      "nid": "V350H0h35IU",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilAcquireCpuBudgetOfImeForBigApp",
+      "nid": "GmKMHwvxLlo",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilAcquireCpuBudgetOfInGameStore",
+      "nid": "mC3BKJFlbNI",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilActivateCdlg",
+      "nid": "4dWfNKOT1sg",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilAddLocalProcess",
+      "nid": "j72lst7BFuc",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilBlockAppSuspend",
+      "nid": "u1JVDP28ycg",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilBlockingGetEventForDaemon",
+      "nid": "MxXZ-poqGNs",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilContinueApp",
+      "nid": "93MnzhkAAgk",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilCrashSyscore",
+      "nid": "uaqZvga3Fkg",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilDeactivateCdlg",
+      "nid": "4oofFQudfx0",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilDeclareReadyForSuspend",
+      "nid": "GHUqRrCB2hM",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilDisableSuspendNotification",
+      "nid": "GkcNZBoiDcs",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilEnableSuspendNotification",
+      "nid": "AGnsy1zV34o",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilExportSpmemConfigJson",
+      "nid": "S8W9xAocYyg",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilFinishSpecialResume",
+      "nid": "UukL0EXLQls",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilForceKillApp",
+      "nid": "vquYrvImjPg",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilForceKillLocalProcess",
+      "nid": "NS-XWAN9uoc",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetAppCategory",
+      "nid": "vbMEQcz6O8g",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetAppCategoryType",
+      "nid": "LtGMfy0pCj4",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetAppFocusedAppStatus",
+      "nid": "i+1kluDITlQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetAppId",
+      "nid": "MVF+elex8Sw",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetAppIdListOfBigApp",
+      "nid": "dz-OCLvhVMs",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetAppIdOfRunningBigApp",
+      "nid": "SoQULIDd9V4",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetAppLaunchedUser",
+      "nid": "oYQC9Quj6No",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetAppStatus",
+      "nid": "DxRki7T2E44",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetAppStatusList",
+      "nid": "pMK2RT0cyus",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetAppStatusListForShellUIReboot",
+      "nid": "cyO5ShJxdnE",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetAppTitleId",
+      "nid": "g0wTG9KImzI",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetAppType",
+      "nid": "1AQf7o8gpHc",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetCdlgExec",
+      "nid": "7yXjWLWJFHU",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetCdlgType",
+      "nid": "XjGem6+kn7U",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetCoredumpState",
+      "nid": "CgVdl9Sp1G0",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetDbgExecutablePath",
+      "nid": "deCYc7iaC5Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetEventForDaemon",
+      "nid": "yUh0BIPbhVo",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetEventForShellUI",
+      "nid": "ZucoOmNsb7w",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetGpuCrashFullDumpAppStatus",
+      "nid": "ojmvNKQZNUw",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetLocalProcessStatusList",
+      "nid": "wGobSSrBM4s",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetParentSocket",
+      "nid": "HRXjUojlG70",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetResultKillApp",
+      "nid": "kOd75qDlxBM",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetResultLaunchAppByTitleId",
+      "nid": "LZs6hfPMnso",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetSpmemAllocatorConfigValue",
+      "nid": "5ZGYRHAH0lM",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetSpmemConfigJson",
+      "nid": "muQ-T00mHjs",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilGetVideoFinalizeState",
+      "nid": "-Fbhc5T-vIA",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilImportSpmemConfigJson",
+      "nid": "4gcch3i365M",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilInitialize",
+      "nid": "f-Q8Nd33FBc",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilIsActiveCdlg",
+      "nid": "PyNH7p4LVw8",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilIsAppLaunched",
+      "nid": "IGrJsPNL6n4",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilIsAppSuspended",
+      "nid": "teGoPWnEgd4",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilIsCdlgActivated",
+      "nid": "34kvdye-B3o",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilIsCpuBudgetOfExtraAudioDevicesAvailable",
+      "nid": "iUsONHVCDbQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilIsHostBoot",
+      "nid": "UpYNlATxBKk",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilIsPs2Emu",
+      "nid": "i4tm7MB0ZK0",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilIsShellUiFgAndGameBgCpuMode",
+      "nid": "Ry4u8KxkVY4",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilIsSpeculativeLaunch",
+      "nid": "VCwNSNy3NR0",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilKickCoredumpOnlyProcMem",
+      "nid": "gNn+EZtm1i0",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilKillApp",
+      "nid": "SZ2uH5Abws8",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilKillAppWithReason",
+      "nid": "RBlEzB--JeA",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilKillLocalProcess",
+      "nid": "IhlLdSAX+Jk",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilLaunchApp",
+      "nid": "+nRJUD-7qCk",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilLoadExec",
+      "nid": "wwpRNgW81Cs",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilNotifyCoredumpRequestEnd",
+      "nid": "+8LJld9LIt4",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilNotifyCoredumpRequestProgress",
+      "nid": "HKZmLmGfkd4",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilNotifyVshReady",
+      "nid": "-3moAnxKYkc",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilRaiseException",
+      "nid": "P563r-eGAh4",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilRaiseExceptionLocalProcess",
+      "nid": "CJ45DLRQOD8",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilRegisterCallEntries",
+      "nid": "1Thyfh-uEvQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilRegisterCdlgSharedMemoryName",
+      "nid": "Qn5JIRI6ZNU",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilRegisterDaemon",
+      "nid": "V25-9U+YauY",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilRegisterShellUI",
+      "nid": "awS+eYVuXJA",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilReleaseCpuBudgetOfExtraAudioDevices",
+      "nid": "QvUYLdPhylQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilReleaseCpuBudgetOfImeForBigApp",
+      "nid": "1PQhPdyNCj8",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilReleaseCpuBudgetOfInGameStore",
+      "nid": "QsLhZ+8WvSM",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilResumeApp",
+      "nid": "lD-k3hDhlqA",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilResumeLocalProcess",
+      "nid": "XaC9s-Nr2u4",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilSetAppFocus",
+      "nid": "v7DYuX0G5TQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilSetCdlgExec",
+      "nid": "3mHuKF7fsd8",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilSetControllerFocus",
+      "nid": "X8gYbyLG1wk",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilSetControllerFocusPermission",
+      "nid": "NJYAQeP3z7c",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilStartKillApp",
+      "nid": "3+64z-ckBS8",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilStartLaunchAppByTitleId",
+      "nid": "r07vD4SP2sc",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilSuspendApp",
+      "nid": "Y8onQYjuvOU",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilSuspendBackgroundApp",
+      "nid": "8vYXkdXmh-Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilSuspendLocalProcess",
+      "nid": "rd+-SzL202E",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilTerminate",
+      "nid": "cCod+B3EdhI",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilTryBlockAppSuspend",
+      "nid": "msW-hp1U0zo",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilUnblockAppSuspend",
+      "nid": "iRZduYIV1hs",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilUnregisterCdlgSharedMemoryName",
+      "nid": "aVRNp1nOOKY",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilUnregisterDaemon",
+      "nid": "BnMaW5wfnlQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceLncUtilUnregisterShellUI",
+      "nid": "cqui4JUJtbY",
+      "state": "stub"
+    },
+    {
+      "name": "sceReportSequenceHandlerCancelReport",
+      "nid": "n8hTOPYwGq8",
+      "state": "stub"
+    },
+    {
+      "name": "sceReportSequenceHandlerExistsEvent",
+      "nid": "Dz5s8D+SY+k",
+      "state": "stub"
+    },
+    {
+      "name": "sceReportSequenceHandlerGetEventCache",
+      "nid": "9QRrQtmkp10",
+      "state": "stub"
+    },
+    {
+      "name": "sceReportSequenceHandlerRequestReport",
+      "nid": "ylKkCqcGjlA",
+      "state": "stub"
+    },
+    {
+      "name": "sceReportSequenceHandlerUpdateEventCache",
+      "nid": "Hdtr0jFNOYI",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilAccessibilityZoomLock",
+      "nid": "5SfMtsW8h7A",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilAccessibilityZoomUnlock",
+      "nid": "Uku2JpZmoqc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilAcquireBgmCpuBudget",
+      "nid": "qVBNhnqUz-4",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilAcquireRemotePlayCpuBudget",
+      "nid": "TfVHoRVX2HM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilAcquireSharePlayCpuBudget",
+      "nid": "fBuukeGZ2FE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilActivateAbort",
+      "nid": "mpkohyVqCRM",
+      "state": "inert"
+    },
+    {
+      "name": "sceShellCoreUtilActivateGetStatus",
+      "nid": "fkcM5YcqjV8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilActivateInit",
+      "nid": "x5hqKRKziYU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilActivateIsActivated",
+      "nid": "jktCMQNgyFc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilActivateRecordActivation",
+      "nid": "xIMClZZz50k",
+      "state": "inert"
+    },
+    {
+      "name": "sceShellCoreUtilActivateStart",
+      "nid": "MRVnLsn-GRI",
+      "state": "inert"
+    },
+    {
+      "name": "sceShellCoreUtilActivateStartAsync",
+      "nid": "CZrOHqt6oCY",
+      "state": "inert"
+    },
+    {
+      "name": "sceShellCoreUtilActivateTerm",
+      "nid": "ibXh+Mc4wbs",
+      "state": "inert"
+    },
+    {
+      "name": "sceShellCoreUtilChangePbtcMode",
+      "nid": "wjn0-e9fz3A",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilChangeRunLevel",
+      "nid": "wtNEh1E9ALA",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilChangeToStaffModeForIDU",
+      "nid": "v81dfnaMfUY",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilCheckerAbort",
+      "nid": "9VDzY7m1NN8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilCleanupCrashReport",
+      "nid": "AgYSGAQGtXs",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilClearAppData",
+      "nid": "l5bdg4tUTGc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilClearPs4AppCategoryDefaultsListUpdate",
+      "nid": "CrJAqHAld9M",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilClearPsnAccountInfo",
+      "nid": "RnY2HTwqz3A",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilCrashReportRequestCancel",
+      "nid": "SYSL4KtzcAU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilDebugGetCffInfo",
+      "nid": "nzsDiVdc0t4",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilDebugGetNumberOfCffItems",
+      "nid": "dGGzDPY2bPI",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilDebugSetCffStatus",
+      "nid": "6hsFtUZar2o",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilDeclareBeginOfExternalStorageAppMove",
+      "nid": "KTCPKqvFTok",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilDeclareEndOfExternalStorageAppMove",
+      "nid": "F20xA1NsG9s",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilDeleteDiscInstalledTitleWorkaroundFile",
+      "nid": "XlcBqhyaJyI",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilDeleteDownloadedHidConfigFile",
+      "nid": "yO7OIU45UnQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilDeleteDownloadedNetEvConfigFile",
+      "nid": "4SgLbJPUxNw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilDeleteDownloadedTitleWorkaroundFile",
+      "nid": "ctTYL9lomv8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilDoFsck",
+      "nid": "0QN4BUnzF14",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilDownloadHidConfigFileFromServer",
+      "nid": "WN1v3xYoGDw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilDownloadNetEvConfigFileFromServer",
+      "nid": "A3wbbLmrQV4",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilDownloadTitleWorkaroundFileFromServer",
+      "nid": "5YNnX5Pfquo",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilEndUmmDictation",
+      "nid": "ikmkeez8ATk",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilEnterPowerLockSection",
+      "nid": "9plZCCRm9x4",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilExecuteCrashReport",
+      "nid": "SOmyRqRpKIM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilExfatFormatExternalHdd",
+      "nid": "+jVaKSG0nHk",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilExitApp",
+      "nid": "hnvi3LgVeDM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilExitAppWithValue",
+      "nid": "Jz-PmixpJTg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilExitMiniApp",
+      "nid": "0g6-uh4JTP8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilExitMiniAppWithValue",
+      "nid": "dtx5tcGFVII",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilFormatExternalHdd",
+      "nid": "UG9I-iHI-ME",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilFormatHddForRestore",
+      "nid": "LlFmfrkpjW0",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetAppData",
+      "nid": "WISL-JH-6Ic",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetAppEnableTTS",
+      "nid": "XGxXS135WR8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetAppEnterButtonAssign",
+      "nid": "V9b3HfN19vM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetAppLaunchTypeInfo",
+      "nid": "ZIKGk+35UDU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetAppLaunchedParamInt",
+      "nid": "u474-bA7ul0",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetAppLaunchedParamIntByBudgetType",
+      "nid": "kyFOaxSaP0A",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetAppLaunchedParamString",
+      "nid": "f5Z7FIeoHdw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetAppLaunchedParamStringByBudgetType",
+      "nid": "dZ3RfDzgmCY",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetAutoPowerDownRemainingSeconds",
+      "nid": "5gIVIzipgsw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetAvailableSizeM2",
+      "nid": "SgdLDbyOfOo",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetBasicProductShape",
+      "nid": "lAvSrKAjxCA",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetCdlgEnabledFreezeRendering",
+      "nid": "9eqW8fH90eY",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetCffConfig",
+      "nid": "ZMaf4Z7TxZA",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetCheckerString",
+      "nid": "EwfSRaPlCE4",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetCheckerStringEx",
+      "nid": "gAyT42nwElM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetCloudClientStatus",
+      "nid": "Mg3P1Z4Xavs",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetConsoleToken",
+      "nid": "CWApr0+Bbs0",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetCrashReportCoreFileSetSize",
+      "nid": "FcAheKO8u7c",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetCrashReportFilterInfoStart",
+      "nid": "jCJ+gks483A",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetCrashReportInfoForBoot",
+      "nid": "-ROAAenn4Xg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetCrashReportInfoForBootStart",
+      "nid": "V9LadIvu5Ko",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetCrashReportInfoStart",
+      "nid": "J5OPALFNdFE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetCrashReportResult",
+      "nid": "NTttBlD2Xbk",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetCrashReportStatus",
+      "nid": "4YQ-w9Xwn7s",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetCrashReportUploadStatus",
+      "nid": "L6R0jU7yTTQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetDeviceIdByDeviceUniqueId",
+      "nid": "9EfQmTA4cuc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetDeviceIndexBehavior",
+      "nid": "oINHTqU1qvY",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetDeviceIndexBehaviorWithTimeout",
+      "nid": "vPxKoc5MyxQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetDeviceUniqueIdByDeviceId",
+      "nid": "w9WSwBgmXSg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetEffectiveTotalSizeOfUserPartition",
+      "nid": "rkV5b-p490g",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetFreeSizeOfAvContentsTmp",
+      "nid": "guf+xcMoCas",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetFreeSizeOfUserPartition",
+      "nid": "ZbY5LxmH6uA",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetFsckProgress",
+      "nid": "1qbUFXlBXFw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetGameLiveStreamingStatus",
+      "nid": "-g0pBZ2JdAc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetGnmCompositorOnScreenProfilerFlag",
+      "nid": "g8T4x0GD9Wo",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetGpuLoadEmulationMode",
+      "nid": "beQ90Sx6c8g",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetGpuLoadEmulationModeByAppId",
+      "nid": "ns8HVzVqaNo",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetHidConfigFileInfoString",
+      "nid": "kn3vBOTg-ok",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetHidConfigFileString",
+      "nid": "97L0D3+iBDE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetHidConfigName",
+      "nid": "NZWLG-imDlU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetHidConfigNum",
+      "nid": "RM1Xb5Hcq4w",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetIDUMode",
+      "nid": "93trbeNjx7c",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetImposeMenuFlagForPs2Emu",
+      "nid": "Ac3I81u9ky4",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetManifestFileStatus",
+      "nid": "39lewWn5+G0",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetNeedSizeOfAppContent",
+      "nid": "kuErIHXWIpc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetNetEvConfigFileInfoString",
+      "nid": "wFvgq-KXT0Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetNoticeScreenSkipFlagByAppId",
+      "nid": "kpJIhP3MhT8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetNpTitleId",
+      "nid": "WjIHYcmFcpc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetOutOfVrPlayZoneWarning",
+      "nid": "qEUJBsB7yMk",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetPapcGamePcl",
+      "nid": "lgbdvT36kTE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetPasscodeDisplayInfo",
+      "nid": "77hHc--JKqo",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetPasscodeInputType",
+      "nid": "boYXf+BCBSU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetPbtcUserInfoList",
+      "nid": "bTmtBchzFps",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetPeripheralConnectionSessionId",
+      "nid": "fhLcQKNEqSw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetPlatformPrivacyDefinitionEventData",
+      "nid": "lXlP+jhO8QI",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetProgressOfFormatExternalHdd",
+      "nid": "VxWJ7DUrEIQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetProgressOfFsck",
+      "nid": "3M1tCF9VfoE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetPs4AppCategoryDefaultsListId",
+      "nid": "CbUYbKgLtJM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetPs4AppCategoryForTitleId",
+      "nid": "FSivH9XPeho",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetPsStoreIconLayout",
+      "nid": "1G3xnMBZpYI",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetPsStoreIconState",
+      "nid": "zS6ZPLgQJcA",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetPsnAccountInfo",
+      "nid": "x6STXhIEG0M",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetRemotePlayStatus",
+      "nid": "ai7LcBcf6Rs",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetRunLevel",
+      "nid": "HeZzL2xbRJY",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetSharePlayStatus",
+      "nid": "L5mESo+Iq+k",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetSocialScreenStatus",
+      "nid": "nG+HNBwQ4sw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetSplashScreenState",
+      "nid": "WH6O4hriE-0",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetStreamingClientInfo",
+      "nid": "7Po+BODixVE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetSupportSiteURL",
+      "nid": "PPQxiE4lbyY",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetSuspendConfirmationDialogFlag",
+      "nid": "9i+R1rj6Trk",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetSystemBGState",
+      "nid": "WKxOVIkISxA",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetSystemBGWaveColor",
+      "nid": "W5HtGRCZ1iE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetSystemBGWaveState",
+      "nid": "D-6S9JHI6A0",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetTelemetryToken",
+      "nid": "oThn-THyKOc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetTitleWorkaroundFileInfoString",
+      "nid": "ZGbkd2hWhJU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetTitleWorkaroundFileString",
+      "nid": "vq8ubGb2XjQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetUIStatus",
+      "nid": "fORZmlh1TQo",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetUmmStatus",
+      "nid": "B1kel3gTRSg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetUserFocus",
+      "nid": "E4I7uCoWbkM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetUserIdOfMorpheusUser",
+      "nid": "plK52OfeEIc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetVMStatsForTelemetry",
+      "nid": "ESxtLvQZO5Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetVRBaseMatRectangles",
+      "nid": "Of1wZmffmno",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGetVersionNumberOfCameraCalibrationData",
+      "nid": "VbEHW7RrJ+w",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilGoBackToKratosCurrentSessionGame",
+      "nid": "0y01ndm0BA8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilHideBlocksFromUser",
+      "nid": "oh68H-4hEAE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIncrementVersionNumberOfCameraCalibrationData",
+      "nid": "DviyPC-JJ1k",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsAccessibilityZoomLocked",
+      "nid": "2b-b5AouLv4",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsBgmCpuBudgetAcquired",
+      "nid": "soq7GTbVMkw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsBgmCpuBudgetAvailable",
+      "nid": "vYHJtZyhhEI",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsBgmPlaying",
+      "nid": "-Lpr5gHkHkc",
+      "state": "inert"
+    },
+    {
+      "name": "sceShellCoreUtilIsCronosInGameCommerceEnabled",
+      "nid": "IvnWbi7tTyI",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsDddTemperatureDanger",
+      "nid": "a+4N1FN0FlU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsEChassisVariant",
+      "nid": "3gARipXc5Q8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsExternalStorageAppMoveInProgress",
+      "nid": "mpeGML7ulA8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsEyeToEyeDistanceAdjusted",
+      "nid": "PGsAGnnRstY",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsGameLiveStreamingOnAir",
+      "nid": "KyQY2KfMxKw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsIDUState",
+      "nid": "fBjY1lY7sbs",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsImposeScreenOverlaid",
+      "nid": "izo3BrmWZDM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsInSystemSuspendBlackList",
+      "nid": "wCbG33VsbqQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsInternalCronosUser",
+      "nid": "U+YYClhhIpE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsInternalKratosUser",
+      "nid": "mTZxVC3pebc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsKilledOrSuspendedByLogout",
+      "nid": "44PCVgTBBCw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsLaunchBlockDialog",
+      "nid": "afSqsUF+PoY",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsLotusMicActivated",
+      "nid": "v-EkVgs17HA",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsM2StorageTemperatureDanger",
+      "nid": "qwGVQS60KyE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsNeededCrashReport",
+      "nid": "KH0InA0uStg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsPowerSaveAlertRequested",
+      "nid": "3JNHzrEDnrk",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsRemotePlayCpuBudgetAcquired",
+      "nid": "CWcxjT6X+1c",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsScreenSaverOn",
+      "nid": "WIEUJ61AwvU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsSharePlayCpuBudgetAcquired",
+      "nid": "gWMlFq4N9Lw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsShowCrashReport",
+      "nid": "GEZ9sIz3wuM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsTemperatureDanger",
+      "nid": "vzWoetyaUuA",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsTitleWorkaroundEnabled",
+      "nid": "4dsNPwVODKM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilIsUsbMassStorageMounted",
+      "nid": "IHHSdVBTwBc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilLaunchByUri",
+      "nid": "GYUk4t27Myw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilLaunchByUriParamInit",
+      "nid": "gYOugDgfYJw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilLeavePowerLockSection",
+      "nid": "nENvUAsAKdY",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilLemSettingGet",
+      "nid": "-HS4ftobY5Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilLemSettingGetList",
+      "nid": "c2N2ifrPIXs",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilLemSettingReset",
+      "nid": "Aq-bDV1UTe4",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilLemSettingSet",
+      "nid": "YAmDxCDPyhk",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilMakeManifestFile",
+      "nid": "-Sp1aaqI1SQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilMicMuteKeyPressed",
+      "nid": "TlUYAlj62-o",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilMountAppRight",
+      "nid": "aCkM+OaGv3g",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilMountDownloadDataForShellUI",
+      "nid": "juqlPZWkJGc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilMountHddForBackup",
+      "nid": "qNe8uNe3EpQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilMountHddForRestore",
+      "nid": "bRCLw49N4hE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNavigateToAnotherApp",
+      "nid": "1e7CmFlJveU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNavigateToGoHome",
+      "nid": "n9xRQPtUP0g",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNavigateToLaunchedApp",
+      "nid": "Mi9-CweviUo",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNotificationCancelForIDU",
+      "nid": "V-5cjs+9kI0",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNotificationRequestedForIDU",
+      "nid": "VQRWOxYGays",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNotifyBgmCoreTermination",
+      "nid": "roUQwCYYegE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNotifyConnectAccountStatusChanged",
+      "nid": "+ZZ1j15Gyhw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNotifyFsReadError",
+      "nid": "awBTm0vNaos",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNotifyImeStatusChanged",
+      "nid": "1jwAtAP7KyU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNotifyPsnAccountInfoReceived",
+      "nid": "dk-PIxWMp8k",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNotifyStartEventToUniversalMicMute",
+      "nid": "fZ+-EwSxCrA",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNotifySystemResumeTelemetryInfo",
+      "nid": "+KjCLBqXNQE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNotifySystemSuspendTelemetryInfo",
+      "nid": "vbEqgeYEbBQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilNpDebugSpecialNotification",
+      "nid": "Hlylpx+n8Cg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilPfAuthClientConsoleTokenClearCache",
+      "nid": "Tgs5zOUfQSc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilPostActivityForPsNow",
+      "nid": "pb2XPMV5beI",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilPostErrorLog",
+      "nid": "-hrMXdpZuDU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilPostLaunchConfirmResult",
+      "nid": "fCeSFo0IM-w",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilPostPsmEventToShellUI",
+      "nid": "cZCJTMamDOE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilPreNotifyOfGameLiveStreaming",
+      "nid": "PGHjjtZxKvs",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilPreNotifyOfRemotePlay",
+      "nid": "K-QFvDXYSbg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilPreNotifyOfSharePlay",
+      "nid": "HBA-tCWUXP8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilReleaseBgmCpuBudget",
+      "nid": "EFhM9SF2aSQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilReleaseRemotePlayCpuBudget",
+      "nid": "cfJZThTSxQ0",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilReleaseSharePlayCpuBudget",
+      "nid": "jKnwOdgck5g",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilRemoveCffConfigFile",
+      "nid": "5Oi148VzbwY",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilReportSessionErrorToGaikaiController",
+      "nid": "yO-ekZ5toaQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilReportUnexpectedFatalErrorToSystemTelemetry",
+      "nid": "lF96Sr8Jf0s",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilRequestCameraCalibration",
+      "nid": "-yYPJb0ejO8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilRequestCffUpdate",
+      "nid": "IjzzdmltFeE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilRequestEjectDevice",
+      "nid": "8+CmlQdq7u8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilRequestRebootApp",
+      "nid": "+2paAsKqXOQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilRequestShutdown",
+      "nid": "7JgSJnaByIs",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilResetAllNoticeScreenSkipFlag",
+      "nid": "PShNhY-Vkus",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilResetAutoPowerDownTimer",
+      "nid": "IzQN+F5q3wg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilResetBgdcConfig",
+      "nid": "7yUQmZWoqVg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilResetNoticeScreenSkipFlag",
+      "nid": "pEGU3c-lOeM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetAppData",
+      "nid": "xKSgaSVX1io",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetBgmProhibition",
+      "nid": "dS1+1D1LRHs",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetDeviceIndexBehavior",
+      "nid": "l96YlUEtMPk",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetGameLiveStreamingOnAirFlag",
+      "nid": "bC8vo608P2E",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetGameLiveStreamingStatus",
+      "nid": "K33+EwitWlo",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetGnmCompositorOnScreenProfilerFlag",
+      "nid": "m65uKv7IAkI",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetGpuLoadEmulationMode",
+      "nid": "MeboioVomns",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetGpuLoadEmulationModeByAppId",
+      "nid": "zd4oVXWGD2Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetIDUMode",
+      "nid": "4Pd0g-lGEM0",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetImposeStatusFlag",
+      "nid": "TJp3kdSGsIw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetPsStoreIconLayout",
+      "nid": "qtjjorW1V94",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetPsStoreIconState",
+      "nid": "g787tMBA1TE",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetRemotePlayStatus",
+      "nid": "jqj5vbglbZU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetSharePlayStatus",
+      "nid": "l22TAIbbtFw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetSkipUpdateCheck",
+      "nid": "IWSCO20RwIY",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetSocialScreenStatus",
+      "nid": "nA5rRwLrgIU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetSplashScreenState",
+      "nid": "2Pms7iCE-Fo",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetSystemBGState",
+      "nid": "kfyuElAEnis",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetSystemBGWaveColor",
+      "nid": "Ujz25JX-jPM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetSystemBGWaveState",
+      "nid": "GB19cfR-Tis",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetUIStatus",
+      "nid": "atiUTsTFJ3k",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetUserFocus",
+      "nid": "-9djWj1NU4E",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSetVRBaseMatRectangles",
+      "nid": "rLpqhn6NUP8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilShowCriticalErrorDialog",
+      "nid": "lW+8pdTQMmg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilShowErrorDialog",
+      "nid": "0ptZiu0jBJs",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilShowErrorDialogWithFormatArgs",
+      "nid": "chZFHnGa9x4",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilShowErrorDialogWithParam",
+      "nid": "yxiUUPJoyYI",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilShowPsUnderLockIndicator",
+      "nid": "GjOxjIVZA1Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSignalUserInput",
+      "nid": "R013D1VIETQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilStartPsNowGame",
+      "nid": "HhBo--ix7Lg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilStartUmmDictation",
+      "nid": "lI3bmwQtS1w",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilStopPsNowGame",
+      "nid": "9dvVBukqOsw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilSwitchMicMute",
+      "nid": "BgH+9MD7LQU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilTalkKeyEventReceived",
+      "nid": "0JuS3zkDXdc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilTelemetryCacheData",
+      "nid": "6H7ZKa2vvUk",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilTestBusTransferSpeed",
+      "nid": "dbwyzALlKOQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilTickHeartBeat",
+      "nid": "DWVv0MlE1sw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilTriggerPapcUpdate",
+      "nid": "CSl1MAdUbYs",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilTurnOffScreenSaver",
+      "nid": "lcp9E77DAB4",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilUnmountAppRight",
+      "nid": "T9xeifEUF3w",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilUnmountDownloadDataForShellUI",
+      "nid": "qqL5VYwFLgo",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilUnmountHddForBackup",
+      "nid": "YvCj4cb1-jU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilUnmountHddForRestore",
+      "nid": "oeyHRt5PP+Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreUtilUpdateTelemetryToken",
+      "nid": "IjhuVY+Y388",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellCoreutilGetCrashReportProcessInformation",
+      "nid": "368es-zmQuc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemModalDialogClose",
+      "nid": "WhIdEVFHHSo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemModalDialogOpen",
+      "nid": "aTtay82qJM8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceAcquireBgmCpuBudget",
+      "nid": "M-7b4noXQUE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceAcquireFb0",
+      "nid": "0z7srulNt7U",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceActivateHevc",
+      "nid": "+2uXfrrQCyk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateHevcAbort",
+      "nid": "VXA8STT529w",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateHevcGetStatus",
+      "nid": "-9LzYPdangA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateHevcInit",
+      "nid": "BgjPgbXKYjE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateHevcIsActivated",
+      "nid": "2HHfdrT+rnQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateHevcSoft",
+      "nid": "f-WtMqIKo20",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateHevcSoftAbort",
+      "nid": "s6ucQ90BW3g",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateHevcSoftGetStatus",
+      "nid": "MyDvxh8+ckI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateHevcSoftInit",
+      "nid": "ytMU6x1nlmU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateHevcSoftIsActivated",
+      "nid": "djVe06YjzkI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateHevcSoftStart",
+      "nid": "PNO2xlDVdzg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateHevcSoftTerm",
+      "nid": "P-awBIrXrTQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateHevcStart",
+      "nid": "E9FdusyklCA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateHevcTerm",
+      "nid": "tImUgGSSHpc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateMpeg2Abort",
+      "nid": "F-nn3DvNKww",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateMpeg2GetStatus",
+      "nid": "W-U8F5o2SHg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateMpeg2Init",
+      "nid": "PkRTWNBI4IQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateMpeg2IsActivated",
+      "nid": "aVZb961bWBU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateMpeg2Start",
+      "nid": "-7zMNJ1Ap1c",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceActivateMpeg2Term",
+      "nid": "JjIspXDbL6o",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceAddLocalProcess",
+      "nid": "0cl8SuwosPQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceAddLocalProcessForJvm",
+      "nid": "jPKapVQLX70",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceAddLocalProcessForPs2Emu",
+      "nid": "tIdXUhSLyOU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceAddLocalProcessForPsmKit",
+      "nid": "cltshBrDLC0",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceAppGetAppInstallStatus",
+      "nid": "HOSnwjsiZMk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceChangeAcpClock",
+      "nid": "FI+VqGdttvI",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceChangeClock",
+      "nid": "mbOc0mgE4GI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceChangeCpuClock",
+      "nid": "ec72vt3WEQo",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceChangeCpuPstate",
+      "nid": "YwrLa0Mekjw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceChangeGpuClock",
+      "nid": "Z5RgV4Chwxg",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceChangeMemPstate",
+      "nid": "1OcQaIYrTnY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceChangeMemoryClock",
+      "nid": "LFo00RWzqRU",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceChangeMemoryClockToBaseMode",
+      "nid": "MyBXslDE+2o",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceChangeMemoryClockToDefault",
+      "nid": "qv+X8gozqF4",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceChangeMemoryClockToMultiMediaMode",
+      "nid": "fOsE5pTieqY",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceChangeNumberOfGpuCu",
+      "nid": "5MLppFJZyX4",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceChangeSamuClock",
+      "nid": "lgTlIAEJ33M",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceChangeUvdClock",
+      "nid": "BQUi7AW+2tQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceChangeVceClock",
+      "nid": "fzguXBQzNvI",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceDeclareReadyForSuspend",
+      "nid": "EqcPA3ugRP8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceDisableMediaPlay",
+      "nid": "64nkF7LGk8w",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceDisableMusicPlayer",
+      "nid": "x1UB9bwDSOw",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceDisableNoticeScreenSkipFlagAutoSet",
+      "nid": "8Lo6Zv94aho",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceDisablePartyVoice",
+      "nid": "45QrFvUkrjg",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceDisablePersonalEyeToEyeDistanceSetting",
+      "nid": "Mr1IgQaRff0",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceDisableSuspendConfirmationDialog",
+      "nid": "PQ+SjXAg3EM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceDisableSuspendNotification",
+      "nid": "Mi0qwCb+rvo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceDisableVoiceRecognition",
+      "nid": "d3OnoKtNjGg",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceEnablePersonalEyeToEyeDistanceSetting",
+      "nid": "O3irWUQ2s-g",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceEnableSuspendConfirmationDialog",
+      "nid": "Rn32O5PDlmo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceEnableSuspendNotification",
+      "nid": "a5Kjjq6HgcU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetAppCategoryType",
+      "nid": "QtfJhsE1x-M",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetAppFocusedAppStatus",
+      "nid": "xjE7xLfrLUk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetAppId",
+      "nid": "TtItikWwBgs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetAppIdListOfBigApp",
+      "nid": "nvpU78k-5Kc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetAppIdOfRunningBigApp",
+      "nid": "NwT2R5lo8P8",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceGetAppLaunchedUser",
+      "nid": "BZGAf+F0blI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetAppStatus",
+      "nid": "t5ShV0jWEFE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetAppStatusListContainsDaemon",
+      "nid": "O+90p3x1qu4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetAppTitleId",
+      "nid": "0YmI09jOP-g",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetAppType",
+      "nid": "YLbhAXS20C0",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetDbgExecutablePath",
+      "nid": "0TDfP7R4fiQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetDisplaySafeAreaInfo",
+      "nid": "1n37q1Bvc5Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemServiceGetEventForDaemon",
+      "nid": "JFg3az5ITN4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetGpuLoadEmulationMode",
+      "nid": "4imyVMxX5-8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetHdrToneMapLuminance",
+      "nid": "mPpPxv5CZt4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemServiceGetLocalProcessStatusList",
+      "nid": "ZNIuJjqdtgI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetMainAppTitleId",
+      "nid": "4veE0XiIugA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetNoticeScreenSkipFlag",
+      "nid": "3RQ5aQfnstU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemServiceGetPSButtonEvent",
+      "nid": "gbUBqHCEgAI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetParentSocket",
+      "nid": "UMIlrOlGNQU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetParentSocketForJvm",
+      "nid": "zqjkZ5VKFSg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetParentSocketForPs2Emu",
+      "nid": "qhPJ1EfqLjQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetParentSocketForPsmKit",
+      "nid": "4ZYuSI8i2aM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetPlatformPrivacyDefinitionData",
+      "nid": "5u2WeL-PR2w",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetPlatformPrivacyDefinitionVersion",
+      "nid": "t5K+IeMVD1Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetPlatformPrivacySetting",
+      "nid": "hvoLYhc4cq0",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetRecentLotusPushedButton",
+      "nid": "NKbUhZWU1Fc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetRemoteplayStatus",
+      "nid": "Getl+RqEhVQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetRenderingMode",
+      "nid": "jA629PcMCKU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetSpotifyTitleId",
+      "nid": "MLIJkgKJV4k",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetStatus",
+      "nid": "rPo6tV8D9bM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemServiceGetSubAppTitleId",
+      "nid": "Ewjywv3W4QA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetSubAppTitleIdForSP",
+      "nid": "Kc8KQ-sG2uA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetTitleWorkaroundInfo",
+      "nid": "VrvpoJEoSSU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetUIStatus",
+      "nid": "J8t8t3eVoMg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceGetVersionNumberOfCameraCalibrationData",
+      "nid": "s4OcLqLsKn0",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceHideSplashScreen",
+      "nid": "Vo5V8KAwCmk",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceInitializeForShellCore",
+      "nid": "gD4wh2+nuuU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceInitializePlayerDialogParam",
+      "nid": "m5CYKX20wfg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemServiceInvokeAppLaunchLink",
+      "nid": "rTa0Vp-4nKA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceIsAppSuspended",
+      "nid": "d-15YTCUMVU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceIsBgmCpuBudgetAvailable",
+      "nid": "1eoAje5ctyA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceIsBgmPlaying",
+      "nid": "SYqaqLuQU6w",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceIsEyeToEyeDistanceAdjusted",
+      "nid": "O4x1B7aXRYE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceIsGameLiveStreamingOnAir",
+      "nid": "HGA2SV-Gkq8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceIsScreenSaverOn",
+      "nid": "bMDbofWFNfQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceIsShellUiFgAndGameBgCpuMode",
+      "nid": "KQFyDkgAjVs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceKillApp",
+      "nid": "N4RkyJh7FtA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceKillLocalProcess",
+      "nid": "6jpZY0WUwLM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceKillLocalProcessForJvm",
+      "nid": "2TJ5KzC73gY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceKillLocalProcessForPs2Emu",
+      "nid": "fKqJTnoZ8C8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceKillLocalProcessForPsmKit",
+      "nid": "7cTc7seJLfQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceLaunchApp",
+      "nid": "l4FB3wNa-Ac",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceLaunchEventDetails",
+      "nid": "wX9wVFaegaM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceLaunchPlayerDialog",
+      "nid": "uaieF+glFPs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemServiceLaunchStore",
+      "nid": "Zj5FGJQPFxs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceLaunchSystemDeeplink",
+      "nid": "Q5icOdSR3v8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceLaunchTournamentList",
+      "nid": "G5AwzWnHxks",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceLaunchTournamentsTeamProfile",
+      "nid": "wIc92b0x6hk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceLaunchUdsApp",
+      "nid": "YNoDjc1BPJI",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceLaunchWebApp",
+      "nid": "f34qn7XA3QE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceLaunchWebBrowser",
+      "nid": "-+3hY+y8bNo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemServiceLoadExec",
+      "nid": "JoBqSQt1yyA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceLoadExecVideoServiceWebApp",
+      "nid": "AmTvo3RT5ss",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceNavigateToAnotherApp",
+      "nid": "9ScDVErRRgw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceNavigateToGoBack",
+      "nid": "e4E3MIEAS2A",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceNavigateToGoBackWithValue",
+      "nid": "ZeubLhPDitw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceNavigateToGoHome",
+      "nid": "x2-o9eBw3ZU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceNotifyBgmCoreTermination",
+      "nid": "r8QyPRbTAAk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceOpenChallengeActivity",
+      "nid": "sPuK5ic3GD4",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceOpenTournamentOccurrence",
+      "nid": "gELp9ue2ccQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceParamGetInt",
+      "nid": "fZo48un7LK4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemServiceParamGetString",
+      "nid": "SsC-m-S9JTA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemServicePowerTick",
+      "nid": "XbbJC3E+L5M",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceRaiseExceptionLocalProcess",
+      "nid": "2xenlv7M-UU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceReceiveEvent",
+      "nid": "656LMQSrg6U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemServiceReenableMediaPlay",
+      "nid": "uInYhy7xa+U",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceReenableMusicPlayer",
+      "nid": "9kPCz7Or+1Y",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceReenablePartyVoice",
+      "nid": "hU3bSlF2OKs",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceReenableVoiceRecognition",
+      "nid": "c-aFKhn74h0",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceRegisterDaemon",
+      "nid": "Pi3K47Xw0ss",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceReleaseBgmCpuBudget",
+      "nid": "MX9WiAJ36BU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceReleaseFb0",
+      "nid": "Oms065qIClY",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceReportAbnormalTermination",
+      "nid": "3s8cHiCBKBE",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceRequestCameraCalibration",
+      "nid": "3ZFpzcRqYsk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceRequestPowerOff",
+      "nid": "d4imyunHryo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceRequestReboot",
+      "nid": "oEJqGsNtFIw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceRequestToChangeRenderingMode",
+      "nid": "P71fvnHyFTQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceResumeLocalProcess",
+      "nid": "tMuzuZcUIcA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceSaveVideoToken",
+      "nid": "DILuzcvXjGQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceSetControllerFocusPermission",
+      "nid": "DNE77sfNw5Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceSetGpuLoadEmulationMode",
+      "nid": "eLWnPuja+Y8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceSetNoticeScreenSkipFlag",
+      "nid": "Q3utJvma4Mo",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceSetOutOfVrPlayAreaFlag",
+      "nid": "Xn-eH9-Fu60",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceSetOutOfVrPlayZoneWarning",
+      "nid": "sgRPNJjrWjg",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceSetPowerSaveLevel",
+      "nid": "nT-7-iG55M8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceShowClosedCaptionAdvancedSettings",
+      "nid": "uhD7g7zXIQo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceShowClosedCaptionSettings",
+      "nid": "5W6LurzMZaY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceShowControllerSettings",
+      "nid": "w9wlKcHrmm8",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceShowDisplaySafeAreaSettings",
+      "nid": "tPfQU2pD4-M",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemServiceShowErrorDialog",
+      "nid": "8QQxOZQP9lc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceShowEyeToEyeDistanceSetting",
+      "nid": "f8eZvJ8hV6o",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceShowImposeMenuForPs2Emu",
+      "nid": "YtDk7X3FF08",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceSuspendBackgroundApp",
+      "nid": "vY1-RZtvvbk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceSuspendLocalProcess",
+      "nid": "kTiAx7e2zU4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceSwitchToNonVRApp",
+      "nid": "N-z5LguAmc0",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceSwitchToVRApp",
+      "nid": "ljtYvVfdWjc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceTelemetrySetData",
+      "nid": "3nn7rnOdt1g",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceTelemetrySetData2",
+      "nid": "83leZmsmmT4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceTelemetrySetData2WithUserId",
+      "nid": "zXF36Pso7wk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceTickVideoPlayback",
+      "nid": "zlXqkzPY-ds",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceTurnOffScreenSaver",
+      "nid": "vOhqz-IMiW4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageGetDeviceInfo",
+      "nid": "LUgpodNR61M",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageGetDeviceList",
+      "nid": "p-79ZEd8qW0",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageGetdentsClose",
+      "nid": "eVpETZzMRn0",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageGetdentsOpen",
+      "nid": "cFrUvCaU5KE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageGetdentsRead",
+      "nid": "L7Xg6xdBniQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageInit",
+      "nid": "vv9n14vQtmo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageIsExist",
+      "nid": "C+P5nUw7FYE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageRegisterCallback",
+      "nid": "rnvDWnAiM2M",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageRegisterCallbackForMapAvailable",
+      "nid": "lt7eNuXpw8Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageRegisterCallbackForMapUnavailable",
+      "nid": "M0CpWNzV-1o",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageRequestMap",
+      "nid": "XTV1xv3H4qw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageRequestMapWSB",
+      "nid": "pHH5hyfxX9Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageRequestUnmap",
+      "nid": "s8vuHbvbtis",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageTerm",
+      "nid": "jQcQgA0GJ6k",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageUnregisterCallback",
+      "nid": "cvTnVQBmRZA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageUnregisterCallbackForMapAvailable",
+      "nid": "4wFdhvGOlHk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemServiceUsbStorageUnregisterCallbackForMapUnavailable",
+      "nid": "jUYKhvT0-lg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrCancelShutdownTimer",
+      "nid": "eBFzDYThras",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrEnterMediaPlaybackMode",
+      "nid": "Ap5dJ0zHRVY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrEnterStandby",
+      "nid": "Laac0S4FuhE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrExtendShutdownTimer",
+      "nid": "rSquvOtwQmk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrExtendShutdownTimerForPostAutoUpdateProcess",
+      "nid": "FzjISMWw5Xg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrGetCurrentState",
+      "nid": "ze0ky5Q1yE8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrGetRebootCause",
+      "nid": "NDHtP8UFJyA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrGetTriggerCode",
+      "nid": "wlxvESTUplk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrIsBdDriveReady",
+      "nid": "cmjuYpVujQs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrIsGpuPerformanceNormal",
+      "nid": "texLPLDXDso",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrIsShellUIShutdownInProgress",
+      "nid": "asLBe0esmIY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrIsStandbyModeEnabled",
+      "nid": "j3IrOCL+DmM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrLeaveMediaPlaybackMode",
+      "nid": "88y5DztlXBE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrNotifySystemSuspendResumeProgress",
+      "nid": "H2f6ZwIqLJg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrReboot",
+      "nid": "uR1wFHXX1XQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrRequestToKeepMainOnStandby",
+      "nid": "9WRHk1wQT08",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrSendCecOneTouchPlayCommand",
+      "nid": "gPx1b36zyMY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrStartRebootTimer",
+      "nid": "PcJ5DLzZXSs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrStartShutdownTimer",
+      "nid": "7qf7mhzOQPo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrStartStadbyTimer",
+      "nid": "ZwhQSHTqGpE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrStartVshAutoUpdateTimer",
+      "nid": "YWftBq50hcA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrTickMusicPlayback",
+      "nid": "ypl-BoZZKOM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrTickPartyChat",
+      "nid": "GvqPsPX4EUI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrTickVideoPlayback",
+      "nid": "OsF-lUXBrXc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrTurnOff",
+      "nid": "gK3EX6ZKtKc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrVshAutoUpdate",
+      "nid": "U1dZXAjkBVo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrWaitVshAutoUpdateVerifyDone",
+      "nid": "geg26leOsvw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemStateMgrWakeUp",
+      "nid": "6gtqLPVTdJY",
+      "state": "stub"
+    }
+  ]
+}

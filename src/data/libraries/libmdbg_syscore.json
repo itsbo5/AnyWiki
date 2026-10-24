@@ -1,0 +1,727 @@
+{
+  "name": "libmdbg_syscore",
+  "label": "libmdbg_syscore",
+  "category": "Core system",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 143,
+  "total": 143,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceDebugAcquireAndUpdateDebugRegister",
+      "nid": "3T08s8+BBT4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugAttachProcess",
+      "nid": "RkNs5WxpMzg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugCancelCoredump",
+      "nid": "jkV8zFTpxIk",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugClearStepThread",
+      "nid": "FF2LpsJxclY",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugCreatePerfScratchDataArea",
+      "nid": "IeXW4fnPkyw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugCreatePerfScratchExecutableArea",
+      "nid": "WIkuITeINl8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugCreateScratchDataArea",
+      "nid": "a8xfs-qh9WA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugCreateScratchDataAreaForPrx",
+      "nid": "juaxHn6Boy8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugCreateScratchExecutableArea",
+      "nid": "FS33uqKkEJA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugCreateScratchExecutableAreaForPrx",
+      "nid": "2VMtYW1k054",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugDestroyPerfScratchDataArea",
+      "nid": "QZaLNZ58fUE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugDestroyPerfScratchExecutableArea",
+      "nid": "G4tFfSDPtXU",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugDestroyScratchDataArea",
+      "nid": "Q29NWnvK6OI",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugDestroyScratchExecutableArea",
+      "nid": "0Swj6A9svdo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugDetachProcess",
+      "nid": "rB1RFXt+i-Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetApplicationIdByTitleId",
+      "nid": "qSPximdlUuY",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetApplicationInfo",
+      "nid": "RD3shWR4Vok",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetApplicationList",
+      "nid": "tdpqr1lzbOw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetCrashInfoDetailForCoredump",
+      "nid": "hfYwLMweFS4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetCrashInfoForCoredump",
+      "nid": "vcBDDGi8xl0",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetDLLoadFlag",
+      "nid": "XUIWT5yKPuc",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetDataListOfUltQueue",
+      "nid": "5SmjWNahyeo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetDebugRegisterStatusMap",
+      "nid": "hLSyGuNQ0yo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetEventList",
+      "nid": "njVl0vsj1Co",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetEventListForEQueueFd",
+      "nid": "x8mJ9x9-beY",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetEventSubscriptionList",
+      "nid": "ZNrq7K50qKI",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetEventSubscriptionListForEQueueFd",
+      "nid": "J20mpxC9gDA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetFiberInfo",
+      "nid": "ZvSXUtAtj2M",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetFileInfo",
+      "nid": "-QuLOgrBhew",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetFileInfoForCoredump",
+      "nid": "+QMFuN0mi5o",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetFileList",
+      "nid": "a7MagzVs4cI",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetFileListForCoredump",
+      "nid": "Jv9NQNlhK+k",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetGpuInfoArea",
+      "nid": "xexuBx9rGvg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetJobManagerInfo",
+      "nid": "TWvPsc6MkmA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetJobManagerSequenceInfo",
+      "nid": "wigNLIF1CtE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetJobManagerSequenceList",
+      "nid": "lP6QEEoBVqE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetModuleInfo",
+      "nid": "+cSD1hGmg+0",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetModuleList",
+      "nid": "HaI8g79+OOA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetModuleMetaData",
+      "nid": "18ylu1q-Us8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetMonoVMInfo",
+      "nid": "y+o5ZkkHMik",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetMonoVMList",
+      "nid": "dvp-mPrfQfk",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetProcessCoredumpHandlerEventBlob",
+      "nid": "WjKbVlARycE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetProcessCoredumpHandlerEventInfo",
+      "nid": "+q-vrfWR3Dw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetProcessCoredumpHandlerResult",
+      "nid": "z02CN9uBlVE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetProcessEventCntlFlag",
+      "nid": "Zi+rAm6czUg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetProcessInfo",
+      "nid": "kaqTf5y2P0E",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetProcessList",
+      "nid": "OUYYl+QEzZc",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetProcessPropertyForCoredump",
+      "nid": "KC23EegtMiY",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetProcessResourceStatCount",
+      "nid": "ZO8MOyrVom4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetProcessResourceStatData",
+      "nid": "VDaygNXQnho",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetProcessTime",
+      "nid": "z+lnWWgaXlI",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetProcessTimeCounter",
+      "nid": "TmzFll8mofs",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetSyncExclusiveWaiterList",
+      "nid": "+z2ejY-8WLw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetSyncObjectData",
+      "nid": "uqwYatrm6s8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetSyncObjectList",
+      "nid": "7VxUuGJJD5M",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetSyncWaiterList",
+      "nid": "5tAHSWQfomw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetSyncWaiterListForEQueueFd",
+      "nid": "SqPs2qGVqcQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetSystemStatusBlob",
+      "nid": "Pdj54NJ5P+4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetSystemStatusCount",
+      "nid": "oM5qJ4oZVZU",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetThreadInfo",
+      "nid": "6RdLdsNW3dY",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetThreadInfoByIdent",
+      "nid": "d8VkdhIzhoI",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetThreadList",
+      "nid": "MilSVS0uHvA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetThreadListAsIdent",
+      "nid": "L0CXby6mmKg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetUlObjectList",
+      "nid": "NhaQPBB7F3k",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetUltCondvarInfo",
+      "nid": "pdbdz2ccLfo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetUltInfo",
+      "nid": "22C8vFKX2u4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetUltListOfUltRuntime",
+      "nid": "5J9k6e9d9DA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetUltMutexInfo",
+      "nid": "FcVRhZfdD6M",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetUltQueueDataResourcePoolInfo",
+      "nid": "LXYJ384Fq2E",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetUltQueueInfo",
+      "nid": "25PEYXEnaJ0",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetUltRuntimeInfo",
+      "nid": "cPtUwd8Dtgk",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetUltRwlockInfo",
+      "nid": "evqHA+pYo+c",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetUltSemaphoreInfo",
+      "nid": "KaOJiDrykP8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetUltWaitingQueueResourcePoolInfo",
+      "nid": "-Ruc8RY6MSo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetVirtualMemoryDetailInfoForCoredump",
+      "nid": "9fAPih-AeJo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetVirtualMemoryInfo",
+      "nid": "h-JkOgS7Ljg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetVirtualMemoryInfoForCoredump",
+      "nid": "L9bnN8gtIRA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetWaitingListOfUltCondvar",
+      "nid": "TMXA-Mek+oc",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetWaitingListOfUltMutex",
+      "nid": "DeqX7jLWt1A",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetWaitingListOfUltQueue",
+      "nid": "jr+uI0s+r0c",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetWaitingListOfUltRwlock",
+      "nid": "t9cqEi3l2i8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetWaitingListOfUltSemaphore",
+      "nid": "kB3Njn2JIxg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugGetWorkerThreadListOfUltRuntime",
+      "nid": "p-NcyN-4t34",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugInit",
+      "nid": "6+bfgq18W84",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugInitForCoredump",
+      "nid": "FAqD7n94bYY",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugInitForTest",
+      "nid": "SP-7qOzwl7U",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetBlockTimeInfoList",
+      "nid": "KEOtPPGr59w",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetBlockedIpcInfo",
+      "nid": "qNbjzkre+NE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetChannelInfo",
+      "nid": "yYiv7rqRorw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetChannelKidList",
+      "nid": "4slehMAh00w",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetChannelWaitingThreadList",
+      "nid": "XuJAJecAwbM",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetClientInfo",
+      "nid": "jQx7y+e2+Ww",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetClientKidList",
+      "nid": "QN-BpZYsomU",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetClientKidListByDump",
+      "nid": "pb20o9PCWxE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetClientKidListByServerKid",
+      "nid": "N6lOuDxmAiU",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetConnectRequestInfoList",
+      "nid": "3Ckj9wlRA7c",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetConnectionInfoList",
+      "nid": "8lWNf9MWnHw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetConnectionWaitingThreadListByClientKid",
+      "nid": "wEaYn3s7qns",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetConnectionWaitingThreadListBySessionKid",
+      "nid": "qxVqb-SUAko",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetDump",
+      "nid": "7-R7QqM35s0",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetEncryptedInfoAllForCoredump",
+      "nid": "z0rTBoG5zX8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetKidInfoListForCoredump",
+      "nid": "WerRlm8NBuE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetServerDispatchInfo",
+      "nid": "VU9AJf1AaH4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetServerInfo",
+      "nid": "61SRHOc+Zl4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetServerKidList",
+      "nid": "m6paE6+CiTA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetServerKidListByDump",
+      "nid": "YMncbReoIU4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetServerWaitingThreadList",
+      "nid": "Nr273YqaAvo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetSessionInfo",
+      "nid": "mAPVf1I2+is",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetSessionKidList",
+      "nid": "ycUmaLtD3Mo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetSessionKidListByServerKid",
+      "nid": "zMetPkNDkYU",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugIpmiGetTidListByDump",
+      "nid": "W849NdAuFHQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugKillApplication",
+      "nid": "jKGq8JG6K1Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugKillProcess",
+      "nid": "H-WaabqfU-I",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugNoStopChildProcesses",
+      "nid": "HxGTYmj3LJ8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugNoStopOnDLLoad",
+      "nid": "HGDKKtTRpog",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugProcessSpawn",
+      "nid": "2ezc3rKyIqM",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugReadEvent",
+      "nid": "HB57CbhjcLw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugReadEventForTest",
+      "nid": "yBZdGSpnkHU",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugReadProcessMemory",
+      "nid": "QoMN8tdi8K0",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugReadProcessMemoryForSDBGP",
+      "nid": "3bYJjwtsUQc",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugReadProcessRegister",
+      "nid": "tSEVQ2wu6Q8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugReadProcessRegisterForSDBGP",
+      "nid": "JZOeaOI8rU8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugReadProcessResourceStatData",
+      "nid": "3gB9EbKwJyQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugReadThreadRegister",
+      "nid": "ARowrgmuN94",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugReadThreadRegisterForSDBGP",
+      "nid": "EFPddKZhjgw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugReleaseDebugRegister",
+      "nid": "JIm0mxpJAdM",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugResumeApplication",
+      "nid": "8XiF7OmlpcM",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugResumeProcess",
+      "nid": "LDUnJvas7aA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugResumeThread",
+      "nid": "qDIcu3MnDOk",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugSetProcessEventCntlFlag",
+      "nid": "--I4Ml0ADxQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugSetStepThread",
+      "nid": "tRdLlsyNo9g",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugSpawnApplication",
+      "nid": "yqIOrJbpTu4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugStopChildProcesses",
+      "nid": "5n-wRxhsTXU",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugStopOnDLLoad",
+      "nid": "fiVAYOf2PZE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugSuspendApplication",
+      "nid": "nITiXSwEc6w",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugSuspendProcess",
+      "nid": "nzqN4RdflwM",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugSuspendThread",
+      "nid": "iAMvRxEvs5o",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugTriggerCoredump",
+      "nid": "EY8cOKuR7Bc",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugTriggerCoredumpForSystem",
+      "nid": "+zffgsy7hRw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugTriggerVrCaptureDump",
+      "nid": "3xy2vPK0o6c",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugWriteProcessMemory",
+      "nid": "QTpgnwUVRWw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugWriteProcessRegister",
+      "nid": "qXMciKkR0H0",
+      "state": "stub"
+    },
+    {
+      "name": "sceDebugWriteThreadRegister",
+      "nid": "tHeVbJMcEv8",
+      "state": "stub"
+    }
+  ]
+}

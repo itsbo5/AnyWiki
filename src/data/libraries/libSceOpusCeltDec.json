@@ -1,0 +1,67 @@
+{
+  "name": "libSceOpusCeltDec",
+  "label": "OpusCeltDec",
+  "category": "Audio and media",
+  "implemented": 6,
+  "inert": 0,
+  "stub": 5,
+  "total": 11,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceOpusCeltDecCreate",
+      "nid": "z8N+d7DLC4E",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltDecCreateEx",
+      "nid": "z6eJnrUEaVY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceOpusCeltDecCtl",
+      "nid": "jCeqFWeN9HA",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltDecDecode",
+      "nid": "6fxZHeuNhIA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceOpusCeltDecDecodeFloat",
+      "nid": "zKQEeM0cBVs",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltDecDecodeFloatWithPriority",
+      "nid": "GF5cVgFKg4g",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltDecDecodeWithPriority",
+      "nid": "q76RU0c+L+4",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltDecDestroy",
+      "nid": "Sn-MpfGTN9w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceOpusCeltDecGetSize",
+      "nid": "xUp4-mftj5I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceOpusCeltDecInitialize",
+      "nid": "VMOyIG83Jtg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceOpusCeltDecTerminate",
+      "nid": "pkri5OAPsJk",
+      "state": "implemented"
+    }
+  ]
+}

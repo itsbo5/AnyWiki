@@ -1,0 +1,47 @@
+{
+  "name": "libSceUsbStorageDialog",
+  "label": "UsbStorageDialog",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceUsbStorageDialogClose",
+      "nid": "K7Vb-7JGXVc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbStorageDialogGetResult",
+      "nid": "ul-kdmwPExY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbStorageDialogGetStatus",
+      "nid": "zI+X8+h6dL8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbStorageDialogInitialize",
+      "nid": "IX49aL2rOGU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbStorageDialogOpen",
+      "nid": "ClBMa8CWKkM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbStorageDialogTerminate",
+      "nid": "O2rgVi8YyOg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbStorageDialogUpdateStatus",
+      "nid": "MpXK+QLRpwU",
+      "state": "implemented"
+    }
+  ]
+}

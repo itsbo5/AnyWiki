@@ -1,0 +1,5 @@
+{
+  "hash": "5b65588957f8b2020adb1f264a3d9408c997297f",
+  "date": "Sat Oct 24 17:22:08 2026 +0400",
+  "subject": "perf(agc): allow direct GPU presentation for 8-bit resident images on 10-bit displays"
+}

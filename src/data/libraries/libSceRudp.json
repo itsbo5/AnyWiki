@@ -1,0 +1,182 @@
+{
+  "name": "libSceRudp",
+  "label": "Rudp",
+  "category": "Network and services",
+  "implemented": 26,
+  "inert": 0,
+  "stub": 8,
+  "total": 34,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceRudpAccept",
+      "nid": "uQiK7fjU6y8",
+      "state": "stub"
+    },
+    {
+      "name": "sceRudpActivate",
+      "nid": "J-6d0WTjzMc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpBind",
+      "nid": "l4SLBpKUDK4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpCreateContext",
+      "nid": "CAbbX6BuQZ0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpEnableInternalIOThread",
+      "nid": "6PBNpsgyaxw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpEnableInternalIOThread2",
+      "nid": "fJ51weR1WAI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpEnd",
+      "nid": "3hBvwqEwqj8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpFlush",
+      "nid": "Ms0cLK8sTtE",
+      "state": "stub"
+    },
+    {
+      "name": "sceRudpGetContextStatus",
+      "nid": "wIJsiqY+BMk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpGetLocalInfo",
+      "nid": "2G7-vVz9SIg",
+      "state": "stub"
+    },
+    {
+      "name": "sceRudpGetMaxSegmentSize",
+      "nid": "vfrL8gPlm2Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpGetNumberOfPacketsToRead",
+      "nid": "Px0miD2LuW0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpGetOption",
+      "nid": "mCQIhSmCP6o",
+      "state": "stub"
+    },
+    {
+      "name": "sceRudpGetRemoteInfo",
+      "nid": "Qignjmfgha0",
+      "state": "stub"
+    },
+    {
+      "name": "sceRudpGetSizeReadable",
+      "nid": "sAZqO2+5Qqo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpGetSizeWritable",
+      "nid": "fRc1ahQppR4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpGetStatus",
+      "nid": "i3STzxuwPx0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpInit_nid_postfix",
+      "nid": "wLQEJKb0LRI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpInitiate",
+      "nid": "szEVu+edXV4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpListen",
+      "nid": "tYVWcWDnctE",
+      "state": "stub"
+    },
+    {
+      "name": "sceRudpNetFlush",
+      "nid": "+BJ9svDmjYs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpNetReceived",
+      "nid": "vPzJldDSxXc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpPollCancel",
+      "nid": "yzeXuww-UWg",
+      "state": "stub"
+    },
+    {
+      "name": "sceRudpPollControl",
+      "nid": "haMpc7TFx0A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpPollCreate",
+      "nid": "MVbmLASjn5M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpPollDestroy",
+      "nid": "LjwbHpEeW0A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpPollWait",
+      "nid": "M6ggviwXpLs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpProcessEvents",
+      "nid": "9U9m1YH0ScQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpRead",
+      "nid": "rZqWV3eXgOA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpSetEventHandler",
+      "nid": "SUEVes8gvmw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpSetMaxSegmentSize",
+      "nid": "beAsSTVWVPQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceRudpSetOption",
+      "nid": "0yzYdZf0IwE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpTerminate",
+      "nid": "OMYRTU0uc4w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRudpWrite",
+      "nid": "KaPL3fbTLCA",
+      "state": "implemented"
+    }
+  ]
+}

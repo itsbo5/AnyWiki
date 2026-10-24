@@ -1,0 +1,132 @@
+{
+  "name": "libSceVideoRecordingP",
+  "label": "VideoRecordingP",
+  "category": "Graphics and video",
+  "implemented": 2,
+  "inert": 4,
+  "stub": 18,
+  "total": 24,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "_sceVideoRecordingQueryParam_nid_postfix",
+      "nid": "lQCg43QZUqs",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingClose",
+      "nid": "KHvkPQJDMLk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingCloseByHandle",
+      "nid": "FDAvHQuI70c",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingCopyBGRAtoNV12",
+      "nid": "QNg8KGixrzg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingGetInfo",
+      "nid": "sA6+5XdbqMA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoRecordingGetInfoByHandle",
+      "nid": "YGRDoLmH2tk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingGetStatus",
+      "nid": "fZJQzFK4Gv4",
+      "state": "inert"
+    },
+    {
+      "name": "sceVideoRecordingGetSupportInfo",
+      "nid": "496OAXH9THg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingGetVideoOutMode",
+      "nid": "XulaVOa6IwA",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingInit",
+      "nid": "RXXBl6-iimo",
+      "state": "inert"
+    },
+    {
+      "name": "sceVideoRecordingInitialize",
+      "nid": "ZbyfYeyVajk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingOpen",
+      "nid": "7QoTYzVuzto",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingOpen2",
+      "nid": "s28dalBwp2g",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingQueryHddSize2",
+      "nid": "qOmh6HvHhSs",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingQueryMemSize",
+      "nid": "ZvWzS2wTIMc",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingQueryMemSize2",
+      "nid": "bGYkY6q3bIw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingRestModeProcessGetStatus",
+      "nid": "4cS74wnODLM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingRestModeProcessStart",
+      "nid": "pVxEtvHOtXc",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingSendCommand",
+      "nid": "mEy7di8MT30",
+      "state": "inert"
+    },
+    {
+      "name": "sceVideoRecordingSetInfo",
+      "nid": "Fc8qxlKINYQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoRecordingStart",
+      "nid": "tWoe9IlGAhs",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingStop",
+      "nid": "OOFxrMY+mfI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoRecordingTerm",
+      "nid": "gWZikoR+g9g",
+      "state": "inert"
+    },
+    {
+      "name": "videoRecordingUnknown_iQS6DUtLybE",
+      "nid": "3oqv1Bz78BU",
+      "state": "stub"
+    }
+  ]
+}

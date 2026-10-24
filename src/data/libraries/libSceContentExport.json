@@ -1,0 +1,122 @@
+{
+  "name": "libSceContentExport",
+  "label": "ContentExport",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 15,
+  "total": 22,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceContentExportAddToFavorites",
+      "nid": "VcGSoCZ5KJc",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportCancel",
+      "nid": "efqHe7wPRbs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentExportDataProvideFunction",
+      "nid": "YrZGV8Z7pf0",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportFinish",
+      "nid": "tb3cZTCl8Ps",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentExportFree",
+      "nid": "RkjtNXjJrpo",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportFrom",
+      "nid": "dCj9MDI+BEA",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportFromData",
+      "nid": "AOWqIYsgVHs",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportFromDataWithThumbnail",
+      "nid": "uZTQHI50WpY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentExportFromFile",
+      "nid": "OWCJUmrWH1g",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportFromFileForSf",
+      "nid": "dYP0BXoAdBY",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportFromFileWithContentIdList",
+      "nid": "bU89EJ+j9f0",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportFromFileWithThumbnail",
+      "nid": "mbakKLPSO4o",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportFromFileWithTitleIdList",
+      "nid": "HK-7ir0qAkg",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportGetProgress",
+      "nid": "eRJv4xU7pGU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentExportInit",
+      "nid": "FzEWeYnAFlI",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportInit2",
+      "nid": "0GnN4QCgIfs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentExportMalloc",
+      "nid": "InUjDOhST90",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportRemoveFromFavorites",
+      "nid": "3QeaSwDv3G4",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportRenameContent",
+      "nid": "NyGyw1LJwAo",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentExportStart",
+      "nid": "FCygF4Ec4so",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentExportTerm",
+      "nid": "+KDWny9Y-6k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentExportValidateContents",
+      "nid": "sVN0cBKC-4s",
+      "state": "stub"
+    }
+  ]
+}

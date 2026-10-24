@@ -1,0 +1,22 @@
+{
+  "name": "libSceAudioSystem",
+  "label": "AudioSystem",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 2,
+  "total": 2,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAudioSystemSystemResume",
+      "nid": "I4oxnvdvQmk",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudioSystemSystemSuspend",
+      "nid": "0E2eyiIG7wM",
+      "state": "stub"
+    }
+  ]
+}

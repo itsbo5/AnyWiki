@@ -1,0 +1,127 @@
+{
+  "name": "libSceNpWebApi",
+  "label": "NpWebApi",
+  "category": "Network and services",
+  "implemented": 8,
+  "inert": 0,
+  "stub": 15,
+  "total": 23,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpWebApiAbortRequest",
+      "nid": "JzhYTP2fG18",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiCreateContext",
+      "nid": "x1Y7yiYSk7c",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiCreateHandle",
+      "nid": "79M-JqvvGo0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApiCreatePushEventFilter",
+      "nid": "y5Ta5JCzQHY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApiCreateRequest",
+      "nid": "rdgs5Z1MyFw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiCreateServicePushEventFilter",
+      "nid": "sIFx734+xys",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApiDeleteContext",
+      "nid": "XUjdsSTTZ3U",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiDeleteHandle",
+      "nid": "5Mn7TYwpl30",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApiDeletePushEventFilter",
+      "nid": "zE+R6Rcx3W0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApiDeleteRequest",
+      "nid": "noQgleu+KLE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiDeleteServicePushEventFilter",
+      "nid": "PfQ+f6ws764",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApiGetHttpResponseHeaderValue",
+      "nid": "VwJ5L0Higg0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiGetHttpResponseHeaderValueLength",
+      "nid": "743ZzEBzlV8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiGetHttpStatusCode",
+      "nid": "k210oKgP80Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiInitialize",
+      "nid": "G3AnLNdRBjE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApiReadData",
+      "nid": "CQtPRSF6Ds8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiRegisterPushEventCallback",
+      "nid": "PfSTDCgNMgc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiRegisterServicePushEventCallback",
+      "nid": "kJQJE0uKm5w",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiSendRequest",
+      "nid": "kVbL4hL3K7w",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiTerminate",
+      "nid": "asz3TtIqGF8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApiUnregisterPushEventCallback",
+      "nid": "qK4o2656W4w",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiUnregisterServicePushEventCallback",
+      "nid": "2edrkr0c-wg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApiUtilityParseNpId",
+      "nid": "or0e885BlXo",
+      "state": "stub"
+    }
+  ]
+}

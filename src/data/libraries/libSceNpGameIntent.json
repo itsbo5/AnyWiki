@@ -1,0 +1,102 @@
+{
+  "name": "libSceNpGameIntent",
+  "label": "NpGameIntent",
+  "category": "Network and services",
+  "implemented": 4,
+  "inert": 6,
+  "stub": 8,
+  "total": 18,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpAppLauncherInitialize",
+      "nid": "od0pFsDoez0",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpAppLauncherLaunchApp",
+      "nid": "GbayQ7DO8jA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLauncherTerminate",
+      "nid": "sy3PioM8TPE",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpGameIntentGetPropertyValueString",
+      "nid": "rPl0INNc-M8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGameIntentGetUdsNpComId",
+      "nid": "KNggmcdqc2Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpGameIntentInfoInit",
+      "nid": "bNtyxL-WHDQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGameIntentInitParamInit",
+      "nid": "iZ0oZLxmRAk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGameIntentInitialize",
+      "nid": "m87BHxt-H60",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpGameIntentLaunchApp",
+      "nid": "DAR+Nuv4E7M",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpGameIntentLaunchApp2",
+      "nid": "d-YDTQrxDJA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpGameIntentNotifyAppLaunched",
+      "nid": "opFs796vTHg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpGameIntentReceiveIntent",
+      "nid": "jEIXUAr9XE8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGameIntentTerminate",
+      "nid": "0HBYxYAjmf0",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpGameIntentVshInitialize",
+      "nid": "6mfAl86QLD4",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpGameIntentVshTerminate",
+      "nid": "cqGqmppofXk",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpSessionServiceGetJoinedPartySession",
+      "nid": "EfgH5jBjqpM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSessionServiceGetRunningGamePlayerSession",
+      "nid": "tEGD9ugK0w8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSessionServiceSendPlayerSessionInvitations",
+      "nid": "f2jyE0mDY5k",
+      "state": "stub"
+    }
+  ]
+}

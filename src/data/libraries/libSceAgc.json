@@ -1,0 +1,1212 @@
+{
+  "name": "libSceAgc",
+  "label": "Agc",
+  "category": "Graphics and video",
+  "implemented": 175,
+  "inert": 51,
+  "stub": 14,
+  "total": 240,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAgcAcbAcquireMem",
+      "nid": "KT-hTp-Ch14",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbAcquireMemGetSize",
+      "nid": "ewobAQeMo5k",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcAcbAtomicGdsGetSize",
+      "nid": "hcIxS8pmXF4",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcAcbAtomicGds_0900",
+      "nid": "gQkqkLttcpw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbAtomicMem",
+      "nid": "XKKuA6VkSRc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbAtomicMemGetSize",
+      "nid": "da1Sm8-QDoU",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcAcbCondExec",
+      "nid": "qyM2bxYFPAk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbCondExecGetSize",
+      "nid": "ozKzBP4aki4",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcAcbCopyData",
+      "nid": "qzMN2XKGA4k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbCopyDataGetSize",
+      "nid": "CbQh3DKMSno",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcAcbDispatchIndirect",
+      "nid": "j3EtxFkSIhQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbDispatchIndirectGetSize",
+      "nid": "PxKWV2fVAps",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcAcbDmaData",
+      "nid": "-RnpfpxIhec",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbDmaDataGetSize",
+      "nid": "M0ttm8h7SKA",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcAcbEventWrite",
+      "nid": "cFazmnXpJOE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbEventWriteGetSize",
+      "nid": "Y-5vneiBtzk",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcAcbInitializeDefaultHardwareState",
+      "nid": "rPtseVo5ToI",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcAcbJump",
+      "nid": "e1DFTg+Sd8U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbJumpGetSize",
+      "nid": "b-oySn+G2tE",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcAcbMemSemaphore",
+      "nid": "q4VuU-QsLOE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbPopMarker",
+      "nid": "6mFxkVqdmbQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbPrimeUtcl2",
+      "nid": "szG7hz2yEhA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbPrimeUtcl2GetSize",
+      "nid": "eCjKaqeeQ5s",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcAcbPushMarker",
+      "nid": "cpCILPya5Zk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbPushMarkerSpan",
+      "nid": "8Kly1JrJUlw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcAcbQueueEndOfShaderActionGetSize",
+      "nid": "F8NLhWvFemI",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcAcbResetQueue",
+      "nid": "JrtiDtKeS38",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbRewind",
+      "nid": "DwICrVxerkY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbRewindGetSize",
+      "nid": "0ZOG0jc9nRg",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcAcbSetFlip",
+      "nid": "ebixW91gpPw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbSetMarker",
+      "nid": "xAeBOa0A3kk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbSetMarkerSpan",
+      "nid": "pxx-GoOSdw4",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcAcbSetWorkloadComplete",
+      "nid": "opR1JeJZCBU",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcAcbSetWorkloadStreamInactive",
+      "nid": "FcgdDM3MB+k",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcAcbSetWorkloadsActive",
+      "nid": "rVOmPz2RBlg",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcAcbWaitOnAddressGetSize",
+      "nid": "idlaArvdXEs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbWaitRegMem",
+      "nid": "htn36gPnBk4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbWaitUntilSafeForRendering",
+      "nid": "GPbUp9jXQa8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcbWriteData",
+      "nid": "eZ4+17OQz4Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAcquireMemSetEngine",
+      "nid": "W0WEyog0f74",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcAsyncCondExecPatchSetCommandAddress",
+      "nid": "3ZWa3AoyWZQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAsyncCondExecPatchSetEnd",
+      "nid": "k-JpyR2dYAM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAsyncRewindPatchSetRewindState",
+      "nid": "eWaWyFegzgQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAsyncWriteDataPatchSetAddressOrOffset",
+      "nid": "d4NZIlguzv0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAsyncWriteDataPatchSetCachePolicy",
+      "nid": "y5K5tPktiL8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcAsyncWriteDataPatchSetDst",
+      "nid": "EJBA4dbmvfg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcBranchPatchSetCompareAddress",
+      "nid": "GXBlM-ekzrI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcBranchPatchSetElseTarget",
+      "nid": "QmfvaYpsOcI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcBranchPatchSetElseTarget_0300",
+      "nid": "rP5xLdOf26k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcBranchPatchSetThenTarget",
+      "nid": "xb8VgcXQhvI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcBranchPatchSetThenTarget_0300",
+      "nid": "7Wa3aeJgeVU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbBranch",
+      "nid": "w1KFAHVqpaU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbBranchGetSize",
+      "nid": "uZW-mqsxkrM",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcCbCondWrite",
+      "nid": "7toV+elXqNM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbCondWriteGetSize",
+      "nid": "FuVbkyKlf+s",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcCbDispatch",
+      "nid": "k3GhuSNmBLU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbDispatchGetSize",
+      "nid": "Abendgtz+3o",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcCbMemSemaphore",
+      "nid": "vHX9guneRBY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbMemsetExclusive",
+      "nid": "6nths4DHNrs",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcCbNopGetSize",
+      "nid": "t7PlZ9nt5Lc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbNop_nid_postfix",
+      "nid": "lXR4p9MLuV8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbQueueEndOfPipeActionGetSize",
+      "nid": "hL7C0IRpWZI",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcCbReleaseMem",
+      "nid": "wr23dPKyWc0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbSetShRegisterRangeDirect",
+      "nid": "n2fD4A+pb+g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbSetShRegisterRangeDirectGetSize",
+      "nid": "bxGoVxpdSPQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbSetShRegistersDirect",
+      "nid": "UZbQjYAwwXM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbSetShRegistersDirectGetSize",
+      "nid": "yUBESvCCJ4I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbSetUcRegisterRangeDirect",
+      "nid": "MDLD5Ly94Xk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbSetUcRegisterRangeDirectGetSize",
+      "nid": "JOWmDrl+j20",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbSetUcRegistersDirect",
+      "nid": "03RZmELWWzw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCbSetUcRegistersDirectGetSize",
+      "nid": "TGEZzUWLbrc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCondExecPatchSetCommandAddress",
+      "nid": "YWTKOju587o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCondExecPatchSetEnd",
+      "nid": "ORWsxIbk4TE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCreateInterpolantMapping_0100",
+      "nid": "HV4j+E0MBHE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCreateInterpolantMapping_10000",
+      "nid": "dbOlWdppb4o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCreateInterpolantMapping_nid_postfix",
+      "nid": "WVK7s6XsZl0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCreatePrimState",
+      "nid": "D9sr1xGUriE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcCreateShader",
+      "nid": "f3dg2CSgRKY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbAcquireMem",
+      "nid": "57labkp+rSQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbAcquireMemGetSize",
+      "nid": "-vnlTPPXPrw",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbAtomicGds",
+      "nid": "pH3-dfRpfA0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbAtomicGdsGetSize",
+      "nid": "1tB0xkLNjcw",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbAtomicGds_0900",
+      "nid": "zARR5aCmkoY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbAtomicMem",
+      "nid": "1-gUn1PI4Sw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbAtomicMemGetSize",
+      "nid": "oz6zQq1JwCE",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbBeginOcclusionQueryGetSize",
+      "nid": "ms1xVoZ-Vwc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbClearState",
+      "nid": "PxEFhy0d5v8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbCondExec",
+      "nid": "BIPexNBSGog",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbCondExecGetSize",
+      "nid": "ou16V5hh5sg",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbContextStateOp",
+      "nid": "HabmgqPwPw0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbContextStateOpGetSize",
+      "nid": "H6vHS5cidSA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbContextStateOp_0100",
+      "nid": "qj7QZpgr9Uw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbCopyData",
+      "nid": "1rZSWUv1IRc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbCopyDataGetSize",
+      "nid": "b5u0Jzm8TF8",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbDispatchIndirect",
+      "nid": "CtB+A9-VxO0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbDispatchIndirectGetSize",
+      "nid": "w8HVkEeXPv8",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbDmaData",
+      "nid": "WmAc2MEj6Io",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbDmaDataGetSize",
+      "nid": "2ccJz9LQI+w",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbDrawIndex",
+      "nid": "q88lQ+GP5Yk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbDrawIndexAuto",
+      "nid": "Yw0jKSqop+E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbDrawIndexAutoGetSize",
+      "nid": "WrdP9Zxx3lQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbDrawIndexGetSize",
+      "nid": "6ee9Hd3EWXQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbDrawIndexIndirect",
+      "nid": "t1vNu082-jM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbDrawIndexIndirectGetSize",
+      "nid": "mStuvI0zOtc",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbDrawIndexIndirectMulti",
+      "nid": "ypVBz4uPKcQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbDrawIndexIndirectMultiGetSize",
+      "nid": "r98I08t+LOg",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbDrawIndexMultiInstanced",
+      "nid": "Rlx+bykm0r0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbDrawIndexMultiInstancedGetSize",
+      "nid": "mR9j7+SfM34",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbDrawIndexOffset",
+      "nid": "B+aG9DUnTKA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbDrawIndexOffsetGetSize",
+      "nid": "qMlfB1ZhMDc",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbDrawIndirect",
+      "nid": "1q1titRBL6o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbDrawIndirectGetSize",
+      "nid": "cxPZ4Wgvdj8",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbDrawIndirectMulti",
+      "nid": "kUlvghKs-mA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbDrawIndirectMultiGetSize",
+      "nid": "pYoKs3lPy88",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbEndOcclusionQueryGetSize",
+      "nid": "P1CugZ99Uzc",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbEventWrite",
+      "nid": "aJf+j5yntiU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbEventWriteGetSize",
+      "nid": "C4l9fB17t8w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbGetLodStats",
+      "nid": "vuSXe69VILM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbGetLodStatsGetSize",
+      "nid": "rUuVjyR+Rd4",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbGetSystemSoftwareVersion",
+      "nid": "8bEoPltS6gs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbJump",
+      "nid": "xSAR0LTcRKM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbJumpGetSize",
+      "nid": "VEGu4dixjUg",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbMemSemaphore",
+      "nid": "G0jrLdvEqDw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbPopMarker",
+      "nid": "H7uZqCoNuWk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbPrimeUtcl2",
+      "nid": "jt3pl7EN17o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbPrimeUtcl2GetSize",
+      "nid": "KjPeVduz6jU",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbPushMarker",
+      "nid": "+kSrjIVxKFE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbPushMarkerSpan",
+      "nid": "N7M3+N-sBCw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDcbQueueEndOfShaderActionGetSize",
+      "nid": "zg6u-N6Otxs",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbResetQueue",
+      "nid": "TRO721eVt4g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbRewind",
+      "nid": "zfcxg-ewMK8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbRewindGetSize",
+      "nid": "QIXCsbipds0",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbSetBaseDispatchIndirectArgsGetSize",
+      "nid": "9S4noWrUI0s",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbSetBaseDrawIndirectArgsGetSize",
+      "nid": "MMlmJAL7N5w",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbSetBaseIndirectArgs",
+      "nid": "RmaJwLtc8rY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetBoolPredicationEnableGetSize",
+      "nid": "yheJGN-ay+A",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbSetCfRegisterDirect",
+      "nid": "73ZZdojLIgs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetCfRegisterRangeDirect",
+      "nid": "BVFg3CWU6Eo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetCxRegisterDirect",
+      "nid": "LHFXRrlTPD8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetCxRegisterDirectGetSize",
+      "nid": "1DeUNpRIDDA",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbSetCxRegistersIndirect",
+      "nid": "ZvwO9euwYzc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetCxRegistersIndirectGetSize",
+      "nid": "GBCh3zCihoU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetFlip",
+      "nid": "YUeqkyT7mEQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetIndexBuffer",
+      "nid": "l4fM9K-Lyks",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetIndexBufferGetSize",
+      "nid": "j4emHHndCPY",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbSetIndexCount",
+      "nid": "8N2tmT3jmC8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetIndexCountGetSize",
+      "nid": "mljzuGDZRQ4",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbSetIndexIndirectArgs",
+      "nid": "0o3VDdtA6nM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetIndexIndirectArgsGetSize",
+      "nid": "AFIh8SQkYlQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbSetIndexSize",
+      "nid": "GIIW2J37e70",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetIndexSizeGetSize",
+      "nid": "ca4KPvp0qLQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbSetIndexSize_0600",
+      "nid": "-KRzWekV120",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetMarker",
+      "nid": "QhCbS4X9Rl8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetMarkerSpan",
+      "nid": "BYcSvEsINWU",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDcbSetNumInstances",
+      "nid": "tSBxhAPyytQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetNumInstancesGetSize",
+      "nid": "6DFuRKT4C9w",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbSetPredication",
+      "nid": "bbFueFP+J4k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetPredicationDisableGetSize",
+      "nid": "vLrBL8DQiz8",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbSetShRegisterDirect",
+      "nid": "pFLArOT53+w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetShRegisterDirectGetSize",
+      "nid": "QhPDD513V0w",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbSetShRegistersIndirect",
+      "nid": "-HOOCn0JY48",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetShRegistersIndirectGetSize",
+      "nid": "nNlUtdDDvZ0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetUcRegisterDirect",
+      "nid": "w4-d0n60hdo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetUcRegisterDirectGetSize",
+      "nid": "aP1Ki9G3++4",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbSetUcRegistersIndirect",
+      "nid": "hvUfkUIQcOE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetUcRegistersIndirectGetSize",
+      "nid": "UQGTw4xRlcM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetWorkloadComplete",
+      "nid": "hEK26Wdny6s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetWorkloadStreamInactive",
+      "nid": "FneFypEDRgY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDcbSetWorkloadsActive",
+      "nid": "LFSPFmGc9Hg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbSetZPassPredicationEnableGetSize",
+      "nid": "XN+Iuu7XsM8",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbStallCommandBufferParser",
+      "nid": "u2T2DiA5hRI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbStallCommandBufferParserGetSize",
+      "nid": "+u6dKSLWM2o",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDcbWaitOnAddressGetSize",
+      "nid": "43WJ08sSugE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbWaitRegMem",
+      "nid": "VmW0Tdpy420",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbWaitUntilSafeForRendering",
+      "nid": "MWiElSNE8j8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbWriteData",
+      "nid": "i1jyy49AjXU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDcbWriteDataGetSize",
+      "nid": "p9tI+yTvx68",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDebugRaiseException",
+      "nid": "T6xuVw0KUJo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDmaDataPatchSetDstAddressOrOffset",
+      "nid": "IxYiarKlXxM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDmaDataPatchSetSrcAddressOrOffsetOrImmediate",
+      "nid": "cdDRpqcFGbU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcFuseShaderHalves_0200",
+      "nid": "fd5Bp5tGTgo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcFuseShaderHalves_nid_postfix",
+      "nid": "xM01Ij5c4WE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetDataPacketPayloadAddress",
+      "nid": "CQsSq6l6+kA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetDataPacketPayloadAddress_0090",
+      "nid": "V++UgBtQhn0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetDataPacketPayloadRange",
+      "nid": "s+VGAMDQ0AQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetDefaultCxStateFlat",
+      "nid": "AAeX-U5-P3M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetFusedShaderSize_0080",
+      "nid": "dolOmWH+huQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetGsOversubscription",
+      "nid": "NKIzURsgV7I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetGsPrimPayload",
+      "nid": "ICkECTBxrMw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetIsTrinityMode",
+      "nid": "BfBDZGbti7A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetPacketSize",
+      "nid": "Lkf86B98qPc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetRegisterDefaults",
+      "nid": "Wi82ArQtAwg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetRegisterDefaults2",
+      "nid": "2JtWUUiYBXs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetRegisterDefaults2Internal",
+      "nid": "wRbq6ZjNop4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetRegisterDefaultsInternal",
+      "nid": "uIwxsqDlHRc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetSemaphoreLabel",
+      "nid": "hFQ9pUxoLQ4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetShaderInstrumentation",
+      "nid": "SwI6QxqwAC0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetStaticBuffer",
+      "nid": "OXDc0KCnUhs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcGetStaticQword",
+      "nid": "NbiQSQ-UL+M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcInit",
+      "nid": "kW3GLb7QfPg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcInit_0090",
+      "nid": "23LRUSvYu1M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcJumpPatchSetTarget",
+      "nid": "2BS4EtAaF28",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcJumpPatchSetTarget_0300",
+      "nid": "Ikfdt-rIqCE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcLinkShaders",
+      "nid": "MqAdbRMdNz4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcQueueEndOfPipeActionPatchAddress",
+      "nid": "0fWWK5uG9rQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcQueueEndOfPipeActionPatchData",
+      "nid": "MlEw1feXcjg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcQueueEndOfPipeActionPatchGcrCntl",
+      "nid": "J8YCgfKAMQs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcQueueEndOfPipeActionPatchType",
+      "nid": "T9fjQIINoeE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcRewindPatchSetRewindState",
+      "nid": "ziVA3whp3p4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetAmmSemaphoreMemory",
+      "nid": "OQTgEXyihvA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetCxRegIndirectPatchAddRegisters",
+      "nid": "d-6uF9sZDIU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetCxRegIndirectPatchSetAddress",
+      "nid": "vcmNN+AAXnY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetCxRegIndirectPatchSetNumRegisters",
+      "nid": "whb1RL7K4Ss",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetNop",
+      "nid": "K2mciNVxUCE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetPacketPredication",
+      "nid": "w6Dj1VJt5qY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetRangePredication",
+      "nid": "n8vgpaQg6dA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetSemaphoreMemory",
+      "nid": "v3G+IipShZs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetShRegIndirectPatchAddRegisters",
+      "nid": "z2duB-hHQSM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetShRegIndirectPatchSetAddress",
+      "nid": "Qrj4c+61z4A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetShRegIndirectPatchSetNumRegisters",
+      "nid": "nCUgItdN2ms",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetShaderInstrumentation",
+      "nid": "RTpj-tIlvZc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetStaticBuffer",
+      "nid": "-pjHhph0ZUc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetStaticQword",
+      "nid": "86rJnbZUpr4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetSubmitMode",
+      "nid": "-DtvmQ-tgEA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcSetUcRegIndirectPatchAddRegisters",
+      "nid": "vRoArM9zaIk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetUcRegIndirectPatchSetAddress",
+      "nid": "6lNcCp+fxi4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSetUcRegIndirectPatchSetNumRegisters",
+      "nid": "fRG-JOH5+sI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSuspendPoint",
+      "nid": "h9z6+0hEydk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcSuspendPointAndCheckStatus",
+      "nid": "b+fis+WZ3Ig",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcUpdateInterpolantMapping_0100",
+      "nid": "k0E7vkgqAuE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcUpdateInterpolantMapping_10000",
+      "nid": "vieBRwlh1Lw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcUpdateInterpolantMapping_nid_postfix",
+      "nid": "m7jHyod1Elo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcUpdatePrimState",
+      "nid": "Y3ymLfZ1384",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcWaitRegMemPatchAddress",
+      "nid": "3KDcnM3lrcU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcWaitRegMemPatchCompareFunction",
+      "nid": "n485EBnIWmk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcWaitRegMemPatchMask",
+      "nid": "hXAnLgDHCoI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcWaitRegMemPatchReference",
+      "nid": "7nOoijNPvEU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcWriteDataPatchSetAddressOrOffset",
+      "nid": "fPSCdQxgpSw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcWriteDataPatchSetCachePolicy",
+      "nid": "eAy8eGNsCuU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcWriteDataPatchSetDst",
+      "nid": "tmy-+rBpspY",
+      "state": "implemented"
+    }
+  ]
+}

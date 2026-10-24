@@ -1,0 +1,142 @@
+{
+  "name": "libSceUserService",
+  "label": "UserService",
+  "category": "Input and user",
+  "implemented": 24,
+  "inert": 0,
+  "stub": 2,
+  "total": 26,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceUserServiceGetAccessibilityChatTranscription",
+      "nid": "rnEhHqG-4xo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetAccessibilityKeyremapEnable",
+      "nid": "xrtki9sUopg",
+      "state": "stub"
+    },
+    {
+      "name": "sceUserServiceGetAccessibilityPressAndHoldDelay",
+      "nid": "ZKJtxdgvzwg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetAccessibilityTriggerEffect",
+      "nid": "-3Y5GO+-i78",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetAccessibilityVibration",
+      "nid": "qWYHOFwqCxY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetAccessibilityZoom",
+      "nid": "1zDEFUmBdoo",
+      "state": "stub"
+    },
+    {
+      "name": "sceUserServiceGetAccessibilityZoomEnabled",
+      "nid": "hD-H81EN9Vg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetAccessibilityZoomFollowFocus",
+      "nid": "O6IW1-Dwm-w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetAgeLevel",
+      "nid": "woNpu+45RLk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetEvent",
+      "nid": "yH17Q6NWtVg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetForegroundUser",
+      "nid": "eNb53LQJmIM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetGamePresets",
+      "nid": "-sD02mFDBh4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetInitialUser",
+      "nid": "CdWp0oHWGr0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetJapaneseInputType",
+      "nid": "u-dCVE6fQAU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetKeyboardType",
+      "nid": "Ta52bXx5Tek",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetLoginUserIdList",
+      "nid": "fPhymKNvK-A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetNpAccountId",
+      "nid": "6dfDreosXGY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetPlatformPrivacyWs1",
+      "nid": "D-CzAxQL0XI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetRegisteredUserIdList",
+      "nid": "5EiQCnL2G1Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetTraditionalChineseInputType",
+      "nid": "oXVAQutr3Ns",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetUserColor",
+      "nid": "lUoqwTQu4Go",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetUserName",
+      "nid": "1xxcMiGu2fo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceGetUserNumber",
+      "nid": "qbwy0Ub8b3M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceInitialize",
+      "nid": "j3YMu1MVNNo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceInitialize2",
+      "nid": "az-0R6eviZ0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUserServiceTerminate",
+      "nid": "bwFjS+bX9mA",
+      "state": "implemented"
+    }
+  ]
+}

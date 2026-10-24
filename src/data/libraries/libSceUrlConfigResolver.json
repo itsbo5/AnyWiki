@@ -1,0 +1,52 @@
+{
+  "name": "libSceUrlConfigResolver",
+  "label": "UrlConfigResolver",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 8,
+  "total": 8,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceUrlConfigResolverGetAppConfig",
+      "nid": "MTEBJdi3YNQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceUrlConfigResolverGetDefaultQueryParameter",
+      "nid": "7wCjXDc2cjI",
+      "state": "stub"
+    },
+    {
+      "name": "sceUrlConfigResolverGetDeviceId",
+      "nid": "Y00mcdiTiOA",
+      "state": "stub"
+    },
+    {
+      "name": "sceUrlConfigResolverGetJscHeapSizeSoftLimit",
+      "nid": "kBo7ItYgSPo",
+      "state": "stub"
+    },
+    {
+      "name": "sceUrlConfigResolverGetReleaseVersion",
+      "nid": "a3kUt2XrhOs",
+      "state": "stub"
+    },
+    {
+      "name": "sceUrlConfigResolverGetSysVer",
+      "nid": "Syu+Sbd7R4s",
+      "state": "stub"
+    },
+    {
+      "name": "sceUrlConfigResolverIsUpdated",
+      "nid": "C4AAV-A4pnA",
+      "state": "stub"
+    },
+    {
+      "name": "sceUrlConfigResolverUpdate",
+      "nid": "DrRUD+rZV28",
+      "state": "stub"
+    }
+  ]
+}

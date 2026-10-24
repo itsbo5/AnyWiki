@@ -1,0 +1,112 @@
+{
+  "name": "libSceSharePlay",
+  "label": "SharePlay",
+  "category": "System utilities",
+  "implemented": 4,
+  "inert": 0,
+  "stub": 16,
+  "total": 20,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSharePlayCrashDaemon",
+      "nid": "ggnCfalLU-8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlayGetCurrentConnectionInfo",
+      "nid": "OOrLKB0bSDs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlayGetCurrentConnectionInfoA",
+      "nid": "+MCXJlWdi+s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSharePlayGetCurrentInfo",
+      "nid": "vUMkWXQff3w",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlayGetEvent",
+      "nid": "Md7Mdkr8LBc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlayInitialize",
+      "nid": "isruqthpYcw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSharePlayNotifyDialogOpen",
+      "nid": "9zwJpai7jGc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlayNotifyForceCloseForCdlg",
+      "nid": "VUW2V9cUTP4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlayProhibitController",
+      "nid": "FzQS6DREDfk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSharePlayResumeScreenForCdlg",
+      "nid": "6-1fKaa5HlY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlayServerLock",
+      "nid": "U28jAuLHj6c",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlayServerUnLock",
+      "nid": "3Oaux9ITEtY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlaySetMode",
+      "nid": "QZy+KmyqKPU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlaySetProhibition",
+      "nid": "co2NCj--pnc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlaySetProhibitionModeWithAppId",
+      "nid": "KADsbjNCgPo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlayStartStandby",
+      "nid": "-F6NddfUsa4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlayStartStreaming",
+      "nid": "rWVNHNnEx6g",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlayStopStandby",
+      "nid": "zEDkUWLVwFI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlayStopStreaming",
+      "nid": "aGlema+JxUU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSharePlayTerminate",
+      "nid": "UaLjloJinow",
+      "state": "implemented"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "libSceCdlgPlayerReview",
+  "label": "CdlgPlayerReview",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePlayerReviewDialogClose",
+      "nid": "HDMHJ9zsCFg",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerReviewDialogGetResult",
+      "nid": "VuKbx6zlEG4",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerReviewDialogGetStatus",
+      "nid": "UYw6RlK7bcQ",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerReviewDialogInitialize",
+      "nid": "UtXl-tmi7iw",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerReviewDialogOpen",
+      "nid": "CtygVRCL+bA",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerReviewDialogTerminate",
+      "nid": "RmJKkzZFNFA",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerReviewDialogUpdateStatus",
+      "nid": "4J5F23VgTjY",
+      "state": "implemented"
+    }
+  ]
+}

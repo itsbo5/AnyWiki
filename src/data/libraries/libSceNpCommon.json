@@ -1,0 +1,802 @@
+{
+  "name": "libSceNpCommon",
+  "label": "NpCommon",
+  "category": "Network and services",
+  "implemented": 123,
+  "inert": 0,
+  "stub": 35,
+  "total": 158,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "CalloutThread",
+      "nid": "2PHzGOPqYyk",
+      "state": "implemented"
+    },
+    {
+      "name": "HeapAllocate",
+      "nid": "FRB8nkmzyEI",
+      "state": "implemented"
+    },
+    {
+      "name": "HeapReallocate",
+      "nid": "pxAoRrq7XSk",
+      "state": "implemented"
+    },
+    {
+      "name": "HeapRelease",
+      "nid": "D9iA+zCIIXg",
+      "state": "implemented"
+    },
+    {
+      "name": "MemoryHeapAllocate",
+      "nid": "T4pcdEymR0U",
+      "state": "implemented"
+    },
+    {
+      "name": "MemoryHeapReallocate",
+      "nid": "0wYMgFP5tlk",
+      "state": "implemented"
+    },
+    {
+      "name": "MemoryHeapRelease",
+      "nid": "JxYYIT3eUmg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAllocateKernelMemoryNoAlignment",
+      "nid": "MWPOkqzYss0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAllocateKernelMemoryWithAlignment",
+      "nid": "gMlY6eewr-c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpArchInit",
+      "nid": "jGF+MaB4b-M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpArchTerm",
+      "nid": "UskWpVWxSvg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAtomicCas32",
+      "nid": "+9+kKMY9YIw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAtomicDec32",
+      "nid": "Yohe0MMDfj0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAtomicInc32",
+      "nid": "pfJgSA4jO3M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpBase64Decoder",
+      "nid": "l67qBmMmKP4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpBase64Encoder",
+      "nid": "pu39pU8UgCo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpBase64GetDecodeSize",
+      "nid": "a5IfPlpchXI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpBase64UrlDecoder",
+      "nid": "moGcgMNTHvQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpBase64UrlEncoder",
+      "nid": "IeNj+OcWgU8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpBase64UrlGetDecodeSize",
+      "nid": "7BjZKcN+oZ4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCalloutInitCtx",
+      "nid": "9+m5nRdJ-wQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCalloutStartOnCtx",
+      "nid": "fClnlkZmA6k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCalloutStartOnCtx64",
+      "nid": "lpr66Gby8dQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCalloutStopOnCtx",
+      "nid": "in19gH7G040",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCalloutTermCtx",
+      "nid": "AqJ4xkWsV+I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCancelEventFlag",
+      "nid": "kb2thTuS8t8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpClearEventFlag",
+      "nid": "9pLoHoPMxeg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCloseEventFlag",
+      "nid": "+nmn+Z0nWDo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpCloseSema",
+      "nid": "8hPzfjZzV88",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpCmpNpId",
+      "nid": "i8UmXTSq7N4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCmpNpIdInOrder",
+      "nid": "TcwEFnakiSc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCmpOnlineId",
+      "nid": "dj+O5aD2a0Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCondDestroy",
+      "nid": "1a+iY5YUJcI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCondInit",
+      "nid": "q2tsVO3lM4A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCondSignal",
+      "nid": "uMJFOA62mVU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCondSignalAll",
+      "nid": "bsjWg59A7aE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCondSignalTo",
+      "nid": "bAHIOyNnx5Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCondTimedwait",
+      "nid": "ss2xO9IJxKQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCondWait",
+      "nid": "fZShld2PQ7w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCreateEventFlag",
+      "nid": "6jFWpAfqAcc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCreateSema",
+      "nid": "LHZtCT2W1Pw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCreateThread",
+      "nid": "fhJ5uKzcn0w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpDbgAssignDebugId",
+      "nid": "90pmGqDK4BI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpDbgDumpBinary",
+      "nid": "Etq15-l9yko",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpDbgDumpText",
+      "nid": "ZaKa5x61hGA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpDeleteEventFlag",
+      "nid": "sjnIeFCuTD0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpDeleteSema",
+      "nid": "xPrF2nGPBXQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpFreeKernelMemory",
+      "nid": "vjwlDmsGtME",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetNavSdkVersion",
+      "nid": "QmDEFikd3VA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpGetPlatformType",
+      "nid": "sXVQUIGmk2U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetProcessId",
+      "nid": "Z3mnqcGmf8E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetRandom",
+      "nid": "pJlGhXEt5CU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetSdkVersion",
+      "nid": "Pglk7zFj0DI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetSdkVersionUInt",
+      "nid": "ljqnF0hmLjo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGetSystemClockUsec",
+      "nid": "PVVsRmMkO1g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGlobalHeapGetAllocator",
+      "nid": "-gN6uE+zWng",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGlobalHeapGetAllocatorEx",
+      "nid": "VUHUasztbUY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGlobalHeapGetAllocatorExPtr",
+      "nid": "P4YpPziLBd4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpGlobalHeapGetAllocatorPtr",
+      "nid": "DI5n4aOdxmk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpHeapDestroy",
+      "nid": "wVdn78HKc30",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpHeapGetAllocator",
+      "nid": "lvek8w7yqyE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpHeapGetStat",
+      "nid": "2jdHoPpS+W0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpHeapInit",
+      "nid": "B+yGIX1+BTI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpHeapShowStat",
+      "nid": "evz0-93ucJc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpHexToInt",
+      "nid": "Hvpr+otU4bo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpInt32ToStr",
+      "nid": "5y0wMPQkaeU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpInt64ToStr",
+      "nid": "HoPC33siDD4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpIntGetPlatformType",
+      "nid": "G6qytFoBJ-w",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIntIsOnlineIdString",
+      "nid": "fY4XQoA20i8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpIntIsValidOnlineId",
+      "nid": "hkeX9iuCwlI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpIntSetPlatformType",
+      "nid": "X6emt+LbSEI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpIntToHex",
+      "nid": "TWPY1x1Atys",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpIpc2ClientInit",
+      "nid": "kgDwlmy78k0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpIpc2ClientTerm",
+      "nid": "CI2p6Viee9w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpJoinThread",
+      "nid": "EjMsfO3GCIA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpJsonParse",
+      "nid": "vJGDnNh4I0g",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpJsonParseBuf",
+      "nid": "RgfCYkjW7As",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpJsonParseBufInit",
+      "nid": "SnAdybtBK3o",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpJsonParseEx",
+      "nid": "p5ZkSMRR7AU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpJsonParseExInit",
+      "nid": "nhgjiwPUIzI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpJsonParseInit",
+      "nid": "teVnFAL6GNY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLwCondDestroy",
+      "nid": "zNb6IxegrCE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLwCondInit",
+      "nid": "++eqYdzB8Go",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLwCondSignal",
+      "nid": "Xkn6VoN-wuQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLwCondSignalAll",
+      "nid": "FJ4DCt8VzVE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLwCondSignalTo",
+      "nid": "Bwi+EP8VQ+g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLwCondWait",
+      "nid": "ExeLuE3EQCQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLwMutexDestroy",
+      "nid": "4zxevggtYrQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLwMutexInit",
+      "nid": "1CiXI-MyEKs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLwMutexLock",
+      "nid": "18j+qk6dRwk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLwMutexTryLock",
+      "nid": "hp0kVgu5Fxw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLwMutexUnlock",
+      "nid": "CQG2oyx1-nM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpMemoryHeapDestroy",
+      "nid": "dfXSH2Tsjkw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpMemoryHeapGetAllocator",
+      "nid": "FaMNvjMA6to",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpMemoryHeapGetAllocatorEx",
+      "nid": "xHAiSVEEjSI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpMemoryHeapInit",
+      "nid": "kZizwrFvWZY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpMutexDestroy",
+      "nid": "lQ11BpMM4LU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpMutexInit",
+      "nid": "uEwag-0YZPc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpMutexLock",
+      "nid": "r9Bet+s6fKc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpMutexTryLock",
+      "nid": "DuslmoqQ+nk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpMutexUnlock",
+      "nid": "oZyb9ktuCpA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpOpenEventFlag",
+      "nid": "5DkyduAF2rs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpOpenSema",
+      "nid": "-blITIdtUd0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPanic",
+      "nid": "ZoXUrTiwKNw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPollEventFlag",
+      "nid": "9YmBJ8KF9eI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPollSema",
+      "nid": "xmF0yIF4iXc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpRtcConvertToPosixTime",
+      "nid": "VMjIo2Z-aW0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpRtcFormatRFC3339",
+      "nid": "W0YWLVDndx0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpRtcParseRFC3339",
+      "nid": "LtkeQwMIEWY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpServerErrorJsonGetErrorCode",
+      "nid": "0lZHbA-HRD0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServerErrorJsonMultiGetErrorCode",
+      "nid": "cRabutqUG7c",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServerErrorJsonParse",
+      "nid": "WSQxnAVLKgw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServerErrorJsonParseInit",
+      "nid": "UbStlMKTBeU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServerErrorJsonParseMultiInit",
+      "nid": "hbe+DdooIi4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSetEventFlag",
+      "nid": "29ftOGIrUCo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSetPlatformType",
+      "nid": "m9JzZSoDVFY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSignalSema",
+      "nid": "-W28+9p1CKI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpStrBuildHex",
+      "nid": "i5TP5NLmkoQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpStrParseHex",
+      "nid": "DUHzVPNlugg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpStrToInt32",
+      "nid": "fElyBSn-l24",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpStrToInt64",
+      "nid": "CwqYdG4TrjA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpStrToUInt32",
+      "nid": "uj86YxCYid0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpStrToUInt64",
+      "nid": "Ted2YU9lv94",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpStrcpyToBuf",
+      "nid": "ivnnssCwjGI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpStrnParseHex",
+      "nid": "h1SWCcBdImo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpStrncpyToBuf",
+      "nid": "PHrpHMSU8Cs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpThreadGetId",
+      "nid": "yvaNTRiKXmo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUInt32ToStr",
+      "nid": "rRN89jBArEM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUInt64ToStr",
+      "nid": "QjNUYQbGoHA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUserGetUserIdList",
+      "nid": "Gh74vNl06sg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUtilBuildTitleId",
+      "nid": "N3tAHlBnowE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUtilCanonicalizeNpIdForPs4",
+      "nid": "4mEAk-UKVNw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilCanonicalizeNpIdForPsp2",
+      "nid": "N3FB4r8JoRE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilCmpAccountId",
+      "nid": "xPRHNaD3kTc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUtilGetDateSetAuto",
+      "nid": "owm52JoZ8uc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilGetDbgCommerce",
+      "nid": "1Gfhi+tZ9IE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilGetEnv",
+      "nid": "kBON3bAtfGs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilGetFakeDisplayNameMode",
+      "nid": "MUj0IV6XFGs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilGetFakeRateLimit",
+      "nid": "O86rgZ2azfg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilGetIgnoreNpTitleId",
+      "nid": "FrxliFYAO8Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilGetNpDebug",
+      "nid": "GRvK1ZE+FEQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilGetNpLanguageCode",
+      "nid": "OFiFmfsADas",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUtilGetNpLanguageCode2",
+      "nid": "X9CqyP164Hc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUtilGetNpLanguageCode2Str",
+      "nid": "Fxux7Ob+Ynk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUtilGetNpLanguageCodeStr",
+      "nid": "RfiA17kV+xs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUtilGetNpTestPatch",
+      "nid": "OA8f3KF9JsM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilGetNthChar",
+      "nid": "KCk4OGu8+sc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUtilGetShareTitleCheck",
+      "nid": "fB5hE65pzbU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilGetSystemLanguage",
+      "nid": "SXUNKr9Zkv0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilGetTrcNotify",
+      "nid": "AjzLvR0g5Zs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilGetWebApi2FakeRateLimit",
+      "nid": "pmHBFJyju9E",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilGetWebApi2FakeRateLimitTarget",
+      "nid": "ZRxKp9vjcNc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilGetWebTraceSetting",
+      "nid": "4CqfNm3pisU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilHttpUrlEncode",
+      "nid": "ajoqGz0D9Dw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUtilJidToNpId",
+      "nid": "458yjI+OECI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilJsonEscape",
+      "nid": "EftEB4kmkSg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUtilJsonGetOneChar",
+      "nid": "vj04qzp7uKY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUtilJsonUnescape",
+      "nid": "4YJ5gYtRAAE",
+      "state": "implemented"
+    }
+  ]
+}

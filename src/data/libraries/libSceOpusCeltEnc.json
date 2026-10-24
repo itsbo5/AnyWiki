@@ -1,0 +1,67 @@
+{
+  "name": "libSceOpusCeltEnc",
+  "label": "OpusCeltEnc",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 11,
+  "total": 11,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceOpusCeltEncCreate",
+      "nid": "CdMxiPm8PRc",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltEncCreateEx",
+      "nid": "bm4L4sT8wsU",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltEncCtl",
+      "nid": "XW1+EtPFPAM",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltEncDestroy",
+      "nid": "fNSqFBHAETU",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltEncEncode",
+      "nid": "tpKYaXK-zVs",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltEncEncodeFloat",
+      "nid": "-TpTQG4cqr4",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltEncEncodeFloatWithPriority",
+      "nid": "UWCrWQtUc5w",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltEncEncodeWithPriority",
+      "nid": "Am+ONet261k",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltEncGetSize",
+      "nid": "WYwgHnzZDzc",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltEncInitialize",
+      "nid": "TKiWvcaXe-g",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusCeltEncTerminate",
+      "nid": "ssRp1pDeUB0",
+      "state": "stub"
+    }
+  ]
+}

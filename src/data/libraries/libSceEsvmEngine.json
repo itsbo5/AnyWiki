@@ -1,0 +1,107 @@
+{
+  "name": "libSceEsvmEngine",
+  "label": "EsvmEngine",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 19,
+  "total": 19,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceEsvmEngineDestroyMediaKeySystemAccess",
+      "nid": "jV6nu+8j1BU",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeySessionClose",
+      "nid": "E7LV-Vm+w0s",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeySessionGenerateRequest",
+      "nid": "TTi1wXli58Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeySessionGetExpiration",
+      "nid": "b8YwdPYpAq4",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeySessionGetKeyStatuses",
+      "nid": "uZrg74SvVvk",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeySessionGetSessionId",
+      "nid": "9Yv7222knIM",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeySessionLoad",
+      "nid": "BFEwbDCkoNM",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeySessionRemove",
+      "nid": "Z49nv-Xs1A0",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeySessionSetEventHandler",
+      "nid": "RgminlbfK8E",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeySessionUpdate",
+      "nid": "7mNuSDZQNNo",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeySystemAccessCreateMediaKeys",
+      "nid": "pvuuD5bRjf0",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeySystemAccessDestroyMediaKeys",
+      "nid": "A+gXFduc9gM",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeySystemAccessGetConfiguration",
+      "nid": "3MdvN660P4w",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeySystemAccessSetCdmStorageConfig",
+      "nid": "LqBKASoabtM",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeysCreateSession",
+      "nid": "1EoMsKB-clM",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeysDestroySession",
+      "nid": "q527znq3hOE",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeysSetEventHandler",
+      "nid": "94TcQVqP4Fw",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineMediaKeysSetServerCertificate",
+      "nid": "HnWRDz8K3l4",
+      "state": "stub"
+    },
+    {
+      "name": "sceEsvmEngineRequestMediaKeySystemAccess",
+      "nid": "hJLHJLp47qc",
+      "state": "stub"
+    }
+  ]
+}

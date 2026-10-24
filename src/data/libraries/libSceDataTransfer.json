@@ -1,0 +1,312 @@
+{
+  "name": "libSceDataTransfer",
+  "label": "DataTransfer",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 60,
+  "total": 60,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceDataTransferAbortFgTransfer",
+      "nid": "5rrJOgmGgPY",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferAbortRequest",
+      "nid": "5SVxCVcDW7g",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferAbortSearchPS4",
+      "nid": "OfRb3huEPX8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferCheckBgTransferRunning",
+      "nid": "343Lpcj48O8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferGetFgTransferProgress",
+      "nid": "JGZ2CS3Rh4w",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferGetPrepareFgTransferProgress",
+      "nid": "0YMD9fqNphk",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferInitialize",
+      "nid": "AmVcTjMPw4M",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferRequestGetAppInfoPS4",
+      "nid": "vPHIPjHJjyo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferRequestGetSavedataInfoPS4",
+      "nid": "OU2YuBjf2i8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferRequestGetUsersPS4",
+      "nid": "xLryCIDKa0c",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferRequestLaunchPS4",
+      "nid": "yTEaoBaswOU",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferRequestPrepareFgTransfer",
+      "nid": "9H8w8cym7eg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferRequestRebootAuthPS4",
+      "nid": "RnQP8brvnJc",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferRequestSearchPS4",
+      "nid": "fZzDm3bsMDo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferRequestStartFgTransfer",
+      "nid": "wLNtZytqFAQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferRequestTransferTimePS4",
+      "nid": "udns7ikzOnE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortBindSavedata",
+      "nid": "zqxvJ1GjxAA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortDeactivate",
+      "nid": "QCaXux9w7vo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortEth0",
+      "nid": "zyFrOtG-5Jg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortGetDeviceInfo",
+      "nid": "0egweZdzJ4s",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortGetDeviceInfoApplication",
+      "nid": "cQRxdwTPJU8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortGetTitles",
+      "nid": "9Z-PeHV7oSg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortGetUsers",
+      "nid": "xvMc8QuNzpo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortLaunch",
+      "nid": "xbsHap7BnBw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortPrepareTransfer",
+      "nid": "JKbDB4m5qyA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortPwrReq",
+      "nid": "GuPIeil94Pc",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortReboot",
+      "nid": "iqYJfriYQk0",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortSendSsoNew2Old",
+      "nid": "SZoXIVonWXE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortSendSsoOld2New",
+      "nid": "bHhivemWybw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortTransfer",
+      "nid": "iJqgX+Ecq98",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetAbortTransferSpeed",
+      "nid": "W31HMY23RKg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetEventIsAuthReady",
+      "nid": "kdJg4Mb8TRY",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetEventIsIPv6Ready",
+      "nid": "f0LIQinm+9E",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetEventIsPwrReqReady",
+      "nid": "f6IUA95JW20",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetGetFailedUsers",
+      "nid": "OsoVbh4-SN0",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetGetRebootData",
+      "nid": "KVaiKJwBWxA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetGetTransferProgress",
+      "nid": "WNHbacTXPrw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestAbortSearch",
+      "nid": "S7OVJvESBGc",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestActivate",
+      "nid": "g9QtTkNAjjQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestAuth",
+      "nid": "vxnQI1naSHA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestBindSavedata",
+      "nid": "EhE73s4u2Yg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestComplete",
+      "nid": "Jmky7t3yAoo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestCreateRebootData",
+      "nid": "nTH0jYHpwTk",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestDeactivate",
+      "nid": "j6LAEE-1npg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestEndTransfer",
+      "nid": "QQzfcRrIGFw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestGetDeviceInfo",
+      "nid": "vTbQUay9w+k",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestGetDeviceInfoApplication",
+      "nid": "OTA3SrTEtog",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestGetTitles",
+      "nid": "SHAUfEIWSOM",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestGetUsers",
+      "nid": "PpbaIOEJ-Qw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestLaunch",
+      "nid": "APuq-SZJRo8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestPrepareTransfer",
+      "nid": "1d8i5kbJJ0w",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestPrepareTransferProgress",
+      "nid": "NgbGlUcx6ug",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestPwrReq",
+      "nid": "lSaNxHqgrRs",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestReboot",
+      "nid": "wPtNaLuyLKk",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestSearch",
+      "nid": "-JHVe5UMUfM",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestSendSsoNew2Old",
+      "nid": "lxFUVuXU8-s",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestSendSsoOld2New",
+      "nid": "-0T5Aq0Xews",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestStartTransfer",
+      "nid": "1HvBtxJhxuQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTargetRequestTransferSpeed",
+      "nid": "Foo+QaGFJTQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceDataTransferTerminate",
+      "nid": "3H5sVXHQbs0",
+      "state": "stub"
+    }
+  ]
+}

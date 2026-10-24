@@ -1,0 +1,167 @@
+{
+  "name": "libScePosixForWebKit",
+  "label": "PosixForWebKit",
+  "category": "System utilities",
+  "implemented": 18,
+  "inert": 0,
+  "stub": 13,
+  "total": 31,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "__wrap_access",
+      "nid": "ByRgiMDtkTo",
+      "state": "implemented"
+    },
+    {
+      "name": "__wrap_clock_gettime",
+      "nid": "fb4sFIKvrIQ",
+      "state": "implemented"
+    },
+    {
+      "name": "__wrap_fchown",
+      "nid": "Rr-uWbN4m3k",
+      "state": "stub"
+    },
+    {
+      "name": "__wrap_getcwd",
+      "nid": "co-nbnjVKN8",
+      "state": "implemented"
+    },
+    {
+      "name": "__wrap_getenv",
+      "nid": "5FdejCVZfZs",
+      "state": "implemented"
+    },
+    {
+      "name": "__wrap_link",
+      "nid": "VnapSGACOBU",
+      "state": "stub"
+    },
+    {
+      "name": "__wrap_lstat",
+      "nid": "lSmhCcJC33M",
+      "state": "implemented"
+    },
+    {
+      "name": "__wrap_mmap",
+      "nid": "Nt7Cij4dVU4",
+      "state": "implemented"
+    },
+    {
+      "name": "__wrap_readlink",
+      "nid": "wPwQ0-epfJw",
+      "state": "stub"
+    },
+    {
+      "name": "__wrap_statvfs",
+      "nid": "dGzde7V8MjE",
+      "state": "stub"
+    },
+    {
+      "name": "__wrap_symlink",
+      "nid": "uUhHdmHrmSU",
+      "state": "stub"
+    },
+    {
+      "name": "arc4random_buf_nid_postfix",
+      "nid": "z6cmPmjlLyk",
+      "state": "implemented"
+    },
+    {
+      "name": "arc4random_nid_postfix",
+      "nid": "8Mb8XYMi+EI",
+      "state": "implemented"
+    },
+    {
+      "name": "clock_gettime_np",
+      "nid": "s81mWDo1fVk",
+      "state": "stub"
+    },
+    {
+      "name": "fnmatch_nid_postfix",
+      "nid": "OA4NmuSR1gE",
+      "state": "implemented"
+    },
+    {
+      "name": "freeaddrinfo_nid_postfix",
+      "nid": "lhYNvBexTmM",
+      "state": "implemented"
+    },
+    {
+      "name": "gai_strerror_nid_postfix",
+      "nid": "MNaHD5CLlh8",
+      "state": "implemented"
+    },
+    {
+      "name": "getaddrinfo_nid_postfix",
+      "nid": "b-fkQHqWvUs",
+      "state": "implemented"
+    },
+    {
+      "name": "getenv_np",
+      "nid": "1HwAXy03SyY",
+      "state": "stub"
+    },
+    {
+      "name": "gethostbyname_nid_postfix",
+      "nid": "GTub96zMmAg",
+      "state": "implemented"
+    },
+    {
+      "name": "getnameinfo_nid_postfix",
+      "nid": "BrojWoy6irY",
+      "state": "implemented"
+    },
+    {
+      "name": "getservbyname_nid_postfix",
+      "nid": "cprM8GZwiTM",
+      "state": "implemented"
+    },
+    {
+      "name": "isatty_nid_postfix",
+      "nid": "WJ7YS1RJaTs",
+      "state": "implemented"
+    },
+    {
+      "name": "mkstemp_nid_postfix",
+      "nid": "iATIsZOPIdg",
+      "state": "implemented"
+    },
+    {
+      "name": "mmap_np",
+      "nid": "jPjV-Uatsgg",
+      "state": "stub"
+    },
+    {
+      "name": "msetname",
+      "nid": "vHxEybs8Dq4",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_setschedparam_np",
+      "nid": "doewKyDAsB4",
+      "state": "stub"
+    },
+    {
+      "name": "scePosixForWebKit_gethostbyname_r",
+      "nid": "-hshfkNQc64",
+      "state": "stub"
+    },
+    {
+      "name": "scePosixForWebKit_sysinfo",
+      "nid": "uJusUpZoM68",
+      "state": "stub"
+    },
+    {
+      "name": "setenv_np",
+      "nid": "koKFfS8dL4k",
+      "state": "stub"
+    },
+    {
+      "name": "strcasestr_nid_postfix",
+      "nid": "5UObFCy8WmE",
+      "state": "implemented"
+    }
+  ]
+}

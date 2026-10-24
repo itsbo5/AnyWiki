@@ -1,0 +1,247 @@
+{
+  "name": "libSceGameLiveStreaming",
+  "label": "GameLiveStreaming",
+  "category": "System utilities",
+  "implemented": 5,
+  "inert": 0,
+  "stub": 42,
+  "total": 47,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceGameLiveStreamingApplySocialFeedbackMessageFilter",
+      "nid": "NqkTzemliC0",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingCheckCallback",
+      "nid": "PC4jq87+YQI",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingClearPresetSocialFeedbackCommands",
+      "nid": "FcHBfHjFXkA",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingClearSocialFeedbackMessages",
+      "nid": "lZ2Sd0uEvpo",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingClearSpoilerTag",
+      "nid": "6c2zGtThFww",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingEnableLiveStreaming",
+      "nid": "dWM80AX39o4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameLiveStreamingEnableSocialFeedback",
+      "nid": "wBOQWjbWMfU",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingGetCurrentBroadcastScreenLayout",
+      "nid": "aRSQNqbats4",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingGetCurrentStatus",
+      "nid": "CoPMx369EqM",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingGetCurrentStatus2",
+      "nid": "lK8dLBNp9OE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameLiveStreamingGetProgramInfo",
+      "nid": "OIIm19xu+NM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameLiveStreamingGetSocialFeedbackMessages",
+      "nid": "PMx7N4WqNdo",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingGetSocialFeedbackMessagesCount",
+      "nid": "yeQKjHETi40",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingInitialize",
+      "nid": "kvYEw2lBndk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameLiveStreamingLaunchLiveViewer",
+      "nid": "ysWfX5PPbfc",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingLaunchLiveViewerA",
+      "nid": "cvRCb7DTAig",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingPermitLiveStreaming",
+      "nid": "K0QxEbD7q+c",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingPermitServerSideRecording",
+      "nid": "-EHnU68gExU",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingPostSocialMessage",
+      "nid": "hggKhPySVgI",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingRegisterCallback",
+      "nid": "nFP8qT9YXbo",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingScreenCloseSeparateMode",
+      "nid": "b5RaMD2J0So",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingScreenConfigureSeparateMode",
+      "nid": "hBdd8n6kuvE",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingScreenInitialize",
+      "nid": "uhCmn81s-mU",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingScreenInitializeSeparateModeParameter",
+      "nid": "fo5B8RUaBxQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingScreenOpenSeparateMode",
+      "nid": "iorzW0pKOiA",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingScreenSetMode",
+      "nid": "gDSvt78H3Oo",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingScreenTerminate",
+      "nid": "HE93dr-5rx4",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingSetCameraFrameSetting",
+      "nid": "3PSiwAzFISE",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingSetDefaultServiceProviderPermission",
+      "nid": "TwuUzTKKeek",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingSetGuardAreas",
+      "nid": "Gw6S4oqlY7E",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingSetInvitationSessionId",
+      "nid": "QmQYwQ7OTJI",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingSetLinkCommentPreset",
+      "nid": "Sb5bAXyUt5c",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingSetMaxBitrate",
+      "nid": "q-kxuaF7URU",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingSetMetadata",
+      "nid": "hUY-mSOyGL0",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingSetPresetSocialFeedbackCommands",
+      "nid": "ycodiP2I0xo",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingSetPresetSocialFeedbackCommandsDescription",
+      "nid": "x6deXUpQbBo",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingSetServiceProviderPermission",
+      "nid": "mCoz3k3zPmA",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingSetSpoilerTag",
+      "nid": "ZuX+zzz2DkA",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingSetStandbyScreenResource",
+      "nid": "MLvYI86FFAo",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingStartDebugBroadcast",
+      "nid": "caqgDl+V9qA",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingStartGenerateStandbyScreenResource",
+      "nid": "y0KkAydy9xE",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingStartSocialFeedbackMessageFiltering",
+      "nid": "Y1WxX7dPMCw",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingStopDebugBroadcast",
+      "nid": "0i8Lrllxwow",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingStopGenerateStandbyScreenResource",
+      "nid": "D7dg5QJ4FlE",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingStopSocialFeedbackMessageFiltering",
+      "nid": "bYuGUBuIsaY",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameLiveStreamingTerminate",
+      "nid": "9yK6Fk8mKOQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameLiveStreamingUnregisterCallback",
+      "nid": "5XHaH3kL+bA",
+      "state": "stub"
+    }
+  ]
+}

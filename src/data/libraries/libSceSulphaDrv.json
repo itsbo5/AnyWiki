@@ -1,0 +1,52 @@
+{
+  "name": "libSceSulphaDrv",
+  "label": "SulphaDrv",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 8,
+  "total": 8,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSulphaGetClientInfo",
+      "nid": "aYkLspDSybs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSulphaGetConnectedClientCount",
+      "nid": "mPdonXVe31M",
+      "state": "stub"
+    },
+    {
+      "name": "sceSulphaGetDefaultConfig",
+      "nid": "SqfL0YjlBiA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSulphaGetNeededMemory",
+      "nid": "6x06HaJWiDQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSulphaInit",
+      "nid": "fpFCQLbTB1w",
+      "state": "stub"
+    },
+    {
+      "name": "sceSulphaMessage",
+      "nid": "1ZWN9dK5-Sc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSulphaSetBookmark",
+      "nid": "miCg4z-c1Gc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSulphaShutdown",
+      "nid": "gLjLCP6tKuw",
+      "state": "stub"
+    }
+  ]
+}

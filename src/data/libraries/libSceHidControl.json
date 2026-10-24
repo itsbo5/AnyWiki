@@ -1,0 +1,212 @@
+{
+  "name": "libSceHidControl",
+  "label": "HidControl",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 40,
+  "total": 40,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceHidControlConnectPswDeviceForNearby",
+      "nid": "xh+1ed2Ze5I",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlEnableMicBeamForming",
+      "nid": "UQt115LnKms",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlGetPswAllEqBandValues",
+      "nid": "mRxwH8PFyZI",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlGetPswBatteryState",
+      "nid": "VBlu5blw5+Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlGetPswCommand",
+      "nid": "dLetQR44-+s",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlGetPswDeviceIdFromIdxAdd",
+      "nid": "JRBFFug1N00",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlGetPswDeviceInfo",
+      "nid": "SqW52aWnKQk",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlGetPswDeviceName",
+      "nid": "g-CMRgOmqMw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlGetPswDeviceNameForNearby",
+      "nid": "oB4oKK37n-g",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlGetPswEqBandValues",
+      "nid": "auoH10VDLmc",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlGetPswEqPresetName",
+      "nid": "Wca9kQ1U6wo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlGetPswEqPresetSelection",
+      "nid": "kZleVUQmH-c",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlGetPswNetworkLocale",
+      "nid": "YbcUAnCvj8M",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlGetPswSidetoneLevel",
+      "nid": "Pt59At-a3js",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlGetPswState",
+      "nid": "6NdxbfLzf0w",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlIsForceUpdateNeeded",
+      "nid": "37PCATQMR+0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlPswUpdateGetDeviceFirmwareUpdateTelemetryData",
+      "nid": "0njV0g3DXEM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlPswUpdateGetReconnectStatus",
+      "nid": "KNWYfbipG+E",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlPswUpdateGetStatus",
+      "nid": "nnEWOnxxivU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlPswUpdateIsReady",
+      "nid": "Ki6weGa45pE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlPswUpdateIsUpdateNeeded",
+      "nid": "yZlhO38SR+M",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlPswUpdateIsUpdateNeededForMultiDevice",
+      "nid": "AjsoQ4LZx9Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlPswUpdateSendAppendixData",
+      "nid": "AAEtUl1IRwk",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlPswUpdateSendData",
+      "nid": "Fe+ejyfpq0A",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlPswUpdateStart",
+      "nid": "6CwarIWFdDo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetAllVibrationMute",
+      "nid": "DZi6Fe28pw8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetCollaboInputSettingOverrideProcess",
+      "nid": "Z82YcJH0-Z0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetForceAdvancedVibrationMode",
+      "nid": "p2PN5EpVqH0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetPswCommand",
+      "nid": "w8C0Dqncyzg",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetPswConsoleMute",
+      "nid": "YV+fYUhQsAY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetPswDeviceName",
+      "nid": "++b5pe5uw7Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetPswEqBandValues",
+      "nid": "G+wPbOLIHFc",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetPswEqPresetName",
+      "nid": "egie9jTxVZs",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetPswEqPresetSelection",
+      "nid": "fKjnW7U6hUM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetPswNetworkLocale",
+      "nid": "n1NW+X8FSaE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetPswResetSettings",
+      "nid": "SGdbmrQK4KE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetPswSidetoneLevel",
+      "nid": "SgUUAHWVDy8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetPswSpeakerVolume",
+      "nid": "3f5M0s1qTTM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetRemoteMergeProcess",
+      "nid": "8GZle24IAgw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHidControlSetVibrationTriggerEffectWeakForce",
+      "nid": "oKq4gXV9d0o",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "libSceCustomMusicSysCallWrapper",
+  "label": "CustomMusicSysCallWrapper",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 1,
+  "total": 1,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceCustomMusicSelect",
+      "nid": "KKaarkWGxWI",
+      "state": "stub"
+    }
+  ]
+}

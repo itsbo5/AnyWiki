@@ -1,0 +1,47 @@
+{
+  "name": "libSceVrServiceDialog",
+  "label": "VrServiceDialog",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVrServiceDialogClose",
+      "nid": "hBH2ABP7IeY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrServiceDialogGetResult",
+      "nid": "cYnBkgm8I0c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrServiceDialogGetStatus",
+      "nid": "kUavKmsczkY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrServiceDialogInitialize",
+      "nid": "hYFXG8FWThI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrServiceDialogOpen",
+      "nid": "60-cjn5Dn0Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrServiceDialogTerminate",
+      "nid": "M4xKWUytNMo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrServiceDialogUpdateStatus",
+      "nid": "RmRtBJpoHlA",
+      "state": "implemented"
+    }
+  ]
+}

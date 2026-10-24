@@ -1,0 +1,852 @@
+{
+  "name": "libSceFios2",
+  "label": "Fios2",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 168,
+  "total": 168,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceFiosArchiveGetDecompressorThreadCount",
+      "nid": "GxAF6y9l98M",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosArchiveGetMountBufferSize",
+      "nid": "ERmiOK9VT0g",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosArchiveGetMountBufferSizeSync",
+      "nid": "UUriaXy7G90",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosArchiveMount",
+      "nid": "pIU8u6VsLM8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosArchiveMountSync",
+      "nid": "xutLbQdqyb4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosArchiveMountWithOrder",
+      "nid": "VKQ8pi4466g",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosArchiveMountWithOrderSync",
+      "nid": "GEAzhWJM1mY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosArchiveSetDecompressorThreadCount",
+      "nid": "Dfwp-U1OfRI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosArchiveUnmount",
+      "nid": "YfTBBU5nONQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosArchiveUnmountSync",
+      "nid": "yy6C7k7FPZY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCacheContainsFileRangeSync",
+      "nid": "7CXAnIwFY3U",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCacheContainsFileSync",
+      "nid": "H6wju6uvjmA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCacheFlushFileRangeSync",
+      "nid": "8e4TgQd155k",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCacheFlushFileSync",
+      "nid": "R4YQI0YpbB0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCacheFlushSync",
+      "nid": "NRe2Dtymlmk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCachePrefetchFH",
+      "nid": "iGpuaBFQroQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCachePrefetchFHRange",
+      "nid": "uT4EBfl284o",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCachePrefetchFHRangeSync",
+      "nid": "tm3Hb4s0et8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCachePrefetchFHSync",
+      "nid": "zIx-FcuPXVM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCachePrefetchFile",
+      "nid": "T8upMyvUPz0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCachePrefetchFileRange",
+      "nid": "FYGZ0F5ZglA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCachePrefetchFileRangeSync",
+      "nid": "ZzE6WN+QBbE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCachePrefetchFileSync",
+      "nid": "bC0WTypscWg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCancelAllOps",
+      "nid": "-q4M5WX0Jrs",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosClearTimeStamps",
+      "nid": "wb8H3F+T6Ew",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosCloseAllFiles",
+      "nid": "aKxpgAMSJ04",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDHClose",
+      "nid": "oT68xenFqSY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDHCloseSync",
+      "nid": "0-p4O8FINmU",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDHGetPath",
+      "nid": "K7SHCEr+PkQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDHOpen",
+      "nid": "uCkgJOrYUL4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDHOpenSync",
+      "nid": "GGqucL9F+YI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDHRead",
+      "nid": "kG+A6NNwDow",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDHReadSync",
+      "nid": "odjOGg8harg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDLLInitialize",
+      "nid": "PIw2ZEh6JyI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDLLTerminate",
+      "nid": "kPvgi8x497Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDateFromComponents",
+      "nid": "axVqO-tslwo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDateGetCurrent",
+      "nid": "tQ6zNr0O6GA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDateToComponents",
+      "nid": "Rm+hiwvSnxw",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDeallocatePassthruFH",
+      "nid": "+mfO27a-bEY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDebugDumpDH",
+      "nid": "FyuoXPzv780",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDebugDumpDate",
+      "nid": "fJTrPsXNsBY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDebugDumpError",
+      "nid": "8BLW2WiSIuI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDebugDumpFH",
+      "nid": "Sj5lbc4Y0mI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDebugDumpOp",
+      "nid": "4-yhZ7aj3VE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDelete",
+      "nid": "nomcox0J32k",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDeleteSync",
+      "nid": "KsVTc04kN9k",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDirectoryCreate",
+      "nid": "-ULUBK21QgE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDirectoryCreateSync",
+      "nid": "nWuza0ZdfqA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDirectoryCreateWithMode",
+      "nid": "C5J+ANTy0qI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDirectoryCreateWithModeSync",
+      "nid": "U6Qhv-QWXTc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDirectoryDelete",
+      "nid": "rTjM9QpSyOM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDirectoryDeleteSync",
+      "nid": "n5TUlwdhGSA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDirectoryExists",
+      "nid": "vtHd00f0O50",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosDirectoryExistsSync",
+      "nid": "OOuvHKTu4Oc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosExists",
+      "nid": "LHqFYb+U52E",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosExistsSync",
+      "nid": "2ZaHWy3IhKQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHClose",
+      "nid": "5sYNBNK+W3g",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHCloseSync",
+      "nid": "AOujSGqU+ms",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHGetOpenParams",
+      "nid": "lP9bRJMj0GU",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHGetPath",
+      "nid": "Mif6IzBa0hc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHGetSize",
+      "nid": "FdjoqFQOlt0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHOpen",
+      "nid": "er6TkQFUvp0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHOpenSync",
+      "nid": "b44anV2D7K0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHOpenWithMode",
+      "nid": "jjzbvzquenM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHOpenWithModeSync",
+      "nid": "w13Ojm7ON9o",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHPread",
+      "nid": "rR8wq7YFRZs",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHPreadSync",
+      "nid": "2m9+Opco-hk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHPreadv",
+      "nid": "pl4pWsecyrY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHPreadvSync",
+      "nid": "OHl4kz+OCws",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHPwrite",
+      "nid": "PbxGVfOvUQY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHPwriteSync",
+      "nid": "gMcfOtHW6zk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHPwritev",
+      "nid": "3UPU8hbpaW0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHPwritevSync",
+      "nid": "J6Ujb3RviBA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHRead",
+      "nid": "cg-VoPqZYss",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHReadSync",
+      "nid": "Bn2ZF4ZjeuQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHReadv",
+      "nid": "Socc-lFocbc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHReadvSync",
+      "nid": "ltWdd+agvD0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHSeek",
+      "nid": "xReSebwKApA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHStat",
+      "nid": "--2iRpRn5Bw",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHStatSync",
+      "nid": "xP45eIntEis",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHSync",
+      "nid": "dQnI6o2OEC8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHSyncSync",
+      "nid": "EzzSJz6yuMc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHTell",
+      "nid": "MrRFrdgpsx8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHToFileno",
+      "nid": "8dzXU5GxsjI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHTruncate",
+      "nid": "0--XhDM7E-Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHTruncateSync",
+      "nid": "tWS4uYFTU0M",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHWrite",
+      "nid": "urUHkGGweA4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHWriteSync",
+      "nid": "Kl-TbrDU9YM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHWritev",
+      "nid": "2PKMNZuXcPQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFHWritevSync",
+      "nid": "t4vLDMxzzf0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFileDelete",
+      "nid": "VQ8e5t8vtYg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFileDeleteSync",
+      "nid": "bDupEgbQ6Fk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFileExists",
+      "nid": "OY8v8WDzn3s",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFileExistsSync",
+      "nid": "NwOHMRM2Ppw",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFileGetSize",
+      "nid": "6jTNxzXckKU",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFileGetSizeSync",
+      "nid": "zF8-CRvRXnM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFileRead",
+      "nid": "YlKCkfJL+Y8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFileReadSync",
+      "nid": "kVMxSiYD6tc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFileTruncate",
+      "nid": "9oCCIMp7zLo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFileTruncateSync",
+      "nid": "gRA2pp3a1-k",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFileWrite",
+      "nid": "q8CfetImdIY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFileWriteSync",
+      "nid": "wj-U+mMbyAM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosFilenoToFH",
+      "nid": "oRgsgfJY3Mc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosGetAllDHs",
+      "nid": "lHKLprulT24",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosGetAllFHs",
+      "nid": "4Kgi9D47mC8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosGetAllOps",
+      "nid": "VdN2hNRay+E",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosGetDefaultOpAttr",
+      "nid": "+AGLl-l-WVE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosGetGlobalDefaultOpAttr",
+      "nid": "xiTqbFc7w+w",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosGetSuspendCount",
+      "nid": "Lxgze5-E3uQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosGetThreadDefaultOpAttr",
+      "nid": "fZjp7AUc+DY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosIOFilterAdd",
+      "nid": "lgITuBsRo2o",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosIOFilterCache",
+      "nid": "lAikj8EfcJg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosIOFilterGetInfo",
+      "nid": "gHxxOQxKW3E",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosIOFilterPsarcDearchiver",
+      "nid": "OIGbkgGOu6E",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosIOFilterRemove",
+      "nid": "ahIXyuwF0-o",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosInitialize",
+      "nid": "wAKZ-det+yo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosIsIdle",
+      "nid": "YkayyuR6HvI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosIsInitialized",
+      "nid": "aKWnlLIobGA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosIsSuspended",
+      "nid": "F7whoytBofE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosIsValidHandle",
+      "nid": "8IGjwtnvYwI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpCancel",
+      "nid": "FA7dUleeGik",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpDelete",
+      "nid": "5cyEcilO-J0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpGetActualCount",
+      "nid": "+FRvKknUj1I",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpGetAttr",
+      "nid": "U44GbnRZ0NA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpGetBuffer",
+      "nid": "52bk-Ucb5s0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpGetError",
+      "nid": "X+7rIfY97Ps",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpGetOffset",
+      "nid": "J9ujmUpwWAc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpGetPath",
+      "nid": "4fZAv0vbycQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpGetRequestCount",
+      "nid": "51jH2C+it2s",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpIsCancelled",
+      "nid": "+8vcurPhbEY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpIsDone",
+      "nid": "bfgo2Otmqz0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpReschedule",
+      "nid": "DX1JP95j3Gg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpRescheduleWithPriority",
+      "nid": "csVTpsP0RLk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpSetBuffer",
+      "nid": "bHFaiUhZCrQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpSyncWait",
+      "nid": "2wvqS7Odb6M",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpSyncWaitForIO",
+      "nid": "nP-LabYxHbk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpWait",
+      "nid": "SnoQQWnGK9I",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOpWaitUntil",
+      "nid": "ZSsFitZ4Kpk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOverlayAdd",
+      "nid": "TXABsmiiqto",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOverlayGetInfo",
+      "nid": "lFVNuWYTTFs",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOverlayGetList",
+      "nid": "qcZZ8FqdT8c",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOverlayModify",
+      "nid": "qD5Su6YGVWM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOverlayRemove",
+      "nid": "MuMnDaXBTm0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosOverlayResolveSync",
+      "nid": "8inAOixHSQw",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosPathNormalize",
+      "nid": "M8m6+Xnz9Ds",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosPathcmp",
+      "nid": "VoXRcLMOH7w",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosPathncmp",
+      "nid": "zePYFs8UtNw",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosPrintTimeStamps",
+      "nid": "DCfnYVX6xBo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosPrintf",
+      "nid": "z0zd9JqbxYs",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosRename",
+      "nid": "uYx2ZEq998s",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosRenameSync",
+      "nid": "G-39lsdSgXo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosResolve",
+      "nid": "hqP0nzTTxdo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosResolveSync",
+      "nid": "oiK6kLAtAIE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosResume",
+      "nid": "vKL406KPJRs",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosSaveTimeStamp",
+      "nid": "92xCv12VJIA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosSetGlobalDefaultOpAttr",
+      "nid": "2JtEQrjeUR4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosSetThreadDefaultOpAttr",
+      "nid": "4Ml2G-TSCho",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosShutdownAndCancelOps",
+      "nid": "ZPm4ROwjxi4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosStat",
+      "nid": "QKsI9N7K1zE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosStatSync",
+      "nid": "jayvY07C5dk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosSuspend",
+      "nid": "tMYHEVj4j+o",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosTerminate",
+      "nid": "3HAgZPl1v+4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosTimeGetCurrent",
+      "nid": "NUkBGOZARi4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosTimeIntervalFromNanoseconds",
+      "nid": "F1dCP7qkqok",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosTimeIntervalToNanoseconds",
+      "nid": "vZNIcB3n+bg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosTraceTimestamp",
+      "nid": "m96WzIHunT8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosUpdateParameters",
+      "nid": "l4OVTpJCyQI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFiosVprintf",
+      "nid": "FOEUXzOE0ow",
+      "state": "stub"
+    }
+  ]
+}

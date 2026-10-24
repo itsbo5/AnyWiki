@@ -1,0 +1,307 @@
+{
+  "name": "libSceNgs2.native",
+  "label": "Ngs2.native",
+  "category": "Audio and media",
+  "implemented": 44,
+  "inert": 0,
+  "stub": 15,
+  "total": 59,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNgs2CalcWaveformBlock",
+      "nid": "3pCNbVM11UA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2CustomRackGetModuleInfo",
+      "nid": "6qN1zaEZuN0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2GeomApply",
+      "nid": "eF8yRCC6W64",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2GeomCalcListener",
+      "nid": "1WsleK-MTkE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2GeomResetListenerParam",
+      "nid": "7Lcfo8SmpsU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2GeomResetSourceParam",
+      "nid": "0lbbayqDNoE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2GetWaveformFrameInfo",
+      "nid": "ekGJmmoc8j4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2JobSchedulerResetOption",
+      "nid": "BcoPfWfpvVI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2ModuleArrayEnumItems",
+      "nid": "EEemGEQCjO8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2ModuleEnumConfigs",
+      "nid": "TaoNtmMKkXQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2ModuleQueueEnumItems",
+      "nid": "ve6bZi+1sYQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2PanGetVolumeMatrix",
+      "nid": "gbMKV+8Enuo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2PanInit",
+      "nid": "xa8oL9dmXkM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2ParseWaveformData",
+      "nid": "hyVLT2VlOYk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2ParseWaveformFile",
+      "nid": "iprCTXPVWMI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2RackCreate",
+      "nid": "cLV4aiT9JpA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2RackCreateWithAllocator",
+      "nid": "U546k6orxQo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2RackDestroy",
+      "nid": "lCqD7oycmIM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2RackGetInfo",
+      "nid": "M4LYATRhRUE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2RackGetUserData",
+      "nid": "Mn4XNDg03XY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2RackGetVoiceHandle",
+      "nid": "MwmHz8pAdAo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2RackLock",
+      "nid": "MzTa7VLjogY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2RackQueryBufferSize",
+      "nid": "0eFLVCfWVds",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2RackQueryInfo",
+      "nid": "TZqb8E-j3dY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2RackRunCommands",
+      "nid": "MI2VmBx2RbM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2RackSetUserData",
+      "nid": "JNTMIaBIbV4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2RackUnlock",
+      "nid": "++YZ7P9e87U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2ReportRegisterHandler",
+      "nid": "uBIN24Tv2MI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2ReportUnregisterHandler",
+      "nid": "nPzb7Ly-VjE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2StreamCreate",
+      "nid": "sU2St3agdjg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2StreamCreateWithAllocator",
+      "nid": "I+RLwaauggA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2StreamDestroy",
+      "nid": "bfoMXnTRtwE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2StreamQueryBufferSize",
+      "nid": "dxulc33msHM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2StreamQueryInfo",
+      "nid": "rfw6ufRsmow",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2StreamResetOption",
+      "nid": "q+2W8YdK0F8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2StreamRunCommands",
+      "nid": "qQHCi9pjDps",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2SystemCreate",
+      "nid": "koBbCMvOKWw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2SystemCreateWithAllocator",
+      "nid": "mPYgU4oYpuY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2SystemDestroy",
+      "nid": "u-WrYDaJA3k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2SystemGetInfo",
+      "nid": "vU7TQ62pItw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2SystemGetUserData",
+      "nid": "4lFaRxd-aLs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2SystemLock",
+      "nid": "gThZqM5PYlQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2SystemQueryBufferSize",
+      "nid": "pgFAiLR5qT4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2SystemQueryInfo",
+      "nid": "3oIK7y7O4k0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2SystemRender",
+      "nid": "i0VnXM-C9fc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2SystemResetOption",
+      "nid": "AQkj7C0f3PY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2SystemRunCommands",
+      "nid": "gXiormHoZZ4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2SystemSetGrainSamples",
+      "nid": "l4Q2dWEH6UM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2SystemSetSampleRate",
+      "nid": "-tbc2SxQD60",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2SystemSetUserData",
+      "nid": "GZB2v0XnG0k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2SystemUnlock",
+      "nid": "JXRC5n0RQls",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2VoiceControl",
+      "nid": "uu94irFOGpA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2VoiceGetMatrixInfo",
+      "nid": "jjBVvPN9964",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2VoiceGetOwner",
+      "nid": "W-Z8wWMBnhk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2VoiceGetPortInfo",
+      "nid": "WCayTgob7-o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2VoiceGetState",
+      "nid": "-TOuuAQ-buE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2VoiceGetStateFlags",
+      "nid": "rEh728kXk3w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2VoiceQueryInfo",
+      "nid": "9eic4AmjGVI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNgs2VoiceRunCommands",
+      "nid": "AbYvTOZ8Pts",
+      "state": "implemented"
+    }
+  ]
+}

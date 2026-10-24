@@ -1,0 +1,262 @@
+{
+  "name": "libScePlayReady",
+  "label": "PlayReady",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 50,
+  "total": 50,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceBufferAlloc",
+      "nid": "EwdhSaFjU7A",
+      "state": "stub"
+    },
+    {
+      "name": "sceBufferDup",
+      "nid": "dFuIkGWGshc",
+      "state": "stub"
+    },
+    {
+      "name": "sceBufferFree",
+      "nid": "DHItaFqEQkU",
+      "state": "stub"
+    },
+    {
+      "name": "sceBufferInit",
+      "nid": "G2OOzViPX7I",
+      "state": "stub"
+    },
+    {
+      "name": "sceBufferRealloc",
+      "nid": "rB8XP9T6Dsk",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyApiInitializeInitParams",
+      "nid": "Y1upNpVk2bU",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyApiIsStarted",
+      "nid": "sKLOdgu+I7c",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyApiStart",
+      "nid": "-hOylkSV7qY",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyApiStop",
+      "nid": "79siTMMdXfs",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyApiVersion",
+      "nid": "LyopcaFAuYE",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyApiVersionString",
+      "nid": "qIx30tyaz6c",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyBufferFree",
+      "nid": "OXhWQp2ZA9s",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyBufferInit",
+      "nid": "6Lw60o5T9Ms",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyBufferMalloc",
+      "nid": "yigBLNiYtOg",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyBufferRealloc",
+      "nid": "ILl7f+knBmk",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyContentGetProperty",
+      "nid": "BLo--aicQXs",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyContentSetProperty",
+      "nid": "ZEZYgGsc4q0",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyDomainCertEnumFini",
+      "nid": "QFJCN+emlOs",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyDomainCertEnumInit",
+      "nid": "3yA8V7dy8Cc",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyDomainCertEnumNext",
+      "nid": "bDBa3CzyDko",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyDomainCertFind",
+      "nid": "l3AOURv-MWU",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyDomainJoinGenerateChallenge",
+      "nid": "1c8o7fQHtME",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyDomainJoinProcessResponse",
+      "nid": "632HibKgIsU",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyDomainLeaveGenerateChallenge",
+      "nid": "WBPErtBvp0M",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyDomainLeaveProcessResponse",
+      "nid": "W5tL-FE60Sw",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyEnvelopeClose",
+      "nid": "+tPsvYO70II",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyEnvelopeGetSize",
+      "nid": "azsWRjrskRA",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyEnvelopeInitializeRead",
+      "nid": "frqq5Tky-zI",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyEnvelopeOpen",
+      "nid": "h0qUZQn20ww",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyEnvelopeRead",
+      "nid": "oeI5GwWRS3U",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyEnvelopeSeek",
+      "nid": "s23Q07skOlc",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyFinalize",
+      "nid": "6EKG2A33Gtk",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyFreeDecryptContext",
+      "nid": "VrWK7GksARg",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyInitialize",
+      "nid": "kLERpSLEraQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyInitializeInitParams",
+      "nid": "inhtz+Vuc1k",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyLicenseAcqGenerateAck",
+      "nid": "y+eBtrEElvs",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyLicenseAcqGenerateChallenge",
+      "nid": "A3YKyP3MwAI",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyLicenseAcqGetAdditionalResponseData",
+      "nid": "3lzrNhmEuCg",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyLicenseAcqProcessAckResponse",
+      "nid": "7QDrajf3MxI",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyLicenseAcqProcessResponse",
+      "nid": "OdutVIwsfoc",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyMemAlloc",
+      "nid": "pvGklMDOeSk",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyMemFree",
+      "nid": "Q9PafwAucU0",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyMemGetStats",
+      "nid": "iktpef6dl3k",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyMemRealloc",
+      "nid": "P38mNmonvHs",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyNewDecryptContext",
+      "nid": "VB4SH73Kf5E",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyReaderBind",
+      "nid": "q24aRzI78Sk",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyReaderCommit",
+      "nid": "RdHocm64Qfs",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyReaderDecrypt",
+      "nid": "Y+-YGNm6Gas",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyReset",
+      "nid": "PDu2PNjfb1M",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyStoreCleanup",
+      "nid": "o-Z4rChSsSE",
+      "state": "stub"
+    }
+  ]
+}

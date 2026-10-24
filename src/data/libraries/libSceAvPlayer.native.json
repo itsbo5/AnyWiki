@@ -1,0 +1,22 @@
+{
+  "name": "libSceAvPlayer.native",
+  "label": "AvPlayer.native",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 2,
+  "total": 2,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAvPlayerPrintf",
+      "nid": "agig-iDRrTE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvPlayerVprintf",
+      "nid": "yN7Jhuv8g24",
+      "state": "stub"
+    }
+  ]
+}

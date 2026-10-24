@@ -1,0 +1,102 @@
+{
+  "name": "libSceMoveTracker",
+  "label": "MoveTracker",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 2,
+  "stub": 16,
+  "total": 18,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceMoveTrackerCalibrateReset",
+      "nid": "IpEZSWzuMGg",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerCalibrateYaw",
+      "nid": "YJYjBoMFRXY",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerCameraUpdate",
+      "nid": "BjsreFAfJzo",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerCaptureInit",
+      "nid": "GdMXy2ocZ48",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerCaptureTerm",
+      "nid": "Hyg37zqntzY",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerControllersUpdate",
+      "nid": "-Y8hlMgBsr4",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerGetState",
+      "nid": "YV2CtE7qX8M",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerGetVersion",
+      "nid": "16efS+mFGGc",
+      "state": "inert"
+    },
+    {
+      "name": "sceMoveTrackerGetWorkingMemorySize",
+      "nid": "gg1d4KsyVVs",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerInit",
+      "nid": "F4w2atwG428",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerPlayGetImages",
+      "nid": "Vmog0fe2m+E",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerPlayGetStates",
+      "nid": "CZecZG5-Rfc",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerPlayStart",
+      "nid": "xGwa20Nmb2w",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerPlayStep",
+      "nid": "F1XWLxplruo",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerRecordSave",
+      "nid": "1PQY6npY6cE",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerRecordStart",
+      "nid": "zwC-pVt1RY4",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveTrackerRecordStop",
+      "nid": "7ZGS7F0Nl4E",
+      "state": "inert"
+    },
+    {
+      "name": "sceMoveTrackerTerm",
+      "nid": "3tiBWhkHH3A",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "libSceCdlgG2P",
+  "label": "CdlgG2P",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceG2PDialogClose",
+      "nid": "2pEUrnXGxys",
+      "state": "implemented"
+    },
+    {
+      "name": "sceG2PDialogGetResult",
+      "nid": "vpA-xXvhfeY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceG2PDialogGetStatus",
+      "nid": "Wi6pRLPS8cc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceG2PDialogInitialize",
+      "nid": "SWRH9B4oil8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceG2PDialogOpen",
+      "nid": "biwS5HG-DBY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceG2PDialogTerminate",
+      "nid": "jdhjw0pRmyQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceG2PDialogUpdateStatus",
+      "nid": "tkRwnzG4Tus",
+      "state": "implemented"
+    }
+  ]
+}

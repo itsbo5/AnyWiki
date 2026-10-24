@@ -1,0 +1,2667 @@
+{
+  "name": "libkernel_sys",
+  "label": "libkernel_sys",
+  "category": "Core system",
+  "implemented": 48,
+  "inert": 0,
+  "stub": 483,
+  "total": 531,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "_fpathconf_nid_postfix",
+      "nid": "1550bovrx8o",
+      "state": "implemented"
+    },
+    {
+      "name": "_openat_nid_postfix",
+      "nid": "7S7ajJVIlig",
+      "state": "implemented"
+    },
+    {
+      "name": "aio_cancel_nid_postfix",
+      "nid": "q-NUU0Sl2vo",
+      "state": "implemented"
+    },
+    {
+      "name": "aio_error_nid_postfix",
+      "nid": "9AhcHO+pMjU",
+      "state": "implemented"
+    },
+    {
+      "name": "aio_fsync_nid_postfix",
+      "nid": "i6DGrlx4cX8",
+      "state": "stub"
+    },
+    {
+      "name": "aio_read_nid_postfix",
+      "nid": "vqk8hD7nrnM",
+      "state": "stub"
+    },
+    {
+      "name": "aio_return_nid_postfix",
+      "nid": "uAuGiVJOWns",
+      "state": "implemented"
+    },
+    {
+      "name": "aio_suspend_nid_postfix",
+      "nid": "Gr9wPIylwaE",
+      "state": "implemented"
+    },
+    {
+      "name": "aio_waitcomplete_nid_postfix",
+      "nid": "ixCr6ebO45s",
+      "state": "implemented"
+    },
+    {
+      "name": "aio_write_nid_postfix",
+      "nid": "xPvApbYOp20",
+      "state": "stub"
+    },
+    {
+      "name": "amd64_set_fsbase_nid_postfix",
+      "nid": "AJDTg+GFNlk",
+      "state": "stub"
+    },
+    {
+      "name": "blockpool_batch_nid_postfix",
+      "nid": "XSAnZRK+VqQ",
+      "state": "stub"
+    },
+    {
+      "name": "blockpool_map_nid_postfix",
+      "nid": "rLRhFvnHTyU",
+      "state": "stub"
+    },
+    {
+      "name": "blockpool_open_nid_postfix",
+      "nid": "-la5pxx44-U",
+      "state": "stub"
+    },
+    {
+      "name": "blockpool_unmap_nid_postfix",
+      "nid": "wbK1s-0LIgA",
+      "state": "stub"
+    },
+    {
+      "name": "chown_nid_postfix",
+      "nid": "JJN8-3VI08w",
+      "state": "stub"
+    },
+    {
+      "name": "chroot_nid_postfix",
+      "nid": "dIHiDz0solw",
+      "state": "implemented"
+    },
+    {
+      "name": "cpuset_getid_nid_postfix",
+      "nid": "xEufBuMV2Vs",
+      "state": "stub"
+    },
+    {
+      "name": "cpuset_nid_postfix",
+      "nid": "aTosCsB2c5A",
+      "state": "stub"
+    },
+    {
+      "name": "cpuset_setid_nid_postfix",
+      "nid": "n2Q17EsQr1Q",
+      "state": "stub"
+    },
+    {
+      "name": "dynlib_get_obj_member_nid_postfix",
+      "nid": "hLJbxJaxuM0",
+      "state": "stub"
+    },
+    {
+      "name": "fchdir_nid_postfix",
+      "nid": "k1GDiZzAsk0",
+      "state": "implemented"
+    },
+    {
+      "name": "fchmodat_nid_postfix",
+      "nid": "Y84gpD1ZZ5M",
+      "state": "implemented"
+    },
+    {
+      "name": "fchown_nid_postfix",
+      "nid": "T5x3PqFmyrI",
+      "state": "stub"
+    },
+    {
+      "name": "fchownat_nid_postfix",
+      "nid": "ImX7Usu49Y8",
+      "state": "stub"
+    },
+    {
+      "name": "fork_nid_postfix",
+      "nid": "57sHs3xjStU",
+      "state": "stub"
+    },
+    {
+      "name": "fpathconf_nid_postfix",
+      "nid": "HCIys2c74-0",
+      "state": "implemented"
+    },
+    {
+      "name": "fstat_nid_postfix",
+      "nid": "v-PGs43OlL0",
+      "state": "implemented"
+    },
+    {
+      "name": "fstatat_nid_postfix",
+      "nid": "N+OuieIwkvM",
+      "state": "implemented"
+    },
+    {
+      "name": "fstatfs_nid_postfix",
+      "nid": "9Xogz+SUNwo",
+      "state": "implemented"
+    },
+    {
+      "name": "futimesat_nid_postfix",
+      "nid": "1553kl-z8BI",
+      "state": "stub"
+    },
+    {
+      "name": "get_authinfo_nid_postfix",
+      "nid": "XuNCLVRaDxw",
+      "state": "stub"
+    },
+    {
+      "name": "get_module_info_list_nid_postfix",
+      "nid": "jv-cmkNzgcU",
+      "state": "stub"
+    },
+    {
+      "name": "get_page_table_stats_nid_postfix",
+      "nid": "NlV8CCHuA5M",
+      "state": "stub"
+    },
+    {
+      "name": "get_sdk_compiled_version_nid_postfix",
+      "nid": "Oewz6Vz-jnI",
+      "state": "stub"
+    },
+    {
+      "name": "get_self_auth_info_nid_postfix",
+      "nid": "eeoyOIDC1kQ",
+      "state": "stub"
+    },
+    {
+      "name": "get_vm_map_timestamp_nid_postfix",
+      "nid": "VenP-od+r-4",
+      "state": "stub"
+    },
+    {
+      "name": "getfsstat_nid_postfix",
+      "nid": "8XMU6TaiyIg",
+      "state": "stub"
+    },
+    {
+      "name": "getlogin_nid_postfix",
+      "nid": "2fglAioFmGA",
+      "state": "stub"
+    },
+    {
+      "name": "ipmimgr_call_nid_postfix",
+      "nid": "EHSI8EUZaI0",
+      "state": "stub"
+    },
+    {
+      "name": "is_in_sandbox_nid_postfix",
+      "nid": "63+zXe6fQrA",
+      "state": "stub"
+    },
+    {
+      "name": "kenv_nid_postfix",
+      "nid": "hCfpkdqi9tk",
+      "state": "stub"
+    },
+    {
+      "name": "kldfind_nid_postfix",
+      "nid": "lA5ZRYduzYY",
+      "state": "stub"
+    },
+    {
+      "name": "kldfirstmod_nid_postfix",
+      "nid": "My-2X4fs2WQ",
+      "state": "stub"
+    },
+    {
+      "name": "kldload_nid_postfix",
+      "nid": "dP9EmHF2X-c",
+      "state": "stub"
+    },
+    {
+      "name": "kldnext_nid_postfix",
+      "nid": "3moj6B0KZMw",
+      "state": "stub"
+    },
+    {
+      "name": "kldstat_nid_postfix",
+      "nid": "yCfP68lGkdc",
+      "state": "stub"
+    },
+    {
+      "name": "kldsym_nid_postfix",
+      "nid": "LdsJdiG7IMs",
+      "state": "stub"
+    },
+    {
+      "name": "kldunload_nid_postfix",
+      "nid": "4rD7SqJOwus",
+      "state": "stub"
+    },
+    {
+      "name": "kmq_notify_nid_postfix",
+      "nid": "l70nfB0mWCo",
+      "state": "stub"
+    },
+    {
+      "name": "kmq_open_nid_postfix",
+      "nid": "jfIATILEnqI",
+      "state": "stub"
+    },
+    {
+      "name": "kmq_setattr_nid_postfix",
+      "nid": "hHescqllbrA",
+      "state": "stub"
+    },
+    {
+      "name": "kmq_timedreceive_nid_postfix",
+      "nid": "nK+F-dv+3Lk",
+      "state": "stub"
+    },
+    {
+      "name": "kmq_timedsend_nid_postfix",
+      "nid": "u-eW4uXRXoc",
+      "state": "stub"
+    },
+    {
+      "name": "kmq_unlink_nid_postfix",
+      "nid": "c-lyUJXHiwQ",
+      "state": "stub"
+    },
+    {
+      "name": "ksem_close_nid_postfix",
+      "nid": "xJB7jpUWeP8",
+      "state": "stub"
+    },
+    {
+      "name": "ksem_destroy_nid_postfix",
+      "nid": "jXTDRQDx5e8",
+      "state": "stub"
+    },
+    {
+      "name": "ksem_getvalue_nid_postfix",
+      "nid": "aQHnviXoRCs",
+      "state": "stub"
+    },
+    {
+      "name": "ksem_init_nid_postfix",
+      "nid": "pt-qxqlVG-c",
+      "state": "stub"
+    },
+    {
+      "name": "ksem_open_nid_postfix",
+      "nid": "GqnKVJxcBv4",
+      "state": "stub"
+    },
+    {
+      "name": "ksem_post_nid_postfix",
+      "nid": "mqO6fOOsPGc",
+      "state": "stub"
+    },
+    {
+      "name": "ksem_timedwait_nid_postfix",
+      "nid": "IPS0+HaxWaw",
+      "state": "stub"
+    },
+    {
+      "name": "ksem_trywait_nid_postfix",
+      "nid": "4VFMJp31cOk",
+      "state": "stub"
+    },
+    {
+      "name": "ksem_unlink_nid_postfix",
+      "nid": "8Kv-Pij7uN4",
+      "state": "stub"
+    },
+    {
+      "name": "ksem_wait_nid_postfix",
+      "nid": "wxdmBF7XHis",
+      "state": "stub"
+    },
+    {
+      "name": "ktrace_nid_postfix",
+      "nid": "V+pfIJuslCI",
+      "state": "stub"
+    },
+    {
+      "name": "lchflags_nid_postfix",
+      "nid": "KZco0baUoBE",
+      "state": "stub"
+    },
+    {
+      "name": "lchmod_nid_postfix",
+      "nid": "T4NEPAtKpuU",
+      "state": "stub"
+    },
+    {
+      "name": "lchown_nid_postfix",
+      "nid": "m6j6zUAosVo",
+      "state": "stub"
+    },
+    {
+      "name": "link_nid_postfix",
+      "nid": "y0tKZiAOZIM",
+      "state": "implemented"
+    },
+    {
+      "name": "linkat_nid_postfix",
+      "nid": "X0FSLydyYP0",
+      "state": "stub"
+    },
+    {
+      "name": "mdbg_call_nid_postfix",
+      "nid": "RRLpzdUtwB4",
+      "state": "stub"
+    },
+    {
+      "name": "mdbg_service_nid_postfix",
+      "nid": "7pYyq7y1au0",
+      "state": "stub"
+    },
+    {
+      "name": "mkdirat_nid_postfix",
+      "nid": "tZ8MN+2FKvQ",
+      "state": "implemented"
+    },
+    {
+      "name": "mount_nid_postfix",
+      "nid": "scdYbfoPPQo",
+      "state": "stub"
+    },
+    {
+      "name": "openat_nid_postfix",
+      "nid": "jF9YSb3mtgI",
+      "state": "implemented"
+    },
+    {
+      "name": "openintr_nid_postfix",
+      "nid": "jC4G7dv1LvM",
+      "state": "stub"
+    },
+    {
+      "name": "pathconf_nid_postfix",
+      "nid": "QWpKb9pvRjg",
+      "state": "implemented"
+    },
+    {
+      "name": "profil_nid_postfix",
+      "nid": "UEJ5fFd17gQ",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_attr_getaffinity_np_nid_postfix",
+      "nid": "lh48ka1Lqk4",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_attr_getsolosched_np_nid_postfix",
+      "nid": "V1RMDZAPUu8",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_attr_setaffinity_np_nid_postfix",
+      "nid": "cp34EuTyA9A",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_attr_setcreatesuspend_np_nid_postfix",
+      "nid": "2Qr5oIIXk94",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_attr_setstackaddr_nid_postfix",
+      "nid": "MdV6bdOmeIY",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_barrier_setname_np_nid_postfix",
+      "nid": "Jy3hxVTH87E",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_cond_setname_np_nid_postfix",
+      "nid": "w7KDHLduMog",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_get_specificarray_np_nid_postfix",
+      "nid": "vtN49gxDHfQ",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_get_user_context_np_nid_postfix",
+      "nid": "7nAnVIziN0U",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_getstack_np_nid_postfix",
+      "nid": "bP+1i2zZo0o",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_main_np_nid_postfix",
+      "nid": "G5U-XP06l+A",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_multi_np_nid_postfix",
+      "nid": "yE3m2+5ubdI",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_mutex_getprioceiling_nid_postfix",
+      "nid": "VkXSveFQ+1k",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_mutex_init_for_mono_nid_postfix",
+      "nid": "ErMGDrOYcUg",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_mutex_setname_np_nid_postfix",
+      "nid": "muqAELpv3xg",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_mutex_setprioceiling_nid_postfix",
+      "nid": "jq5+xnle-jw",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_mutexattr_getgen_np_nid_postfix",
+      "nid": "EavOb73tsmE",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_mutexattr_setgen_np_nid_postfix",
+      "nid": "snmaX2lwu9U",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_resume_all_np_nid_postfix",
+      "nid": "5pbC0K75Z24",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_resume_np_nid_postfix",
+      "nid": "qQ0KQkKWRcE",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_resume_user_context_np_nid_postfix",
+      "nid": "ma23ZAD-UFE",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_rwlock_setname_np_nid_postfix",
+      "nid": "P+74r80R13k",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_rwlockattr_settype_np_nid_postfix",
+      "nid": "aXCkV+La6ps",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_set_defaultstacksize_np_nid_postfix",
+      "nid": "8G5Zokv6kos",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_set_user_context_np_nid_postfix",
+      "nid": "7KFQeBRBf0o",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_single_np_nid_postfix",
+      "nid": "in33shKtUQY",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_suspend_all_np_nid_postfix",
+      "nid": "HnAm1-0HVVo",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_suspend_np_nid_postfix",
+      "nid": "3v7n3ipWk9I",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_suspend_user_context_np_nid_postfix",
+      "nid": "oQlDZQX2Pjg",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_switch_add_np_nid_postfix",
+      "nid": "lbRmaXu+vyk",
+      "state": "stub"
+    },
+    {
+      "name": "pthread_switch_delete_np_nid_postfix",
+      "nid": "84oa2PR+-eM",
+      "state": "stub"
+    },
+    {
+      "name": "ptrace_nid_postfix",
+      "nid": "jfagUDbcxfk",
+      "state": "stub"
+    },
+    {
+      "name": "pwrite_nid_postfix",
+      "nid": "KTLeg1LntEQ",
+      "state": "stub"
+    },
+    {
+      "name": "readlink_nid_postfix",
+      "nid": "Y-Zy9nhuwCs",
+      "state": "implemented"
+    },
+    {
+      "name": "readlinkat_nid_postfix",
+      "nid": "Bme6ZcyZJ7w",
+      "state": "implemented"
+    },
+    {
+      "name": "reboot_nid_postfix",
+      "nid": "7OTE4fgBe2U",
+      "state": "stub"
+    },
+    {
+      "name": "renameat_nid_postfix",
+      "nid": "B4Wc69uBt8o",
+      "state": "implemented"
+    },
+    {
+      "name": "revoke_nid_postfix",
+      "nid": "shn4qERq2lQ",
+      "state": "stub"
+    },
+    {
+      "name": "rfork_thread_nid_postfix",
+      "nid": "tu76u73q9dI",
+      "state": "stub"
+    },
+    {
+      "name": "rtld_printf_nid_postfix",
+      "nid": "Z6dFDduKnmY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCoredumpDebugForceCoredumpOnAppClose",
+      "nid": "1Pw5n31Ayxc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCoredumpDebugTriggerCoredump",
+      "nid": "G420P25pN5Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceCoredumpGetStopInfoGpu",
+      "nid": "nsyWCTsI3MY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCoredumpInternalGetThreadContextInfo",
+      "nid": "qCDIxJL+IN8",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAddACInfo",
+      "nid": "KpCv0rernZQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAddCpumodeEvent",
+      "nid": "NhL5qID2iho",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAddGpuExceptionEvent",
+      "nid": "YJ7JscWubcU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAddProcessToCanvasMap",
+      "nid": "5-rYyD+-vHQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAddResource",
+      "nid": "uqJlNd9XIrA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAllocateDirectMemory2",
+      "nid": "YikqzdTOmxY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAllocateDirectMemoryForApp",
+      "nid": "fNoviuIwykc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAllocateDirectMemoryForMiniApp",
+      "nid": "ll8I9K4RtUM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAllocateToolMemory",
+      "nid": "45Yurf7lZmU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAllocateTraceDirectMemory",
+      "nid": "g6fhW-+NuuU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAprCtrl",
+      "nid": "x-v44qRnzVA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAprSubmitCommandBufferAndGetResult_TEST",
+      "nid": "0ers1N4C9CY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAprSubmitCommandBuffer_TEST",
+      "nid": "Omr9X+YmT7I",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAvailableToolMemorySize",
+      "nid": "YkwlupG-S4E",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelBacktraceSelf",
+      "nid": "xRwvvcfZfHM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelBeginAppMount",
+      "nid": "H69MYqpNjCc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelBeginAppMount2",
+      "nid": "HRDq-RDIGmI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelCallIndirectBuffer",
+      "nid": "ahy8NSXrSbs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelCallIndirectBuffer2",
+      "nid": "MCdZ06CSUOc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelClearBootReqNotifyCount",
+      "nid": "N9SrpMINuLw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelClearGameDirectMemory",
+      "nid": "EgJqC+9VmvM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelCloseEport",
+      "nid": "J5RqzZ7nMVc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelCloseSema",
+      "nid": "HBkUky2PZPA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelCreateBudget",
+      "nid": "BVafm-M0GNw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelCreateEport",
+      "nid": "KF25CDxFn48",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDebugAcquireAndUpdateDebugRegister",
+      "nid": "FMvo0UFMf-o",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDebugGetAppStatus",
+      "nid": "XECwgo2nbek",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDebugGetPauseCount",
+      "nid": "CgfvQDFAtYU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDebugGetPrivateLogText",
+      "nid": "QipjH+VV2CU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDebugGetSchedLockMode",
+      "nid": "aJmqgwgzjLs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDebugGetSdkLogText",
+      "nid": "P9M5RftRHFE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDebugGpuPaDebugIsInProgress",
+      "nid": "+iVwFsjXaFQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDebugInjectProcessEvent",
+      "nid": "2tJsBnPiylo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDebugPackageCorrupted",
+      "nid": "WB0zfyMfYjk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDebugRaiseExceptionWithContext",
+      "nid": "DKWTYfo-jMY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDebugRaiseExceptionWithInfo",
+      "nid": "HbRSpVkdVF0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDebugReleaseDebugContext",
+      "nid": "8rHK-6bbvqM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDeleteACInfo",
+      "nid": "ImXI9qdLfc0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDeleteBudget",
+      "nid": "vs+KPSoE7AM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDeleteCpumodeEvent",
+      "nid": "OwjivtyfODU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDeleteEport",
+      "nid": "HhGAQ+ffliw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDeleteGpuExceptionEvent",
+      "nid": "8skggWXlSqM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDeleteProcessFromCanvasMap",
+      "nid": "iSGc7kcf8X4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDeleteSavedApp",
+      "nid": "cVI2hzWXFZU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelDirectMemoryQueryForId",
+      "nid": "ZB9HZnouJrc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelEnableDmemAliasing2",
+      "nid": "v4V7yvdU9zo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelEnablePthreadObjectCheck",
+      "nid": "vhlQXKkQFe0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelEndAppMount",
+      "nid": "mdtW4Mnp4ZM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelEndAppMount2",
+      "nid": "CYIzY6OXyAs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelEventLogInit",
+      "nid": "c7noapHDHWU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelEventLogPread",
+      "nid": "H6bIN2qvlxY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelEventLogRead",
+      "nid": "L6WLBSYfL6k",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelEventLogWrite",
+      "nid": "TmkVz5YgHg8",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelExpectedHddFormat",
+      "nid": "mRfyqqkg8w8",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelFlock",
+      "nid": "YDg-SQj66AQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetACInfoAllForCoredump",
+      "nid": "UJCnhvq5YBs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetAppCategoryType",
+      "nid": "+xy9ORMbd8U",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetAppInfoByAppId",
+      "nid": "zsMzX135ofU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetAppState",
+      "nid": "WYCNbP+Q9kc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetAslrStatus",
+      "nid": "1UOnecNlNW0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetAutoUpdateVersion",
+      "nid": "CL9DIlKFCnA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetBackupRestoreMode",
+      "nid": "QtLhuYZf9jg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetBackupRestoreModeOfNextBoot",
+      "nid": "CQ1bzp1ba0k",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetBasicProductShape",
+      "nid": "wSxRrFKzKXk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetBetaUpdateTestForRcmgr",
+      "nid": "tFD04DtJY+g",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetBioUsageAll",
+      "nid": "n0FvTzIPodM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetBootReqNotifyCount",
+      "nid": "oYr9L7WSCww",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetBudget",
+      "nid": "OX9wtyjVAJY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetBuildNumber",
+      "nid": "Oi7Mkc2qiew",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetCallRecord",
+      "nid": "ikkTGg4Cshw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetChildApp",
+      "nid": "tVCSUib8C4Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetCompiledSdkVersion",
+      "nid": "WB66evu8bsU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetCompiledSdkVersionByPath",
+      "nid": "jgYD8N1DILg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetCompiledSdkVersionByPid",
+      "nid": "8BrtU9maWG4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetCoredumpAppInfo",
+      "nid": "EHrIzxIpb+c",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetCpuUsage",
+      "nid": "ssmH9nMYO4o",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetCpuUsageAll",
+      "nid": "ToISj0q68Qg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetCpuUsageProc",
+      "nid": "VS45LnNqyCo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetCpuUsageProc2",
+      "nid": "QbdkmhQQfIM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetCpuUsageThread",
+      "nid": "XkEs5rH1bSk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetCpumodeGame",
+      "nid": "F9LZ1EbJnfo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetCurrentFanDuty",
+      "nid": "7siOfIbbg8I",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetDataTransferMode",
+      "nid": "i-H8tE6wTqI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetDebugMenuMiniModeForRcmgr",
+      "nid": "JVYt1hlHSvo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetDebugMenuModeForPsmForRcmgr",
+      "nid": "qYwuXe0hTHs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetDebugMenuModeForRcmgr",
+      "nid": "opMiSfTJyJo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetDefaultToolMemorySize",
+      "nid": "IdQuLJhnPAQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetEmergencyErrorLog",
+      "nid": "w7U3s-k8gLM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetExecutableModuleHandle",
+      "nid": "wJABa1X4+ec",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetExtLibcHandle",
+      "nid": "OA7xpGDL8sY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetFakeFinalizeMenuForRcmgr",
+      "nid": "cVC4JXxpb-s",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetFirstImageAddr",
+      "nid": "v0L5z77rkJ4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetFlagedUpdaterForRcmgr",
+      "nid": "LJVcP+0wRIk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetForceUpdateModeForRcmgr",
+      "nid": "we5t5V4Fc70",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetGPO",
+      "nid": "6sy3Y9QjOJw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetHwFeatureInfoForDecid",
+      "nid": "ZTJiZPZvNk4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetHwModelName",
+      "nid": "JC7I7J1bllQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetHwSerialNumber",
+      "nid": "PgGve9EvhPE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetIdPs",
+      "nid": "lZG-WlKxRqQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetIdTableCurrentCount",
+      "nid": "2YsHtbvCrgs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetIoreq",
+      "nid": "Ww2Gpga45Zc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetIpcPath",
+      "nid": "ePRSOZsroIQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetKnobs",
+      "nid": "lIw5lVusKXQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetKqueueFromEqueue",
+      "nid": "QyrxcdBrb0M",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetMemoryPstate",
+      "nid": "9urVLs6ovQk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetModuleInfoInternal",
+      "nid": "HZO7xOos4xc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetModuleListInternal",
+      "nid": "u+mlUkWpU3Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetOpenPsIdForSystem",
+      "nid": "ul57hvm6mBc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetPagingStatsOfAllObjects",
+      "nid": "NSw6bEcrtWo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetPagingStatsOfAllThreads",
+      "nid": "7hsMq4oz0Sc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetParentApp",
+      "nid": "T8ZlojCdON0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetPhysPageSize",
+      "nid": "Zzxstsom9-w",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetProcessName",
+      "nid": "fUJRLEbJOuQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetProcessType",
+      "nid": "+g+UP8Pyfmo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetProcessTypeOfBudget",
+      "nid": "4P1e01mbenA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetProductCode",
+      "nid": "pyAyDVpDOhw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetProductStr",
+      "nid": "tlLu+KqzgDY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetPs4SystemSwVersion",
+      "nid": "e+OCXNBQRAA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetPsmIntdevModeForRcmgr",
+      "nid": "C2ltEJILIGE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetPsnAccessTraceLogForRcmgr",
+      "nid": "ZotSeVujZaU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetQafExpirationTimeNotafterForRcmgr",
+      "nid": "58GfHBfwpOY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetQafExpirationTimeNotbeforeForRcmgr",
+      "nid": "QZ3WWIhtNbE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetQafGenerationForRcmgr",
+      "nid": "H0hj8V6fJwk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetQafNameForRcmgr",
+      "nid": "qJnZcaDrZvI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetRenderingMode",
+      "nid": "9thKyBzyAR4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetResidentCount",
+      "nid": "Q30w46WtYQw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetResidentFmemCount",
+      "nid": "a7DM+5cDkAg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetResource",
+      "nid": "85QMKsnns2o",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetResourceLimit",
+      "nid": "S2-4Sh3qnm8",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetResourceOne",
+      "nid": "TQxbrxPdIxU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetSafemode",
+      "nid": "bmQaivctXo4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetSanitizerMallocReplace",
+      "nid": "bt0POEUZddE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetSanitizerNewReplace",
+      "nid": "F4Kib3Mb0wI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetSocClock",
+      "nid": "tSFK-c43YAI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetSpecialIForRcmgr",
+      "nid": "3KIbxxVQv84",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetSubsysId",
+      "nid": "ou2GyAJwJ+Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetSubsysSubId",
+      "nid": "2I5eSIxm4Ng",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetSystemLevelDebuggerModeForRcmgr",
+      "nid": "fFMg-cBHBBY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetSystemSwBeta",
+      "nid": "3EDFoWECKOg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetThreadName",
+      "nid": "4vkZwDJbMx0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetUniversalMode",
+      "nid": "GrdiysPCp+M",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetUpdVersion",
+      "nid": "rTNYCkfforg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetUtokenDataExecutionForRcmgr",
+      "nid": "ToKKfC8tKIk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetUtokenExpirationTimeNotafterForRcmgr",
+      "nid": "8PGQdZFioFQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetUtokenExpirationTimeNotbeforeForRcmgr",
+      "nid": "Htwoe5tvNYg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetUtokenFakeSharefactoryForRcmgr",
+      "nid": "MaCKSOQDtyU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetUtokenFlagedUpdaterForRcmgr",
+      "nid": "0yVJNcMqyXk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetUtokenNpEnvSwitchingForRcmgr",
+      "nid": "+XuZD9HV0p4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetUtokenSaveDataRepairForRcmgr",
+      "nid": "VbrTamW6dJs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetUtokenStoreModeForRcmgr",
+      "nid": "0NyJTCJWuuk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetUtokenUseSoftwagnerForAcmgr",
+      "nid": "b0cryxaTM4k",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetUtokenUseSoftwagnerForRcmgr",
+      "nid": "Vo1qeT4JY6I",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetUtokenWeakenedPortRestrictionForRcmgr",
+      "nid": "T1t68JwPqME",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetVrCaptureSize",
+      "nid": "heiOpxS1Zio",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGiveDirectMemoryToMapper",
+      "nid": "H59T7YvKI5M",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelHasNeoMode",
+      "nid": "rNRtm1uioyY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelHwGetBdDriveInfo",
+      "nid": "3B8820wLyCk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelHwHasOpticalOut",
+      "nid": "l-zbaxNzruE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelHwHasWlanBt",
+      "nid": "+ofrEv1aAU0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccControlBDPowerState",
+      "nid": "1wxFFk3xIhA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccControlUSBPowerState",
+      "nid": "ZqxPUMisNkY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccGetBDPowerState",
+      "nid": "zLEuSU+hl-w",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccGetBootTimestamp",
+      "nid": "kDfWvHZH3eM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccGetCPMode",
+      "nid": "1NlbNxWzn7U",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccGetCountTime",
+      "nid": "U0NKl-rjhYA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccGetCpuInfoBit",
+      "nid": "Z7NoR9m5SVo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccGetErrLog",
+      "nid": "8TqMzIggthc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccGetHwInfo",
+      "nid": "C+i9gJY4A1I",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccGetPowerNumberOfBootShutdown",
+      "nid": "tCQzG0iC8zw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccGetPowerOperatingTime",
+      "nid": "PA6ZwQM5tNQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccGetPowerUpCause",
+      "nid": "wXmx+vN8puE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccGetSysEventLog",
+      "nid": "L21PBFwqIiM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccGetUSBPowerState",
+      "nid": "NtOA+0RApBg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccIndicatorBootDone",
+      "nid": "qWoGe2XqwVw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccIndicatorShutdown",
+      "nid": "gQXxz1IoL5U",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccIndicatorStandby",
+      "nid": "98LV9dS2Fvw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccIndicatorStandbyBoot",
+      "nid": "7Q-U-8yN1Hk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccIndicatorStandbyShutdown",
+      "nid": "Eye1lgCj9yo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccNotifyBootStatus",
+      "nid": "wNeGsNes5ck",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccNvsFlush",
+      "nid": "xXj0rnNUYIk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccReadPowerBootMessage",
+      "nid": "0gkGdPk8dXw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccSetBuzzer",
+      "nid": "iBQ2omlTuls",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccSetCPMode",
+      "nid": "hc0GFWwSrR4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccSetCpuInfoBit",
+      "nid": "RP9ImTNDfP8",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIccSetDownloadMode",
+      "nid": "o4NI2wpFhbI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelInternalGetKmemStatistics",
+      "nid": "L7aj7caj8+s",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelInternalGetMapStatistics",
+      "nid": "n2nyhRL5uUg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelInternalHeapPrintBacktraceWithModuleInfo",
+      "nid": "rb8JKArrzc0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelInternalMapDirectMemory",
+      "nid": "xAKAe6kFk90",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelInternalMapNamedDirectMemory",
+      "nid": "0ttVHjPWLsE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelInternalResumeDirectMemoryRelease",
+      "nid": "1vCEy8EP+gc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelInternalSuspendDirectMemoryRelease",
+      "nid": "3+E-5EFZxDo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsAllowedToSelectDvdRegion",
+      "nid": "oU4h4oBe2l0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsAuthenticNeo",
+      "nid": "cbn9Di01j0k",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsCEX",
+      "nid": "8aCOCGoRkUI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsDebuggerAttached",
+      "nid": "K0ZTCJ-wFrM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsDevKit",
+      "nid": "QNjGUdj1HPM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsExperimentalBeta",
+      "nid": "B1K98ubk6V8",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsGenuineCEX",
+      "nid": "ts25M0mp2uY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsGenuineDevKit",
+      "nid": "lFf3UU811v4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsGenuineKratosCex",
+      "nid": "H54cSDvjryI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsGenuineN",
+      "nid": "u3h77G+tFVc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsGenuineTestKit",
+      "nid": "S4XWKGFp+bc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsInSandbox",
+      "nid": "xeu-pV8wkKs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsKratos",
+      "nid": "miPa6vSAqos",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsM2DeviceAttached",
+      "nid": "mC57yegC040",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsMainOnStanbyMode",
+      "nid": "Jp76d0USJeM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsMainOnStandbyMode",
+      "nid": "vZser6ysSbM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsModuleLoaded",
+      "nid": "21+rb7xOlJk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsNeoMode",
+      "nid": "WslcK1FQcGI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsProspero",
+      "nid": "mpxAdqW7dKY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsPs4Process",
+      "nid": "Yrwoq3bti3c",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsTestKit",
+      "nid": "1CVP7E-WFKk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelJitGetSharedMemoryInfo",
+      "nid": "9yxlvURJU6U",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelKernelHeapUsage",
+      "nid": "m5zDvD-LLjo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelLoadStartModuleForSysmodule",
+      "nid": "Gg3+yWL6DWU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelLoadStartModuleInternalForMono",
+      "nid": "Y1nEpkCieOY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelLwfsAllocateBlock",
+      "nid": "LFbwY8r50o8",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelLwfsLseek",
+      "nid": "s2PjRq4By9U",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelLwfsSetAttribute",
+      "nid": "T4osaR3EDkI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelLwfsTrimBlock",
+      "nid": "kHOS+St2y7M",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelLwfsWrite",
+      "nid": "FNigDX9ue0g",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelMapNamedSystemFlexibleMemory",
+      "nid": "kc+LEEIYakc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelMapSanitizerShadowMemory",
+      "nid": "8cAlCzoOiic",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelMapToolMemory",
+      "nid": "d0vezuPZxtg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelMapTraceMemory",
+      "nid": "DpDnfM6StzA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelMapperGetParam",
+      "nid": "1yXS+iqB3wQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelMemoryPoolMove",
+      "nid": "e1GIcX4AlY4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelMlockall",
+      "nid": "EfqmKkirJF0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelMsync",
+      "nid": "DkNebxmJyVI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelNormalizePath",
+      "nid": "KB7Vc2+5S54",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelNotifyAppEvent",
+      "nid": "v3LXmnWVWXk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelNotifyAppStateChanged",
+      "nid": "2z1Tkrqh8jE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelNotifySystemSuspendResumeProgress",
+      "nid": "hjErHT1CwJM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelNotifySystemSuspendStart",
+      "nid": "da6-yq0GbLg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelOpenEport",
+      "nid": "wibWed78GyY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelOpenInternal",
+      "nid": "fTKdKh-J61s",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelOpenSema",
+      "nid": "MwhHNKdBXq8",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelPrepareDirectMemorySwap",
+      "nid": "9VJUCJrxBJQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelPrepareToResumeProcess",
+      "nid": "-ajib2lKj-c",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelPrepareToSuspendProcess",
+      "nid": "5ifAYsFspMM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelProtectDirectMemory",
+      "nid": "k1jIkFHa9OU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelProtectDirectMemoryForPID",
+      "nid": "cBp0Ad-24LA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelQueryToolMemory",
+      "nid": "8qHfcUe-Nbo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelQueryTraceMemory",
+      "nid": "+8GCeq43o7c",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelRandomizedPath",
+      "nid": "p2suRCR4KqE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelRdup",
+      "nid": "LxIacrWiJ3w",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelReboot",
+      "nid": "bXxVDD3VuWc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelReleaseToolMemory",
+      "nid": "gO98NioN5FM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelReleaseTraceDirectMemory",
+      "nid": "Alqa9RE0Y5k",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelReportUnpatchedFunctionCall",
+      "nid": "M0z6Dr6TNnM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelReserve2mbPage",
+      "nid": "VjWR6g9qL2k",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelReserveSystemDirectMemory",
+      "nid": "4zUh1kGuaiw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelRestoreApp",
+      "nid": "Bc0S7C2y0Ng",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelResumeDirectMemoryRelease",
+      "nid": "PS5hxxGEVB8",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelResumeProcess",
+      "nid": "iZ5it+3LGQM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelRtldControl",
+      "nid": "Kf10sqhOoRY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSandboxPath",
+      "nid": "ASVb7Y-pR4Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSaveApp",
+      "nid": "uq1imV74tBs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetAppInfo",
+      "nid": "CkomU+GYCQ8",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetAppState",
+      "nid": "QU57kCwF81U",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetBackupRestoreMode",
+      "nid": "9xRIkqnNibE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetBaseModeClock",
+      "nid": "V0ey5Vz5F7k",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetBesteffort",
+      "nid": "WS7uPTZ0WCs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetBootReqNotify",
+      "nid": "c8J3uxxQTl4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetBudget",
+      "nid": "nzuKTmqQFXY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetCallRecord",
+      "nid": "P6dUEXUHXjo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetCompressionAttribute",
+      "nid": "FeBOnMEm0SY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetCoredumpAppInfo",
+      "nid": "9LBcV3rS10Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetCpumodeGame",
+      "nid": "KCwXUKT269I",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetDataTransferMode",
+      "nid": "+rSNKzU+aNQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetEmergencyErrorLog",
+      "nid": "DOcz37jR7dk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetFsstParam",
+      "nid": "VjBtg5Btl94",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetGPI",
+      "nid": "rzEsC81gurc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetGameDirectMemoryLimit",
+      "nid": "ej7DGZDhuAk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetGpuCu",
+      "nid": "4nAp4pZgV1A",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetIoreq",
+      "nid": "Ee3LPFXEvA0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetKnobs",
+      "nid": "kyifJypWYrM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetMemoryPstate",
+      "nid": "A1zOC17L80g",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetNeoModeClock",
+      "nid": "EA4bmgm02o8",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetPackageInfo",
+      "nid": "JlybWYbzKcY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetPhysFmemLimit",
+      "nid": "BDLSyH7y6Mo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetProcessName",
+      "nid": "8UVYwy0F2Hk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetProcessProperty",
+      "nid": "-W4xI5aVI8w",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetProcessPropertyString",
+      "nid": "U5HG6wD4smU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetSafemode",
+      "nid": "As-JdqyUuMs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetSafemodeDirect",
+      "nid": "2mH42a-kAiQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetSuspendState",
+      "nid": "ihf-xuMiekk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetTimezoneInfo",
+      "nid": "cxdklXtQcqA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetUpdatemode",
+      "nid": "EvwmfJ-sQEQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetVmContainer",
+      "nid": "R7Xj-th93gs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSettimeofday",
+      "nid": "ChCOChPU-YM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSflashGetWritePrio",
+      "nid": "XQ1A9VPIigU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSflashSetWritePrio",
+      "nid": "X79uU+sZkdQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSlvNotifyError",
+      "nid": "8KDMful7g1Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSpawn",
+      "nid": "qIjSKZfWk5I",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelStreamWriteActivate",
+      "nid": "KidC5apWSEo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelStreamWriteCreate",
+      "nid": "M3ER4aQZimk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelStreamWriteDeactivate",
+      "nid": "wPDgF0XIIqQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelStreamWriteDelete",
+      "nid": "xfm7bGiCIPg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelStreamWriteRead",
+      "nid": "RZWbY4WHAwA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelStreamWriteStat",
+      "nid": "DB+dOgEwWOs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelStreamWriteWrite",
+      "nid": "RsiyvBXx3Bs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSuspendDirectMemoryRelease",
+      "nid": "C8wi8QOUQQk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSuspendProcess",
+      "nid": "NvRYDns8Ydc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSuspendSystem",
+      "nid": "yeW8YJ4T7K4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSwitchToBaseMode",
+      "nid": "KK6B72YC-js",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSwitchToNativeMode",
+      "nid": "Op5E4tzSoiU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSwitchToNeoMode",
+      "nid": "+DVcq4YF6Xg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelTerminateProcess",
+      "nid": "VinlCA8Vkg8",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelTerminateSysCore",
+      "nid": "hUN72ocX6gM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelTitleWorkaroundIsEnabled",
+      "nid": "1yca4VvfcNA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelTitleWorkdaroundIsEnabled",
+      "nid": "GST42pfUfMc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelTraceMemoryTypeProtect",
+      "nid": "eESTogkCMPE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelTriggerEport",
+      "nid": "is-XQhYPRaQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelVirtualQueryAll",
+      "nid": "f77qlxIbqu0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWaitCommandBufferCompletion",
+      "nid": "3GqBPApWgPY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteEventQueueOnCompletionCommand",
+      "nid": "ry+I3fgrkfE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteMapCommand",
+      "nid": "3ZOA8Pf6Jho",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteMapCommand2",
+      "nid": "5b3ZqlxJ+WE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteMapDirectCommand",
+      "nid": "3M8jROcYzjs",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteMapDirectWithGpuMaskIdCommand",
+      "nid": "tNaDjIbVOwc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteMapWithGpuMaskIdCommand",
+      "nid": "G-NhAZUNlwc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteModifyMtypeProtectWithGpuMaskIdCommand",
+      "nid": "rm5-jOxSZzQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteModifyProtectCommand",
+      "nid": "B4xIPqeRONI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteModifyProtectWithGpuMaskIdCommand",
+      "nid": "2zLw9GwrtyI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteMultiMapCommand",
+      "nid": "sJrF-d2uL0Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteMultiMapWithGpuMaskIdCommand",
+      "nid": "HYzkJb41fcE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteRemapCommand",
+      "nid": "VZPXaaxp9xc",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteRemapWithGpuMaskIdCommand",
+      "nid": "G5tFhAqrCTg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteSdkEventLog",
+      "nid": "I111PPn2g18",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteSdkEventLogV",
+      "nid": "2RBVSWjzL74",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteUnmapCommand",
+      "nid": "TyzsoH-vx8o",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteWaitOnAddressCommand",
+      "nid": "6xV3u1IX9hY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteWaitOnCounterCommand",
+      "nid": "M9PNUN4QjQA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteWriteAddressCommand",
+      "nid": "5Qrm9WvdQQ4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteWriteCounterCommand",
+      "nid": "SIRdgEH3wA4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelYieldCpumode",
+      "nid": "BtJ3gH33xss",
+      "state": "stub"
+    },
+    {
+      "name": "sceLibcMspaceCreateForMonoMutex",
+      "nid": "pi90NsG3zPA",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadAtfork",
+      "nid": "i1kREW2pchs",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrGetscope",
+      "nid": "+7B2AEKKns8",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrSetcreatesuspend",
+      "nid": "GZSR0Ooae9Q",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadAttrSetscope",
+      "nid": "YdZfEZfRnPk",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadBarrierDestroy",
+      "nid": "HudB2Jv2MPY",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadBarrierInit",
+      "nid": "5dgOEPsEGqw",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadBarrierWait",
+      "nid": "t9vVyTglqHQ",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadBarrierattrDestroy",
+      "nid": "oT-j4DqJHY8",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadBarrierattrGetpshared",
+      "nid": "SkutDtgqJ9g",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadBarrierattrInit",
+      "nid": "SDkV9xhINKI",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadBarrierattrSetpshared",
+      "nid": "NpfpcLf5PYM",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadCondattrGetclock",
+      "nid": "6qM3kO5S3Oo",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadGetconcurrency",
+      "nid": "zLlLc3h2Prk",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadGetcpuclockid",
+      "nid": "tWFPPuAJxks",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMain",
+      "nid": "55aShElDfY4",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadMulti",
+      "nid": "JVc71p0lpFs",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadMutexGetprioceiling",
+      "nid": "5mO+cXIAaRI",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadMutexInitForInternalLibc",
+      "nid": "qH1gXoq71RY",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadMutexIsowned",
+      "nid": "W6OrTBO95UY",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadMutexSetprioceiling",
+      "nid": "XAzZo12sbN8",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadMutexattrGetgen",
+      "nid": "euJ98YIIE8w",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadMutexattrGetkind",
+      "nid": "rH2mWEndluc",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadMutexattrInitForInternalLibc",
+      "nid": "n2MMpvU8igI",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadMutexattrSetgen",
+      "nid": "T5Vs1D2PClU",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadMutexattrSetkind",
+      "nid": "UWZbVSFze24",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadResume",
+      "nid": "DB7Mkm+Pqzw",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadResumeAll",
+      "nid": "te+MBYMzDhY",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadSetBesteffort",
+      "nid": "i3tB6CuvHb4",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadSetDefaultstacksize",
+      "nid": "oVZ+-KgZJGo",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSetName",
+      "nid": "XeTqw+0Zl10",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSetconcurrency",
+      "nid": "gdnv6wF6hwI",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSingle",
+      "nid": "OTb0kHrf1pE",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadSuspend",
+      "nid": "ywmONkF81ok",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadSuspendAll",
+      "nid": "HlzHlgqiBo8",
+      "state": "stub"
+    },
+    {
+      "name": "scePthreadTimedjoin",
+      "nid": "HLUSF4Oi7Pc",
+      "state": "stub"
+    },
+    {
+      "name": "sched_getparam_nid_postfix",
+      "nid": "4-WnVOeE+HI",
+      "state": "stub"
+    },
+    {
+      "name": "sched_getscheduler_nid_postfix",
+      "nid": "Hk4967gFkKU",
+      "state": "stub"
+    },
+    {
+      "name": "sched_rr_get_interval_nid_postfix",
+      "nid": "xyY1b+TLYro",
+      "state": "implemented"
+    },
+    {
+      "name": "sched_setparam_nid_postfix",
+      "nid": "QcZaVygx2TY",
+      "state": "stub"
+    },
+    {
+      "name": "sched_setscheduler_nid_postfix",
+      "nid": "VjumtjH32ds",
+      "state": "stub"
+    },
+    {
+      "name": "sem_setname_nid_postfix",
+      "nid": "6ZrfpiBIjfM",
+      "state": "stub"
+    },
+    {
+      "name": "set_phys_fmem_limit_nid_postfix",
+      "nid": "joVEJ8fxaS0",
+      "state": "stub"
+    },
+    {
+      "name": "setlogin_nid_postfix",
+      "nid": "OKV54YBFJCU",
+      "state": "stub"
+    },
+    {
+      "name": "setsid_nid_postfix",
+      "nid": "CWINMp8JRU8",
+      "state": "implemented"
+    },
+    {
+      "name": "settimeofday_nid_postfix",
+      "nid": "RP4JjiPi1Cw",
+      "state": "stub"
+    },
+    {
+      "name": "sigqueue_nid_postfix",
+      "nid": "EG+W+6FTzow",
+      "state": "stub"
+    },
+    {
+      "name": "sigreturn_nid_postfix",
+      "nid": "MOy2oUtVT9c",
+      "state": "stub"
+    },
+    {
+      "name": "statfs_nid_postfix",
+      "nid": "66OoWiFqnV8",
+      "state": "stub"
+    },
+    {
+      "name": "swapcontext_nid_postfix",
+      "nid": "92BqZ7-ktaQ",
+      "state": "stub"
+    },
+    {
+      "name": "swapon_nid_postfix",
+      "nid": "9YP1+Eov0pw",
+      "state": "stub"
+    },
+    {
+      "name": "symlink_nid_postfix",
+      "nid": "cM-AQm+2nXw",
+      "state": "stub"
+    },
+    {
+      "name": "symlinkat_nid_postfix",
+      "nid": "V0UNLePYH7A",
+      "state": "stub"
+    },
+    {
+      "name": "sysKernelGetIntdevModeForInternalLibc_nid_postfix",
+      "nid": "Be2I0NWgnBw",
+      "state": "stub"
+    },
+    {
+      "name": "sysKernelGetIntdevModeForRcmgr_nid_postfix",
+      "nid": "N2fmt4Fb7Ko",
+      "state": "stub"
+    },
+    {
+      "name": "sysKernelGetManufacturingMode_nid_postfix",
+      "nid": "LiYzWqUO4oE",
+      "state": "stub"
+    },
+    {
+      "name": "sysKernelGetUpdVersion_nid_postfix",
+      "nid": "52G3ztirIa0",
+      "state": "stub"
+    },
+    {
+      "name": "sysc_e00_nid_postfix",
+      "nid": "RJQ3eWE0Y1k",
+      "state": "stub"
+    },
+    {
+      "name": "sysc_m00_nid_postfix",
+      "nid": "XBbQSSGI9Z0",
+      "state": "stub"
+    },
+    {
+      "name": "sysc_s00_nid_postfix",
+      "nid": "IqG+DFk25bY",
+      "state": "stub"
+    },
+    {
+      "name": "tcgetsid_nid_postfix",
+      "nid": "2UZnJoBS45Q",
+      "state": "stub"
+    },
+    {
+      "name": "tcsetsid_nid_postfix",
+      "nid": "cz1gYZ3Q2mQ",
+      "state": "stub"
+    },
+    {
+      "name": "umask_nid_postfix",
+      "nid": "qoDB43toGX0",
+      "state": "implemented"
+    },
+    {
+      "name": "unlinkat_nid_postfix",
+      "nid": "fINsVFgYMJs",
+      "state": "implemented"
+    },
+    {
+      "name": "unmount_nid_postfix",
+      "nid": "Q0i89Mh3pp0",
+      "state": "stub"
+    },
+    {
+      "name": "utrace_nid_postfix",
+      "nid": "VFzmCgJEhC0",
+      "state": "stub"
+    },
+    {
+      "name": "uuidgen_nid_postfix",
+      "nid": "Hd6JSyJlmmw",
+      "state": "stub"
+    },
+    {
+      "name": "vfork_nid_postfix",
+      "nid": "KQJDx9bwjZY",
+      "state": "stub"
+    },
+    {
+      "name": "wait3_nid_postfix",
+      "nid": "Hm8U7D38ZeY",
+      "state": "stub"
+    },
+    {
+      "name": "wait4_nid_postfix",
+      "nid": "BlnzQjQUJtI",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "name": "libSceGnmDriverForNeoMode",
+  "label": "GnmDriverForNeoMode",
+  "category": "System utilities",
+  "implemented": 32,
+  "inert": 50,
+  "stub": 36,
+  "total": 118,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceGnmBeginWorkload",
+      "nid": "ihxrbsoSKWc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmComputeWaitOnAddress",
+      "nid": "ffrNQOshows",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmComputeWaitSemaphore",
+      "nid": "EJapNl2+pgU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmCreateWorkloadStream",
+      "nid": "5udAm+6boVg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDebugModuleReset",
+      "nid": "dqPBvjFVpTA",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmDebugReset",
+      "nid": "RNPAItiMLIg",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmDestroyWorkloadStream",
+      "nid": "UtObDRQiGbs",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmDingDongForWorkload",
+      "nid": "byXlqupd8cE",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmDispatchDirect",
+      "nid": "0BzLGljcwBo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDispatchIndirect",
+      "nid": "Z43vKp5k7r0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDispatchIndirectOnMec",
+      "nid": "wED4ZXCFJT0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawIndex",
+      "nid": "HlTPoZ-oY7Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawIndexAuto",
+      "nid": "GGsn7jMTxw4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawIndexIndirect",
+      "nid": "ED9-Fjr8Ta4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawIndexIndirectCountMulti",
+      "nid": "thbPcG7E7qk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawIndexIndirectMulti",
+      "nid": "5q95ravnueg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawIndexMultiInstanced",
+      "nid": "jHdPvIzlpKc",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmDrawIndexOffset",
+      "nid": "oYM+YzfCm2Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawIndirect",
+      "nid": "4v+otIIdjqg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawIndirectCountMulti",
+      "nid": "cUCo8OvArrw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawIndirectMulti",
+      "nid": "f5QQLp9rzGk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawInitDefaultHardwareState",
+      "nid": "Idffwf3yh8s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawInitDefaultHardwareState200",
+      "nid": "0H2vBYbTLHI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawInitDefaultHardwareState350",
+      "nid": "yb2cRhagD1I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawInitToDefaultContextState",
+      "nid": "8lH54sfjfmU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawInitToDefaultContextState400",
+      "nid": "im2ZuItabu4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmDrawInitToDefaultContextStateInternalCommand",
+      "nid": "pF1HQjbmQJ0",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmDrawInitToDefaultContextStateInternalSize",
+      "nid": "jajhf-Gi3AI",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmDrawOpaqueAuto",
+      "nid": "stDSYW2SBVM",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmDriverInternalRetrieveGnmInterface",
+      "nid": "ODEeJ1GfDtE",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmDriverInternalRetrieveGnmInterfaceForGpuDebugger",
+      "nid": "4LSXsEKPTsE",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmDriverInternalRetrieveGnmInterfaceForReplay",
+      "nid": "3EXdrVC7WFk",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmDriverInternalRetrieveGnmInterfaceForResourceRegistration",
+      "nid": "P9iKqxAGeck",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmDriverInternalRetrieveGnmInterfaceForValidation",
+      "nid": "t-vIc5cTEzg",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmDriverInternalVirtualQuery",
+      "nid": "BvvO8Up88Zc",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmDriverTraceInProgress",
+      "nid": "R6z1xM3pW-w",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmEndWorkload",
+      "nid": "Fa3x75OOLRA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmFindResources",
+      "nid": "vbcR4Ken6AA",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmFindResourcesPublic",
+      "nid": "4Mv9OXypBG8",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmGetCoredumpAddress",
+      "nid": "GviyYfFQIkc",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmGetCoredumpMode",
+      "nid": "meiO-5ZCVIE",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmGetCoredumpProtectionFaultTimestamp",
+      "nid": "O-7nHKgcNSQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmGetDbgGcHandle",
+      "nid": "bSJFzejYrJI",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmGetGpuBlockStatus",
+      "nid": "oL4hGI1PMpw",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmGetGpuCoreClockFrequency",
+      "nid": "Fwvh++m9IQI",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmGetGpuInfoStatus",
+      "nid": "tZCSL5ulnB4",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmGetLastWaitedAddress",
+      "nid": "iFirFzgYsvw",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmGetNumTcaUnits",
+      "nid": "KnldROUkWJY",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmGetOffChipTessellationBufferSize",
+      "nid": "FFVZcCu3zWU",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmGetOwnerName",
+      "nid": "QJjPjlmPAL0",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmGetPhysicalCounterFromVirtualized",
+      "nid": "dewXw5roLs0",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmGetProtectionFaultTimeStamp",
+      "nid": "fzJdEihTFV4",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmGetResourceBaseAddressAndSizeInBytes",
+      "nid": "4PKnYXOhcx4",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmGetResourceName",
+      "nid": "O0S96YnD04U",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmGetResourceRegistrationBuffers",
+      "nid": "eLQbNsKeTkU",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmGetResourceShaderGuid",
+      "nid": "UBv7FkVfzcQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmGetResourceType",
+      "nid": "bdqdvIkLPIU",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmGetResourceUserData",
+      "nid": "UoBuWAhKk7U",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmGetShaderProgramBaseAddress",
+      "nid": "nEyFbYUloIM",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmGetShaderStatus",
+      "nid": "k7iGTvDQPLQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmGpuPaDebugEnter",
+      "nid": "QLdG7G-PBZo",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmGpuPaDebugLeave",
+      "nid": "tVEdZe3wlbY",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmInsertDingDongMarker",
+      "nid": "NfvOrNzy6sk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmInsertThreadTraceMarker",
+      "nid": "URDgJcXhQOs",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmIsCoredumpValid",
+      "nid": "HRyNHoAjb6E",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmLogicalTcaUnitToPhysical",
+      "nid": "Kl0Z3LH07QI",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmMapComputeQueueWithPriority",
+      "nid": "A+uGq+3KFtQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmPaDisableFlipCallbacks",
+      "nid": "+N+wrSYBLIw",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmPaEnableFlipCallbacks",
+      "nid": "8WDA9RiXLaw",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmPaHeartbeat",
+      "nid": "tNuT48mApTc",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmQueryResourceRegistrationUserMemoryRequirements",
+      "nid": "6IMbpR7nTzA",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmRaiseUserExceptionEvent",
+      "nid": "+rJnw2e9O+0",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmRegisterGdsResource",
+      "nid": "9Mv61HaMhfA",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmRegisterGnmLiveCallbackConfig",
+      "nid": "t7-VbMosbR4",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmRegisterOwner",
+      "nid": "ZFqKFl23aMc",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmRegisterOwnerForSystem",
+      "nid": "j6mSQs3UgaY",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmRegisterResource",
+      "nid": "nvEwfYAImTs",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmRequestFlipAndSubmitDoneForWorkload",
+      "nid": "6YRHhh5mHCs",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmResetVgtControl",
+      "nid": "MYRtYhojKdA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmSdmaClose",
+      "nid": "hS0MKPRdNr0",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmSdmaConstFill",
+      "nid": "31G6PB2oRYQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmSdmaCopyLinear",
+      "nid": "Lg2isla2XeQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmSdmaCopyTiled",
+      "nid": "-Se2FY+UTsI",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmSdmaCopyWindow",
+      "nid": "OlFgKnBsALE",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmSdmaFlush",
+      "nid": "LQQN0SwQv8c",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmSdmaGetMinCmdSize",
+      "nid": "suUlSjWr7CE",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmSdmaOpen",
+      "nid": "5AtqyMgO7fM",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmSetCsShaderWithModifier",
+      "nid": "Kx-h-nWQJ8A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmSetEmbeddedPsShader",
+      "nid": "X9Omw9dwv5M",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmSetEmbeddedVsShader",
+      "nid": "+AFvOEXrKJk",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmSetPsShader350",
+      "nid": "5uFKckiJYRM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmSetResourceRegistrationUserMemory",
+      "nid": "q-qhDxP67Hg",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmSetResourceUserData",
+      "nid": "K3BKBBYKUSE",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmSetSpiEnableSqCounters",
+      "nid": "0O3xxFaiObw",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmSetSpiEnableSqCountersForUnitInstance",
+      "nid": "lN7Gk-p9u78",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmSetVgtControl",
+      "nid": "cFCp0NX8wf0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmSetWaveLimitMultiplier",
+      "nid": "y+iI2lkX+qI",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmSetWaveLimitMultipliers",
+      "nid": "XiyzNZ9J4nQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmSubmitAndFlipCommandBuffersForWorkload",
+      "nid": "Ga6r7H6Y0RI",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmSubmitCommandBuffersForWorkload",
+      "nid": "jRcI8VcgTz4",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmUnregisterAllResourcesForOwner",
+      "nid": "yhFCnaz5daw",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmUnregisterOwnerAndResources",
+      "nid": "fhKwCVVj9nk",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmUnregisterResource",
+      "nid": "k8EXkhIP+lM",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmUpdateGsShader",
+      "nid": "nLM2i2+65hA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmUpdateHsShader",
+      "nid": "GNlx+y7xPdE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmUpdatePsShader",
+      "nid": "4MgRw-bVNQU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmUpdatePsShader350",
+      "nid": "mLVL7N7BVBg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmUpdateVsShader",
+      "nid": "V31V01UiScY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGnmValidateDisableDiagnostics",
+      "nid": "SXw4dZEkgpA",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmValidateDisableDiagnostics2",
+      "nid": "BgM3t3LvcNk",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmValidateDispatchCommandBuffers",
+      "nid": "qGP74T5OWJc",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmValidateDrawCommandBuffers",
+      "nid": "hsZPf1lON7E",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmValidateGetDiagnosticInfo",
+      "nid": "RX7XCNSaL6I",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmValidateGetDiagnostics",
+      "nid": "5SHGNwLXBV4",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmValidateGetVersion",
+      "nid": "HzMN7ANqYEc",
+      "state": "stub"
+    },
+    {
+      "name": "sceGnmValidateOnSubmitEnabled",
+      "nid": "rTIV11nMQuM",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmValidateResetState",
+      "nid": "MBMa6EFu4Ko",
+      "state": "inert"
+    },
+    {
+      "name": "sceGnmValidationRegisterMemoryCheckCallback",
+      "nid": "Q7t4VEYLafI",
+      "state": "inert"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "libSceNpRemotePlaySessionSignaling",
+  "label": "NpRemotePlaySessionSignaling",
+  "category": "Network and services",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 10,
+  "total": 10,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpRemotePlaySessionSignalingCreateJoinSession",
+      "nid": "OrZuJTph3mc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpRemotePlaySessionSignalingGetConnectionStatus",
+      "nid": "ISNsr2lrhbU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpRemotePlaySessionSignalingGetCustomProperty",
+      "nid": "hNyqm2JeBP0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpRemotePlaySessionSignalingGetLocalNetInfo",
+      "nid": "HL11bLUWN4g",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpRemotePlaySessionSignalingGetMemoryInfo",
+      "nid": "AtXJ8HI53HQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpRemotePlaySessionSignalingInitialize",
+      "nid": "XIZ0O84wH-Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpRemotePlaySessionSignalingJoinSession",
+      "nid": "+9snhlBsYqs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpRemotePlaySessionSignalingLeaveSession",
+      "nid": "TjFMhY-LSnQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpRemotePlaySessionSignalingSetCustomProperty",
+      "nid": "4hOXCEnHlHQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpRemotePlaySessionSignalingTerminate",
+      "nid": "z1SpoQyfYqk",
+      "state": "stub"
+    }
+  ]
+}

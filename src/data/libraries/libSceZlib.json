@@ -1,0 +1,37 @@
+{
+  "name": "libSceZlib",
+  "label": "Zlib",
+  "category": "System utilities",
+  "implemented": 5,
+  "inert": 0,
+  "stub": 0,
+  "total": 5,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceZlibFinalize",
+      "nid": "6na+Sa-B83w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceZlibGetResult",
+      "nid": "2eDcGHC0YaM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceZlibInflate",
+      "nid": "TLar1HULv1Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceZlibInitialize",
+      "nid": "m1YErdIXCp4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceZlibWaitForDone",
+      "nid": "uB8VlDD4e0s",
+      "state": "implemented"
+    }
+  ]
+}

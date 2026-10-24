@@ -1,0 +1,32 @@
+{
+  "name": "libSceVideoDecoderArbitration",
+  "label": "VideoDecoderArbitration",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 4,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVideoDecoderArbitrationAcceptEvent",
+      "nid": "XEUrIeCJiVs",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoDecoderArbitrationEnable",
+      "nid": "jnvPWZ140Sw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoDecoderArbitrationEnableSuspendMode",
+      "nid": "lV5XniySQD8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoDecoderArbitrationInitialize",
+      "nid": "PO9tOKyviYI",
+      "state": "stub"
+    }
+  ]
+}

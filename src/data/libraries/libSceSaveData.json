@@ -1,0 +1,387 @@
+{
+  "name": "libSceSaveData",
+  "label": "SaveData",
+  "category": "Network and services",
+  "implemented": 9,
+  "inert": 0,
+  "stub": 66,
+  "total": 75,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSaveDataAbort",
+      "nid": "dQ2GohUHXzk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataBackup",
+      "nid": "z1JA8-iJt3k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataBindPsnAccount",
+      "nid": "kLJQ3XioYiU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataBindPsnAccountForSystemBackup",
+      "nid": "hHHCPRqA3+g",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataChangeDatabase",
+      "nid": "ykwIZfVD08s",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataChangeInternal",
+      "nid": "G0hFeOdRCUs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataCheckBackupData",
+      "nid": "RQOqDbk3bSU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataCheckBackupDataForCdlg",
+      "nid": "rYvLW1z2poM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataCheckBackupDataInternal",
+      "nid": "v1TrX+3ZB10",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataCheckBackupDataLight",
+      "nid": "+6wXHxR7laM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataCheckCloudData",
+      "nid": "-eczr5e4dsI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataCheckSaveDataBroken",
+      "nid": "1i0rfc+mfa8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataCheckSaveDataVersion",
+      "nid": "p6A1adyQi3E",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataCheckSaveDataVersionLatest",
+      "nid": "S49B+I96kpk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataClearProgress",
+      "nid": "Wz-4JZfeO9g",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataCreateUploadData",
+      "nid": "kbIIP9aXK9A",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataDebugGetThreadId",
+      "nid": "5yHFvMwZX2o",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataDeleteAllUser",
+      "nid": "pJrlpCgR8h4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataDeleteBackupData",
+      "nid": "QGovXLECroc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataDeleteCloudData",
+      "nid": "fU43mJUgKcM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataDeleteProspero",
+      "nid": "VpRmC6zo1wQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataDeleteTitle",
+      "nid": "RQ9gZWKQwH0",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataDeleteUser",
+      "nid": "uZqc4JpFdeY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataDirNameSearchInternal",
+      "nid": "xJ5NFWC3m+k",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataDownload",
+      "nid": "h1nP9EYv3uc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetAllSize",
+      "nid": "A1ThglSGUwA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetAppLaunchedUser",
+      "nid": "KuXcrMAQIMQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetAutoUploadConditions",
+      "nid": "itZ46iH14Vs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetAutoUploadRequestInfo",
+      "nid": "PL20kjAXZZ4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetAutoUploadSetting",
+      "nid": "G12foE0S77E",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetBoundPsnAccountCount",
+      "nid": "PzDtD6eBXIM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetClientThreadPriority",
+      "nid": "tu0SDPl+h88",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetCloudQuotaInfo",
+      "nid": "6lZYZqQPfkY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetEventInfo",
+      "nid": "eBSSNIG6hMk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetEventResult",
+      "nid": "j8xKtiFj0SY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataGetMountedSaveDataCount",
+      "nid": "pc4guaUPVqA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetProgress",
+      "nid": "ANmSWUiyyGQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetSaveDataCount",
+      "nid": "SN7rTPHS+Cg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetSaveDataMemory2",
+      "nid": "QwOO7vegnV8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataGetSaveDataRootDir",
+      "nid": "+bRDRotfj0Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetSaveDataRootPath",
+      "nid": "3luF0xq0DkQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetSaveDataRootUsbPath",
+      "nid": "DwAvlQGvf1o",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetSavePoint",
+      "nid": "kb24-4DLyNo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataGetUpdatedDataCount",
+      "nid": "OYmnApJ9q+U",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataInitialize2",
+      "nid": "l1NmDeDpNGU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataInitialize3",
+      "nid": "TywrFKCoLGY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataInitializeForCdlg",
+      "nid": "g9uwUI3BlQ8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataIsDeletingUsbDb",
+      "nid": "voAQW45oKuo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataIsMounted",
+      "nid": "ieP6jP138Qo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataManualDelete",
+      "nid": "PNb0xz446Ns",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataManualDownload",
+      "nid": "SPvSFDZ2WV4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataManualUpload",
+      "nid": "sGMdV+y-sI8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataMount5",
+      "nid": "xz0YMi6BfNk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataMountInternal",
+      "nid": "msCER7Iibm8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataMountSys",
+      "nid": "-XYmdxjOqyA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataRebuildDatabase",
+      "nid": "SgIY-XYA2Xg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataRegisterEventCallback",
+      "nid": "hsKd5c21sQc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataRestoreBackupData",
+      "nid": "lU9YRFsgwSU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataRestoreBackupDataForCdlg",
+      "nid": "HuToUt1GQ8w",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataRestoreLoadSaveDataMemory",
+      "nid": "aoZKKNjlq3Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataSetAutoUploadSetting",
+      "nid": "0VFHv-Fa4w8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataSetEventInfo",
+      "nid": "52pL2GKkdjA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataSetSaveDataLibraryUser",
+      "nid": "v3vg2+cooYw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataSetSaveDataMemory2",
+      "nid": "cduy9v4YmT4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataSetupSaveDataMemory2",
+      "nid": "oQySEUfgXRA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataShutdownStart",
+      "nid": "zMgXM79jRhw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataSupportedFakeBrokenStatus",
+      "nid": "+orZm32HB1s",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataSyncCloudList",
+      "nid": "LMSQUTxmGVg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataSyncSaveDataMemory",
+      "nid": "wiT9jeC7xPw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataTerminate",
+      "nid": "yKDy8S5yLA0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataTransferringMount",
+      "nid": "WAzWTZm1H+I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataUmountSys",
+      "nid": "2-8NWLS8QSA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataUmountWithBackup",
+      "nid": "VwadwBBBJ80",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataUnregisterEventCallback",
+      "nid": "v-AK1AxQhS0",
+      "state": "stub"
+    },
+    {
+      "name": "sceSaveDataUpload",
+      "nid": "COwz3WBj+5s",
+      "state": "stub"
+    }
+  ]
+}

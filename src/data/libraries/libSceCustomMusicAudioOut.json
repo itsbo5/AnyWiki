@@ -1,0 +1,37 @@
+{
+  "name": "libSceCustomMusicAudioOut",
+  "label": "CustomMusicAudioOut",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 5,
+  "total": 5,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceCustomMusicAudioOutFinalize",
+      "nid": "n0BEVlnSNcY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicAudioOutGetAllMusicVolume",
+      "nid": "GZ2fZbzgixo",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicAudioOutGetMuted",
+      "nid": "vT2xmTf1RHU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicAudioOutGetVolume",
+      "nid": "yZZX3eafqV4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicAudioOutSetAllMusicVolume",
+      "nid": "cIvB0ao1MVA",
+      "state": "stub"
+    }
+  ]
+}

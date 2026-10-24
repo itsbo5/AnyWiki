@@ -1,0 +1,82 @@
+{
+  "name": "libSceImeDialog",
+  "label": "ImeDialog",
+  "category": "Input and user",
+  "implemented": 12,
+  "inert": 1,
+  "stub": 1,
+  "total": 14,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceImeDialogAbort",
+      "nid": "oBmw4xrmfKs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeDialogForTestFunction",
+      "nid": "UFcyYDf+e88",
+      "state": "inert"
+    },
+    {
+      "name": "sceImeDialogForceClose",
+      "nid": "bX4H+sxPI-o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeDialogGetCurrentStarState",
+      "nid": "fy6ntM25pEc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeDialogGetPanelPositionAndForm",
+      "nid": "8jqzzPioYl8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeDialogGetPanelSize",
+      "nid": "wqsJvRXwl58",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeDialogGetPanelSizeExtended",
+      "nid": "CRD+jSErEJQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeDialogGetResult",
+      "nid": "x01jxu+vxlc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeDialogGetStatus",
+      "nid": "IADmD4tScBY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeDialogInit",
+      "nid": "NUeBrN7hzf0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeDialogInitInternal",
+      "nid": "KR6QDasuKco",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeDialogInitInternalWithSubInfo",
+      "nid": "O4MfLUgIKAM",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeDialogSetPanelPosition",
+      "nid": "-2WqB87KKGg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeDialogTerm",
+      "nid": "gyTyVn+bXMw",
+      "state": "implemented"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "libSceHmdSetupDialog",
+  "label": "HmdSetupDialog",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceHmdSetupDialogClose",
+      "nid": "nmHzU4Gh0xs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdSetupDialogGetResult",
+      "nid": "6lVRHMV5LY0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdSetupDialogGetStatus",
+      "nid": "J9eBpW1udl4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdSetupDialogInitialize",
+      "nid": "NB1Y2kA2jCY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdSetupDialogOpen",
+      "nid": "NNgiV4T+akU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdSetupDialogTerminate",
+      "nid": "+z4OJmFreZc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdSetupDialogUpdateStatus",
+      "nid": "Ud7j3+RDIBg",
+      "state": "implemented"
+    }
+  ]
+}

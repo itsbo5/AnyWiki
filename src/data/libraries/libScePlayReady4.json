@@ -1,0 +1,187 @@
+{
+  "name": "libScePlayReady4",
+  "label": "PlayReady4",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 35,
+  "total": 35,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePlayReadyApiPlatform",
+      "nid": "jHUHTcQ+MlA",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiClose",
+      "nid": "JhBOQYY6iu0",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiCreateMediaKeySession",
+      "nid": "e7nwve2CgyQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiCreateMediaKeySystemAccess",
+      "nid": "Mgzn4F-H1A0",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiCreateMediaKeys",
+      "nid": "Cm8AZ5YHBTk",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiDecryptMultipleOpaque",
+      "nid": "44FL0PIYP80",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiDecryptOpaque",
+      "nid": "fDkwGrQqqYY",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiDecryptOpaque2",
+      "nid": "iT+wzBrHq50",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiDestroyMediaKeySession",
+      "nid": "eyB4oc96HwI",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiDestroyMediaKeySystemAccess",
+      "nid": "yOQ8dQ41tvs",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiDestroyMediaKeys",
+      "nid": "Q2S-VY3-ppo",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiFreeOpaqueDecryptedContent",
+      "nid": "-Z8FvBnu6yQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiGenerateRequest",
+      "nid": "T204st1S50Q",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiGetConfiguration",
+      "nid": "TAcqIuI0JjY",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiGetExpiration",
+      "nid": "3L-gCf-E4zk",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiGetKeySystem",
+      "nid": "HdL8UX2RHxA",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiGetMediaKeyCount",
+      "nid": "O91VRI218wU",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiGetMediaKeyStatus",
+      "nid": "9faEv99wVjc",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiGetSessionAppContext",
+      "nid": "176q2+O2+VQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiGetSessionId",
+      "nid": "XGcNn1LamZk",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiIsLicenseAckRequired",
+      "nid": "r370kbA+D2A",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiLoad",
+      "nid": "aEIBFI8Dy9E",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiRemove",
+      "nid": "5OOpQ9aHmb8",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiRetrieveOpaqueDecryptedContent",
+      "nid": "sgp3WWz043s",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiSetServerCertificate",
+      "nid": "YdWuo5eSCXo",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiSetSessionCallbacks",
+      "nid": "8z3zK1NQgQY",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCdmiUpdate",
+      "nid": "rJWslrzgww8",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyLicenseCount",
+      "nid": "SMXKRrPDjFQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyProfileClear",
+      "nid": "rlM6QokMGkY",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyProfileEnter",
+      "nid": "0ovCuqnttco",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyProfileLeave",
+      "nid": "1-Xmz3cBpkE",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyProfilePause",
+      "nid": "T8A8MZcrjS4",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyProfileResume",
+      "nid": "uYjA59lYaH8",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyProfileStart",
+      "nid": "7GuAkdz0C9A",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyProfileStop",
+      "nid": "yGBvL9qLxNI",
+      "state": "stub"
+    }
+  ]
+}

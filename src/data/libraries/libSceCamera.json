@@ -1,0 +1,597 @@
+{
+  "name": "libSceCamera",
+  "label": "Camera",
+  "category": "System utilities",
+  "implemented": 1,
+  "inert": 0,
+  "stub": 116,
+  "total": 117,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceCamera2Close",
+      "nid": "uBRW3tEoWWM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2Finalize",
+      "nid": "186Jz869gsc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetAttribute",
+      "nid": "JtD7ZG45rdw",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetAutoExposureGain",
+      "nid": "FZkD-E6MNTQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetAutoWhiteBalance",
+      "nid": "U8oNsRef+jI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetCalibrationData",
+      "nid": "emZBXv7cuAI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetConfig",
+      "nid": "mLRzKdIDwiU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetContrast",
+      "nid": "1-IJHxzRJGw",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetExposureGain",
+      "nid": "c9XZGDF1OcM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetFieldOfView",
+      "nid": "kVWBITsSB3o",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetFrameData",
+      "nid": "YlFCMjbyzh8",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetGamma",
+      "nid": "gJqqsinextg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetHue",
+      "nid": "T8jy0JWa210",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetSaturation",
+      "nid": "DAycoVmY3Mw",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetSharpness",
+      "nid": "vPi3gSzw79M",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2GetWhiteBalance",
+      "nid": "n+R7PGJa6MI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2Initialize",
+      "nid": "PFRl8SmSW+4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2IsAttached",
+      "nid": "2v21-m4gljU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2IsValidFrameData",
+      "nid": "lQ7rWWlOArI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2Open",
+      "nid": "dmLUJh3bVTc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2SetAttribute",
+      "nid": "Qk6kEJ0RJlM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2SetAutoExposureGain",
+      "nid": "vx9MQYicBVQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2SetAutoWhiteBalance",
+      "nid": "vS20kteXHdw",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2SetConfig",
+      "nid": "O5x-G9Rqwx4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2SetContrast",
+      "nid": "66IVWcdNHyI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2SetExposureGain",
+      "nid": "8MEjogxPrv0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2SetGamma",
+      "nid": "pfiqU2f6PQY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2SetHue",
+      "nid": "gB+OkFvkSXE",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2SetSaturation",
+      "nid": "TzkL-nUWfaQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2SetSharpness",
+      "nid": "2zCd8XDOe-Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2SetVideoSync",
+      "nid": "ubD+FitjqhA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2SetWhiteBalance",
+      "nid": "AfIDd+2ycTs",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2Start",
+      "nid": "eGkcUia48ts",
+      "state": "stub"
+    },
+    {
+      "name": "sceCamera2Stop",
+      "nid": "TZWR3p6XxXk",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraAccGetData",
+      "nid": "QhjrPkRPUZQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraAudioClose",
+      "nid": "UFonL7xopFM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraAudioGetData",
+      "nid": "fkZE7Hup2ro",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraAudioGetData2",
+      "nid": "hftC5A1C8OQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraAudioOpen",
+      "nid": "DhqqFiBU+6g",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraAudioReset",
+      "nid": "wyU98EXAYxU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraChangeAppModuleState",
+      "nid": "Y0pCDajzkVQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraClose",
+      "nid": "OMS9LlcrvBo",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraCloseByHandle",
+      "nid": "ztqH5qNTpTk",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraDeviceOpen",
+      "nid": "nBH6i2s4Glc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetAttribute",
+      "nid": "0btIPD5hg5A",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetAutoExposureGain",
+      "nid": "oEi6vM-3E2c",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetAutoWhiteBalance",
+      "nid": "qTPRMh4eY60",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetCalibData",
+      "nid": "hHA1frlMxYE",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetCalibDataForEve",
+      "nid": "4IGO2LPD3h8",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetCalibDataFromDevice",
+      "nid": "5Oie5RArfWs",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetCalibDataFromDeviceForEve",
+      "nid": "H-7tWq8gfKs",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetCalibrationData",
+      "nid": "RHYJ7GKOSMg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetConfig",
+      "nid": "ZaqmGEtYuL0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetConnectedDeviceAndDriverMode",
+      "nid": "2dBOiluwiMw",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetContrast",
+      "nid": "a5xFueMZIMs",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetDefectivePixelCancellation",
+      "nid": "tslCukqFE+E",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetDeviceConfig",
+      "nid": "DSOLCrc3Kh8",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetDeviceConfigWithoutHandle",
+      "nid": "n+rFeP1XXyM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetDeviceID",
+      "nid": "jTJCdyv9GLU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetDeviceIDWithoutOpen",
+      "nid": "-H3UwGQvNZI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetDeviceInfo",
+      "nid": "WZpxnSAM-ds",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetExposureGain",
+      "nid": "ObIste7hqdk",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetFrameData",
+      "nid": "mxgMmR+1Kr0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetGamma",
+      "nid": "WVox2rwGuSc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetHue",
+      "nid": "zrIUDKZx0iE",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetLensCorrection",
+      "nid": "XqYRHc4aw3w",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetMmapConnectedCount",
+      "nid": "B260o9pSzM8",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetProductInfo",
+      "nid": "ULxbwqiYYuU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetRegister",
+      "nid": "olojYZKYiYs",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetRegistryInfo",
+      "nid": "hawKak+Auw4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetSaturation",
+      "nid": "RTDOsWWqdME",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetSharpness",
+      "nid": "c6Fp9M1EXXc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetVrCaptureInfo",
+      "nid": "IAz2HgZQWzE",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraGetWhiteBalance",
+      "nid": "HX5524E5tMY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraInitializeRegistryCalibData",
+      "nid": "0wnf2a60FqI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraIsAttached",
+      "nid": "p6n3Npi3YY4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCameraIsConfigChangeDone",
+      "nid": "wQfd7kfRZvo",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraIsConnectedForSystem",
+      "nid": "68S3GKWhY6o",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraIsValidFrameData",
+      "nid": "U3BVwQl2R5Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraOpen",
+      "nid": "BHn83xrF92E",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraOpenByModuleId",
+      "nid": "eTywOSWsEiI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraRemoveAppModuleFocus",
+      "nid": "py8p6kZcHmA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetAppModuleFocus",
+      "nid": "j5isFVIlZLk",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetAttribute",
+      "nid": "doPlf33ab-U",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetAttributeInternal",
+      "nid": "96F7zp1Xo+k",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetAutoExposureGain",
+      "nid": "yfSdswDaElo",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetAutoWhiteBalance",
+      "nid": "zIKL4kZleuc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetCalibData",
+      "nid": "LEMk5cTHKEA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetCalibDataForEve",
+      "nid": "Jkz3xxMeyIM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetConfig",
+      "nid": "VQ+5kAqsE2Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetConfigInternal",
+      "nid": "9+SNhbctk64",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetContrast",
+      "nid": "3i5MEzrC1pg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetDebugStop",
+      "nid": "vejouEusC7g",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetDefectivePixelCancellation",
+      "nid": "jMv40y2A23g",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetDefectivePixelCancellationInternal",
+      "nid": "vER3cIMBHqI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetExposureGain",
+      "nid": "wgBMXJJA6K4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetForceActivate",
+      "nid": "jeTpU0MqKU0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetGamma",
+      "nid": "lhEIsHzB8r4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetHue",
+      "nid": "QI8GVJUy2ZY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetLensCorrection",
+      "nid": "K7W7H4ZRwbc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetLensCorrectionInternal",
+      "nid": "eHa3vhGu2rQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetProcessFocus",
+      "nid": "lS0tM6n+Q5E",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetProcessFocusByHandle",
+      "nid": "NVITuK83Z7o",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetRegister",
+      "nid": "8MjO05qk5hA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetSaturation",
+      "nid": "bSKEi2PzzXI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetSharpness",
+      "nid": "P-7MVfzvpsM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetTrackerMode",
+      "nid": "3VJOpzKoIeM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetUacModeInternal",
+      "nid": "nnR7KAIDPv8",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetVideoSync",
+      "nid": "wpeyFwJ+UEI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetVideoSyncInternal",
+      "nid": "8WtmqmE4edw",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraSetWhiteBalance",
+      "nid": "k3zPIcgFNv0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraStart",
+      "nid": "9EpRYMy7rHU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraStartByHandle",
+      "nid": "cLxF1QtHch0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraStop",
+      "nid": "2G2C0nmd++M",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraStopByHandle",
+      "nid": "+X1Kgnn3bzg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraWaitForEveReady",
+      "nid": "hPVradh5wpo",
+      "state": "stub"
+    },
+    {
+      "name": "sceCameraWaitForLukeReady",
+      "nid": "v9XTZHXoJyQ",
+      "state": "stub"
+    }
+  ]
+}

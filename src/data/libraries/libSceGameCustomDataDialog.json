@@ -1,0 +1,57 @@
+{
+  "name": "libSceGameCustomDataDialog",
+  "label": "GameCustomDataDialog",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 2,
+  "total": 9,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceGameCustomDataDialogClose",
+      "nid": "3vyRmRU3CL8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameCustomDataDialogGetResult",
+      "nid": "sJptZwvs1is",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameCustomDataDialogGetResultA",
+      "nid": "TWi-wZVp5Pc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameCustomDataDialogGetStatus",
+      "nid": "tcm8nRXZwNU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameCustomDataDialogInitialize",
+      "nid": "xtbb-2f703A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameCustomDataDialogOpen",
+      "nid": "5TvttyRuU84",
+      "state": "stub"
+    },
+    {
+      "name": "sceGameCustomDataDialogOpenA",
+      "nid": "QHFJB2F0p3k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameCustomDataDialogTerminate",
+      "nid": "HwEtHFCpU5U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameCustomDataDialogUpdateStatus",
+      "nid": "PkdLsRA4ON0",
+      "state": "implemented"
+    }
+  ]
+}

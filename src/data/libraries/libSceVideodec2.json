@@ -1,0 +1,142 @@
+{
+  "name": "libSceVideodec2",
+  "label": "Videodec2",
+  "category": "Graphics and video",
+  "implemented": 11,
+  "inert": 1,
+  "stub": 14,
+  "total": 26,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVideodec2AllocateComputeQueue_nid_postfix",
+      "nid": "50gL9hTYyd4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodec2CreateDecoderBid",
+      "nid": "hjoVB02yu0U",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodec2CreateDecoder_nid_postfix",
+      "nid": "4kG8h7lhPSg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodec2CreateHevcDecoder",
+      "nid": "pu4kxXkYz3E",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodec2Decode_nid_postfix",
+      "nid": "8CowGd+rRFQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodec2DeleteDecoder_nid_postfix",
+      "nid": "0RbnWCPfvao",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodec2Flush_nid_postfix",
+      "nid": "6ALjLM29p20",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodec2GetAvcPictureInfo_nid_postfix",
+      "nid": "3i6RqI7RWe8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodec2GetHevcPictureInfo",
+      "nid": "7M+1UFqWOAI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodec2GetPictureInfo_nid_postfix",
+      "nid": "yppStgg19wI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodec2GetVp9PictureInfo_nid_postfix",
+      "nid": "97F3DUNv7zU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodec2InitLibrary",
+      "nid": "DXlobplVYj0",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodec2MapDirectMemory",
+      "nid": "hIIZXUsMeI8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodec2MapMemory",
+      "nid": "2C6StOEz+nM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodec2PresetDecoderConfigInfo",
+      "nid": "B92MMJrPQMI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodec2PresetDecoderConfigInfoAvc",
+      "nid": "X9RNCpx+mFE",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodec2PresetDecoderConfigInfoHevc",
+      "nid": "KoHlJNQCzIw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodec2PresetDecoderConfigInfoVp9",
+      "nid": "ao7f1-9zqkk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodec2QueryComputeMemoryInfo_nid_postfix",
+      "nid": "nq3Vo-0MC-U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodec2QueryDecoderInfo",
+      "nid": "EQtFad2c1T8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodec2QueryDecoderMemoryInfo_nid_postfix",
+      "nid": "vrLppOl6Xxw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodec2QueryHevcDecoderMemoryInfo",
+      "nid": "krChT8KBUDU",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodec2QueryLibraryInfo",
+      "nid": "mhKZJqhGnXg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodec2ReleaseComputeQueue_nid_postfix",
+      "nid": "cwUCTi+kmC8",
+      "state": "inert"
+    },
+    {
+      "name": "sceVideodec2Reset_nid_postfix",
+      "nid": "tgQyQ0pza1s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodec2TermLibrary",
+      "nid": "q0gN8e4VLZo",
+      "state": "stub"
+    }
+  ]
+}

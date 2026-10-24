@@ -1,0 +1,27 @@
+{
+  "name": "libSceNpTcs",
+  "label": "NpTcs",
+  "category": "Network and services",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 3,
+  "total": 3,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpTcsIntDownloadData",
+      "nid": "U15Y7wzfgOA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTcsIntUploadDataToNewSlotAbort",
+      "nid": "I9aiD3P3IiI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTcsIntUploadDataToNewSlotBegin",
+      "nid": "ZUXxKPpGQ1s",
+      "state": "stub"
+    }
+  ]
+}

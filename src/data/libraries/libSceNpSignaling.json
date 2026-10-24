@@ -1,0 +1,57 @@
+{
+  "name": "libSceNpSignaling",
+  "label": "NpSignaling",
+  "category": "Network and services",
+  "implemented": 8,
+  "inert": 0,
+  "stub": 1,
+  "total": 9,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpSignalingActivateConnection",
+      "nid": "0UvTFeomAUM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSignalingCreateContext",
+      "nid": "5yYjEdd4t8Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSignalingDeactivateConnection",
+      "nid": "6UEembipgrM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSignalingDeleteContext",
+      "nid": "hx+LIg-1koI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSignalingGetConnectionInfo",
+      "nid": "AN3h0EBSX7A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSignalingInitialize",
+      "nid": "3KOuC4RmZZU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSignalingSetContextOption",
+      "nid": "IHRDvZodPYY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSignalingTerminate",
+      "nid": "NPhw0UXaNrk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSignalingTerminateConnection",
+      "nid": "b4qaXPzMJxo",
+      "state": "implemented"
+    }
+  ]
+}

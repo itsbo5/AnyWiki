@@ -1,0 +1,42 @@
+{
+  "name": "libSceNgs2",
+  "label": "Ngs2",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 6,
+  "total": 6,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNgs2FftInit",
+      "nid": "Kg1MA5j7KFk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2FftProcess",
+      "nid": "D8eCqBxSojA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2FftQuerySize",
+      "nid": "-YNfTO6KOMY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2ParseWaveformUser",
+      "nid": "t9T0QM17Kvo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2SystemEnumHandles",
+      "nid": "vubFP0T6MP0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNgs2SystemEnumRackHandles",
+      "nid": "U-+7HsswcIs",
+      "state": "stub"
+    }
+  ]
+}

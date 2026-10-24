@@ -1,0 +1,142 @@
+{
+  "name": "libSceKeyboard",
+  "label": "Keyboard",
+  "category": "Input and user",
+  "implemented": 8,
+  "inert": 0,
+  "stub": 18,
+  "total": 26,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceDbgKeyboardClose",
+      "nid": "FU9dBtKaM90",
+      "state": "stub"
+    },
+    {
+      "name": "sceDbgKeyboardGetKey2Char",
+      "nid": "61ykjnH3AR4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDbgKeyboardInit",
+      "nid": "bRuUeIPXFDM",
+      "state": "stub"
+    },
+    {
+      "name": "sceDbgKeyboardOpen",
+      "nid": "TESmX5D-i54",
+      "state": "stub"
+    },
+    {
+      "name": "sceDbgKeyboardRead",
+      "nid": "vKbf07G7KPE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDbgKeyboardReadState",
+      "nid": "HJMS5pu4dvY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKeyboardClose",
+      "nid": "0LWei+c7RNc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKeyboardConnectPort",
+      "nid": "cKyUWdEKBME",
+      "state": "stub"
+    },
+    {
+      "name": "sceKeyboardDebugGetDeviceId",
+      "nid": "qkHOAYtCFxg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKeyboardDeviceOpen",
+      "nid": "0lAFLqZonXI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKeyboardDisconnectAll",
+      "nid": "RRkstQffADU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKeyboardDisconnectDevice",
+      "nid": "DhTavziiZ80",
+      "state": "stub"
+    },
+    {
+      "name": "sceKeyboardDisconnectPort",
+      "nid": "Hdm6rO0xlnw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKeyboardGetConnection",
+      "nid": "XNArvUsT18s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKeyboardGetDeviceInfo",
+      "nid": "84mvEJFMYK4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKeyboardGetHandle",
+      "nid": "se0KYvZSzg8",
+      "state": "stub"
+    },
+    {
+      "name": "sceKeyboardGetKey2Char",
+      "nid": "yO9JwdRhtSA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKeyboardInit",
+      "nid": "wadT3QBCGY0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKeyboardMbusInit",
+      "nid": "6zKouhabgjM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKeyboardOpen",
+      "nid": "HJ+KnEHcaxI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKeyboardPadEmulateClose",
+      "nid": "feMFMNgm+o0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKeyboardPadEmulateOpen",
+      "nid": "mFR2QN8HNVU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKeyboardRead",
+      "nid": "xybbGMCr738",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKeyboardReadState",
+      "nid": "6HpE68bzX6M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKeyboardSetProcessFocus",
+      "nid": "jqRcNtZmLuE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKeyboardSetProcessPrivilege",
+      "nid": "K1A7IJp5xYc",
+      "state": "stub"
+    }
+  ]
+}

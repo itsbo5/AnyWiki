@@ -1,0 +1,432 @@
+{
+  "name": "libSceNpUniversalDataSystem",
+  "label": "NpUniversalDataSystem",
+  "category": "Network and services",
+  "implemented": 37,
+  "inert": 4,
+  "stub": 43,
+  "total": 84,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpUniversalDataSystemAbortHandle",
+      "nid": "jZCqWFgMehE",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpUniversalDataSystemCreateContext",
+      "nid": "5zBnau1uIEo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemCreateEvent",
+      "nid": "p+GcLqwpL9M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemCreateEventPropertyArray",
+      "nid": "Hm7qubT3b70",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemCreateEventPropertyObject",
+      "nid": "s6W4Zl4Slgk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemCreateHandle",
+      "nid": "hT0IAEvN+M0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemDestroyContext",
+      "nid": "wB7IWzGp2v0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemDestroyEvent",
+      "nid": "wG+84pnNIuo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemDestroyEventPropertyArray",
+      "nid": "W-0xwY0ZMjw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemDestroyEventPropertyObject",
+      "nid": "kKUH0Viib3c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemDestroyHandle",
+      "nid": "AUIHb7jUX3I",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventEstimateSize",
+      "nid": "+s14jq-KGYw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyArraySetArray",
+      "nid": "rdi9BAfDLq8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyArraySetBinary",
+      "nid": "IEdUCV9j2Cw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyArraySetBool",
+      "nid": "0+l4QSWCM4E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyArraySetFloat32",
+      "nid": "JmgwKm96Lq4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyArraySetFloat64",
+      "nid": "sbSYZLR5AiE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyArraySetInt32",
+      "nid": "BypQuF113-k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyArraySetInt64",
+      "nid": "viVXAwmmYrY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyArraySetObject",
+      "nid": "XY14n3jNIpE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyArraySetString",
+      "nid": "4llLk7YJRTE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyArraySetUInt32",
+      "nid": "yMi0xAOpmXM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyArraySetUInt64",
+      "nid": "Qo9qR7v5zO4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyObjectSetArray",
+      "nid": "Wxbg5x3pTXA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyObjectSetBinary",
+      "nid": "wAcxBDLHj1M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyObjectSetBool",
+      "nid": "Fidd8vWgyVE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyObjectSetFloat32",
+      "nid": "lbPlT4+QVcE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyObjectSetFloat64",
+      "nid": "4Fu8tHW+u-k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyObjectSetInt32",
+      "nid": "YE4dbtbz6OE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyObjectSetInt64",
+      "nid": "56QLTqx911s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyObjectSetObject",
+      "nid": "74ASEqxSnkM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyObjectSetString",
+      "nid": "MfDb+4Nln64",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyObjectSetUInt32",
+      "nid": "AzD4irAcKE4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventPropertyObjectSetUInt64",
+      "nid": "xvsP5Yz6FmY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemEventToString",
+      "nid": "vj6CQGWtEBg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemGetMemoryStat",
+      "nid": "su7jW3VDDb4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemGetStorageStat",
+      "nid": "KmN62tT4U8A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemInitialize",
+      "nid": "sjaobBgqeB4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntAbortHandle",
+      "nid": "aX1JKpdidtI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntCheckNetSyncTitles",
+      "nid": "ySN+Pa+NUGI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntCreateContext",
+      "nid": "oNCDI-j9iTI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntCreateHandle",
+      "nid": "Iq-iZyQ4BVQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntCreateRecordArray",
+      "nid": "FTyUH7H+cr4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntCreateRecordData",
+      "nid": "R78nGE2Drzw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntCreateRecordObject",
+      "nid": "g5qmS3CoA3I",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntDeleteAllData",
+      "nid": "WT5hOLhCPUg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntDeleteAllRecord",
+      "nid": "zlsr9mUGhro",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntDeleteUserDataWithServerData",
+      "nid": "2LKUTf2HNEk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntDestroyContext",
+      "nid": "q+GZ0W9lx9A",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntDestroyHandle",
+      "nid": "OEvLeDCM0iw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntDestroyRecordArray",
+      "nid": "aivUIZ6BMvI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntDestroyRecordData",
+      "nid": "gi3sjE2HpSQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntDestroyRecordObject",
+      "nid": "7MlFRuRpW+4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntGetMemoryStat",
+      "nid": "5DcuNJ7D+Cs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntInitialize",
+      "nid": "Dm8WJjI6Pks",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntNetSyncTitles",
+      "nid": "l0-MeBL0BNI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntPostRecordData",
+      "nid": "-7jGuQtigu4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordArraySetArray",
+      "nid": "UPPh+Ge66IY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordArraySetBinary",
+      "nid": "ij5A1fmeLvY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordArraySetBool",
+      "nid": "GBoDF37nd-E",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordArraySetFloat32",
+      "nid": "iRxtEP5Etyc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordArraySetFloat64",
+      "nid": "yCCsRYlv+5w",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordArraySetInt32",
+      "nid": "48+pt04Ko4A",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordArraySetInt64",
+      "nid": "QrgCXx1MY1w",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordArraySetObject",
+      "nid": "gk3onhMfgXY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordArraySetString",
+      "nid": "YzEwgtVeW7o",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordArraySetUInt32",
+      "nid": "J4lWCVwUKtU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordArraySetUInt64",
+      "nid": "vBgcE5-2Cig",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordDataEstimateSize",
+      "nid": "fKPRO-TRxhA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordObjectSetArray",
+      "nid": "92xc-Oij6do",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordObjectSetBinary",
+      "nid": "yhQZNxbdHNg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordObjectSetBool",
+      "nid": "20qqWmDFSYc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordObjectSetFloat32",
+      "nid": "mugwZhMj2pE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordObjectSetFloat64",
+      "nid": "KrVpaPTkwyE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordObjectSetInt32",
+      "nid": "W7hjXKsdJ4I",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordObjectSetInt64",
+      "nid": "M9z1YhPCH98",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordObjectSetObject",
+      "nid": "2W53snqCbnA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordObjectSetString",
+      "nid": "af74HUu4EWk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordObjectSetUInt32",
+      "nid": "TIhyl0S4i7g",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntRecordObjectSetUInt64",
+      "nid": "bIij1fNCQOg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemIntTerminate",
+      "nid": "75lTZ9hOy2w",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUniversalDataSystemPostEvent",
+      "nid": "CzkKf7ahIyU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpUniversalDataSystemRegisterContext",
+      "nid": "tpFJ8LIKvPw",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpUniversalDataSystemTerminate",
+      "nid": "47UAEuQl+iI",
+      "state": "inert"
+    }
+  ]
+}

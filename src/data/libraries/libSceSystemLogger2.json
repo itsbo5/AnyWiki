@@ -1,0 +1,37 @@
+{
+  "name": "libSceSystemLogger2",
+  "label": "SystemLogger2",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 5,
+  "total": 5,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSystemLogger2GetTimestamp",
+      "nid": "cwLEmQa8OFg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemLogger2Initialize",
+      "nid": "1-1uDZ4tiFA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemLogger2SetEventAsync",
+      "nid": "hX5OlI45fC4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemLogger2SetEventAsyncEx",
+      "nid": "FCD1HduAwWQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemLogger2Terminate",
+      "nid": "bfDcj2PJL6g",
+      "state": "stub"
+    }
+  ]
+}

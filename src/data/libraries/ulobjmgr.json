@@ -1,0 +1,22 @@
+{
+  "name": "ulobjmgr",
+  "label": "ulobjmgr",
+  "category": "Core system",
+  "implemented": 2,
+  "inert": 0,
+  "stub": 0,
+  "total": 2,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "_sceUlobjmgrRegisterObject",
+      "nid": "BG26hBGiNlw",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceUlobjmgrUnregisterObject",
+      "nid": "Smf+fUNblPc",
+      "state": "implemented"
+    }
+  ]
+}

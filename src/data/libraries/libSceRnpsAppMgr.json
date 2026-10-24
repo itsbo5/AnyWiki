@@ -1,0 +1,147 @@
+{
+  "name": "libSceRnpsAppMgr",
+  "label": "RnpsAppMgr",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 27,
+  "total": 27,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceRnpsAppMgrBlockAppInstall",
+      "nid": "6UbbC7GA9MI",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrCreateUpdateRequest",
+      "nid": "pw7u7WgTeJs",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrCreateUrlRequest",
+      "nid": "SeoDV-N8yBY",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrDestroyBundle",
+      "nid": "rvxc2gSxsRA",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrDestroyUpdateRequest",
+      "nid": "xlZothImIe4",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrFinishUrlRequest",
+      "nid": "MPq-Z-M4Xa4",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrGetAppInfo",
+      "nid": "JgBgvkAFMwc",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrGetAppInfoDebugString",
+      "nid": "BgaEJWAV0Fk",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrGetAppInfoList",
+      "nid": "Z55AwNbGHB0",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrGetEventForShellUI",
+      "nid": "yqj2bpN3gcU",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrGetUpdateProgress",
+      "nid": "4gMowNrTFnQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrHasEventForShellUI",
+      "nid": "+jXJrpWKok8",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrInitialize",
+      "nid": "FOoPyT5K+Ro",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrPushEventForShellUI",
+      "nid": "HpjkTSPG-LQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrRecoverUfsImage",
+      "nid": "T4UQhpiNn4E",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrRegisterShellUI",
+      "nid": "Pfb83SkQ0gQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrRemoveApp",
+      "nid": "Yrht530r9FI",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrRemoveAppOnSystemShutdown",
+      "nid": "jex0a4BzZiM",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrRemoveUfsImageOnSystemShutdown",
+      "nid": "jsI+ycl8YLI",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrRequestUpdateCheck",
+      "nid": "e3BGBzl-Xx0",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrSetCrlUrl",
+      "nid": "kLeJhwuG-q4",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrSetEventFlagForClients",
+      "nid": "sJD4BrPh7pA",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrSetUpdateUrl",
+      "nid": "YSNcXEI3HrQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrStartService",
+      "nid": "J7bWqy7TiBY",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrTerminate",
+      "nid": "xRScmxStBzg",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrUnblockAppInstall",
+      "nid": "nfsELpNQ0fo",
+      "state": "stub"
+    },
+    {
+      "name": "sceRnpsAppMgrUnregisterShellUI",
+      "nid": "J-GYJvLMUoE",
+      "state": "stub"
+    }
+  ]
+}

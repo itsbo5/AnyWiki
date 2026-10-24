@@ -1,0 +1,117 @@
+{
+  "name": "libSceMove",
+  "label": "Move",
+  "category": "System utilities",
+  "implemented": 10,
+  "inert": 0,
+  "stub": 11,
+  "total": 21,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceMoveClose",
+      "nid": "XX6wlxpHyeo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMoveGetBluetoothAddress",
+      "nid": "t-xwlN+36QQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveGetCalibrationInfo",
+      "nid": "gByWl2lZ3Eg",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveGetDeviceId",
+      "nid": "0RX-rifku4w",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveGetDeviceInfo",
+      "nid": "GWXTyxs4QbE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMoveGetExtensionPortInfo",
+      "nid": "y5h7f8H1Jnk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMoveInit",
+      "nid": "j1ITE-EoJmE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMoveIsReproductionModel",
+      "nid": "L5bFyq-r86A",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveIsValidHandle",
+      "nid": "OqD2LjbJsAA",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveOpen",
+      "nid": "HzC60MfjJxU",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveReadStateLatest",
+      "nid": "ttU+JOhShl4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMoveReadStateRecent",
+      "nid": "f2bcpK6kJfg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMoveReadStateRecentForTracker",
+      "nid": "1DhxSh2IIUI",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveResetLightSphere",
+      "nid": "zuxWAg3HAac",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMoveSetCalibrationMode",
+      "nid": "ofW2sJkl7gY",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveSetExtensionPortOutput",
+      "nid": "DdkOIlDT5vs",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveSetLightSphere",
+      "nid": "T8KYHPs1JE8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMoveSetLightSphereForTracker",
+      "nid": "S7h1031-wWw",
+      "state": "stub"
+    },
+    {
+      "name": "sceMoveSetVibration",
+      "nid": "IFQwtT2CeY0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMoveTerm",
+      "nid": "tsZi60H4ypY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMoveWriteCalibrationInfo",
+      "nid": "2HC+lay1ILU",
+      "state": "stub"
+    }
+  ]
+}

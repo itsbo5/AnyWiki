@@ -1,0 +1,377 @@
+{
+  "name": "libSceLibcInternal",
+  "label": "LibcInternal",
+  "category": "System utilities",
+  "implemented": 68,
+  "inert": 1,
+  "stub": 4,
+  "total": 73,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "_ZNSt10filesystem10_Close_dirEPv_nid_postfix",
+      "nid": "ZcKmLVVCRw0",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNSt10filesystem10_File_sizeEPKcPi_nid_postfix",
+      "nid": "f90pHJiNusY",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNSt10filesystem11_Remove_dirEPKc_nid_postfix",
+      "nid": "cduhe0oi4Ys",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNSt10filesystem12_Current_getERA260_c_nid_postfix",
+      "nid": "5ahFEGMfVtk",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNSt10filesystem16_Last_write_timeEPKcPlS2__nid_postfix",
+      "nid": "G4JarYXilb4",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNSt10filesystem18_Xfilesystem_errorEPKcRKNS_4pathESt10error_code_nid_postfix",
+      "nid": "0T9OLdfq2-Y",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNSt10filesystem18_Xfilesystem_errorEPKcSt10error_code_nid_postfix",
+      "nid": "Ifk10k8C3sU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNSt10filesystem5_StatEPKcPNS_5permsEPi_nid_postfix",
+      "nid": "7jVvbfrKxbg",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNSt10filesystem6_ChmodEPKcNS_5permsE_nid_postfix",
+      "nid": "7XUKpJRhkGc",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNSt10filesystem6_LstatEPKcPNS_5permsEPi_nid_postfix",
+      "nid": "MnQXNcaDRj0",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNSt10filesystem7_UnlinkEPKc_nid_postfix",
+      "nid": "xHhePF3kgcI",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNSt10filesystem9_Make_dirEPKcS1__nid_postfix",
+      "nid": "Kxk3u756xms",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNSt10filesystem9_Open_dirERA260_cPKcRiRNS_9file_typeE_nid_postfix",
+      "nid": "fgoaqoMphrE",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNSt10filesystem9_Read_dirERA260_cPvRNS_9file_typeE_nid_postfix",
+      "nid": "LMXPoPvU4y0",
+      "state": "implemented"
+    },
+    {
+      "name": "__cxa_finalize_nid_postfix",
+      "nid": "B+NaHx085sk",
+      "state": "implemented"
+    },
+    {
+      "name": "__inet_ntoa_r_nid_postfix",
+      "nid": "NdmnWAqrBqg",
+      "state": "implemented"
+    },
+    {
+      "name": "_err_nid_postfix",
+      "nid": "bqDwpSD+Nhg",
+      "state": "implemented"
+    },
+    {
+      "name": "_getprogname_nid_postfix",
+      "nid": "fDRU9VCLXMU",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceLibcInternalForceTlsDestructor_nid_postfix",
+      "nid": "T+BpVVfy9oM",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceLibcInternalThreadAtexit_nid_postfix",
+      "nid": "6P4uGnxV-98",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceLibcInternalThreadDtors_nid_postfix",
+      "nid": "shBzD6tFEPU",
+      "state": "implemented"
+    },
+    {
+      "name": "_warn_nid_postfix",
+      "nid": "J4rQAgjZon4",
+      "state": "implemented"
+    },
+    {
+      "name": "alarm_nid_postfix",
+      "nid": "zg6xgo7cXjI",
+      "state": "implemented"
+    },
+    {
+      "name": "err_nid_postfix",
+      "nid": "11SeNFuYyxc",
+      "state": "implemented"
+    },
+    {
+      "name": "err_set_exit_nid_postfix",
+      "nid": "Ggx59-fJapA",
+      "state": "implemented"
+    },
+    {
+      "name": "err_set_file_nid_postfix",
+      "nid": "C5Nqg4el3Fo",
+      "state": "implemented"
+    },
+    {
+      "name": "errc_nid_postfix",
+      "nid": "R6fct9yXuC0",
+      "state": "implemented"
+    },
+    {
+      "name": "errx_nid_postfix",
+      "nid": "9A9pxjthmgc",
+      "state": "implemented"
+    },
+    {
+      "name": "fdopendir_nid_postfix",
+      "nid": "4fpRDTtYFLM",
+      "state": "implemented"
+    },
+    {
+      "name": "fstatvfs_nid_postfix",
+      "nid": "QpNxxUG-Fe0",
+      "state": "implemented"
+    },
+    {
+      "name": "getopt_long_nid_postfix",
+      "nid": "eP-XZQfm9PE",
+      "state": "implemented"
+    },
+    {
+      "name": "getopt_long_only_nid_postfix",
+      "nid": "rw2J2HrHze8",
+      "state": "implemented"
+    },
+    {
+      "name": "getopt_nid_postfix",
+      "nid": "ZBqs-cHwv6o",
+      "state": "implemented"
+    },
+    {
+      "name": "getprogname_nid_postfix",
+      "nid": "Yty877REs1E",
+      "state": "inert"
+    },
+    {
+      "name": "inet_addr_nid_postfix",
+      "nid": "ijraBqeZclw",
+      "state": "implemented"
+    },
+    {
+      "name": "inet_aton_nid_postfix",
+      "nid": "vNs2Kg90mHc",
+      "state": "implemented"
+    },
+    {
+      "name": "inet_ntoa_nid_postfix",
+      "nid": "9VeLyO6Wkaw",
+      "state": "implemented"
+    },
+    {
+      "name": "inet_ntoa_r_nid_postfix",
+      "nid": "62s6G079sDM",
+      "state": "implemented"
+    },
+    {
+      "name": "makecontext_nid_postfix",
+      "nid": "PBFS9mx8LpE",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawn_file_actions_addclose_nid_postfix",
+      "nid": "K14fs-H+NNw",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawn_file_actions_adddup2_nid_postfix",
+      "nid": "OmGTxhWivFs",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawn_file_actions_addopen_nid_postfix",
+      "nid": "cJv5aetML1I",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawn_file_actions_destroy_nid_postfix",
+      "nid": "jtgweoH5fs4",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawn_file_actions_init_nid_postfix",
+      "nid": "CnNHyDpYogk",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawn_nid_postfix",
+      "nid": "ezwNmPXH17Q",
+      "state": "stub"
+    },
+    {
+      "name": "posix_spawnattr_destroy_nid_postfix",
+      "nid": "AeLmWOvj3NQ",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnattr_getflags_nid_postfix",
+      "nid": "GXoW59Tf20g",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnattr_getpgroup_nid_postfix",
+      "nid": "XzJo1huUDO0",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnattr_getschedparam_nid_postfix",
+      "nid": "O55k5qOkvmk",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnattr_getschedpolicy_nid_postfix",
+      "nid": "DEwfN3l4MaQ",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnattr_getsigdefault_nid_postfix",
+      "nid": "04EARWysLyE",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnattr_getsigmask_nid_postfix",
+      "nid": "-in8OLHMDXE",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnattr_init_nid_postfix",
+      "nid": "o306PB1VDgQ",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnattr_setflags_nid_postfix",
+      "nid": "rK3LTxl18As",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnattr_setpgroup_nid_postfix",
+      "nid": "vs20DCqGX1k",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnattr_setschedparam_nid_postfix",
+      "nid": "KtFQGX0FbQE",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnattr_setschedpolicy_nid_postfix",
+      "nid": "HAMOKX2Ujq0",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnattr_setsigdefault_nid_postfix",
+      "nid": "SJI8ksXWEMs",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnattr_setsigmask_nid_postfix",
+      "nid": "DBLv3d1U1YA",
+      "state": "implemented"
+    },
+    {
+      "name": "posix_spawnp_nid_postfix",
+      "nid": "AAOBLUMJKZQ",
+      "state": "stub"
+    },
+    {
+      "name": "psignal_nid_postfix",
+      "nid": "39CoOcrh5IE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceLibcHeapGetTraceInfo_nid_postfix",
+      "nid": "JLBDNORgu3g",
+      "state": "implemented"
+    },
+    {
+      "name": "statvfs_nid_postfix",
+      "nid": "5Q70MrHuJf0",
+      "state": "implemented"
+    },
+    {
+      "name": "utime_nid_postfix",
+      "nid": "OXhRCpr7k6s",
+      "state": "implemented"
+    },
+    {
+      "name": "verr_nid_postfix",
+      "nid": "lwmoXVgvRVo",
+      "state": "implemented"
+    },
+    {
+      "name": "verrc_nid_postfix",
+      "nid": "db-4gxSqHlk",
+      "state": "implemented"
+    },
+    {
+      "name": "verrx_nid_postfix",
+      "nid": "+VdgRwIt9Es",
+      "state": "implemented"
+    },
+    {
+      "name": "vwarn_nid_postfix",
+      "nid": "HSdhXDOVtkU",
+      "state": "implemented"
+    },
+    {
+      "name": "vwarnc_nid_postfix",
+      "nid": "cXX6cefHv74",
+      "state": "implemented"
+    },
+    {
+      "name": "vwarnx_nid_postfix",
+      "nid": "ks0QtzOgV20",
+      "state": "implemented"
+    },
+    {
+      "name": "warn_nid_postfix",
+      "nid": "xBNnSKTV0qU",
+      "state": "implemented"
+    },
+    {
+      "name": "warnc_nid_postfix",
+      "nid": "EMTBhoV4HCI",
+      "state": "implemented"
+    },
+    {
+      "name": "warnx_nid_postfix",
+      "nid": "XWdgYCsMEsQ",
+      "state": "implemented"
+    }
+  ]
+}

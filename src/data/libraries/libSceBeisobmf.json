@@ -1,0 +1,102 @@
+{
+  "name": "libSceBeisobmf",
+  "label": "Beisobmf",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 18,
+  "total": 18,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "isobmf_box_getchildbox_nid_postfix",
+      "nid": "Impfdmhnm9I",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_box_getdiskoffset_nid_postfix",
+      "nid": "PIUXRRHdQ44",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_box_getflags32b_nid_postfix",
+      "nid": "lkeXQSe6qYM",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_box_getmember_length_nid_postfix",
+      "nid": "j46tidvCdcA",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_box_getmember_ptr_nid_postfix",
+      "nid": "EMWJYHpEOIU",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_box_getmember_type_nid_postfix",
+      "nid": "z1nJskNI9nc",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_box_getnextbox_nid_postfix",
+      "nid": "8hrxoWa0Kq8",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_box_getstate_nid_postfix",
+      "nid": "YjUoPYhbbLk",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_box_gettype_nid_postfix",
+      "nid": "7+1fqYupECc",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_decoder_clear_nid_postfix",
+      "nid": "uRUWEELZ8xY",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_decoder_create_nid_postfix",
+      "nid": "HZY1+yuftZQ",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_decoder_decode_nid_postfix",
+      "nid": "y2PJDC0yyEk",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_decoder_destroy_nid_postfix",
+      "nid": "q6Yn-XV-HOg",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_decoder_get_decoder_tree_nid_postfix",
+      "nid": "+EP4fIzorNw",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_decoder_getquerydata_nid_postfix",
+      "nid": "o3IOGcuzgwA",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_decoder_next_disk_offset_nid_postfix",
+      "nid": "8tUyIJpo3Io",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_decoder_query_nid_postfix",
+      "nid": "+w1QqPAfMsA",
+      "state": "stub"
+    },
+    {
+      "name": "isobmf_memmanager_set_nid_postfix",
+      "nid": "hpu-mZ0eqQk",
+      "state": "stub"
+    }
+  ]
+}

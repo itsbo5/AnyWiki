@@ -1,0 +1,27 @@
+{
+  "name": "libSceVideoArbitration",
+  "label": "VideoArbitration",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 3,
+  "total": 3,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVideoArbitrationAcceptEvent",
+      "nid": "NhFkj3B10qM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoArbitrationEnable",
+      "nid": "qDrqs9Dv+Bw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoArbitrationInitialize",
+      "nid": "iVFRt4Ip+f8",
+      "state": "stub"
+    }
+  ]
+}

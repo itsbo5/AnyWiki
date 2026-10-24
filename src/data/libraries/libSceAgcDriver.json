@@ -1,0 +1,662 @@
+{
+  "name": "libSceAgcDriver",
+  "label": "AgcDriver",
+  "category": "Graphics and video",
+  "implemented": 30,
+  "inert": 54,
+  "stub": 46,
+  "total": 130,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAgcDriverAcquireHDRScopesACQ",
+      "nid": "dwoD-LJDQy8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverAcquireRazorACQ",
+      "nid": "MetMOQVd8HY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverAddEqEvent",
+      "nid": "w2rJhmD+dsE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverAgrSubmitDcb",
+      "nid": "AhGvpITrf4M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverAgrSubmitMultiDcbs",
+      "nid": "+T8Xo6LtFJI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverAllocateToolMemoryForGpuReset",
+      "nid": "T8xEHO2Y+XU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverCreateQueue",
+      "nid": "zP4ZNlXLBVg",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverCwsrResumeAcq",
+      "nid": "1DXIHxWHZAQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverCwsrSuspendAcq",
+      "nid": "SOAMmdlyaIc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverDbgReadRegister",
+      "nid": "-MqhSEVvAPw",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverDbgWriteRegister",
+      "nid": "Jkypw0U-HYo",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverDebugHardwareStatus",
+      "nid": "1BUTwixUG5Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverDeleteEqEvent",
+      "nid": "DL2RXaXOy88",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverDestroyQueue",
+      "nid": "XNbrdwCsZ9A",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverFindResourcesPublic",
+      "nid": "5l3IfCFJxBs",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetAllocatedToolMemoryForGpuReset",
+      "nid": "4XJkjqVrJrs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverGetCaptureConfig",
+      "nid": "m9n9wJC2D+4",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetCoredumpAddress",
+      "nid": "NhnGMuunz0Y",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetCoredumpMode",
+      "nid": "pto0YBGGOJo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverGetDefaultOwner",
+      "nid": "F0ZXt5q0ZTA",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetEqContextId",
+      "nid": "Zw7uUVPulbw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverGetEqEventType",
+      "nid": "5CdQTZIQPxM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverGetExceptionStatus",
+      "nid": "o2gvlIFMF1o",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetGpuPrintfWorkArea",
+      "nid": "+ADiO6FQvEA",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetGpuRefClks",
+      "nid": "g68eYcZS7PY",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetHsOffchipParam",
+      "nid": "r28hEh6cNH0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverGetOwnerName",
+      "nid": "LepGrgk77sM",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetPaDebugInterfaceVersion",
+      "nid": "Pqxglq1oKec",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverGetRegShadowInfo",
+      "nid": "CP-kVAMmWVw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverGetRegShadowInfoAgr",
+      "nid": "ME1eUot7+Qw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverGetReservedDmemForAgc",
+      "nid": "Um-jkyDy9rI",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverGetResourceBaseAddressAndSizeInBytes",
+      "nid": "NghWEUXp1qM",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetResourceName",
+      "nid": "M9yBzRKkjPc",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetResourceRegistrationMaxNameLength",
+      "nid": "uJziRsODk1c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverGetResourceShaderGuid",
+      "nid": "mXn+K9E-wOA",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetResourceType",
+      "nid": "rI9lNAXPMIw",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetResourceUserData",
+      "nid": "ls4jfY576lw",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetSetFlipPacketSizeInDwords",
+      "nid": "2PrsbRYyZi4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverGetSetWorkloadCompletePacketSize",
+      "nid": "WNyjOWq8-Vk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverGetSetWorkloadStreamInactivePacketSize",
+      "nid": "k8rLr8nq-hE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverGetSetWorkloadsActivePacketSize",
+      "nid": "gyVTZWyySpM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverGetShaderDebuggingStatus",
+      "nid": "rJUyMrDdxJg",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetSubmitValidationConfig",
+      "nid": "ICaGtkEIXTk",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetSubmitValidationMode",
+      "nid": "WHIOMbb+iIU",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetTFRing",
+      "nid": "e-YMQ+2tj9M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverGetTraceInitiator",
+      "nid": "xDPdCurOujQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverGetWaitRenderingPacketSizeInDwords",
+      "nid": "0MtUJ3BpGhE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverGetWorkloadStreamInfo",
+      "nid": "t8PLXbBCiRA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverHp3dLockEnd",
+      "nid": "u2g5VER9UnM",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverHp3dLockStart",
+      "nid": "SOo3Lwyglfo",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverIDHSSubmit",
+      "nid": "C2yjkNdzbW4",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverInitResourceRegistration",
+      "nid": "F0Y42t-3e18",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverInitResourceRegistrationInterface",
+      "nid": "VerAUWCtrX0",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverIsCaptureInProgress",
+      "nid": "Ddwk4gLT5j0",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverIsEsvmProcess",
+      "nid": "SFB48L57OKQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverIsPaDebug",
+      "nid": "HMnVBVUyajk",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverIsSubmitValidationEnabled",
+      "nid": "qspAL8bgcBY",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverIsSuspendPointInFlight",
+      "nid": "K15VxhSJOfc",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverIsTraceInProgress",
+      "nid": "+TN0oRTBxJQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverModuleRegistration",
+      "nid": "04JRU1Uf8Ms",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverNopDataGetPacketSize",
+      "nid": "gtvWv7DEKD4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverNopDataWritePacket",
+      "nid": "mQfUoU5-d1g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverNotifyDefaultStates",
+      "nid": "nR6xhiFsOoc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverPassInfoDownward",
+      "nid": "aCfbPzyjU90",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverPatchClearState",
+      "nid": "lYz7vbL4W4A",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverQueryResourceRegistrationUserMemoryRequirements",
+      "nid": "AOLcoIkQDgM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverRegisterDefaultOwner",
+      "nid": "U9ueyEhSkF4",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverRegisterGdsResource",
+      "nid": "emP3ckeS2uo",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverRegisterGpuResetCallbacks",
+      "nid": "KtIXf8La96k",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverRegisterMultipleResources",
+      "nid": "JQc0956gCf0",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverRegisterOwner",
+      "nid": "X-Nm5KLREeg",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverRegisterOwnerForSystem",
+      "nid": "-CSrlr1yY-o",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverRegisterResource",
+      "nid": "W5z4eZrjEas",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverRegisterWorkloadStream",
+      "nid": "3AyTaWcF-H8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverReleaseHDRScopesACQ",
+      "nid": "NRO47jBXLiI",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverRequestCaptureStart",
+      "nid": "SAfhzJPcjuk",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverRequestCaptureStop",
+      "nid": "FOwvmNlFLjM",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverSetCaptureConfig",
+      "nid": "jwKQ1B98Q0g",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverSetFlip",
+      "nid": "cwbxjPSJ7WQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSetGpuPrintfEnabled",
+      "nid": "J6S2TMmGWgA",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverSetHsOffchipParam",
+      "nid": "MM4IZSEYytQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverSetHsOffchipParamDirect",
+      "nid": "DPcAnsOlTQs",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSetResourceRegistrationInfo",
+      "nid": "-JFkLpCDeHM",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverSetResourceUserData",
+      "nid": "VOMSpd9+vxU",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverSetSubmitValidationConfig",
+      "nid": "chJWZcNSzjk",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverSetSubmitValidationMode",
+      "nid": "+iAOE3jCnkk",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverSetTFRing",
+      "nid": "XlNp7jzGiPo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverSetTargetRingForDiag",
+      "nid": "l0Jxfl0DEdo",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverSetValidationDisabled",
+      "nid": "1QTqF-hYqQE",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverSetValidationErrorOutputFrequency",
+      "nid": "8F5j7U-Bq6s",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverSetValueToSharedGds",
+      "nid": "NQLvUnSDyBU",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSetWorkloadComplete",
+      "nid": "i6bfTi13ApA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSetWorkloadStreamInactive",
+      "nid": "AU87qNukGi4",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSetWorkloadsActive",
+      "nid": "UM9b9NunSrE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSetupAsyncGraphics",
+      "nid": "Vlaj1gwmIFA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSetupRegisterShadow",
+      "nid": "Hj4eWnDektQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSubmitAcb",
+      "nid": "gSRnr79F8tQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverSubmitCommandBuffer",
+      "nid": "b4fpgH5ZXxQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverSubmitDcb",
+      "nid": "UglJIZjGssM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverSubmitMultiAcbs",
+      "nid": "HF3YllT3mXU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverSubmitMultiCommandBuffers",
+      "nid": "Fj7r9EHzF38",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverSubmitMultiCommandBuffersDirect",
+      "nid": "xmWi73o1BR0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSubmitMultiDcbs",
+      "nid": "6UzEidRZwkg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverSubmitReprojectionAcb",
+      "nid": "F5ZTyyVUHTs",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSubmitToHDRScopesACQ",
+      "nid": "lOYHtoUcJD4",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSubmitToRazorACQ",
+      "nid": "jJyVJyhi5h8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSuspendPointSubmit",
+      "nid": "QcmHLO2n7mk",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSuspendPointSubmitCdbg",
+      "nid": "kAPt2J4U3v8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSuspendPointSubmitDirect",
+      "nid": "ZV04pRl7cWU",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSysEnableSubmitDone45Exception",
+      "nid": "x3K61sY5m8Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSysGetClientNumber",
+      "nid": "kuE1uTiWfuk",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSysGetGfxAppGpuResetStatus",
+      "nid": "EcaEt4nv8No",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSysIsGameClosed",
+      "nid": "ftf-xlfBQpo",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverSysSubmitFlipHandleProxy",
+      "nid": "BbI8si4o-fA",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverTmpInitIdhs",
+      "nid": "UM8rn9hRWrY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverTriggerCapture",
+      "nid": "Xq5WmbwPTnQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverUnregisterAllResourcesForOwner",
+      "nid": "SCoAN5fYlUM",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverUnregisterGpuResetCallbacks",
+      "nid": "DDCQA2fPQj0",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverUnregisterOwnerAndResources",
+      "nid": "ZLJk9r2+2Aw",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverUnregisterResource",
+      "nid": "pWLG7WOpVcw",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverUnregisterWorkloadStream",
+      "nid": "n5ElQVYsU1A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverUserDataGetPacketSize",
+      "nid": "VhLnEiTuuWo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgcDriverUserDataImmediateWrite",
+      "nid": "t30LG1ibIJE",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverUserDataImmediateWritePacket",
+      "nid": "tLTma0k0U3E",
+      "state": "inert"
+    },
+    {
+      "name": "sceAgcDriverUserDataWritePacket",
+      "nid": "-vc-xL+G8u0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverUserDataWritePopMarker",
+      "nid": "LEnn-4ARRJM",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverUserDataWritePushMarker",
+      "nid": "+b34-CLWc0s",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverUserDataWriteSetMarker",
+      "nid": "zmw2uVSEj94",
+      "state": "stub"
+    },
+    {
+      "name": "sceAgcDriverWaitUntilSafeForRendering",
+      "nid": "u8BkdHb1+Po",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAgdResetGpu",
+      "nid": "Dg-D0+2-m8g",
+      "state": "inert"
+    }
+  ]
+}

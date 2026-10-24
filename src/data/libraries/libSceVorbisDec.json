@@ -1,0 +1,182 @@
+{
+  "name": "libSceVorbisDec",
+  "label": "VorbisDec",
+  "category": "Audio and media",
+  "implemented": 31,
+  "inert": 0,
+  "stub": 3,
+  "total": 34,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVorbisDecBitrate",
+      "nid": "H1VDOoibLBg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecBitrateInstant",
+      "nid": "I5jQit5Q78Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecClear",
+      "nid": "UJvFjRAnQ2k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecComment",
+      "nid": "M+ZTsbhxKpM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecCrossLap",
+      "nid": "gzjhKWIF5Gs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecGetDecodePriority",
+      "nid": "9kZc-37F7es",
+      "state": "stub"
+    },
+    {
+      "name": "sceVorbisDecGetLastDecodeError",
+      "nid": "bASEQctTGhI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVorbisDecHalfrate",
+      "nid": "rVNVc74vUAY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecHalfrateP",
+      "nid": "DxdfhwB4GdM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecInfo",
+      "nid": "YzIPMpnHJzU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecOpenCallbacks",
+      "nid": "s6a5LF1NG4g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecPcmSeek",
+      "nid": "pZ1ctWkAU9Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecPcmSeekLap",
+      "nid": "oZZwcwzugfI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecPcmSeekPage",
+      "nid": "PdwTVolubW4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecPcmSeekPageLap",
+      "nid": "Tyzq3UGlllM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecPcmTell",
+      "nid": "MPhCP85gRP4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecPcmTotal",
+      "nid": "v6LjiH858Sc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecRawSeek",
+      "nid": "CSFNyhqnD5k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecRawSeekLap",
+      "nid": "cu5DLZM7-k8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecRawTell",
+      "nid": "k9meG9QXtn4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecRawTotal",
+      "nid": "DEogcVYTvm8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecRead",
+      "nid": "ItJTxCCvT4A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecReadFilter",
+      "nid": "wHbu4oz+z0I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecReadFloat",
+      "nid": "+A20uE3spLQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecSeekable",
+      "nid": "pVLe+5PkfMY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecSerialNumber",
+      "nid": "OZBKii+KboY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecSetDecodePriority",
+      "nid": "ORxxAa6qnAA",
+      "state": "stub"
+    },
+    {
+      "name": "sceVorbisDecStreams",
+      "nid": "uNBguxxOcgI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecTimeSeek",
+      "nid": "6yXA1cZyFz4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecTimeSeekLap",
+      "nid": "rfYTE+X39pY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecTimeSeekPage",
+      "nid": "0GAn6zZgyfA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecTimeSeekPageLap",
+      "nid": "rTNZW2LJz+E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecTimeTell",
+      "nid": "iNtnapy4KGA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVorbisDecTimeTotal",
+      "nid": "jpdtTcaVXpI",
+      "state": "implemented"
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "name": "libSceHttp",
+  "label": "Http",
+  "category": "Network and services",
+  "implemented": 55,
+  "inert": 30,
+  "stub": 30,
+  "total": 115,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceHttpAbortRequest",
+      "nid": "hvG6GfBMXg8",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpAbortRequestForce",
+      "nid": "JKl06ZIAl6A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpAbortWaitRequest",
+      "nid": "sWQiqKvYTVA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpAddCookie",
+      "nid": "mNan6QSnpeY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpAddQuery",
+      "nid": "JM58a21mtrQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpAddRequestHeader",
+      "nid": "EY28T2bkN7k",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpAddRequestHeaderRaw",
+      "nid": "lGAjftanhFs",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpAuthCacheExport",
+      "nid": "Y1DCjN-s2BA",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpAuthCacheFlush",
+      "nid": "zzB0StvRab4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpAuthCacheImport",
+      "nid": "wF0KcxK20BE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheRedirectedConnectionEnabled",
+      "nid": "A7n9nNg7NBg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpCookieExport",
+      "nid": "nOkViL17ZOo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCookieFlush",
+      "nid": "seCvUt91WHY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpCookieImport",
+      "nid": "pFnXDxo3aog",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCreateConnection",
+      "nid": "Kiwv9r4IZCc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpCreateConnectionWithURL",
+      "nid": "qgxDBjorUxs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpCreateEpoll",
+      "nid": "6381dWF+xsQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpCreateRequest",
+      "nid": "tsGVru3hCe8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpCreateRequest2",
+      "nid": "rGNm+FjIXKk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpCreateRequestWithURL",
+      "nid": "Aeu5wVKkF9w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpCreateRequestWithURL2",
+      "nid": "Cnp77podkCU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpCreateTemplate",
+      "nid": "0gYjPTR-6cY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpDbgEnableProfile",
+      "nid": "Lffcxao-QMM",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpDbgGetConnectionStat",
+      "nid": "6gyx-I0Oob4",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpDbgGetRequestStat",
+      "nid": "fzzBpJjm9Kw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpDbgSetPrintf",
+      "nid": "VmqSnjZ5mE4",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpDbgShowConnectionStat",
+      "nid": "KJtUHtp6y0U",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpDbgShowMemoryPoolStat",
+      "nid": "oEuPssSYskA",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpDbgShowRequestStat",
+      "nid": "L2gM3qptqHs",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpDbgShowStat",
+      "nid": "pxBsD-X9eH0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpDeleteConnection",
+      "nid": "P6A3ytpsiYc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpDeleteRequest",
+      "nid": "qe7oZ+v4PWA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpDeleteTemplate",
+      "nid": "4I8vEpuEhZ8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpDestroyEpoll",
+      "nid": "wYhXVfS2Et4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpGetAcceptEncodingGZIPEnabled",
+      "nid": "1rpZqxdMRwQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpGetAllResponseHeaders",
+      "nid": "aCYPMSUIaP8",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpGetAuthEnabled",
+      "nid": "9m8EcOGzcIQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpGetAutoRedirect",
+      "nid": "mmLexUbtnfY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpGetConnectionStat",
+      "nid": "L-DwVoHXLtU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpGetCookie",
+      "nid": "+G+UsJpeXPc",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpGetCookieEnabled",
+      "nid": "iSZjWw1TGiA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpGetCookieStats",
+      "nid": "xkymWiGdMiI",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpGetEpoll",
+      "nid": "7j9VcwnrZo4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpGetEpollId",
+      "nid": "IQOP6McWJcY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpGetLastErrno",
+      "nid": "0onIrKx9NIE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpGetMemoryPoolStats",
+      "nid": "16sMmVuOvgU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpGetNonblock",
+      "nid": "Wq4RNB3snSQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpGetRegisteredCtxIds",
+      "nid": "hkcfqAl+82w",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpGetResponseContentLength",
+      "nid": "yuO2H2Uvnos",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpGetStatusCode",
+      "nid": "0a2TBNfE3BU",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpInit_nid_postfix",
+      "nid": "d0SuiOc5rOs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpParseResponseHeader",
+      "nid": "hPTXo3bICzI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpParseStatusLine",
+      "nid": "Qq8SfuJJJqE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpReadData",
+      "nid": "P5pdoykPYTk",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpRedirectCacheFlush",
+      "nid": "u05NnI+P+KY",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpRemoveRequestHeader",
+      "nid": "zNGh-zoQTD0",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpRequestGetAllHeaders",
+      "nid": "4fgkfVeVsGU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpSendRequest",
+      "nid": "1e2BNwI-XzE",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpSetAcceptEncodingGZIPEnabled",
+      "nid": "HRX1iyDoKR8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpSetAuthEnabled",
+      "nid": "qFg2SuyTJJY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpSetAuthInfoCallback",
+      "nid": "jf4TB2nUO40",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpSetAutoRedirect",
+      "nid": "T-mGo9f3Pu4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpSetChunkedTransferEnabled",
+      "nid": "PDxS48xGQLs",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpSetConnectTimeOut",
+      "nid": "0S9tTH0uqTU",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpSetCookieEnabled",
+      "nid": "XNUoD2B9a6A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpSetCookieMaxNum",
+      "nid": "pM--+kIeW-8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpSetCookieMaxNumPerDomain",
+      "nid": "Kp6juCJUJGQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpSetCookieMaxSize",
+      "nid": "7Y4364GBras",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpSetCookieRecvCallback",
+      "nid": "Kh6bS2HQKbo",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpSetCookieSendCallback",
+      "nid": "GnVDzYfy-KI",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpSetCookieTotalMaxSize",
+      "nid": "pHc3bxUzivU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpSetDefaultAcceptEncodingGZIPEnabled",
+      "nid": "8kzIXsRy1bY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpSetDelayBuildRequestEnabled",
+      "nid": "22buO-UufJY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpSetEpoll",
+      "nid": "-xm7kZQNpHI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpSetEpollId",
+      "nid": "LG1YW1Uhkgo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpSetHttp09Enabled",
+      "nid": "pk0AuomQM1o",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpSetInflateGZIPEnabled",
+      "nid": "i9mhafzkEi8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpSetNonblock",
+      "nid": "s2-NPIvz+iA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpSetPolicyOption",
+      "nid": "gZ9TpeFQ7Gk",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpSetPriorityOption",
+      "nid": "2NeZnMEP3-0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpSetProxy",
+      "nid": "i+quCZCL+D8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpSetRecvBlockSize",
+      "nid": "mMcB2XIDoV4",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpSetRecvTimeOut",
+      "nid": "yigr4V0-HTM",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpSetRedirectCallback",
+      "nid": "h9wmFZX4i-4",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpSetRequestContentLength",
+      "nid": "PTiFIUxCpJc",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpSetRequestStatusCallback",
+      "nid": "vO4B-42ef-k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpSetResolveRetry",
+      "nid": "K1d1LqZRQHQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpSetResolveTimeOut",
+      "nid": "Tc-hAYDKtQc",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpSetResponseHeaderMaxSize",
+      "nid": "a4VsZ4oqn68",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpSetSendTimeOut",
+      "nid": "xegFfZKBVlw",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpSetSocketCreationCallback",
+      "nid": "POJ0azHZX3w",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpTerm_nid_postfix",
+      "nid": "W7Td21+oE5w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpTryGetNonblock",
+      "nid": "V-noPEjSB8c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpTrySetNonblock",
+      "nid": "fmOs6MzCRqk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpUnsetEpoll",
+      "nid": "59tL1AQBb8U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpUriBuild",
+      "nid": "5LZA+KPISVA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpUriCopy",
+      "nid": "CR-l-yI-o7o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpUriEscape",
+      "nid": "YuOW3dDAKYc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpUriMerge",
+      "nid": "3lgQ5Qk42ok",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpUriParse",
+      "nid": "IWalAn-guFs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpUriSweepPath",
+      "nid": "mUU363n4yc0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpUriUnescape",
+      "nid": "thTS+57zoLM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpWaitRequest",
+      "nid": "qISjDHrxONc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpsDisableOption",
+      "nid": "mSQCxzWTwVI",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpsDisableOptionPrivate",
+      "nid": "zJYi5br6ZiQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpsEnableOption",
+      "nid": "f42K37mm5RM",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpsEnableOptionPrivate",
+      "nid": "I4+4hKttt1w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpsFreeCaList",
+      "nid": "7WcNoAI9Zcw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpsGetCaList",
+      "nid": "gcUjwU3fa0M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpsGetSslError",
+      "nid": "JBN6N-EY+3M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttpsLoadCert",
+      "nid": "DK+GoXCNT04",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpsSetMinSslVersion",
+      "nid": "jUjp+yqMNdQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpsSetSslCallback",
+      "nid": "htyBOoWeS58",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpsSetSslVersion",
+      "nid": "U5ExQGyyx9s",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpsUnloadCert",
+      "nid": "zXqcE0fizz0",
+      "state": "inert"
+    }
+  ]
+}

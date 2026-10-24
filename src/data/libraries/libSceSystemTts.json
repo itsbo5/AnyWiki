@@ -1,0 +1,37 @@
+{
+  "name": "libSceSystemTts",
+  "label": "SystemTts",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 5,
+  "total": 5,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSystemTtsCancel",
+      "nid": "ptEq8HFfa58",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemTtsIsAccessibilityAvailable",
+      "nid": "COqIT6fJpzc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemTtsRegisterCallback",
+      "nid": "up9Z19akYXM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemTtsSpeakRequest",
+      "nid": "GecDKH8ag3M",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemTtsUnregisterCallback",
+      "nid": "a05rlp573ow",
+      "state": "stub"
+    }
+  ]
+}

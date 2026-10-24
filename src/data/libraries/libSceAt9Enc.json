@@ -1,0 +1,37 @@
+{
+  "name": "libSceAt9Enc",
+  "label": "At9Enc",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 5,
+  "total": 5,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAt9EncClearContext",
+      "nid": "ZE8DFcSverk",
+      "state": "stub"
+    },
+    {
+      "name": "sceAt9EncCreateEncoder",
+      "nid": "gujP4afE9dQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAt9EncEncode",
+      "nid": "WBgTbIYvODM",
+      "state": "stub"
+    },
+    {
+      "name": "sceAt9EncFlush",
+      "nid": "jOnUkmU6pyQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAt9EncQueryMemSize",
+      "nid": "1iDLkHJ4gbA",
+      "state": "stub"
+    }
+  ]
+}

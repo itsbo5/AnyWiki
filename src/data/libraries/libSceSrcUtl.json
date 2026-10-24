@@ -1,0 +1,57 @@
+{
+  "name": "libSceSrcUtl",
+  "label": "SrcUtl",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 9,
+  "total": 9,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSrcUtilityFinalize",
+      "nid": "uM3tl64pJNU",
+      "state": "stub"
+    },
+    {
+      "name": "sceSrcUtilityFlush",
+      "nid": "qCL0KDAv1Os",
+      "state": "stub"
+    },
+    {
+      "name": "sceSrcUtilityGetDelaySamples",
+      "nid": "Lw8wfmCaxlQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSrcUtilityGetHandleSize",
+      "nid": "wTO4cMkVNaM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSrcUtilityGetPriority",
+      "nid": "UFLN-KNhzX0",
+      "state": "stub"
+    },
+    {
+      "name": "sceSrcUtilityInitialize",
+      "nid": "Y0LiSp+hb38",
+      "state": "stub"
+    },
+    {
+      "name": "sceSrcUtilityInitializeEx",
+      "nid": "gf9WnZyyHwE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSrcUtilityResample",
+      "nid": "M9Zur3ydU6g",
+      "state": "stub"
+    },
+    {
+      "name": "sceSrcUtilitySetPriority",
+      "nid": "scvqkMgVNz8",
+      "state": "stub"
+    }
+  ]
+}

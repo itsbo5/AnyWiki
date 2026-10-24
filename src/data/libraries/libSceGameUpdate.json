@@ -1,0 +1,47 @@
+{
+  "name": "libSceGameUpdate",
+  "label": "GameUpdate",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceGameUpdateAbortRequest",
+      "nid": "d1CNGEOaK28",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameUpdateCheck",
+      "nid": "LYVV9z8+owM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameUpdateCreateRequest",
+      "nid": "UvcvKaFvupA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameUpdateDeleteRequest",
+      "nid": "bcCyjHN5sn0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameUpdateGetAddcontLatestVersion",
+      "nid": "0g0+Oq9xcI0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameUpdateInitialize",
+      "nid": "YJtKLttI9fM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceGameUpdateTerminate",
+      "nid": "NSH-C-OmoNI",
+      "state": "implemented"
+    }
+  ]
+}

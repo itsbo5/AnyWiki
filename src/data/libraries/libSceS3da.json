@@ -1,0 +1,32 @@
+{
+  "name": "libSceS3da",
+  "label": "S3da",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 4,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceS3daClose",
+      "nid": "W0SsxHQUhGs",
+      "state": "stub"
+    },
+    {
+      "name": "sceS3daGetInfo",
+      "nid": "2vcPzfCr49Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceS3daOpen",
+      "nid": "lE4k3hlQbZk",
+      "state": "stub"
+    },
+    {
+      "name": "sceS3daSendData",
+      "nid": "ViGl7v+BjKc",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "name": "libSceSysUtil",
+  "label": "SysUtil",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 24,
+  "total": 24,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSysUtilSendAddressingSystemNotification",
+      "nid": "TnvxGzkFmbo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendAddressingSystemNotificationWithDeviceId",
+      "nid": "yKfATNkQZdc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendAddressingSystemNotificationWithUserId",
+      "nid": "BgOJY0UvOQ4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendAddressingSystemNotificationWithUserName",
+      "nid": "VHGBWkTe0Jg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendNotificationRequest",
+      "nid": "AAk6w60xP3A",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendNpDebugNotificationRequest",
+      "nid": "Eu7QNB9x1r0",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotification",
+      "nid": "jTNAhVZ-5Nc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotification2",
+      "nid": "f21DEbadT98",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationParamInit",
+      "nid": "-+7YODtoVLM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationWithAppId",
+      "nid": "KQxuDpbldZs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationWithAppInfo",
+      "nid": "3vHcGnZpiN8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationWithAppName",
+      "nid": "N4AToF3po08",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationWithAppNameRelatedToUser",
+      "nid": "+RZFlwV4k3I",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationWithDeviceId",
+      "nid": "SxYUo6o6mjo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationWithDeviceIdRelatedToUser",
+      "nid": "ISeIA7PBwyc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationWithErrorCode",
+      "nid": "iSlI1LKy7Bg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationWithParams",
+      "nid": "AodT6gE5Qpk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationWithText",
+      "nid": "Btgtlzfk9EQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationWithTextRelatedToUser",
+      "nid": "HJyZ8CZGVoY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationWithUserId",
+      "nid": "YbAfwT8fO7Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationWithUserName",
+      "nid": "DC2NSz1IDyk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendSystemNotificationWithUserNameInfo",
+      "nid": "Kl9aRhwtXBM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendTrcCheckNotificationRequest",
+      "nid": "-0FdPC78x7U",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysUtilSendWebDebugNotificationRequest",
+      "nid": "V+TVN7J5JbA",
+      "state": "stub"
+    }
+  ]
+}

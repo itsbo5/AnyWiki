@@ -1,0 +1,1127 @@
+{
+  "name": "libSceNet",
+  "label": "Net",
+  "category": "Network and services",
+  "implemented": 63,
+  "inert": 3,
+  "stub": 157,
+  "total": 223,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNetAccept",
+      "nid": "PIWqhn9oSxc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetAddrConfig6GetInfo",
+      "nid": "BTUvkWzrP68",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetAddrConfig6Start",
+      "nid": "3qG7UJy2Fq8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetAddrConfig6Stop",
+      "nid": "P+0ePpDfUAQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetAllocateAllRouteInfo",
+      "nid": "PcdLABhYga4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetAllocateAllRouteInfo6",
+      "nid": "nO17GBCP-es",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetBandwidthControlGetDataTraffic",
+      "nid": "xHq87H78dho",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetBandwidthControlGetDefaultParam",
+      "nid": "c8IRpl4L74I",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetBandwidthControlSetDefaultParam",
+      "nid": "P4zZXE7bpsA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetBind_nid_postfix",
+      "nid": "4cG6uTnOREM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetClearDnsCache",
+      "nid": "eyLyLJrdEOU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetConfigAddArp",
+      "nid": "Ea2NaVMQNO8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigAddArpWithInterface",
+      "nid": "0g0qIuPN3ZQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigAddIfaddr",
+      "nid": "ge7g15Sqhks",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigAddIfaddr6",
+      "nid": "2iHmT-+b5T4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigAddMRoute",
+      "nid": "FDHr4Iz7dQU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigAddRoute",
+      "nid": "Cyjl1yzi1qY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigAddRoute6",
+      "nid": "Bu+L5r1lKRg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigAddRouteWithInterface",
+      "nid": "wIGold7Lro0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigCleanUpAllInterfaces",
+      "nid": "MzA1YrRE6rA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigDelArp",
+      "nid": "HJt+4x-CnY0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigDelArpWithInterface",
+      "nid": "xTcttXJ3Utg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigDelDefaultRoute",
+      "nid": "RuVwHEW6dM4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigDelDefaultRoute6",
+      "nid": "UMlVCy7RX1s",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigDelDefaultRouteDev",
+      "nid": "c7A0diG7AIU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigDelIfaddr",
+      "nid": "0239JNsI6PE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigDelIfaddr6",
+      "nid": "hvCXMwd45oc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigDelMRoute",
+      "nid": "5Yl1uuh5i-A",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigDelRoute",
+      "nid": "QO7+2E3cD-U",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigDelRoute6",
+      "nid": "4wDGvfhmkmk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigDownInterface",
+      "nid": "3WzWV86AJ3w",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigEtherGetLinkMode",
+      "nid": "mOUkgTaSkJU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigEtherPostPlugInOutEvent",
+      "nid": "pF3Vy1iZ5bs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigEtherSetLinkMode",
+      "nid": "QltDK6wWqF0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigFlushRoute",
+      "nid": "18KNgSvYx+Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigFlushRoute6",
+      "nid": "fn8LwjPlQOI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigGetDefaultRoute",
+      "nid": "lFJb+BlPK1c",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigGetDefaultRoute6",
+      "nid": "mCLdiNIKtW0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigGetIfFlags",
+      "nid": "idz6xTKXM3s",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigGetIfaddr",
+      "nid": "ejwa0hWWhDs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigGetIfaddr6",
+      "nid": "FU6NK4RHQVE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigRoutingShowRoutingConfig",
+      "nid": "vbZLomImmEE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigRoutingShowtCtlVar",
+      "nid": "a6sS6iSE0IA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigRoutingStart",
+      "nid": "eszLdtIMfQE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigRoutingStop",
+      "nid": "toi8xxcSfJ0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigSetDefaultRoute",
+      "nid": "EAl7xvi7nXg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigSetDefaultRoute6",
+      "nid": "4zLOHbt3UFk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigSetDefaultRouteDev",
+      "nid": "cKvcNpw4q7o",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigSetDefaultScope",
+      "nid": "yaVAdLDxUj0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigSetIfFlags",
+      "nid": "0sesmAYH3Lk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigSetIfLinkLocalAddr6",
+      "nid": "uNTluLfYgS8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigSetIfaddr",
+      "nid": "8Kh+1eidI3c",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigSetIfaddr6",
+      "nid": "QJbV3vfBQ8Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigSetIfaddr6WithFlags",
+      "nid": "POrSEl8zySw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigSetIfmtu",
+      "nid": "s31rYkpIMMQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigUnsetIfFlags",
+      "nid": "tvdzQkm+UaY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigUpInterface",
+      "nid": "oGEBX0eXGFs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigUpInterfaceWithFlags",
+      "nid": "6HNbayHPL7c",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanAdhocClearWakeOnWlan",
+      "nid": "6A6EweB3Dto",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanAdhocCreate",
+      "nid": "ZLdJyQJUMkM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanAdhocGetWakeOnWlanInfo",
+      "nid": "Yr3UeApLWTY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanAdhocJoin",
+      "nid": "Xma8yHmV+TQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanAdhocLeave",
+      "nid": "K4o48GTNbSc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanAdhocPspEmuClearWakeOnWlan",
+      "nid": "ZvKgNrrLCCQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanAdhocPspEmuGetWakeOnWlanInfo",
+      "nid": "1j4DZ5dXbeQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanAdhocPspEmuSetWakeOnWlan",
+      "nid": "C-+JPjaEhdA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanAdhocScanJoin",
+      "nid": "7xYdUWg1WdY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanAdhocSetExtInfoElement",
+      "nid": "Q7ee2Uav5f8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanAdhocSetWakeOnWlan",
+      "nid": "xaOTiuxIQNY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanApStart",
+      "nid": "QlRJWya+dtE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanApStop",
+      "nid": "6uYcvVjH7Ms",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanBackgroundScanQuery",
+      "nid": "MDbg-oAj8Aw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanBackgroundScanStart",
+      "nid": "cMA8f6jI6s0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanBackgroundScanStop",
+      "nid": "3T5aIe-7L84",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanDiagGetDeviceInfo",
+      "nid": "+3KMyS93TOs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanDiagSetAntenna",
+      "nid": "9oiOWQ5FMws",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanDiagSetTxFixedRate",
+      "nid": "fHr45B97n0U",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanGetDeviceConfig",
+      "nid": "PNDDxnqqtk4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanInfraGetRssiInfo",
+      "nid": "Pkx0lwWVzmQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanInfraLeave",
+      "nid": "IkBCxG+o4Nk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanInfraScanJoin",
+      "nid": "273-I-zD8+8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanScan",
+      "nid": "-Mi5hNiWC4c",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConfigWlanSetDeviceConfig",
+      "nid": "U1q6DrPbY6k",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetConnect",
+      "nid": "OXXX4mUk3uk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetControl",
+      "nid": "lDTIbqNs0ps",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDbgInit",
+      "nid": "26VqvOFbxYo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDhcpGetAutoipInfo",
+      "nid": "KhQxhlEslo0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDhcpGetInfo",
+      "nid": "ix4LWXd12F0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDhcpGetInfoEx",
+      "nid": "DrZuCQDnm3w",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDhcpStart",
+      "nid": "Wzv6dngR-DQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDhcpStop",
+      "nid": "6AN7OlSMWk0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDhcpdStart",
+      "nid": "Q6T-zIblNqk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDhcpdStop",
+      "nid": "xwWm8jzrpeM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDumpAbort",
+      "nid": "+ezgWao0wo8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDumpCreate",
+      "nid": "bghgkeLKq1Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDumpDestroy",
+      "nid": "xZ54Il-u1vs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDumpRead",
+      "nid": "YWTpt45PxbI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDumpSetFilterParam",
+      "nid": "kRlWVQfqAgw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDuplicateIpStart",
+      "nid": "TwjkDIPdZ1Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetDuplicateIpStop",
+      "nid": "QCbvCx9HL30",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetEmulationDebugSettingsGet",
+      "nid": "FCxn1he-3Cc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetEmulationDebugSettingsSet",
+      "nid": "N8ndO75vfeo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetEmulationGet",
+      "nid": "JK1oZe4UysY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetEmulationSet",
+      "nid": "pfn3Fha1ydc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetEpollAbort",
+      "nid": "w21YgGGNtBk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetEpollControl",
+      "nid": "ZVw46bsasAk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetEpollCreate",
+      "nid": "SF47kB2MNTo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetEpollDestroy",
+      "nid": "Inp1lfL+Jdw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetEpollWait",
+      "nid": "drjIbDbA7UQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetErrnoLoc",
+      "nid": "HQOwnfMGipQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetEtherNtostr",
+      "nid": "v6M4txecCuo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetEtherStrton",
+      "nid": "b-bFZvNV59I",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetEventCallbackCreate",
+      "nid": "cWGGXoeZUzA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetEventCallbackDestroy",
+      "nid": "jzP0MoZpYnI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetEventCallbackGetError",
+      "nid": "tB3BB8AsrjU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetEventCallbackWaitCB",
+      "nid": "5isaotjMWlA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetFreeAllRouteInfo",
+      "nid": "2ee14ktE1lw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetAppMemInfo",
+      "nid": "3hPkdX+BVdo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetArpInfo",
+      "nid": "q8j9OSdnN1Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetDns6Info",
+      "nid": "wmoIm94hqik",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetDnsInfo",
+      "nid": "nCL0NyZsd5A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetGetIfList",
+      "nid": "HoV-GJyx7YY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetIfListEx",
+      "nid": "tIM8-wuTipw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetIfListOnce",
+      "nid": "ahiOMqoYYMc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetIfName",
+      "nid": "0MT2l3uIX7c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetGetIfnameNumList",
+      "nid": "5lrSEHdqyos",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetInterfaceStats",
+      "nid": "UjkVLnP+n0M",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetMacAddress",
+      "nid": "6Oc0bLsIYe0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetGetMemoryPoolStats",
+      "nid": "rMyh97BU5pY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetGetNameToIndex",
+      "nid": "+S-2-jlpaBo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetRandom",
+      "nid": "G3O2j9f5z00",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetGetRouteInfo",
+      "nid": "6Nx1hIQL9h8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetSockInfo",
+      "nid": "hLuXdjHnhiI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetGetSockInfo6",
+      "nid": "Cidi9Y65mP8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetStatisticsInfo",
+      "nid": "GA5ZDaLtUBE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetStatisticsInfoInternal",
+      "nid": "9mIcUExH34w",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetSystemMemInfo",
+      "nid": "lWLCuob+b8w",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetGetSystemTime",
+      "nid": "p2vxsE2U3RQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetGetpeername",
+      "nid": "TCkRD0DWNLg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetGetsockname",
+      "nid": "hoOAofhhRvE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetGetsockopt",
+      "nid": "xphrZusl78E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetGetsockoptEx",
+      "nid": "Z9tlW8UAHg8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetHtonl_nid_postfix",
+      "nid": "V-VjYDAy+m8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetHtonll",
+      "nid": "3CHi1K1wsCQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetHtons_nid_postfix",
+      "nid": "hACt7DmUHgw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetInetNtop",
+      "nid": "9vA2aW+CHuA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetInetNtopWithScopeId",
+      "nid": "Eh+Vqkrrc00",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetInetPton",
+      "nid": "8Kcp5d-q1Uo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetInetPtonEx",
+      "nid": "Xn2TA2QhxHc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetInetPtonWithScopeId",
+      "nid": "b+LixqREH6A",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetInfoDumpStart",
+      "nid": "cYW1ISGlOmo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetInfoDumpStop",
+      "nid": "XfV-XBCuhDo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetInitParam",
+      "nid": "6MojQ8uFHEI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetInit_nid_postfix",
+      "nid": "gxvikDSCaEA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetIoctl",
+      "nid": "ghqRRVQxqKo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetListen",
+      "nid": "kOj1HiAGE54",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetMemoryAllocate",
+      "nid": "HKIa-WH0AZ4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetMemoryFree",
+      "nid": "221fvqVs+sQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetNtohl_nid_postfix",
+      "nid": "Eb6qzFxE4Ao",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetNtohll",
+      "nid": "tOrRi-v3AOM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetNtohs_nid_postfix",
+      "nid": "vv6lJAC8Rys",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetPoolCreate",
+      "nid": "dgJBaeJnGpo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetPoolDestroy",
+      "nid": "K7RlrTkI-mw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetPppoeStart",
+      "nid": "QGOqGPnk5a4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetPppoeStop",
+      "nid": "FIV95WE1EuE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetRecv",
+      "nid": "9wO9XrMsNhc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetRecvfrom",
+      "nid": "304ooNZxWDY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetRecvmsg",
+      "nid": "wvuUDv0jrMI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetResolverAbort",
+      "nid": "AzqoBha7js4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetResolverConnect",
+      "nid": "JQk8ck8vnPY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetResolverConnectAbort",
+      "nid": "bonnMiDoOZg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetResolverConnectCreate",
+      "nid": "V5q6gvEJpw4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetResolverConnectDestroy",
+      "nid": "QFPjG6rqeZg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetResolverCreate",
+      "nid": "C4UgDHHPvdw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetResolverDestroy",
+      "nid": "kJlYH5uMAWI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetResolverGetError",
+      "nid": "J5i3hiLJMPk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetResolverStartAton",
+      "nid": "Apb4YDxKsRI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetResolverStartAton6",
+      "nid": "zvzWA5IZMsg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetResolverStartNtoa",
+      "nid": "Nd91WaWmG2w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetResolverStartNtoa6",
+      "nid": "zl35YNs9jnI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetResolverStartNtoaMultipleRecords",
+      "nid": "RCCY01Xd+58",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetResolverStartNtoaMultipleRecordsEx",
+      "nid": "sT4nBQKUPqM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetSend",
+      "nid": "beRjXBn-z+o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetSendmsg",
+      "nid": "2eKbgcboJso",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetSendto",
+      "nid": "gvD1greCu0A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetSetDns6Info",
+      "nid": "15Ywg-ZsSl0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetSetDns6InfoToKernel",
+      "nid": "E3oH1qsdqCA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetSetDnsInfo",
+      "nid": "B-M6KjO8-+w",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetSetDnsInfoToKernel",
+      "nid": "8s+T0bJeyLQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetSetsockopt",
+      "nid": "2mKX2Spso7I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetSetsockoptEx",
+      "nid": "hP8ZEqjQ0hM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetShowIfconfig",
+      "nid": "k1V1djYpk7k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetShowIfconfigForBuffer",
+      "nid": "j6pkkO2zJtg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetShowIfconfigWithMemory",
+      "nid": "E8dTcvQw3hg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetShowNetstat",
+      "nid": "WxislcDAW5I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetShowNetstatEx",
+      "nid": "rX30iWQqqzg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetShowNetstatExForBuffer",
+      "nid": "vjwKTGa21f0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetShowNetstatForBuffer",
+      "nid": "mqoB+LN0pW8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetShowNetstatWithMemory",
+      "nid": "H5WHYRfDkR0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetShowPolicy",
+      "nid": "tk0p0JmiBkM",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetShowPolicyWithMemory",
+      "nid": "dbrSNEuZfXI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetShowRoute",
+      "nid": "cEMX1VcPpQ8",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetShowRoute6",
+      "nid": "fCa7-ihdRdc",
+      "state": "inert"
+    },
+    {
+      "name": "sceNetShowRoute6ForBuffer",
+      "nid": "nTJqXsbSS1I",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetShowRoute6WithMemory",
+      "nid": "TCZyE2YI1uM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetShowRouteForBuffer",
+      "nid": "n-IAZb7QB1Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetShowRouteWithMemory",
+      "nid": "0-XSSp1kEFM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetShutdown",
+      "nid": "TSM6whtekok",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetSocket",
+      "nid": "Q4qBuN-c0ZM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetSocketAbort",
+      "nid": "zJGf8xjFnQE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetSocketClose",
+      "nid": "45ggEzakPJQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetSocketInternal",
+      "nid": "rhhKDT2zXiU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetSyncCreate",
+      "nid": "6AJE2jKg-c0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetSyncDestroy",
+      "nid": "atGfzCaXMak",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetSyncGet",
+      "nid": "sAleh-BoxLA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetSyncSignal",
+      "nid": "Z-8Jda650Vk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetSyncWait",
+      "nid": "NP5gxDeYhIM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetSysctl",
+      "nid": "3zRdT3O2Kxo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetTerm",
+      "nid": "cTGkc6-TBlI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetThreadCreate",
+      "nid": "j-Op3ibRJaQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetThreadExit",
+      "nid": "KirVfZbqniw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetThreadJoin",
+      "nid": "pRbEzaV30qI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNetUsleep",
+      "nid": "bjrzRLFali0",
+      "state": "implemented"
+    }
+  ]
+}

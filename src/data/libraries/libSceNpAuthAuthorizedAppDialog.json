@@ -1,0 +1,47 @@
+{
+  "name": "libSceNpAuthAuthorizedAppDialog",
+  "label": "NpAuthAuthorizedAppDialog",
+  "category": "Network and services",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpAuthAuthorizedAppDialogClose",
+      "nid": "umZaRUshsKc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthAuthorizedAppDialogGetResult",
+      "nid": "bZlJPa2hPWk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthAuthorizedAppDialogGetStatus",
+      "nid": "wQdH6qOwqhE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthAuthorizedAppDialogInitialize",
+      "nid": "9CiV7Shy6qQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthAuthorizedAppDialogOpen",
+      "nid": "cTvSsJRn30w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthAuthorizedAppDialogTerminate",
+      "nid": "2SlriPR9TMc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthAuthorizedAppDialogUpdateStatus",
+      "nid": "L5iGQ06WlTo",
+      "state": "implemented"
+    }
+  ]
+}

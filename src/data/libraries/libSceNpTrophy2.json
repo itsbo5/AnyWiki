@@ -1,0 +1,217 @@
+{
+  "name": "libSceNpTrophy2",
+  "label": "NpTrophy2",
+  "category": "Network and services",
+  "implemented": 12,
+  "inert": 6,
+  "stub": 23,
+  "total": 41,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpTrophy2AbortHandle",
+      "nid": "fYapWA9xVmA",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpTrophy2CreateContext",
+      "nid": "Bagshr7OQ6Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophy2CreateHandle",
+      "nid": "Gz1rmUZpROM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophy2DestroyContext",
+      "nid": "sysY2FHYff4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophy2DestroyHandle",
+      "nid": "d8P11CI40KE",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpTrophy2GetGameIcon",
+      "nid": "2QgUy+xJqS0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophy2GetGameInfo",
+      "nid": "4IzqhhUQ3nk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophy2GetGroupIcon",
+      "nid": "6IjXJUy6ZnA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophy2GetGroupInfo",
+      "nid": "DoZWauG8mu0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophy2GetGroupInfoArray",
+      "nid": "+PDSI6WgPRc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophy2GetRewardIcon",
+      "nid": "BsE-m8JxIOg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophy2GetTrophyIcon",
+      "nid": "-9LLVU0uvs8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophy2GetTrophyInfo",
+      "nid": "EwNylPdWUTM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophy2GetTrophyInfoArray",
+      "nid": "y3zHpdZO6ME",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophy2RegisterContext",
+      "nid": "bIDov3wBu5Q",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpTrophy2RegisterUnlockCallback",
+      "nid": "sUXGfNMalIo",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpTrophy2ShowTrophyList",
+      "nid": "EHQEDVXZ0TI",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpTrophy2SystemAbortHandle",
+      "nid": "PCFtlcOHfW4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemBuildGroupIconUri",
+      "nid": "i2kbAbi3ozo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemBuildRewardIconUri",
+      "nid": "3ZWtClII0ME",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemBuildTrophyIconUri",
+      "nid": "v7IHQF5Lnqc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemCheckCallback",
+      "nid": "1HrxhQoPEBs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemCheckNetSyncTitles",
+      "nid": "pGFdISTgS6k",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemCreateContext",
+      "nid": "fYaW4Ynxyzs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemCreateHandle",
+      "nid": "H2TzUB5dpJw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemDebugLockTrophy",
+      "nid": "Im235TKzFr4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemDebugUnlockTrophy",
+      "nid": "5VBAeTtoF0s",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemDestroyContext",
+      "nid": "7fMQZVzPqdc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemGetTrophyDetails",
+      "nid": "AaFh1H8YTPY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemGetTrophyGroupConf",
+      "nid": "zsUmqFv3Lwk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemGetTrophySetArray",
+      "nid": "j3FpjemL6Zg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemGetTrophyTitleConf",
+      "nid": "7mrTdxGkB3U",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemGetTrophyTitleDetails",
+      "nid": "p4dYJFInGjQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemGetTrpIconByUri",
+      "nid": "z7p4mxbkli0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemIsServerAvailable",
+      "nid": "7xSkVM0yhV0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemRegisterTitleSyncedCallback",
+      "nid": "fgtXCeaburA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemRegisterTitleUpdateCallback",
+      "nid": "L76Gd3hKuoU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemRemoveAll",
+      "nid": "Kbkk1pQWhN4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemRemoveTitleData",
+      "nid": "BnHnDvv6yAA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2SystemRemoveUserData",
+      "nid": "1muH18WXIQQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophy2UnregisterUnlockCallback",
+      "nid": "wVqxM58sIKs",
+      "state": "inert"
+    }
+  ]
+}

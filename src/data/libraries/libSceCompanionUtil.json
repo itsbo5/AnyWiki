@@ -1,0 +1,37 @@
+{
+  "name": "libSceCompanionUtil",
+  "label": "CompanionUtil",
+  "category": "System utilities",
+  "implemented": 1,
+  "inert": 4,
+  "stub": 0,
+  "total": 5,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceCompanionUtilGetEvent",
+      "nid": "cE5Msy11WhU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCompanionUtilGetRemoteOskEvent",
+      "nid": "MaVrz79mT5o",
+      "state": "inert"
+    },
+    {
+      "name": "sceCompanionUtilInitialize",
+      "nid": "xb1xlIhf0QY",
+      "state": "inert"
+    },
+    {
+      "name": "sceCompanionUtilOptParamInitialize",
+      "nid": "IPN-FRSrafk",
+      "state": "inert"
+    },
+    {
+      "name": "sceCompanionUtilTerminate",
+      "nid": "H1fYQd5lFAI",
+      "state": "inert"
+    }
+  ]
+}

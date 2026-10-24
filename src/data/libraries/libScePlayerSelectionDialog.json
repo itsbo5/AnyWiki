@@ -1,0 +1,52 @@
+{
+  "name": "libScePlayerSelectionDialog",
+  "label": "PlayerSelectionDialog",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 1,
+  "total": 8,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePlayerSelectionDialogClose",
+      "nid": "0fyTCPOHGX4",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerSelectionDialogGetResult",
+      "nid": "GtF-2gJqsts",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerSelectionDialogGetStatus",
+      "nid": "l7oQ33rm9TI",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerSelectionDialogInitialize",
+      "nid": "DrDfu7uq6JY",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerSelectionDialogOpen",
+      "nid": "9Oj3MIJ+Zjk",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerSelectionDialogParamInitialize",
+      "nid": "ZBlNgigiRFo",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayerSelectionDialogTerminate",
+      "nid": "CgdJ1PkIsE4",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerSelectionDialogUpdateStatus",
+      "nid": "PBmrW72wbPQ",
+      "state": "implemented"
+    }
+  ]
+}

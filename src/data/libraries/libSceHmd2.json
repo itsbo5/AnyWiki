@@ -1,0 +1,642 @@
+{
+  "name": "libSceHmd2",
+  "label": "Hmd2",
+  "category": "System utilities",
+  "implemented": 13,
+  "inert": 0,
+  "stub": 113,
+  "total": 126,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "Hmd2BeforeInitializeError0004",
+      "nid": "TpwbKRadJ1s",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2BeforeInitializeError002C",
+      "nid": "Wu-zRQAefog",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2BeforeInitializeError1002",
+      "nid": "eC3VDFgeJFg",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2BeforeInitializeError1003",
+      "nid": "eCcgWl2wbbA",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2BeforeInitializeMinusOne",
+      "nid": "rd1GwAJhUO4",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2BeforeInitializeNotInitialized",
+      "nid": "DU5I9yV72+0",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2BeforeInitializeParameterInvalid",
+      "nid": "8Z6MJKpEmYE",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2BeforeInitializeParameterNull",
+      "nid": "WvXtRkRYlQ4",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2BeforeInitializeReprojectionNotInitialized",
+      "nid": "TyFd4Dpbhtc",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2BeforeInitializeValue0400",
+      "nid": "dYX6HSp4zp8",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2BeforeInitializeValue20000",
+      "nid": "lZ6X9hpVedA",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2BeforeInitializeZero",
+      "nid": "S14wubcBguY",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckAllSixThenZero",
+      "nid": "MZjcsO7X0wY",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckFirstAndThirdThenError1003",
+      "nid": "ECOfvd9Wvp0",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckFirstAndThirdThenZero",
+      "nid": "WyBBNXuapX4",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckFirstThenError0004",
+      "nid": "xl4F2WunxOo",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckFirstThenError1002",
+      "nid": "omUcpddCL-A",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckFirstThenError1003",
+      "nid": "wq6q7ETYcTk",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckFirstThenError1010",
+      "nid": "XXn9nIi4s7w",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckFirstThenError800d0203",
+      "nid": "XO80G1EccE0",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckFirstThenMinusOne",
+      "nid": "Hq8HnhAeh6Q",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckFirstThenParameterInvalid",
+      "nid": "kSj8DonyUr8",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckFirstThenZero",
+      "nid": "WaYIsn7zdOo",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckFirstTwoThenError1002",
+      "nid": "0kBAYtyjgVk",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckFirstTwoThenError1003",
+      "nid": "u9EzlxSFSfA",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckFirstTwoThenParameterInvalid",
+      "nid": "3deGuwIkZ+Q",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckSecondThenError002C",
+      "nid": "1Bqe6WncdFs",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckSecondThenError1002",
+      "nid": "+oHiKX+ysGg",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckSecondThenInvalidHandle",
+      "nid": "JMykbI6z9B0",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2CheckSecondThenParameterInvalid",
+      "nid": "mZXzWdc5V0Y",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2IndexZeroCheckSecondThenZero",
+      "nid": "F5nrj8BfprM",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2SlotUpTo1CheckSecondThenError1002",
+      "nid": "KpINus4ifeg",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2SlotUpTo1ThenError1002",
+      "nid": "8AWbjKeQgBc",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2SlotUpTo1ThenMinusOne",
+      "nid": "i-q1t6MNgvM",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2SlotUpTo2CheckSecondThenError002C",
+      "nid": "TKOJk7xqX9k",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2SlotUpTo2ThenError1002",
+      "nid": "TcW8at-481U",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2SlotUpTo2ThenError1003",
+      "nid": "8H-2M8qKQsc",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2SlotUpTo2ThenMinusOne",
+      "nid": "YfvpSqk2xQo",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2SlotUpTo3CheckSecondThirdThenZero",
+      "nid": "cBACs0lehpU",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2WriteFourConstants",
+      "nid": "l-m0OdHSWkY",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2WriteSixHalvesThenInvalidHandle",
+      "nid": "1ZF+n8Qayng",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2WriteSize0x2000Align0x100",
+      "nid": "wL2OVjs2yyo",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2WriteStateTwo",
+      "nid": "AJeaEOG+8CY",
+      "state": "stub"
+    },
+    {
+      "name": "Hmd2WriteTwelveHalvesThenInvalidHandle",
+      "nid": "hGUK9WnEx8s",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2Close",
+      "nid": "oPhtjySuHa8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmd2GazeActivateGazeTracking",
+      "nid": "CVcL2Cu2AEI",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeGetCalibrationData",
+      "nid": "DIU1sFRRaiE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeGetCalibrationDataMaxSize",
+      "nid": "LCQzi5ILGrY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeGetDeviceStatus",
+      "nid": "sDP7hZ-P6OI",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeGetResult",
+      "nid": "lAoFUedcfqA",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeGetResultForFoveatedRendering",
+      "nid": "retc+-uRMhk",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeGetUserCalibrationStatus",
+      "nid": "J+eVNbN9ndY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeInsertRawDataWithHandle",
+      "nid": "wEHILc7TP04",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeObjectSelectionGetSelectedObject",
+      "nid": "w8gBTTdg+po",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeObjectSelectionInitialize",
+      "nid": "+rExHeC9lP0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeObjectSelectionQueryMemory",
+      "nid": "LxPIfjHaY4c",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeObjectSelectionTerminate",
+      "nid": "V1kLQmP-17U",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeSetEnabledEye",
+      "nid": "ecZVjQdwmBI",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeSetUserCalibrationData",
+      "nid": "ZQvU4vDzZGQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeSetUserCalibrationPoint",
+      "nid": "yL1CZaciFWE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeStartUserCalibration",
+      "nid": "-tnG5UJPvAc",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GazeStopUserCalibration",
+      "nid": "FPhFmG+jXuQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2GetDeviceInformation",
+      "nid": "bIi4YUfSRys",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmd2GetDeviceInformationByHandle",
+      "nid": "4BlE4IPXP0Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmd2GetFieldOfView",
+      "nid": "E+b+c1Idyew",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmd2GetFieldOfViewWithoutHandle",
+      "nid": "gF8+lvc7GuQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmd2Initialize",
+      "nid": "c812oYs7Vsc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmd2InternalDfuSend",
+      "nid": "6C+RGsvjso8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalGetDeviceId",
+      "nid": "jFRKDYOEfwk",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalGetVr2dData",
+      "nid": "r8+qii39+rs",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalImageCloseBySlot",
+      "nid": "vjeYMxRprPc",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalImageOpenBySlot",
+      "nid": "9LAduDPO1l4",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalImageStartBySlot",
+      "nid": "3QeK+UQhQ6E",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalImageStopBySlot",
+      "nid": "nRlyGeWHXkI",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalLedDetectorCloseBySlot",
+      "nid": "To8P2TqB7wQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalLedDetectorOpenBySlot",
+      "nid": "8fD-qW5613w",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalLedDetectorStartBySlot",
+      "nid": "2SKT0BRtx3E",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalLedDetectorStopBySlot",
+      "nid": "LhkhUcnvr50",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalSetBrightness",
+      "nid": "mqJ6Uap+rl0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalSetCameraSeeThroughMode",
+      "nid": "4T2BwvPfjBc",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalSetDeviceConnection",
+      "nid": "M+-H47IrheM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalSetFakeLensSeparationDistance",
+      "nid": "59Y3+iDqQ9g",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalSetPortConnection",
+      "nid": "3pDi+jA6KJk",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalSetPortStatus",
+      "nid": "-tfbonl+WQY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalSetSidetone",
+      "nid": "Y9nTuOhR33M",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2InternalSetVibrationMode",
+      "nid": "no4JSSXmtcI",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2Open",
+      "nid": "f3kPeoTZnIE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmd2ReprojectionBeginFrame",
+      "nid": "Ocf081WpBpA",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionClear",
+      "nid": "y5KkDDuMHgs",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionClearUserEventEnd",
+      "nid": "rjAd4nCY4DM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionClearUserEventStart",
+      "nid": "z0+0gXUJWs8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionDisableMirroring",
+      "nid": "asilo8VNGvg",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionDisableVrMode",
+      "nid": "wj1kOyNF4vM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionEnableMirroring",
+      "nid": "Qx7SkcgAzok",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionEnableVrMode",
+      "nid": "VVvFh51o20s",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionGetCurrentOutput",
+      "nid": "Acyg4vTdGm0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionGetMirroringDisplayBufferSizeAlign",
+      "nid": "wEO+gMHs9NU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmd2ReprojectionGetMirroringWorkMemorySizeAlign",
+      "nid": "Pb1d+j-bBSc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmd2ReprojectionGetPredictedDisplayTime",
+      "nid": "SVEG+1D7qHA",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionGetStatus",
+      "nid": "8GkaY2B7opM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionInitialize",
+      "nid": "C0rPwER-yxg",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionQueryBufferSizeAlign",
+      "nid": "U-CnbmeyYaA",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionQueryDisplayBufferSizeAlign",
+      "nid": "-C2nkoEYOnU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmd2ReprojectionQuerySeeThroughBufferSizeAlign",
+      "nid": "JWBl3Uq6q8k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmd2ReprojectionSeeThroughDraw",
+      "nid": "HgAFXGoylUo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionSeeThroughIC",
+      "nid": "iwgcUhTwJIs",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionSet",
+      "nid": "vLAtmPrkhzM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionSetAllowPositionalReprojection",
+      "nid": "uv0Ae+jCeWY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionSetEventGpuEnd",
+      "nid": "d8tj1HuVDWo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionSetEventGpuStart",
+      "nid": "-FpzB+sfcYg",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionSetMirroringOption",
+      "nid": "+seEJVlljr0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionSetParam",
+      "nid": "xMo9ENEu2E0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionSetParamWithBuffer",
+      "nid": "QxBJF-G2v5k",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionSetRenderConfig",
+      "nid": "hA9LshbSkzw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionSetTiming",
+      "nid": "FkQX7rjFomk",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionSetUserEventEnd",
+      "nid": "64ERZWVFBTE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionSetUserEventStart",
+      "nid": "DIwqTkcZiJo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionTerminate",
+      "nid": "4Q11W4M2h5Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionVideoOutEq",
+      "nid": "5WRTgLI6Ius",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2ReprojectionWaitShader",
+      "nid": "RJNKUeUrmL4",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2RpeorjectionSetParam",
+      "nid": "AKFG8NZKmA4",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2SeeThroughCallbackGetPoseDataFunc",
+      "nid": "xOcDEr75sWA",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2SetFieldOfView",
+      "nid": "JngJzgNbu8U",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2SetIpdOffset",
+      "nid": "jp0apqNGgi8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmd2SetVibration",
+      "nid": "Al4qjNREVQQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmd2Terminate",
+      "nid": "QU2M1pPNbaY",
+      "state": "implemented"
+    }
+  ]
+}

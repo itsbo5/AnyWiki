@@ -1,0 +1,27 @@
+{
+  "name": "libSceLoginService",
+  "label": "LoginService",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 2,
+  "stub": 1,
+  "total": 3,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceLoginServiceInitialize",
+      "nid": "T9-NuSHAvcQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceLoginServiceRequestDevices",
+      "nid": "S1Uxf-lgJ-c",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginServiceTerminate",
+      "nid": "aR8+Hvghm0E",
+      "state": "inert"
+    }
+  ]
+}

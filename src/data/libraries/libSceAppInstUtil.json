@@ -1,0 +1,597 @@
+{
+  "name": "libSceAppInstUtil",
+  "label": "AppInstUtil",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 117,
+  "total": 117,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAppInstUtilAppAllowDownloadInstall",
+      "nid": "7f1RT+wOQ-U",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppCancelGetAllAppSize",
+      "nid": "PpVBSdRazkc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppCancelGetAppOtherSize",
+      "nid": "hK2Bd39pBDs",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppCancelMoveApps",
+      "nid": "C+vcBYRcSt8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppCancelUnInstall",
+      "nid": "lr4DyEbLGBA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppConvertAppDownloadToDisc",
+      "nid": "x81--PzmGug",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppDestroyMetadata",
+      "nid": "B60nJD7SUE0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppDestroyPkg",
+      "nid": "ssSRZ-3Dh5w",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppExists",
+      "nid": "kUT4RpxclMQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetAddcontInfo",
+      "nid": "2KNEDy+8OLg",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetAddcontInfoByContentId",
+      "nid": "I7DtdmOU3rw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetAddcontListTotalSize",
+      "nid": "rrH0wWxGdLQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetAddcontNum",
+      "nid": "zek4fVO9RPw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetAllAppSize",
+      "nid": "uxYGQe+Cpl8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetAppInstallStatus",
+      "nid": "9KXSwPg4PlM",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetAppInstallStatusByAppInfo",
+      "nid": "-nsIdJK+0Io",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetAppOtherSize",
+      "nid": "1y6BZW9sKjQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetCompilationDiscInfo",
+      "nid": "j4xqWctK0UQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetInsertedDiscMasterDataId",
+      "nid": "lftdXgkTxmQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetInsertedDiscTitleId",
+      "nid": "KnhTdl8Arjw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetInsertedDiscTitleIdList",
+      "nid": "hJifaKzQUxE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetIrremovableAppList",
+      "nid": "8AFfaImRNvM",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetMoveErrorAppList",
+      "nid": "qz4egqkqF5Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetNoRelatedAddcontTitleList",
+      "nid": "2emCE6-7fOA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetSize",
+      "nid": "X41cYKFlQv8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetStorageDestType",
+      "nid": "FXr8AvwdsXM",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppGetStoreCompilationDiscInfo",
+      "nid": "j7cPZ0+LO50",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppInstallAll",
+      "nid": "+scQA5stvjs",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppInstallContentPush",
+      "nid": "gLeVhOUfwKc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppInstallGetLinkState",
+      "nid": "7xvsKSy+09o",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppInstallPkg",
+      "nid": "bpLyMf0oVwQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppInstallPs4CloudGame",
+      "nid": "87tCXR9gXkg",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppInstallPsNowIcon",
+      "nid": "mFWjsTgMf2c",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppInstallRequestCompilationDiscApp",
+      "nid": "BwhDEizgtpo",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppInstallSharePlayLink",
+      "nid": "06AROOK-zaY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppInstallSharePlayLinkByUser",
+      "nid": "ZwXxYEUQQX0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppInstallTitleDir",
+      "nid": "Wudg3Xe3heE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppIsInInstalling",
+      "nid": "zUgEW9fMnxs",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppIsInUpdating",
+      "nid": "CjM2EuBIMV0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppPrepareOverwritePkg",
+      "nid": "joyu2ZxJvZY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppProhibitDownloadInstall",
+      "nid": "LLYe0XHcjJI",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppRecoverApp",
+      "nid": "fD1RuR3+DdE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppRequestMoveApps",
+      "nid": "eeaW8UsTXwA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppSetRemasterInstallType",
+      "nid": "WYIG6fhLh0E",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppStoreCompilationDiscInfo",
+      "nid": "ZiDrp+vWE2I",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppUnInstall",
+      "nid": "Sx4TTyrQccE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppUnInstall2",
+      "nid": "TmbPSQNxdW0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppUnInstallAddcont",
+      "nid": "UNREoPNQFas",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppUnInstallForMultiInstall",
+      "nid": "Tp13AgaoLcw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppUnInstallForRemote",
+      "nid": "O-Q3I-ZthsY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppUnInstallForRemote2",
+      "nid": "lY+UDLhYjhA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppUnInstallPat",
+      "nid": "kUayHU5rWDo",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppUnInstallTheme",
+      "nid": "WUXkX70ly+8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppUnInstallTypes",
+      "nid": "8SXJpzhlCJg",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilAppUpdateStartTime",
+      "nid": "-7o1DYzaSuU",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilCancelCheckPatch",
+      "nid": "oEUzwnmTCfo",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilCancelDataDiscCopy",
+      "nid": "i0TT5qPqCYo",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilCancelForMultiInstall",
+      "nid": "FTmjIlfIuKA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilCancelGetInformation",
+      "nid": "0qXTBufV+3k",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilCancelInstall",
+      "nid": "bDwGw7Vpomg",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilCancelInstallAddcont",
+      "nid": "LQ4l3fJC--k",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilCancelInstallPatch",
+      "nid": "ZrO8L18i60s",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilCheckAppSystemVer",
+      "nid": "bwdom8N0GSM",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilCheckLatestPatch",
+      "nid": "tIWwh2FHtD8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilClearAddcontInfoCache",
+      "nid": "R4H8sG75GG0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilDeleteWorkspace",
+      "nid": "VgRF-rATDaA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetAddcontInfoList2",
+      "nid": "LNNcOPldstA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetAddcontInfoList3",
+      "nid": "MuOn+V0DYcI",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetAddcontInstalledStatus",
+      "nid": "WZ3eQ1DV7l0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetAddons",
+      "nid": "MOa8W2eTAAw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetAppEmptySlot",
+      "nid": "Mj-2b4AI7FA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetAppMoveProgressInfo",
+      "nid": "W7jH8oC9B1c",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetAppSlotInfoList",
+      "nid": "vHUJgCmE8is",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetAvailableStorage",
+      "nid": "3HwbvWHfU80",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetConfigList",
+      "nid": "5GFncAhZHc4",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetContentSize",
+      "nid": "YvMUP69I69E",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetContentSize2",
+      "nid": "JLalnDvk6B4",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetDataDiscCopyProgress",
+      "nid": "yYmiiGW0jfk",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetInsertedDiscRoleType",
+      "nid": "+s7Q-UbHJWI",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetInsertedDiscTotal",
+      "nid": "XesihwAcYKE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetInstallOptions",
+      "nid": "Vqj4OB8pnn0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetInstallProgress",
+      "nid": "NPnv7qm0Bv8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetInstallProgressInfo",
+      "nid": "lfmhZbzP4AY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetInstallProgressInfoForMultiDisc",
+      "nid": "UAGrjSrAF1Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetInstallStatus",
+      "nid": "1wsyLPfjnmg",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetMainAppTitleId",
+      "nid": "8Nq3pmu0zuE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetMainAppTitleIdForSP",
+      "nid": "Pip4E4FFnl4",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetNeededStorageSize",
+      "nid": "XtygktjmmuA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetParentalControlLevel",
+      "nid": "12PV4AVsJCM",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetPatchInstallStatus",
+      "nid": "o3QWhMp98nA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetPrimaryAppSlot",
+      "nid": "PFfR4JFlCAM",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetRestoreState",
+      "nid": "KQXyNTCycW0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetSubAppTitleId",
+      "nid": "JtBV3RSzmlo",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetSubAppTitleIdForSP",
+      "nid": "lu1qC5eP52A",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilGetWorkspaceStatus",
+      "nid": "WvmOybSZXdo",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilInitialize",
+      "nid": "540lotO7oHE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilInstall",
+      "nid": "wzDVSHoU54o",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilInstallAddons",
+      "nid": "7R8PCKh2968",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilInstallByPackage",
+      "nid": "tDtjgaXYmuo",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilInstallPatch",
+      "nid": "CO+HiTmB0-4",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilIsRestoreState",
+      "nid": "a60uvVHE0Q0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilJson",
+      "nid": "Sh8SrJn6PkU",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilMountBdEmu",
+      "nid": "5GRg11q-4Po",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilPauseInstall",
+      "nid": "1npa3LfEfq0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilPausePatchInstall",
+      "nid": "8Cgk1W9fQ7I",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilRegisterDownload",
+      "nid": "VG7lK9I4bJw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilRequestDataDiscCopy",
+      "nid": "+e96RoSI62w",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilRequestInstallDiscGame",
+      "nid": "+XPO-y2Kmt8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilRestoreDataSource",
+      "nid": "fJXozPJvPeA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilResumeInstall",
+      "nid": "rt8sKepvhKI",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilResumePatchInstall",
+      "nid": "5FCh8AzDM8I",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilSetPrimaryAppSlot",
+      "nid": "ETa2mo9ojss",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilStartInstall",
+      "nid": "k4yvkV8yVWU",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilSwitchConfig",
+      "nid": "vk7MRoekMtc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilSwitchInstallLocation",
+      "nid": "6EA-P4L0s0g",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilTerminate",
+      "nid": "kLLazhNh6d4",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppInstUtilUnmountBdEmu",
+      "nid": "kjokc80XDo0",
+      "state": "stub"
+    }
+  ]
+}

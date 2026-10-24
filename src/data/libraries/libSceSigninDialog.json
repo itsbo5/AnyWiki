@@ -1,0 +1,47 @@
+{
+  "name": "libSceSigninDialog",
+  "label": "SigninDialog",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSigninDialogClose",
+      "nid": "M3OkENHcyiU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSigninDialogGetResult",
+      "nid": "nqG7rqnYw1U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSigninDialogGetStatus",
+      "nid": "2m077aeC+PA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSigninDialogInitialize",
+      "nid": "mlYGfmqE3fQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSigninDialogOpen",
+      "nid": "JlpJVoRWv7U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSigninDialogTerminate",
+      "nid": "LXlmS6PvJdU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSigninDialogUpdateStatus",
+      "nid": "Bw31liTFT3A",
+      "state": "implemented"
+    }
+  ]
+}

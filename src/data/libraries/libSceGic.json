@@ -1,0 +1,17 @@
+{
+  "name": "libSceGic",
+  "label": "Gic",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 1,
+  "total": 1,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceGicGetValue",
+      "nid": "KakUxik9aqE",
+      "state": "stub"
+    }
+  ]
+}

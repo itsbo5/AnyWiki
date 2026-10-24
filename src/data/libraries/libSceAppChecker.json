@@ -1,0 +1,27 @@
+{
+  "name": "libSceAppChecker",
+  "label": "AppChecker",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 3,
+  "total": 3,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAppCheckerAbort",
+      "nid": "tf25gBJ+feI",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppCheckerExecute",
+      "nid": "pAyBQ1E8ooA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppCheckerExecuteEx",
+      "nid": "3TWaWroGGGk",
+      "state": "stub"
+    }
+  ]
+}

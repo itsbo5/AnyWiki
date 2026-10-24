@@ -1,0 +1,22 @@
+{
+  "name": "libSceDbgThreadSanitizer",
+  "label": "DbgThreadSanitizer",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 2,
+  "total": 2,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "__tsan_acquire",
+      "nid": "XyX1104ACcU",
+      "state": "stub"
+    },
+    {
+      "name": "__tsan_release",
+      "nid": "IkoI44e0OXc",
+      "state": "stub"
+    }
+  ]
+}

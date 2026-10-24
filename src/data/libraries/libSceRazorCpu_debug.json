@@ -1,0 +1,11 @@
+{
+  "name": "libSceRazorCpu_debug",
+  "label": "RazorCpu_debug",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 0,
+  "total": 0,
+  "sharedSources": null,
+  "functions": []
+}

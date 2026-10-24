@@ -1,0 +1,32 @@
+{
+  "name": "libSceNotification",
+  "label": "Notification",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 4,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNotificationHidePsButtonPersistentBanner",
+      "nid": "Aht5qZS+SCs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNotificationSend",
+      "nid": "jSWBvOPfSOk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNotificationSendById",
+      "nid": "eJd+9F0v9hE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNotificationShowPsButtonPersistentBanner",
+      "nid": "z-3k-qgwitU",
+      "state": "stub"
+    }
+  ]
+}

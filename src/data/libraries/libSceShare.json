@@ -1,0 +1,97 @@
+{
+  "name": "libSceShare",
+  "label": "Share",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 10,
+  "stub": 0,
+  "total": 17,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceShareCaptureScreenshot",
+      "nid": "ErH6tKS7fzE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceShareCaptureScreenshotExtended",
+      "nid": "GQTObcITIXI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceShareCaptureVideoClip",
+      "nid": "4jt8pMDudgk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceShareCaptureVideoClipExtended",
+      "nid": "AcDNpEpoT9U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceShareFeaturePermit",
+      "nid": "YBiIdcDPrxs",
+      "state": "inert"
+    },
+    {
+      "name": "sceShareFeatureProhibit",
+      "nid": "5wjxESwX68I",
+      "state": "inert"
+    },
+    {
+      "name": "sceShareGetCurrentStatus",
+      "nid": "QNop2YAtIDE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceShareGetRunningStatus",
+      "nid": "crFxyW3HdK0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceShareInitialize",
+      "nid": "nBDD66kiFW8",
+      "state": "inert"
+    },
+    {
+      "name": "sceShareOpenMenuForContent",
+      "nid": "8qAJ0Jd58-Q",
+      "state": "inert"
+    },
+    {
+      "name": "sceShareRegisterContentEventCallback",
+      "nid": "Sygnk9dr5WQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceShareSetCaptureSource",
+      "nid": "kCurUZVFqcI",
+      "state": "inert"
+    },
+    {
+      "name": "sceShareSetContentParam",
+      "nid": "7QZtURYnXG4",
+      "state": "inert"
+    },
+    {
+      "name": "sceShareSetContentParamForApplicationTitle",
+      "nid": "ORspsWDXPps",
+      "state": "implemented"
+    },
+    {
+      "name": "sceShareSetScreenshotOverlayImage",
+      "nid": "T64o-315wbg",
+      "state": "inert"
+    },
+    {
+      "name": "sceShareTerminate",
+      "nid": "0IL1keINExQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceShareUnregisterContentEventCallback",
+      "nid": "KnsfHKmZqFA",
+      "state": "inert"
+    }
+  ]
+}

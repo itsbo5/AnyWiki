@@ -1,0 +1,52 @@
+{
+  "name": "libSceErrorDialog",
+  "label": "ErrorDialog",
+  "category": "System utilities",
+  "implemented": 6,
+  "inert": 2,
+  "stub": 0,
+  "total": 8,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceErrorDialogClose",
+      "nid": "ekXHb1kDBl0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceErrorDialogGetStatus",
+      "nid": "t2FvHRXzgqk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceErrorDialogInitialize",
+      "nid": "I88KChlynSs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceErrorDialogOpen",
+      "nid": "M2ZF-ClLhgY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceErrorDialogOpenDetail",
+      "nid": "jrpnVQfJYgQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceErrorDialogOpenWithReport",
+      "nid": "wktCiyWoDTI",
+      "state": "inert"
+    },
+    {
+      "name": "sceErrorDialogTerminate",
+      "nid": "9XAxK2PMwk8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceErrorDialogUpdateStatus",
+      "nid": "WWiGuh9XfgQ",
+      "state": "implemented"
+    }
+  ]
+}

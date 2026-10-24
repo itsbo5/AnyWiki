@@ -1,0 +1,117 @@
+{
+  "name": "libSceNpSns",
+  "label": "NpSns",
+  "category": "Network and services",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 21,
+  "total": 21,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpSnsFacebookAbortRequest",
+      "nid": "-LJbF9b-Who",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsIntAbortRequest",
+      "nid": "uPj-CXHNEFE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsIntCreateRequest",
+      "nid": "T+F4GKuY3oE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsIntDeleteRequest",
+      "nid": "qLqzbBxATrU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsIntFbGetGameAccessToken",
+      "nid": "5zCW8dx4mKk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsIntFbGetGameAccessTokenAllowed",
+      "nid": "uINq9QxFYqU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsIntFbGetSystemAccessToken",
+      "nid": "e6K3LE8qXsc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsIntFbGetTitleInfo",
+      "nid": "PDD7gmqbnKE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsIntLinkedStatus",
+      "nid": "QW7NonbfeFk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsIntTwGetSystemAccessToken",
+      "nid": "Wp+C91igTkE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsIntUnlink",
+      "nid": "fz-00XG-VNU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsIntYtGetAccessToken",
+      "nid": "0xrhvJ8QANU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsIntYtRefreshMasterToken",
+      "nid": "Q+mSQ2U6wWY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsTwitchAbortRequest",
+      "nid": "k-sppToVlnc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsTwitchCreateRequest",
+      "nid": "02nPI+P0g8o",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsTwitchDeleteRequest",
+      "nid": "MmLPD+9OwFI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsTwitchGetAccessToken",
+      "nid": "WHLVam6hZZ4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsYouTubeAbortRequest",
+      "nid": "jXUeCRu7DLE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsYouTubeCreateRequest",
+      "nid": "3o3XDEydBjM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsYouTubeDeleteRequest",
+      "nid": "mGfyLTvE+LI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsYouTubeGetAccessToken",
+      "nid": "1ElwHkpLvmw",
+      "state": "stub"
+    }
+  ]
+}

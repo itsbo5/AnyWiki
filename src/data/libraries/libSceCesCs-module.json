@@ -1,0 +1,11 @@
+{
+  "name": "libSceCesCs-module",
+  "label": "CesCs-module",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 0,
+  "total": 0,
+  "sharedSources": "libSceCesCs",
+  "functions": []
+}

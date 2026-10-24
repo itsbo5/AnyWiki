@@ -1,0 +1,317 @@
+{
+  "name": "libSceUsbd",
+  "label": "Usbd",
+  "category": "System utilities",
+  "implemented": 43,
+  "inert": 1,
+  "stub": 17,
+  "total": 61,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceUsbdAllocTransfer",
+      "nid": "0ktE1PhzGFU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdAttachKernelDriver",
+      "nid": "BKMEGvfCPyU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdBulkTransfer",
+      "nid": "fotb7DzeHYw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdCancelTransfer",
+      "nid": "-KNh1VFIzlM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdCheckConnected",
+      "nid": "MlW6deWfPp0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdClaimInterface",
+      "nid": "AE+mHBHneyk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdClearHalt",
+      "nid": "3tPPMo4QRdY",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdClose",
+      "nid": "HarYYlaFGJY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdControlTransfer",
+      "nid": "RRKFcKQ1Ka4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdControlTransferGetData",
+      "nid": "XUWtxI31YEY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdControlTransferGetSetup",
+      "nid": "SEdQo8CFmus",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdDetachKernelDriver",
+      "nid": "Y5go+ha6eDs",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdEventHandlerActive",
+      "nid": "Vw8Hg1CN028",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdEventHandlingOk",
+      "nid": "e7gp1xhu6RI",
+      "state": "inert"
+    },
+    {
+      "name": "sceUsbdExit",
+      "nid": "Fq6+0Fm55xU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdFillBulkTransfer",
+      "nid": "oHCade-0qQ0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdFillControlSetup",
+      "nid": "8KrqbaaPkE0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdFillControlTransfer",
+      "nid": "7VGfMerK6m0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdFillInterruptTransfer",
+      "nid": "t3J5pXxhJlI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdFillIsoTransfer",
+      "nid": "xqmkjHCEOSY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdFreeConfigDescriptor",
+      "nid": "Hvd3S--n25w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdFreeDeviceList",
+      "nid": "EQ6SCLMqzkM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdFreeTransfer",
+      "nid": "-sgi7EeLSO8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdGetActiveConfigDescriptor",
+      "nid": "S1o1C6yOt5g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdGetBusNumber",
+      "nid": "t7WE9mb1TB8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdGetConfigDescriptor",
+      "nid": "Dkm5qe8j3XE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdGetConfigDescriptorByValue",
+      "nid": "GQsAVJuy8gM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdGetConfiguration",
+      "nid": "L7FoTZp3bZs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdGetDescriptor",
+      "nid": "-JBoEtvTxvA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdGetDevice",
+      "nid": "rsl9KQ-agyA",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdGetDeviceAddress",
+      "nid": "GjlCrU4GcIY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdGetDeviceDescriptor",
+      "nid": "bhomgbiQgeo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdGetDeviceList",
+      "nid": "8qB9Ar4P5nc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdGetDeviceSpeed",
+      "nid": "e1UWb8cWPJM",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdGetIsoPacketBuffer",
+      "nid": "vokkJ0aDf54",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdGetMaxIsoPacketSize",
+      "nid": "nuIRlpbxauM",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdGetMaxPacketSize",
+      "nid": "YJ0cMAlLuxQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdGetStringDescriptor",
+      "nid": "g2oYm1DitDg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdGetStringDescriptorAscii",
+      "nid": "t4gUfGsjk+g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdHandleEvents",
+      "nid": "EkqGLxWC-S0",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdHandleEventsLocked",
+      "nid": "rt-WeUGibfg",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdHandleEventsTimeout",
+      "nid": "+wU6CGuZcWk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdInit",
+      "nid": "TOhg7P6kTH4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdInterruptTransfer",
+      "nid": "rxi1nCOKWc8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdKernelDriverActive",
+      "nid": "RLf56F-WjKQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdLockEventWaiters",
+      "nid": "AeGaY8JrAV4",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdLockEvents",
+      "nid": "u9yKks02-rA",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdOpen",
+      "nid": "VJ6oMq-Di2U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdOpenDeviceWithVidPid",
+      "nid": "vrQXYRo1Gwk",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdRefDevice",
+      "nid": "U1t1SoJvV-A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdReleaseInterface",
+      "nid": "REfUTmTchMw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdResetDevice",
+      "nid": "hvMn0QJXj5g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdSetConfiguration",
+      "nid": "FhU9oYrbXoA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdSetInterfaceAltSetting",
+      "nid": "DVCQW9o+ki0",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdSetIsoPacketLengths",
+      "nid": "dJxro8Nzcjk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdSubmitTransfer",
+      "nid": "L0EHgZZNVas",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdTryLockEvents",
+      "nid": "TcXVGc-LPbQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdUnlockEventWaiters",
+      "nid": "1DkGvUQYFKI",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdUnlockEvents",
+      "nid": "RA2D9rFH-Uw",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbdUnrefDevice",
+      "nid": "OULgIo1zAsA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbdWaitForEvent",
+      "nid": "ys2e9VRBPrY",
+      "state": "stub"
+    }
+  ]
+}

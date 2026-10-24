@@ -1,0 +1,457 @@
+{
+  "name": "libSceBgft",
+  "label": "Bgft",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 89,
+  "total": 89,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceBgftServiceDownloadFindActivePatchTask",
+      "nid": "cDPbXydvmc8",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceDownloadFindActivePupTask",
+      "nid": "GXm6bV3ivGM",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceDownloadFindTaskByContentId",
+      "nid": "Nv5oO486pSE",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceDownloadGetProgress",
+      "nid": "vSjGf4cBpmU",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceDownloadPauseTask",
+      "nid": "32eFln4+jzc",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceDownloadPauseTaskAll",
+      "nid": "neETvp+lxow",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceDownloadQueryTask",
+      "nid": "ShnEkrw8E8Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceDownloadResumeTask",
+      "nid": "zaG6EZmCuxM",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceDownloadResumeTaskAll",
+      "nid": "jQoaqzHYacc",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceDownloadStartTask",
+      "nid": "9pyartiGi-o",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceDownloadStartTaskAll",
+      "nid": "Q7qj97IDGtU",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceDownloadStopTask",
+      "nid": "KY6RXUXi6ZQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceDownloadStopTaskAll",
+      "nid": "9pOesIjMaSk",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceInit",
+      "nid": "WQbIW7cm-Bc",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDebugDownloadCorruptPkg",
+      "nid": "bCD2orE1y84",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDebugDownloadRequest",
+      "nid": "yaRL7i-Vkng",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDebugPlayGoClearSetFreeZone",
+      "nid": "ttZRFSBzDPQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDebugPlayGoGetPlayGoStatusString",
+      "nid": "y9c6Qx9HKFA",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDebugPlayGoIsPaused",
+      "nid": "D9ZcN1WT7lE",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDebugPlayGoIsSetFreeZone",
+      "nid": "OFhg9OV+--M",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDebugPlayGoResume",
+      "nid": "eZlNO3YnlNE",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDebugPlayGoRevertToFullState",
+      "nid": "yVg07UrVewU",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDebugPlayGoRevertToInitialState",
+      "nid": "3cCvc6gRJdA",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDebugPlayGoRevertToSnapshot",
+      "nid": "WLQGuoVmdMQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDebugPlayGoSnapshotByTitleId",
+      "nid": "Rau9rXhtDUg",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDebugPlayGoSuspend",
+      "nid": "Z6PXTf8fyxI",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadCheckPatchUpdateState",
+      "nid": "-lPT15AV1Ko",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadClearStats",
+      "nid": "q-kGyQJyDoI",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadDebugDeleteBgftEnvFile",
+      "nid": "Nbn8bzYVDuk",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadDebugDownloadBgftEnvFile",
+      "nid": "YG5OENZ6-Do",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadDebugGetBgftEnvInfoString",
+      "nid": "r3f8P85Jo2Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadDebugGetStat",
+      "nid": "HntZzPkuaTo",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadFindActiveGameAndGameAcTask",
+      "nid": "vnHLgood2LA",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadFindActiveTask",
+      "nid": "FwpK7+QxBlg",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadGetApplicationDataSize",
+      "nid": "Lap11plzUDE",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadGetExtUsbUserStorageSize",
+      "nid": "uNzuMI2Smqg",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadGetGameAndGameAcProgress",
+      "nid": "610iwJKrGGo",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadGetPatchGoProgress",
+      "nid": "8raHXYfv3Js",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadGetPatchProgress",
+      "nid": "UZoHTWgeI9I",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadGetPlayGoProgress",
+      "nid": "bTXRAZZgkQk",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadGetProgress",
+      "nid": "5txx+w0HYOs",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadGetTaskInfo",
+      "nid": "uDwHwwoT6rg",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadGetUserStorageSize",
+      "nid": "r-S1cObIqLw",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadHideTask",
+      "nid": "vGMYQNn0X3s",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadPauseTask",
+      "nid": "byUP0khjgLA",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadPauseTaskAll",
+      "nid": "mv-JN8Ghvlc",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadQueryTask",
+      "nid": "vVk1SOjVN48",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadRegisterTaskByStorage",
+      "nid": "7FzEsuBrBhg",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadRegisterTaskByStorageEx",
+      "nid": "nd+0DEOC68A",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadRestartTask",
+      "nid": "PrRtLDapA08",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadResumeTask",
+      "nid": "q+pTE+YnGkg",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadResumeTaskAll",
+      "nid": "ekdhK-W0tHo",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadSetResumeState",
+      "nid": "DArcuPFT7SU",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadSetStartState",
+      "nid": "ruS-boGA0zs",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadStartTask",
+      "nid": "HRDHLMA9Y7s",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadStartTaskAll",
+      "nid": "97UTMR7Tb5s",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadStopTask",
+      "nid": "nosV+8v+A9o",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadStopTaskAll",
+      "nid": "Yv0IsOYIZiA",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadUnregisterTask",
+      "nid": "6irU4d1Gl3c",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntDownloadUnregisterTaskAll",
+      "nid": "BYmJ-iMswng",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntExtUsbCheckActiveDownloadTasks",
+      "nid": "eKQjzNBZIyU",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntGetTaskInfoValueInt",
+      "nid": "Nzr1l05aG2k",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntGetTaskInfoValueString",
+      "nid": "b3SquMkPlQc",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntGetTaskInfoValueStringIndex",
+      "nid": "XfuJkCbToVA",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntInit",
+      "nid": "BZ0olR8Da0g",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntPlayGoCheckDiscIniChunksInstall",
+      "nid": "H7rjk3Sc1xI",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntPlayGoFindTaskId",
+      "nid": "-6dHxuyIr7A",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntPlayGoGetDiscIniChunksInstallProgress",
+      "nid": "wLzJUeJqDxQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntPlayGoIsPaused",
+      "nid": "X7DvbKq4Mds",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntPlayGoResume",
+      "nid": "+zhBPmxiRGE",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntPlayGoStartDataDiscInstall",
+      "nid": "nRCHIYfyAMA",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntSetTaskVisible",
+      "nid": "6V1vy4M8Yb4",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntTerm",
+      "nid": "ODC4-mOiwl0",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadGetAvailableTaskCount",
+      "nid": "ZGx1vjA0Jwc",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadGetProgress",
+      "nid": "8l9+nBL1Ps0",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadGetTaskInfo",
+      "nid": "dEvJ2GWePUs",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadHideTask",
+      "nid": "ZmIeGweZvDU",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadQueryTask",
+      "nid": "Tow5SoK0MRg",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadRegisterTask",
+      "nid": "lWFb4eL7Igk",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadRestartTask",
+      "nid": "ZlLJEi8RMBs",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadSetStartState",
+      "nid": "xfqpXSahYAE",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadSetUploadError",
+      "nid": "HMv4KFyL5os",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadStartTask",
+      "nid": "DxgcfMpudms",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadStartTaskAll",
+      "nid": "GjZepmfthqc",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadStopTask",
+      "nid": "wEI22DiMH6U",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadStopTaskAll",
+      "nid": "ePQRjogCEOk",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadUnregisterTask",
+      "nid": "vNMe+-hRAFU",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceIntUploadUnregisterTaskAll",
+      "nid": "YwFH1M34TWM",
+      "state": "stub"
+    },
+    {
+      "name": "sceBgftServiceTerm",
+      "nid": "8P9BlyDO4xE",
+      "state": "stub"
+    }
+  ]
+}

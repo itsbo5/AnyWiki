@@ -1,0 +1,322 @@
+{
+  "name": "libSceIme",
+  "label": "Ime",
+  "category": "Input and user",
+  "implemented": 15,
+  "inert": 1,
+  "stub": 46,
+  "total": 62,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "FinalizeImeModule_nid_postfix",
+      "nid": "POxV-hiP73Y",
+      "state": "stub"
+    },
+    {
+      "name": "InitializeImeModule_nid_postfix",
+      "nid": "pGxCEYaaUkI",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeCheckFilterText",
+      "nid": "Lf3DeGWC6xg",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeCheckRemoteEventParam",
+      "nid": "zHuMUGb-AQI",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeCheckUpdateTextInfo",
+      "nid": "OTb0Mg+1i1k",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeClose_nid_postfix",
+      "nid": "r2pgsxypqB0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeConfigGet",
+      "nid": "Ho5NVQzpKHo",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeConfigSet",
+      "nid": "P5dPeiLwm-M",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeConfirmCandidate",
+      "nid": "tKLmVIUkpyM",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeDicAddWord",
+      "nid": "NYDsL9a0oEo",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeDicDeleteLearnDics",
+      "nid": "l01GKoyiQrY",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeDicDeleteUserDics",
+      "nid": "E2OcGgi-FPY",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeDicDeleteWord",
+      "nid": "JAiMBkOTYKI",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeDicGetWords",
+      "nid": "JoPdCUXOzMU",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeDicReplaceWord",
+      "nid": "FuEl46uHDyo",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeDisableController",
+      "nid": "E+f1n8e8DAw",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeFilterText",
+      "nid": "evjOsE18yuI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeForTestFunction",
+      "nid": "wVkehxutK-U",
+      "state": "inert"
+    },
+    {
+      "name": "sceImeGetPanelPositionAndForm",
+      "nid": "T6FYjZXG93o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeGetPanelSize",
+      "nid": "ziPDcIjO0Vk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeKeyboardClose",
+      "nid": "PMVehSlfZ94",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeKeyboardGetInfo",
+      "nid": "VkqLPArfFdc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeKeyboardGetResourceId",
+      "nid": "dKadqZFgKKQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeKeyboardOpen",
+      "nid": "eaFXjfJv3xs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeKeyboardOpenInternal",
+      "nid": "oYkJlMK51SA",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeKeyboardSetMode",
+      "nid": "ua+13Hk9kKs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeKeyboardUpdate",
+      "nid": "3Hx2Uw9xnv8",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeOpen_nid_postfix",
+      "nid": "gmn+UUI62wc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeParamInit",
+      "nid": "WmYDzdC4EHI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeSetCandidateIndex",
+      "nid": "TQaogSaqkEk",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeSetCaret",
+      "nid": "WLxUN2WMim8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeSetConsecutiveClauseConversionEnabled",
+      "nid": "row9sfnYNx4",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeSetEditEventWithRemotePlayEnabled",
+      "nid": "B9ik+FgnE5U",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeSetText",
+      "nid": "ieCNrVrzKd4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeSetTextGeometry",
+      "nid": "TXYHFRuL8UY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeSetVoiceDictationEnabled",
+      "nid": "7Kyap7hZdXk",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeUpdate",
+      "nid": "-4GCfYdNF1s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceImeVshCheckAutoReConvertingPreeditText",
+      "nid": "AP-XaTCalc4",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshClearPreedit",
+      "nid": "oOwl47ouxoM",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshClose",
+      "nid": "gtoTsGM9vEY",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshConfirmPreedit",
+      "nid": "wTKF4mUlSew",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshGetPanelPositionAndForm",
+      "nid": "42xMaQ+GLeQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshInformConfirmdString",
+      "nid": "ZmmV6iukhyo",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshInformConfirmdString2",
+      "nid": "EQBusz6Uhp8",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshNotifyCurrentTextInfo",
+      "nid": "xwjvKAjcbBU",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshNotifyCurrentTextInfoForReconvertText",
+      "nid": "EXnOSf2xMTE",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshNotifyDeleteText",
+      "nid": "DoYqJnzk19E",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshNotifyPreeditMetaInfo",
+      "nid": "oNap+Heiuok",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshNotifySetText",
+      "nid": "v1obAkijQvI",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshNotifyUpdateCaretText",
+      "nid": "DXTzNnP-+Co",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshOpen",
+      "nid": "LBicRa-hj3A",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshSendTextInfo",
+      "nid": "-IAOwd2nO7g",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshSetCaretGeometry",
+      "nid": "qDagOjvJdNk",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshSetCaretIndexInPreedit",
+      "nid": "tNOlmxee-Nk",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshSetPanelPosition",
+      "nid": "rASXozKkQ9g",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshSetParam",
+      "nid": "idvMaIu5H+k",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshSetPreeditGeometry",
+      "nid": "ga5GOgThbjo",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshSetSelectGeometry",
+      "nid": "RuSca8rS6yA",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshSetSelectionText",
+      "nid": "J7COZrgSFRA",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshUpdate",
+      "nid": "WqAayyok5p0",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshUpdateContext",
+      "nid": "O7Fdd+Oc-qQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceImeVshUpdateContext2",
+      "nid": "fwcPR7+7Rks",
+      "state": "stub"
+    }
+  ]
+}

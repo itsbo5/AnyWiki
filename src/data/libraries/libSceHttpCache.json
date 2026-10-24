@@ -1,0 +1,147 @@
+{
+  "name": "libSceHttpCache",
+  "label": "HttpCache",
+  "category": "Network and services",
+  "implemented": 0,
+  "inert": 2,
+  "stub": 25,
+  "total": 27,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceHttpCacheClear",
+      "nid": "NjhuM7DQT08",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheClearAll",
+      "nid": "BHrUtjVRivQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheClearAllUserTags",
+      "nid": "XHGzVlZEHn4",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheClearCacheInfo",
+      "nid": "jAJt5YrL7GI",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheCompleteRequest",
+      "nid": "IXdwKopqJHo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheCreateRequest",
+      "nid": "ridDhAPwj4c",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheCreateRequestWithTag",
+      "nid": "8ztpPAczQLs",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheDebugSetUrl",
+      "nid": "FME0+DPciaU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheDeleteRequest",
+      "nid": "c8pxB0Z4QNY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheInit",
+      "nid": "cZp79Bc6ovs",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheReadData",
+      "nid": "xExAZRNEpEM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheRegisterCacheInfoUrl",
+      "nid": "eYC8sG2Ikjc",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheRemoveTag",
+      "nid": "V03vkc5c50w",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheRetrieve",
+      "nid": "GpptAvO+vGI",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheRetrieveWithMemoryPool",
+      "nid": "TPKIWtZkFU0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheRevalidate",
+      "nid": "7rwsM14lA0Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheRevalidateWithMemoryPool",
+      "nid": "+8M7+xoeeaE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheSetCacheSharing",
+      "nid": "3+a6oBBT2rs",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheSetData",
+      "nid": "7UnZ7b3kkvM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheSetQuota",
+      "nid": "yg6hx58UNqc",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheSetResponseHeader",
+      "nid": "moPKPd0A5FA",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheSystemClearAll",
+      "nid": "R9VdZjbxQi8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheSystemInit",
+      "nid": "LfOVpdFit+Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheSystemSendStatistics",
+      "nid": "0gRbLi4WKVg",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpCacheSystemShutdown",
+      "nid": "kbFr-IcUqH4",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttpCacheSystemTerm",
+      "nid": "J25sxFmD+1w",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttpCacheTerm",
+      "nid": "UU-WJhJQWxQ",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "libSceDiscId",
+  "label": "DiscId",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 2,
+  "total": 2,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceDiscIdGet",
+      "nid": "3xULm-emJqE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDiscIdGet2",
+      "nid": "JxM80qv+BxU",
+      "state": "stub"
+    }
+  ]
+}

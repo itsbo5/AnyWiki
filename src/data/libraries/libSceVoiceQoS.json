@@ -1,0 +1,137 @@
+{
+  "name": "libSceVoiceQoS",
+  "label": "VoiceQoS",
+  "category": "Audio and media",
+  "implemented": 14,
+  "inert": 0,
+  "stub": 11,
+  "total": 25,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVoiceQoSConnect",
+      "nid": "kLU6hhXsa2A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQoSCreateLocalEndpoint",
+      "nid": "lvNClhNHzxI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQoSCreateRemoteEndpoint",
+      "nid": "iqQQW2cBmWU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQoSDebugGetStatus",
+      "nid": "D7P8dL0ZKsI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceQoSDeleteLocalEndpoint",
+      "nid": "kE0kdvcHTiY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQoSDeleteRemoteEndpoint",
+      "nid": "H4zqFaDhHW4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQoSDisableChat",
+      "nid": "8-voJZab+0E",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceQoSDisconnect",
+      "nid": "j9Xt85krooc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQoSEnableChat",
+      "nid": "2lOJJzw1t5o",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceQoSEnd",
+      "nid": "ATRGkmbolVM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQoSGetConnectionAttribute",
+      "nid": "XmvdN3atbXY",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceQoSGetLocalEndpoint",
+      "nid": "XPC8EyEuvyk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQoSGetLocalEndpointAttribute",
+      "nid": "eZu2RP0Ma3w",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceQoSGetRemoteEndpoint",
+      "nid": "9tfy4+aDxrM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQoSGetRemoteEndpointAttribute",
+      "nid": "3vmrvQ4rvgs",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceQoSGetStatus",
+      "nid": "Trpt2QBZHCI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceQoSInit",
+      "nid": "U8IfNl6-Css",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQoSInitHQ",
+      "nid": "RY0c7tYVBiw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceQoSReadPacket",
+      "nid": "PWokFqab5q4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQoSSetConnectionAttribute",
+      "nid": "KCGOxg8iX7s",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceQoSSetLocalEndpointAttribute",
+      "nid": "F7wS7FbfumQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQoSSetMode",
+      "nid": "+0lOiPZjnBI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceQoSSetRemoteEndpointAttribute",
+      "nid": "cpC-zyHoMik",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQoSTerminate",
+      "nid": "FuXenJLkk-c",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceQoSWritePacket",
+      "nid": "SpxLratrO1Q",
+      "state": "implemented"
+    }
+  ]
+}

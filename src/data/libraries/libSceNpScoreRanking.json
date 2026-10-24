@@ -1,0 +1,87 @@
+{
+  "name": "libSceNpScoreRanking",
+  "label": "NpScoreRanking",
+  "category": "Network and services",
+  "implemented": 15,
+  "inert": 0,
+  "stub": 0,
+  "total": 15,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpScoreAbortRequest",
+      "nid": "1i7kmKbX6hk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScoreCreateNpTitleCtx",
+      "nid": "KnNA1TEgtBI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScoreCreateRequest",
+      "nid": "gW8qyjYrUbk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScoreDeleteNpTitleCtx",
+      "nid": "G0pE+RNCwfk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScoreDeleteRequest",
+      "nid": "dK8-SgYf6r4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScoreGetBoardInfo",
+      "nid": "LoVMVrijVOk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScoreGetFriendsRanking",
+      "nid": "8kuIzUw6utQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScoreGetFriendsRankingAsync",
+      "nid": "7SuMUlN7Q6I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScoreGetRankingByNpId",
+      "nid": "9mZEgoiEq6Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScoreGetRankingByNpIdAsync",
+      "nid": "Rd27dqUFZV8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScoreGetRankingByRange",
+      "nid": "KBHxDjyk-jA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScoreGetRankingByRangeAsync",
+      "nid": "rShmqXHwoQE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScorePollAsync",
+      "nid": "m1DfNRstkSQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScoreRecordScore",
+      "nid": "zT0XBtgtOSI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpScoreRecordScoreAsync",
+      "nid": "ANJssPz3mY0",
+      "state": "implemented"
+    }
+  ]
+}

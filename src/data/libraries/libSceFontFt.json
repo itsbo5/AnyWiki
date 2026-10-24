@@ -1,0 +1,222 @@
+{
+  "name": "libSceFontFt",
+  "label": "FontFt",
+  "category": "System utilities",
+  "implemented": 34,
+  "inert": 1,
+  "stub": 7,
+  "total": 42,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "LibraryApplyGlyphAdjust",
+      "nid": "A1+0N5MP64I",
+      "state": "implemented"
+    },
+    {
+      "name": "LibraryCloseFont",
+      "nid": "hW9gsxx7Drc",
+      "state": "implemented"
+    },
+    {
+      "name": "LibraryComputeLayout",
+      "nid": "7oD+undX3Ko",
+      "state": "implemented"
+    },
+    {
+      "name": "LibraryComputeLayoutAlt",
+      "nid": "u0v3qHIgoXg",
+      "state": "implemented"
+    },
+    {
+      "name": "LibraryConfigureGlyph",
+      "nid": "YCSL4e5BmA4",
+      "state": "implemented"
+    },
+    {
+      "name": "LibraryGetFaceMetric",
+      "nid": "ooTvW8fvMS0",
+      "state": "implemented"
+    },
+    {
+      "name": "LibraryGetFaceScale",
+      "nid": "g8emSlzftkU",
+      "state": "implemented"
+    },
+    {
+      "name": "LibraryGetGlyphIndex",
+      "nid": "YWcI69zPCyE",
+      "state": "implemented"
+    },
+    {
+      "name": "LibraryGetGlyphMetrics",
+      "nid": "7Sf+cDOErE0",
+      "state": "implemented"
+    },
+    {
+      "name": "LibraryGetGlyphsCount",
+      "nid": "RakaPhQhnus",
+      "state": "implemented"
+    },
+    {
+      "name": "LibraryGetPixelResolution",
+      "nid": "QsThm7G4AiU",
+      "state": "inert"
+    },
+    {
+      "name": "LibraryInit",
+      "nid": "vmodzKn5f3M",
+      "state": "implemented"
+    },
+    {
+      "name": "LibraryLoadGlyphCached",
+      "nid": "e4XtxG+i2TI",
+      "state": "implemented"
+    },
+    {
+      "name": "LibraryOpenFont",
+      "nid": "S9exLL3N2e0",
+      "state": "implemented"
+    },
+    {
+      "name": "LibrarySetCharSizeDefaultDpi",
+      "nid": "mngQJtFU8tE",
+      "state": "implemented"
+    },
+    {
+      "name": "LibrarySetCharSizeWithDpi",
+      "nid": "OYLRiK4dpHI",
+      "state": "implemented"
+    },
+    {
+      "name": "LibrarySupport",
+      "nid": "YoyrnZ-DA0A",
+      "state": "implemented"
+    },
+    {
+      "name": "LibraryTerm",
+      "nid": "xEUZxsvCoWk",
+      "state": "implemented"
+    },
+    {
+      "name": "RendererCreate",
+      "nid": "GjkDT37avdU",
+      "state": "implemented"
+    },
+    {
+      "name": "RendererDestroy",
+      "nid": "GhV4Hf48CJQ",
+      "state": "implemented"
+    },
+    {
+      "name": "RendererQuery",
+      "nid": "-sSk5jGBBN0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontFtInitAliases",
+      "nid": "e60aorDdpB8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFontFtSetAliasFont",
+      "nid": "BxcmiMc3UaA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFontFtSetAliasPath",
+      "nid": "MEWjebIzDEI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFontFtSupportBdf",
+      "nid": "ZcQL0iSjvFw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontFtSupportCid",
+      "nid": "LADHEyFTxRQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontFtSupportFontFormats",
+      "nid": "+jqQjsancTs",
+      "state": "stub"
+    },
+    {
+      "name": "sceFontFtSupportOpenType",
+      "nid": "oakL15-mBtc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontFtSupportOpenTypeOtf",
+      "nid": "dcQeaDr8UJc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontFtSupportOpenTypeTtf",
+      "nid": "2KXS-HkZT3c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontFtSupportPcf",
+      "nid": "H0mJnhKwV-s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontFtSupportPfr",
+      "nid": "S2mw3sYplAI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontFtSupportSystemFonts",
+      "nid": "+ehNXJPUyhk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFontFtSupportTrueType",
+      "nid": "4BAhDLdrzUI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontFtSupportTrueTypeGx",
+      "nid": "Utlzbdf+g9o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontFtSupportType1",
+      "nid": "nAfQ6qaL1fU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontFtSupportType42",
+      "nid": "X9+pzrGtBus",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontFtSupportWinFonts",
+      "nid": "w0hI3xsK-hc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontFtTermAliases",
+      "nid": "w5sfH9r8ZJ4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFontSelectGlyphsFt",
+      "nid": "ojW+VKl4Ehs",
+      "state": "stub"
+    },
+    {
+      "name": "sceFontSelectLibraryFt",
+      "nid": "oM+XCzVG3oM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFontSelectRendererFt",
+      "nid": "Xx974EW-QFY",
+      "state": "implemented"
+    }
+  ]
+}

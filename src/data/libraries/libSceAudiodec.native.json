@@ -1,0 +1,82 @@
+{
+  "name": "libSceAudiodec.native",
+  "label": "Audiodec.native",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 14,
+  "total": 14,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAudiodecClearContextEx",
+      "nid": "3pBbmM8ZyN4",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecCreateDecoderEx",
+      "nid": "F31VqfrQ80A",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecDecode2",
+      "nid": "+eFOGH-2A8M",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecDecode2Ex",
+      "nid": "hxPWcZh4OZM",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecDecode2WithPriority",
+      "nid": "S4per83VASY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecDecode2WithPriorityEx",
+      "nid": "3oL6ZnWIW80",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecDecodeEx",
+      "nid": "Bsmr2r9f5Vg",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecDecodeWithPriority",
+      "nid": "VUMO2kAbo7w",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecDecodeWithPriorityEx",
+      "nid": "vbDE8iuKPKY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecDeleteDecoderEx",
+      "nid": "VZroxfK-OjE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecGetContext",
+      "nid": "pJf1t3SkkWw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecInitialize",
+      "nid": "EsSbFnoWxVc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecRegisterCodec",
+      "nid": "wPZSJibBFsw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecTerminate",
+      "nid": "-Y0Yv5Y+h-M",
+      "state": "stub"
+    }
+  ]
+}

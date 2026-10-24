@@ -1,0 +1,127 @@
+{
+  "name": "libSceSystemGesture",
+  "label": "SystemGesture",
+  "category": "Input and user",
+  "implemented": 22,
+  "inert": 1,
+  "stub": 0,
+  "total": 23,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSystemGestureAppendTouchRecognizer",
+      "nid": "1MMK0W-kMgA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureClose",
+      "nid": "j4yXIA2jJ68",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureCreateTouchRecognizer",
+      "nid": "FWF8zkhr854",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureDebugGetVersion",
+      "nid": "-Caws0X3+bY",
+      "state": "inert"
+    },
+    {
+      "name": "sceSystemGestureFinalizePrimitiveTouchRecognizer",
+      "nid": "3QYCmMlOlCY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureGetPrimitiveTouchEventByIndex",
+      "nid": "KAeP0+cQPVU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureGetPrimitiveTouchEventByPrimitiveID",
+      "nid": "yBaQ0h9m1NM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureGetPrimitiveTouchEvents",
+      "nid": "L8YmemOeSNY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureGetPrimitiveTouchEventsCount",
+      "nid": "JhwByySf9FY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureGetTouchEventByEventID",
+      "nid": "lpsXm7tzeoc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureGetTouchEventByIndex",
+      "nid": "TSKvgSz5ChU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureGetTouchEvents",
+      "nid": "fLTseA7XiWY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureGetTouchEventsCount",
+      "nid": "h8uongcBNVs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureGetTouchRecognizerInformation",
+      "nid": "0KrW5eMnrwY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureInitializePrimitiveTouchRecognizer",
+      "nid": "3pcAvmwKCvM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureOpen",
+      "nid": "qpo-mEOwje0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureRemoveTouchRecognizer",
+      "nid": "ELvBVG-LKT0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureResetPrimitiveTouchRecognizer",
+      "nid": "o11J529VaAE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureResetTouchRecognizer",
+      "nid": "oBuH3zFWYIg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureUpdateAllTouchRecognizer",
+      "nid": "wPJGwI2RM2I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureUpdatePrimitiveTouchRecognizer",
+      "nid": "GgFMb22sbbI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureUpdateTouchRecognizer",
+      "nid": "j4h82CQWENo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSystemGestureUpdateTouchRecognizerRectangle",
+      "nid": "4WOA1eTx3V8",
+      "state": "implemented"
+    }
+  ]
+}

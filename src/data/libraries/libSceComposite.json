@@ -1,0 +1,402 @@
+{
+  "name": "libSceComposite",
+  "label": "Composite",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 78,
+  "total": 78,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceCompositorAllocateIndex",
+      "nid": "G4Q8KNkb5XE",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorCheckCrash",
+      "nid": "9M7HkbwUs-E",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorCommandGpuPerfBegin",
+      "nid": "6bz4VVSSFyg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorCommandGpuPerfEnd",
+      "nid": "fH2IStnGK4M",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorCreateIndirectRenderTarget",
+      "nid": "meXSAmyPBUE",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorDeleteIndirectRenderTarget",
+      "nid": "wCqghwW7vQw",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorFlush",
+      "nid": "qZNF03+ghLI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorFlushWithRepeat",
+      "nid": "9bnaeOBBD1Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetAnotherProcessSystemAddress",
+      "nid": "ayhAQXdGNqU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetAnotherProcessSystemSize",
+      "nid": "8bAq9t5kF9k",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetAnotherProcessVideoAddress",
+      "nid": "s-6xbR71jQI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetAnotherProcessVideoSize",
+      "nid": "gbjddWAc6-o",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetCanvasHandle",
+      "nid": "N7PrM+lPMW0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetClientList",
+      "nid": "9vHGtqLkmTQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetDmemOffset",
+      "nid": "MjH7MOV6LVk",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetDummyAddress",
+      "nid": "fcDt18r-ibY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetDummySize",
+      "nid": "F9gmz-sU-Z4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetRemainedCommandNum",
+      "nid": "2xhRHbvhwfU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetRenderTargetResolution",
+      "nid": "twGXom56jw0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetSystemAddress",
+      "nid": "T6CVkdCDO7o",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetSystemSize",
+      "nid": "N6ID0KNnzY8",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetVideoAddress",
+      "nid": "bxt+muwit0w",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorGetVideoSize",
+      "nid": "FTQCTDU0b4g",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorHandleProcessEvents",
+      "nid": "f9X0imA90fI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorInit",
+      "nid": "xIkcEpdMxrw",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorInitWithProcessOrder",
+      "nid": "IUlpGnuoR1c",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorInsertThreadTraceMarker",
+      "nid": "-wIAG588mvg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorIsDebugCaptureEnabled",
+      "nid": "q+Qw1ESxCj8",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorIsReady4K",
+      "nid": "RSEX1eS1tCI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorLockCommandBuffer",
+      "nid": "GgOrwi+9vcA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorMakeCanvasHandle",
+      "nid": "4PTzGjEmkXI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorMapAnotherProcess",
+      "nid": "mKEAx7QnPeg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorMemoryPoolDecommit",
+      "nid": "yq0Uhq9JwJo",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorPrivacyMaskPushArea",
+      "nid": "U9Wy5uJh0RA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorQuit",
+      "nid": "y5IJdPxdBrE",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorReleaseCommandBuffer",
+      "nid": "1OXbuWLRxqI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorReleaseIndex",
+      "nid": "ZwsBB3s8qMk",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorReleaseLocalStall",
+      "nid": "9zmcX1uKDGg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorReserveCommandBuffer",
+      "nid": "7NxubT1-VV4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorResetZoomCommand",
+      "nid": "1PX0NFNL1BQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetAgcCompositeCanvasCommand",
+      "nid": "ourM2nlXyXw",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetAgcContextCommand",
+      "nid": "OWU6H65+LLk",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetCompositeCanvasCommandInC",
+      "nid": "gVoOE32ATg0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetCursorImageAddress",
+      "nid": "OSqOny+kPrA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetDebugPositionCommand",
+      "nid": "dHK+qu5D2HM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetEndOfFrameCommand",
+      "nid": "m4cofzsxUWY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetEventCommand",
+      "nid": "5fbNa7tkGoI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetFilterType",
+      "nid": "4C8BBKCcM6A",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetFlipCommand2",
+      "nid": "T4Rd8lv7SaU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetGameSufaceControlCommand",
+      "nid": "n2XkxixrY2k",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetGnmContextCommand",
+      "nid": "DhtKelVAIaA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetIndirectCanvasCommand",
+      "nid": "-zpfGY1n49E",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetIndirectCompositionCommand",
+      "nid": "M6wp6+JUSRI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetIndirectRenderTargetConfigCommand",
+      "nid": "kZ7Xre07w70",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetInvisibleCanvasCommand",
+      "nid": "9sdvKfLR+mY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetKeepDisplayBufferCommand",
+      "nid": "dIA+v-Lh1+o",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetLocalStallCommand",
+      "nid": "yW5gfrDFAoc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetMemoryCommand",
+      "nid": "kn5tI0VFTVY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetPatchCommand",
+      "nid": "YzI2BOoDw+I",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetPostEventCommand",
+      "nid": "3Q85e5cS3e0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetRepeatCommand",
+      "nid": "fEQcEYs1yuU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetResolutionCommand",
+      "nid": "eLU8pDi9KN0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetScalingLayoutInfo",
+      "nid": "WKAIMotTzDs",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetSeparateContextCommand",
+      "nid": "5Z0YF3QKlhk",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetSystemConfigWithMask",
+      "nid": "dN3ooEQkn90",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetVideoOutMode",
+      "nid": "r0QtEP0p4Gs",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetVirtualCanvasAgcContextCommand",
+      "nid": "aHuBE2C3JC4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetVirtualCanvasCommandFooter",
+      "nid": "t8pR4ug-os0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetVirtualCanvasPatchCommand",
+      "nid": "n4Hk3OLW89E",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetVrMode",
+      "nid": "XZc+RQCv5ik",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSetZoomCommand",
+      "nid": "aroIog+umzo",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorSystemConfig",
+      "nid": "WkdkfQun1gc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorWaitEndOfRendering",
+      "nid": "R00q9P3BKAc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorWaitEvent",
+      "nid": "0wFl-CwJ37Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompositorWaitPostEvent",
+      "nid": "deKovf3qViA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompsoitorGetGpuClock",
+      "nid": "4yWqjTZtvs4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompsoitorGetProcessRenderingTime",
+      "nid": "EcTHemmz6n4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompsoitorGetRenderingTime",
+      "nid": "rIH7UTXfho4",
+      "state": "stub"
+    }
+  ]
+}

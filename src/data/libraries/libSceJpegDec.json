@@ -1,0 +1,42 @@
+{
+  "name": "libSceJpegDec",
+  "label": "JpegDec",
+  "category": "System utilities",
+  "implemented": 5,
+  "inert": 0,
+  "stub": 1,
+  "total": 6,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceJpegDecCreate",
+      "nid": "JPh3Zgg0Zwc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceJpegDecDecode",
+      "nid": "1kzQRoWEgSA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceJpegDecDecodeWithInputControl",
+      "nid": "919MhccOiII",
+      "state": "stub"
+    },
+    {
+      "name": "sceJpegDecDelete",
+      "nid": "Hwh11+m5KoI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceJpegDecParseHeader",
+      "nid": "LSinoSQH790",
+      "state": "implemented"
+    },
+    {
+      "name": "sceJpegDecQueryMemorySize",
+      "nid": "uNAUmANZMEw",
+      "state": "implemented"
+    }
+  ]
+}

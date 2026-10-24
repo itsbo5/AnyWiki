@@ -1,0 +1,62 @@
+{
+  "name": "libSceDepth2",
+  "label": "Depth2",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 10,
+  "total": 10,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceDepth2GetImage",
+      "nid": "ssOcL1iqcTE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepth2Initialize",
+      "nid": "WpgesOm4xX8",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepth2QueryMemory",
+      "nid": "JG-Dc43R4pM",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepth2SaveInternalBuffers",
+      "nid": "RUtAryHv2fI",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepth2SetCameraFactoryCalibrationData",
+      "nid": "xszTt3hOPcA",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepth2SetCommand",
+      "nid": "o7OQzFuXJ28",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepth2SetRoi",
+      "nid": "WIlLwVKWows",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepth2Submit",
+      "nid": "UUQSk5-w9gU",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepth2Terminate",
+      "nid": "ot9Mw6ofb74",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepth2WaitAndExecutePostProcess",
+      "nid": "2gMXO8S2qik",
+      "state": "stub"
+    }
+  ]
+}

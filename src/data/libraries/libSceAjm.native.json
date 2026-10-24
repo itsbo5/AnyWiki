@@ -1,0 +1,212 @@
+{
+  "name": "libSceAjm.native",
+  "label": "Ajm.native",
+  "category": "Audio and media",
+  "implemented": 17,
+  "inert": 5,
+  "stub": 18,
+  "total": 40,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAjmBatchCancel",
+      "nid": "NVDXiUesSbA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmBatchErrorDump",
+      "nid": "WfAiBW8Wcek",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmBatchGetLog",
+      "nid": "nXpC4dnxlI0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchInitialize",
+      "nid": "MmpF1XsQiHw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmBatchJobClearContext",
+      "nid": "uJ3m8INuikg",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchJobControl",
+      "nid": "7FZsbyVRM4U",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchJobDecode",
+      "nid": "39WxhR-ePew",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmBatchJobDecodeSingle",
+      "nid": "5LLWbpP5xi8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmBatchJobDecodeSplit",
+      "nid": "SJ3i0DXP8vg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmBatchJobEncode",
+      "nid": "SlVIGK1Kl38",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchJobGetCodecInfo",
+      "nid": "uSrXaxT+oPQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmBatchJobGetGaplessDecode",
+      "nid": "Esr9db8S1S0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmBatchJobGetInfo",
+      "nid": "TBWW4aPfWcA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmBatchJobGetResampleInfo",
+      "nid": "JkdNCocpu1M",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchJobGetStatistics",
+      "nid": "3cAg7xN995U",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchJobInitialize",
+      "nid": "ezM2OhNxzck",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchJobRun",
+      "nid": "jVCWcthifr8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmBatchJobRunSplit",
+      "nid": "Z9NVCesiP0Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchJobSetGaplessDecode",
+      "nid": "SkEwpiu3tZg",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchJobSetResampleParameters",
+      "nid": "81HsnXFbWS4",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchJobSetResampleParametersEx",
+      "nid": "5ldnD16rYZw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchStart",
+      "nid": "5tOfnaClcqM",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchWait",
+      "nid": "-qLsfDAywIY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmDecAt9ParseConfigData",
+      "nid": "1t3ixYNXyuc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmDecMp3ParseFrame",
+      "nid": "eDFeTyi+G3Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmDecWVorbisCreateHeaderPacket",
+      "nid": "Z4HDpe1ZEa4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmDecWVorbisCreateSetupPacket",
+      "nid": "oXShHcqMcX0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmFinalize",
+      "nid": "MHur6qCsUus",
+      "state": "inert"
+    },
+    {
+      "name": "sceAjmInitialize",
+      "nid": "dl+4eHSzUu4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmInstanceAvailable",
+      "nid": "d4SQL+QQLTY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmInstanceCodecType",
+      "nid": "diXjQNiMu-s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmInstanceCreate",
+      "nid": "AxoDrINp4J8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmInstanceDestroy",
+      "nid": "RbLbuKv8zho",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAjmInstanceExtend",
+      "nid": "YDFR0dDVGAg",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmInstanceSwitch",
+      "nid": "rgLjmfdXocI",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmMemoryRegister",
+      "nid": "bkRHEYG6lEM",
+      "state": "inert"
+    },
+    {
+      "name": "sceAjmMemoryUnregister",
+      "nid": "pIpGiaYkHkM",
+      "state": "inert"
+    },
+    {
+      "name": "sceAjmModuleRegister",
+      "nid": "Q3dyFuwGn64",
+      "state": "inert"
+    },
+    {
+      "name": "sceAjmModuleUnregister",
+      "nid": "Wi7DtlLV+KI",
+      "state": "inert"
+    },
+    {
+      "name": "sceAjmStrError",
+      "nid": "AxhcqVv5AYU",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "libSceScreenShot",
+  "label": "ScreenShot",
+  "category": "System utilities",
+  "implemented": 5,
+  "inert": 2,
+  "stub": 6,
+  "total": 13,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceScreenShotCapture",
+      "nid": "JuMLLmmvRgk",
+      "state": "stub"
+    },
+    {
+      "name": "sceScreenShotDisable",
+      "nid": "tIYf0W5VTi8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceScreenShotDisableNotification",
+      "nid": "ysfza71rm9M",
+      "state": "inert"
+    },
+    {
+      "name": "sceScreenShotEnable",
+      "nid": "2xxUtuC-RzE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceScreenShotEnableNotification",
+      "nid": "BDUaqlVdSAY",
+      "state": "inert"
+    },
+    {
+      "name": "sceScreenShotGetAppInfo",
+      "nid": "hNmK4SdhPT0",
+      "state": "stub"
+    },
+    {
+      "name": "sceScreenShotGetDrcParam",
+      "nid": "VlAQIgXa2R0",
+      "state": "stub"
+    },
+    {
+      "name": "sceScreenShotIsDisabled",
+      "nid": "-SV-oTNGFQk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceScreenShotIsVshScreenCaptureDisabled",
+      "nid": "ICNJ-1POs84",
+      "state": "stub"
+    },
+    {
+      "name": "sceScreenShotSetDrcParam",
+      "nid": "itlWFWV3Tzc",
+      "state": "stub"
+    },
+    {
+      "name": "sceScreenShotSetOverlayImage",
+      "nid": "ahHhOf+QNkQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceScreenShotSetOverlayImageWithOrigin",
+      "nid": "73WQ4Jj0nJI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceScreenShotSetParam",
+      "nid": "G7KlmIYFIZc",
+      "state": "stub"
+    }
+  ]
+}

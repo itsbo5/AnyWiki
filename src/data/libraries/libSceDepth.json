@@ -1,0 +1,202 @@
+{
+  "name": "libSceDepth",
+  "label": "Depth",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 38,
+  "total": 38,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "_sceDepthCalcHeteroAdjustParam",
+      "nid": "khMHRfKhXyw",
+      "state": "stub"
+    },
+    {
+      "name": "_sceDepthHeadCandidateTrackerGetInformation",
+      "nid": "y8JFcLacpm0",
+      "state": "stub"
+    },
+    {
+      "name": "_sceDepthHeadCandidateTrackerSetInformation",
+      "nid": "azCmQEmb1-I",
+      "state": "stub"
+    },
+    {
+      "name": "_sceDepthSetCameraFactoryCalibrationData",
+      "nid": "HZ2ih547n5Y",
+      "state": "stub"
+    },
+    {
+      "name": "_sceDepthSetHeteroAdjustParam",
+      "nid": "AnQ9uoI3ENY",
+      "state": "stub"
+    },
+    {
+      "name": "_sceDepthSetHeteroMode",
+      "nid": "X5F-dSXoUUw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthCalculateRectificationInformation",
+      "nid": "1eDFI2b1+R4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthDisableHeteroMode",
+      "nid": "tKb1NGqDL3o",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthEnableExtendedMode",
+      "nid": "z5ST9CIgHa0",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthEnableHeteroMode",
+      "nid": "ApiBWk+XhTM",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthEnableHeteroModeAndGenerateInformation",
+      "nid": "LGls0LhQSGY",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthGetCalibrationData",
+      "nid": "n1jfUfgvIUw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthGetImage",
+      "nid": "m2CDzALH31Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthGetRectificationInformation",
+      "nid": "L70Lnrm4gz4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthGetSrParameter",
+      "nid": "b1e8oPrUnY4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthHandCandidateTrackerGetResult",
+      "nid": "ORiU0t9ZnwE",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthHasCalibrationData",
+      "nid": "PXbVNuUqELQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthHeadCandidateDetectorGetResults",
+      "nid": "lAh2teRHzLU",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthHeadCandidateTrackerGetResult",
+      "nid": "DI3yZlrLLxM",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthHeadCandidateTrackerSetValidationInformation",
+      "nid": "9pbTND42x74",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthInitialize",
+      "nid": "Paa9dgHnHpQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthLoadCalibrationData",
+      "nid": "5AuWFbVvqTU",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthQueryMemory",
+      "nid": "5MwxIk3-gLo",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthSaveInternalBuffers",
+      "nid": "ChiY6gHrMK4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthSetCalibrationData",
+      "nid": "oPhjCYX1Oeg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthSetCommands",
+      "nid": "7+v3uWRHgQ4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthSetPostFilterParameter",
+      "nid": "7bSiBI8KqBw",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthSetPreFilterParameter",
+      "nid": "VZJhL9rau08",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthSetRectificationInformation",
+      "nid": "WXXsPHkag14",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthSetRoi",
+      "nid": "3mjsu608hoU",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthSetRoiset",
+      "nid": "8nUMQUGz3Vs",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthSetSrParameter",
+      "nid": "hO0sxQP5n0Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthSetSrTnrParameter",
+      "nid": "zE2ws3Iyrqc",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthSubmit",
+      "nid": "jLx5qd4qyjk",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthTerminate",
+      "nid": "l+dKhCxtRHc",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthUpdate",
+      "nid": "q0NXsQTzAI0",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthValidateCurrentCalibrationData",
+      "nid": "DdomLktL5+M",
+      "state": "stub"
+    },
+    {
+      "name": "sceDepthWaitAndExecutePostProcess",
+      "nid": "cnnOMW6dyPI",
+      "state": "stub"
+    }
+  ]
+}

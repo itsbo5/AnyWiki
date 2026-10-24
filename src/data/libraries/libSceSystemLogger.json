@@ -1,0 +1,27 @@
+{
+  "name": "libSceSystemLogger",
+  "label": "SystemLogger",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 3,
+  "total": 3,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSystemLoggerInitialize",
+      "nid": "EwC6IQrXGoY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemLoggerSetLogData",
+      "nid": "AYbQS0FkE3c",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemLoggerTerminate",
+      "nid": "j-Fnm8OaiKc",
+      "state": "stub"
+    }
+  ]
+}

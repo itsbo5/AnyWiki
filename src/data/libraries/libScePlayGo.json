@@ -1,0 +1,117 @@
+{
+  "name": "libScePlayGo",
+  "label": "PlayGo",
+  "category": "Network and services",
+  "implemented": 18,
+  "inert": 1,
+  "stub": 2,
+  "total": 21,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePlayGoClose",
+      "nid": "Uco1I0dlDi8",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoGetChunkId",
+      "nid": "73fF1MFU8hA",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoGetEta",
+      "nid": "v6EZ-YWRdMs",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoGetInstallChunkId",
+      "nid": "8-e7E989rCU",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoGetInstallSpeed",
+      "nid": "rvBSfTimejE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoGetLanguageMask",
+      "nid": "3OMbYZBaa50",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoGetLocus",
+      "nid": "uWIYLFkkwqk",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoGetOptionalChunk",
+      "nid": "g4AZyxpSAlA",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoGetProgress",
+      "nid": "-RJWNMK3fC8",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoGetSupportedOptionalChunk",
+      "nid": "IfiN+-oeVWI",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoGetToDoList",
+      "nid": "Nn7zKwnA5q0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoInitialize",
+      "nid": "ts6GlZOKRrE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoOpen",
+      "nid": "M1Gma1ocrGE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoPrefetch",
+      "nid": "-Q1-u1a7p0g",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoPrefetchOptionalChunk",
+      "nid": "HVAa744ecdw",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoRequestNextChunk",
+      "nid": "RHXYK0iDICM",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayGoSetInstallSpeed",
+      "nid": "4AAcTU9R3XM",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoSetLanguageMask",
+      "nid": "LosLlHOpNqQ",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoSetToDoList",
+      "nid": "gUPGiOQ1tmQ",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoSnapshot",
+      "nid": "D6HEAnaC9zQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayGoTerminate",
+      "nid": "MPe0EeBGM-E",
+      "state": "inert"
+    }
+  ]
+}

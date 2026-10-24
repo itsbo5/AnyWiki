@@ -1,0 +1,27 @@
+{
+  "name": "libSceHubAppUtil",
+  "label": "HubAppUtil",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 3,
+  "total": 3,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceHubAppUtilDeeplinkToLiveDetailView",
+      "nid": "FksZ-ychRZQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHubAppUtilDeeplinkToPSSubscriptions",
+      "nid": "n3G2GtFdwEw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHubAppUtilGetInstallationStatus",
+      "nid": "qOmoaiKx7OY",
+      "state": "stub"
+    }
+  ]
+}

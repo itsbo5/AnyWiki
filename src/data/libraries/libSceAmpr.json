@@ -1,0 +1,682 @@
+{
+  "name": "libSceAmpr",
+  "label": "Ampr",
+  "category": "System utilities",
+  "implemented": 127,
+  "inert": 4,
+  "stub": 3,
+  "total": 134,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "_Cnd_init_with_name_nid_postfix",
+      "nid": "5U6dfmky9Ac",
+      "state": "implemented"
+    },
+    {
+      "name": "_Lock_shared_ptr_spin_lock_nid_postfix",
+      "nid": "1PS3L2JqCaY",
+      "state": "implemented"
+    },
+    {
+      "name": "_Unlock_shared_ptr_spin_lock_nid_postfix",
+      "nid": "gZh2VpC8-wg",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmPKcSE__nid_postfix",
+      "nid": "Bu6ZdQrSG2o",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5__nid_postfix",
+      "nid": "wvFdEwBfpQI",
+      "state": "stub"
+    },
+    {
+      "name": "__cxa_call_unexpected_nid_postfix",
+      "nid": "W8u2tlSvRrY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferAllocatePaForPrt",
+      "nid": "d3lKWPM6odc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferConstructor",
+      "nid": "EDq5bqCqYpA",
+      "state": "inert"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferDestructor",
+      "nid": "pvUFDOHilnE",
+      "state": "inert"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferMap",
+      "nid": "JEVYGhDc97M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferMapAsPrt",
+      "nid": "ZJCgt+aPHAU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferMapDirect",
+      "nid": "8TBE+9XCZbI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferMapDirectWithGpuMaskId",
+      "nid": "kOfZlhbVAkc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferMapWithGpuMaskId",
+      "nid": "ojBkmG7+CgE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferModifyMtypeProtect",
+      "nid": "rKq9nG+L9Xo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferModifyMtypeProtectWithGpuMaskId",
+      "nid": "ie-UuLGbYXo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferModifyProtect",
+      "nid": "joNORJjCFhg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferModifyProtectWithGpuMaskId",
+      "nid": "spjcxyNX-KE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferMultiMap",
+      "nid": "j2C9no3P4Nw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferMultiMapWithGpuMaskId",
+      "nid": "Qyz8VbxnaII",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferRemap",
+      "nid": "ijvRMHfwwjc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferRemapIntoPrt",
+      "nid": "0Xo9g4goDXU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferRemapWithGpuMaskId",
+      "nid": "Fo0Oaoqukg4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferUnmap",
+      "nid": "M-VFI2DJWQA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmCommandBufferUnmapToPrt",
+      "nid": "3A2X6OCHtnA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmGetUsageStatsData",
+      "nid": "KqiWXLgCVe0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmGetVirtualAddressRanges",
+      "nid": "wkQR9+xTFKY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmGiveDirectMemory",
+      "nid": "Q07J7XpvhrU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeAllocatePaForPrt",
+      "nid": "2yYv9QWB3hU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeMap",
+      "nid": "6hbai6KIXkk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeMapAsPrt",
+      "nid": "4SSJ+cn+Pvg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeMapDirect",
+      "nid": "ZFDZoN9IbVU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeMapDirectWithGpuMaskId",
+      "nid": "KUjtdPZJo5I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeMapWithGpuMaskId",
+      "nid": "m+fYyX8oFqw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeModifyMtypeProtect",
+      "nid": "Ok2Nxka7qI4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeModifyMtypeProtectWithGpuMaskId",
+      "nid": "c5D63Y35GjI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeModifyProtect",
+      "nid": "JPQagYw-y+4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeModifyProtectWithGpuMaskId",
+      "nid": "gdSoJ6dvztU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeMultiMap",
+      "nid": "U6PxwrRchl4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeMultiMapWithGpuMaskId",
+      "nid": "uGs4yyYTASM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeRemap",
+      "nid": "8sFq5s8eHnQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeRemapWithGpuMaskId",
+      "nid": "b50TWwRmzu8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmMeasureAmmCommandSizeUnmap",
+      "nid": "Ayg6PIon2wA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmSetPageTablePoolOccupancyNotificationThreshold",
+      "nid": "touqMEt6qXQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAmprAmmSubmitCommandBuffer",
+      "nid": "lwS-7y3jcBI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmSubmitCommandBuffer2",
+      "nid": "OJf3vCckPAM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmSubmitCommandBuffer3",
+      "nid": "NnKhlMJtIsI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAmmWaitCommandBufferCompletion",
+      "nid": "HXymib4T8gc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAprCommandBufferConstructor",
+      "nid": "a8uLzYY--tM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAprCommandBufferDestructor",
+      "nid": "Qs1xtplKo0U",
+      "state": "inert"
+    },
+    {
+      "name": "sceAmprAprCommandBufferMapBegin",
+      "nid": "Eul7AGEpjLo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAprCommandBufferMapDirectBegin",
+      "nid": "bFEs0Gs6D2A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAprCommandBufferMapEnd",
+      "nid": "X169CE6G3Y4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAprCommandBufferReadFile",
+      "nid": "mQ16-QdKv7k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAprCommandBufferReadFileGather",
+      "nid": "mZSbNJVJpV8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAprCommandBufferReadFileGatherScatter",
+      "nid": "BVmR1H8l+XI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAprCommandBufferReadFileScatter",
+      "nid": "Jg-AgkdJHkk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAprCommandBufferResetGatherScatterState",
+      "nid": "YPxkUDhgoNI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprAsctimeS",
+      "nid": "4etpMSf9h2k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferClearBuffer",
+      "nid": "ULvXMDz56po",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferConstructMarker",
+      "nid": "4UkZbYKVF7c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferConstructNop",
+      "nid": "GmOguNIsuKk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferConstructor",
+      "nid": "8aI7R7WaOlc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferDestructor",
+      "nid": "GuchCTefuZw",
+      "state": "inert"
+    },
+    {
+      "name": "sceAmprCommandBufferGetBufferBaseAddress",
+      "nid": "RPCAhx-aabE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferGetCurrentOffset",
+      "nid": "GnxKOHEawhk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferGetNumCommands",
+      "nid": "gzndltBEzWc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferGetSize",
+      "nid": "tZDDEo2tE5k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferGetType",
+      "nid": "VEDMaQmJZng",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferNop",
+      "nid": "tNn5WBkta60",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferNopWithData",
+      "nid": "pFQ9UHpO52s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferPopMarker",
+      "nid": "mv0O8Zg0woU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferPushMarker",
+      "nid": "dXPaz65HNmk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferPushMarkerWithColor",
+      "nid": "f12ObAMEi9A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferReset",
+      "nid": "baQO9ez2gL4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferSetBuffer",
+      "nid": "N-FSPA4S3nI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferSetMarker",
+      "nid": "4quckD2y7Pg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferSetMarkerWithColor",
+      "nid": "sWbST0oQKsc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWaitOnAddress",
+      "nid": "V7GQTEeUfhw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWaitOnAddress_04_00",
+      "nid": "DLfoNxTFNVk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWaitOnCounter",
+      "nid": "FrCNL9TQ8ms",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWaitOnCounter_04_00",
+      "nid": "cQb8Zr8Q0Y0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWriteAddressFromCounterOnCompletion",
+      "nid": "gSF5OsXdfIg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWriteAddressFromCounterPairOnCompletion",
+      "nid": "ZLWtNUP6R5E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWriteAddressFromCounterPair_04_00",
+      "nid": "enZm-6GjWqw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWriteAddressFromCounter_04_00",
+      "nid": "t4ExS+SwLjs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWriteAddressFromTimeCounterOnCompletion",
+      "nid": "FI2JD0jAHCs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWriteAddressFromTimeCounter_04_00",
+      "nid": "bt3LHR9xjK4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWriteAddressOnCompletion",
+      "nid": "sJXyWHjP-F8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWriteAddress_04_00",
+      "nid": "j0+3uJMxYJY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWriteCounterOnCompletion",
+      "nid": "3wn42MWTzTs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWriteCounter_04_00",
+      "nid": "jK+yuYCI7MA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWriteKernelEventQueueOnCompletion",
+      "nid": "o67gODLFpls",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCommandBufferWriteKernelEventQueue_04_00",
+      "nid": "H896Pt-yB4I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprCtimeS",
+      "nid": "XID4Vpci1PE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprFltrounds",
+      "nid": "qXGnRyX9QBQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprFpclassifyd",
+      "nid": "uZAvSP3PND4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprIgnoreHandlerS",
+      "nid": "9c1cTy7+xUE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprLocaleconv",
+      "nid": "VqR-fxf6glw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMbstowcs",
+      "nid": "fncFw-h+M5k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeMapBegin",
+      "nid": "kdFImtTD0hc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeMapDirectBegin",
+      "nid": "qvbdJc7bG+s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeMapEnd",
+      "nid": "iwTNhyaemnw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeNop",
+      "nid": "NNIZ-FMyz3M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeNopWithData",
+      "nid": "Xp85BP3+BBI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizePopMarker",
+      "nid": "pbnNnahE8vk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizePushMarker",
+      "nid": "0RdLmAh7WVo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizePushMarkerWithColor",
+      "nid": "3OfeY4pzDV0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeReadFile",
+      "nid": "vWU-odnS+fU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeReadFileGather",
+      "nid": "qesF88X4DRg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeReadFileGatherScatter",
+      "nid": "DXmgc5op8Yw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeReadFileScatter",
+      "nid": "7nXGDGMXSqo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeResetGatherScatterState",
+      "nid": "rddQYXM0CjM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeSetMarker",
+      "nid": "VGkEj4d6-Kg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeSetMarkerWithColor",
+      "nid": "tmfr97+ED5I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeWaitOnAddress",
+      "nid": "jIlc4p5dSD0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeWaitOnAddress_04_00",
+      "nid": "0BMj1hgG+kE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeWaitOnCounter",
+      "nid": "6jLL5BIZ88U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeWaitOnCounter_04_00",
+      "nid": "ClnsFLLLcss",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeWriteAddressFromCounterPair_04_00",
+      "nid": "2Hw8gjMdwSY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeWriteAddressFromCounter_04_00",
+      "nid": "JYd9g9L+TmE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeWriteAddressFromTimeCounter_04_00",
+      "nid": "gAtc79UTt5E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeWriteAddressOnCompletion",
+      "nid": "C+IEj+BsAFM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeWriteAddress_04_00",
+      "nid": "4fgtGfXDrFc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeWriteCounterOnCompletion",
+      "nid": "4muPEJ-x5N8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeWriteCounter_04_00",
+      "nid": "I-Qm+MEso5c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeWriteKernelEventQueueOnCompletion",
+      "nid": "Zi3dBUjgyXI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprMeasureCommandSizeWriteKernelEventQueue_04_00",
+      "nid": "sSAUCCU1dv4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprSetConstraintHandlerS",
+      "nid": "rj0jxAEljMM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprSinh",
+      "nid": "vsqv1q8WA7E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprStrtokS",
+      "nid": "99KlTZDskW4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprUdivti3",
+      "nid": "Ho2fopN-KBc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprWcscpyS",
+      "nid": "bcPjyEn9yBI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAmprWcstombsS",
+      "nid": "fOyXFmzdTGg",
+      "state": "implemented"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "name": "libScePsml_debug",
+  "label": "Psml_debug",
+  "category": "System utilities",
+  "implemented": 12,
+  "inert": 0,
+  "stub": 18,
+  "total": 30,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePsmlMfsr2CreateContext",
+      "nid": "m9JLPc3wOQw",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsr2CreateSharedResources",
+      "nid": "gMduXCLYrNg",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsr2GetContextInitRequirement",
+      "nid": "5z2gBlqxJ+0",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsr2GetDispatchPackets",
+      "nid": "lrJwpLjKXRc",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsr2GetDispatchPacketsSizeInDwords",
+      "nid": "ZLL31lzzxr4",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsr2GetSharedResourcesInitRequirement",
+      "nid": "1ic5q-kdOsc",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsr2Init",
+      "nid": "o+NM86gEwFE",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsr2ReleaseContext",
+      "nid": "Kyy1baXgaVU",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsr2ReleaseSharedResources",
+      "nid": "0GAw7SmkwII",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsrCreateContext1100",
+      "nid": "fccGInHrj8A",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsrCreateContext1300",
+      "nid": "kLF7WtQ1-Dg",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsrCreateContext800M3_2",
+      "nid": "gxv3i+MTEzU",
+      "state": "implemented"
+    },
+    {
+      "name": "scePsmlMfsrCreateSharedResources",
+      "nid": "eWoKNeB6V-k",
+      "state": "implemented"
+    },
+    {
+      "name": "scePsmlMfsrEnableQuality8K",
+      "nid": "lcZD9tJraAw",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsrEnableSpecularAA",
+      "nid": "xNZM9Y5lf-M",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsrGetContextBufferRequirement1100",
+      "nid": "VGjrQa-WqdU",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsrGetContextBufferRequirement800M3_2",
+      "nid": "ArakEpzsZo0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePsmlMfsrGetDispatchMfsrPacket1000",
+      "nid": "s2psNHUIdjk",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsrGetDispatchMfsrPacket1100",
+      "nid": "94iBp3KvIuI",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsrGetDispatchMfsrPacket1300",
+      "nid": "DDVUyPyYHTA",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsrGetDispatchMfsrPacket900",
+      "nid": "RUNLFro+qok",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmlMfsrGetDispatchMfsrPacketSizeInDwords",
+      "nid": "AHalTX9wFZY",
+      "state": "implemented"
+    },
+    {
+      "name": "scePsmlMfsrGetMipmapBias",
+      "nid": "GHna9-DvnUk",
+      "state": "implemented"
+    },
+    {
+      "name": "scePsmlMfsrGetSharedResourcesInitRequirement",
+      "nid": "+2KpvixvL6E",
+      "state": "implemented"
+    },
+    {
+      "name": "scePsmlMfsrInit",
+      "nid": "3WVD91e12ZQ",
+      "state": "implemented"
+    },
+    {
+      "name": "scePsmlMfsrIsCaptureInProgress",
+      "nid": "LXq+6mIxpCw",
+      "state": "implemented"
+    },
+    {
+      "name": "scePsmlMfsrReleaseContext",
+      "nid": "JaLBe0P3jSU",
+      "state": "implemented"
+    },
+    {
+      "name": "scePsmlMfsrReleaseSharedResources",
+      "nid": "jEevBXmagOQ",
+      "state": "implemented"
+    },
+    {
+      "name": "scePsmlMfsrRequestCapture",
+      "nid": "GJY0MvuTcs8",
+      "state": "implemented"
+    },
+    {
+      "name": "scePsmlMfsrSelectConfig",
+      "nid": "FSGaTQze0UY",
+      "state": "implemented"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "libSceVrSetupDialog",
+  "label": "VrSetupDialog",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVrSetupDialogClose",
+      "nid": "ZeYpKhsLfG0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrSetupDialogGetResult",
+      "nid": "-umGRHNUiZU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrSetupDialogGetStatus",
+      "nid": "qRUACYyUNFA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrSetupDialogInitialize",
+      "nid": "sTFqbfXJGG4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrSetupDialogOpen",
+      "nid": "loE6cNuCUtk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrSetupDialogTerminate",
+      "nid": "zdgiIPRqET4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrSetupDialogUpdateStatus",
+      "nid": "KHfpjj9Pucg",
+      "state": "implemented"
+    }
+  ]
+}

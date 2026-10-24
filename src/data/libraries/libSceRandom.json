@@ -1,0 +1,17 @@
+{
+  "name": "libSceRandom",
+  "label": "Random",
+  "category": "System utilities",
+  "implemented": 1,
+  "inert": 0,
+  "stub": 0,
+  "total": 1,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceRandomGetRandomNumber",
+      "nid": "PI7jIZj4pcE",
+      "state": "implemented"
+    }
+  ]
+}

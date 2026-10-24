@@ -1,0 +1,37 @@
+{
+  "name": "libSceVideoNativeExtEssential",
+  "label": "VideoNativeExtEssential",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 5,
+  "total": 5,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVideoNativeExtEssential_CreateDecInstance",
+      "nid": "GHib0Wf+ny0",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoNativeExtEssential_DestroyDecInstance",
+      "nid": "NBK1rc2pqGg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoNativeExtEssential_Finalize",
+      "nid": "fbgiBYu6Q44",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoNativeExtEssential_Initialize",
+      "nid": "6Jy-q6ADWrg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoNativeExtEssential_IsInit",
+      "nid": "4g9JiF+D2cE",
+      "state": "stub"
+    }
+  ]
+}

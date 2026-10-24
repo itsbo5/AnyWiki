@@ -1,0 +1,212 @@
+{
+  "name": "libSceUpdateService",
+  "label": "UpdateService",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 40,
+  "total": 40,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceUpsrvGetCompletedTaskId",
+      "nid": "TvLOxBx5J-Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvGetRebootFlag",
+      "nid": "rb+XR5iVTV0",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvGetSystemExUpdateTaskState",
+      "nid": "TIr3rnF-1RA",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvInitialize",
+      "nid": "IOC0zyNzTM0",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvPostErrorLog",
+      "nid": "1wMKF3L2PXU",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvResumePausedTask",
+      "nid": "oVgyCJCrGcY",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvSetFakeVersion",
+      "nid": "lOitg3BrGSw",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvStartUpdateSession",
+      "nid": "Bh-+3oc6euE",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvSwitchSystemExBank",
+      "nid": "p9bBXbQwjqY",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvSwitchSystemExBankWithoutVerify",
+      "nid": "jPd1vzuldfM",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvTerminate",
+      "nid": "z6eXJFh2VAE",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateCancelBDUpdate",
+      "nid": "7krELEpl+Y0",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateCheckCancel",
+      "nid": "Ayjio+cfSFA",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateCheckCreateHandler",
+      "nid": "H+3rEYCIICE",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateCheckDestroyHandler",
+      "nid": "CweVdHVfxDQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateCheckDoCheckSystem",
+      "nid": "aosLBGaeOtw",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateCheckDoCheckSystemForDevKit",
+      "nid": "CoTbY7roruU",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateCheckDoCheckSystemForSettings",
+      "nid": "fh09rY0ltb8",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateCheckDoCheckSystemWithPupInfo",
+      "nid": "NqCD8n5dq+Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateCreateUpdateTask",
+      "nid": "glX67PWaF-g",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateDestroyUpdateTask",
+      "nid": "aYBAAH7Gfws",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateDoCheckBootUpdate",
+      "nid": "dsC4xos42zM",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateDoUpdateSystemEx",
+      "nid": "sYSfAewkXkU",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateDoUpdateWithEntitlement",
+      "nid": "pMqmEivov4M",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateDoUpdateWithPupInfo",
+      "nid": "z3HMx6djzdM",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateDoUpdateWithPupPath2",
+      "nid": "dtV1Zqx4jU0",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateGetBetaAgreementUrl",
+      "nid": "WhilT63upyA",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateGetEulaDisplay",
+      "nid": "2CeEvU+2VzY",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateGetEulaStr",
+      "nid": "gW9NKRTJrvE",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateGetEulaStrLen",
+      "nid": "M7FIVsvMulQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateGetFeatureListUrl",
+      "nid": "d1dupKoGH1Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateGetFeatureListUrlForSystemExUpdate",
+      "nid": "8gps121HPSU",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateGetFeatureListUrlForUpdate",
+      "nid": "EZqxQRb1foc",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateGetImageWritingProgress",
+      "nid": "eU-ln60CLMs",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateGetProgress",
+      "nid": "IVd2CCSrXzY",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateGetUpdateTaskInfo",
+      "nid": "b-w9zKxBi7E",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateGetUpdateTaskMgrInfo",
+      "nid": "UrN6mFAbgbA",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateSetEulaAccept",
+      "nid": "Ycun7TYB2+Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvUpdateStartUpdateTask",
+      "nid": "W+-F1p6av2g",
+      "state": "stub"
+    },
+    {
+      "name": "sceUpsrvVerifySystemExBank",
+      "nid": "-3KN5+5cUf8",
+      "state": "stub"
+    }
+  ]
+}

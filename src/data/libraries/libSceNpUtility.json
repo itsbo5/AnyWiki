@@ -1,0 +1,492 @@
+{
+  "name": "libSceNpUtility",
+  "label": "NpUtility",
+  "category": "Network and services",
+  "implemented": 15,
+  "inert": 4,
+  "stub": 77,
+  "total": 96,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpAppInfoIntAbortRequest",
+      "nid": "Y797Sw9-jqY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppInfoIntCheckAvailability",
+      "nid": "UUhI+IUMrcE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppInfoIntCheckAvailabilityA",
+      "nid": "ASonnwltwEk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppInfoIntCheckAvailabilityAll",
+      "nid": "jXx0+2Wd1q8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppInfoIntCheckAvailabilityAllA",
+      "nid": "f1OwQ7jdqn0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppInfoIntCheckServiceAvailability",
+      "nid": "1mfDBl40Dms",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppInfoIntCheckServiceAvailabilityA",
+      "nid": "XAmDowAQhFs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppInfoIntCheckServiceAvailabilityAll",
+      "nid": "BaihFa8LBw0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppInfoIntCheckServiceAvailabilityAllA",
+      "nid": "JcqdKidhuK0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppInfoIntCreateRequest",
+      "nid": "cXpyESo49ko",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppInfoIntDestroyRequest",
+      "nid": "pRgpBtHx8P4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppInfoIntFinalize",
+      "nid": "s9+zoKE8cBA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppInfoIntInitialize",
+      "nid": "l6Dl+2zlua0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLink2IntAbortRequest",
+      "nid": "OHCO6MMFvdQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLink2IntCreateRequest",
+      "nid": "B6IXdHGBL-g",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLink2IntDestroyRequest",
+      "nid": "0H0JBpVp03o",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLink2IntFinalize",
+      "nid": "FWonlDV6d5k",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLink2IntGetCompatibleTitleIdList",
+      "nid": "PdYx470F6B8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLink2IntGetCompatibleTitleIdNum",
+      "nid": "tesM6ViaX6M",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLink2IntInitialize",
+      "nid": "DK6xpBP1gxw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLinkIntAbortRequest",
+      "nid": "AQV4A8YFx44",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLinkIntCreateRequest",
+      "nid": "9YhwG4DhwtU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLinkIntDestroyRequest",
+      "nid": "-8Wn4YKZLMM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLinkIntFinalize",
+      "nid": "TnQqJsyek5o",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLinkIntGetCompatibleTitleIdList",
+      "nid": "GB7Fhk5SUaA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLinkIntGetCompatibleTitleIdNum",
+      "nid": "X4elOoiAtB4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpAppLaunchLinkIntInitialize",
+      "nid": "1F4yweQoqgg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpBandwidthTestAbort",
+      "nid": "kvdMF48mB3Y",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpBandwidthTestGetStatus",
+      "nid": "BYIZGKm6bO4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpBandwidthTestInitStart",
+      "nid": "jktww3yJXnc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpBandwidthTestInitStartDownload",
+      "nid": "hqzi1IHdQQQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpBandwidthTestInitStartUpload",
+      "nid": "mA0zsbqm+kA",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpBandwidthTestShutdown",
+      "nid": "pLr1fEQS1z8",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpBandwidthTestShutdownWithDetailedInfo",
+      "nid": "tyArYWj+1QE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupAbortRequest",
+      "nid": "eYz4v5Uek9U",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupCreateAsyncRequest",
+      "nid": "JA4+sS39GMs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupCreateRequest",
+      "nid": "iQr9UxPHUFs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLookupCreateTitleCtx",
+      "nid": "8533Q+LU7EQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLookupCreateTitleCtxA",
+      "nid": "vT9xhqPO6+0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupDeleteRequest",
+      "nid": "wLaxchvEEnk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLookupDeleteTitleCtx",
+      "nid": "mtqDK9zkoIE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLookupNetAbortRequest",
+      "nid": "1O96muPzhgU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetCensorComment",
+      "nid": "N0iF180VjGk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetConvertJidToNpId",
+      "nid": "UI5t6Rx6s5I",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetConvertNpIdToJid",
+      "nid": "ieROYX4vspk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetCreateRequest",
+      "nid": "KUIRsku7EPk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetCreateTitleCtx",
+      "nid": "8DPEdJh9RkE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetDeleteRequest",
+      "nid": "HL-venrRcnQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetDeleteTitleCtx",
+      "nid": "dxpUx7z9StY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetInit",
+      "nid": "zVZE+fAhgFY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetInitWithFunctionPointer",
+      "nid": "DiUk6-mq--0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetInitWithMemoryPool",
+      "nid": "cpnwZeVIq8E",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetIsInit",
+      "nid": "ZXlTj9RRCFo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetNpId",
+      "nid": "2nEVmFiV6OI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetSanitizeComment",
+      "nid": "jJH2P7KA4XU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetSetTimeout",
+      "nid": "NWtf77WCXJs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNetTerm",
+      "nid": "Dbd5BY0QjG0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupNpId",
+      "nid": "T6tnM1Uti4g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpLookupPollAsync",
+      "nid": "V4EVrruHuy8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupSetTimeout",
+      "nid": "0MV72WO7V34",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpLookupWaitAsync",
+      "nid": "YX9dAus6baE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceChecker2IntAbortRequest",
+      "nid": "Kq+ftR9LHlE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceChecker2IntCreateRequest",
+      "nid": "IG1Kd+k6U3s",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceChecker2IntDestroyRequest",
+      "nid": "hBsBswrAiGM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceChecker2IntFinalize",
+      "nid": "cvZrmlSlwn8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceChecker2IntGetServiceAvailability",
+      "nid": "aUgLCb3pSOo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceChecker2IntGetServiceAvailabilityA",
+      "nid": "Yp2yK5YXb78",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceChecker2IntInitialize",
+      "nid": "-Afi-JoRZ-U",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceChecker2IntIsSetServiceType",
+      "nid": "ukBq62OPAYA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceCheckerIntAbortRequest",
+      "nid": "waeEzwwYfZY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceCheckerIntCreateRequest",
+      "nid": "YLXt-vGw4Kg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceCheckerIntDestroyRequest",
+      "nid": "85ZWdzWYgas",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceCheckerIntFinalize",
+      "nid": "LSQ3xApEoxY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceCheckerIntGetAvailability",
+      "nid": "wIX00Brskoc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceCheckerIntGetAvailabilityList",
+      "nid": "MjOFdwXYRKY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceCheckerIntInitialize",
+      "nid": "rT9Yk55JGho",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpServiceCheckerIntIsCached",
+      "nid": "az7fl9snOqw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTitleMetadataIntAbortRequest",
+      "nid": "rei4kjOSiyc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTitleMetadataIntCreateRequest",
+      "nid": "A1XQslLAA-Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTitleMetadataIntDeleteRequest",
+      "nid": "tynva-9jrtI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTitleMetadataIntGetInfo",
+      "nid": "-McDhX8tnWE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTitleMetadataIntGetNpTitleId",
+      "nid": "LXHkrCV453o",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilityInit",
+      "nid": "W6iWw8aUQtA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpUtilityTerm",
+      "nid": "M5Jyo9TKYPI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWordFilterAbortRequest",
+      "nid": "rAOOqDAxBIk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWordFilterCensorComment",
+      "nid": "1dMndqL-QgE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWordFilterCreateAsyncRequest",
+      "nid": "IEB+vgVoQbw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWordFilterCreateRequest",
+      "nid": "iCq5xW5KQW4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWordFilterCreateTitleCtx",
+      "nid": "r9BgI0PfJZg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWordFilterCreateTitleCtxA",
+      "nid": "6p9jvljuvsw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWordFilterDeleteRequest",
+      "nid": "PYFS1H70bDs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWordFilterDeleteTitleCtx",
+      "nid": "t0P5z5yuFPA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWordFilterPollAsync",
+      "nid": "ur5SShyG0dk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWordFilterSanitizeComment",
+      "nid": "Jj4mkpFO2gE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWordFilterSetTimeout",
+      "nid": "Fa4dVWgmffk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWordFilterWaitAsync",
+      "nid": "87ivWj5yKzg",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,852 @@
+{
+  "name": "libSceHmd",
+  "label": "Hmd",
+  "category": "System utilities",
+  "implemented": 13,
+  "inert": 13,
+  "stub": 142,
+  "total": 168,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceHmdClose",
+      "nid": "6biw1XHTSqQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdDistortionGet2dVrCommand",
+      "nid": "gEokC+OGI8g",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdDistortionGetCompoundEyeCorrectionCommand",
+      "nid": "ER2ar8yUmbk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdDistortionGetCorrectionCommand",
+      "nid": "HT8qWOTOGmo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdDistortionGetWideNearCorrectionCommand",
+      "nid": "Vkkhy8RFIuk",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdDistortionGetWorkMemoryAlign",
+      "nid": "1cS7W5J-v3k",
+      "state": "inert"
+    },
+    {
+      "name": "sceHmdDistortionGetWorkMemorySize",
+      "nid": "36xDKk+Hw7o",
+      "state": "inert"
+    },
+    {
+      "name": "sceHmdDistortionInitialize",
+      "nid": "ao8NZ+FRYJE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdDistortionSetOutputMinColor",
+      "nid": "8A4T5ahi790",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdGet2DEyeOffset",
+      "nid": "BWY-qKM5hxE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdGet2dVrCommand",
+      "nid": "za4xJfzCBcM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdGetAssyError",
+      "nid": "Yx+CuF11D3Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdGetDeviceInformation",
+      "nid": "thDt9upZlp8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdGetDeviceInformationByHandle",
+      "nid": "1pxQfif1rkE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdGetDistortionCorrectionCommand",
+      "nid": "grCYks4m8Jw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdGetDistortionParams",
+      "nid": "mP2ZcYmDg-o",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdGetDistortionWorkMemoryAlign",
+      "nid": "8Ick-e6cDVY",
+      "state": "inert"
+    },
+    {
+      "name": "sceHmdGetDistortionWorkMemorySize",
+      "nid": "D5JfdpJKvXk",
+      "state": "inert"
+    },
+    {
+      "name": "sceHmdGetFieldOfView",
+      "nid": "NPQwYFqi0bs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdGetInertialSensorData",
+      "nid": "rU3HK9Q0r8o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdGetWideNearDistortionCorrectionCommand",
+      "nid": "goi5ASvH-V8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInitialize",
+      "nid": "K4KnH0QkT2c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdInitialize315",
+      "nid": "s-J66ar9g50",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdInternal3dAudioClose",
+      "nid": "riPQfAdebHk",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternal3dAudioOpen",
+      "nid": "wHnZU1qtiqw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternal3dAudioSendData",
+      "nid": "NuEjeN8WCBA",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalAnotherScreenClose",
+      "nid": "QasPTUPWVZE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalAnotherScreenGetAudioStatus",
+      "nid": "Wr5KVtyVDG0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalAnotherScreenGetFadeState",
+      "nid": "whRxl6Hhrzg",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalAnotherScreenGetVideoStatus",
+      "nid": "w8BEUsIYn8w",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalAnotherScreenOpen",
+      "nid": "0cQDAbkOt2A",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalAnotherScreenSendAudio",
+      "nid": "Asczi8gw1NM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalAnotherScreenSendVideo",
+      "nid": "6+v7m1vwE+0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalAnotherScreenSetFadeAndSwitch",
+      "nid": "E0BLvy57IiQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalBindDeviceWithUserId",
+      "nid": "UTqrWB+1+SU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalCheckDeviceModelMk3",
+      "nid": "ego1YdqNGpI",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalCheckS3dPassModeAvailable",
+      "nid": "WR7XsLdjcqQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalCrashReportCancel",
+      "nid": "eMI1Hq+NEwY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalCrashReportClose",
+      "nid": "dI3StPLQlMM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalCrashReportOpen",
+      "nid": "lqPT-Bf1s4I",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalCrashReportReadData",
+      "nid": "QxhJs6zHUmU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalCrashReportReadDataSize",
+      "nid": "A2jWOLPzHHE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalCreateSharedMemory",
+      "nid": "E9scVxt0DNg",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalDfuCheckAfterPvt",
+      "nid": "6RclvsKxr3I",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalDfuCheckPartialUpdateAvailable",
+      "nid": "cE99PJR6b8w",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalDfuClose",
+      "nid": "SuE90Qscg0s",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalDfuGetStatus",
+      "nid": "5f-6lp7L5cY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalDfuOpen",
+      "nid": "dv2RqD7ZBd4",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalDfuReset",
+      "nid": "pN0HjRU86Jo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalDfuSend",
+      "nid": "mdc++HCXSsQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalDfuSendSize",
+      "nid": "gjyqnphjGZE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalDfuSetMode",
+      "nid": "bl4MkWNLxKs",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalDfuStart",
+      "nid": "a1LmvXhZ6TM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalEventInitialize",
+      "nid": "+UzzSnc0z9A",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetBrightness",
+      "nid": "uQc9P8Hrr6U",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetCrashDumpInfo",
+      "nid": "nK1g+MwMV10",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetDebugMode",
+      "nid": "L5WZgOTw41Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetDebugSocialScreenMode",
+      "nid": "3w8SkMfCHY0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetDebugTextMode",
+      "nid": "1Xmb76MHXug",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetDefaultLedData",
+      "nid": "S0ITgPRkfUg",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetDemoMode",
+      "nid": "mxjolbeBa78",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetDeviceInformation",
+      "nid": "RFIi20Wp9j0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetDeviceInformationByHandle",
+      "nid": "P04LQJQZ43Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetDeviceStatus",
+      "nid": "PPCqsD8B5uM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdInternalGetEyeStatus",
+      "nid": "-u82z1UhOq4",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetHmuOpticalParam",
+      "nid": "iINSFzCIaB8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetHmuPowerStatusForDebug",
+      "nid": "Csuvq2MMXHU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetHmuSerialNumber",
+      "nid": "UhFPniZvm8U",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetIPD",
+      "nid": "9exeDpk7JU8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetIpdSettingEnableForSystemService",
+      "nid": "yNtYRsxZ6-A",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetPUSerialNumber",
+      "nid": "3jcyx7XOm7A",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetPUVersion",
+      "nid": "+PDyXnclP5w",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetPuBuildNumber",
+      "nid": "EKn+IFVsz0M",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetPuPositionParam",
+      "nid": "AxQ6HtktYfQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetPuRevision",
+      "nid": "ynKv9QCSbto",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetRequiredPUPVersion",
+      "nid": "67q17ERGBuw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetStatusReport",
+      "nid": "uGyN1CkvwYU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetTv4kCapability",
+      "nid": "p9lSvZujLuo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetVirtualDisplayDepth",
+      "nid": "-Z+-9u98m9o",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetVirtualDisplayHeight",
+      "nid": "df+b0FQnnVQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetVirtualDisplaySize",
+      "nid": "i6yROd9ygJs",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalGetVr2dData",
+      "nid": "Aajiktl6JXU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalIsCommonDlgMiniAppVr2d",
+      "nid": "GwFVF2KkIT4",
+      "state": "inert"
+    },
+    {
+      "name": "sceHmdInternalIsCommonDlgVr2d",
+      "nid": "LWQpWHOSUvk",
+      "state": "inert"
+    },
+    {
+      "name": "sceHmdInternalIsGameVr2d",
+      "nid": "YiIVBPLxmfE",
+      "state": "inert"
+    },
+    {
+      "name": "sceHmdInternalIsMiniAppVr2d",
+      "nid": "LMlWs+oKHTg",
+      "state": "inert"
+    },
+    {
+      "name": "sceHmdInternalMapSharedMemory",
+      "nid": "nBv4CKUGX0Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalMirroringModeSetAspect",
+      "nid": "4hTD8I3CyAk",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalMirroringModeSetAspectDebug",
+      "nid": "EJwPtSSZykY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalMmapGetCount",
+      "nid": "r7f7M5q3snU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalMmapGetModeId",
+      "nid": "gCjTEtEsOOw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalMmapGetSensorCalibrationData",
+      "nid": "HAr740Mt9Hs",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalMmapIsConnect",
+      "nid": "1PNiQR-7L6k",
+      "state": "inert"
+    },
+    {
+      "name": "sceHmdInternalPushVr2dData",
+      "nid": "9-jaAXUNG-A",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalRegisterEventCallback",
+      "nid": "1gkbLH5+kxU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalResetInertialSensor",
+      "nid": "6kHBllapJas",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalResetLedForVrTracker",
+      "nid": "k1W6RPkd0mc",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalResetLedForVsh",
+      "nid": "dp1wu22jSGc",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSeparateModeClose",
+      "nid": "d2TeoKeqM5U",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSeparateModeGetAudioStatus",
+      "nid": "WxsnAsjPF7Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSeparateModeGetVideoStatus",
+      "nid": "eOOeG9SpEuc",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSeparateModeOpen",
+      "nid": "gA4Xnn+NSGk",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSeparateModeSendAudio",
+      "nid": "stQ7AsondmE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSeparateModeSendVideo",
+      "nid": "jfnS-OoDayM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetBrightness",
+      "nid": "roHN4ml+tB8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetCrashReportCommand",
+      "nid": "0z2qLqedQH0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetDebugGpo",
+      "nid": "xhx5rVZEpnw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetDebugMode",
+      "nid": "e7laRxRGCHc",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetDebugSocialScreenMode",
+      "nid": "CRyJ7Q-ap3g",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetDebugTextMode",
+      "nid": "dG4XPW4juU4",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetDefaultLedData",
+      "nid": "rAXmGoO-VmE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetDemoMode",
+      "nid": "lu9I7jnUvWQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetDeviceConnection",
+      "nid": "hyATMTuQSoQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetForcedCrash",
+      "nid": "c4mSi64bXUw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetHmuPowerControl",
+      "nid": "U9kPT4g1mFE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetHmuPowerControlForDebug",
+      "nid": "dX-MVpXIPwQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetIPD",
+      "nid": "4KIjvAf8PCA",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetIpdSettingEnableForSystemService",
+      "nid": "NbxTfUKO184",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetLedOn",
+      "nid": "NnRKjf+hxW4",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetM2LedBrightness",
+      "nid": "4AP0X9qGhqw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetM2LedOn",
+      "nid": "Mzzz2HPWM+8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetPortConnection",
+      "nid": "LkBkse9Pit0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetPortStatus",
+      "nid": "v243mvYg0Y0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetS3dPassMode",
+      "nid": "EwXvkZpo9Go",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetSidetone",
+      "nid": "g3DKNOy1tYw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetUserType",
+      "nid": "mjMsl838XM8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetVRMode",
+      "nid": "9z8Lc64NF1c",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetVirtualDisplayDepth",
+      "nid": "8IS0KLkDNQY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetVirtualDisplayHeight",
+      "nid": "afhK5KcJOJY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSetVirtualDisplaySize",
+      "nid": "+zPvzIiB+BU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSocialScreenGetFadeState",
+      "nid": "s5EqYh5kbwM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSocialScreenSetFadeAndSwitch",
+      "nid": "a1LMFZtK9b0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdInternalSocialScreenSetOutput",
+      "nid": "-6FjKlMA+Yc",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdOpen",
+      "nid": "d2g5Ij7EUzo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHmdReprojectionAddDisplayBuffer",
+      "nid": "NTIbBpSH9ik",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionClearUserEventEnd",
+      "nid": "94+Ggm38KCg",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionClearUserEventStart",
+      "nid": "mdyFbaJj66M",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionDebugGetLastInfo",
+      "nid": "MdV0akauNow",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionDebugGetLastInfoMultilayer",
+      "nid": "ymiwVjPB5+k",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionFinalize",
+      "nid": "ZrV5YIqD09I",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionFinalizeCapture",
+      "nid": "utHD2Ab-Ixo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionInitialize",
+      "nid": "OuygGEWkins",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionInitializeCapture",
+      "nid": "BTrQnC6fcAk",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionQueryGarlicBuffAlign",
+      "nid": "TkcANcGM0s8",
+      "state": "inert"
+    },
+    {
+      "name": "sceHmdReprojectionQueryGarlicBuffSize",
+      "nid": "z0KtN1vqF2E",
+      "state": "inert"
+    },
+    {
+      "name": "sceHmdReprojectionQueryOnionBuffAlign",
+      "nid": "IWybWbR-xvA",
+      "state": "inert"
+    },
+    {
+      "name": "sceHmdReprojectionQueryOnionBuffSize",
+      "nid": "kLUAkN6a1e8",
+      "state": "inert"
+    },
+    {
+      "name": "sceHmdReprojectionSetCallback",
+      "nid": "6CRWGc-evO4",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionSetDisplayBuffers",
+      "nid": "E+dPfjeQLHI",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionSetOutputMinColor",
+      "nid": "LjdLRysHU6Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionSetUserEventEnd",
+      "nid": "knyIhlkpLgE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionSetUserEventStart",
+      "nid": "7as0CjXW1B8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionStart",
+      "nid": "dntZTJ7meIU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionStart2dVr",
+      "nid": "q3e8+nEguyE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionStartCapture",
+      "nid": "RrvyU1pjb9A",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionStartLiveCapture",
+      "nid": "XZ5QUzb4ae0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionStartMultilayer",
+      "nid": "8gH1aLgty5I",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionStartMultilayer2",
+      "nid": "gqAG7JYeE7A",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionStartWideNear",
+      "nid": "3JyuejcNhC0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionStartWideNearWithOverlay",
+      "nid": "mKa8scOc4-k",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionStartWithOverlay",
+      "nid": "kcldQ7zLYQQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionStop",
+      "nid": "vzMEkwBQciM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionStopCapture",
+      "nid": "F7Sndm5teWw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionStopLiveCapture",
+      "nid": "PAa6cUL5bR4",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionUnsetCallback",
+      "nid": "0wnZViigP9o",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdReprojectionUnsetDisplayBuffers",
+      "nid": "iGNNpDDjcwo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdSetVr2dEnable",
+      "nid": "fJVZYeqFttM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHmdTerminate",
+      "nid": "z-RMILqP6tE",
+      "state": "implemented"
+    }
+  ]
+}

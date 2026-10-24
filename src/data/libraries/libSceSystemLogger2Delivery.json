@@ -1,0 +1,32 @@
+{
+  "name": "libSceSystemLogger2Delivery",
+  "label": "SystemLogger2Delivery",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 4,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSystemLogger2DeliveryGetBatchResult",
+      "nid": "CTKW9UibxEA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemLogger2DeliveryGetResult",
+      "nid": "qb4NgfYbH90",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemLogger2DeliverySetBatchDeliveryEvent",
+      "nid": "rgrhz3d6cx8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemLogger2DeliveryTerminate",
+      "nid": "tV3N4LyIutE",
+      "state": "stub"
+    }
+  ]
+}

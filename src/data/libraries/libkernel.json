@@ -1,0 +1,3532 @@
+{
+  "name": "libkernel",
+  "label": "libkernel",
+  "category": "Core system",
+  "implemented": 647,
+  "inert": 17,
+  "stub": 40,
+  "total": 704,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "EqueueAddEvent_nid_postfix",
+      "nid": "Qj+uf6N2LWg",
+      "state": "implemented"
+    },
+    {
+      "name": "EqueueDeleteEvent_nid_postfix",
+      "nid": "vDioXCJgv4c",
+      "state": "implemented"
+    },
+    {
+      "name": "EqueueTriggerEvent_nid_postfix",
+      "nid": "HPQXQOUSDx4",
+      "state": "implemented"
+    },
+    {
+      "name": "ResetOnce",
+      "nid": "SrdBk9Tte84",
+      "state": "implemented"
+    },
+    {
+      "name": "__Ux86_64_setcontext",
+      "nid": "OjWstbIRPUo",
+      "state": "stub"
+    },
+    {
+      "name": "__elf_phdr_match_addr_nid_postfix",
+      "nid": "DAvNr2sRTTs",
+      "state": "implemented"
+    },
+    {
+      "name": "__inet_ntop_nid_postfix",
+      "nid": "HTUz4hAWgDc",
+      "state": "implemented"
+    },
+    {
+      "name": "__inet_pton_nid_postfix",
+      "nid": "z1ByGRxKLIo",
+      "state": "implemented"
+    },
+    {
+      "name": "__pthread_cleanup_pop_imp_nid_postfix",
+      "nid": "ddobceehY-Q",
+      "state": "implemented"
+    },
+    {
+      "name": "__pthread_cleanup_push_imp_nid_postfix",
+      "nid": "0Y-LFEOK2dU",
+      "state": "implemented"
+    },
+    {
+      "name": "__pthread_cxa_finalize_nid_postfix",
+      "nid": "O9beG7biDAs",
+      "state": "implemented"
+    },
+    {
+      "name": "__sys_socketex_nid_postfix",
+      "nid": "SmhMPaQdshc",
+      "state": "implemented"
+    },
+    {
+      "name": "__tls_get_addr_nid_postfix",
+      "nid": "gbo7GUAKr34",
+      "state": "stub"
+    },
+    {
+      "name": "_accept_nid_postfix",
+      "nid": "PXdybUoRI2U",
+      "state": "implemented"
+    },
+    {
+      "name": "_bind_nid_postfix",
+      "nid": "PTGen+GIdOk",
+      "state": "implemented"
+    },
+    {
+      "name": "_close_nid_postfix",
+      "nid": "iP3yaJLcBmE",
+      "state": "implemented"
+    },
+    {
+      "name": "_connect_nid_postfix",
+      "nid": "O0-l-XT9LEQ",
+      "state": "implemented"
+    },
+    {
+      "name": "_exit_nid_postfix",
+      "nid": "arQgNMP8Cuk",
+      "state": "implemented"
+    },
+    {
+      "name": "_fcntl_nid_postfix",
+      "nid": "jmWHc-BlGIA",
+      "state": "implemented"
+    },
+    {
+      "name": "_fstat_nid_postfix",
+      "nid": "+1iJ4tJ69Is",
+      "state": "implemented"
+    },
+    {
+      "name": "_fstatfs_nid_postfix",
+      "nid": "NOCfcMAw5JA",
+      "state": "implemented"
+    },
+    {
+      "name": "_getdirentries_nid_postfix",
+      "nid": "BQQuG7vodEA",
+      "state": "implemented"
+    },
+    {
+      "name": "_getpeername_nid_postfix",
+      "nid": "dWWGe4uRhwo",
+      "state": "implemented"
+    },
+    {
+      "name": "_getsockname_nid_postfix",
+      "nid": "wmSVWg2qf2Y",
+      "state": "implemented"
+    },
+    {
+      "name": "_getsockopt_nid_postfix",
+      "nid": "O77a7zKucAc",
+      "state": "implemented"
+    },
+    {
+      "name": "_ioctl_nid_postfix",
+      "nid": "J-9jryTAkVE",
+      "state": "implemented"
+    },
+    {
+      "name": "_is_signal_return_nid_postfix",
+      "nid": "gw5ROcbfoCo",
+      "state": "inert"
+    },
+    {
+      "name": "_listen_nid_postfix",
+      "nid": "f0YJ4KogYjE",
+      "state": "implemented"
+    },
+    {
+      "name": "_nanosleep_nid_postfix",
+      "nid": "OGyscwH9kwQ",
+      "state": "implemented"
+    },
+    {
+      "name": "_open_nid_postfix",
+      "nid": "Yk2h6SgBdqY",
+      "state": "implemented"
+    },
+    {
+      "name": "_read_nid_postfix",
+      "nid": "4pagw0tztfQ",
+      "state": "implemented"
+    },
+    {
+      "name": "_readv_nid_postfix",
+      "nid": "9+FxMO7vOfs",
+      "state": "implemented"
+    },
+    {
+      "name": "_recvfrom_nid_postfix",
+      "nid": "eX166FoOqXk",
+      "state": "implemented"
+    },
+    {
+      "name": "_recvmsg_nid_postfix",
+      "nid": "LvWuSJQCRxY",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceKernelRtldSetApplicationHeapAPI_nid_postfix",
+      "nid": "KWal716bgDw",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceKernelRtldThreadAtexitDecrement_nid_postfix",
+      "nid": "NvFuSh0xa3c",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceKernelRtldThreadAtexitIncrement_nid_postfix",
+      "nid": "2WXP8AfeoSI",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceKernelSetThreadAtexitCount_nid_postfix",
+      "nid": "ZJdYHnjdAhY",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceKernelSetThreadAtexitReport_nid_postfix",
+      "nid": "6ltn1HJ+fEE",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceKernelSetThreadDtors_nid_postfix",
+      "nid": "bZq7Yucttak",
+      "state": "implemented"
+    },
+    {
+      "name": "_sendmsg_nid_postfix",
+      "nid": "XkQldRHo3SE",
+      "state": "implemented"
+    },
+    {
+      "name": "_sendto_nid_postfix",
+      "nid": "KuQ-mzLQDMI",
+      "state": "implemented"
+    },
+    {
+      "name": "_setsockopt_nid_postfix",
+      "nid": "YqKNGArkFyk",
+      "state": "implemented"
+    },
+    {
+      "name": "_sigaction_nid_postfix",
+      "nid": "AfYog8d3MdY",
+      "state": "implemented"
+    },
+    {
+      "name": "_sigprocmask_nid_postfix",
+      "nid": "P7uuz72CUDQ",
+      "state": "implemented"
+    },
+    {
+      "name": "_sigsuspend_nid_postfix",
+      "nid": "Joqmzc4vZO0",
+      "state": "implemented"
+    },
+    {
+      "name": "_umtx_op_nid_postfix",
+      "nid": "aH4l8aQN4es",
+      "state": "stub"
+    },
+    {
+      "name": "_write_nid_postfix",
+      "nid": "eEWF7B0GZdk",
+      "state": "implemented"
+    },
+    {
+      "name": "_writev_nid_postfix",
+      "nid": "-FSmV9Q05f0",
+      "state": "implemented"
+    },
+    {
+      "name": "accept_nid_postfix",
+      "nid": "ftXfUf8wx1U",
+      "state": "implemented"
+    },
+    {
+      "name": "bind_nid_postfix",
+      "nid": "cF6QkKxnZiQ",
+      "state": "implemented"
+    },
+    {
+      "name": "cfsetspeed_nid_postfix",
+      "nid": "21cvYWtK0dU",
+      "state": "implemented"
+    },
+    {
+      "name": "chflags_nid_postfix",
+      "nid": "Ml-Hg478b84",
+      "state": "implemented"
+    },
+    {
+      "name": "chmod_nid_postfix",
+      "nid": "wmLeFS3UyiU",
+      "state": "implemented"
+    },
+    {
+      "name": "clock_getres_nid_postfix",
+      "nid": "PGD29NJml3k",
+      "state": "implemented"
+    },
+    {
+      "name": "clock_gettime_nid_postfix",
+      "nid": "2tWUguW5JNQ",
+      "state": "implemented"
+    },
+    {
+      "name": "clock_settime_nid_postfix",
+      "nid": "E2d2Du9ug+g",
+      "state": "implemented"
+    },
+    {
+      "name": "close_nid_postfix",
+      "nid": "TUrxn08Wgsc",
+      "state": "implemented"
+    },
+    {
+      "name": "connect_nid_postfix",
+      "nid": "XS29a5bF3v4",
+      "state": "implemented"
+    },
+    {
+      "name": "cpuset_getaffinity_nid_postfix",
+      "nid": "-K2CwBnu9gA",
+      "state": "stub"
+    },
+    {
+      "name": "cpuset_setaffinity_nid_postfix",
+      "nid": "3UnlsV6YpOc",
+      "state": "stub"
+    },
+    {
+      "name": "creat_nid_postfix",
+      "nid": "P3RFpIuYcHk",
+      "state": "implemented"
+    },
+    {
+      "name": "dlclose_nid_postfix",
+      "nid": "WzM-OtWIPaQ",
+      "state": "implemented"
+    },
+    {
+      "name": "dlerror_nid_postfix",
+      "nid": "4QT60xAHWpY",
+      "state": "implemented"
+    },
+    {
+      "name": "dlopen_nid_postfix",
+      "nid": "3s4fvb0cnkc",
+      "state": "implemented"
+    },
+    {
+      "name": "dlsym_nid_postfix",
+      "nid": "X60n5B5XWw0",
+      "state": "implemented"
+    },
+    {
+      "name": "dup2_nid_postfix",
+      "nid": "YkRAsNdlec0",
+      "state": "implemented"
+    },
+    {
+      "name": "dup_nid_postfix",
+      "nid": "Ht0vrXUg9SM",
+      "state": "implemented"
+    },
+    {
+      "name": "execv_nid_postfix",
+      "nid": "hbpFirOQkhQ",
+      "state": "stub"
+    },
+    {
+      "name": "execve_nid_postfix",
+      "nid": "g2BBTqqgjaI",
+      "state": "stub"
+    },
+    {
+      "name": "execvp_nid_postfix",
+      "nid": "IKEGADd3kFs",
+      "state": "stub"
+    },
+    {
+      "name": "exit_nid_postfix",
+      "nid": "4WxQotDS4lQ",
+      "state": "implemented"
+    },
+    {
+      "name": "fchflags_nid_postfix",
+      "nid": "T7wR3ATtzwo",
+      "state": "implemented"
+    },
+    {
+      "name": "fchmod_nid_postfix",
+      "nid": "gqwJjSxqp+Y",
+      "state": "implemented"
+    },
+    {
+      "name": "fcntl_nid_postfix",
+      "nid": "BBbleiPpyZE",
+      "state": "implemented"
+    },
+    {
+      "name": "fdatasync_nid_postfix",
+      "nid": "QkFvSyG+jfc",
+      "state": "implemented"
+    },
+    {
+      "name": "flock_nid_postfix",
+      "nid": "mCBEqfm3Pqs",
+      "state": "implemented"
+    },
+    {
+      "name": "fstat_nid_disambig1_nid_postfix",
+      "nid": "az8ZP4xCtiI",
+      "state": "implemented"
+    },
+    {
+      "name": "fsync_nid_postfix",
+      "nid": "ttBdkXfuW8A",
+      "state": "implemented"
+    },
+    {
+      "name": "ftruncate_nid_postfix",
+      "nid": "FJpJDNO4N4o",
+      "state": "implemented"
+    },
+    {
+      "name": "futimes_nid_postfix",
+      "nid": "GtRQh+YwAV0",
+      "state": "implemented"
+    },
+    {
+      "name": "getargc_nid_postfix",
+      "nid": "1H6c5Ao4X4s",
+      "state": "implemented"
+    },
+    {
+      "name": "getargv_nid_postfix",
+      "nid": "GW7HrEOck-g",
+      "state": "implemented"
+    },
+    {
+      "name": "getdents_nid_postfix",
+      "nid": "FgY7DDq4PqA",
+      "state": "implemented"
+    },
+    {
+      "name": "getdirentries_nid_postfix",
+      "nid": "S1FUTFUcY5g",
+      "state": "implemented"
+    },
+    {
+      "name": "getdtablesize_nid_postfix",
+      "nid": "55ZaDxTc6I4",
+      "state": "implemented"
+    },
+    {
+      "name": "getegid_nid_postfix",
+      "nid": "3Opce1fe6wc",
+      "state": "inert"
+    },
+    {
+      "name": "geteuid_nid_postfix",
+      "nid": "jijob73q0mU",
+      "state": "inert"
+    },
+    {
+      "name": "getgid_nid_postfix",
+      "nid": "hVqIwypOyEk",
+      "state": "inert"
+    },
+    {
+      "name": "getgroups_nid_postfix",
+      "nid": "Ss4ptSsFhGY",
+      "state": "implemented"
+    },
+    {
+      "name": "getitimer_nid_postfix",
+      "nid": "Y-raBw+Waj0",
+      "state": "implemented"
+    },
+    {
+      "name": "getlogin_r_nid_postfix",
+      "nid": "A6lFpxSaXvU",
+      "state": "implemented"
+    },
+    {
+      "name": "getpagesize_nid_postfix",
+      "nid": "iS9O+5mfLlU",
+      "state": "inert"
+    },
+    {
+      "name": "getpeername_nid_postfix",
+      "nid": "3WO93Ur0EqA",
+      "state": "implemented"
+    },
+    {
+      "name": "getpid_nid_postfix",
+      "nid": "CVUzEqfLOys",
+      "state": "implemented"
+    },
+    {
+      "name": "getppid_nid_postfix",
+      "nid": "7nCczCwZmDY",
+      "state": "implemented"
+    },
+    {
+      "name": "getpriority_nid_postfix",
+      "nid": "+zoOBY1nffw",
+      "state": "implemented"
+    },
+    {
+      "name": "getresgid_nid_postfix",
+      "nid": "AaRFzmIzkWo",
+      "state": "implemented"
+    },
+    {
+      "name": "getresuid_nid_postfix",
+      "nid": "NXYKctRqHEk",
+      "state": "implemented"
+    },
+    {
+      "name": "getrlimit_nid_postfix",
+      "nid": "b5gKuAEIbZw",
+      "state": "implemented"
+    },
+    {
+      "name": "getrusage_nid_postfix",
+      "nid": "JMl8-gHPGik",
+      "state": "implemented"
+    },
+    {
+      "name": "getsid_nid_postfix",
+      "nid": "c+V0nN96H9Y",
+      "state": "implemented"
+    },
+    {
+      "name": "getsockname_nid_postfix",
+      "nid": "FIUvAdTpFXg",
+      "state": "implemented"
+    },
+    {
+      "name": "getsockopt_nid_postfix",
+      "nid": "Z2dXr6S9X1o",
+      "state": "implemented"
+    },
+    {
+      "name": "gettimeofday_nid_postfix",
+      "nid": "o2jdOVqaI3I",
+      "state": "implemented"
+    },
+    {
+      "name": "getuid_nid_postfix",
+      "nid": "SI87kUb8Yrw",
+      "state": "inert"
+    },
+    {
+      "name": "htonl_nid_postfix",
+      "nid": "MmaYz6IroGU",
+      "state": "implemented"
+    },
+    {
+      "name": "htons_nid_postfix",
+      "nid": "wCJcyRqo+Tg",
+      "state": "implemented"
+    },
+    {
+      "name": "inet_ntop_nid_postfix",
+      "nid": "ODvlkW5fEIc",
+      "state": "implemented"
+    },
+    {
+      "name": "inet_pton_nid_postfix",
+      "nid": "BMRS2N8-mYo",
+      "state": "implemented"
+    },
+    {
+      "name": "ioctl_nid_postfix",
+      "nid": "rJPEDTIU6HI",
+      "state": "implemented"
+    },
+    {
+      "name": "issetugid_nid_postfix",
+      "nid": "JuHyT8ATfME",
+      "state": "inert"
+    },
+    {
+      "name": "kevent_nid_postfix",
+      "nid": "dQDZs647mZY",
+      "state": "stub"
+    },
+    {
+      "name": "kill_nid_postfix",
+      "nid": "kKxziwcGmGA",
+      "state": "implemented"
+    },
+    {
+      "name": "killpg_nid_postfix",
+      "nid": "UzwcYHP-ZfQ",
+      "state": "implemented"
+    },
+    {
+      "name": "kqueue_nid_postfix",
+      "nid": "iFyVg4zMya8",
+      "state": "implemented"
+    },
+    {
+      "name": "ktimer_create_nid_postfix",
+      "nid": "Xe1ftp58qlM",
+      "state": "stub"
+    },
+    {
+      "name": "ktimer_delete_nid_postfix",
+      "nid": "kay6LerKJ7Y",
+      "state": "implemented"
+    },
+    {
+      "name": "ktimer_getoverrun_nid_postfix",
+      "nid": "Wol2EmOtOos",
+      "state": "implemented"
+    },
+    {
+      "name": "ktimer_gettime_nid_postfix",
+      "nid": "XowbUFnZaYg",
+      "state": "implemented"
+    },
+    {
+      "name": "ktimer_settime_nid_postfix",
+      "nid": "GY5jxDjP+hs",
+      "state": "implemented"
+    },
+    {
+      "name": "listen_nid_postfix",
+      "nid": "DYhak9esh3A",
+      "state": "implemented"
+    },
+    {
+      "name": "lseek_nid_postfix",
+      "nid": "kTScxs5Ky+Y",
+      "state": "implemented"
+    },
+    {
+      "name": "lstat_nid_postfix",
+      "nid": "JmVIia1Q20U",
+      "state": "implemented"
+    },
+    {
+      "name": "lutimes_nid_postfix",
+      "nid": "lP1IBzL8Bsc",
+      "state": "implemented"
+    },
+    {
+      "name": "madvise_nid_postfix",
+      "nid": "J+YVFLg+ibk",
+      "state": "implemented"
+    },
+    {
+      "name": "mincore_nid_postfix",
+      "nid": "295jlB0Krxw",
+      "state": "implemented"
+    },
+    {
+      "name": "mkdir_nid_postfix",
+      "nid": "6mONhi0v7CE",
+      "state": "implemented"
+    },
+    {
+      "name": "mlock_nid_postfix",
+      "nid": "eh9OXRpRXhs",
+      "state": "implemented"
+    },
+    {
+      "name": "mlockall_nid_postfix",
+      "nid": "LCDBSVKYbFk",
+      "state": "implemented"
+    },
+    {
+      "name": "mmap_nid_postfix",
+      "nid": "W-31mpU1r+E",
+      "state": "implemented"
+    },
+    {
+      "name": "mprotect_nid_postfix",
+      "nid": "1V+5CAXDXh0",
+      "state": "implemented"
+    },
+    {
+      "name": "msync_nid_postfix",
+      "nid": "ecKaJLrl-I8",
+      "state": "implemented"
+    },
+    {
+      "name": "munlock_nid_postfix",
+      "nid": "3Pba+09BSLU",
+      "state": "implemented"
+    },
+    {
+      "name": "munlockall_nid_postfix",
+      "nid": "HXXVECswLqE",
+      "state": "implemented"
+    },
+    {
+      "name": "munmap_nid_postfix",
+      "nid": "20tF+4xPcKM",
+      "state": "implemented"
+    },
+    {
+      "name": "nanosleep_nid_postfix",
+      "nid": "gXmhRN8NEKI",
+      "state": "implemented"
+    },
+    {
+      "name": "nmount_nid_postfix",
+      "nid": "ldYkKjmUDe8",
+      "state": "stub"
+    },
+    {
+      "name": "ntohl_nid_postfix",
+      "nid": "6S+Nw4oUgUU",
+      "state": "implemented"
+    },
+    {
+      "name": "ntohs_nid_postfix",
+      "nid": "x0kTzAux8oU",
+      "state": "implemented"
+    },
+    {
+      "name": "open_nid_postfix",
+      "nid": "FOjcSvTxJZ0",
+      "state": "implemented"
+    },
+    {
+      "name": "pause_nid_postfix",
+      "nid": "g0C4GqZMKwo",
+      "state": "implemented"
+    },
+    {
+      "name": "physhm_open_nid_postfix",
+      "nid": "k23hjHITeVE",
+      "state": "stub"
+    },
+    {
+      "name": "physhm_unlink_nid_postfix",
+      "nid": "2kGTsT-aYNQ",
+      "state": "stub"
+    },
+    {
+      "name": "pipe_nid_postfix",
+      "nid": "jodXSFHU6nE",
+      "state": "implemented"
+    },
+    {
+      "name": "poll_nid_postfix",
+      "nid": "Gqf6PD42Jbk",
+      "state": "implemented"
+    },
+    {
+      "name": "pread_nid_postfix",
+      "nid": "g5qqlgWne0M",
+      "state": "implemented"
+    },
+    {
+      "name": "preadv_nid_postfix",
+      "nid": "BraY+vdIouc",
+      "state": "implemented"
+    },
+    {
+      "name": "pselect_nid_postfix",
+      "nid": "O77svvW+iIQ",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_atfork_nid_postfix",
+      "nid": "xyNd-eFMLL8",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_destroy_nid_postfix",
+      "nid": "YAXgd891Ev4",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_get_np_nid_postfix",
+      "nid": "5n4ztL2kMrI",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_getdetachstate_nid_postfix",
+      "nid": "vDDEvr+W4no",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_getguardsize_nid_postfix",
+      "nid": "EXAxrHuIxcU",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_getinheritsched_nid_postfix",
+      "nid": "xNJXquQNwdg",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_getschedparam_nid_postfix",
+      "nid": "ndflhGyud-4",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_getschedpolicy_nid_postfix",
+      "nid": "qNFeinCRpLc",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_getscope_nid_postfix",
+      "nid": "De9sh-NwrH8",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_getstack_nid_postfix",
+      "nid": "yQ6RUzHpwF0",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_getstackaddr_nid_postfix",
+      "nid": "MSrTSFzw7Qw",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_getstacksize_nid_postfix",
+      "nid": "K-mIaSqiIuE",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_init_nid_postfix",
+      "nid": "5W2CM+inLPU",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_setdetachstate_nid_postfix",
+      "nid": "Zmg5Catb+KI",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_setguardsize_nid_postfix",
+      "nid": "hL2oo9FfODc",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_setinheritsched_nid_postfix",
+      "nid": "PCY9pM1djNw",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_setschedparam_nid_postfix",
+      "nid": "80DgBy986V4",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_setschedpolicy_nid_postfix",
+      "nid": "cN3WSZ9KkJI",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_setscope_nid_postfix",
+      "nid": "BpDdTxT6yds",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_setsolosched_np_nid_postfix",
+      "nid": "3z0mSHVl5mo",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_setstack_nid_postfix",
+      "nid": "qH8AiRqt1mo",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_attr_setstacksize_nid_postfix",
+      "nid": "6xJx4ptSDUQ",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_barrier_destroy_nid_postfix",
+      "nid": "5+quzghHrio",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_barrier_init_nid_postfix",
+      "nid": "g-Nkjng0Bxc",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_barrier_wait_nid_postfix",
+      "nid": "z6TQYDBFw0o",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_barrierattr_destroy_nid_postfix",
+      "nid": "6ZXYURe4HBU",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_barrierattr_getpshared_nid_postfix",
+      "nid": "3C76tnq+U80",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_barrierattr_init_nid_postfix",
+      "nid": "ZrOwHJtlrOI",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_barrierattr_setpshared_nid_postfix",
+      "nid": "94LQc1mseKs",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_cancel_nid_postfix",
+      "nid": "R-KwTWd-z0o",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_cleanup_pop_nid_postfix",
+      "nid": "UXto-r4wh4g",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_cleanup_push_nid_postfix",
+      "nid": "CQNLIvUwWNM",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_cond_broadcast_nid_postfix",
+      "nid": "RlHnEpKx9A8",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_cond_destroy_nid_postfix",
+      "nid": "vO-QTlScUKk",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_cond_init_nid_postfix",
+      "nid": "5M3zCc8y9rs",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_cond_reltimedwait_np_nid_postfix",
+      "nid": "uhuWqh6DBVw",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_cond_signal_nid_postfix",
+      "nid": "rp7xKMj4ivg",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_cond_timedwait_nid_postfix",
+      "nid": "Kr5WWO+limM",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_cond_wait_nid_postfix",
+      "nid": "Ag6u6Uywy+4",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_condattr_destroy_nid_postfix",
+      "nid": "D5YG5saacD0",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_condattr_getpshared_nid_postfix",
+      "nid": "VqqtmjaKVI8",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_condattr_init_nid_postfix",
+      "nid": "zmAtbKOL2SI",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_condattr_setclock_nid_postfix",
+      "nid": "P9P9-RnD1+o",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_condattr_setpshared_nid_postfix",
+      "nid": "bXfkjvTAtZA",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_create_name_np_nid_postfix",
+      "nid": "F76uuqDwdas",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_create_nid_postfix",
+      "nid": "cEYigc9xqyI",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_detach_nid_postfix",
+      "nid": "EVc9H31Hhgw",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_equal_nid_postfix",
+      "nid": "ToYBQ84OM70",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_exit_nid_postfix",
+      "nid": "R3w7ODcXtp8",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_getaffinity_np_nid_postfix",
+      "nid": "cS-cS0TW6Ug",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_getconcurrency_nid_postfix",
+      "nid": "Od773fOqCZc",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_getcpuclockid_nid_postfix",
+      "nid": "luPf80QSthw",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_getname_np_nid_postfix",
+      "nid": "KD+Yw6gTtzE",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_getprio_nid_postfix",
+      "nid": "ui7f6RnZ+MM",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_getschedparam_nid_postfix",
+      "nid": "UmOovHBL2mA",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_getspecific_nid_postfix",
+      "nid": "LswmjIcW35I",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_getthreadid_np_nid_postfix",
+      "nid": "RcLl0w7UQV0",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_join_nid_postfix",
+      "nid": "mzRaqQKZ4QY",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_key_create_nid_postfix",
+      "nid": "L2jO4on0QNI",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_key_delete_nid_postfix",
+      "nid": "Oz6ET6WsAUg",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_kill_nid_postfix",
+      "nid": "Gs0DSxvF4Yo",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutex_destroy_nid_postfix",
+      "nid": "73jok1NY89E",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutex_getspinloops_np_nid_postfix",
+      "nid": "+XMv9rmeMsE",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutex_getyieldloops_np_nid_postfix",
+      "nid": "57YGE1e525o",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutex_init_nid_postfix",
+      "nid": "TZQZj4itrHw",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutex_isowned_np_nid_postfix",
+      "nid": "4O0FxRPxRC4",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutex_lock_nid_postfix",
+      "nid": "Lvk6HHZKYI8",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutex_reltimedlock_np_nid_postfix",
+      "nid": "fEm9E+mHc8c",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutex_setspinloops_np_nid_postfix",
+      "nid": "WP7P5j17vB4",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutex_setyieldloops_np_nid_postfix",
+      "nid": "ChxPBZOp+Ak",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutex_timedlock_nid_postfix",
+      "nid": "sNEVdibqagI",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutex_trylock_nid_postfix",
+      "nid": "OOHg80ZDCUo",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutex_unlock_nid_postfix",
+      "nid": "zL8PkLgJh7Y",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutexattr_destroy_nid_postfix",
+      "nid": "Cu+TTalepNI",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutexattr_getprioceiling_nid_postfix",
+      "nid": "LkiTfACLT8Q",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutexattr_getprotocol_nid_postfix",
+      "nid": "lHZt6NS7nEo",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutexattr_getpshared_nid_postfix",
+      "nid": "qhkHk+DfFk0",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutexattr_gettype_nid_postfix",
+      "nid": "mUX6OMkaZC8",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutexattr_init_nid_postfix",
+      "nid": "J1i9RIIHOSs",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutexattr_setprioceiling_nid_postfix",
+      "nid": "wkMBT6nZu9g",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutexattr_setprotocol_nid_postfix",
+      "nid": "6CGPNxwx2Ug",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutexattr_setpshared_nid_postfix",
+      "nid": "mCLPRtf9HlU",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_mutexattr_settype_nid_postfix",
+      "nid": "b-148QzvJ30",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_once_nid_postfix",
+      "nid": "6pwGmi9fuoM",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rename_np_nid_postfix",
+      "nid": "uRGkDcxMi04",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlock_destroy_nid_postfix",
+      "nid": "4IqpcCXLXwI",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlock_init_nid_postfix",
+      "nid": "UWmyHiCoiBk",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlock_rdlock_nid_postfix",
+      "nid": "WupRyDU8i1o",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlock_reltimedrdlock_np_nid_postfix",
+      "nid": "J6R6v-DP5nU",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlock_reltimedwrlock_np_nid_postfix",
+      "nid": "lneFQG7+teo",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlock_timedrdlock_nid_postfix",
+      "nid": "BmUr8BfvDz8",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlock_timedwrlock_nid_postfix",
+      "nid": "VdDkqUVq7pQ",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlock_tryrdlock_nid_postfix",
+      "nid": "1tStwLB-bQI",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlock_trywrlock_nid_postfix",
+      "nid": "mt+lAp6ZTWo",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlock_unlock_nid_postfix",
+      "nid": "p58fx-eefsA",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlock_wrlock_nid_postfix",
+      "nid": "HFjE0y4PA4c",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlockattr_destroy_nid_postfix",
+      "nid": "GD7jfSlK4nU",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlockattr_getpshared_nid_postfix",
+      "nid": "FYSWNyEyFDI",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlockattr_init_nid_postfix",
+      "nid": "zknWx+gZIRY",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_rwlockattr_setpshared_nid_postfix",
+      "nid": "9MA59vIXBZE",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_self_nid_postfix",
+      "nid": "8+01oEXWOeQ",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_set_name_np_nid_postfix",
+      "nid": "mcvxM6IFT5Y",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_setaffinity_np_nid_postfix",
+      "nid": "-mwrUaBZQWE",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_setcancelstate_nid_postfix",
+      "nid": "9xRDmS048Qc",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_setcanceltype_nid_postfix",
+      "nid": "F8OaDSeRbQA",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_setconcurrency_nid_postfix",
+      "nid": "JiUHU8xvIxs",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_setprio_nid_postfix",
+      "nid": "eh7+3txXyN0",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_setschedparam_nid_postfix",
+      "nid": "S9d51+MJoEg",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_setspecific_nid_postfix",
+      "nid": "ztZq5M8Jfkc",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_sigmask_nid_postfix",
+      "nid": "csVxCjyqMHQ",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_spin_destroy_nid_postfix",
+      "nid": "qoQsfG080AY",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_spin_init_nid_postfix",
+      "nid": "xoKMO0Wil24",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_spin_lock_nid_postfix",
+      "nid": "4vlwSHIcG6Q",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_spin_trylock_nid_postfix",
+      "nid": "MrEdxipuq0I",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_spin_unlock_nid_postfix",
+      "nid": "W9AxpeVtHEY",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_testcancel_nid_postfix",
+      "nid": "5oCRnCXizkk",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_timedjoin_np_nid_postfix",
+      "nid": "7C--yKpOu3w",
+      "state": "implemented"
+    },
+    {
+      "name": "pthread_yield_nid_postfix",
+      "nid": "IC7Adpc5u-Y",
+      "state": "implemented"
+    },
+    {
+      "name": "pwrite_nid_disambig1_nid_postfix",
+      "nid": "btp08smQ0Ng",
+      "state": "implemented"
+    },
+    {
+      "name": "pwritev_nid_postfix",
+      "nid": "4iRCnQ0DFzU",
+      "state": "implemented"
+    },
+    {
+      "name": "raise_nid_postfix",
+      "nid": "Q8UbzLzrnpY",
+      "state": "implemented"
+    },
+    {
+      "name": "read_nid_postfix",
+      "nid": "Ysy-h2ipvyo",
+      "state": "implemented"
+    },
+    {
+      "name": "readv_nid_postfix",
+      "nid": "0A3SOhWHhJw",
+      "state": "implemented"
+    },
+    {
+      "name": "recv_nid_postfix",
+      "nid": "ouS4cBFHaYw",
+      "state": "implemented"
+    },
+    {
+      "name": "recvfrom_nid_postfix",
+      "nid": "jWzqgpoSdA4",
+      "state": "implemented"
+    },
+    {
+      "name": "recvmsg_nid_postfix",
+      "nid": "lOf2ZY46QzM",
+      "state": "implemented"
+    },
+    {
+      "name": "rmdir_nid_postfix",
+      "nid": "DtYsg3VFHOM",
+      "state": "implemented"
+    },
+    {
+      "name": "rtprio_thread_nid_postfix",
+      "nid": "zIKLw2XeswA",
+      "state": "stub"
+    },
+    {
+      "name": "sceCoredumpAttachMemoryRegion",
+      "nid": "+YX0z-GUSNw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCoredumpAttachMemoryRegionAsUserFile",
+      "nid": "MEJ7tc7ThwM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCoredumpAttachUserFile",
+      "nid": "5nc2gdLNsok",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCoredumpAttachUserMemoryFile",
+      "nid": "DoKHmUw1yiQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCoredumpConfigDumpMode",
+      "nid": "gzLt9Qrauk0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCoredumpDebugTextOut",
+      "nid": "dei8oUx6DbU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCoredumpGetStopInfoCpu",
+      "nid": "kK0DUW1Ukgc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCoredumpGetStopInfoGpu_Agc",
+      "nid": "Jrs7UUkGOFo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCoredumpGetThreadContextInfo",
+      "nid": "ShChva57wIM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCoredumpRegisterCoredumpHandler",
+      "nid": "8zLSfEfW5AU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCoredumpSetUserDataType",
+      "nid": "Uxqkdta7wEg",
+      "state": "inert"
+    },
+    {
+      "name": "sceCoredumpUnregisterCoredumpHandler",
+      "nid": "fFkhOgztiCA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCoredumpWriteUserData",
+      "nid": "Dbbkj6YHWdo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCoredumpWriteUserString",
+      "nid": "32KQRUK13kI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAddAmprEvent",
+      "nid": "bBfz7kMF2Ho",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAddAmprSystemEvent",
+      "nid": "vuae5JPNt9A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAddFileEvent",
+      "nid": "cG3t15OK4Ow",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAddHRTimerEvent",
+      "nid": "R74tt43xP6k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAddReadEvent",
+      "nid": "VHCS3rCd0PM",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAddTimerEvent",
+      "nid": "57ZK+ODEXWY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAddUserEvent",
+      "nid": "4R6-OvI2cEA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAddUserEventEdge",
+      "nid": "WDszmSbWuDk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAddWriteEvent",
+      "nid": "R-tyYMpYaxY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelAioCancelRequest",
+      "nid": "fR521KIGgb8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAioCancelRequests",
+      "nid": "3Lca1XBrQdY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAioDeleteRequest",
+      "nid": "5TgME6AYty4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAioDeleteRequests",
+      "nid": "Ft3EtsZzAoY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAioInitializeImpl",
+      "nid": "vYU8P9Td2Zo",
+      "state": "inert"
+    },
+    {
+      "name": "sceKernelAioInitializeParam",
+      "nid": "nu4a0-arQis",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAioPollRequest",
+      "nid": "2pOuoWoCxdk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAioPollRequests",
+      "nid": "o7O4z3jwKzo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAioSetParam",
+      "nid": "9WK-vhNXimw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAioSubmitReadCommands",
+      "nid": "HgX7+AORI58",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAioSubmitReadCommandsMultiple",
+      "nid": "lXT0m3P-vs4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAioSubmitWriteCommands",
+      "nid": "XQ8C8y+de+E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAioSubmitWriteCommandsMultiple",
+      "nid": "xT3Cpz0yh6Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAioWaitRequest",
+      "nid": "KOF-oJbQVvc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAioWaitRequests",
+      "nid": "lgK+oIWkJyA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAllocateDirectMemory",
+      "nid": "rTXw65xmLIA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAllocateMainDirectMemory",
+      "nid": "B+vc2AO2Zrc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprGetFileSize",
+      "nid": "WvEu7yl3Ivg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprGetFileStat",
+      "nid": "ApkYaHb8Sek",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprResolveFilepathsToIds",
+      "nid": "WT-5NKy42fw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprResolveFilepathsToIdsAndFileSizes",
+      "nid": "gEpBkcwxUjw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprResolveFilepathsToIdsAndFileSizesForEach",
+      "nid": "QzB4O+bJQyA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprResolveFilepathsToIdsForEach",
+      "nid": "eYAh2vlCY-U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprResolveFilepathsWithPrefixToIds",
+      "nid": "i3HWvW35jao",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprResolveFilepathsWithPrefixToIdsAndFileSizes",
+      "nid": "w5fcCG+t31g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprResolveFilepathsWithPrefixToIdsAndFileSizesForEach",
+      "nid": "C+Khtbbx2g8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprResolveFilepathsWithPrefixToIdsForEach",
+      "nid": "VB-BtuIW8Xc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprSubmitCommandBuffer",
+      "nid": "eE4Szl8sil8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprSubmitCommandBufferAndGetId",
+      "nid": "qvMUCyyaCSI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprSubmitCommandBufferAndGetResult",
+      "nid": "ASoW5WE-UPo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAprWaitCommandBuffer",
+      "nid": "rqwFKI4PAiM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAvailableDirectMemorySize",
+      "nid": "C0f7TJcbfac",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelAvailableFlexibleMemorySize",
+      "nid": "aNz11fnnzi4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelBatchMap",
+      "nid": "2SKEx6bSq-4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelBatchMap2",
+      "nid": "kBJzF8x4SyE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelCancelEventFlag",
+      "nid": "PZku4ZrXJqg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelCancelSema",
+      "nid": "4DM06U2BNEY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelCheckReachability",
+      "nid": "uWyW3v98sU4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelCheckedReleaseDirectMemory",
+      "nid": "hwVSPCmp5tM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelChmod_nid_postfix",
+      "nid": "j4SOTOPqjEY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelClearEventFlag",
+      "nid": "7uhBFWRAS60",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelClearVirtualRangeName",
+      "nid": "mkgXxsoxWHg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelClockGetres",
+      "nid": "wRYVA5Zolso",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelClockGettime",
+      "nid": "QBi7HCK03hw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelClose",
+      "nid": "UK2Tl2DWUns",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelCloseEventFlag",
+      "nid": "s9-RaxukuzQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelConfiguredFlexibleMemorySize",
+      "nid": "n1-v6FgU7MQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelConvertLocaltimeToUtc",
+      "nid": "0NTHN1NKONI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelConvertUtcToLocaltime",
+      "nid": "-o5uEDpN+oY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelCreateEqueue",
+      "nid": "D0OdFMjp46I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelCreateEventFlag",
+      "nid": "BpFoboUJoZU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelCreateSema",
+      "nid": "188x57JYp0g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelCreateUuidV4",
+      "nid": "kvD1F56kfm4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDebugOutText",
+      "nid": "9JYNqN6jAKI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDebugRaiseException",
+      "nid": "OMDRKKAZ8I4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDebugRaiseExceptionOnReleaseMode",
+      "nid": "zE-wXIZjLoM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDebugWriteCppExceptionInfo",
+      "nid": "cfwBSQyr5Ys",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDeleteAmprEvent",
+      "nid": "bMmid3pfyjo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDeleteAmprSystemEvent",
+      "nid": "Ij+ryuEClXQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDeleteEqueue",
+      "nid": "jpFjmgAC5AE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDeleteEventFlag",
+      "nid": "8mql9OcQnd4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDeleteFileEvent",
+      "nid": "UmXngHKB6is",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDeleteHRTimerEvent",
+      "nid": "J+LF6LwObXU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDeleteReadEvent",
+      "nid": "JxJ4tfgKlXA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDeleteSema",
+      "nid": "R1Jvn8bSCW8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDeleteTimerEvent",
+      "nid": "YWQFUyXIVdU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDeleteUserEvent",
+      "nid": "LJDwdSNTnDg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDeleteWriteEvent",
+      "nid": "cBGTk8S92XM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDirectMemoryQuery",
+      "nid": "BHouLQzh0X0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelDlsym",
+      "nid": "LwG8g3niqwA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelEnableDmemAliasing",
+      "nid": "usHTMoFoBTM",
+      "state": "inert"
+    },
+    {
+      "name": "sceKernelError",
+      "nid": "D4yla3vx4tY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelFchmod",
+      "nid": "UtszJWHrDcA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelFcntl",
+      "nid": "SoZkxZkCHaw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelFdatasync",
+      "nid": "30Rh4ixbKy4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelFstat",
+      "nid": "kBwCPsYX-m4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelFsync",
+      "nid": "fTx66l5iWIA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelFtruncate",
+      "nid": "VW3TVZiM4-E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelFutimes",
+      "nid": "NLq2b1jOaN0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetAllowedSdkVersionOnSystem_nid_postfix",
+      "nid": "qvnEHj3mH7M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetAppInfo",
+      "nid": "G-MYv5erXaU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetAvailableCpumask",
+      "nid": "La9uyZv4Kvw",
+      "state": "inert"
+    },
+    {
+      "name": "sceKernelGetCpuFrequency",
+      "nid": "iUohlUDiGac",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetCpuTemperature",
+      "nid": "qiL4fFObAxM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetCpumode",
+      "nid": "VOx8NGmHXTs",
+      "state": "inert"
+    },
+    {
+      "name": "sceKernelGetCurrentCpu",
+      "nid": "g0VTBxfJyu0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetDirectMemorySize",
+      "nid": "pO96TwzOm5E",
+      "state": "inert"
+    },
+    {
+      "name": "sceKernelGetDirectMemoryType",
+      "nid": "BC+OG5m9+bw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetEventData",
+      "nid": "kwGyyjohI50",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetEventError",
+      "nid": "Uu-iDFC9aUc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetEventFflags",
+      "nid": "Q0qr9AyqJSk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetEventFilter",
+      "nid": "23CPPI1tyBY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetEventId",
+      "nid": "mJ7aghmgvfc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetEventUserData",
+      "nid": "vz+pg2zdopI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetFsSandboxRandomWord",
+      "nid": "JGfTMBOdUJo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetGPI",
+      "nid": "4oXYe9Xmk0Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetLibkernelTextLocation_nid_postfix",
+      "nid": "rtqiwmJzAmI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetMainSocId",
+      "nid": "0vTn5IDMU9A",
+      "state": "inert"
+    },
+    {
+      "name": "sceKernelGetModuleInfo",
+      "nid": "kUpgrXIrz7Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetModuleInfo2",
+      "nid": "QgsKEUfkqMA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetModuleInfoForUnwind",
+      "nid": "RpQJJVKTiFM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetModuleInfoFromAddr",
+      "nid": "f7KBOafysXo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetModuleList",
+      "nid": "IuxnUuXk6Bg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetModuleList2",
+      "nid": "ZzzC3ZGVAkc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetOpenPsId",
+      "nid": "DLORcroUqbc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetOperationMode",
+      "nid": "NH6xARDOVv8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetPageTableStats",
+      "nid": "tZ2yplY8MBY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetProcParam",
+      "nid": "959qrazPIrg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetProcessAbiType",
+      "nid": "Ai+CmAO2w54",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelGetProcessTime",
+      "nid": "4J2sUJmuHZQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetProcessTimeCounter",
+      "nid": "fgxnMeTNUtY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetProcessTimeCounterFrequency",
+      "nid": "BNowx2l588E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetProsperoSystemSwVersion_nid_postfix",
+      "nid": "1y0cyvoZ4Cg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetPrtAperture",
+      "nid": "L0v2Go5jOuM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetSanitizerMallocReplaceExternal",
+      "nid": "py6L8jiVAN8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetSanitizerNewReplaceExternal",
+      "nid": "bnZxYgAFeA0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetSocPowerConsumption",
+      "nid": "CA5jcDb2vYI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetSocSensorTemperature",
+      "nid": "zzKyvoELf4I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetSystemExVersion",
+      "nid": "mpbGISNJ6go",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetSystemSwVersion_nid_postfix",
+      "nid": "IFpsKAkjBS0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetTraceMemoryStats",
+      "nid": "Od0uMJZoVWg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetTscFrequency",
+      "nid": "1j3S3n-tTW4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetdents",
+      "nid": "j2AIqSqJP0w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGetdirentries",
+      "nid": "taRWhTJFTgE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGettimeofday",
+      "nid": "ejekcaNQNq0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelGettimezone",
+      "nid": "kOcnerypnQA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelInstallExceptionHandler",
+      "nid": "WkwEd3N7w0Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelInternalMemoryGetAvailableSize",
+      "nid": "rjEuM0nb8xg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelInternalMemoryGetModuleSegmentInfo_nid_postfix",
+      "nid": "Vo6KCpRutwA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelIsAddressSanitizerEnabled",
+      "nid": "jh+8XiK4LeE",
+      "state": "inert"
+    },
+    {
+      "name": "sceKernelIsStack",
+      "nid": "yDBwVAolDgg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelIsThreadSanitizerEnabled",
+      "nid": "LzoM-wVLJDE",
+      "state": "inert"
+    },
+    {
+      "name": "sceKernelIsTrinityMode",
+      "nid": "tU5e3f9gSiU",
+      "state": "inert"
+    },
+    {
+      "name": "sceKernelJitCreateAliasOfSharedMemory",
+      "nid": "MR221Mwo0Pc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelJitCreateSharedMemory",
+      "nid": "avvJ3J0H0EY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelJitMapSharedMemory",
+      "nid": "YKT49TOLQWs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelLoadStartModule",
+      "nid": "wzvqT4UqKX8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelLseek",
+      "nid": "oib76F-12fk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMapDirectMemory",
+      "nid": "L-Q3LEjIbgA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMapDirectMemory2",
+      "nid": "BQQniolj9tQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMapFlexibleMemory",
+      "nid": "IWIBBdTHit4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMapNamedDirectMemory",
+      "nid": "NcaWUxfMNIQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMapNamedFlexibleMemory",
+      "nid": "mL8NDH86iQI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMapNamedFlexibleMemoryInternal",
+      "nid": "4h6F1LLbTiw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMemoryPoolBatch",
+      "nid": "YN878uKRBbE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMemoryPoolCommit",
+      "nid": "Vzl66WmfLvk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMemoryPoolDecommit",
+      "nid": "LXo1tpFqJGs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMemoryPoolExpand",
+      "nid": "qCSfqDILlns",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMemoryPoolGetBlockStats",
+      "nid": "bvD+95Q6asU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMemoryPoolReserve",
+      "nid": "pU-QydtGcGY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMkdir",
+      "nid": "1-LFLmRFxxM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMlock_nid_postfix",
+      "nid": "9KjrqzSrh+4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMmap",
+      "nid": "PGhQHd-dzv8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMprotect",
+      "nid": "vSMAm3cxYTY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMtypeprotect",
+      "nid": "9bfdLIyuwCY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMunlock_nid_postfix",
+      "nid": "roPFaHe5e08",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMunlockall_nid_postfix",
+      "nid": "QbdT-fd6f08",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelMunmap",
+      "nid": "cQke9UuBQOk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelNanosleep",
+      "nid": "QvsZxomvUHs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelOpen",
+      "nid": "1G3lF1Gg1k8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelOpenEventFlag",
+      "nid": "1vDaenmJtyA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelPollEventFlag",
+      "nid": "9lvj5DjHZiA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelPollSema",
+      "nid": "12wOHk8ywb0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelPread",
+      "nid": "+r3rMFwItV4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelPreadv",
+      "nid": "yTj62I7kw4s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelPrintBacktraceWithModuleInfo",
+      "nid": "Wl2o5hOVZdw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelPwrite",
+      "nid": "nKWi-N2HBV4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelPwritev",
+      "nid": "mBd4AfLP+u8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelQueryMemoryProtection",
+      "nid": "WFcfL2lzido",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelRaiseException",
+      "nid": "il03nluKfMk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelRead",
+      "nid": "Cg4srZ6TKbU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelReadTsc",
+      "nid": "-2IRUCO--PM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelReadv",
+      "nid": "QqxBetgJH+g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelReleaseDirectMemory",
+      "nid": "MBuItvba6z8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelReleaseFlexibleMemory",
+      "nid": "teiItL2boFw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelRemoveExceptionHandler",
+      "nid": "Qhv5ARAoOEc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelRename",
+      "nid": "52NcYU9+lEo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelReserveVirtualRange",
+      "nid": "7oxv3PPCumo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelRmdir",
+      "nid": "naInUjYt3so",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelRtldSetApplicationHeapAPI",
+      "nid": "kNOmdCSQqeo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelRtldThreadAtexitDecrement",
+      "nid": "zYljCqHF-iU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelRtldThreadAtexitIncrement",
+      "nid": "JKPPCUZwy98",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSendNotificationRequest",
+      "nid": "zl7hupSO0C0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSetEventFlag",
+      "nid": "IOnSvHzqu6A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSetGPO",
+      "nid": "ca7v6Cxulzs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSetPrtAperture",
+      "nid": "BohYr-F7-is",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSetThreadAtexitCount",
+      "nid": "PaTVOC-+vRY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSetThreadAtexitReport",
+      "nid": "MYf-6Ghmu9M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSetThreadDtors",
+      "nid": "+mR4CLzg3S0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSetVirtualRangeName",
+      "nid": "DGMG3JshrZU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSignalSema",
+      "nid": "4czppHBiriw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSleep",
+      "nid": "-ZR+hG7aDHw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelStat",
+      "nid": "eV9wAD2riIA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelStopUnloadModule",
+      "nid": "QKd0qM58Qes",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSync",
+      "nid": "uvT2iYBBnkY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSyncOnAddressWait",
+      "nid": "Hc4CaR6JBL0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSyncOnAddressWait16",
+      "nid": "XgVs4jRehcY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSyncOnAddressWait32",
+      "nid": "B2n8aDorSH4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSyncOnAddressWait64",
+      "nid": "PZQhiiLXRFs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSyncOnAddressWait8",
+      "nid": "dFym5b41JLU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelSyncOnAddressWake",
+      "nid": "q2y-wDIVWZA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelTriggerUserEvent",
+      "nid": "F6e0kwo4cnk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelTruncate_nid_postfix",
+      "nid": "e7e58CXksSI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelUnknown03",
+      "nid": "4-vsyvRMjWg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown04",
+      "nid": "1DiHryZjONA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown05",
+      "nid": "7n2NsxasiZU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown06",
+      "nid": "tADuNnfRdCk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown07",
+      "nid": "bae8LoHxkRI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown08",
+      "nid": "SbYlcIJNoPo",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown09",
+      "nid": "qqKUeQTBrVk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown10",
+      "nid": "daX2TnqczGw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown11",
+      "nid": "x7FGJ7ws7YU",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown12",
+      "nid": "PQ3dHMuLjBA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown13",
+      "nid": "H21cj5SazZI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown14",
+      "nid": "SAqP6JFHe6E",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown15",
+      "nid": "uiLgZl9JihI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown16",
+      "nid": "sWNBoxNjZz0",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown17",
+      "nid": "drfaNr-Z2JE",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown18",
+      "nid": "2-93nR80Emg",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnknown19",
+      "nid": "at3Y6n3NJkw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnlink",
+      "nid": "AUXVxWeJU-A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelUsleep_nid_postfix",
+      "nid": "DMr6PntA55M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelUtimes_nid_postfix",
+      "nid": "0pIR82tuXz0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelUuidCreate",
+      "nid": "Xjoosiw+XPI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelVirtualQuery",
+      "nid": "rVjRvHJ0X6c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelWaitEqueue",
+      "nid": "fzyMKs9kim0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelWaitEventFlag",
+      "nid": "JTvBflhYazQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelWaitSema",
+      "nid": "Zxa0VhQVTsk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelWrite",
+      "nid": "4wSze92BhLI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelWriteModifyMtypeProtectCommand",
+      "nid": "hrEIwWDKm-w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelWriteRemapIntoPrtCommand",
+      "nid": "RPAHEYSOt1s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelWriteThrottlingStatus",
+      "nid": "YFC3dBBipj8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceKernelWritev",
+      "nid": "kAt6VDbHmro",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrDestroy",
+      "nid": "62KCwEMmzcM",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrGet",
+      "nid": "x1X76arYMxU",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrGetaffinity",
+      "nid": "8+s5BzZjxSg",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrGetdetachstate",
+      "nid": "JaRMy+QcpeU",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrGetguardsize",
+      "nid": "txHtngJ+eyc",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrGetinheritsched",
+      "nid": "lpMP8HhkBbg",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrGetschedparam",
+      "nid": "FXPWHNk8Of0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrGetschedpolicy",
+      "nid": "NMyIQ9WgWbU",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrGetsolosched",
+      "nid": "9RnL-m0+diQ",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrGetstack",
+      "nid": "-quPa4SEJUw",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrGetstackaddr",
+      "nid": "Ru36fiTtJzA",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrGetstacksize",
+      "nid": "-fA+7ZlGDQs",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrInit",
+      "nid": "nsYoNRywwNg",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrSetaffinity",
+      "nid": "3qxgM4ezETA",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrSetdetachstate",
+      "nid": "-Wreprtu0Qs",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrSetguardsize",
+      "nid": "El+cQ20DynU",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrSetinheritsched",
+      "nid": "eXbUSpEaTsA",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrSetschedparam",
+      "nid": "DzES9hQF4f4",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrSetschedpolicy",
+      "nid": "4+h9EzwKF4I",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrSetsolosched",
+      "nid": "Dk6FC-TI+7Q",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrSetstack",
+      "nid": "Bvn74vj6oLo",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrSetstackaddr",
+      "nid": "F+yfmduIBB8",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadAttrSetstacksize",
+      "nid": "UTXzJbWhhTE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadCancel",
+      "nid": "qBDmpCyGssE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadCondBroadcast",
+      "nid": "JGgj7Uvrl+A",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadCondDestroy",
+      "nid": "g+PZd2hiacg",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadCondInit",
+      "nid": "2Tb92quprl0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadCondSignal",
+      "nid": "kDh-NfxgMtE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadCondSignalto",
+      "nid": "o69RpYO-Mu0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadCondTimedwait",
+      "nid": "BmMjYxmew1w",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadCondWait",
+      "nid": "WKAXJ4XBPQ4",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadCondattrDestroy",
+      "nid": "waPcxYiR3WA",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadCondattrInit",
+      "nid": "m5-2bsNfv7s",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadCondattrSetclock",
+      "nid": "c-bxj027czs",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadCreate",
+      "nid": "6UgtwV+0zb4",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadDetach",
+      "nid": "4qGrR6eoP9Y",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadEqual",
+      "nid": "3PtV6p3QNX4",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadExit",
+      "nid": "3kg7rT0NQIs",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadGetaffinity",
+      "nid": "rcrVFJsQWRY",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadGetname",
+      "nid": "How7B8Oet6k",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadGetprio",
+      "nid": "1tKyG7RlMJo",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadGetschedparam",
+      "nid": "P41kTWUS3EI",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadGetspecific",
+      "nid": "eoht7mQOCmo",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadGetthreadid",
+      "nid": "EI-5-jlq2dE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadJoin",
+      "nid": "onNY9Byn-W8",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadKeyCreate",
+      "nid": "geDaqgH9lTg",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadKeyDelete",
+      "nid": "PrdHuuDekhY",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexDestroy",
+      "nid": "2Of0f+3mhhE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexGetspinloops",
+      "nid": "pOmNmyRKlIE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexGetyieldloops",
+      "nid": "AWS3NyViL9o",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexInit",
+      "nid": "cmo1RIYva9o",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexLock",
+      "nid": "9UK1vLZQft4",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexSetspinloops",
+      "nid": "42YkUouoMI0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexSetyieldloops",
+      "nid": "bP+cqFmBW+A",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexTimedlock",
+      "nid": "IafI2PxcPnQ",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexTrylock",
+      "nid": "upoVrzMHFeE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexUnlock",
+      "nid": "tn3VlD0hG60",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexattrDestroy",
+      "nid": "smWEktiyyG0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexattrInit",
+      "nid": "F8bUHwAG284",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexattrSetprotocol",
+      "nid": "1FGvU0i9saQ",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadMutexattrSettype",
+      "nid": "iMp8QpE+XO4",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadOnce",
+      "nid": "14bOACANTBo",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadRename",
+      "nid": "GBUY7ywdULE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadRwlockDestroy",
+      "nid": "BB+kb08Tl9A",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadRwlockInit",
+      "nid": "6ULAa0fq4jA",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadRwlockRdlock",
+      "nid": "Ox9i0c7L5w0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadRwlockTimedrdlock",
+      "nid": "iPtZRWICjrM",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadRwlockTimedwrlock",
+      "nid": "adh--6nIqTk",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadRwlockTryrdlock",
+      "nid": "XD3mDeybCnk",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadRwlockTrywrlock",
+      "nid": "bIHoZCTomsI",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadRwlockUnlock",
+      "nid": "+L98PIbGttk",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadRwlockWrlock",
+      "nid": "mqdNorrB+gI",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadRwlockattrDestroy",
+      "nid": "i2ifZ3fS2fo",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadRwlockattrInit",
+      "nid": "yOfGg-I1ZII",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadRwlockattrSettype",
+      "nid": "h-OifiouBd8",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSelf",
+      "nid": "aI+OeCz8xrQ",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSemDestroy",
+      "nid": "Vwc+L05e6oE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSemGetvalue",
+      "nid": "DjpBvGlaWbQ",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSemInit",
+      "nid": "GEnUkDZoUwY",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSemPost",
+      "nid": "aishVAiFaYM",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSemTimedwait",
+      "nid": "fjN6NQHhK8k",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSemTrywait",
+      "nid": "H2a+IN9TP0E",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSemWait",
+      "nid": "C36iRE0F5sE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSetaffinity",
+      "nid": "bt3CTBKmGyI",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSetcancelstate",
+      "nid": "OAmWq+OHSjw",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSetcanceltype",
+      "nid": "sCJd99Phct0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSetprio",
+      "nid": "W0Hpm2X0uPE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSetschedparam",
+      "nid": "oIRFTjoILbg",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadSetspecific",
+      "nid": "+BzXYkqYeLE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadTestcancel",
+      "nid": "LapIb799SSE",
+      "state": "implemented"
+    },
+    {
+      "name": "scePthreadYield",
+      "nid": "T72hz6ffq08",
+      "state": "implemented"
+    },
+    {
+      "name": "sched_get_priority_max_nid_postfix",
+      "nid": "v1M2A3dcJKk",
+      "state": "implemented"
+    },
+    {
+      "name": "sched_get_priority_min_nid_postfix",
+      "nid": "nGEpQine8io",
+      "state": "implemented"
+    },
+    {
+      "name": "sched_yield_nid_postfix",
+      "nid": "NlLCNc9H6+8",
+      "state": "implemented"
+    },
+    {
+      "name": "select_nid_postfix",
+      "nid": "D2BJmrK0zME",
+      "state": "implemented"
+    },
+    {
+      "name": "sem_close_nid_postfix",
+      "nid": "KnTqRIfjNsU",
+      "state": "implemented"
+    },
+    {
+      "name": "sem_destroy_nid_postfix",
+      "nid": "yELssaY3E34",
+      "state": "implemented"
+    },
+    {
+      "name": "sem_getvalue_nid_postfix",
+      "nid": "7ClaIT8Mw1s",
+      "state": "implemented"
+    },
+    {
+      "name": "sem_init_nid_postfix",
+      "nid": "Xnn-WoVdny4",
+      "state": "implemented"
+    },
+    {
+      "name": "sem_open_nid_postfix",
+      "nid": "SJ6TVp8otwE",
+      "state": "implemented"
+    },
+    {
+      "name": "sem_post_nid_postfix",
+      "nid": "TMdHMV-4Acc",
+      "state": "implemented"
+    },
+    {
+      "name": "sem_reltimedwait_np_nid_postfix",
+      "nid": "VNjRI7Z1UYY",
+      "state": "implemented"
+    },
+    {
+      "name": "sem_timedwait_nid_postfix",
+      "nid": "WPVCAman4-4",
+      "state": "implemented"
+    },
+    {
+      "name": "sem_trywait_nid_postfix",
+      "nid": "+Qs8nICLV2M",
+      "state": "implemented"
+    },
+    {
+      "name": "sem_unlink_nid_postfix",
+      "nid": "DsoEYzQidbA",
+      "state": "implemented"
+    },
+    {
+      "name": "sem_wait_nid_postfix",
+      "nid": "n88DG4q3t40",
+      "state": "implemented"
+    },
+    {
+      "name": "send_nid_postfix",
+      "nid": "RoGdYjZ22HA",
+      "state": "implemented"
+    },
+    {
+      "name": "sendfile_nid_postfix",
+      "nid": "p8s1ANwG+KA",
+      "state": "implemented"
+    },
+    {
+      "name": "sendmsg_nid_postfix",
+      "nid": "Gnk70hfMJDg",
+      "state": "implemented"
+    },
+    {
+      "name": "sendto_nid_postfix",
+      "nid": "6UslGCR8c34",
+      "state": "implemented"
+    },
+    {
+      "name": "setcontext_nid_postfix",
+      "nid": "es5tyXYzcv4",
+      "state": "implemented"
+    },
+    {
+      "name": "setegid_nid_postfix",
+      "nid": "xhQwvzRTQG4",
+      "state": "implemented"
+    },
+    {
+      "name": "seteuid_nid_postfix",
+      "nid": "UwuyOj0GAyk",
+      "state": "implemented"
+    },
+    {
+      "name": "setgid_nid_postfix",
+      "nid": "82qHTR+FZGc",
+      "state": "implemented"
+    },
+    {
+      "name": "setgroups_nid_postfix",
+      "nid": "8cof75vE2ow",
+      "state": "implemented"
+    },
+    {
+      "name": "setitimer_nid_postfix",
+      "nid": "A7DdVcwVnFQ",
+      "state": "implemented"
+    },
+    {
+      "name": "setpriority_nid_postfix",
+      "nid": "AKUMyu2XWfQ",
+      "state": "implemented"
+    },
+    {
+      "name": "setregid_nid_postfix",
+      "nid": "Azo+4NMrGqE",
+      "state": "implemented"
+    },
+    {
+      "name": "setresgid_nid_postfix",
+      "nid": "wqX93U117H8",
+      "state": "implemented"
+    },
+    {
+      "name": "setresuid_nid_postfix",
+      "nid": "46xylbQqiLw",
+      "state": "implemented"
+    },
+    {
+      "name": "setreuid_nid_postfix",
+      "nid": "6r1DnHSNBoQ",
+      "state": "implemented"
+    },
+    {
+      "name": "setrlimit_nid_postfix",
+      "nid": "N8pPsewRGVc",
+      "state": "implemented"
+    },
+    {
+      "name": "setsockopt_nid_postfix",
+      "nid": "OWsdEre1-30",
+      "state": "implemented"
+    },
+    {
+      "name": "setuid_nid_postfix",
+      "nid": "DFGC3efQj7Q",
+      "state": "implemented"
+    },
+    {
+      "name": "shm_open_nid_postfix",
+      "nid": "Wf+IDclQD-s",
+      "state": "stub"
+    },
+    {
+      "name": "shm_unlink_nid_postfix",
+      "nid": "gYJRbx2sAw4",
+      "state": "stub"
+    },
+    {
+      "name": "shutdown_nid_postfix",
+      "nid": "SsnFRiKP-3I",
+      "state": "implemented"
+    },
+    {
+      "name": "sigaction_nid_postfix",
+      "nid": "7CjJ3TT4iWs",
+      "state": "implemented"
+    },
+    {
+      "name": "sigaddset_nid_postfix",
+      "nid": "LN0wQUtxaBw",
+      "state": "implemented"
+    },
+    {
+      "name": "sigaltstack_nid_postfix",
+      "nid": "KHNyOgc9fKg",
+      "state": "implemented"
+    },
+    {
+      "name": "sigdelset_nid_postfix",
+      "nid": "agZPvSo5jlA",
+      "state": "implemented"
+    },
+    {
+      "name": "sigemptyset_nid_postfix",
+      "nid": "R2IE7KjTQsU",
+      "state": "implemented"
+    },
+    {
+      "name": "sigfillset_nid_postfix",
+      "nid": "UhundPVTFtw",
+      "state": "implemented"
+    },
+    {
+      "name": "sigismember_nid_postfix",
+      "nid": "v1Bq9zuNfH4",
+      "state": "implemented"
+    },
+    {
+      "name": "signal_nid_postfix",
+      "nid": "qOZADLorD+s",
+      "state": "implemented"
+    },
+    {
+      "name": "sigpending_nid_postfix",
+      "nid": "9mQHjAVcnrU",
+      "state": "implemented"
+    },
+    {
+      "name": "sigprocmask_nid_postfix",
+      "nid": "fxur8wK2Pq4",
+      "state": "implemented"
+    },
+    {
+      "name": "sigreturn",
+      "nid": "mo0bFmWppIw",
+      "state": "stub"
+    },
+    {
+      "name": "sigsuspend_nid_postfix",
+      "nid": "K567FRBwHUs",
+      "state": "implemented"
+    },
+    {
+      "name": "sigtimedwait_nid_postfix",
+      "nid": "H+gVF4an7Hc",
+      "state": "implemented"
+    },
+    {
+      "name": "sigwait_nid_postfix",
+      "nid": "MnXQqdHaDNM",
+      "state": "implemented"
+    },
+    {
+      "name": "sigwaitinfo_nid_postfix",
+      "nid": "BS1SKRfli5k",
+      "state": "implemented"
+    },
+    {
+      "name": "sleep_nid_postfix",
+      "nid": "jGrpGUcO-dk",
+      "state": "implemented"
+    },
+    {
+      "name": "socket_nid_postfix",
+      "nid": "lXoSCBRhEjY",
+      "state": "implemented"
+    },
+    {
+      "name": "socketpair_nid_postfix",
+      "nid": "C+PAsh6ne4g",
+      "state": "implemented"
+    },
+    {
+      "name": "stat_nid_postfix",
+      "nid": "cB107UHLAGQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sync_nid_postfix",
+      "nid": "u-e5nB6JWq8",
+      "state": "implemented"
+    },
+    {
+      "name": "sysKernelGetLowerLimitSysexVersion_nid_postfix",
+      "nid": "74c5cI4DPFw",
+      "state": "implemented"
+    },
+    {
+      "name": "sysKernelGetLowerLimitUpdVersion_nid_postfix",
+      "nid": "yupPtuntcHI",
+      "state": "implemented"
+    },
+    {
+      "name": "sysarch",
+      "nid": "b7uXQmnfB2s",
+      "state": "stub"
+    },
+    {
+      "name": "sysconf_nid_postfix",
+      "nid": "m7q-2YaoLHU",
+      "state": "implemented"
+    },
+    {
+      "name": "sysctl_nid_postfix",
+      "nid": "zE22CENe7q0",
+      "state": "implemented"
+    },
+    {
+      "name": "sysctlbyname_nid_postfix",
+      "nid": "1MJ3BXsaRdQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sysctlnametomib_nid_postfix",
+      "nid": "QHAPxuIhPxc",
+      "state": "implemented"
+    },
+    {
+      "name": "system_nid_postfix",
+      "nid": "8dfhis16H-k",
+      "state": "implemented"
+    },
+    {
+      "name": "tcdrain_nid_postfix",
+      "nid": "oY166jDLTXE",
+      "state": "implemented"
+    },
+    {
+      "name": "tcflow_nid_postfix",
+      "nid": "ThlftfR7k6U",
+      "state": "implemented"
+    },
+    {
+      "name": "tcflush_nid_postfix",
+      "nid": "fVsqTpgTT+k",
+      "state": "implemented"
+    },
+    {
+      "name": "tcgetattr_nid_postfix",
+      "nid": "iljaQ4NMSY8",
+      "state": "implemented"
+    },
+    {
+      "name": "tcgetpgrp_nid_postfix",
+      "nid": "Gv4fcazd+cw",
+      "state": "implemented"
+    },
+    {
+      "name": "tcsendbreak_nid_postfix",
+      "nid": "K86CAj6Rv7w",
+      "state": "implemented"
+    },
+    {
+      "name": "tcsetattr_nid_postfix",
+      "nid": "ddf7hF6q8bI",
+      "state": "implemented"
+    },
+    {
+      "name": "tcsetpgrp_nid_postfix",
+      "nid": "y4oxm8AUJNQ",
+      "state": "implemented"
+    },
+    {
+      "name": "truncate_nid_postfix",
+      "nid": "rOCYwiXCEZ4",
+      "state": "implemented"
+    },
+    {
+      "name": "unlink_nid_postfix",
+      "nid": "Jt57gbS9Kuk",
+      "state": "implemented"
+    },
+    {
+      "name": "usleep_nid_postfix",
+      "nid": "Vu+gfbUUnwU",
+      "state": "implemented"
+    },
+    {
+      "name": "utimes_nid_postfix",
+      "nid": "oJRBRkgMrZ0",
+      "state": "implemented"
+    },
+    {
+      "name": "wait_nid_postfix",
+      "nid": "OTZo9t3e5AM",
+      "state": "implemented"
+    },
+    {
+      "name": "waitpid_nid_postfix",
+      "nid": "Hq6XqZQTPtE",
+      "state": "implemented"
+    },
+    {
+      "name": "write_nid_postfix",
+      "nid": "nq-Hbvhcfs8",
+      "state": "implemented"
+    },
+    {
+      "name": "writev_nid_postfix",
+      "nid": "qvTGVpcECK0",
+      "state": "implemented"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "name": "libSceAvPlayer",
+  "label": "AvPlayer",
+  "category": "Audio and media",
+  "implemented": 27,
+  "inert": 1,
+  "stub": 0,
+  "total": 28,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAvPlayerAddSource",
+      "nid": "KMcEa+rHsIo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerAddSourceEx",
+      "nid": "x8uvuFOPZhU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerChangeStream",
+      "nid": "buMCiJftcfw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerClose",
+      "nid": "NkJwDzKmIlw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerCurrentTime",
+      "nid": "wwM99gjFf1Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerDisableStream",
+      "nid": "BOVKAzRmuTQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerEnableStream",
+      "nid": "ODJK2sn9w4A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerGetAudioData",
+      "nid": "Wnp1OVcrZgk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerGetStreamInfo",
+      "nid": "d8FcbzfAdQw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerGetStreamInfoEx",
+      "nid": "ctTAcF5DiKQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerGetVideoData",
+      "nid": "o3+RWnHViSg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerGetVideoDataEx",
+      "nid": "JdksQu8pNdQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerInit",
+      "nid": "aS66RI0gGgo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerInitEx",
+      "nid": "o9eWRkSL+M4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerIsActive",
+      "nid": "UbQoYawOsfY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerJumpToTime",
+      "nid": "XC9wM+xULz8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerPause",
+      "nid": "9y5v+fGN4Wk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerPostInit",
+      "nid": "HD1YKVU26-M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerResume",
+      "nid": "w5moABNwnRY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerSetAvSyncMode",
+      "nid": "k-q+xOxdc3E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerSetAvailableBandwidth",
+      "nid": "N6Oy-EjduiY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerSetLogCallback",
+      "nid": "eBTreZ84JFY",
+      "state": "inert"
+    },
+    {
+      "name": "sceAvPlayerSetLooping",
+      "nid": "OVths0xGfho",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerSetTrickSpeed",
+      "nid": "av8Z++94rs0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerStart",
+      "nid": "ET4Gr-Uu07s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerStartEx",
+      "nid": "NxSdL9t-KXk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerStop",
+      "nid": "ZC17w3vB5Lo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAvPlayerStreamCount",
+      "nid": "hdTyRzCXQeQ",
+      "state": "implemented"
+    }
+  ]
+}

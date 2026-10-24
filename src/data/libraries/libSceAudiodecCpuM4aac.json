@@ -1,0 +1,11 @@
+{
+  "name": "libSceAudiodecCpuM4aac",
+  "label": "AudiodecCpuM4aac",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 0,
+  "total": 0,
+  "sharedSources": null,
+  "functions": []
+}

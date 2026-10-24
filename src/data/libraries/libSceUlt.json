@@ -1,0 +1,452 @@
+{
+  "name": "libSceUlt",
+  "label": "Ult",
+  "category": "System utilities",
+  "implemented": 65,
+  "inert": 1,
+  "stub": 22,
+  "total": 88,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "_sceUltConditionVariableCreate",
+      "nid": "jnKaHGkrxZ4",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceUltConditionVariableOptParamInitialize",
+      "nid": "RVmEia0vXMI",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceUltMutexCreate",
+      "nid": "mmt8Sa6tL6c",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceUltMutexOptParamInitialize",
+      "nid": "1+8t9aHLiz8",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceUltQueueCreate",
+      "nid": "9Y5keOvb6ok",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceUltQueueDataResourcePoolCreate",
+      "nid": "TFHm6-N6vks",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceUltSemaphoreCreate",
+      "nid": "h5QlIYj+Ro8",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceUltUlthreadCreate",
+      "nid": "znI3q8S7KQ4",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceUltUlthreadRuntimeCreate",
+      "nid": "jw9FkZBXo-g",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceUltUlthreadRuntimeOptParamInitialize",
+      "nid": "V2u3WLrwh64",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceUltWaitingQueueResourcePoolCreate",
+      "nid": "YiHujOG9vXY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltAbstractThreadFactoryCreateThread",
+      "nid": "8knoeB6qS0E",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltAbstractThreadFactoryGetNumMaxThreads",
+      "nid": "+c+gjAxnJlw",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltAbstractThreadFactoryJoinThread",
+      "nid": "x57NlB8CHCs",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltConditionVariableCreate",
+      "nid": "onb0kxCt02U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltConditionVariableDestroy",
+      "nid": "xrmmI832R4U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltConditionVariableOptParamInitialize",
+      "nid": "c2Vd1k9Rm38",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltConditionVariableSignal",
+      "nid": "JTw1cAVkuc0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltConditionVariableSignalAll",
+      "nid": "byiceqcMvV0",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltConditionVariableWait",
+      "nid": "5xGAHCxA8M0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltFinalize",
+      "nid": "d-kSG2fLrvI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltGetConditionVariableInfo",
+      "nid": "wps6M1FgHE4",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltGetMutexInfo",
+      "nid": "xBd3WoSt2PA",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltGetQueueDataResourcePoolInfo",
+      "nid": "-aVO3GCDUAs",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltGetQueueInfo",
+      "nid": "g9FncxNrnmw",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltGetReaderWriterLockInfo",
+      "nid": "SB7YXgR8WSE",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltGetSemaphoreInfo",
+      "nid": "E5Koh2tNPtY",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltGetUlthreadInfo",
+      "nid": "jNMdItooJzc",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltGetUlthreadRuntimeInfo",
+      "nid": "dfVvFVZgr68",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltGetWaitingQueueResourcePoolInfo",
+      "nid": "XSjr+FjsU4s",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltInitialize",
+      "nid": "hZIg1EWGsHM",
+      "state": "inert"
+    },
+    {
+      "name": "sceUltKernelThreadFactoryFinalize",
+      "nid": "TEsyEfsvZTs",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltKernelThreadFactoryGetFactoryPointer",
+      "nid": "wzSNLVO5LZM",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltKernelThreadFactoryInitialize",
+      "nid": "8XVk4wq0HHQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltModuleFinalize",
+      "nid": "TR+j3oF-gBE",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltModuleInitialize",
+      "nid": "UKOTqqTS7uU",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltMutexCreate",
+      "nid": "+bOLqU65Gg0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltMutexDestroy",
+      "nid": "jW+HnafeS3Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltMutexLock",
+      "nid": "8hEGkR1pfr8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltMutexOptParamInitialize",
+      "nid": "UOR33LVrX+k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltMutexTryLock",
+      "nid": "jOsUG0BJI-Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltMutexUnlock",
+      "nid": "h0XebKiMBtk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltQueueCreate",
+      "nid": "bMusTcSC2nw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltQueueDataResourcePoolCreate",
+      "nid": "ojLQon68BTA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltQueueDataResourcePoolDestroy",
+      "nid": "dh11uAUWNyM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltQueueDataResourcePoolGetWorkAreaSize",
+      "nid": "evj9YPkS8s4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltQueueDataResourcePoolOptParamInitialize",
+      "nid": "NOu4qi4c+7A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltQueueDestroy",
+      "nid": "PP9nZxpSKLY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltQueueOptParamInitialize",
+      "nid": "UUKivIf6DMA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltQueuePop",
+      "nid": "RVSq2tsm2yw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltQueuePush",
+      "nid": "dUwpX3e5NDE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltQueueTryPop",
+      "nid": "uZz3ci7XYqc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltQueueTryPush",
+      "nid": "6Mc2Xs7pI1I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltReaderWriterLockCreate",
+      "nid": "6+5YJtCAa2Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltReaderWriterLockDestroy",
+      "nid": "gCA-D2wiiD0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltReaderWriterLockLockRead",
+      "nid": "Hb9HWFKo9F4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltReaderWriterLockLockWrite",
+      "nid": "RgKmNey20Ns",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltReaderWriterLockOptParamInitialize",
+      "nid": "EvwkMdllJdw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltReaderWriterLockTryLockRead",
+      "nid": "J7Xs-UluzGk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltReaderWriterLockTryLockWrite",
+      "nid": "9Sh0Kk7Xf4w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltReaderWriterLockUnlockRead",
+      "nid": "8Ssk4OU38vw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltReaderWriterLockUnlockWrite",
+      "nid": "gcFCn5J5DXY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltSemaphoreAcquire",
+      "nid": "QAH1ofI97vU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltSemaphoreCreate",
+      "nid": "R-bzjZkqSEs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltSemaphoreDestroy",
+      "nid": "izXyehpoZGo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltSemaphoreOptParamInitialize",
+      "nid": "f0dttn9xcuQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltSemaphoreRelease",
+      "nid": "lbtk5X1mecw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltSemaphoreTryAcquire",
+      "nid": "HA1Ldbi3lPY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltUlthreadCreate",
+      "nid": "RlN-xQPtYnM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltUlthreadExit",
+      "nid": "kF--s3xZjco",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltUlthreadFactoryFinalize",
+      "nid": "zM7f8sNV3R0",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltUlthreadFactoryGetFactoryPointer",
+      "nid": "BDiIpSh0PgI",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltUlthreadFactoryGetWorkAreaSize",
+      "nid": "fDR4oiGwxZE",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltUlthreadFactoryInitialize",
+      "nid": "EnSRgsFIZi8",
+      "state": "stub"
+    },
+    {
+      "name": "sceUltUlthreadGetSelf",
+      "nid": "xOQ9oACobA4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltUlthreadJoin",
+      "nid": "gCeAI57LGgI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltUlthreadOptParamInitialize",
+      "nid": "V89UhsfEhJk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltUlthreadRuntimeCreate",
+      "nid": "81ag9-mItVY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltUlthreadRuntimeDestroy",
+      "nid": "-gxcs521SvA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltUlthreadRuntimeGetWorkAreaSize",
+      "nid": "grs2pbc2awM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltUlthreadRuntimeOptParamInitialize",
+      "nid": "7+pdaXR9jWw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltUlthreadTryJoin",
+      "nid": "DsW+3FTXL0Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltUlthreadYield",
+      "nid": "HFd-lpjGxJA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltWaitingQueueResourcePoolCreate",
+      "nid": "0OPujcRPBAE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltWaitingQueueResourcePoolDestroy",
+      "nid": "or55417wcDk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltWaitingQueueResourcePoolGetWorkAreaSize",
+      "nid": "WIWV1Qd7PFU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUltWaitingQueueResourcePoolOptParamInitialize",
+      "nid": "DOCo0w5-A3s",
+      "state": "implemented"
+    },
+    {
+      "name": "ulthreadRunner",
+      "nid": "TyrEKmXZPZ4",
+      "state": "implemented"
+    }
+  ]
+}

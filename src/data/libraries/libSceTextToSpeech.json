@@ -1,0 +1,62 @@
+{
+  "name": "libSceTextToSpeech",
+  "label": "TextToSpeech",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 10,
+  "total": 10,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceTextToSpeechCancelImpl",
+      "nid": "Fz+01Q4GjpM",
+      "state": "stub"
+    },
+    {
+      "name": "sceTextToSpeechCloseImpl",
+      "nid": "yn2loAZJRfk",
+      "state": "stub"
+    },
+    {
+      "name": "sceTextToSpeechGetStatusImpl",
+      "nid": "q6yAtHbMlyk",
+      "state": "stub"
+    },
+    {
+      "name": "sceTextToSpeechInitImpl",
+      "nid": "KXBnxqAeTuo",
+      "state": "stub"
+    },
+    {
+      "name": "sceTextToSpeechOpenImpl",
+      "nid": "HFM-KkVMVps",
+      "state": "stub"
+    },
+    {
+      "name": "sceTextToSpeechPauseImpl",
+      "nid": "m8KLvqm+xF4",
+      "state": "stub"
+    },
+    {
+      "name": "sceTextToSpeechResumeImpl",
+      "nid": "AceRR9y6-ss",
+      "state": "stub"
+    },
+    {
+      "name": "sceTextToSpeechSpeakContinuousImpl",
+      "nid": "0iJvHDhBxtA",
+      "state": "stub"
+    },
+    {
+      "name": "sceTextToSpeechSpeakImpl",
+      "nid": "wapB9dMovnk",
+      "state": "stub"
+    },
+    {
+      "name": "sceTextToSpeechTermImpl",
+      "nid": "rjU70FGcXDw",
+      "state": "stub"
+    }
+  ]
+}

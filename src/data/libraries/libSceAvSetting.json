@@ -1,0 +1,132 @@
+{
+  "name": "libSceAvSetting",
+  "label": "AvSetting",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 24,
+  "total": 24,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAvControlAddCallbacksForLnc",
+      "nid": "Im9QXnr0QK4",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlAddCallbacksForResourceArbitrator",
+      "nid": "es6JxiZrq+M",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlCheckCallback",
+      "nid": "s2ODJNcQVkI",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlCheckMonitorInfoCapability",
+      "nid": "99onF18gl7s",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlCheckVideoOutMode",
+      "nid": "pEWO4qCFFVc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlDebugAddCallbacks",
+      "nid": "FlNq+qOmnQc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlGetCurrentOutputSysMode",
+      "nid": "McgrvS+REGU",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlGetKsvList",
+      "nid": "PwVPvmkLBnw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlGetNativeHdmiMonitorInfo",
+      "nid": "ovXDpU45jcQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlGetPuTypeByMonitorInfo",
+      "nid": "zjgbsYAkwBc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlGetRawEdid",
+      "nid": "725L3a7UUKA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlGetRawMonitorInfo",
+      "nid": "lAWdVKRbZbE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlIsVideoOutModeSupportedByMonitorInfoWithOptions",
+      "nid": "WMNzODKrOD8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlNotifyUmdEvent",
+      "nid": "PMYiKWBa-84",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlRemoveCallbacks",
+      "nid": "KiCPJyA-prw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlRemoveProcessOutputMode",
+      "nid": "x9ar-AtpN-I",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlSetCheckoutputMode",
+      "nid": "BI+P-FjYn6c",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlSetColorMode",
+      "nid": "jotzakYP+lk",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlSetDitherModeForDiag",
+      "nid": "2aRUfRAvWKU",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlSetLayoutModeForDiag",
+      "nid": "6IDnNOkPeno",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlSetMonitorFakeMode",
+      "nid": "50Wf-1EY+HQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlSetSystemVideoMode",
+      "nid": "Fog5t22u4K0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlUpdateDriverStatus",
+      "nid": "alGZLzcerhA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAvControlWaitCallback",
+      "nid": "9qMU1MKdkWw",
+      "state": "stub"
+    }
+  ]
+}

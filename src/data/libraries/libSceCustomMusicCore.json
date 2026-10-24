@@ -1,0 +1,102 @@
+{
+  "name": "libSceCustomMusicCore",
+  "label": "CustomMusicCore",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 18,
+  "total": 18,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceCustomMusicCoreBgmClose",
+      "nid": "qeUNRM8Wl6w",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreBgmOpen",
+      "nid": "dJzkNeDFeAM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreBgmOpen2",
+      "nid": "7S6OwXEoTmk",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreBgmOutput",
+      "nid": "PvJ9H9YgUME",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreBgmSetAudioVolume",
+      "nid": "zjxjqNfga3Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreBgmStart",
+      "nid": "LGTKL9VT2DM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreBgmStop",
+      "nid": "LDZkMcW3+fg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreGetBgmAuthorityStatus",
+      "nid": "VBYw7bb1gEk",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreGetHdcpStatus",
+      "nid": "8jlixeK+pgk",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreGetSystemAudioVolume",
+      "nid": "7okrKugZRI4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCorePostEvent",
+      "nid": "khSBh3xjSvU",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreSendEvent",
+      "nid": "pUNYBQhD1oQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreSendMulticastEvent",
+      "nid": "IQmLAxP+i94",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreSendSpMessage",
+      "nid": "w7tvvHZZzug",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreSetSystemAudioVolume",
+      "nid": "Y83n-gwogPo",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreStartOperation",
+      "nid": "ImGu0XisCrg",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreStartOperation2",
+      "nid": "+h5AoR4cUgc",
+      "state": "stub"
+    },
+    {
+      "name": "sceCustomMusicCoreStopOperation",
+      "nid": "9Vf5HAjr5Ek",
+      "state": "stub"
+    }
+  ]
+}

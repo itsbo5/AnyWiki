@@ -1,0 +1,47 @@
+{
+  "name": "libScePlayGoDialog",
+  "label": "PlayGoDialog",
+  "category": "Network and services",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePlayGoDialogClose",
+      "nid": "fbigNQiZpm0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoDialogGetResult",
+      "nid": "wx9TDplJKB4",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoDialogGetStatus",
+      "nid": "NOAMxY2EGS0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoDialogInitialize",
+      "nid": "fECamTJKpsM",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoDialogOpen",
+      "nid": "kHd72ukqbxw",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoDialogTerminate",
+      "nid": "okgIGdr5Iz0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayGoDialogUpdateStatus",
+      "nid": "Yb60K7BST48",
+      "state": "implemented"
+    }
+  ]
+}

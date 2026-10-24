@@ -1,0 +1,32 @@
+{
+  "name": "libScePngEnc",
+  "label": "PngEnc",
+  "category": "System utilities",
+  "implemented": 4,
+  "inert": 0,
+  "stub": 0,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePngEncCreate",
+      "nid": "7aGTPfrqT9s",
+      "state": "implemented"
+    },
+    {
+      "name": "scePngEncDelete",
+      "nid": "RUrWdwTWZy8",
+      "state": "implemented"
+    },
+    {
+      "name": "scePngEncEncode",
+      "nid": "xgDjJKpcyHo",
+      "state": "implemented"
+    },
+    {
+      "name": "scePngEncQueryMemorySize",
+      "nid": "9030RnBDoh4",
+      "state": "implemented"
+    }
+  ]
+}

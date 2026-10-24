@@ -1,0 +1,172 @@
+{
+  "name": "libSceAudio3d",
+  "label": "Audio3d",
+  "category": "Audio and media",
+  "implemented": 25,
+  "inert": 0,
+  "stub": 7,
+  "total": 32,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAudio3dAudioOutClose",
+      "nid": "pZlOm1aF3aA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dAudioOutOpen",
+      "nid": "ucEsi62soTo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dAudioOutOutput",
+      "nid": "7NYEzJ9SJbM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dAudioOutOutputs",
+      "nid": "HbxYY27lK6E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dBedWrite",
+      "nid": "9tEwE0GV0qo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dBedWrite2",
+      "nid": "xH4Q9UILL3o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dCreateSpeakerArray",
+      "nid": "lvWMW6vEqFU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dDeleteSpeakerArray",
+      "nid": "8hm6YdoQgwg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dGetDefaultOpenParameters",
+      "nid": "Im+jOoa5WAI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dGetSpeakerArrayMemorySize",
+      "nid": "kEqqyDkmgdI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dGetSpeakerArrayMixCoefficients",
+      "nid": "-R1DukFq7Dk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dGetSpeakerArrayMixCoefficients2",
+      "nid": "-Re+pCWvwjQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dInitialize",
+      "nid": "UmCvjSmuZIw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dObjectReserve",
+      "nid": "jO2tec4dJ2M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dObjectSetAttributes",
+      "nid": "4uyHN9q4ZeU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dObjectUnreserve",
+      "nid": "1HXxo-+1qCw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dPortAdvance",
+      "nid": "lw0qrdSjZt8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dPortClose",
+      "nid": "OyVqOeVNtSk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dPortCreate",
+      "nid": "UHFOgVNz0kk",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudio3dPortDestroy",
+      "nid": "Mw9mRQtWepY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudio3dPortFlush",
+      "nid": "ZOGrxWLgQzE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dPortGetAttributesSupported",
+      "nid": "9ZA23Ia46Po",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dPortGetQueueLevel",
+      "nid": "YaaDbDwKpFM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dPortGetStatus",
+      "nid": "iRX6GJs9tvE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudio3dPortOpen",
+      "nid": "XeDDK0xJWQA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dPortOpenEx",
+      "nid": "k1epkaA96XU",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudio3dPortPush",
+      "nid": "VEVhZ9qd4ZY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dPortSetAttribute",
+      "nid": "Yq9bfUQ0uJg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudio3dReportRegisterHandler",
+      "nid": "QfNXBrKZeI0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudio3dReportUnregisterHandler",
+      "nid": "psv2gbihC1A",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudio3dStrError",
+      "nid": "Aacl5qkRU6U",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudio3dTerminate",
+      "nid": "WW1TS2iz5yc",
+      "state": "implemented"
+    }
+  ]
+}

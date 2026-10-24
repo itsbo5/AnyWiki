@@ -1,0 +1,142 @@
+{
+  "name": "libSceSdma",
+  "label": "Sdma",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 26,
+  "total": 26,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSdmaBeginQueueMode",
+      "nid": "aTRyTzcMwbA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaCancelQueue",
+      "nid": "2DZKLRza9tQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaClose",
+      "nid": "ADzErLRX1EY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaConstantFill",
+      "nid": "9aCk9jZ00-w",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaConstantFillNonBlocking",
+      "nid": "zDeGymmw1lg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaCopyLinear",
+      "nid": "ZYg4MopBVCM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaCopyLinearNonBlocking",
+      "nid": "FS4QDTBsbvA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaCopyTiled",
+      "nid": "BP2pKoCEwgs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaCopyTiledNonBlocking",
+      "nid": "xZDG33ZHAOc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaCopyWindowL2L",
+      "nid": "v1lXY+9IGYg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaCopyWindowL2LNonBlocking",
+      "nid": "uvzX0EMoQwA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaCopyWindowT2T",
+      "nid": "dd8jmd0it24",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaCopyWindowT2TNonBlocking",
+      "nid": "R1s4ue5cubY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaCopyWindowTiled",
+      "nid": "mUgTynRdg-s",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaCopyWindowTiledNonBlocking",
+      "nid": "t4plRC4G6ms",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaEndQueueMode",
+      "nid": "ShFvx9095CY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaFenceNonBlocking",
+      "nid": "5VuCHqv7kmw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaFinalize",
+      "nid": "mNFbFFiI-7A",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaFlushAll",
+      "nid": "S2pJMf00-sk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaFlushAllWithEvent",
+      "nid": "uHobIZSa1dI",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaInitialize",
+      "nid": "Xc+bwbBPK00",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaKickQueue",
+      "nid": "LSXECOKlQN8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaOpen",
+      "nid": "rMaiuPQsNoM",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaQueryWorkingBufferSize",
+      "nid": "1FH-82oV3PY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaTryFlush",
+      "nid": "+kg7++G48bw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdmaWaitForEvent",
+      "nid": "rzfOSPn1w7k",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,612 @@
+{
+  "name": "libSceMbus",
+  "label": "Mbus",
+  "category": "System utilities",
+  "implemented": 3,
+  "inert": 4,
+  "stub": 113,
+  "total": 120,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceDeviceServiceGetEventState",
+      "nid": "9ddRUOV8Q5A",
+      "state": "inert"
+    },
+    {
+      "name": "sceDeviceServiceGetGeneration",
+      "nid": "oFon+A5v1z8",
+      "state": "inert"
+    },
+    {
+      "name": "sceDeviceServiceInitialize",
+      "nid": "84fDxStrG44",
+      "state": "implemented"
+    },
+    {
+      "name": "sceDeviceServiceQueryDeviceInfo_",
+      "nid": "UNMEa+5lrUA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceDeviceServiceTerminate",
+      "nid": "Uq8uW74rVpU",
+      "state": "inert"
+    },
+    {
+      "name": "sceMbusAcquireControl",
+      "nid": "eINK6ismSX0",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusAcquireControlList",
+      "nid": "BIQaOpcytRc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMbusAcquireControlWithState",
+      "nid": "uryBfUoKlVg",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusAcquireControlWithState2",
+      "nid": "eTpWp430DA4",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusAcquireControlWithStateFlag",
+      "nid": "3ic-p1mwH1I",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusAddHandle",
+      "nid": "ZiBFdjUIV3A",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusAddHandleByDeviceId",
+      "nid": "WW1zKfNo6HI",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusAddHandleByUserId",
+      "nid": "CwDVsGO6U3Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusAddHandleByVidPid",
+      "nid": "vDx7zD34kQg",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusAddHandleWithModuleId",
+      "nid": "wHacm9eagys",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusAttachToApplicationByPid",
+      "nid": "YhDksFtpQso",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusBindDeviceWithUserId",
+      "nid": "Cpo6sQmnZgU",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusChangeAppModuleState",
+      "nid": "7JNcL38ez2s",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusCheckDriverCallback",
+      "nid": "LFYbwOGhCys",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusConvertToLocalDeviceId",
+      "nid": "48qKr9oyIbQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusConvertToLocalDeviceId2",
+      "nid": "wxmyc+71ijI",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusConvertToMbusDeviceId",
+      "nid": "9z3E9CCNNEM",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugAcquireControl",
+      "nid": "L3-IGzPiZHI",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugAcquireControlWithState",
+      "nid": "Rz00FuIBcIk",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugAcquireControlWithState2",
+      "nid": "vYb+RkDnJBw",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugAcquireControlWithStateFlag",
+      "nid": "QWVJAvJhcoE",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugAddProcess",
+      "nid": "ENIHay-pf9k",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugCheckProcessResume",
+      "nid": "f3S7UzMOqpc",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugDisableBgmForShellUi",
+      "nid": "doh35AZf7Zk",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugGetApplicationStartupInfo",
+      "nid": "FW8GJjej89g",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugGetControlStatus",
+      "nid": "iidMRmA0MEo",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugGetDeviceInfo",
+      "nid": "lrH9rFkouoY",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugGetInternalInfo",
+      "nid": "1TpZWrOOCw0",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugGetPriorityInfo",
+      "nid": "5ixbljAMYeg",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugReenableBgmForShellUi",
+      "nid": "AXXEjyZq2mE",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugReleaseControl",
+      "nid": "IFRxwVZPcYw",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugRemoveCameraAppModuleFocus",
+      "nid": "n0lBsnSyAUs",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugResumeApplication",
+      "nid": "yppUV49ur84",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugSetApplicationFocusByAppId",
+      "nid": "EUmWuIWWTvg",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugSetCameraAppModuleFocus",
+      "nid": "uFUnPAXlyuw",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugSetControllerFocusByAppId",
+      "nid": "sMW2cWXt-yk",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugSetOtherProcessExcludedAction",
+      "nid": "po33migRv1I",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugSetPriority",
+      "nid": "FA-B27CW4RQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugStartApplication",
+      "nid": "wpMHmauFaok",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugStartApplication2",
+      "nid": "ie4A5lHoO8U",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugStartApplicationNull",
+      "nid": "8A7Zj+CRIoY",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugSuspendApplication",
+      "nid": "D2MCGrGvCYY",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugTerminateApplication",
+      "nid": "niEWK3zCAGQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDebugTerminateProcess",
+      "nid": "bFh3fZapfPY",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDetachFromApplicationByPid",
+      "nid": "t2r-vTvYlTo",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDisableBgmForShellUi",
+      "nid": "fG0IjY5r484",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDisableChat",
+      "nid": "KcZzE5h0OBA",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDisconnectDevice",
+      "nid": "WNxCIjZdcTo",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDumpAppInfo",
+      "nid": "tJ9kX6guf3I",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDumpDeviceInfo",
+      "nid": "MtBchJFDxdU",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDumpHandleStatusInfo",
+      "nid": "fZ3rCadtmXo",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDumpHandleStatusInfoAll",
+      "nid": "KdvFp7l2qhA",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDumpModuleStateInfo",
+      "nid": "3UJTdJgcQzA",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDumpModuleStateInfoAll",
+      "nid": "YQdBMeXFvso",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDumpPlayerInfo",
+      "nid": "nNxUUYCpZkw",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDumpPortHandleInfo",
+      "nid": "28Gu3wb-d1o",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDumpProcMediaInfo",
+      "nid": "Qk18Owuq1Yg",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDumpProcMediaInfoAll",
+      "nid": "ZMskokGFzRk",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusDumpUserMediaInfo",
+      "nid": "kdL5Xm-z3zw",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusEnableChat",
+      "nid": "ESiS-L7svdc",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusEnterAudioOutAutoAttenuation",
+      "nid": "jR6okvzdkvI",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusEventBusStatusChangeSubscribe",
+      "nid": "pM6IH8xwjQ4",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusEventBusStatusChangeUnsubscribe",
+      "nid": "sB-c6VjBmOs",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusEventCallbackFuncsInit_",
+      "nid": "HgPSJ1kcnHM",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusEventCreate_",
+      "nid": "c08SEHicDNU",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusEventDestroy",
+      "nid": "AcARz3iay1I",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusEventReceive",
+      "nid": "puHrnP8V-dY",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusGetControlStatus",
+      "nid": "GssDGmm3rGM",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusGetDeviceDescription",
+      "nid": "Czjo1Se8pEw",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusGetDeviceInfoByBusId_",
+      "nid": "jpq8GaJ3ER0",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusGetDeviceInfoByConditionForDeviceService",
+      "nid": "UWh5t-hCbzQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusGetDeviceInfoByCondition_",
+      "nid": "KRL-S9qBqXw",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusGetDeviceInfo_",
+      "nid": "RsKVKhSWt28",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusGetSimulatedBusUsableStatusByBusType",
+      "nid": "hIix-HlsHmU",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusGetSimulatedHandleStatusInfo",
+      "nid": "b28tsShnGuQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusGetSimulatedHandleStatusInfo2",
+      "nid": "nkMkM8NEEnI",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusGetSparkState",
+      "nid": "hIAyLXI4V8g",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusInit",
+      "nid": "wRPXMGtkOq0",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusIsBgmProhibited",
+      "nid": "QN0bWxhaUFk",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusIsUsingDevice",
+      "nid": "qDP21JPNjTs",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusLeaveAudioOutAutoAttenuation",
+      "nid": "Eb6RFqAKzVY",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusNotifyBtDisconnection",
+      "nid": "Lz5AYtGxIFI",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusNotifyDriverEvent",
+      "nid": "i1D0nTVcCgk",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusReenableBgmForShellUi",
+      "nid": "UBOvPwgs85s",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusRegisterDriver",
+      "nid": "1UyDc79Q4B4",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusReleaseControl",
+      "nid": "n8+7l03wVdE",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusRemoveCameraAppModuleFocus",
+      "nid": "MtpIAcDR9sA",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusRemoveHandle",
+      "nid": "+la07V7EES0",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusRemoveProxy",
+      "nid": "LbHgD9w6uAE",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusResolveByDeviceId",
+      "nid": "GcdIHVyl-aw",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusResolveByHandle",
+      "nid": "Ryaa0CMieNs",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusResolveByPlayerId",
+      "nid": "mGMQ9igs1LM",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusResolveByUserId",
+      "nid": "hUAjs1MUwGY",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetAutoLoginMode",
+      "nid": "wpm6Yq7c4YE",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetCameraAppModuleFocus",
+      "nid": "a-hXdI7w8Dg",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetDeviceFunctionState",
+      "nid": "8RjBhxgP+28",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetDuckingSetting",
+      "nid": "S0wLwmc9bc8",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetProxy",
+      "nid": "mP31WHwSVjQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetRoutingMode",
+      "nid": "J5u88cqU7OU",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetScratchData",
+      "nid": "Lrelj2uF1Lc",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetScratchDataUpdatedEventMask",
+      "nid": "Sq1DqijPveA",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetSocialScreenAudioMode",
+      "nid": "ebnG6EV5OcI",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetTestFlag",
+      "nid": "jQ2n+Kj8H3c",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetThreadParam",
+      "nid": "Mk8fJasEEA4",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetUsbPowerBlackList",
+      "nid": "38YQch0p-Xo",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetUserMuteStatus",
+      "nid": "pv9qYGyI3+U",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusSetVolumeDown",
+      "nid": "DOFWwhLN09E",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusStartAudioOutAuxBroadcast",
+      "nid": "87efDBqDEao",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusStartAudioOutSharePlay",
+      "nid": "MHp1WISR7bE",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusStopAudioOutAuxBroadcast",
+      "nid": "G4ubH1mUgdQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusStopAudioOutSharePlay",
+      "nid": "Mr3c8XddszE",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusTerm",
+      "nid": "hykD8qmO6XA",
+      "state": "inert"
+    },
+    {
+      "name": "sceMbusUnregisterDriver",
+      "nid": "OUrM7JZcRSg",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusUserLogin",
+      "nid": "84H-GMsBU6M",
+      "state": "stub"
+    },
+    {
+      "name": "sceMbusUserLogout",
+      "nid": "VKZKhUg0vyU",
+      "state": "stub"
+    }
+  ]
+}

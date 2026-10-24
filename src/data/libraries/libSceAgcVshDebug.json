@@ -1,0 +1,11 @@
+{
+  "name": "libSceAgcVshDebug",
+  "label": "AgcVshDebug",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 0,
+  "total": 0,
+  "sharedSources": null,
+  "functions": []
+}

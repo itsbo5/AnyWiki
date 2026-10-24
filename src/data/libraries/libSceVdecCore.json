@@ -1,0 +1,112 @@
+{
+  "name": "libSceVdecCore",
+  "label": "VdecCore",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 20,
+  "total": 20,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVdecCoreAnalyzeStream",
+      "nid": "bWPuW6TnMjk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreCreateDecoder",
+      "nid": "wnWMkCYv0m4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreDeleteDecoder",
+      "nid": "D0RWslNmK9s",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreFinalizeComputeResource",
+      "nid": "DHQXNKiY-Dw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreFlushDecodeOutput",
+      "nid": "b0xbD0x+02M",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreGetDecodeOutput",
+      "nid": "K4sH-0WUfuc",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreInitializeComputeResource",
+      "nid": "HPpz-oyX4vM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreMapMemoryBlock",
+      "nid": "7YW9rloMLYo",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreQueryComputeResourceInfo",
+      "nid": "zwcpjJ7WUgQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreQueryFrameBufferInfo",
+      "nid": "UxV5adxfBFg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreQueryInstanceSize",
+      "nid": "Zsh1K8YTD1E",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreResetDecoder",
+      "nid": "nFn-3CWQEyo",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreSetDecodeInput",
+      "nid": "F4nrEfi-M84",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreSetDecodeOutputSw",
+      "nid": "hF8Pz0rtPLU",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreSyncDecode",
+      "nid": "OyxRC7GT4Es",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreSyncDecodeOutputSw",
+      "nid": "1hE5Sdn4U3U",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreSyncDecodeWptr",
+      "nid": "JFcSDC6AD+k",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreTrySyncDecode",
+      "nid": "iQRVLJQ+OYs",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreTrySyncDecodeOutputSw",
+      "nid": "WMhw0IVNNC8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecCoreTrySyncDecodeWptr",
+      "nid": "T9yCBYaGDew",
+      "state": "stub"
+    }
+  ]
+}

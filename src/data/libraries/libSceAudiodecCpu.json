@@ -1,0 +1,52 @@
+{
+  "name": "libSceAudiodecCpu",
+  "label": "AudiodecCpu",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 8,
+  "total": 8,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAudiodecCpuClearContext",
+      "nid": "hAS5WH6hxrE",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecCpuDecode",
+      "nid": "lSVTiWV5wLc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecCpuInitDecoder",
+      "nid": "hdFsxo3MFu8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecCpuInternalClearContext",
+      "nid": "CnY1NGmdi7I",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecCpuInternalDecode",
+      "nid": "-0jDlM2hG5k",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecCpuInternalInitDecoder",
+      "nid": "KkhdeVCyo6Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecCpuInternalQueryMemSize",
+      "nid": "R8v5kdZ55mY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAudiodecCpuQueryMemSize",
+      "nid": "ktD2w3D4G2U",
+      "state": "stub"
+    }
+  ]
+}

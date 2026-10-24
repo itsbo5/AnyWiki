@@ -1,0 +1,97 @@
+{
+  "name": "libSceCompanionHttpd",
+  "label": "CompanionHttpd",
+  "category": "Network and services",
+  "implemented": 6,
+  "inert": 0,
+  "stub": 11,
+  "total": 17,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceCompanionHttpdAddHeader",
+      "nid": "8pWltDG7h6A",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompanionHttpdGet2ndScreenStatus",
+      "nid": "B-QBMeFdNgY",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompanionHttpdGetEvent",
+      "nid": "Vku4big+IYM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCompanionHttpdGetUserId",
+      "nid": "0SySxcuVNG0",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompanionHttpdInitialize",
+      "nid": "ykNpWs3ktLY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCompanionHttpdInitialize2",
+      "nid": "OA6FbORefbo",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompanionHttpdOptParamInitialize",
+      "nid": "r-2-a0c7Kfc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCompanionHttpdRegisterRequestBodyReceptionCallback",
+      "nid": "fHNmij7kAUM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompanionHttpdRegisterRequestCallback",
+      "nid": "OaWw+IVEdbI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCompanionHttpdRegisterRequestCallback2",
+      "nid": "-0c9TCTwnGs",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompanionHttpdSetBody",
+      "nid": "h3OvVxzX4qM",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompanionHttpdSetStatus",
+      "nid": "w7oz0AWHpT4",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompanionHttpdStart",
+      "nid": "k7F0FcDM-Xc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCompanionHttpdStop",
+      "nid": "0SCgzfVQHpo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCompanionHttpdTerminate",
+      "nid": "+-du9tWgE9s",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompanionHttpdUnregisterRequestBodyReceptionCallback",
+      "nid": "ZSHiUfYK+QI",
+      "state": "stub"
+    },
+    {
+      "name": "sceCompanionHttpdUnregisterRequestCallback",
+      "nid": "xweOi2QT-BE",
+      "state": "stub"
+    }
+  ]
+}

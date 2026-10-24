@@ -1,0 +1,47 @@
+{
+  "name": "libSceDtsEnc",
+  "label": "DtsEnc",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 7,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceDtsEncCreateEncoder",
+      "nid": "vjjqXVUcU8w",
+      "state": "stub"
+    },
+    {
+      "name": "sceDtsEncDeleteEncoder",
+      "nid": "Dd9-iAuMyis",
+      "state": "stub"
+    },
+    {
+      "name": "sceDtsEncEncode",
+      "nid": "jm5stx2t4Ao",
+      "state": "stub"
+    },
+    {
+      "name": "sceDtsEncEncodeAsync",
+      "nid": "jx5qjwQWSRU",
+      "state": "stub"
+    },
+    {
+      "name": "sceDtsEncFlush",
+      "nid": "76NVW6T2AUg",
+      "state": "stub"
+    },
+    {
+      "name": "sceDtsEncIsEncoding",
+      "nid": "Ctd9i+9hFu4",
+      "state": "stub"
+    },
+    {
+      "name": "sceDtsEncWaitEncode",
+      "nid": "ZAFfvaw5eNA",
+      "state": "stub"
+    }
+  ]
+}

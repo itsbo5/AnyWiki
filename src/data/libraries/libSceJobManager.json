@@ -1,0 +1,77 @@
+{
+  "name": "libSceJobManager",
+  "label": "JobManager",
+  "category": "System utilities",
+  "implemented": 13,
+  "inert": 0,
+  "stub": 0,
+  "total": 13,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "ComputeHandlerEntry",
+      "nid": "-ZcGYcNN9r0",
+      "state": "implemented"
+    },
+    {
+      "name": "WorkerEntry",
+      "nid": "p6ylr0O1ED8",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce3Job10JobManager10initializeEPvmjjPKNS1_12ConfigParamsE",
+      "nid": "d205iUFMyyE",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce3Job10JobManager10initializeEPvmjjjmPKNS1_12ConfigParamsE",
+      "nid": "GS9DSbzC+MY",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce3Job10JobManager24setPersistentThreadCountEj",
+      "nid": "VTKezfYu-v4",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce3Job10JobManager27calculateRequiredMemorySizeEPKNS1_21MemorySizeQueryParamsE",
+      "nid": "Nm2BhAwYNFk",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce3Job10JobManager27getSequenceFactoryInterfaceENS1_8PriorityE",
+      "nid": "W-yXgQmaozU",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce3Job10JobManager34getUnifiedSequenceFactoryInterfaceENS1_8PriorityE",
+      "nid": "L5jTAtk3HKA",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce3Job10JobManager8shutdownEv",
+      "nid": "chxnvsxxfBY",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce3Job10JobManagerC1Ev",
+      "nid": "cwMzzdesLlY",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce3Job10JobManagerC2Ev",
+      "nid": "HciaSIulWeo",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce3Job10JobManagerD1Ev",
+      "nid": "4g1ee34TMH8",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce3Job10JobManagerD2Ev",
+      "nid": "djt40NyfD-U",
+      "state": "implemented"
+    }
+  ]
+}

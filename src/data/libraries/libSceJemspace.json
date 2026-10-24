@@ -1,0 +1,77 @@
+{
+  "name": "libSceJemspace",
+  "label": "Jemspace",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 13,
+  "total": 13,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceJemspaceCalloc",
+      "nid": "Ua4eXAn2rec",
+      "state": "stub"
+    },
+    {
+      "name": "sceJemspaceCreate",
+      "nid": "PudtK6jPkKk",
+      "state": "stub"
+    },
+    {
+      "name": "sceJemspaceDestroy",
+      "nid": "xi1kSeeeHko",
+      "state": "stub"
+    },
+    {
+      "name": "sceJemspaceFree",
+      "nid": "KMxjh6mb1yk",
+      "state": "stub"
+    },
+    {
+      "name": "sceJemspaceGetStats",
+      "nid": "uuRDRq3yqII",
+      "state": "stub"
+    },
+    {
+      "name": "sceJemspaceMalloc",
+      "nid": "IUMgip-Glc4",
+      "state": "stub"
+    },
+    {
+      "name": "sceJemspaceMallocUsableSize",
+      "nid": "qyDRGMvYK7U",
+      "state": "stub"
+    },
+    {
+      "name": "sceJemspaceMemalign",
+      "nid": "jwK0WHNUz+c",
+      "state": "stub"
+    },
+    {
+      "name": "sceJemspacePosixMemalign",
+      "nid": "-aMNYbF70Ag",
+      "state": "stub"
+    },
+    {
+      "name": "sceJemspacePrintStats",
+      "nid": "4aop4GKLZaA",
+      "state": "stub"
+    },
+    {
+      "name": "sceJemspacePurge",
+      "nid": "s686MsLMwns",
+      "state": "stub"
+    },
+    {
+      "name": "sceJemspaceRealloc",
+      "nid": "bmstosXtyt8",
+      "state": "stub"
+    },
+    {
+      "name": "sceJemspaceReallocalign",
+      "nid": "HbsjU8cbCqQ",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "libSceTextToSpeech2",
+  "label": "TextToSpeech2",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 8,
+  "stub": 0,
+  "total": 8,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceTextToSpeech2Cancel",
+      "nid": "2jiIxUmcsGo",
+      "state": "inert"
+    },
+    {
+      "name": "sceTextToSpeech2Close",
+      "nid": "t4e879M-cSw",
+      "state": "inert"
+    },
+    {
+      "name": "sceTextToSpeech2GetSpeechStatus",
+      "nid": "08JSg9p6bgQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceTextToSpeech2GetSystemStatus",
+      "nid": "+352WTlGCQI",
+      "state": "inert"
+    },
+    {
+      "name": "sceTextToSpeech2Initialize",
+      "nid": "UOjiprYwVNw",
+      "state": "inert"
+    },
+    {
+      "name": "sceTextToSpeech2Open",
+      "nid": "X0HZNbSiqyg",
+      "state": "inert"
+    },
+    {
+      "name": "sceTextToSpeech2Speak",
+      "nid": "8ntsRd07EQA",
+      "state": "inert"
+    },
+    {
+      "name": "sceTextToSpeech2Terminate",
+      "nid": "SoWHuVW0gpU",
+      "state": "inert"
+    }
+  ]
+}

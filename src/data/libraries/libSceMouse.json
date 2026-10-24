@@ -1,0 +1,87 @@
+{
+  "name": "libSceMouse",
+  "label": "Mouse",
+  "category": "Input and user",
+  "implemented": 5,
+  "inert": 0,
+  "stub": 10,
+  "total": 15,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceMouseClose",
+      "nid": "cAnT0Rw-IwU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMouseConnectPort",
+      "nid": "Ymyy1HSSJLQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceMouseDebugGetDeviceId",
+      "nid": "BRXOoXQtb+k",
+      "state": "stub"
+    },
+    {
+      "name": "sceMouseDeviceOpen",
+      "nid": "WiGKINCZWkc",
+      "state": "stub"
+    },
+    {
+      "name": "sceMouseDisconnectDevice",
+      "nid": "eDQTFHbgeTU",
+      "state": "stub"
+    },
+    {
+      "name": "sceMouseDisconnectPort",
+      "nid": "jJP1vYMEPd4",
+      "state": "stub"
+    },
+    {
+      "name": "sceMouseGetDeviceInfo",
+      "nid": "QA9Qupz3Zjw",
+      "state": "stub"
+    },
+    {
+      "name": "sceMouseInit",
+      "nid": "Qs0wWulgl7U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMouseMbusInit",
+      "nid": "1FeceR5YhAo",
+      "state": "stub"
+    },
+    {
+      "name": "sceMouseOpen",
+      "nid": "RaqxZIf6DvE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMouseRead",
+      "nid": "x8qnXqh-tiM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMouseResetAbsolutePosition",
+      "nid": "c59jEdE4wzY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMouseSetHandType",
+      "nid": "crkFfp-cmFo",
+      "state": "stub"
+    },
+    {
+      "name": "sceMouseSetPointerSpeed",
+      "nid": "ghLUU2Z5Lcg",
+      "state": "stub"
+    },
+    {
+      "name": "sceMouseSetProcessPrivilege",
+      "nid": "6aANndpS0Wo",
+      "state": "stub"
+    }
+  ]
+}

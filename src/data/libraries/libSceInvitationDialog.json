@@ -1,0 +1,42 @@
+{
+  "name": "libSceInvitationDialog",
+  "label": "InvitationDialog",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 6,
+  "total": 6,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceInvitationDialogClose",
+      "nid": "WWtCL5lzi7Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceInvitationDialogGetResult",
+      "nid": "8XKR6wa64iQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceInvitationDialogInitialize",
+      "nid": "XvA5KS56wcs",
+      "state": "stub"
+    },
+    {
+      "name": "sceInvitationDialogOpen",
+      "nid": "0zU0G+wiVLA",
+      "state": "stub"
+    },
+    {
+      "name": "sceInvitationDialogTerminate",
+      "nid": "B6HVJtDYxEE",
+      "state": "stub"
+    },
+    {
+      "name": "sceInvitationDialogUpdateStatus",
+      "nid": "9+g9iOq+7kg",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "name": "libSceHttp2",
+  "label": "Http2",
+  "category": "Network and services",
+  "implemented": 12,
+  "inert": 24,
+  "stub": 26,
+  "total": 62,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceHttp2AbortRequest",
+      "nid": "IZ-qjhRqvjk",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2AddCookie",
+      "nid": "flPxnowtvWY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2AddRequestHeader",
+      "nid": "nrPfOE8TQu0",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2AuthCacheFlush",
+      "nid": "WeuDjj5m4YU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2CookieExport",
+      "nid": "JlFGR4v50Kw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2CookieFlush",
+      "nid": "5VlQSzXW-SQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2CookieImport",
+      "nid": "B5ibZI5UlzU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2CreateCookieBox",
+      "nid": "N4UfjvWJsMw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttp2CreateRequestWithURL",
+      "nid": "mmyOCxQMVYQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttp2CreateTemplate",
+      "nid": "+wCt7fCijgk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttp2DeleteCookieBox",
+      "nid": "O9ync3F-JVI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttp2DeleteRequest",
+      "nid": "c8D9qIjo8EY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttp2DeleteTemplate",
+      "nid": "pDom5-078DA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttp2GetAllResponseHeaders",
+      "nid": "-rdXUi2XW90",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2GetAuthEnabled",
+      "nid": "m-OL13q8AI8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2GetAutoRedirect",
+      "nid": "od5QCZhZSfw",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2GetCookie",
+      "nid": "GQFGj0rYX+A",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2GetCookieBox",
+      "nid": "IX23slKvtQI",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2GetCookieStats",
+      "nid": "eij7UzkUqK8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2GetMemoryPoolStats",
+      "nid": "otUQuZa-mv0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttp2GetResponseContentLength",
+      "nid": "o0DBQpFE13o",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2GetStatusCode",
+      "nid": "9XYJwCf3lEA",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2Init",
+      "nid": "3JCe3lCbQ8A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttp2ReadData",
+      "nid": "QygCNNmbGss",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2ReadDataAsync",
+      "nid": "bGN-6zbo7ms",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2RedirectCacheFlush",
+      "nid": "klwUy2Wg+q8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2RemoveRequestHeader",
+      "nid": "jHdP0CS4ZlA",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2SendRequest",
+      "nid": "rbqZig38AT8",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SendRequestAsync",
+      "nid": "A+NVAFu4eCg",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2SetAuthEnabled",
+      "nid": "jjFahkBPCYs",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetAuthInfoCallback",
+      "nid": "Wwj6HbB2mOo",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2SetAutoRedirect",
+      "nid": "b9AvoIaOuHI",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetConnectTimeOut",
+      "nid": "-HIO4VT87v8",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetConnectionWaitTimeOut",
+      "nid": "n8hMLe31OPA",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetCookieBox",
+      "nid": "jrVHsKCXA0g",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetCookieMaxNum",
+      "nid": "mPKVhQqh2Es",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2SetCookieMaxNumPerDomain",
+      "nid": "o7+WXe4WadE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2SetCookieMaxSize",
+      "nid": "6a0N6GPD7RM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2SetCookieRecvCallback",
+      "nid": "zdtXKn9X7no",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2SetCookieSendCallback",
+      "nid": "McYmUpQ3-DY",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2SetInflateGZIPEnabled",
+      "nid": "uRosf8GQbHQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetMinSslVersion",
+      "nid": "09tk+kIA1Ns",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttp2SetPreSendCallback",
+      "nid": "UL4Fviw+IAM",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2SetRecvTimeOut",
+      "nid": "izvHhqgDt44",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetRedirectCallback",
+      "nid": "BJgi0CH7al4",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetRequestContentLength",
+      "nid": "FSAFOzi0FpM",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetRequestNoContentLength",
+      "nid": "bEegosRhgM0",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetResolveRetry",
+      "nid": "Gcjh+CisAZM",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetResolveTimeOut",
+      "nid": "ACjtE27aErY",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetSendTimeOut",
+      "nid": "XPtW45xiLHk",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetSslCallback",
+      "nid": "YrWX+DhPHQY",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SetTimeOut",
+      "nid": "VYMxTcBqSE0",
+      "state": "inert"
+    },
+    {
+      "name": "sceHttp2SslDisableOption",
+      "nid": "B37SruheQ5Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttp2SslEnableOption",
+      "nid": "EWcwMpbr5F8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttp2Term",
+      "nid": "YiBUtz-pGkc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceHttp2WaitAsync",
+      "nid": "MOp-AUhdfi8",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2WebSocketCloseAsync",
+      "nid": "BlZ8niq3nHU",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2WebSocketCreateRequest",
+      "nid": "-0wUiGX74GQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2WebSocketSendDataMessageAsync",
+      "nid": "ksn0O9Iilb0",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2WebSocketSendTextMessageAsync",
+      "nid": "WYszaHaIkWs",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2WebSocketSetPingInterval",
+      "nid": "YfaXPnc8PJE",
+      "state": "stub"
+    },
+    {
+      "name": "sceHttp2WebSocketSetPingTimeout",
+      "nid": "-MU9L6S3Fj4",
+      "state": "stub"
+    }
+  ]
+}

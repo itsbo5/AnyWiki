@@ -1,0 +1,102 @@
+{
+  "name": "libSceVdecsw",
+  "label": "Vdecsw",
+  "category": "Graphics and video",
+  "implemented": 17,
+  "inert": 0,
+  "stub": 1,
+  "total": 18,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVdecswAllocateComputeQueue",
+      "nid": "hIgrg5h4V6s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswCreateDecoder",
+      "nid": "+L5ArV1tPGA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswDeleteDecoder",
+      "nid": "ecUtPX+dBYk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswFinalizeDecodeSequence",
+      "nid": "5Y6nZqIZvBg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswGetAvcPictureInfo",
+      "nid": "ihNT-uuEAr4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswGetHevcPictureInfo",
+      "nid": "PzF+L5zXoyg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswGetPictureInfo",
+      "nid": "FzECy3Wxxas",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecswGetVp9PictureInfo",
+      "nid": "LEqH+dkMszo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswQueryComputeMemoryInfo",
+      "nid": "0moTubWCsTM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswQueryDecoderMemoryInfo",
+      "nid": "A+2M7EivuOU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswReleaseComputeQueue",
+      "nid": "fX-zOOefbbs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswResetDecoder",
+      "nid": "veb-YBrOqo0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswSetDecodeInput",
+      "nid": "aqMiF0AgUYI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswSetDecodeOutput",
+      "nid": "rgtMCOpyBSc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswSyncDecodeInput",
+      "nid": "AAMM-Q1X0g0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswSyncDecodeOutput",
+      "nid": "tWiSgXov8GM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswTrySyncDecodeInput",
+      "nid": "l4sQYy5wPkc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVdecswTrySyncDecodeOutput",
+      "nid": "kMBw37oH8nI",
+      "state": "implemented"
+    }
+  ]
+}

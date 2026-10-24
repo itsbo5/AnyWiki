@@ -1,0 +1,11 @@
+{
+  "name": "libSceImeBackend",
+  "label": "ImeBackend",
+  "category": "Input and user",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 0,
+  "total": 0,
+  "sharedSources": "libSceIme",
+  "functions": []
+}

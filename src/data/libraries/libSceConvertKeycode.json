@@ -1,0 +1,32 @@
+{
+  "name": "libSceConvertKeycode",
+  "label": "ConvertKeycode",
+  "category": "Input and user",
+  "implemented": 3,
+  "inert": 0,
+  "stub": 1,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceConvertKeycodeGetCharacter",
+      "nid": "QjGCaJbRib4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceConvertKeycodeGetCharacterFromKeyboardData",
+      "nid": "S-Gni2KIJRY",
+      "state": "stub"
+    },
+    {
+      "name": "sceConvertKeycodeGetImeKeyboardType",
+      "nid": "mUuUOWI-C+0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceConvertKeycodeGetVirtualKeycode",
+      "nid": "vIsoJsLvvlM",
+      "state": "implemented"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "name": "libSceVenc",
+  "label": "Venc",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 14,
+  "total": 14,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVencCreateEncoder",
+      "nid": "irD6EyOPBZE",
+      "state": "stub"
+    },
+    {
+      "name": "sceVencDeleteEncoder",
+      "nid": "4eX4H3CtEfk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVencGetConfig",
+      "nid": "ePTrUSMxnmg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVencMapMemory",
+      "nid": "eh2hLMp3zDU",
+      "state": "stub"
+    },
+    {
+      "name": "sceVencQueryHeader",
+      "nid": "2cfdqkF20ZI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVencQueryMemorySize",
+      "nid": "N4NG9j8mdzo",
+      "state": "stub"
+    },
+    {
+      "name": "sceVencQueryPreset",
+      "nid": "aNlHqxTvPTE",
+      "state": "stub"
+    },
+    {
+      "name": "sceVencSetConfig",
+      "nid": "hLz3SP0zVF4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVencSetDecodedFrame",
+      "nid": "M-mpR475+UY",
+      "state": "stub"
+    },
+    {
+      "name": "sceVencSetPictureConfig",
+      "nid": "l2u7IHkNheg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVencSetRateControlConfig",
+      "nid": "cHss3kYujzc",
+      "state": "stub"
+    },
+    {
+      "name": "sceVencSetReferenceFrameInvalidationConfig",
+      "nid": "QNO1olxrfBU",
+      "state": "stub"
+    },
+    {
+      "name": "sceVencStartEncode",
+      "nid": "6ExR0HScaLc",
+      "state": "stub"
+    },
+    {
+      "name": "sceVencStopEncode",
+      "nid": "edT5HwLDgTI",
+      "state": "stub"
+    }
+  ]
+}

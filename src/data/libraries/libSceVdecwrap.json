@@ -1,0 +1,67 @@
+{
+  "name": "libSceVdecwrap",
+  "label": "Vdecwrap",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 11,
+  "total": 11,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVdecwrapCreateDecoder",
+      "nid": "bRfRiFTZ-ls",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecwrapDeleteDecoder",
+      "nid": "xn9aIpe+XQQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecwrapFlushDecodeOutput",
+      "nid": "0vV0lazrIlE",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecwrapGetDecodeOutput",
+      "nid": "r5see1jyEsU",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecwrapMapDirectMemory",
+      "nid": "aukH7OdPsjo",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecwrapMapMemory",
+      "nid": "GjTLuu76SmM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecwrapQueryDecoderMemoryInfo",
+      "nid": "YC595317HbM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecwrapQueryFrameBufferInfo",
+      "nid": "-60wFf6p8c0",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecwrapResetDecoder",
+      "nid": "N9LD0odT-kI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecwrapSetDecodeInput",
+      "nid": "w67APvj+zAM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVdecwrapSyncDecode",
+      "nid": "NjgVxHRHAQA",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "libSceNpSnsFacebookDialog",
+  "label": "NpSnsFacebookDialog",
+  "category": "Network and services",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpSnsFacebookDialogClose",
+      "nid": "YSUOhyK9Jd4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSnsFacebookDialogGetResult",
+      "nid": "AifdcI1aKas",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSnsFacebookDialogGetStatus",
+      "nid": "Rc0uh3lIoXQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSnsFacebookDialogInitialize",
+      "nid": "tdQArULbNQk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSnsFacebookDialogOpen",
+      "nid": "Hi3onqHSN6M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSnsFacebookDialogTerminate",
+      "nid": "cdqOFyupRS4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSnsFacebookDialogUpdateStatus",
+      "nid": "fjV7C8H0Y8k",
+      "state": "implemented"
+    }
+  ]
+}

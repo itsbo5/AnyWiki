@@ -1,0 +1,207 @@
+{
+  "name": "libSceNpWebApi2",
+  "label": "NpWebApi2",
+  "category": "Network and services",
+  "implemented": 16,
+  "inert": 16,
+  "stub": 7,
+  "total": 39,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpWebApi2AbortRequest",
+      "nid": "zpiPsH7dbFQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2AddHttpRequestHeader",
+      "nid": "egOOvrnF6mI",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2AddMultipartPart",
+      "nid": "Io7kh1LHDoM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApi2AddWebTraceTag",
+      "nid": "MgsTa76wlEk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2CheckTimeout",
+      "nid": "3Tt9zL3tkoc",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2CreateMultipartRequest",
+      "nid": "+nz1Vq-NrDA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApi2CreateRequest",
+      "nid": "3EI-OSJ65Xc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2CreateUserContext",
+      "nid": "sk54bi6FtYM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2DeleteRequest",
+      "nid": "vvzWO-DvG1s",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2DeleteUserContext",
+      "nid": "9X9+cneTGUU",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2GetHttpResponseHeaderValue",
+      "nid": "hksbskNToEA",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2GetHttpResponseHeaderValueLength",
+      "nid": "HwP3aM+c85c",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2GetMemoryPoolStats",
+      "nid": "Xweb+naPZ8Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2Initialize",
+      "nid": "+o9816YQhqQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2InitializeForPresence",
+      "nid": "dowMWFgowXY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2IntCreateRequest",
+      "nid": "qmINYLuqzaA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApi2IntInitialize",
+      "nid": "zXaFo7euxsQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2IntInitialize2",
+      "nid": "9KSGFMRnp3k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2IntPushEventCreateCtxIndFilter",
+      "nid": "2hlBNB96saE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApi2IntPushEventCreateDestPs4CtxIndFilter",
+      "nid": "81DkaQt6J30",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApi2PushEventAbortHandle",
+      "nid": "1OLgvahaSco",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2PushEventCreateFilter",
+      "nid": "MsaFhR+lPE4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2PushEventCreateHandle",
+      "nid": "WV1GwM32NgY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2PushEventCreatePushContext",
+      "nid": "NNVf18SlbT8",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2PushEventDeleteFilter",
+      "nid": "KJdPcOGmK58",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2PushEventDeleteHandle",
+      "nid": "fIATVMo4Y1w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2PushEventDeletePushContext",
+      "nid": "QafxeZM3WK4",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2PushEventRegisterCallback",
+      "nid": "fY3QqeNkF8k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2PushEventRegisterPushContextCallback",
+      "nid": "lxtHJMwBsaU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2PushEventSetHandleTimeout",
+      "nid": "KWkc6Q3tjXc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpWebApi2PushEventStartPushContextCallback",
+      "nid": "AAj9X+4aGYA",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2PushEventUnregisterCallback",
+      "nid": "hOnIlcGrO6g",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2PushEventUnregisterPushContextCallback",
+      "nid": "PmyrbbJSFz0",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2ReadData",
+      "nid": "OOY9+ObfKec",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2SendMultipartRequest",
+      "nid": "NKCwS8+5Fx8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApi2SendRequest",
+      "nid": "lQOCF84lvzw",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2SetMultipartContentType",
+      "nid": "bltDCAskmfE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpWebApi2SetRequestTimeout",
+      "nid": "TjAutbrkr60",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpWebApi2Terminate",
+      "nid": "bEvXpcEk200",
+      "state": "implemented"
+    }
+  ]
+}

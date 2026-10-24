@@ -1,0 +1,337 @@
+{
+  "name": "libSceRegMgr",
+  "label": "RegMgr",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 65,
+  "total": 65,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceRegMgrBackupNeedMem",
+      "nid": "9BhoVC0q85k",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrBackupNeedMemForPS4",
+      "nid": "K2XscH2j2Hk",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrBackupPullData",
+      "nid": "f-qy0soAkfA",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrBackupPullDataForPS4",
+      "nid": "TjURD46vx-k",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrBackupPullDataGkp",
+      "nid": "OxyZ9gt9hto",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrBackupPushData",
+      "nid": "gqPjTzsu9vU",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrBackupPushDataForPS4",
+      "nid": "rducUH7Y62g",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrBackupPushDataGkp",
+      "nid": "33EatUIAQjo",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrCheckError",
+      "nid": "LZBANaFbPqM",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrCheckIntVal",
+      "nid": "8SabSC4MDzw",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrCntSetInitReinst",
+      "nid": "HuVpMjidh7c",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrCntlDeleteReg",
+      "nid": "BJi3VSFP+8s",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrCntlGetFileName",
+      "nid": "18ZCDYD5xjI",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrCntlGetFilesCount",
+      "nid": "Ena7T6bVG5s",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrCntlStart",
+      "nid": "tqHQdMPde4E",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrCntlStopHdd",
+      "nid": "Pj8CwRqcOIk",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrDrvDataCheckGet",
+      "nid": "Ds-BHoPDTHY",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrDrvDataClose",
+      "nid": "HCUhvdmryuQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrDrvDataOpen",
+      "nid": "okzABktskwU",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrDrvGetEntCnt",
+      "nid": "lwQpbDXKpbg",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrDrvGetUpdateCnt",
+      "nid": "NwwkHSVFYBA",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrEvtGetCnt",
+      "nid": "grCFSFvMxgU",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrEvtGetCntForPS4",
+      "nid": "qIB-HHTKOCs",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrEvtGetRegId",
+      "nid": "djHSzoTfixE",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrEvtGetRegIdForPS4",
+      "nid": "mXTBaSe0p6E",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrGetBin",
+      "nid": "NqxMleeTiLs",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrGetBinInitVal",
+      "nid": "dhuH8HjNhUY",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrGetInitError",
+      "nid": "nfAfS7f2gR0",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrGetInt",
+      "nid": "mPYKD12UDQI",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrGetIntInitVal",
+      "nid": "i64ig3BF6f8",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrGetStr",
+      "nid": "CTplLrrndUg",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrGetStrInitVal",
+      "nid": "jqyhb1oMgHw",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrGetVersion",
+      "nid": "q+lPgqZniW4",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrGetVersionForPS4",
+      "nid": "7yIpFl9KknY",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrIsChange",
+      "nid": "xhrI4zhlBuA",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrIsInitOK",
+      "nid": "rebo0q4yREE",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrLogPull",
+      "nid": "yfNwXqOshk0",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrMemset",
+      "nid": "7WBGJ8aph1M",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrNonSysCheckError",
+      "nid": "Eq+fDFaK3i0",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrNonSysGetBin",
+      "nid": "k9LC1z8kh-E",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrNonSysGetInt",
+      "nid": "dKeshzt29G4",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrNonSysGetStr",
+      "nid": "DKWSr89zMsI",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrNonSysSetBin",
+      "nid": "6yU1KEvOl14",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrNonSysSetInt",
+      "nid": "PPRCIaNpJJY",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrNonSysSetStr",
+      "nid": "AxUlf9UUxCg",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrPrintInfo",
+      "nid": "hApQ4NmZ0IU",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrRecoverRegNvs",
+      "nid": "Xf2JqV9Xj2w",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrResetVal",
+      "nid": "eL7sMZaIdac",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrSetBin",
+      "nid": "eXxrXkrLXa4",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrSetInitLevel",
+      "nid": "YRPHqS8TcnI",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrSetInt",
+      "nid": "khaYelw1Ytc",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrSetStr",
+      "nid": "ffInidSqRss",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrSetbin",
+      "nid": "LhiUdPKY2qo",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrSrvCnvRegionInt",
+      "nid": "CUSk0qEDj7s",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrSrvCnvRegionStr",
+      "nid": "PwmjM-dGut4",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrSrvGetMachineType",
+      "nid": "04zv+0zNJkg",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrSrvGetQAFforReg",
+      "nid": "wQlp94zzrWg",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrSrvGetRealMachineType",
+      "nid": "x0oTVOySvTU",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrSrvGetRegion",
+      "nid": "sywg-RnhZMA",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrSrvGetRegionStr",
+      "nid": "xCxMQ7Efh4k",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrStrncpy",
+      "nid": "BnSHkcDlM+8",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrToolDataCheckGet",
+      "nid": "VmQkpRjBp3s",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrToolGetEntryCnt",
+      "nid": "voOYmhF1vsQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrToolGetInfo",
+      "nid": "0QcqLS+gFiQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceRegMgrToolGetUpdateCnt",
+      "nid": "jQ0656do1V4",
+      "state": "stub"
+    }
+  ]
+}

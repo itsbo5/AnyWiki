@@ -1,0 +1,97 @@
+{
+  "name": "libSceBluetoothHid",
+  "label": "BluetoothHid",
+  "category": "System utilities",
+  "implemented": 5,
+  "inert": 1,
+  "stub": 11,
+  "total": 17,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceBluetoothHidDebugGetVersion",
+      "nid": "L5jHxZ-J630",
+      "state": "inert"
+    },
+    {
+      "name": "sceBluetoothHidDisconnectDevice",
+      "nid": "wZtLdyq2dKg",
+      "state": "stub"
+    },
+    {
+      "name": "sceBluetoothHidGetDeviceInfo",
+      "nid": "YWT1GrcWuQs",
+      "state": "stub"
+    },
+    {
+      "name": "sceBluetoothHidGetDeviceName",
+      "nid": "eGVPAJ+M5A8",
+      "state": "stub"
+    },
+    {
+      "name": "sceBluetoothHidGetFeatureReport",
+      "nid": "+JQyH57+l4k",
+      "state": "stub"
+    },
+    {
+      "name": "sceBluetoothHidGetInputReport",
+      "nid": "hAgb6kz3UcU",
+      "state": "stub"
+    },
+    {
+      "name": "sceBluetoothHidGetReportDescriptor",
+      "nid": "XhoOjXnv+QQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceBluetoothHidInit",
+      "nid": "tul3-GzejQc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceBluetoothHidInterruptOutput",
+      "nid": "ud-L5OvD5bA",
+      "state": "stub"
+    },
+    {
+      "name": "sceBluetoothHidParamInitialize",
+      "nid": "HNbQyWI-BtU",
+      "state": "stub"
+    },
+    {
+      "name": "sceBluetoothHidRegisterCallback",
+      "nid": "4Ypfo9RIwfM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceBluetoothHidRegisterDevice",
+      "nid": "4FUZ+c52d2k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceBluetoothHidSetFeatureReport",
+      "nid": "1bG5j0mzOF0",
+      "state": "stub"
+    },
+    {
+      "name": "sceBluetoothHidSetOutputReport",
+      "nid": "Ih3xsOhFi8A",
+      "state": "stub"
+    },
+    {
+      "name": "sceBluetoothHidThreadParamInitialize",
+      "nid": "o+5KjZ3r4O4",
+      "state": "stub"
+    },
+    {
+      "name": "sceBluetoothHidUnregisterCallback",
+      "nid": "upEB3XUvH8o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceBluetoothHidUnregisterDevice",
+      "nid": "u+lIalCYOho",
+      "state": "implemented"
+    }
+  ]
+}

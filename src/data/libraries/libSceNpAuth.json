@@ -1,0 +1,82 @@
+{
+  "name": "libSceNpAuth",
+  "label": "NpAuth",
+  "category": "Network and services",
+  "implemented": 14,
+  "inert": 0,
+  "stub": 0,
+  "total": 14,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpAuthAbortRequest",
+      "nid": "cE7wIsqXdZ8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthCreateAsyncRequest",
+      "nid": "N+mr7GjTvr8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthCreateRequest",
+      "nid": "6bwFkosYRQg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthDeleteRequest",
+      "nid": "H8wG9Bk-nPc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthGetAuthorizationCode",
+      "nid": "KxGkOrQJTqY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthGetAuthorizationCodeA",
+      "nid": "qAUXQ9GdWp8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthGetAuthorizationCodeV3",
+      "nid": "KI4dHLlTNl0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthGetAuthorizedAppCode",
+      "nid": "IDX0S5EsEh4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthGetIdToken",
+      "nid": "uaB-LoJqHis",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthGetIdTokenA",
+      "nid": "CocbHVIKPE8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthGetIdTokenV3",
+      "nid": "RdsFVsgSpZY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthPollAsync",
+      "nid": "gjSyfzSsDcE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthSetTimeout",
+      "nid": "PM3IZCw-7m0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpAuthWaitAsync",
+      "nid": "SK-S7daqJSE",
+      "state": "implemented"
+    }
+  ]
+}

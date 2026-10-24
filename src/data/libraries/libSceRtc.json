@@ -1,0 +1,317 @@
+{
+  "name": "libSceRtc",
+  "label": "Rtc",
+  "category": "System utilities",
+  "implemented": 58,
+  "inert": 2,
+  "stub": 1,
+  "total": 61,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceRtcCheckValid",
+      "nid": "lPEBYdVX0XQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcCompareTick",
+      "nid": "fNaZ4DbzHAE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcConvertLocalTimeToUtc",
+      "nid": "8Yr143yEnRo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcConvertUtcToLocalTime",
+      "nid": "M1TvFst-jrM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcEnd",
+      "nid": "8SljQx6pDP8",
+      "state": "inert"
+    },
+    {
+      "name": "sceRtcFormatRFC2822",
+      "nid": "eiuobaF-hK4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcFormatRFC2822LocalTime",
+      "nid": "AxHBk3eat04",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcFormatRFC3339",
+      "nid": "WJ3rqFwymew",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcFormatRFC3339LocalTime",
+      "nid": "DwuHIlLGW8I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcFormatRFC3339Precise",
+      "nid": "lja0nNPWojg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcFormatRFC3339PreciseLocalTime",
+      "nid": "tOZ6fwwHZOA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetCurrentAdNetworkTick",
+      "nid": "LN3Zcb72Q0c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetCurrentClock",
+      "nid": "8lfvnRMqwEM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetCurrentClockLocalTime",
+      "nid": "ZPD1YOKI+Kw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetCurrentDebugNetworkTick",
+      "nid": "Ot1DE3gif84",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetCurrentNetworkTick",
+      "nid": "zO9UL3qIINQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetCurrentRawNetworkTick",
+      "nid": "HWxHOdbM-Pg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetCurrentTick",
+      "nid": "18B2NS1y9UU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetDay",
+      "nid": "8d+WIpW++IY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetDayOfWeek",
+      "nid": "CyIK-i4XdgQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetDaysInMonth",
+      "nid": "3O7Ln8AqJ1o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetDosTime",
+      "nid": "E7AR4o7Ny7E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetHour",
+      "nid": "xbaqDOWccQc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetMicrosecond",
+      "nid": "6mhhKKkV0f8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetMinute",
+      "nid": "-AXNIwaWqXg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetMonth",
+      "nid": "2IF56vrfFK4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetSecond",
+      "nid": "VMgjr4l2lZY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetTick",
+      "nid": "8w-H19ip48I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetTickResolution",
+      "nid": "jMNwqYr4R-k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetTime_t",
+      "nid": "BtqmpTRXHgk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetWin32FileTime",
+      "nid": "jfRO0uTjtzA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcGetYear",
+      "nid": "Kyjj1zR3rdo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcInit",
+      "nid": "LlodCMDbk3o",
+      "state": "inert"
+    },
+    {
+      "name": "sceRtcIsLeapYear",
+      "nid": "Ug8pCwQvh0c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcParseDateTime",
+      "nid": "NxEI1KByvCI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcParseRFC3339",
+      "nid": "99bMGglFW3I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetConf",
+      "nid": "fFLgmNUpChg",
+      "state": "stub"
+    },
+    {
+      "name": "sceRtcSetCurrentAdNetworkTick",
+      "nid": "sV2tK+yOhBU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetCurrentDebugNetworkTick",
+      "nid": "VLDUPKmw5L8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetCurrentNetworkTick",
+      "nid": "qhDBtIo+auw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetCurrentTick",
+      "nid": "d4fHLCGmY80",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetDay",
+      "nid": "PIoLYjapNjs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetDosTime",
+      "nid": "aYPCd1cChyg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetHour",
+      "nid": "DLPw+bKV4iE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetMicrosecond",
+      "nid": "DWORfriaE7I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetMinute",
+      "nid": "UeCgnB21RZo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetMonth",
+      "nid": "Cngk5uvA5RU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetSecond",
+      "nid": "wXB09LS9Kj4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetTick",
+      "nid": "ueega6v3GUw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetTime_t",
+      "nid": "bDEVVP4bTjQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetWin32FileTime",
+      "nid": "n5JiAJXsbcs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcSetYear",
+      "nid": "LSOUvItyjbI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcTickAddDays",
+      "nid": "NR1J0N7L2xY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcTickAddHours",
+      "nid": "MDc5cd8HfCA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcTickAddMicroseconds",
+      "nid": "XPIiw58C+GM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcTickAddMinutes",
+      "nid": "mn-tf4QiFzk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcTickAddMonths",
+      "nid": "CL6y9q-XbuQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcTickAddSeconds",
+      "nid": "07O525HgICs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcTickAddTicks",
+      "nid": "AqVMssr52Rc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcTickAddWeeks",
+      "nid": "gI4t194c2W8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRtcTickAddYears",
+      "nid": "-5y2uJ62qS8",
+      "state": "implemented"
+    }
+  ]
+}

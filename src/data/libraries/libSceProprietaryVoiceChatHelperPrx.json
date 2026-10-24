@@ -1,0 +1,37 @@
+{
+  "name": "libSceProprietaryVoiceChatHelperPrx",
+  "label": "ProprietaryVoiceChatHelperPrx",
+  "category": "Audio and media",
+  "implemented": 3,
+  "inert": 0,
+  "stub": 2,
+  "total": 5,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceProprietaryVoiceChatHelperGetVoiceChat",
+      "nid": "4-YnibGWWo4",
+      "state": "stub"
+    },
+    {
+      "name": "sceProprietaryVoiceChatHelperGetVoiceChatUsageState",
+      "nid": "Asuucx2vvaE",
+      "state": "stub"
+    },
+    {
+      "name": "sceProprietaryVoiceChatHelperInitialize",
+      "nid": "LDjk9ULlN34",
+      "state": "implemented"
+    },
+    {
+      "name": "sceProprietaryVoiceChatHelperSetVoiceChatState",
+      "nid": "QJy6V9QAXXE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceProprietaryVoiceChatHelperTerminate",
+      "nid": "lrswogWNZyM",
+      "state": "implemented"
+    }
+  ]
+}

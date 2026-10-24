@@ -1,0 +1,42 @@
+{
+  "name": "libSceAudiodec",
+  "label": "Audiodec",
+  "category": "Audio and media",
+  "implemented": 6,
+  "inert": 0,
+  "stub": 0,
+  "total": 6,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAudiodecClearContext",
+      "nid": "6Vf9WTLDoss",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudiodecCreateDecoder",
+      "nid": "O3f1sLMWRvs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudiodecDecode",
+      "nid": "KHXHMDLkILw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudiodecDeleteDecoder",
+      "nid": "Tp+ZEy69mLk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudiodecInitLibrary",
+      "nid": "VjhsmxpcezI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAudiodecTermLibrary",
+      "nid": "h5jSB2QIDV0",
+      "state": "implemented"
+    }
+  ]
+}

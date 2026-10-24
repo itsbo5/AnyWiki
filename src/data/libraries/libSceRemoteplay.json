@@ -1,0 +1,222 @@
+{
+  "name": "libSceRemoteplay",
+  "label": "Remoteplay",
+  "category": "System utilities",
+  "implemented": 2,
+  "inert": 1,
+  "stub": 39,
+  "total": 42,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceRemoteplayApprove",
+      "nid": "xQeIryTX7dY",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayClearAllRegistData",
+      "nid": "ZYUsJtcAnqA",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayClearConnectHistory",
+      "nid": "cCheyCbF7qw",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayConfirmDeviceRegist",
+      "nid": "tPYT-kGbZh8",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayDisconnect",
+      "nid": "6Lg4BNleJWc",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayGeneratePinCode",
+      "nid": "j98LdSGy4eY",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayGetApMode",
+      "nid": "L+cL-M-DP3w",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayGetConnectHistory",
+      "nid": "g4K51cY+PEw",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayGetConnectUserId",
+      "nid": "3eBNV9A0BUM",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayGetConnectionStatus",
+      "nid": "g3PNjYKWqnQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRemoteplayGetMbusDeviceInfo",
+      "nid": "ufesWMVX6iU",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayGetOperationStatus",
+      "nid": "DxU4JGh4S2k",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayGetPrimaryUserId",
+      "nid": "pHzEzRZw3AE",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayGetRemoteplayStatus",
+      "nid": "n5OxFJEvPlc",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayGetRpMode",
+      "nid": "Cekhs6LSHC0",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayImeClose",
+      "nid": "ig1ocbR7Ptw",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayImeFilterResult",
+      "nid": "gV9-8cJPM3I",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayImeGetEvent",
+      "nid": "cMk57DZXe6c",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayImeNotify",
+      "nid": "-gwkQpOCl68",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayImeNotifyEventResult",
+      "nid": "58v9tSlRxc8",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayImeOpen",
+      "nid": "C3r2zT5ebMg",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayImeSetCaret",
+      "nid": "oB730zwoz0s",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayImeSetText",
+      "nid": "rOTg1Nljp8w",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayInitialize",
+      "nid": "k1SwgkMSOM8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceRemoteplayIsRemoteOskReady",
+      "nid": "R8RZC1ZIkzU",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayIsRemotePlaying",
+      "nid": "uYhiELUtLgA",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayNotifyMbusDeviceRegistComplete",
+      "nid": "d-BBSEq1nfc",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayNotifyNpPushWakeup",
+      "nid": "Yytq7NE38R8",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayNotifyPinCodeError",
+      "nid": "Wg-w8xjMZA4",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayNotifySubmitCode",
+      "nid": "Y1kxYyW+dIk",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayNotifyUserDelete",
+      "nid": "yheulqylKwI",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayPrintAllRegistData",
+      "nid": "t5ZvUiZ1hpE",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayProhibit",
+      "nid": "mrNh78tBpmg",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayProhibitStreaming",
+      "nid": "7QLrixwVHcU",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayServerLock",
+      "nid": "-ThIlThsN80",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayServerUnLock",
+      "nid": "0Z-Pm5rZJOI",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplaySetApMode",
+      "nid": "xSrhtSLIjOc",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplaySetLogLevel",
+      "nid": "5-2agAeaE+c",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplaySetProhibition",
+      "nid": "Rf0XMVR7xPw",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplaySetProhibitionForVsh",
+      "nid": "n4l3FTZtNQM",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplaySetRpMode",
+      "nid": "-BPcEQ1w8xc",
+      "state": "stub"
+    },
+    {
+      "name": "sceRemoteplayTerminate",
+      "nid": "BOwybKVa3Do",
+      "state": "inert"
+    }
+  ]
+}

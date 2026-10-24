@@ -1,0 +1,42 @@
+{
+  "name": "libSceShareFactoryUtil",
+  "label": "ShareFactoryUtil",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 6,
+  "total": 6,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceShareFactoryUtilBackToGameFromShareFactory",
+      "nid": "Pogmt0dlTkU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareFactoryUtilGetLaunchStatus",
+      "nid": "DgE6sgTBCqU",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareFactoryUtilGetLaunchStatusOfShareFactory",
+      "nid": "+OYjjaRc8Xs",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareFactoryUtilInitialize",
+      "nid": "X0R99DXhScw",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareFactoryUtilLaunchShareFactory",
+      "nid": "5K54SEOf8Gk",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareFactoryUtilTerminate",
+      "nid": "69-5c5Th-o8",
+      "state": "stub"
+    }
+  ]
+}

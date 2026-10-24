@@ -1,0 +1,457 @@
+{
+  "name": "libSceVrTracker2",
+  "label": "VrTracker2",
+  "category": "System utilities",
+  "implemented": 6,
+  "inert": 75,
+  "stub": 8,
+  "total": 89,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "VrTracker2Accept",
+      "nid": "u3bwM1LjC7A",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2AcquireCameraFrame",
+      "nid": "j7QJR48CED8",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2AcquireCameraFrameWithMetadata",
+      "nid": "JeaQm7-ZT3A",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2ApplyDeviceBoundary",
+      "nid": "xv4VSpoJnFQ",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2BuildMesh",
+      "nid": "FNJuPPRllIc",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2CheckSecondThenReportNotInitialized",
+      "nid": "qb8+awKFDS4",
+      "state": "implemented"
+    },
+    {
+      "name": "VrTracker2ClearNarrowResult",
+      "nid": "qGxoyY3hMSQ",
+      "state": "implemented"
+    },
+    {
+      "name": "VrTracker2ClearWideResult",
+      "nid": "Gvy9cJZxPRc",
+      "state": "implemented"
+    },
+    {
+      "name": "VrTracker2ClearWord",
+      "nid": "dTKmOGqkrgA",
+      "state": "implemented"
+    },
+    {
+      "name": "VrTracker2FillDefaults",
+      "nid": "GodVvckCflY",
+      "state": "implemented"
+    },
+    {
+      "name": "VrTracker2FitBoundary",
+      "nid": "VY29TUYDQLc",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2FitBoundaryWithBounds",
+      "nid": "ge9ba7EQnpk",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetBoundaryParameter",
+      "nid": "-K1J-dzdJbc",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetCameraImage",
+      "nid": "Rvxw6Lzy3vM",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetCameraImages",
+      "nid": "+bMM9bWD1A0",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetCompositePose",
+      "nid": "4pdmvcYiElc",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetCoordinateTrackingResult",
+      "nid": "d5KBKASxrdo",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetCounter",
+      "nid": "uQ8Cir9eWuM",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetDeviceBoundary",
+      "nid": "ThicrA0jftQ",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetDeviceCalibrationStatus",
+      "nid": "G6Rf2BDr198",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetDeviceCenter",
+      "nid": "eZzomULaN6A",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetDeviceDiagnostics",
+      "nid": "RRN78vFTZbg",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetDeviceMapState",
+      "nid": "XJ7bNJhnq8A",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetDeviceState",
+      "nid": "FMwrWvdt72s",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetDiagnosticResult",
+      "nid": "O5fnIipuBmI",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetDiagnosticState",
+      "nid": "WnGn349TOeA",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetDiagnosticText",
+      "nid": "XaK9G81q8KI",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetExtendedDiagnosticState",
+      "nid": "HIownw+Qvy0",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetExtendedResult",
+      "nid": "mp8ZK2wNffI",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetExtendedTrackingResult",
+      "nid": "Tize1iTlr9w",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetImagePose",
+      "nid": "K6GN-AYv0kI",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetMapConfiguration",
+      "nid": "J6UGxnrOFBA",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetMapData",
+      "nid": "oSD0jWZBz+M",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetMapScalar",
+      "nid": "Ur-Q9eIkLcc",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetMapStatus",
+      "nid": "bclyNAmJMnk",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetPoseScalar",
+      "nid": "DTNMjndfZy0",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetRelativePose",
+      "nid": "ziMCl0Cyc8w",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetRuntimeStatus",
+      "nid": "8cxfFIWiZVk",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetScalarOption",
+      "nid": "zh78vs1lsR4",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetScalarResult",
+      "nid": "cbhphn+fGcM",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetSelectedCoordinateSystem",
+      "nid": "3uM856nOKHo",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetSensorDiagnostics",
+      "nid": "3D4EXKuTVbY",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetSensorFrame",
+      "nid": "RIFFBliMTIk",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetSensorSummary",
+      "nid": "FZ+Nk-k+Ly8",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetTimedPose",
+      "nid": "0mPcPfHJJ2Y",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetTimingDiagnostics",
+      "nid": "9+iOleVuYqQ",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetTrackingBounds",
+      "nid": "xb9UrV6kUXc",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetTrackingConfiguration",
+      "nid": "2IycIhnd1Ww",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetTrackingFlags",
+      "nid": "DNVcPODie0w",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetTrackingOptions",
+      "nid": "EehDsKCwwzY",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2GetTrackingStatus",
+      "nid": "X5I6hAoewfQ",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2InitializeMap",
+      "nid": "mcHszOopIRU",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2LegacyQuery12",
+      "nid": "Dlb4jI2f6iA",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2LegacyQuery20",
+      "nid": "MOHhjEhVEzo",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2NotInitialized",
+      "nid": "+0veCHHPiC8",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2QueryDevicePosition",
+      "nid": "IZveSIpsUzQ",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2QueryPosition",
+      "nid": "1nLf58LCnOk",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2ReleaseCameraFrame",
+      "nid": "-aEa8-pXies",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2ResetDevicePose",
+      "nid": "uDQwRO+sOn8",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2ResetPose",
+      "nid": "N5+7QWCqe9A",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2SelectCoordinateSystem",
+      "nid": "VIO7WWmjlfc",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2SetBoundaryParameter",
+      "nid": "n3jFXroR8Fk",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2SetDeviceBoundary",
+      "nid": "R9vZ7gmYCT0",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2SetMapConfiguration",
+      "nid": "0TK-nl5gtmo",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2SetMode",
+      "nid": "E8c000y0294",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2SetScalarOption",
+      "nid": "wKzE1oAVPhA",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2SetTrackingConfiguration",
+      "nid": "l8V2BrFNBZc",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2SetTrackingOptions",
+      "nid": "W9EZc6R0l94",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2SubmitImageFrame",
+      "nid": "hK4xkUlAtnw",
+      "state": "inert"
+    },
+    {
+      "name": "VrTracker2Unknown01",
+      "nid": "lYSDDdwktuM",
+      "state": "stub"
+    },
+    {
+      "name": "VrTracker2Unknown02",
+      "nid": "sx9FgQL4hfY",
+      "state": "stub"
+    },
+    {
+      "name": "VrTracker2Unknown03",
+      "nid": "U9HQ9h548Pg",
+      "state": "stub"
+    },
+    {
+      "name": "VrTracker2Unknown04",
+      "nid": "4s-9SQ3Lmak",
+      "state": "stub"
+    },
+    {
+      "name": "VrTracker2Unknown05",
+      "nid": "fW7wjiRxJCw",
+      "state": "stub"
+    },
+    {
+      "name": "VrTracker2Unknown06",
+      "nid": "MFr-3nSTa1I",
+      "state": "stub"
+    },
+    {
+      "name": "VrTracker2Unknown07",
+      "nid": "n7XWY2yUZVA",
+      "state": "stub"
+    },
+    {
+      "name": "VrTracker2UnsupportedCoordinateOperation",
+      "nid": "QyN++Riswvs",
+      "state": "inert"
+    },
+    {
+      "name": "sceVrTracker2Finalize",
+      "nid": "IQ3UD6SZbXo",
+      "state": "inert"
+    },
+    {
+      "name": "sceVrTracker2GetCoordinateSystem",
+      "nid": "Y-3JCiU9bbU",
+      "state": "inert"
+    },
+    {
+      "name": "sceVrTracker2GetPlayAreaBoundaryGeometry",
+      "nid": "SCph4ZbkqzU",
+      "state": "inert"
+    },
+    {
+      "name": "sceVrTracker2GetPlayAreaOrientedBoundingBox",
+      "nid": "snYs7Nf-RKk",
+      "state": "inert"
+    },
+    {
+      "name": "sceVrTracker2GetResult",
+      "nid": "J4Vh3VVX0iU",
+      "state": "inert"
+    },
+    {
+      "name": "sceVrTracker2Initialize",
+      "nid": "6Jy73SRfG-o",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTracker2LocateCoordinateSystem",
+      "nid": "f7G97dWnEis",
+      "state": "inert"
+    },
+    {
+      "name": "sceVrTracker2QueryMemory",
+      "nid": "TwqZnaIjWv4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrTracker2RegisterDevice",
+      "nid": "Dog+g25QYjw",
+      "state": "inert"
+    },
+    {
+      "name": "sceVrTracker2ResetLocalCoordinate",
+      "nid": "IdI2f+xHIeA",
+      "state": "inert"
+    },
+    {
+      "name": "sceVrTracker2SetCoordinateSystem",
+      "nid": "UVCMLmS-Eas",
+      "state": "inert"
+    },
+    {
+      "name": "sceVrTracker2UnregisterDevice",
+      "nid": "kFt4MB3SUEk",
+      "state": "inert"
+    }
+  ]
+}

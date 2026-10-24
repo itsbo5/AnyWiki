@@ -1,0 +1,32 @@
+{
+  "name": "libSceJxr",
+  "label": "Jxr",
+  "category": "System utilities",
+  "implemented": 1,
+  "inert": 0,
+  "stub": 3,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "PKFree_nid_postfix",
+      "nid": "uvN6CeEG8Dw",
+      "state": "implemented"
+    },
+    {
+      "name": "PixelFormatLookup_nid_postfix",
+      "nid": "aIbNSKqQssk",
+      "state": "stub"
+    },
+    {
+      "name": "readIS_nid_postfix",
+      "nid": "17L8pYSgf80",
+      "state": "stub"
+    },
+    {
+      "name": "writeIS_nid_postfix",
+      "nid": "o5cXKWS+mdE",
+      "state": "stub"
+    }
+  ]
+}

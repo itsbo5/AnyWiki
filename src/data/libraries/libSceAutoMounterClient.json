@@ -1,0 +1,42 @@
+{
+  "name": "libSceAutoMounterClient",
+  "label": "AutoMounterClient",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 6,
+  "total": 6,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAutoMounterClientGetUsbDeviceInfo",
+      "nid": "8mrBeLW0Zk0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAutoMounterClientGetUsbDeviceList",
+      "nid": "YReND3Ewgj0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAutoMounterClientInit",
+      "nid": "jgpc-w4H7FU",
+      "state": "stub"
+    },
+    {
+      "name": "sceAutoMounterClientRegisterCallback",
+      "nid": "bGtl04R9oiY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAutoMounterClientTerm",
+      "nid": "iEXIEzTjNtI",
+      "state": "stub"
+    },
+    {
+      "name": "sceAutoMounterClientUnregisterCallback",
+      "nid": "ik0kGUB7Ukw",
+      "state": "stub"
+    }
+  ]
+}

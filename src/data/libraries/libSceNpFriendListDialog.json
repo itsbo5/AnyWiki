@@ -1,0 +1,57 @@
+{
+  "name": "libSceNpFriendListDialog",
+  "label": "NpFriendListDialog",
+  "category": "Network and services",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 2,
+  "total": 9,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpFriendListDialogClose",
+      "nid": "+Y1acHGomGQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpFriendListDialogGetResult",
+      "nid": "Z4JJhXCnIvY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpFriendListDialogGetResultA",
+      "nid": "hK0CCljzJmY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpFriendListDialogGetStatus",
+      "nid": "8BVP56JIZuA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpFriendListDialogInitialize",
+      "nid": "2L-W-ZYn2Qo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpFriendListDialogOpen",
+      "nid": "zUM-RG5Hmyc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpFriendListDialogOpenA",
+      "nid": "vN9sTP63WT8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpFriendListDialogTerminate",
+      "nid": "ECEzk+K9L2k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpFriendListDialogUpdateStatus",
+      "nid": "frwz3eyuA6w",
+      "state": "implemented"
+    }
+  ]
+}

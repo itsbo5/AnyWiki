@@ -1,0 +1,3332 @@
+{
+  "name": "libSceNpCppWebApi",
+  "label": "NpCppWebApi",
+  "category": "Network and services",
+  "implemented": 129,
+  "inert": 279,
+  "stub": 256,
+  "total": 664,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "DestroyVectorBody",
+      "nid": "v5e0qPxqq1Y",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V110FriendsApi10getFriendsEiRKNS4_21ParameterToGetFriendsERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_18GetFriendsResponseEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "f9jTmCiIUVA",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V110FriendsApi21ParameterToGetFriends10initializeEPNS1_6Common10LibContextEPKc",
+      "nid": "TJIV4zGjz8o",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V110FriendsApi21ParameterToGetFriends9terminateEv",
+      "nid": "G47L4jUy648",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V110FriendsApi21ParameterToGetFriendsC1Ev",
+      "nid": "WNK0UpGK8Ws",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V110FriendsApi21ParameterToGetFriendsD1Ev",
+      "nid": "ZdVlyQI3f-c",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V111PresenceApi17getBasicPresencesEiRKNS4_28ParameterToGetBasicPresencesERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_25GetBasicPresencesResponseEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "Rr1p24Dyq+w",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V111PresenceApi28ParameterToGetBasicPresences10initializeEPNS1_6Common10LibContextEPKc",
+      "nid": "URZOfbC4fzU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V111PresenceApi28ParameterToGetBasicPresences9terminateEv",
+      "nid": "jWoi+KzyT8M",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V111PresenceApi28ParameterToGetBasicPresencesC1Ev",
+      "nid": "bTZjr816ME4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V111PresenceApi28ParameterToGetBasicPresencesD1Ev",
+      "nid": "pDUQVO32lZY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V118GetFriendsResponse10getFriendsEv",
+      "nid": "FwKWIx0rgyY",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V124GetBlockingUsersResponse9getBlocksEv",
+      "nid": "DXlC3IrK2Ts",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V125GetBasicPresencesResponse17getBasicPresencesEv",
+      "nid": "nbRU58b2L1E",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V19BlocksApi16getBlockingUsersEiRKNS4_27ParameterToGetBlockingUsersERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_24GetBlockingUsersResponseEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "0juFlJ9R6ss",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V19BlocksApi27ParameterToGetBlockingUsers10initializeEPNS1_6Common10LibContextE",
+      "nid": "Fts2nXFk6F0",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V19BlocksApi27ParameterToGetBlockingUsers9terminateEv",
+      "nid": "lje+7Q7rn5U",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V19BlocksApi27ParameterToGetBlockingUsersC1Ev",
+      "nid": "JzqS+6C+2F4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi11UserProfile2V19BlocksApi27ParameterToGetBlockingUsersD1Ev",
+      "nid": "hj40eDtISJY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V111UserFactory6createEPNS1_6Common10LibContextEPNS5_12IntrusivePtrINS3_4UserEEE",
+      "nid": "jaVd5xkK0tU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V121GetRankingRequestBody18setStartSerialRankERKi",
+      "nid": "YKVixVJQoXU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V121GetRankingRequestBody8setGroupERKNS3_5GroupE",
+      "nid": "pBSgMrf0tnM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V121GetRankingRequestBody8setLimitERKi",
+      "nid": "br6GL-f3CQg",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V121GetRankingRequestBody8setUsersERKNS1_6Common6VectorINS5_12IntrusivePtrINS3_4UserEEEEE",
+      "nid": "F5yaU6TEU8g",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V121GetRankingRequestBody9setOffsetERKi",
+      "nid": "khThzVltokg",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V122GetRankingResponseBody10getEntriesEv",
+      "nid": "W12G2P+s074",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V122RecordScoreRequestBody10setCommentEPKc",
+      "nid": "O+VoB8m5MXA",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V122RecordScoreRequestBody12setSmallDataEPKvm",
+      "nid": "8i5JWALfIoY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V122RecordScoreRequestBody15setNeedsTmpRankERKb",
+      "nid": "4tEx7tt+b7g",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V122RecordScoreRequestBody19setComparedDateTimeERK10SceRtcTick",
+      "nid": "LMpRWV5XyrQ",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V122RecordScoreRequestBody7setPcIdERKi",
+      "nid": "jfCufYd0-+s",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V128GetRankingRequestBodyFactory6createEPNS1_6Common10LibContextEPNS5_12IntrusivePtrINS3_21GetRankingRequestBodyEEE",
+      "nid": "bEwJsewIngA",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V129RecordScoreRequestBodyFactory6createEPNS1_6Common10LibContextElPNS5_12IntrusivePtrINS3_22RecordScoreRequestBodyEEE",
+      "nid": "RM35a8uFre4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V14User12setAccountIdERKm",
+      "nid": "wJWqKZOj4Ts",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V14User7setPcIdERKi",
+      "nid": "KXllpv1tR48",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V17ViewApi10getRankingEiRKNS4_21ParameterToGetRankingERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_22GetRankingResponseBodyEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "ctghP7Sf6+c",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V17ViewApi21ParameterToGetRanking10initializeEPNS1_6Common10LibContextEi",
+      "nid": "D3tUMw-ZqcM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V17ViewApi21ParameterToGetRanking24setgetRankingRequestBodyENS1_6Common12IntrusivePtrINS3_21GetRankingRequestBodyEEE",
+      "nid": "xZ2OF6809Mk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V17ViewApi21ParameterToGetRanking9terminateEv",
+      "nid": "Ma7+aWJsXow",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V17ViewApi21ParameterToGetRankingC1Ev",
+      "nid": "Bbc2pDcwP0g",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V17ViewApi21ParameterToGetRankingD1Ev",
+      "nid": "XtFyTKi22Sc",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V17ViewApi22getLargeDataByObjectIdEiRKNS4_33ParameterToGetLargeDataByObjectIdERNS1_6Common21DownStreamTransactionINS8_12IntrusivePtrINS4_37GetLargeDataByObjectIdResponseHeadersEEEEE",
+      "nid": "MkSmI8WCSvM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V17ViewApi33ParameterToGetLargeDataByObjectId10initializeEPNS1_6Common10LibContextEPKc",
+      "nid": "sCnkOGMZjH8",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V17ViewApi33ParameterToGetLargeDataByObjectId9terminateEv",
+      "nid": "fhRcPQVoEqM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V17ViewApi33ParameterToGetLargeDataByObjectIdC1Ev",
+      "nid": "eyiQGHPBIKI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V17ViewApi33ParameterToGetLargeDataByObjectIdD1Ev",
+      "nid": "N0V2-p-0hAM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19BoardsApi18getBoardDefinitionEiRKNS4_29ParameterToGetBoardDefinitionERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_30GetBoardDefinitionResponseBodyEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "hjzv6lEAIuI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19BoardsApi29ParameterToGetBoardDefinition10initializeEPNS1_6Common10LibContextEi",
+      "nid": "jTcdCjMNdrk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19BoardsApi29ParameterToGetBoardDefinition9terminateEv",
+      "nid": "Cb3IRwKPJPI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19BoardsApi29ParameterToGetBoardDefinitionC1Ev",
+      "nid": "ZkSM1nh5zM8",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19BoardsApi29ParameterToGetBoardDefinitionD1Ev",
+      "nid": "tJMAm9ZBelo",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19RecordApi11recordScoreEiRKNS4_22ParameterToRecordScoreERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_23RecordScoreResponseBodyEEENSA_INS4_26RecordScoreResponseHeadersEEEEE",
+      "nid": "Y+u-l+LxGIs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19RecordApi15recordLargeDataEiRKNS4_26ParameterToRecordLargeDataERNS1_6Common19UpStreamTransactionINS8_12IntrusivePtrINS3_27RecordLargeDataResponseBodyEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "jX6HZUWtU8g",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19RecordApi22ParameterToRecordScore10initializeEPNS1_6Common10LibContextEiNS6_12IntrusivePtrINS3_22RecordScoreRequestBodyEEE",
+      "nid": "8sRfYnV7XlA",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19RecordApi22ParameterToRecordScore22setxPsnAtomicOperationENS5_19XPsnAtomicOperationE",
+      "nid": "Q0fKqfQeXnI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19RecordApi22ParameterToRecordScore9terminateEv",
+      "nid": "R5QhFOlpzjo",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19RecordApi22ParameterToRecordScoreC1Ev",
+      "nid": "IQOtjPPUJZM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19RecordApi22ParameterToRecordScoreD1Ev",
+      "nid": "4TGeM5jD7x0",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19RecordApi26ParameterToRecordLargeData10initializeEPNS1_6Common10LibContextEiNS5_19XPsnAtomicOperationEPKc",
+      "nid": "9sti7vTvx2U",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19RecordApi26ParameterToRecordLargeData9terminateEv",
+      "nid": "sSr4mR33SaY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19RecordApi26ParameterToRecordLargeDataC1Ev",
+      "nid": "c00bHjdQxuc",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi12Leaderboards2V19RecordApi26ParameterToRecordLargeDataD1Ev",
+      "nid": "LwGrNk25QbE",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi13InGameCatalog2V512ContainerApi12getContainerEiRKNS4_23ParameterToGetContainerERNS1_6Common11TransactionINS8_12IntrusivePtrINS8_6VectorINSA_INS3_9ContainerEEEEEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "nE0ooeCMRm8",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi13InGameCatalog2V512ContainerApi23ParameterToGetContainer10initializeEPNS1_6Common10LibContextE",
+      "nid": "RZcseJ3THfY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi13InGameCatalog2V512ContainerApi23ParameterToGetContainer15setcontainerIdsEPKc",
+      "nid": "kWH76XkadNY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi13InGameCatalog2V512ContainerApi23ParameterToGetContainer15setserviceLabelEi",
+      "nid": "EJAOHYWUki4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi13InGameCatalog2V512ContainerApi23ParameterToGetContainer7setsortENS5_4SortE",
+      "nid": "GKlWpBdGVpk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi13InGameCatalog2V512ContainerApi23ParameterToGetContainer8setlimitEi",
+      "nid": "mdMawHAHVMc",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi13InGameCatalog2V512ContainerApi23ParameterToGetContainer9setoffsetEi",
+      "nid": "gjyKh8gH4UE",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi13InGameCatalog2V512ContainerApi23ParameterToGetContainer9terminateEv",
+      "nid": "cSLbQUQO2Ns",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi13InGameCatalog2V512ContainerApi23ParameterToGetContainerC1Ev",
+      "nid": "P3daBLFFREw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi13InGameCatalog2V512ContainerApi23ParameterToGetContainerD1Ev",
+      "nid": "tFe964qzGEM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi13InGameCatalog2V57Product7getSkusEv",
+      "nid": "Kc4x2uy0FFk",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi13InGameCatalog2V59Container11getChildrenEv",
+      "nid": "ZQzXwokCnUE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi17getPlayerSessionsEiRKNS4_28ParameterToGetPlayerSessionsERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_29GetPlayerSessionsResponseBodyEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "0PT319lwTJ8",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi18leavePlayerSessionEiRKNS4_29ParameterToLeavePlayerSessionERNS1_6Common11TransactionINS8_15DefaultResponseENS8_12IntrusivePtrINS8_18ResponseHeaderBaseEEEEE",
+      "nid": "JiY4sfHkV34",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi20createPlayerSessionsEiRKNS4_31ParameterToCreatePlayerSessionsERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_30PostPlayerSessionsResponseBodyEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "eVU3cXIJz0w",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi25changePlayerSessionLeaderEiRKNS4_36ParameterToChangePlayerSessionLeaderERNS1_6Common11TransactionINS8_15DefaultResponseENS8_12IntrusivePtrINS8_18ResponseHeaderBaseEEEEE",
+      "nid": "Nip+FRfvDHU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi25joinPlayerSessionAsPlayerEiRKNS4_36ParameterToJoinPlayerSessionAsPlayerERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_52PostPlayerSessionsSessionIdMemberPlayersResponseBodyEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "BY1jyWLZrcA",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi26setPlayerSessionPropertiesEiRKNS4_37ParameterToSetPlayerSessionPropertiesERNS1_6Common11TransactionINS8_15DefaultResponseENS8_12IntrusivePtrINS8_18ResponseHeaderBaseEEEEE",
+      "nid": "N9jUpAxISno",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi27getPlayerSessionInvitationsEiRKNS4_38ParameterToGetPlayerSessionInvitationsERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_54GetUsersAccountIdPlayerSessionsInvitationsResponseBodyEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "LbhH9NeB93I",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi28ParameterToGetPlayerSessions10initializeEPNS1_6Common10LibContextEPKc",
+      "nid": "UWIQyDcz1hs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi28ParameterToGetPlayerSessions9setfieldsENS1_6Common12IntrusivePtrINS6_6VectorINS6_6StringEEEEE",
+      "nid": "GxDlxgJNRIg",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi28ParameterToGetPlayerSessions9terminateEv",
+      "nid": "H7OgYdLtOB4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi28ParameterToGetPlayerSessionsC1Ev",
+      "nid": "ZBkm0cyqmsU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi28ParameterToGetPlayerSessionsD1Ev",
+      "nid": "Ki0MvF8XNCk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi28sendPlayerSessionInvitationsEiRKNS4_39ParameterToSendPlayerSessionInvitationsERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_50PostPlayerSessionsSessionIdInvitationsResponseBodyEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "0BortfYmQRk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi29ParameterToLeavePlayerSession10initializeEPNS1_6Common10LibContextEPKcSA_",
+      "nid": "ZZpDSZob2Bs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi29ParameterToLeavePlayerSession9terminateEv",
+      "nid": "HI4KqGUlOUc",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi29ParameterToLeavePlayerSessionC1Ev",
+      "nid": "GIBhqoeiiho",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi29ParameterToLeavePlayerSessionD1Ev",
+      "nid": "40BxQHhkVGI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi31ParameterToCreatePlayerSessions10initializeEPNS1_6Common10LibContextENS6_12IntrusivePtrINS3_29PostPlayerSessionsRequestBodyEEE",
+      "nid": "E8pPjlz943E",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi31ParameterToCreatePlayerSessions9terminateEv",
+      "nid": "Hn-T0hnkwg8",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi31ParameterToCreatePlayerSessionsC1Ev",
+      "nid": "XkdGinZ2HtA",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi31ParameterToCreatePlayerSessionsD1Ev",
+      "nid": "LUvjGNEPg2Y",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi36ParameterToChangePlayerSessionLeader10initializeEPNS1_6Common10LibContextEPKcNS6_12IntrusivePtrINS3_43PutPlayerSessionsSessionIdLeaderRequestBodyEEE",
+      "nid": "iSJJLbwR2Yk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi36ParameterToChangePlayerSessionLeader9terminateEv",
+      "nid": "5T5H6ER1lvs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi36ParameterToChangePlayerSessionLeaderC1Ev",
+      "nid": "jTEUBw5jo6g",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi36ParameterToChangePlayerSessionLeaderD1Ev",
+      "nid": "R0Q4Gb2MOpI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi36ParameterToJoinPlayerSessionAsPlayer10initializeEPNS1_6Common10LibContextEPKcNS6_12IntrusivePtrINS3_51PostPlayerSessionsSessionIdMemberPlayersRequestBodyEEE",
+      "nid": "XuVY56j7GM0",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi36ParameterToJoinPlayerSessionAsPlayer9terminateEv",
+      "nid": "E+lI7Bs1zlw",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi36ParameterToJoinPlayerSessionAsPlayerC1Ev",
+      "nid": "exkGQSIrF+U",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi36ParameterToJoinPlayerSessionAsPlayerD1Ev",
+      "nid": "-QRPOVJU4aU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi37ParameterToSetPlayerSessionProperties10initializeEPNS1_6Common10LibContextEPKcNS6_12IntrusivePtrINS3_39PatchPlayerSessionsSessionIdRequestBodyEEE",
+      "nid": "4XkrdavSRUg",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi37ParameterToSetPlayerSessionProperties9terminateEv",
+      "nid": "prJ++4gQB9U",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi37ParameterToSetPlayerSessionPropertiesC1Ev",
+      "nid": "5TwSfklv4m8",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi37ParameterToSetPlayerSessionPropertiesD1Ev",
+      "nid": "EPzYWmAKBJ0",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi38ParameterToGetPlayerSessionInvitations10initializeEPNS1_6Common10LibContextEPKc",
+      "nid": "k1-l3-S82-Y",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi38ParameterToGetPlayerSessionInvitations26setinvitationInvalidFilterEPKc",
+      "nid": "1hVd+ogdk94",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi38ParameterToGetPlayerSessionInvitations9setfieldsENS1_6Common12IntrusivePtrINS6_6VectorINS6_6StringEEEEE",
+      "nid": "bTaEyd6uzzE",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi38ParameterToGetPlayerSessionInvitationsC1Ev",
+      "nid": "Q1WNakfGV08",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi38ParameterToGetPlayerSessionInvitationsD1Ev",
+      "nid": "STSh215IhuM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi38addPlayerSessionJoinableSpecifiedUsersEiRKNS4_49ParameterToAddPlayerSessionJoinableSpecifiedUsersERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_61PostPlayerSessionsSessionIdJoinableSpecifiedUsersResponseBodyEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "IyUcglm6m4s",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi39ParameterToSendPlayerSessionInvitations10initializeEPNS1_6Common10LibContextEPKcNS6_12IntrusivePtrINS3_49PostPlayerSessionsSessionIdInvitationsRequestBodyEEE",
+      "nid": "Ep1uD0m4qR0",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi39ParameterToSendPlayerSessionInvitations9terminateEv",
+      "nid": "UM5sJwwMUuI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi39ParameterToSendPlayerSessionInvitationsC1Ev",
+      "nid": "K+AkNLmYoRo",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi39ParameterToSendPlayerSessionInvitationsD1Ev",
+      "nid": "HidVSBhMHPM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi49ParameterToAddPlayerSessionJoinableSpecifiedUsers10initializeEPNS1_6Common10LibContextEPKcNS6_12IntrusivePtrINS3_60PostPlayerSessionsSessionIdJoinableSpecifiedUsersRequestBodyEEE",
+      "nid": "4RycqlFa1NQ",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi49ParameterToAddPlayerSessionJoinableSpecifiedUsers9terminateEv",
+      "nid": "62r3MEB9wLs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi49ParameterToAddPlayerSessionJoinableSpecifiedUsersC1Ev",
+      "nid": "wezlRzu+ng8",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V117PlayerSessionsApi49ParameterToAddPlayerSessionJoinableSpecifiedUsersD1Ev",
+      "nid": "hcn7reGoPd0",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V119JoinableUserFactory6createEPNS1_6Common10LibContextERKmPNS5_12IntrusivePtrINS3_12JoinableUserEEE",
+      "nid": "Q+mysfonf+A",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V120PlayerSessionForRead28getExclusiveLeaderPrivilegesEv",
+      "nid": "MSxsktnjRgA",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V120RequestPlayerSession14setCustomData1EPKvm",
+      "nid": "8MExInxqXhE",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V120RequestPlayerSession14setCustomData2EPKvm",
+      "nid": "3xoP69U8NGs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V120RequestPlayerSession16setMaxSpectatorsERKi",
+      "nid": "+oqyRiwxW18",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V120RequestPlayerSession19setJoinableUserTypeERKNS3_16JoinableUserTypeE",
+      "nid": "SQMjAiGtsiI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V120RequestPlayerSession20setInvitableUserTypeERKNS3_17InvitableUserTypeE",
+      "nid": "63mPNKdUOZY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V120RequestPlayerSession28setExclusiveLeaderPrivilegesERKNS1_6Common6VectorINS5_6StringEEE",
+      "nid": "z+aXXhCwtKU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V122LocalizedStringFactory6createEPNS1_6Common10LibContextEPKcNS_4Json6ObjectEPNS5_12IntrusivePtrINS3_15LocalizedStringEEE",
+      "nid": "4V0H+brwuCU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V126RequestPlayerSessionPlayer15setPushContextsERKNS1_6Common6VectorINS5_12IntrusivePtrINS3_24PlayerSessionPushContextEEEEE",
+      "nid": "fI-bJo6WlXU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V127RequestPlayerSessionFactory6createEPNS1_6Common10LibContextEiNS5_12IntrusivePtrINS3_32RequestPlayerSessionMemberPlayerEEERKNS5_6VectorINS5_6StringEEENS8_INS3_15LocalizedStringEEEPNS8_INS3_20RequestPlayerSessionEEE",
+      "nid": "fIzsqjyD5oY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V129GetPlayerSessionsResponseBody17getPlayerSessionsEv",
+      "nid": "tdt1pcVlfac",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V130PostPlayerSessionsResponseBody17getPlayerSessionsEv",
+      "nid": "JFkvxXYRVS0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V131PlayerSessionPushContextFactory6createEPNS1_6Common10LibContextEPKcPNS5_12IntrusivePtrINS3_24PlayerSessionPushContextEEE",
+      "nid": "gglj0cQ9K1E",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V133RequestPlayerSessionPlayerFactory6createEPNS1_6Common10LibContextEPKcS9_PNS5_12IntrusivePtrINS3_26RequestPlayerSessionPlayerEEE",
+      "nid": "e0n+XvGVWjY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V133ResponsePlayerSessionMemberPlayer10getPlayersEv",
+      "nid": "cAckbuvTh9s",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V136PostPlayerSessionsRequestBodyFactory6createEPNS1_6Common10LibContextERKNS5_6VectorINS5_12IntrusivePtrINS3_20RequestPlayerSessionEEEEEPNS9_INS3_29PostPlayerSessionsRequestBodyEEE",
+      "nid": "yl3T9brJay4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V137RequestPlayerSessionInvitationFactory6createEPNS1_6Common10LibContextENS5_12IntrusivePtrINS3_2ToEEEPNS8_INS3_30RequestPlayerSessionInvitationEEE",
+      "nid": "FL3K2lvYq-E",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V139PatchPlayerSessionsSessionIdRequestBody19setJoinableUserTypeERKNS3_22CustomJoinableUserTypeE",
+      "nid": "FySvwNKJp2U",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V139PatchPlayerSessionsSessionIdRequestBody20setInvitableUserTypeERKNS3_23CustomInvitableUserTypeE",
+      "nid": "slvvHT5LSEw",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V139PatchPlayerSessionsSessionIdRequestBody28setExclusiveLeaderPrivilegesERKNS1_6Common6VectorINS5_6StringEEE",
+      "nid": "dPdi6E-j9mE",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V139RequestCreatePlayerSessionPlayerFactory6createEPNS1_6Common10LibContextEPKcS9_RKNS5_6VectorINS5_12IntrusivePtrINS3_24PlayerSessionPushContextEEEEEPNSB_INS3_32RequestCreatePlayerSessionPlayerEEE",
+      "nid": "sRn6qePT54Q",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V139RequestPlayerSessionMemberPlayerFactory6createEPNS1_6Common10LibContextERKNS5_6VectorINS5_12IntrusivePtrINS3_32RequestCreatePlayerSessionPlayerEEEEEPNS9_INS3_32RequestPlayerSessionMemberPlayerEEE",
+      "nid": "-0Vv7HKZaBM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V146PatchPlayerSessionsSessionIdRequestBodyFactory6createEPNS1_6Common10LibContextEPNS5_12IntrusivePtrINS3_39PatchPlayerSessionsSessionIdRequestBodyEEE",
+      "nid": "Evq+NhTb3yg",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V149PostPlayerSessionsSessionIdInvitationsRequestBody14setInvitationsERKNS1_6Common6VectorINS5_12IntrusivePtrINS3_30RequestPlayerSessionInvitationEEEEE",
+      "nid": "+W7fL6PWOhw",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V150PutPlayerSessionsSessionIdLeaderRequestBodyFactory6createEPNS1_6Common10LibContextERKNS_4Json5ValueEPNS5_12IntrusivePtrINS3_43PutPlayerSessionsSessionIdLeaderRequestBodyEEE",
+      "nid": "OENSn9GL3x8",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V154GetUsersAccountIdPlayerSessionsInvitationsResponseBody14getInvitationsEv",
+      "nid": "mqM7+dpduR0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V156PostPlayerSessionsSessionIdInvitationsRequestBodyFactory6createEPNS1_6Common10LibContextEPNS5_12IntrusivePtrINS3_49PostPlayerSessionsSessionIdInvitationsRequestBodyEEE",
+      "nid": "S3JxD633sV4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V158PostPlayerSessionsSessionIdMemberPlayersRequestBodyFactory6createEPNS1_6Common10LibContextERKNS5_6VectorINS5_12IntrusivePtrINS3_26RequestPlayerSessionPlayerEEEEEPNS9_INS3_51PostPlayerSessionsSessionIdMemberPlayersRequestBodyEEE",
+      "nid": "xjVhrq2KPJA",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V167PostPlayerSessionsSessionIdJoinableSpecifiedUsersRequestBodyFactory6createEPNS1_6Common10LibContextERKNS5_6VectorINS5_12IntrusivePtrINS3_12JoinableUserEEEEEPNS9_INS3_60PostPlayerSessionsSessionIdJoinableSpecifiedUsersRequestBodyEEE",
+      "nid": "jAstE+lkQCs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi14SessionManager2V19ToFactory6createEPNS1_6Common10LibContextERKmPNS5_12IntrusivePtrINS3_2ToEEE",
+      "nid": "fsdh0JMoYYk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi15ProfanityFilter2V212ProfanityApi15filterProfanityEiRKNS4_26ParameterToFilterProfanityERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_23FilterProfanityResponseEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "13KoEaVmuJ8",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi15ProfanityFilter2V212ProfanityApi26ParameterToFilterProfanity10initializeEPNS1_6Common10LibContextEPKcSA_NS6_12IntrusivePtrINS3_19WebApiFilterRequestEEE",
+      "nid": "veRySWMcttw",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi15ProfanityFilter2V212ProfanityApi26ParameterToFilterProfanity9terminateEv",
+      "nid": "-D8MD+5yuAw",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi15ProfanityFilter2V212ProfanityApi26ParameterToFilterProfanityC1Ev",
+      "nid": "BBoN-+1fjTA",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi15ProfanityFilter2V212ProfanityApi26ParameterToFilterProfanityD1Ev",
+      "nid": "yOUuI64kBuc",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi15ProfanityFilter2V226WebApiFilterRequestFactory6createEPNS1_6Common10LibContextEPKcPNS5_12IntrusivePtrINS3_19WebApiFilterRequestEEE",
+      "nid": "XFQNeE+EwJU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi17TitleCloudStorage2V132GetMultiDataStatusesResponseBody17getDataStatusListEv",
+      "nid": "BHvfIGdarBQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi17TitleCloudStorage2V17DataApi12downloadDataEiRKNS4_23ParameterToDownloadDataERNS1_6Common21DownStreamTransactionINS8_12IntrusivePtrINS4_27DownloadDataResponseHeadersEEEEE",
+      "nid": "9YWXkd3AZAk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi17TitleCloudStorage2V17DataApi23ParameterToDownloadData10initializeEPNS1_6Common10LibContextEPKci",
+      "nid": "hH7KHku1lqs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi17TitleCloudStorage2V17DataApi23ParameterToDownloadData11setobjectIdEPKc",
+      "nid": "wFcm6bgWB9Q",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi17TitleCloudStorage2V17DataApi23ParameterToDownloadData9terminateEv",
+      "nid": "26SufKG5x4M",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi17TitleCloudStorage2V17DataApi23ParameterToDownloadDataC1Ev",
+      "nid": "E8BmtbByVKs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi17TitleCloudStorage2V17DataApi23ParameterToDownloadDataD1Ev",
+      "nid": "0UNp2Ey5bw4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi17TitleCloudStorage2V17DataApi26getMultiDataStatusesByUserEiRKNS4_37ParameterToGetMultiDataStatusesByUserERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_32GetMultiDataStatusesResponseBodyEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "eT4TQB7OsLA",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi17TitleCloudStorage2V17DataApi37ParameterToGetMultiDataStatusesByUser10initializeEPNS1_6Common10LibContextEPKcSA_",
+      "nid": "wp8+c84G5Xw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi17TitleCloudStorage2V17DataApi37ParameterToGetMultiDataStatusesByUser9setfieldsEPKc",
+      "nid": "6FK4IOnANkc",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi17TitleCloudStorage2V17DataApi37ParameterToGetMultiDataStatusesByUser9terminateEv",
+      "nid": "umm5m+mXiZs",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi17TitleCloudStorage2V17DataApi37ParameterToGetMultiDataStatusesByUserC1Ev",
+      "nid": "kz2Z38yTLq0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi17TitleCloudStorage2V17DataApi37ParameterToGetMultiDataStatusesByUserD1Ev",
+      "nid": "a4q15LI1a4E",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi30CommunicationRestrictionStatus2V333CommunicationRestrictionStatusApi33getCommunicationRestrictionStatusEiRKNS4_44ParameterToGetCommunicationRestrictionStatusERNS1_6Common11TransactionINS8_12IntrusivePtrINS3_38CommunicationRestrictionStatusResponseEEENSA_INS8_18ResponseHeaderBaseEEEEE",
+      "nid": "MRwiBFUbp1A",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi30CommunicationRestrictionStatus2V333CommunicationRestrictionStatusApi44ParameterToGetCommunicationRestrictionStatus10initializeEPNS1_6Common10LibContextEm",
+      "nid": "9IygJEdu7Lg",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi30CommunicationRestrictionStatus2V333CommunicationRestrictionStatusApi44ParameterToGetCommunicationRestrictionStatus9terminateEv",
+      "nid": "pWE9pFFi68Q",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi30CommunicationRestrictionStatus2V333CommunicationRestrictionStatusApi44ParameterToGetCommunicationRestrictionStatusC1Ev",
+      "nid": "TIdDZeVUTJ4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi30CommunicationRestrictionStatus2V333CommunicationRestrictionStatusApi44ParameterToGetCommunicationRestrictionStatusD1Ev",
+      "nid": "egm8uuznnW4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common10InitParamsC1Ev",
+      "nid": "8x++mBOUeso",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common10InitParamsD1Ev",
+      "nid": "52AlYvq+dmk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common10LibContextC1Ev",
+      "nid": "Y295ygEccqk",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common10initializeERKNS2_10InitParamsERNS2_10LibContextE",
+      "nid": "UYPxv8MIzGo",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_11UserProfile2V118GetFriendsResponseEEENS4_INS2_18ResponseHeaderBaseEEEE21setOnFinishedCallbackEPFvliS8_PvEPFvliSC_ESC_",
+      "nid": "UGEyMKm8N3A",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_11UserProfile2V118GetFriendsResponseEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "73XG6dPCOr0",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_11UserProfile2V118GetFriendsResponseEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "qwa0biONtPI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_11UserProfile2V124GetBlockingUsersResponseEEENS4_INS2_18ResponseHeaderBaseEEEE21setOnFinishedCallbackEPFvliS8_PvEPFvliSC_ESC_",
+      "nid": "TECRh7NmqIA",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_11UserProfile2V124GetBlockingUsersResponseEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "d3BbxfGmStE",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_11UserProfile2V124GetBlockingUsersResponseEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "+rWjmNf5G5E",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_11UserProfile2V125GetBasicPresencesResponseEEENS4_INS2_18ResponseHeaderBaseEEEE21setOnFinishedCallbackEPFvliS8_PvEPFvliSC_ESC_",
+      "nid": "UK3vHMLAEU4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_11UserProfile2V125GetBasicPresencesResponseEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "VKaRucCPRyU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_11UserProfile2V125GetBasicPresencesResponseEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "75Hbvij1fk8",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_12Leaderboards2V122GetRankingResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "MVExpBYTEow",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_12Leaderboards2V122GetRankingResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "5F7D2WLcblc",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_12Leaderboards2V123RecordScoreResponseBodyEEENS4_INS6_9RecordApi26RecordScoreResponseHeadersEEEEC1Ev",
+      "nid": "mqXwMzp+7pE",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_12Leaderboards2V123RecordScoreResponseBodyEEENS4_INS6_9RecordApi26RecordScoreResponseHeadersEEEED1Ev",
+      "nid": "pq7sFJ6E6Sg",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_12Leaderboards2V130GetBoardDefinitionResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "gp3soLZ1nu0",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_12Leaderboards2V130GetBoardDefinitionResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "iiYZCXOo7Go",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V129GetPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "+cHQSR34crs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V129GetPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "3c1SP6vjqcs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V130PostPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "F-KitvVOrpQ",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V130PostPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "qMYMahQKgPQ",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V150PostPlayerSessionsSessionIdInvitationsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "MMz3pWjeeqA",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V150PostPlayerSessionsSessionIdInvitationsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "WmWLkS27FxE",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V152PostPlayerSessionsSessionIdMemberPlayersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "SK2UF3FYqM4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V152PostPlayerSessionsSessionIdMemberPlayersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "t8-zRyLWOXE",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V154GetUsersAccountIdPlayerSessionsInvitationsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "BQ-8I4FcCQs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V154GetUsersAccountIdPlayerSessionsInvitationsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "s4G45M9w8tc",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V161PostPlayerSessionsSessionIdJoinableSpecifiedUsersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "GNJWLgaqjds",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V161PostPlayerSessionsSessionIdJoinableSpecifiedUsersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "XarIgT72mQQ",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_15ProfanityFilter2V223FilterProfanityResponseEEENS4_INS2_18ResponseHeaderBaseEEEE21setOnFinishedCallbackEPFvliS8_PvEPFvliSC_ESC_",
+      "nid": "-3rmbd14uBI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_15ProfanityFilter2V223FilterProfanityResponseEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "iLnckwH2WBQ",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_15ProfanityFilter2V223FilterProfanityResponseEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "RQfqM1BZuoc",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_17TitleCloudStorage2V132GetMultiDataStatusesResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "G3h-NDHnyW4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_17TitleCloudStorage2V132GetMultiDataStatusesResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "3bjEFf8OhTs",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_30CommunicationRestrictionStatus2V338CommunicationRestrictionStatusResponseEEENS4_INS2_18ResponseHeaderBaseEEEE21setOnFinishedCallbackEPFvliS8_PvEPFvliSC_ESC_",
+      "nid": "T1sKGarkLag",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_30CommunicationRestrictionStatus2V338CommunicationRestrictionStatusResponseEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "ANB19+6-3fg",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_30CommunicationRestrictionStatus2V338CommunicationRestrictionStatusResponseEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "E0CTYxeKBnw",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS2_6VectorINS4_INS1_13InGameCatalog2V59ContainerEEEEEEENS4_INS2_18ResponseHeaderBaseEEEEC1ERKSE_",
+      "nid": "kZZUQA9BngU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS2_6VectorINS4_INS1_13InGameCatalog2V59ContainerEEEEEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "Fxxr5lYBfl4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS2_6VectorINS4_INS1_13InGameCatalog2V59ContainerEEEEEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "8-9Y4oS+OuE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_15DefaultResponseENS2_12IntrusivePtrINS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "A3vS8-6YhBM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common11TransactionINS2_15DefaultResponseENS2_12IntrusivePtrINS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "zrEp8lu3vAI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V121GetRankingRequestBodyEEC1ERS7_",
+      "nid": "GX4DLMQ9488",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V121GetRankingRequestBodyEEC1Ev",
+      "nid": "zfvBGft4XrY",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V121GetRankingRequestBodyEED1Ev",
+      "nid": "syDD+xcUmEs",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V122GetRankingResponseBodyEEC1Ev",
+      "nid": "QXLG4UDWLEI",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V122GetRankingResponseBodyEED1Ev",
+      "nid": "BcrC80L8i0Q",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V122RecordScoreRequestBodyEEC1ERS7_",
+      "nid": "OV+MKKnbEYM",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V122RecordScoreRequestBodyEEC1Ev",
+      "nid": "+k2KKLVS+t8",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V122RecordScoreRequestBodyEED1Ev",
+      "nid": "GJu2OLJK5Eo",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V123RecordScoreResponseBodyEEC1Ev",
+      "nid": "rVdu+F4JFC4",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V123RecordScoreResponseBodyEED1Ev",
+      "nid": "mVKcd5NwiWE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V130GetBoardDefinitionResponseBodyEEC1Ev",
+      "nid": "EOKBl05t-hk",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V130GetBoardDefinitionResponseBodyEED1Ev",
+      "nid": "KD0NkSaIi1M",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V14UserEEC1Ev",
+      "nid": "s8GYZ2aPoTU",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V14UserEED1Ev",
+      "nid": "gxlgckSr7z4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V19RecordApi26RecordScoreResponseHeadersEEC1Ev",
+      "nid": "gTiHp+M4wFM",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V19RecordApi26RecordScoreResponseHeadersEED1Ev",
+      "nid": "8YtcWzYdIRs",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_13InGameCatalog2V57ProductEEC1ERS7_",
+      "nid": "oHRl7a+zdMU",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_13InGameCatalog2V57ProductEED1Ev",
+      "nid": "q4UFICay6Hk",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_13InGameCatalog2V59ContainerEEC1ERS7_",
+      "nid": "lPAMjFZEpt8",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_13InGameCatalog2V59ContainerEED1Ev",
+      "nid": "tHaO36kincQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V110FromMemberEED1Ev",
+      "nid": "OmJ5HIMLuNg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V112JoinableUserEEC1Ev",
+      "nid": "-8Jm4zqdPMs",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V112JoinableUserEED1Ev",
+      "nid": "+L01lTUdzPw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V113PlayerSessionEEC1Ev",
+      "nid": "gLWISFABeAY",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V113PlayerSessionEED1Ev",
+      "nid": "Yf3CvohSksE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V113PlayerSessionEEaSERS7_",
+      "nid": "CM5QrdK0gHc",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V115LocalizedStringEEC1ERS7_",
+      "nid": "+DSNphhYdd4",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V115LocalizedStringEEC1Ev",
+      "nid": "BLeUlxPwr5w",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V115LocalizedStringEED1Ev",
+      "nid": "Zkxpy0zdodA",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V118LeaderWithOnlineIdEED1Ev",
+      "nid": "i1GAPIM3DL8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V120RequestPlayerSessionEEC1Ev",
+      "nid": "203JffNGrbg",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V120RequestPlayerSessionEED1Ev",
+      "nid": "NCe1Kgd6Jlo",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V124PlayerSessionPushContextEEC1Ev",
+      "nid": "NvV--345al4",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V124PlayerSessionPushContextEED1Ev",
+      "nid": "gVfZ1j2bhPM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V126RequestPlayerSessionPlayerEEC1Ev",
+      "nid": "HfnTwwuLjAI",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V126RequestPlayerSessionPlayerEED1Ev",
+      "nid": "AawHDpsapd4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V129GetPlayerSessionsResponseBodyEEC1Ev",
+      "nid": "R5UMy7LMszo",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V129GetPlayerSessionsResponseBodyEED1Ev",
+      "nid": "HGQWVqwU2Fo",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V129PostPlayerSessionsRequestBodyEEC1ERS7_",
+      "nid": "INgczqD0H+w",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V129PostPlayerSessionsRequestBodyEEC1Ev",
+      "nid": "8VWyc8ke-uw",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V129PostPlayerSessionsRequestBodyEED1Ev",
+      "nid": "gw7fieR8fC4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V12ToEEC1ERS7_",
+      "nid": "ObpPwWnpM8I",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V12ToEEC1Ev",
+      "nid": "CMZjWpI9jMA",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V12ToEED1Ev",
+      "nid": "T23YLQIlyFY",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V130PostPlayerSessionsResponseBodyEEC1Ev",
+      "nid": "OVsvmF7lYPQ",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V130PostPlayerSessionsResponseBodyEED1Ev",
+      "nid": "GwWn958m6g4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V130RequestPlayerSessionInvitationEEC1Ev",
+      "nid": "f69FYKsbeMI",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V130RequestPlayerSessionInvitationEED1Ev",
+      "nid": "QdU3cirVIdE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V132RequestCreatePlayerSessionPlayerEEC1Ev",
+      "nid": "oAuFlME7yNI",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V132RequestCreatePlayerSessionPlayerEED1Ev",
+      "nid": "7Bc6AIhycYA",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V132RequestPlayerSessionMemberPlayerEEC1ERS7_",
+      "nid": "VVi2+kwIbCc",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V132RequestPlayerSessionMemberPlayerEEC1Ev",
+      "nid": "N+uuxyqdvFo",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V132RequestPlayerSessionMemberPlayerEED1Ev",
+      "nid": "EviQs3RBmoM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V133ResponsePlayerSessionMemberPlayerEED1Ev",
+      "nid": "eiWoUXnutss",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V139PatchPlayerSessionsSessionIdRequestBodyEEC1ERS7_",
+      "nid": "Lkx5W5Yh+4s",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V139PatchPlayerSessionsSessionIdRequestBodyEEC1Ev",
+      "nid": "ZSi7Ar-PFnk",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V139PatchPlayerSessionsSessionIdRequestBodyEED1Ev",
+      "nid": "NYIdgQKy4fs",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V143PutPlayerSessionsSessionIdLeaderRequestBodyEEC1ERS7_",
+      "nid": "LGkB+6CseZk",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V143PutPlayerSessionsSessionIdLeaderRequestBodyEEC1Ev",
+      "nid": "WpAliLBlSKU",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V143PutPlayerSessionsSessionIdLeaderRequestBodyEED1Ev",
+      "nid": "3WhVurvjPns",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V149PostPlayerSessionsSessionIdInvitationsRequestBodyEEC1ERS7_",
+      "nid": "BciGnJSuegU",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V149PostPlayerSessionsSessionIdInvitationsRequestBodyEEC1Ev",
+      "nid": "7ubnYQ7QZ1E",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V149PostPlayerSessionsSessionIdInvitationsRequestBodyEED1Ev",
+      "nid": "tCi2HGtNZYc",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V150PostPlayerSessionsSessionIdInvitationsResponseBodyEEC1Ev",
+      "nid": "KadPb+xSU-8",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V150PostPlayerSessionsSessionIdInvitationsResponseBodyEED1Ev",
+      "nid": "yk05VJ8evEs",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V151PostPlayerSessionsSessionIdMemberPlayersRequestBodyEEC1ERS7_",
+      "nid": "BWDILfRcisI",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V151PostPlayerSessionsSessionIdMemberPlayersRequestBodyEEC1Ev",
+      "nid": "3L1hfNaKKJE",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V151PostPlayerSessionsSessionIdMemberPlayersRequestBodyEED1Ev",
+      "nid": "4Wq-RRWM+q0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V152PostPlayerSessionsSessionIdMemberPlayersResponseBodyEEC1Ev",
+      "nid": "vRpYko5WTm4",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V152PostPlayerSessionsSessionIdMemberPlayersResponseBodyEED1Ev",
+      "nid": "7jbnFXytxmQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V154GetUsersAccountIdPlayerSessionsInvitationsResponseBodyEEC1Ev",
+      "nid": "iMcKgGtukyA",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V154GetUsersAccountIdPlayerSessionsInvitationsResponseBodyEED1Ev",
+      "nid": "lCcoeldiMhM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V160PostPlayerSessionsSessionIdJoinableSpecifiedUsersRequestBodyEEC1ERS7_",
+      "nid": "E7ABorgo8J0",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V160PostPlayerSessionsSessionIdJoinableSpecifiedUsersRequestBodyEEC1Ev",
+      "nid": "RTzesATSziM",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V160PostPlayerSessionsSessionIdJoinableSpecifiedUsersRequestBodyEED1Ev",
+      "nid": "2KqNbE73+aI",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_15ProfanityFilter2V219WebApiFilterRequestEEC1ERS7_",
+      "nid": "b+v7BB12y5I",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_15ProfanityFilter2V219WebApiFilterRequestEEC1Ev",
+      "nid": "5f9xDKxYjbY",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_15ProfanityFilter2V219WebApiFilterRequestEED1Ev",
+      "nid": "+0jo0J7h4CM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_17TitleCloudStorage2V132GetMultiDataStatusesResponseBodyEEC1Ev",
+      "nid": "-XNfwZTFkWw",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_17TitleCloudStorage2V132GetMultiDataStatusesResponseBodyEED1Ev",
+      "nid": "1wpCXuFzH10",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS1_17TitleCloudStorage2V15OwnerEED1Ev",
+      "nid": "lB8driFKaoU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_18ResponseHeaderBaseEEC1Ev",
+      "nid": "Dza-PctrwiU",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_18ResponseHeaderBaseEED1Ev",
+      "nid": "zXdVl2D7dUk",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6StringEEC1Ev",
+      "nid": "OgbbbsOtwlE",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6StringEED1Ev",
+      "nid": "U-Mgu8Pn9y0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS2_6StringEEEEC1EPS6_PFvS8_EPNS2_10LibContextE",
+      "nid": "d2JuGu+UcU8",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS2_6StringEEEEC1ERS7_",
+      "nid": "anOM+-Ryi+o",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS2_6StringEEEED1Ev",
+      "nid": "m7ykSknwnRg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_11UserProfile2V113BasicPresenceEEEEEED1Ev",
+      "nid": "ZuRinzzVx1M",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_12Leaderboards2V15EntryEEEEEED1Ev",
+      "nid": "ysAnsG6EfkM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_13InGameCatalog2V53SkuEEEEEED1Ev",
+      "nid": "uwhztB49KOQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_13InGameCatalog2V57ProductEEEEEED1Ev",
+      "nid": "qiD2PU2Jstc",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_13InGameCatalog2V59ContainerEEEEEEC1ERKSA_",
+      "nid": "cdNTOggQvE8",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_13InGameCatalog2V59ContainerEEEEEEC1Ev",
+      "nid": "zzO8ZGJ74ng",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_13InGameCatalog2V59ContainerEEEEEED1Ev",
+      "nid": "4AFThLW28xQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_13InGameCatalog2V59ContainerEEEEEEaSERKSA_",
+      "nid": "zovjRX79KtU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_14SessionManager2V113PlayerSessionEEEEEEC1Ev",
+      "nid": "zoIWRIwqlGE",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_14SessionManager2V113PlayerSessionEEEEEED1Ev",
+      "nid": "V1jgl1b2Qog",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_14SessionManager2V113PlayerSessionEEEEEEaSERKSA_",
+      "nid": "O7nXO7rF340",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_14SessionManager2V120PlayerSessionForReadEEEEEED1Ev",
+      "nid": "m6o+BHqSlG8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_14SessionManager2V127ResponsePlayerSessionPlayerEEEEEED1Ev",
+      "nid": "3pEjZ5H4+1g",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_14SessionManager2V136UsersPlayerSessionsInvitationForReadEEEEEED1Ev",
+      "nid": "8cmupXHZgAw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_17TitleCloudStorage2V110DataStatusEEEEEED1Ev",
+      "nid": "d1eEjWR60wk",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorImEEEC1Ev",
+      "nid": "4ia3TbCbRVc",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorImEEED1Ev",
+      "nid": "8fkLx5ejxY8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorImEEEaSERS6_",
+      "nid": "dZAozwzECsU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common13ConstIteratorINS2_12IntrusivePtrINS1_11UserProfile2V113BasicPresenceEEEED2Ev",
+      "nid": "J4vXbYykW8M",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common13ConstIteratorINS2_12IntrusivePtrINS1_12Leaderboards2V15EntryEEEED2Ev",
+      "nid": "7IgV8DBuzJQ",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common13ConstIteratorINS2_12IntrusivePtrINS1_13InGameCatalog2V53SkuEEEED2Ev",
+      "nid": "VKEtFC3W-TI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common13ConstIteratorINS2_12IntrusivePtrINS1_13InGameCatalog2V57ProductEEEED2Ev",
+      "nid": "M1LnjRscx-w",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common13ConstIteratorINS2_12IntrusivePtrINS1_13InGameCatalog2V59ContainerEEEED2Ev",
+      "nid": "lyDzpTI5dWM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common13ConstIteratorINS2_12IntrusivePtrINS1_14SessionManager2V120PlayerSessionForReadEEEED2Ev",
+      "nid": "WF7CmdQTCwc",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common13ConstIteratorINS2_12IntrusivePtrINS1_14SessionManager2V136UsersPlayerSessionsInvitationForReadEEEED2Ev",
+      "nid": "5QJRueHuTBo",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common13ConstIteratorINS2_12IntrusivePtrINS1_17TitleCloudStorage2V110DataStatusEEEED2Ev",
+      "nid": "c3J9K9XbQqE",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common13ConstIteratorINS2_6StringEED2Ev",
+      "nid": "9m-AZF+kAyU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common13ConstIteratorImED2Ev",
+      "nid": "IlMqEkBLuBE",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15DefaultResponseC1Ev",
+      "nid": "DrekXkm+oxg",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15DefaultResponseD1Ev",
+      "nid": "cTLUQmCfWNQ",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_11UserProfile2V118GetFriendsResponseEEENS4_INS2_18ResponseHeaderBaseEEEE28setResponseInformationOptionEP37SceNpWebApi2ResponseInformationOption",
+      "nid": "l3-83fvIqvM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_11UserProfile2V118GetFriendsResponseEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "hZTfKpftpsU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_11UserProfile2V118GetFriendsResponseEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "FZXAWifD-Zk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_11UserProfile2V124GetBlockingUsersResponseEEENS4_INS2_18ResponseHeaderBaseEEEE28setResponseInformationOptionEP37SceNpWebApi2ResponseInformationOption",
+      "nid": "4afM3Xt0+Ig",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_11UserProfile2V124GetBlockingUsersResponseEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "npMIfvNUuiQ",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_11UserProfile2V124GetBlockingUsersResponseEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "NRX8fDa7344",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_11UserProfile2V125GetBasicPresencesResponseEEENS4_INS2_18ResponseHeaderBaseEEEE28setResponseInformationOptionEP37SceNpWebApi2ResponseInformationOption",
+      "nid": "PWBfEpSHJHo",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_11UserProfile2V125GetBasicPresencesResponseEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "kOeBKp8TgFk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_11UserProfile2V125GetBasicPresencesResponseEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "GMSN1x4y+cs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_12Leaderboards2V122GetRankingResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "z3id8GlN+Hc",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_12Leaderboards2V122GetRankingResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "Mnp3qDir4NU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_12Leaderboards2V123RecordScoreResponseBodyEEENS4_INS6_9RecordApi26RecordScoreResponseHeadersEEEE5startEPNS2_10LibContextE",
+      "nid": "rBNBuzCGsLQ",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_12Leaderboards2V123RecordScoreResponseBodyEEENS4_INS6_9RecordApi26RecordScoreResponseHeadersEEEE6finishEv",
+      "nid": "OfSm8N8i+XA",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_12Leaderboards2V127RecordLargeDataResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "Kg1U7CAbtio",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_12Leaderboards2V130GetBoardDefinitionResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "s7YtGdt8Sg4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_12Leaderboards2V130GetBoardDefinitionResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "7dqFi7Dvzgo",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V129GetPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5abortEv",
+      "nid": "56NYbWlyAPE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V129GetPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "4LFb2ce6BJI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V129GetPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "9uCGe-uPU+g",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V130PostPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5abortEv",
+      "nid": "XmGN9B+MniY",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V130PostPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "ynvhoQekbwg",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V130PostPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "VXm5RXt+uJ0",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V150PostPlayerSessionsSessionIdInvitationsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5abortEv",
+      "nid": "GcHBzsl-OHs",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V150PostPlayerSessionsSessionIdInvitationsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "MXakKx9ktts",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V150PostPlayerSessionsSessionIdInvitationsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "CEWIEloY-0Q",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V152PostPlayerSessionsSessionIdMemberPlayersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5abortEv",
+      "nid": "s5Yf-0h2kyE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V152PostPlayerSessionsSessionIdMemberPlayersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "K8zhm2vYK+o",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V152PostPlayerSessionsSessionIdMemberPlayersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "ogc2cNOobW8",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V154GetUsersAccountIdPlayerSessionsInvitationsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "XUeWyaje50Q",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V154GetUsersAccountIdPlayerSessionsInvitationsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "rPxhVLFJBm4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V161PostPlayerSessionsSessionIdJoinableSpecifiedUsersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5abortEv",
+      "nid": "TOQYTjCx2sA",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V161PostPlayerSessionsSessionIdJoinableSpecifiedUsersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "pB+UVz83POQ",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V161PostPlayerSessionsSessionIdJoinableSpecifiedUsersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "3lC95nbky6U",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_15ProfanityFilter2V223FilterProfanityResponseEEENS4_INS2_18ResponseHeaderBaseEEEE28setResponseInformationOptionEP37SceNpWebApi2ResponseInformationOption",
+      "nid": "LvOINVROtwU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_15ProfanityFilter2V223FilterProfanityResponseEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "0YED2+p7aiI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_15ProfanityFilter2V223FilterProfanityResponseEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "tnym874g8jE",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_17TitleCloudStorage2V132GetMultiDataStatusesResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "nL9vSVq-29s",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_17TitleCloudStorage2V132GetMultiDataStatusesResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "w4K4nTYwhVE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_30CommunicationRestrictionStatus2V338CommunicationRestrictionStatusResponseEEENS4_INS2_18ResponseHeaderBaseEEEE28setResponseInformationOptionEP37SceNpWebApi2ResponseInformationOption",
+      "nid": "Y8ww+newDeU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_30CommunicationRestrictionStatus2V338CommunicationRestrictionStatusResponseEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "5HZxpDKT1Xs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_30CommunicationRestrictionStatus2V338CommunicationRestrictionStatusResponseEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "8EuesH8mP8c",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS2_6VectorINS4_INS1_13InGameCatalog2V59ContainerEEEEEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "g2dEqFnhFuw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS2_6VectorINS4_INS1_13InGameCatalog2V59ContainerEEEEEEENS4_INS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "nmz5JYKcMfY",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS2_6VectorINS4_INS1_13InGameCatalog2V59ContainerEEEEEEENS4_INS2_18ResponseHeaderBaseEEEEaSERKSE_",
+      "nid": "8jgNR+zdxrY",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_15DefaultResponseENS2_12IntrusivePtrINS2_18ResponseHeaderBaseEEEE5abortEv",
+      "nid": "p2uPjeeVeVE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_15DefaultResponseENS2_12IntrusivePtrINS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextE",
+      "nid": "pleuuED1nRY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common15TransactionBaseINS2_15DefaultResponseENS2_12IntrusivePtrINS2_18ResponseHeaderBaseEEEE6finishEv",
+      "nid": "q+50oeoRpnY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common18ResponseHeaderBase14getHeaderValueEPKcRNS2_12IntrusivePtrINS2_6StringEEE",
+      "nid": "QWRYQMQSpIc",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common19UpStreamTransactionINS2_12IntrusivePtrINS1_12Leaderboards2V127RecordLargeDataResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5startEPNS2_10LibContextEm",
+      "nid": "3YR0qZiM9gI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common19UpStreamTransactionINS2_12IntrusivePtrINS1_12Leaderboards2V127RecordLargeDataResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE8sendDataEPKvm",
+      "nid": "AS1rCnSRF1g",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common19UpStreamTransactionINS2_12IntrusivePtrINS1_12Leaderboards2V127RecordLargeDataResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEEC1Ev",
+      "nid": "FQO2aJ3rhKI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common19UpStreamTransactionINS2_12IntrusivePtrINS1_12Leaderboards2V127RecordLargeDataResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEED1Ev",
+      "nid": "-xOoiK8HfDI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common21DownStreamTransactionINS2_12IntrusivePtrINS1_12Leaderboards2V17ViewApi37GetLargeDataByObjectIdResponseHeadersEEEE5startEPNS2_10LibContextE",
+      "nid": "TJz8sDUa6n4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common21DownStreamTransactionINS2_12IntrusivePtrINS1_12Leaderboards2V17ViewApi37GetLargeDataByObjectIdResponseHeadersEEEE6finishEv",
+      "nid": "Y+pTVRiUcHo",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common21DownStreamTransactionINS2_12IntrusivePtrINS1_12Leaderboards2V17ViewApi37GetLargeDataByObjectIdResponseHeadersEEEE8readDataEPcm",
+      "nid": "ncIcckZh0rk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common21DownStreamTransactionINS2_12IntrusivePtrINS1_12Leaderboards2V17ViewApi37GetLargeDataByObjectIdResponseHeadersEEEEC1Ev",
+      "nid": "P5mDlGPLSUU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common21DownStreamTransactionINS2_12IntrusivePtrINS1_12Leaderboards2V17ViewApi37GetLargeDataByObjectIdResponseHeadersEEEED1Ev",
+      "nid": "XWJpJef97fM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common21DownStreamTransactionINS2_12IntrusivePtrINS1_17TitleCloudStorage2V17DataApi27DownloadDataResponseHeadersEEEE5startEPNS2_10LibContextE",
+      "nid": "V2NelZNoJwI",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common21DownStreamTransactionINS2_12IntrusivePtrINS1_17TitleCloudStorage2V17DataApi27DownloadDataResponseHeadersEEEE6finishEv",
+      "nid": "0oIoKcDA0Fw",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common21DownStreamTransactionINS2_12IntrusivePtrINS1_17TitleCloudStorage2V17DataApi27DownloadDataResponseHeadersEEEE8readDataEPcm",
+      "nid": "kVGz48sqNJM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common21DownStreamTransactionINS2_12IntrusivePtrINS1_17TitleCloudStorage2V17DataApi27DownloadDataResponseHeadersEEEEC1Ev",
+      "nid": "kpbW7Dr44Gc",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common21DownStreamTransactionINS2_12IntrusivePtrINS1_17TitleCloudStorage2V17DataApi27DownloadDataResponseHeadersEEEED1Ev",
+      "nid": "IAkGC4cv3zs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6String6appendEPKc",
+      "nid": "BgDtc93upnM",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6StringC1EPNS2_10LibContextE",
+      "nid": "9y9YsMBbUq0",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6StringD1Ev",
+      "nid": "DNmJw98YzUU",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6StringeqEPKc",
+      "nid": "bYwPc+KsfSw",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_11UserProfile2V113BasicPresenceEEEE3endEv",
+      "nid": "hMxydTJQ670",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_11UserProfile2V113BasicPresenceEEEE5beginEv",
+      "nid": "t84AiYnMwPg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_12Leaderboards2V14UserEEEE8pushBackERKS8_",
+      "nid": "owrpOxU0eoE",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_12Leaderboards2V14UserEEEEC1EPNS2_10LibContextE",
+      "nid": "AcHirYSl0HA",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_12Leaderboards2V14UserEEEED1Ev",
+      "nid": "N78k-Vryooc",
+      "state": "inert"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_12Leaderboards2V15EntryEEEE3endEv",
+      "nid": "ptE7eJxWp0c",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_12Leaderboards2V15EntryEEEE5beginEv",
+      "nid": "rdEN7D3ZN1E",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_13InGameCatalog2V53SkuEEEE3endEv",
+      "nid": "vrZgN7nMcGM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_13InGameCatalog2V53SkuEEEE5beginEv",
+      "nid": "NA46RXga9OQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_13InGameCatalog2V57ProductEEEE3endEv",
+      "nid": "b7leY-LNVnI",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_13InGameCatalog2V57ProductEEEE5beginEv",
+      "nid": "zjqTmP0ST9A",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_13InGameCatalog2V59ContainerEEEE3endEv",
+      "nid": "WI0pT1qPXvI",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_13InGameCatalog2V59ContainerEEEE5beginEv",
+      "nid": "t4-KJiSB1hA",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_13InGameCatalog2V59ContainerEEEEixEm",
+      "nid": "H0XjNhflED4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V112JoinableUserEEEE8pushBackERKS8_",
+      "nid": "AUkgSifPWfE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V112JoinableUserEEEEC1EPNS2_10LibContextE",
+      "nid": "QLeIK5tpVUU",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V112JoinableUserEEEED1Ev",
+      "nid": "0mylfGVkteI",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V113PlayerSessionEEEEixEm",
+      "nid": "ZL5Znq6YsMY",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V120PlayerSessionForReadEEEE5beginEv",
+      "nid": "nQdampVIgR4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V120RequestPlayerSessionEEEE8pushBackERKS8_",
+      "nid": "7X3wSywr7+0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V120RequestPlayerSessionEEEEC1EPNS2_10LibContextE",
+      "nid": "dqGIvYiZAso",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V120RequestPlayerSessionEEEED1Ev",
+      "nid": "qtagaBorsKQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V124PlayerSessionPushContextEEEE8pushBackERKS8_",
+      "nid": "Jxct84SbIMg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V124PlayerSessionPushContextEEEEC1EPNS2_10LibContextE",
+      "nid": "tFe8YsdlKyc",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V124PlayerSessionPushContextEEEED1Ev",
+      "nid": "vFMRb8-gA7I",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V126RequestPlayerSessionPlayerEEEE8pushBackERKS8_",
+      "nid": "RzJr+LF13gI",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V126RequestPlayerSessionPlayerEEEEC1EPNS2_10LibContextE",
+      "nid": "fwYdaeuRgrM",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V126RequestPlayerSessionPlayerEEEED1Ev",
+      "nid": "FQowxL1xbgc",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V127ResponsePlayerSessionPlayerEEEE8copyFromERKS9_",
+      "nid": "ygy2JLWWbPI",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V127ResponsePlayerSessionPlayerEEEEC1EPNS2_10LibContextE",
+      "nid": "QheHm+DWOJU",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V127ResponsePlayerSessionPlayerEEEED1Ev",
+      "nid": "UjeNF9tN8z0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V127ResponsePlayerSessionPlayerEEEEixEm",
+      "nid": "UbsLM8E0PDI",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V130RequestPlayerSessionInvitationEEEE8pushBackERKS8_",
+      "nid": "oQrvxj3qQq8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V130RequestPlayerSessionInvitationEEEEC1EPNS2_10LibContextE",
+      "nid": "gPe3KXjSgig",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V130RequestPlayerSessionInvitationEEEED1Ev",
+      "nid": "tZ+2Lm15pOE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V132RequestCreatePlayerSessionPlayerEEEE8pushBackERKS8_",
+      "nid": "BoakAg6TFe4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V132RequestCreatePlayerSessionPlayerEEEEC1EPNS2_10LibContextE",
+      "nid": "6K1g7+ztzAs",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V132RequestCreatePlayerSessionPlayerEEEED1Ev",
+      "nid": "53DH+ZDnTP4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V136UsersPlayerSessionsInvitationForReadEEEE3endEv",
+      "nid": "-4qn5SHAuoQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V136UsersPlayerSessionsInvitationForReadEEEE5beginEv",
+      "nid": "88Rk5FV9QAs",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_17TitleCloudStorage2V110DataStatusEEEE3endEv",
+      "nid": "n1yCLMxpseQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_17TitleCloudStorage2V110DataStatusEEEE5beginEv",
+      "nid": "RvH9AZ5rCkQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_6StringEE3endEv",
+      "nid": "ZDwprZa5o10",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_6StringEE5beginEv",
+      "nid": "tjOYtZ4xFN0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_6StringEE8copyFromERKS5_",
+      "nid": "CfMn-JFeLmQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_6StringEE8pushBackERKS4_",
+      "nid": "iTIgJfwD0MY",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_6StringEEC1EPNS2_10LibContextE",
+      "nid": "7VnK1K-gAEU",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorINS2_6StringEED1Ev",
+      "nid": "83kEPQNWy8A",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorImE3endEv",
+      "nid": "Jv4JETvYzWg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common6VectorImE5beginEv",
+      "nid": "8eqBiqB72AE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_11UserProfile2V113BasicPresenceEEEEppEv",
+      "nid": "-t8eK4WxVIo",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_12Leaderboards2V15EntryEEEEppEv",
+      "nid": "WGKQ359T744",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_13InGameCatalog2V53SkuEEEEppEv",
+      "nid": "x9yyuiVwzEI",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_13InGameCatalog2V57ProductEEEEppEv",
+      "nid": "jfpSx14AeLc",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_13InGameCatalog2V59ContainerEEEEppEv",
+      "nid": "AgppqW8HRso",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_14SessionManager2V136UsersPlayerSessionsInvitationForReadEEEEppEv",
+      "nid": "SJBKLQrHqFw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_17TitleCloudStorage2V110DataStatusEEEEppEv",
+      "nid": "SR3BKonD8yk",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common8IteratorINS2_6StringEEppEv",
+      "nid": "4eahqnUQCls",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common8IteratorImEppEv",
+      "nid": "nXa0s7xnbsQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN3sce2Np9CppWebApi6Common9terminateERNS2_10LibContextE",
+      "nid": "oTirsxQpqj0",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi11UserProfile2V113BasicPresence12getAccountIdEv",
+      "nid": "Uc5eSnk3dvE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi11UserProfile2V113BasicPresence12getInContextEv",
+      "nid": "1bf+c7ebx0A",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi11UserProfile2V113BasicPresence15getOnlineStatusEv",
+      "nid": "xg9A5nBRkB0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V122GetRankingResponseBody22getLastUpdatedDateTimeEv",
+      "nid": "plUh+Axzi30",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V123RecordScoreResponseBody10getTmpRankEv",
+      "nid": "dcbbhKIZCDA",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V123RecordScoreResponseBody16getTmpSerialRankEv",
+      "nid": "39c+H8bSITU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody11getSortModeEv",
+      "nid": "G46aDJx5Qx8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody13getEntryLimitEv",
+      "nid": "5avJQwMJgsY",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody13getUpdateModeEv",
+      "nid": "YAtVGPtThx8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody13sortModeIsSetEv",
+      "nid": "bVJ-1ExjYco",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody15entryLimitIsSetEv",
+      "nid": "lfUiDOAsDoo",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody15updateModeIsSetEv",
+      "nid": "kRXjOtU-NTI",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody16getMaxScoreLimitEv",
+      "nid": "VhWD7ylSQu8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody16getMinScoreLimitEv",
+      "nid": "59ZoWcKl5v8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody18maxScoreLimitIsSetEv",
+      "nid": "DeFsyDHokeY",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody18minScoreLimitIsSetEv",
+      "nid": "01ZGV2VvBPU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody20getLargeDataNumLimitEv",
+      "nid": "cq65J5rCEwE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody21getLargeDataSizeLimitEv",
+      "nid": "KanXmz-cpzE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody22largeDataNumLimitIsSetEv",
+      "nid": "hQdNOFlDedY",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V130GetBoardDefinitionResponseBody23largeDataSizeLimitIsSetEv",
+      "nid": "cJ8md8EbvrI",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry10getCommentEv",
+      "nid": "u1wbCugKzYQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry11getObjectIdEv",
+      "nid": "X1SYe8TIGOc",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry11getOnlineIdEv",
+      "nid": "SUOUmSmPy5E",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry12commentIsSetEv",
+      "nid": "MkGUMQt7MBE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry12getAccountIdEv",
+      "nid": "Er5RROJCXYo",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry12getSmallDataEv",
+      "nid": "yzYn2Pwc2LM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry13getSerialRankEv",
+      "nid": "PmMi+EcpbpM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry13objectIdIsSetEv",
+      "nid": "h8K-pa8owbg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry14getHighestRankEv",
+      "nid": "x5fMr5644iE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry14smallDataIsSetEv",
+      "nid": "fJ9329XKPPA",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry20getHighestSerialRankEv",
+      "nid": "KnCMTTJWLdg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry7getPcIdEv",
+      "nid": "+3KiBw-4CQY",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry7getRankEv",
+      "nid": "zk7Es711EV8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V15Entry8getScoreEv",
+      "nid": "+631th1Z4DU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi12Leaderboards2V19RecordApi26RecordScoreResponseHeaders24getXPsnAtomicOperationIdEv",
+      "nid": "OlMxxnDBfEg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V512ContainerApi23ParameterToGetContainer13isInitializedEv",
+      "nid": "eruduJ0KrT0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V53Sku10labelIsSetEv",
+      "nid": "3wWqYNGFofg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V53Sku10priceIsSetEv",
+      "nid": "6YlaN3ZykV4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V53Sku15getDisplayPriceEv",
+      "nid": "CEx0bY57b0E",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V53Sku16getOriginalPriceEv",
+      "nid": "U6kDY4BL1L4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V53Sku17displayPriceIsSetEv",
+      "nid": "nZjWJO68oxU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V53Sku18originalPriceIsSetEv",
+      "nid": "HIuzOncLbiw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V53Sku23getDisplayOriginalPriceEv",
+      "nid": "R3e71gr1u3E",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V53Sku25displayOriginalPriceIsSetEv",
+      "nid": "e89yNGKV4og",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V53Sku8getLabelEv",
+      "nid": "g0cCJmozmnQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V53Sku8getPriceEv",
+      "nid": "7QVVkqjdGc0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V57Product14getDescriptionEv",
+      "nid": "JlJBrfJgt8E",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V57Product14getDisplayNameEv",
+      "nid": "SNT3Zpc+RwQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V57Product14getReleaseDateEv",
+      "nid": "KFxpWlaQ6tI",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V57Product16releaseDateIsSetEv",
+      "nid": "j1rSbhWbnmQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V57Product5getIdEv",
+      "nid": "ymJUCSROIpI",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V57Product7getTypeEv",
+      "nid": "qf2I9BlKXis",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V57Product8getLabelEv",
+      "nid": "RbvteD35X-8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi13InGameCatalog2V57Product9skusIsSetEv",
+      "nid": "kBxwE4YfbIM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V110FromMember11getOnlineIdEv",
+      "nid": "0pwb8fOBwpQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V113PlayerSession12getSessionIdEv",
+      "nid": "vjw99oC+SaU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V113PlayerSession9getMemberEv",
+      "nid": "fmtiiQmMB7k",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V118LeaderWithOnlineId12getAccountIdEv",
+      "nid": "sW6h+-un80k",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V120PlayerSessionForRead14getCustomData1Ev",
+      "nid": "HjVPfi0omIY",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V120PlayerSessionForRead14getCustomData2Ev",
+      "nid": "zDTxL-Jz1iM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V120PlayerSessionForRead16customData1IsSetEv",
+      "nid": "Ih1gA1ynWjk",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V120PlayerSessionForRead16customData2IsSetEv",
+      "nid": "C1-M65KwtjU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V120PlayerSessionForRead9getLeaderEv",
+      "nid": "JVV9P5rGzk8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V127ResponsePlayerSessionPlayer11getPlatformEv",
+      "nid": "GR+C-qDzxRs",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V127ResponsePlayerSessionPlayer12getAccountIdEv",
+      "nid": "zYTCgEvUBxU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V136UsersPlayerSessionsInvitationForRead12getSessionIdEv",
+      "nid": "HoXiuWuma4I",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V136UsersPlayerSessionsInvitationForRead14sessionIdIsSetEv",
+      "nid": "VkqilTtSq7U",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V136UsersPlayerSessionsInvitationForRead17invitationIdIsSetEv",
+      "nid": "WuQAWT8kYek",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V136UsersPlayerSessionsInvitationForRead22receivedTimestampIsSetEv",
+      "nid": "q9Ac0wYBOgQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V136UsersPlayerSessionsInvitationForRead7getFromEv",
+      "nid": "IBNzGcdOddw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V136UsersPlayerSessionsInvitationForRead9fromIsSetEv",
+      "nid": "fDex2lyDL+I",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi14SessionManager2V154GetUsersAccountIdPlayerSessionsInvitationsResponseBody16invitationsIsSetEv",
+      "nid": "YZlVMCFs-Dw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi15ProfanityFilter2V223FilterProfanityResponse10getMessageEv",
+      "nid": "9OV-NYh2TAs",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi17TitleCloudStorage2V110DataStatus11getDataSizeEv",
+      "nid": "PsX657reZeo",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi17TitleCloudStorage2V110DataStatus11getObjectIdEv",
+      "nid": "ZwjmbSr4Cxc",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi17TitleCloudStorage2V110DataStatus8getOwnerEv",
+      "nid": "fG06a38iao8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi17TitleCloudStorage2V110DataStatus9getSlotIdEv",
+      "nid": "XCtf+23QT0k",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi17TitleCloudStorage2V132GetMultiDataStatusesResponseBody23getTotalDataStatusCountEv",
+      "nid": "Is+nI7Hq9jU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi17TitleCloudStorage2V15Owner12getAccountIdEv",
+      "nid": "8dWkWjo5EeE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi30CommunicationRestrictionStatus2V338CommunicationRestrictionStatusResponse13getRestrictedEv",
+      "nid": "+6Xo+7GdUGM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_12Leaderboards2V122GetRankingResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE11getResponseERS8_",
+      "nid": "v+tXF9ppYiQ",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_12Leaderboards2V123RecordScoreResponseBodyEEENS4_INS6_9RecordApi26RecordScoreResponseHeadersEEEE11getResponseERS8_",
+      "nid": "-QZoGsAmbh8",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_12Leaderboards2V130GetBoardDefinitionResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE11getResponseERS8_",
+      "nid": "o6kFQQ6TGg4",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V129GetPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE11getResponseERS8_",
+      "nid": "g8VFzqnRHX8",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V129GetPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE11hasResponseEv",
+      "nid": "20t9bUGiHvM",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V130PostPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE11getResponseERS8_",
+      "nid": "fJuX5gEyZwU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V130PostPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE11hasResponseEv",
+      "nid": "+9lfPXLJmhs",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V150PostPlayerSessionsSessionIdInvitationsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE11getResponseERS8_",
+      "nid": "SY+ctdf-emY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V150PostPlayerSessionsSessionIdInvitationsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE11hasResponseEv",
+      "nid": "dZE2wRQ69Mk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V152PostPlayerSessionsSessionIdMemberPlayersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE11getResponseERS8_",
+      "nid": "26wN8Yjf9Fk",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V152PostPlayerSessionsSessionIdMemberPlayersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE11hasResponseEv",
+      "nid": "UVu6w+J1FEY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V154GetUsersAccountIdPlayerSessionsInvitationsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE11getResponseERS8_",
+      "nid": "SR76Quk0L9Y",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_14SessionManager2V161PostPlayerSessionsSessionIdJoinableSpecifiedUsersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE11hasResponseEv",
+      "nid": "d142rQ9Ks4c",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS1_17TitleCloudStorage2V132GetMultiDataStatusesResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE11getResponseERS8_",
+      "nid": "0f5+eBcgB14",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS2_6VectorINS4_INS1_13InGameCatalog2V59ContainerEEEEEEENS4_INS2_18ResponseHeaderBaseEEEE11getResponseERSB_",
+      "nid": "IbWx007Acn4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_12IntrusivePtrINS2_6VectorINS4_INS1_13InGameCatalog2V59ContainerEEEEEEENS4_INS2_18ResponseHeaderBaseEEEE11hasResponseEv",
+      "nid": "4M+tXW+N0+M",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_15DefaultResponseENS2_12IntrusivePtrINS2_18ResponseHeaderBaseEEEE11getResponseERS4_",
+      "nid": "rpmRha1Eq9s",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common11TransactionINS2_15DefaultResponseENS2_12IntrusivePtrINS2_18ResponseHeaderBaseEEEE11hasResponseEv",
+      "nid": "NTd-bNSZ-WY",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_11UserProfile2V113BasicPresenceEEptEv",
+      "nid": "ZUn0ZQBDyVQ",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_11UserProfile2V118GetFriendsResponseEEptEv",
+      "nid": "Z4nTIsAp+QM",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_11UserProfile2V124GetBlockingUsersResponseEEptEv",
+      "nid": "vpkkVwCPaxE",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_11UserProfile2V125GetBasicPresencesResponseEEptEv",
+      "nid": "NG-lbm2BAKU",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V121GetRankingRequestBodyEEptEv",
+      "nid": "zOA2tHzOY8I",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V122GetRankingResponseBodyEEptEv",
+      "nid": "0blWarRALu4",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V122RecordScoreRequestBodyEEptEv",
+      "nid": "vURZNQ8+cP0",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V123RecordScoreResponseBodyEEptEv",
+      "nid": "Sdfm7eE3q80",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V130GetBoardDefinitionResponseBodyEEptEv",
+      "nid": "YHYfyQXdOLc",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V14UserEEptEv",
+      "nid": "1JV7Mv590Cc",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V15EntryEEptEv",
+      "nid": "yD3I2CRcKmw",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_12Leaderboards2V19RecordApi26RecordScoreResponseHeadersEEptEv",
+      "nid": "qGwknHP6ohM",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_13InGameCatalog2V53SkuEEptEv",
+      "nid": "THP8MYBpfG4",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_13InGameCatalog2V57ProductEEptEv",
+      "nid": "UHQxE3HhTXA",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_13InGameCatalog2V59ContainerEEptEv",
+      "nid": "mkWsKEh0h0o",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V110FromMemberEEptEv",
+      "nid": "EBjE6sitQCI",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V113PlayerSessionEE3getEv",
+      "nid": "aC257sSzems",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V113PlayerSessionEEptEv",
+      "nid": "5RSKjWE2avA",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V118LeaderWithOnlineIdEEptEv",
+      "nid": "0i331fsne3g",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V120PlayerSessionForReadEEptEv",
+      "nid": "uJH0UZFEMRg",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V120RequestPlayerSessionEEptEv",
+      "nid": "+htBBgi85YA",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V126RequestPlayerSessionPlayerEEptEv",
+      "nid": "2V-RL56o5cU",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V127ResponsePlayerSessionPlayerEEptEv",
+      "nid": "M5s0JTah4qM",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V129GetPlayerSessionsResponseBodyEEptEv",
+      "nid": "DsjBETa6xGg",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V130PostPlayerSessionsResponseBodyEEptEv",
+      "nid": "kI0wgtzMZC0",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V133ResponsePlayerSessionMemberPlayerEEptEv",
+      "nid": "fsvOBG-Ufug",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V136UsersPlayerSessionsInvitationForReadEEptEv",
+      "nid": "vJrnbutABoE",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V139PatchPlayerSessionsSessionIdRequestBodyEEptEv",
+      "nid": "Xzo2Nq9GflA",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V149PostPlayerSessionsSessionIdInvitationsRequestBodyEEptEv",
+      "nid": "PqRoVXyPIWA",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_14SessionManager2V154GetUsersAccountIdPlayerSessionsInvitationsResponseBodyEEptEv",
+      "nid": "PzLUwQXc7VM",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_15ProfanityFilter2V223FilterProfanityResponseEEptEv",
+      "nid": "enuMll33T24",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_17TitleCloudStorage2V110DataStatusEEptEv",
+      "nid": "TgsJjQqp+2k",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_17TitleCloudStorage2V132GetMultiDataStatusesResponseBodyEEptEv",
+      "nid": "pSpO3hPNv64",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_17TitleCloudStorage2V15OwnerEEptEv",
+      "nid": "mCsV7izOkjY",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS1_30CommunicationRestrictionStatus2V338CommunicationRestrictionStatusResponseEEptEv",
+      "nid": "KJTzMXmYY+U",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_18ResponseHeaderBaseEE3getEv",
+      "nid": "czPHgWBiTS4",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_18ResponseHeaderBaseEEptEv",
+      "nid": "D4Lk1XQiiPQ",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6BinaryEEptEv",
+      "nid": "LTXWL-kuxGM",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6StringEE3getEv",
+      "nid": "GOKrmbjnHY0",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6StringEEptEv",
+      "nid": "rYWJ3CJ8+6w",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS2_6StringEEEE3getEv",
+      "nid": "wd3t5dSrf+Y",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS2_6StringEEEEptEv",
+      "nid": "SZpEJeI60T0",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_11UserProfile2V113BasicPresenceEEEEEEdeEv",
+      "nid": "mxFJwBFDCvg",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_11UserProfile2V113BasicPresenceEEEEEEptEv",
+      "nid": "gijCqBFE3p0",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_12Leaderboards2V15EntryEEEEEEdeEv",
+      "nid": "X2lVKLlddME",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_13InGameCatalog2V53SkuEEEEEEdeEv",
+      "nid": "wDK7QHoNjsY",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_13InGameCatalog2V53SkuEEEEEEptEv",
+      "nid": "mBagn+lW-iM",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_13InGameCatalog2V57ProductEEEEEEdeEv",
+      "nid": "QvdMLAFijq8",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_13InGameCatalog2V57ProductEEEEEEptEv",
+      "nid": "xwy1I52dE8o",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_13InGameCatalog2V59ContainerEEEEEEdeEv",
+      "nid": "OK+Ggpve7B0",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_13InGameCatalog2V59ContainerEEEEEEptEv",
+      "nid": "FlagLhjAEmc",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_14SessionManager2V113PlayerSessionEEEEEE3getEv",
+      "nid": "PVyvJB4PcHg",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_14SessionManager2V113PlayerSessionEEEEEEdeEv",
+      "nid": "NTELx+nQzhw",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_14SessionManager2V120PlayerSessionForReadEEEEEEptEv",
+      "nid": "FBePYJidCUU",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_14SessionManager2V127ResponsePlayerSessionPlayerEEEEEE3getEv",
+      "nid": "Q+ibG3L3mRM",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_14SessionManager2V136UsersPlayerSessionsInvitationForReadEEEEEEdeEv",
+      "nid": "9p16KzQjIf4",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorINS3_INS1_17TitleCloudStorage2V110DataStatusEEEEEEdeEv",
+      "nid": "1iq5Jtw4jVs",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorImEEE3getEv",
+      "nid": "Gc3f8YcDNrE",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorImEEEdeEv",
+      "nid": "1fyEy3F+G+g",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common12IntrusivePtrINS2_6VectorImEEEptEv",
+      "nid": "VTZ+4rVcoJM",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_11UserProfile2V118GetFriendsResponseEEENS4_INS2_18ResponseHeaderBaseEEEE18getResponseHeadersERSA_",
+      "nid": "4W6b6so-L-E",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_11UserProfile2V124GetBlockingUsersResponseEEENS4_INS2_18ResponseHeaderBaseEEEE18getResponseHeadersERSA_",
+      "nid": "9e1nWpOT4lg",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_11UserProfile2V125GetBasicPresencesResponseEEENS4_INS2_18ResponseHeaderBaseEEEE18getResponseHeadersERSA_",
+      "nid": "c6K0pwo3+40",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_12Leaderboards2V123RecordScoreResponseBodyEEENS4_INS6_9RecordApi26RecordScoreResponseHeadersEEEE18getResponseHeadersERSB_",
+      "nid": "QxB6IX2hOYg",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V129GetPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5getIdEv",
+      "nid": "TnTAxiRWceI",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V130PostPlayerSessionsResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5getIdEv",
+      "nid": "iG+yTJHAgeo",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V152PostPlayerSessionsSessionIdMemberPlayersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5getIdEv",
+      "nid": "wPRE7cD-bK8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_14SessionManager2V161PostPlayerSessionsSessionIdJoinableSpecifiedUsersResponseBodyEEENS4_INS2_18ResponseHeaderBaseEEEE5getIdEv",
+      "nid": "hEemSMOoQtE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_15ProfanityFilter2V223FilterProfanityResponseEEENS4_INS2_18ResponseHeaderBaseEEEE18getResponseHeadersERSA_",
+      "nid": "iXIAYgVGzKU",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common15TransactionBaseINS2_12IntrusivePtrINS1_30CommunicationRestrictionStatus2V338CommunicationRestrictionStatusResponseEEENS4_INS2_18ResponseHeaderBaseEEEE18getResponseHeadersERSA_",
+      "nid": "mGf123FoKQg",
+      "state": "inert"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common15TransactionBaseINS2_15DefaultResponseENS2_12IntrusivePtrINS2_18ResponseHeaderBaseEEEE5getIdEv",
+      "nid": "cqB6QQt+iHw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common6Binary4sizeEv",
+      "nid": "PGbdeeOVRRU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common6Binary9getBinaryEv",
+      "nid": "g9FmpQw2M-U",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common6String5c_strEv",
+      "nid": "dVCh5JiPsSY",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common6String5emptyEv",
+      "nid": "uhZXEKm3lkk",
+      "state": "implemented"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_11UserProfile2V113BasicPresenceEEEE4sizeEv",
+      "nid": "bvfjdByaA6Q",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_13InGameCatalog2V53SkuEEEE4sizeEv",
+      "nid": "12wY179+CE8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_13InGameCatalog2V57ProductEEEE5emptyEv",
+      "nid": "I4YvCYkhIqM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_13InGameCatalog2V59ContainerEEEE4sizeEv",
+      "nid": "TSoQhYKyq5g",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_13InGameCatalog2V59ContainerEEEE5emptyEv",
+      "nid": "zlS+hnNf1vE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V120PlayerSessionForReadEEEE5emptyEv",
+      "nid": "K5jUzaoyT60",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common6VectorINS2_12IntrusivePtrINS1_14SessionManager2V127ResponsePlayerSessionPlayerEEEE4sizeEv",
+      "nid": "kNiWFq7jWQ0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common6VectorImE4sizeEv",
+      "nid": "vzKNY2nY7Jk",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_11UserProfile2V113BasicPresenceEEEEdeEv",
+      "nid": "edOjjRsxL1o",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_11UserProfile2V113BasicPresenceEEEEneERKS9_",
+      "nid": "KpTVnt-DHo8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_12Leaderboards2V15EntryEEEEdeEv",
+      "nid": "qnvk932UxYg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_12Leaderboards2V15EntryEEEEneERKS9_",
+      "nid": "JYa01KuMqhA",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_13InGameCatalog2V53SkuEEEEdeEv",
+      "nid": "b5FjZYVE1n8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_13InGameCatalog2V53SkuEEEEneERKS9_",
+      "nid": "Oc72WHTKrL4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_13InGameCatalog2V57ProductEEEEdeEv",
+      "nid": "cqOxjL0ZfFA",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_13InGameCatalog2V57ProductEEEEneERKS9_",
+      "nid": "ZN-glpk0Rug",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_13InGameCatalog2V59ContainerEEEEdeEv",
+      "nid": "aAhEBX7gDUE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_13InGameCatalog2V59ContainerEEEEneERKS9_",
+      "nid": "Ijml4LILSRE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_14SessionManager2V120PlayerSessionForReadEEEEdeEv",
+      "nid": "-ml-r3BIltk",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_14SessionManager2V136UsersPlayerSessionsInvitationForReadEEEEdeEv",
+      "nid": "awTPhlC4368",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_14SessionManager2V136UsersPlayerSessionsInvitationForReadEEEEneERKS9_",
+      "nid": "jYAXNHlcQAc",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_17TitleCloudStorage2V110DataStatusEEEEdeEv",
+      "nid": "epwr+cBCIFs",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_12IntrusivePtrINS1_17TitleCloudStorage2V110DataStatusEEEEneERKS9_",
+      "nid": "+gSMGXHgrPU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_6StringEEdeEv",
+      "nid": "ymTIKjlVMtc",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorINS2_6StringEEneERKS5_",
+      "nid": "K89tpB2jJ4g",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorImEdeEv",
+      "nid": "4rpx-P+kdJQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK3sce2Np9CppWebApi6Common8IteratorImEneERKS4_",
+      "nid": "ZiJqTZVDuPM",
+      "state": "stub"
+    }
+  ]
+}

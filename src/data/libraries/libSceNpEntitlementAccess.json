@@ -1,0 +1,137 @@
+{
+  "name": "libSceNpEntitlementAccess",
+  "label": "NpEntitlementAccess",
+  "category": "Network and services",
+  "implemented": 7,
+  "inert": 14,
+  "stub": 4,
+  "total": 25,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpEntitlementAccessAbortRequest",
+      "nid": "HFcQl9TMcFQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpEntitlementAccessDeleteRequest",
+      "nid": "Z0eQj8m7XA8",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpEntitlementAccessGenerateTransactionId",
+      "nid": "IQtb-TaIjSM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpEntitlementAccessGetAddcontEntitlementInfo",
+      "nid": "xddD23+8TfQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpEntitlementAccessGetAddcontEntitlementInfoIndividual",
+      "nid": "3Cy40mvJFyE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpEntitlementAccessGetAddcontEntitlementInfoList",
+      "nid": "TFyU+KFBv54",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpEntitlementAccessGetEntitlementKey",
+      "nid": "5LiMEPuW0DQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpEntitlementAccessGetGameTrialsFlag",
+      "nid": "y7JD1gfwyfA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpEntitlementAccessGetPftFlag",
+      "nid": "eDXKe9FndlE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpEntitlementAccessGetSkuFlag",
+      "nid": "lPDO62PpJIA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpEntitlementAccessInitialize",
+      "nid": "jO8DM8oyego",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpEntitlementAccessPollConsumableEntitlementInfo",
+      "nid": "41q4BQrLOyM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpEntitlementAccessPollConsumeEntitlement",
+      "nid": "69u+XqsoNd0",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpEntitlementAccessPollServiceEntitlementInfo",
+      "nid": "ShGBFuoSSsQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpEntitlementAccessPollServiceEntitlementInfoList",
+      "nid": "aFv8qms6XTM",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpEntitlementAccessPollUnifiedEntitlementInfo",
+      "nid": "M4XlLFnzQaQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpEntitlementAccessPollUnifiedEntitlementInfoList",
+      "nid": "nAEqawEZG5s",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpEntitlementAccessRequestConsumableEntitlementInfo",
+      "nid": "RU6hHrrzpfc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpEntitlementAccessRequestConsumeEntitlement",
+      "nid": "1c2E1ghXt90",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpEntitlementAccessRequestConsumeServiceEntitlement",
+      "nid": "Aqae0TjLvQU",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpEntitlementAccessRequestConsumeUnifiedEntitlement",
+      "nid": "eOxGbG3sPb0",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpEntitlementAccessRequestServiceEntitlementInfo",
+      "nid": "M8icY9OwkKs",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpEntitlementAccessRequestServiceEntitlementInfoList",
+      "nid": "brbRxzr7qyI",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpEntitlementAccessRequestUnifiedEntitlementInfo",
+      "nid": "jautSRs4OdQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpEntitlementAccessRequestUnifiedEntitlementInfoList",
+      "nid": "uCZf2L27th8",
+      "state": "inert"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "libSceNpSnsYouTubeDialog",
+  "label": "NpSnsYouTubeDialog",
+  "category": "Network and services",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 7,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpSnsYouTubeDialogClose",
+      "nid": "4H0h0tPjIk0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsYouTubeDialogGetResult",
+      "nid": "XvhwS43SKN8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsYouTubeDialogGetStatus",
+      "nid": "sieAbhcD2Bw",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsYouTubeDialogInitialize",
+      "nid": "HnIuDIXu7Ko",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsYouTubeDialogOpen",
+      "nid": "mjxFUp94LL4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsYouTubeDialogTerminate",
+      "nid": "AtCnBMTgdoo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSnsYouTubeDialogUpdateStatus",
+      "nid": "klUhQY5QH70",
+      "state": "stub"
+    }
+  ]
+}

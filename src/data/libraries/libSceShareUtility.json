@@ -1,0 +1,122 @@
+{
+  "name": "libSceShareUtility",
+  "label": "ShareUtility",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 22,
+  "total": 22,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceShareUtilityAdvanceFromFileWithContentIdList",
+      "nid": "6hlAoEaRNmI",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceFromFileWithTitleIdList",
+      "nid": "4Yu-wQ-xrNs",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceGetServiceInfo",
+      "nid": "BgnrThNspOQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceInitialize",
+      "nid": "u4bCGkqhOB4",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceQueryServiceInfo",
+      "nid": "wVsAb+Zyr1Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceQueryServiceInfoA",
+      "nid": "r8dfx9oS3us",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceResetPlayingContent",
+      "nid": "sr095NLKaAc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceSetPlayingContent",
+      "nid": "7J9IYIejSDs",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceSetUploadContentData",
+      "nid": "karnJhakdKg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceTerminate",
+      "nid": "xfB04bSjrZY",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceValidateContents",
+      "nid": "xuLuaJ4Ywlg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceWakeUpShareMenu",
+      "nid": "1TFyHtLzdvg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceWakeUpShareMenuBroadcast",
+      "nid": "tyYRZwL4rog",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceWakeUpShareMenuDefault",
+      "nid": "wcxz4F94s6k",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityAdvanceWakeUpShareMenuForShareContent",
+      "nid": "PtFg1zs3XQA",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityInitialize",
+      "nid": "Jlv-lYxEnvM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityInitializeEx2",
+      "nid": "j7DlalBzHh8",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityOpenShareMenu",
+      "nid": "Lqp4EDIRXSo",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityOpenShareMenuBroadcast",
+      "nid": "-4kr-v21vjc",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityOpenShareMenuDefault",
+      "nid": "8hZ2EEl2Tto",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityOpenShareMenuForShareContent",
+      "nid": "qG-Qrqsc5Uk",
+      "state": "stub"
+    },
+    {
+      "name": "sceShareUtilityTerminate",
+      "nid": "DUWhxkyVPj4",
+      "state": "stub"
+    }
+  ]
+}

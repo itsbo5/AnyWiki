@@ -1,0 +1,162 @@
+{
+  "name": "libSceVrTracker",
+  "label": "VrTracker",
+  "category": "System utilities",
+  "implemented": 9,
+  "inert": 0,
+  "stub": 21,
+  "total": 30,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVrTrackerCpuPopMarker",
+      "nid": "sBkAqyF5Gns",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerCpuProcess",
+      "nid": "5IFOAYv-62g",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerCpuPushMarker",
+      "nid": "rvCywCbc7Pk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerGetLiveCaptureId",
+      "nid": "lm6T1Ur6JRk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerGetPlayAreaWarningInfo",
+      "nid": "zvyKP0Z3UvU",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerGetResult",
+      "nid": "76OBvrrQXUc",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerGetTime",
+      "nid": "XoeWzXlrnMw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerGpuSubmit",
+      "nid": "TVegDMLaBB8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerGpuWait",
+      "nid": "gkGuO9dd57M",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerGpuWaitAndCpuProcess",
+      "nid": "ARhgpXvwoR0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrTrackerInit",
+      "nid": "QkRl7pART9M",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerNotifyEndOfCpuProcess",
+      "nid": "VItTwN8DmS8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerQueryMemory",
+      "nid": "K7yhYrsIBPc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrTrackerRecalibrate",
+      "nid": "EUCaQtXXYNI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrTrackerRegisterDevice",
+      "nid": "sIh8GwcevaQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrTrackerRegisterDevice2",
+      "nid": "24kDA+A0Ox0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrTrackerRegisterDeviceInternal",
+      "nid": "ufexf4aNiwg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrTrackerResetAll",
+      "nid": "CtWUbFgmq+I",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerResetOrientationRelative",
+      "nid": "E0P0sN-wy+4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerSaveInternalBuffers",
+      "nid": "bDGZVTwwZ1A",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerSetDeviceRejection",
+      "nid": "jGqEkPy0iLU",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerSetDurationUntilStatusNotTracking",
+      "nid": "qBjnR0HtMYI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrTrackerSetExtendedMode",
+      "nid": "NhPkY3V8E+8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerSetLEDBrightness",
+      "nid": "vpsLLotiSUg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerSetRestingMode",
+      "nid": "lgWSHQ8p4i4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerStartLiveCapture",
+      "nid": "qa1+CeXKDPc",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerStopLiveCapture",
+      "nid": "3YCwwpHkHIg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVrTrackerTerm",
+      "nid": "IBv4P3q1pQ0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrTrackerUnregisterDevice",
+      "nid": "Q8skQqEwn5c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVrTrackerUpdateMotionSensorData",
+      "nid": "9fvHMUbsom4",
+      "state": "stub"
+    }
+  ]
+}

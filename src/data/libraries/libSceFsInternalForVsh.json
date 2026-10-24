@@ -1,0 +1,892 @@
+{
+  "name": "libSceFsInternalForVsh",
+  "label": "FsInternalForVsh",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 176,
+  "total": 176,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceBdSchedCancelBackgroundCopyRequest",
+      "nid": "jjf1gXgilqg",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedCancelPrioritizedBackgroundCopyRequest",
+      "nid": "BmuZaiyqkkI",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedConfigure",
+      "nid": "Nh8pdKLdMJY",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedConfigure2",
+      "nid": "ykUZXoqozJc",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedDeconfigure",
+      "nid": "gThJrbt1Ojw",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedGetBackgroundCopyRequest",
+      "nid": "1H-+W4Y2Erg",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedGetExtentMap",
+      "nid": "A+rpKNvFumU",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedGetPrioritizedBackgroundCopyRequest",
+      "nid": "FgkKjJr06g0",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedGetState",
+      "nid": "LkTU+9lx+Bg",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedSetBackgroundCopyRequest",
+      "nid": "aXujNR3MorI",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedSetDiscIdentity",
+      "nid": "JHIz24zeqF0",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedSetPrioritizedBackgroundCopyRequest",
+      "nid": "K00pOnB6Fwc",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedStartGame",
+      "nid": "Xk2hz9HAdYQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedStartRipping",
+      "nid": "nPlr4B+qS4A",
+      "state": "stub"
+    },
+    {
+      "name": "sceBdSchedStopScheduling",
+      "nid": "keKRlaxeK9g",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsBfsCheckCleanFlag",
+      "nid": "vffCFgX7T3M",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsBindApplication",
+      "nid": "8fSxAYQGBbE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsBindPackages",
+      "nid": "QI72hdEHB90",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsCheckFormat",
+      "nid": "OvTzQTvO2eA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsCheckSingleUser",
+      "nid": "QnVUfOkyRDw",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsCreateExfatPartition",
+      "nid": "GTqfUUQLKa0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsCreatePfsSaveDataImage",
+      "nid": "oZf2EW1xS70",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsCreatePfsTrophyDataImage",
+      "nid": "fU5fcZt5QEg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsCreatePprPfsTrophyDataImage",
+      "nid": "A1tqSIQvZhs",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDeviceAlignedPread",
+      "nid": "1b2I4GGnkw4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDeviceAlignedPwrite",
+      "nid": "l6aA787njwE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDevpfsA53IocGetBuildMetadataStatus",
+      "nid": "WfyPFjoj30k",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDevpfsCancelWaitEvent",
+      "nid": "31YoCS9Clds",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDevpfsCreateForVSH",
+      "nid": "TUpiRsYKtCo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDevpfsDeleteForVSH",
+      "nid": "nclPS1DQcE8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDevpfsDeregisterEvent",
+      "nid": "P1yolimtkbU",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDevpfsEventComplete",
+      "nid": "KFZg2gzePls",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDevpfsEventResponseComplete",
+      "nid": "toRrPoaJkAk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDevpfsFetchMetaEntry",
+      "nid": "thFvRaPMBeg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDevpfsFsck",
+      "nid": "93X4S1mT3y0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDevpfsInitFetchMetaEntryCtx",
+      "nid": "4fKzISZFxaE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDevpfsMountForFSMP",
+      "nid": "cIR3BZ1uUQc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDevpfsRegisterEvent",
+      "nid": "Jwyzasrp8kg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDevpfsWaitEvent",
+      "nid": "HYFgF7xrf8M",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDrfsRegisterSocket",
+      "nid": "jzVKlW6HHmU",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsDrfsResumeSocket",
+      "nid": "fs3u2NwzKL4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsErriCtl",
+      "nid": "iLxIuu5Xs2A",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsErriGetState",
+      "nid": "-1whCDzGK1E",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsExfatMkfsExternalHdd",
+      "nid": "QP4WA9hEAtM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsExfatfsMkfs",
+      "nid": "79EsKMqL-jQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsExtUSBSchedDestroy",
+      "nid": "sMSsHlwlg74",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsExtUSBSchedInsert",
+      "nid": "kIGZ7Erl4GQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsExtUSBSchedInsertForHDD",
+      "nid": "XqVrFxjoXKo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsExternalStorageDeconfigure",
+      "nid": "gxvn6JGDhBw",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsExternalStorageGetRawDevice",
+      "nid": "n-0NbCX8yFc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsExternalStorageInitialize",
+      "nid": "h4i3gkTA9EU",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsExternalStorageVerifyMetadata",
+      "nid": "y9cCHa8L64A",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsGetAttribute",
+      "nid": "kK6psDxUQmI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsGetClusterStatistics",
+      "nid": "tcUPZOxXdiE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsGetDeviceSectorsize",
+      "nid": "oOq3dgLo2N8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsGetFsMetadata",
+      "nid": "kU+kKr5B-Ik",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsGetFsMetadataWithProgress",
+      "nid": "jQgukUzE180",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsGetSmrInfo",
+      "nid": "8aT8Um9YvLE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsGschedCtl",
+      "nid": "vqxvSBNXwkA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsISSchedConfigCurrentThread",
+      "nid": "W0VIYdCm9lY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsISSchedConfigDescriptor",
+      "nid": "a6HOJ0hpGiY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsISSchedConfigThread",
+      "nid": "g5XaIbYcJw0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsISSchedMapStat",
+      "nid": "C6A8S-Hio2M",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsISSchedResultToPriority",
+      "nid": "xqtJm0VrtY8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsISSchedResultToSlot",
+      "nid": "fZFnCKpGxv0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsISSchedStatCurrentThread",
+      "nid": "OtDp-kpea2Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsISSchedStatDescriptor",
+      "nid": "GufC+PBbxxA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsISSchedStatThread",
+      "nid": "wJ-RDAi-Owc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsISSchedUnmapStat",
+      "nid": "TL-B6uOba1A",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitCreatePfsSaveDataOpt",
+      "nid": "ccVvHF4wZME",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitCreatePfsTrophyDataOpt",
+      "nid": "5RQCvNleU3I",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitMountDownloadDataOpt",
+      "nid": "AoSlid9sAJE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitMountGamePkgOpt",
+      "nid": "9MJD0zGyRgA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitMountLwfsCompatOpt",
+      "nid": "xSy6mntarUQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitMountLwfsOpt",
+      "nid": "tfqGvR6HbC4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitMountPprPkgOpt",
+      "nid": "xiBhgxFf7d8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitMountSaveDataOpt",
+      "nid": "+mPswO7rxKs",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitMountTrophyDataOpt",
+      "nid": "NoxZswTJHP0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitUmountDownloadDataOpt",
+      "nid": "Qnu2x6d29lo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitUmountGamePkgOpt",
+      "nid": "Gp+41FTXklM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitUmountLwfsCompatOpt",
+      "nid": "pS-OPJQtq5s",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitUmountLwfsOpt",
+      "nid": "rw35hzXVZgU",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitUmountPprPkgOpt",
+      "nid": "nhLGA3dYkpk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitUmountSaveDataOpt",
+      "nid": "udWWfVZ5cPg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitUmountTrophyDataOpt",
+      "nid": "bA31MLNLtWQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsInitWorkspaceFileMetadataParam",
+      "nid": "e71SZnZyD8Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsLvdAttach",
+      "nid": "K7JXQQsJTS8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsLvdAttach2",
+      "nid": "fzgTb4rmF8o",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsLvdAttachPartiallyCryptedDownloadData",
+      "nid": "WqhrteSfDVI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsLvdAttachSingleDefaultImage",
+      "nid": "hKiCcL4h8SQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsLvdAttachSingleImage",
+      "nid": "pUQnXa5Mp9E",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsLvdDetach",
+      "nid": "uXPlVNPQipM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsLvdDisableLayer",
+      "nid": "-BdMRUAeZRo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsLvdEnableLayer",
+      "nid": "hQpmBwrgD4w",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsLvdSetDiscIdentity",
+      "nid": "mJF-VraqPGw",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsLvdWaitResumed",
+      "nid": "eyPajExpoOc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsMlfsMount",
+      "nid": "3Zr8O3Bnqco",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsMlfsMountWithFlags",
+      "nid": "5jsZ5DrpJYc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsMlfsUmount",
+      "nid": "hxMhmz8IDCI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsMountDownloadData",
+      "nid": "bb5sduKHOTQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsMountGamePkg",
+      "nid": "FtGP5aXKFQU",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsMountLwfs",
+      "nid": "rmh6gdjzO-4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsMountLwfsCompat",
+      "nid": "9Hr89GfRrfA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsMountPartiallyCryptedDownloadData",
+      "nid": "pq8SV3vBKGE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsMountPprPkg",
+      "nid": "MiUxeleLYUc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsMountSaveData",
+      "nid": "c7YjLnWxw-4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsMountTrophyData",
+      "nid": "k0Kog-TlHYg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsNsfsAddOverlayToNamespace",
+      "nid": "DDKghiBPZNg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsNsfsMountWithFlags",
+      "nid": "XBppavaJGS0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsNsfsSetGlobalExclude",
+      "nid": "IOscbdNr5dM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsNsfsUmount",
+      "nid": "Wp1GIhLA9uA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsPartitionTrim",
+      "nid": "F3Cug8WEm8k",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsReserveCluster",
+      "nid": "xwB67z-O5-o",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsSetAttribute",
+      "nid": "SFz5prdeR54",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsSetClusterCacheSize",
+      "nid": "Kh-t1fmxMnE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsSetFileReservedTotal",
+      "nid": "ofMR3p9i+Pg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsSetSystemReserveSize",
+      "nid": "AGLEZbbzOLo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsSetWorkspaceFileHash",
+      "nid": "An7fJiCJu2s",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsStatWorkspace",
+      "nid": "2o2cjfuEOGo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsSysStorageGetStatus",
+      "nid": "Wq2qTfZyJpo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsTransactionCancel",
+      "nid": "474Gw2f9zYw",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsTransactionSaveDataInitMountOpt",
+      "nid": "MKw651XOeSY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsTransactionSaveDataMount",
+      "nid": "SfVLUyA1FAY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsTransactionStart",
+      "nid": "F+IvO6vqpbA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsTrophyImageError",
+      "nid": "CMA9M3cwctY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsAllocateAdditionalContents",
+      "nid": "DBswy44k1lU",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsAllocateAligned",
+      "nid": "Gr4HfdAqjc4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsAllocateDownloadData",
+      "nid": "82k2MzTAs3U",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsAllocateGameImage",
+      "nid": "DLpCCyufz2s",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsAllocatePatchImage",
+      "nid": "382VXUjp0XU",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsAllocateSaveData",
+      "nid": "5iyXoE5JDCg",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsAllocateTrophyData",
+      "nid": "Mw3phfO0pLI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsCheckCleanFlag",
+      "nid": "fz18fmDwFBM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsCheckFixedCylinderGroupSize",
+      "nid": "edmMguP-f2g",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsCollectTelemetry",
+      "nid": "-5kyhgJ8jtA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsCollectTelemetry2",
+      "nid": "926stjXB08w",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsDirectWrite",
+      "nid": "AtyWhIJC6rU",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsEstimateZoneCapacityForUser",
+      "nid": "Z2rDN0N0pYc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsExtendFile",
+      "nid": "5BiLoju9NSo",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsFsck",
+      "nid": "CY8CHAy3TGk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsFsckWithMM",
+      "nid": "BICyNlVbb44",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsGetExtentMap",
+      "nid": "7HQ4c0Hz+2Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsGrowLwfs",
+      "nid": "CnSKoVauJt0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsGrowfs",
+      "nid": "L+ZvTPUDP+U",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsHideBlocksFromUser",
+      "nid": "7rekIUh97Jc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsInitalizeSparseFile",
+      "nid": "2ozvSM6L3vU",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsLargewriteFsck",
+      "nid": "GGNBNEFp9Z0",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsLargewriteFsckWithMM",
+      "nid": "xfy2uloQTls",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsMkLwfs",
+      "nid": "LzrlqPj88rM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsMkfs",
+      "nid": "38oSSWu98Lk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsMkfsForExternalHDD",
+      "nid": "ewN9DUWH07g",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsMkfsForSystem",
+      "nid": "Vc8lIZRBjHw",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsMkfsWithFixedCylinderGroupSize",
+      "nid": "K9EXdD9bqzM",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsReallocateSparseFile",
+      "nid": "+eHwb+y5f1w",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsRecryptBlocks",
+      "nid": "lJuu35VxkFY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsRecryptGetState",
+      "nid": "fGnw2K4fNlQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsRecryptIsUnfinished",
+      "nid": "1H-LQ4r7-F8",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsRecryptSyncMetadata",
+      "nid": "JhDPrErJnCw",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsSeekHoleInFile",
+      "nid": "FKSu6oEy0iE",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUfsStopOperation",
+      "nid": "+KLe+1qx374",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUmountDownloadData",
+      "nid": "rTu7zaYoryI",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUmountGamePkg",
+      "nid": "UQTSykySQ40",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUmountLwfs",
+      "nid": "WLi0ClUXIVk",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUmountLwfsCompat",
+      "nid": "u7xu+K8TGbA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUmountSaveData",
+      "nid": "Ck7qGp2MjI4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUmountTrophyData",
+      "nid": "yXefJHaH0Kc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUmountWorkspace",
+      "nid": "m36Os8IDTOs",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUnbindApplication",
+      "nid": "Nzs7G5rtqmA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsUnbindPackages",
+      "nid": "1Uj1C5XQkAA",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsWsCreate",
+      "nid": "wQW9FiqIg2I",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsWsDelete",
+      "nid": "E0dDLsjKKwY",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsWsFetchFileMetadata",
+      "nid": "UMm6gapfQN4",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsWsFsck",
+      "nid": "SWK-+lhUK7s",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsWsGetStatus",
+      "nid": "ayluYmzbAGc",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsWsMount",
+      "nid": "Yh74PZYZi9o",
+      "state": "stub"
+    },
+    {
+      "name": "sceFsWsUmount",
+      "nid": "fmEzJ4OY5nM",
+      "state": "stub"
+    }
+  ]
+}

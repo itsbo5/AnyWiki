@@ -1,0 +1,142 @@
+{
+  "name": "libSceNpParty",
+  "label": "NpParty",
+  "category": "Network and services",
+  "implemented": 12,
+  "inert": 0,
+  "stub": 14,
+  "total": 26,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpPartyCheckCallback",
+      "nid": "3e4k2mzLkmc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPartyCreate",
+      "nid": "nOZRy-slBoA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPartyCreateA",
+      "nid": "XQSUbbnpPBA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPartyGetId",
+      "nid": "DRA3ay-1DFQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPartyGetMemberInfo",
+      "nid": "F1P+-wpxQow",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPartyGetMemberInfoA",
+      "nid": "v2RYVGrJDkM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPartyGetMemberSessionInfo",
+      "nid": "4gOMfNYzllw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPartyGetMemberVoiceInfo",
+      "nid": "EKi1jx59SP4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPartyGetMembers",
+      "nid": "T2UOKf00ZN0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPartyGetMembersA",
+      "nid": "TaNw7W25QJw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPartyGetState",
+      "nid": "aEzKdJzATZ0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPartyGetStateAsUser",
+      "nid": "o7grRhiGHYI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPartyGetStateAsUserA",
+      "nid": "EjyAI+QNgFw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPartyGetVoiceChatPriority",
+      "nid": "-lc6XZnQXvM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPartyInitialize",
+      "nid": "lhYCTQmBkds",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPartyJoin",
+      "nid": "RXNCDw2GDEg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPartyLeave",
+      "nid": "J8jAi-tfJHc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPartyRegisterHandler",
+      "nid": "kA88gbv71ao",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPartyRegisterHandlerA",
+      "nid": "+v4fVHMwFWc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPartyRegisterPrivateHandler",
+      "nid": "zo4G5WWYpKg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPartySendBinaryMessage",
+      "nid": "U6VdUe-PNAY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPartySetVoiceChatPriority",
+      "nid": "nazKyHygHhY",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPartyShowInvitationList",
+      "nid": "-MFiL7hEnPE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPartyShowInvitationListA",
+      "nid": "yARHEYLajs0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpPartyTerminate",
+      "nid": "oLYkibiHqRA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpPartyUnregisterPrivateHandler",
+      "nid": "zQ7gIvt11Pc",
+      "state": "stub"
+    }
+  ]
+}

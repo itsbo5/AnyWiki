@@ -1,0 +1,27 @@
+{
+  "name": "libSceAjm",
+  "label": "Ajm",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 3,
+  "total": 3,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAjmBatchJobControlBufferRa",
+      "nid": "dmDybN--Fn8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchJobRunSplitBufferRa",
+      "nid": "7jdAXK+2fMo",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchStartBuffer",
+      "nid": "fFFkk0xfGWs",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "libSceWebBrowserDialog",
+  "label": "WebBrowserDialog",
+  "category": "System utilities",
+  "implemented": 10,
+  "inert": 0,
+  "stub": 3,
+  "total": 13,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceWebBrowserDialogClose",
+      "nid": "PSK+Eik919Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceWebBrowserDialogGetEvent",
+      "nid": "Wit4LjeoeX4",
+      "state": "stub"
+    },
+    {
+      "name": "sceWebBrowserDialogGetResult",
+      "nid": "vCaW0fgVQmc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceWebBrowserDialogGetStatus",
+      "nid": "CFTG6a8TjOU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceWebBrowserDialogInitialize",
+      "nid": "jqb7HntFQFc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceWebBrowserDialogNavigate",
+      "nid": "uYELOMVnmNQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceWebBrowserDialogOpen",
+      "nid": "FraP7debcdg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceWebBrowserDialogOpenForPredeterminedContent",
+      "nid": "O7dIZQrwVFY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceWebBrowserDialogResetCookie",
+      "nid": "Cya+jvTtPqg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceWebBrowserDialogSetCookie",
+      "nid": "TZnDVkP91Rg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceWebBrowserDialogSetZoom",
+      "nid": "RLhKBOoNyXY",
+      "state": "stub"
+    },
+    {
+      "name": "sceWebBrowserDialogTerminate",
+      "nid": "ocHtyBwHfys",
+      "state": "implemented"
+    },
+    {
+      "name": "sceWebBrowserDialogUpdateStatus",
+      "nid": "h1dR-t5ISgg",
+      "state": "implemented"
+    }
+  ]
+}

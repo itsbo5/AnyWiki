@@ -1,0 +1,247 @@
+{
+  "name": "libSceVideoCoreServerInterface",
+  "label": "VideoCoreServerInterface",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 47,
+  "total": 47,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVideoCoreAbortRequest",
+      "nid": "NDNujUEAyS4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreAcquireDecoderResource",
+      "nid": "9eP06So7cfY",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreAcquireDecoderResourceForBeWrapper",
+      "nid": "vDenqj6dzGk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreAddStream",
+      "nid": "wYVuhWth0do",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreAsyncAddStream",
+      "nid": "VU7sCzkG5po",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreAsyncSendRequest",
+      "nid": "P5e53dTYzI0",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreCancelThumbnail",
+      "nid": "h6RcAAgqqT8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreChangeActiveStatus",
+      "nid": "rY2Mw7TEOhc",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreChangeAudioStream",
+      "nid": "3PKDRmrOlts",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreChangeDisplaySize",
+      "nid": "WqV-TtAY0Fc",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreChangeHdcpSetting",
+      "nid": "7lkxCYpD+xk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreChangeSubtitle",
+      "nid": "xDHPARrk3wM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreDeleteStream",
+      "nid": "njTTET86Ag8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreGenerateThumbnail",
+      "nid": "c6kw+A6XbvY",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreGenerateThumbnail2",
+      "nid": "Y0LmeEc0f7E",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreGetCanvasHandle",
+      "nid": "OMbBieZ6emQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreGetPlayStatus",
+      "nid": "PcP1nxOoL+4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreGetPlayStatus2",
+      "nid": "LviQNhT7V9I",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreGetStreamUid",
+      "nid": "kqBstEK8Nn8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreGetThumbnail",
+      "nid": "6n-iPMM7ImM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreGetThumbnail2",
+      "nid": "wdGk4zfCt70",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreLaunchVideoCore",
+      "nid": "pc6PxOmaeMg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreMediaSourceAbortSourceBuffer",
+      "nid": "o+F26Wk4JtI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreMediaSourceAddSourceBuffer",
+      "nid": "nBTx0OTc+R0",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreMediaSourceAppendData",
+      "nid": "gylHiQ56F10",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreMediaSourceEndOfStream",
+      "nid": "dCmNvuQjLIY",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreMediaSourceGetBufferedTimeRanges",
+      "nid": "mpddtF9pKRc",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreMediaSourceGetInputBufferEmptySize",
+      "nid": "6gVoKmSa+Gw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreMediaSourceGetPlaybackQuality",
+      "nid": "XRHBB0qMkvs",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreMediaSourceGetSourceBufferEvent",
+      "nid": "hxLqZDMmldk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreMediaSourceRemoveSourceBuffer",
+      "nid": "ZgOgSWy1ba4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreMediaSourceSetDuration",
+      "nid": "aLifbmFk4tg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreMediaSourceSetTimestampOffset",
+      "nid": "o27qlxiacL8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCorePlayControl",
+      "nid": "-U6ujqBRGGg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreRegistEventCallback",
+      "nid": "ukqI0fEBLSs",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreReleaseDecoderResource",
+      "nid": "k2ZyhP7QdaA",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreReleaseDecoderResourceForBeWrapper",
+      "nid": "dlG8cpQGq64",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreSetAudioMute",
+      "nid": "LqvNn+dsaI0",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreSetAudioVolume",
+      "nid": "sHnpJtSIfyY",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreSetFullScreen",
+      "nid": "u8d8odfTl2M",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreSetInitialInfo",
+      "nid": "-LzHP72LYUo",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreSetInitializeInfo",
+      "nid": "HZ91VeepRC4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreSetPlaybackRange",
+      "nid": "L7g5s0YFGc4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreSetThumbnailInfo",
+      "nid": "JMNwMECvR4U",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreSyncAddStream",
+      "nid": "PW2MMvr+fKM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreSyncSendRequest",
+      "nid": "LYATPVwT1+c",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreUnregistEventCallback",
+      "nid": "gksKAYUf0CM",
+      "state": "stub"
+    }
+  ]
+}

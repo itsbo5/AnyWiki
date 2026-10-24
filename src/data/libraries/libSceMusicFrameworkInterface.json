@@ -1,0 +1,97 @@
+{
+  "name": "libSceMusicFrameworkInterface",
+  "label": "MusicFrameworkInterface",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 17,
+  "total": 17,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceMusicFwGetCurrentTime",
+      "nid": "26q33kxcGYs",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwGetLoop",
+      "nid": "SG4rhheZSpw",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwGetMuted",
+      "nid": "PgjXRsgiZRU",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwGetNetworkState",
+      "nid": "4cn1ichfHIE",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwGetVolume",
+      "nid": "xPfDuZPWMLM",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwIsEnded",
+      "nid": "BCn4rUfwb1E",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwIsPlaying",
+      "nid": "Tzz6VPST4kY",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwIsStopped",
+      "nid": "GfDUIXu2zes",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwRemoveSrc",
+      "nid": "sc1fkfZ4fyM",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwSendMessageAsynchronously",
+      "nid": "FaXwNYQABhI",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwSendMessageSynchronously",
+      "nid": "zA7Ortm3zGA",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwSetCurrentTime",
+      "nid": "IDwNl7rxOQg",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwSetLoop",
+      "nid": "BYFjoQE6RpE",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwSetShuffle",
+      "nid": "2PZfeVc3T98",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwSetVolume",
+      "nid": "h6oJjSrmwdk",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwSkipNext",
+      "nid": "NmPRRG5HVj4",
+      "state": "stub"
+    },
+    {
+      "name": "sceMusicFwSkipPrevious",
+      "nid": "ANOe9iuJbWQ",
+      "state": "stub"
+    }
+  ]
+}

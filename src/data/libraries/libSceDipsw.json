@@ -1,0 +1,57 @@
+{
+  "name": "libSceDipsw",
+  "label": "Dipsw",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 9,
+  "total": 9,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceKernelCheckDipsw",
+      "nid": "JSNgID8Bupk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelInitializeDipsw",
+      "nid": "W2u-cvNkvOY",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsAssistMode",
+      "nid": "PKg59uLpHNI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsDevelopmentMode",
+      "nid": "UtO0OHMCgmI",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelIsDisableRazor",
+      "nid": "Q+SDBl-5rmk",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelReadDipswData",
+      "nid": "ScfnaxnQXn4",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelSetDipsw",
+      "nid": "HBsPvq47HNA",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelUnsetDipsw",
+      "nid": "OF8D1S5kgMw",
+      "state": "stub"
+    },
+    {
+      "name": "sceKernelWriteDipswData",
+      "nid": "853R8RXtPMY",
+      "state": "stub"
+    }
+  ]
+}

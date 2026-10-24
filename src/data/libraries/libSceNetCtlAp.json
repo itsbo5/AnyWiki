@@ -1,0 +1,67 @@
+{
+  "name": "libSceNetCtlAp",
+  "label": "NetCtlAp",
+  "category": "Network and services",
+  "implemented": 11,
+  "inert": 0,
+  "stub": 0,
+  "total": 11,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNetCtlApCheckCallback",
+      "nid": "19Ec7WkMFfQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApClearEvent",
+      "nid": "meFMaDpdsVI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApGetConnectInfo",
+      "nid": "hfkLVdXmfnU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApGetInfo",
+      "nid": "LXADzTIzM9I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApGetResult",
+      "nid": "4jkLJc954+Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApGetState",
+      "nid": "AKZOzsb9whc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApInit",
+      "nid": "FdN+edNRtiw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApRegisterCallback",
+      "nid": "pmjobSVHuY0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApStop",
+      "nid": "r-pOyN6AhsM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApTerm",
+      "nid": "cv5Y2efOTeg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApUnregisterCallback",
+      "nid": "NpTcFtaQ-0E",
+      "state": "implemented"
+    }
+  ]
+}

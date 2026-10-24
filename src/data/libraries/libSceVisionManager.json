@@ -1,0 +1,292 @@
+{
+  "name": "libSceVisionManager",
+  "label": "VisionManager",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 56,
+  "total": 56,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVisionManagerApplyCalibrateHmdResult",
+      "nid": "NWCnYpBxYZw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerCancelRequest",
+      "nid": "KBP2JpAEacI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerClose",
+      "nid": "P9+90HStC44",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerFinalize",
+      "nid": "KHsev0YxuXs",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGenerateRegisterUserData",
+      "nid": "3DXOsPHy9FQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGenerateRegisterUserDataFinalize",
+      "nid": "zrWaWV6ltmE",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGenerateRegisterUserDataInitialize",
+      "nid": "59yDtw0EuFI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetCalibrateTrackingLedInfo",
+      "nid": "Y4y2+Wmu5xk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetCalibrateTrackingLedNecessity",
+      "nid": "LCZQkq-Nq-k",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetHitCountOfRegisterUserData",
+      "nid": "PHZWPDcDRdM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetLibraryVersion",
+      "nid": "DphIqi0q48w",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetNumOfRegisterUserDataSlot",
+      "nid": "kDHvQLi0PM4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetRegisterUserDataSize",
+      "nid": "6vmrNgzv924",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetRegisterUserDataVersion",
+      "nid": "3OLHl6cAPjQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetResultOfCalibrateHmd",
+      "nid": "qyhQZ35WxX4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetResultOfCalibrateStereoCamera",
+      "nid": "5Lx1PHXzL6Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetResultOfCalibrateTrackingLed",
+      "nid": "brHQxy45WoE",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetResultOfFindFace",
+      "nid": "O3HjB2izk9o",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetResultOfFindPad",
+      "nid": "Qc8kyzCZj+M",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetResultOfFindPadCorrespondRegion",
+      "nid": "dZqlWxQ1p+U",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetResultOfFindUser",
+      "nid": "Nuhv71YjC+g",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetResultOfFindUserInRegion",
+      "nid": "Gop3lku7E+Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetResultOfFindUserWithoutIdentify",
+      "nid": "ES+vLK-z0+U",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetResultOfRegisterUserInRegion",
+      "nid": "GYamKe-3LbY",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetStoreCameraImgYPtr",
+      "nid": "qL-FqHcH2uw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerGetWorkingMemorySize",
+      "nid": "UezlBvGQZUI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerInitialize",
+      "nid": "9I4TdP3A9-g",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerLoadSettings",
+      "nid": "l9zev-ybPNs",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerOpen",
+      "nid": "wzr6GTOo9Dw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRegistryClear",
+      "nid": "GHrctgvI0SQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestCalibrateHmd",
+      "nid": "dEW3xn7DNFs",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestCalibrateStereoCamera",
+      "nid": "+lZ1yHWEViw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestCalibrateTrackingLed",
+      "nid": "qWFV6ZnNsRI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestClose",
+      "nid": "ACdU2QH82O4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestFindFace",
+      "nid": "ZZYNA4dAAIE",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestFindPad",
+      "nid": "10NAQUqyOpw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestFindPadCorrespondRegion",
+      "nid": "MXGGDS9QbsQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestFindUser",
+      "nid": "F8aomqtpD98",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestFindUserInRegion",
+      "nid": "iBbwD8vxSEk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestFindUserWithoutIdentify",
+      "nid": "CZgPsIdPqSk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestHeadDetection",
+      "nid": "PaHMZnyoHwg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestInitializeRegisterUserData",
+      "nid": "0NSzVSTy9tk",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestOpen",
+      "nid": "JeAOV3YYkBU",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestPadTracking",
+      "nid": "bwcOfqZLksI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestRecogUtility",
+      "nid": "BFzmWeUd7kA",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestRegisterUserInRegion",
+      "nid": "-RJmkkuBhaY",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerRequestStoreCameraImgY",
+      "nid": "HIImy8uMSUg",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerSetCallbackForUpdateCalibrateHmdResult",
+      "nid": "0rSeEhh-HKA",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerSetCallbackForUpdateCalibrateStereoCameraResult",
+      "nid": "OHjgoIInnmU",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerSetCallbackForUpdateCalibrateTrackingLedResult",
+      "nid": "j-GWi2OpAEc",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerSetCallbackForUpdateCameraFrame",
+      "nid": "aE4wRKDjrgw",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerSetCallbackForUpdateCtrlCore",
+      "nid": "YSa0McV-ZIU",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerSetCallbackForUpdateRecog",
+      "nid": "LeXBTikMUko",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerSetCallbackForUpdateRunningStatus",
+      "nid": "fz3oxzTvcvI",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerSetCallbackForUpdateStoreFrame",
+      "nid": "JejsXQ++gvU",
+      "state": "stub"
+    },
+    {
+      "name": "sceVisionManagerWaitResponse",
+      "nid": "q9iRVgGbrL0",
+      "state": "stub"
+    }
+  ]
+}

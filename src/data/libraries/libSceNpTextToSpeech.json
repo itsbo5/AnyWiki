@@ -1,0 +1,11 @@
+{
+  "name": "libSceNpTextToSpeech",
+  "label": "NpTextToSpeech",
+  "category": "Network and services",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 0,
+  "total": 0,
+  "sharedSources": null,
+  "functions": []
+}

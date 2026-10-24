@@ -1,0 +1,187 @@
+{
+  "name": "libSceRazorCpu",
+  "label": "RazorCpu",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 21,
+  "stub": 14,
+  "total": 35,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceRazorCpuBeginLogicalFileAccess",
+      "nid": "JFzLJBlYIJE",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuDisableFiberUserMarkers",
+      "nid": "SfRTRZ1Sh+U",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuEndLogicalFileAccess",
+      "nid": "gVioM9cbiDs",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuFiberLogNameChange",
+      "nid": "G90IIOtgFQ0",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuFiberSwitch",
+      "nid": "PAytDtFGpqY",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuFlushOccurred",
+      "nid": "sPhrQD31ClM",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuGetDataTagStorageSize",
+      "nid": "B782NptkGUc",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuGpuMarkerSync",
+      "nid": "EH9Au2RlSrE",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuInitDataTags",
+      "nid": "A7oRMdaOJP8",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuInitializeGpuMarkerContext",
+      "nid": "NFwh-J-BrI0",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuInitializeInternal",
+      "nid": "ElNyedXaa4o",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuIsCapturing",
+      "nid": "EboejOQvLL4",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuJobManagerDispatch",
+      "nid": "dnEdyY4+klQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuJobManagerJob",
+      "nid": "KP+TBWGHlgs",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuJobManagerSequence",
+      "nid": "9FowWFMEIM8",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuNamedSync",
+      "nid": "XCuZoBSVFG8",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuPlotValue",
+      "nid": "njGikRrxkC0",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuPopMarker",
+      "nid": "YpkGsMXP3ew",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuPushMarker",
+      "nid": "zw+celG7zSI",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuPushMarkerStatic",
+      "nid": "uZrOwuNJX-M",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuResizeTaggedBuffer",
+      "nid": "D0yUjM33QqU",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuSetPopMarkerCallback",
+      "nid": "jqYWaTfgZs0",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuSetPushMarkerCallback",
+      "nid": "DJsHcEb94n0",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuSetPushMarkerStaticCallback",
+      "nid": "EZtqozPTS4M",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuShutdownDataTags",
+      "nid": "emklx7RK-LY",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuStartCaptureInternal",
+      "nid": "TIytAjYeaik",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuStopCaptureInternal",
+      "nid": "jWpkVWdMrsM",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuSync",
+      "nid": "Ax7NjOzctIM",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuTagArray",
+      "nid": "we3oTKSPSTw",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuTagBuffer",
+      "nid": "vyjdThnQfQQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuUnTagBuffer",
+      "nid": "0yNHPIkVTmw",
+      "state": "inert"
+    },
+    {
+      "name": "sceRazorCpuWorkloadRunBegin",
+      "nid": "eRn6vlfK6ac",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuWorkloadRunEnd",
+      "nid": "q1GxBfGHO0s",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuWorkloadSubmit",
+      "nid": "6rUvx-6QmYc",
+      "state": "stub"
+    },
+    {
+      "name": "sceRazorCpuWriteBookmark",
+      "nid": "G3brhegfyNg",
+      "state": "inert"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "libScePsml",
+  "label": "Psml",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 0,
+  "total": 0,
+  "sharedSources": "libScePsml_debug",
+  "functions": []
+}

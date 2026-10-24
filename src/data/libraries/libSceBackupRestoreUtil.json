@@ -1,0 +1,92 @@
+{
+  "name": "libSceBackupRestoreUtil",
+  "label": "BackupRestoreUtil",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 16,
+  "total": 16,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceBackupRestoreUtilBackupData",
+      "nid": "DZvLrOrRi14",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilCancelBackupData",
+      "nid": "FXLlx5oqwh0",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilCancelGetRequiredSize",
+      "nid": "UdknvgT-snI",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilCancelGetTitles",
+      "nid": "mDQcxeSGoIM",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilCancelRestoreData",
+      "nid": "2otu3ItEh4k",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilDeleteBackupData",
+      "nid": "VZ+GFPa1Zyw",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilGetBackupDataInfo",
+      "nid": "CGDS6leRS1k",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilGetBackupParam",
+      "nid": "epS6UX1mzZg",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilGetBackupProgress",
+      "nid": "xNDi9AbcCWg",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilGetRequiredSize",
+      "nid": "NlNECoHFua0",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilGetRestoreProgress",
+      "nid": "Y4+czTsKo-g",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilGetTitles",
+      "nid": "i5dYsnXsWoA",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilInitialize",
+      "nid": "o4kUYkJG61w",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilPrepareBackup",
+      "nid": "XYZ3JHRb7iU",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilRestoreData",
+      "nid": "xftR500Mk5s",
+      "state": "stub"
+    },
+    {
+      "name": "sceBackupRestoreUtilTerminate",
+      "nid": "DmTq6Y8jYqY",
+      "state": "stub"
+    }
+  ]
+}

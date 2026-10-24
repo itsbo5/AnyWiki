@@ -1,0 +1,92 @@
+{
+  "name": "libSceFiber",
+  "label": "Fiber",
+  "category": "System utilities",
+  "implemented": 16,
+  "inert": 0,
+  "stub": 0,
+  "total": 16,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "_sceFiberAttachContextAndRun",
+      "nid": "avfGJ94g36Q",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceFiberAttachContextAndSwitch",
+      "nid": "ZqhZFuzKT6U",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceFiberGetThreadFramePointerAddress",
+      "nid": "0dy4JtMUcMQ",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceFiberInitializeImpl_nid_postfix",
+      "nid": "0S1NO-OOcBE",
+      "state": "implemented"
+    },
+    {
+      "name": "_sceFiberInitializeWithInternalOptionImpl",
+      "nid": "7+OJIpko9RY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFiberFinalize",
+      "nid": "JeNX5F-NzQU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFiberGetInfo",
+      "nid": "uq2Y5BFz0PE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFiberGetSelf",
+      "nid": "p+zLIOg27zU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFiberGetThreadFramePointerAddress",
+      "nid": "WaQiBG9UF5g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFiberOptParamInitialize",
+      "nid": "asjUJJ+aa8s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFiberRename",
+      "nid": "JzyT91ucGDc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFiberReturnToThread",
+      "nid": "B0ZX2hx9DMw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFiberRun_nid_postfix",
+      "nid": "WTbvHJT6iEw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFiberStartContextSizeCheck",
+      "nid": "Lcqty+QNWFc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFiberStopContextSizeCheck",
+      "nid": "Kj4nXMpnM8Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceFiberSwitch",
+      "nid": "PFT2S-tJ7Uk",
+      "state": "implemented"
+    }
+  ]
+}

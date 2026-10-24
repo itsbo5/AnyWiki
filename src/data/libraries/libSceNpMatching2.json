@@ -1,0 +1,157 @@
+{
+  "name": "libSceNpMatching2",
+  "label": "NpMatching2",
+  "category": "Network and services",
+  "implemented": 2,
+  "inert": 0,
+  "stub": 27,
+  "total": 29,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpMatching2ContextStart",
+      "nid": "7vjNQ6Z1op0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2ContextStop",
+      "nid": "-f6M4caNe8k",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2CreateContext",
+      "nid": "YfmpW719rMo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2CreateJoinRoom",
+      "nid": "zCWZmXXN600",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2DestroyContext",
+      "nid": "Nz-ZE7ur32I",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2GetRoomDataExternalList",
+      "nid": "26vWrPAWJfM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2GetRoomDataInternal",
+      "nid": "Jraxifmoet4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2GetRoomMemberDataInternal",
+      "nid": "5lhvOqheFBA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2GetServerId",
+      "nid": "LhCPctIICxQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2GetUserInfoList",
+      "nid": "qeF-q5KDtAc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2GetWorldInfoList",
+      "nid": "rJNPJqDCpiI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2Initialize",
+      "nid": "10t3e5+JPnU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpMatching2JoinRoom",
+      "nid": "CSIMDsVjs-g",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2KickoutRoomMember",
+      "nid": "AUVfU6byg3c",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2LeaveRoom",
+      "nid": "BD6kfx442Do",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2RegisterContextCallback",
+      "nid": "fQQfP87I7hs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2RegisterRoomEventCallback",
+      "nid": "p+2EnxmaAMM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2RegisterRoomMessageCallback",
+      "nid": "uBESzz4CQws",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2RegisterSignalingCallback",
+      "nid": "0UMeWRGnZKA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2SearchRoom",
+      "nid": "VqZX7POg2Mk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2SendRoomChatMessage",
+      "nid": "opDpl74pi2E",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2SendRoomMessage",
+      "nid": "Iw2h0Jrrb5U",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2SetDefaultRequestOptParam",
+      "nid": "+8e7wXLmjds",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2SetRoomDataExternal",
+      "nid": "q7GK98-nYSE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2SetRoomDataInternal",
+      "nid": "S9D8JSYIrjE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2SetRoomMemberDataInternal",
+      "nid": "HoqTrkS9c5Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2SetUserInfo",
+      "nid": "meEjIdbjAA0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2SignalingGetConnectionInfo",
+      "nid": "twVupeaYYrk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpMatching2Terminate",
+      "nid": "Mqp3lJ+sjy4",
+      "state": "implemented"
+    }
+  ]
+}

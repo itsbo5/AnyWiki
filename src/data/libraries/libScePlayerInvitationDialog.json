@@ -1,0 +1,47 @@
+{
+  "name": "libScePlayerInvitationDialog",
+  "label": "PlayerInvitationDialog",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePlayerInvitationDialogClose",
+      "nid": "Zo52g0A1XDw",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerInvitationDialogGetResult",
+      "nid": "AhqlQ8cngrk",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerInvitationDialogGetStatus",
+      "nid": "1m4CKJxzsW0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerInvitationDialogInitialize",
+      "nid": "JDwx3Bl4bB4",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerInvitationDialogOpen",
+      "nid": "rKPTlHwGa4k",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerInvitationDialogTerminate",
+      "nid": "gDm5a6GSE94",
+      "state": "implemented"
+    },
+    {
+      "name": "scePlayerInvitationDialogUpdateStatus",
+      "nid": "kFhuwHrIUqs",
+      "state": "implemented"
+    }
+  ]
+}

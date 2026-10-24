@@ -1,0 +1,32 @@
+{
+  "name": "libScePsmUtil",
+  "label": "PsmUtil",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 4,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePsmUtilFinalize",
+      "nid": "5U6NRSMS9QU",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmUtilGetPsmIniFile",
+      "nid": "6gapC-97PpU",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmUtilInitialize",
+      "nid": "psLU09dc2Vc",
+      "state": "stub"
+    },
+    {
+      "name": "scePsmUtilRegisterCallbacks",
+      "nid": "+arkFfg6uxw",
+      "state": "stub"
+    }
+  ]
+}

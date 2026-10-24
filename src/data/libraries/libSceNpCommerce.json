@@ -1,0 +1,72 @@
+{
+  "name": "libSceNpCommerce",
+  "label": "NpCommerce",
+  "category": "Network and services",
+  "implemented": 7,
+  "inert": 5,
+  "stub": 0,
+  "total": 12,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpCommerceDialogClose",
+      "nid": "NU3ckGHMFXo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCommerceDialogGetResult",
+      "nid": "r42bWcQbtZY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCommerceDialogGetStatus",
+      "nid": "CCbC+lqqvF0",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpCommerceDialogInitialize",
+      "nid": "0aR2aWmQal4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCommerceDialogInitializeInternal",
+      "nid": "9ZiLXAGG5rg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCommerceDialogOpen",
+      "nid": "DfSCDRA3EjY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCommerceDialogOpen2",
+      "nid": "IXmfUaze9So",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCommerceDialogTerminate",
+      "nid": "m-I92Ab50W8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpCommerceDialogUpdateStatus",
+      "nid": "LR5cwFMMCVE",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpCommerceHidePsStoreIcon",
+      "nid": "dsqCVsNM0Zg",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpCommerceSetPsStoreIconLayout",
+      "nid": "uKTDW8hk-ts",
+      "state": "inert"
+    },
+    {
+      "name": "sceNpCommerceShowPsStoreIcon",
+      "nid": "DHmwsa6S8Tc",
+      "state": "inert"
+    }
+  ]
+}

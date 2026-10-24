@@ -1,0 +1,972 @@
+{
+  "name": "libScePad",
+  "label": "Pad",
+  "category": "Input and user",
+  "implemented": 25,
+  "inert": 7,
+  "stub": 160,
+  "total": 192,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePadBondUpdateGetReconnectStatus",
+      "nid": "iQkiK4Kvexk",
+      "state": "stub"
+    },
+    {
+      "name": "scePadBondUpdateGetStatus",
+      "nid": "+95mY3OsLOI",
+      "state": "stub"
+    },
+    {
+      "name": "scePadBondUpdateInit",
+      "nid": "y10xCd+u6mk",
+      "state": "stub"
+    },
+    {
+      "name": "scePadBondUpdateIsReady",
+      "nid": "3y8ocYM110U",
+      "state": "stub"
+    },
+    {
+      "name": "scePadBondUpdateResetBond",
+      "nid": "fzzqU0N3BBk",
+      "state": "stub"
+    },
+    {
+      "name": "scePadBondUpdateSendData",
+      "nid": "8hdqSrRYMdY",
+      "state": "stub"
+    },
+    {
+      "name": "scePadBondUpdateStart",
+      "nid": "yoHXT9j4x1w",
+      "state": "stub"
+    },
+    {
+      "name": "scePadBondUpdateTerm",
+      "nid": "BYe-BCkJmGQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadClose_nid_postfix",
+      "nid": "V3yywdFQgd8",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadConnectPort",
+      "nid": "kazv1NzSB8c",
+      "state": "stub"
+    },
+    {
+      "name": "scePadControllerUpdateGetReconnectStatus",
+      "nid": "smJvZZWKmlM",
+      "state": "stub"
+    },
+    {
+      "name": "scePadControllerUpdateGetStatus",
+      "nid": "yVOMbx2EMrY",
+      "state": "stub"
+    },
+    {
+      "name": "scePadControllerUpdateInit",
+      "nid": "b8Ui49FOmp8",
+      "state": "stub"
+    },
+    {
+      "name": "scePadControllerUpdateIsReady",
+      "nid": "YFhNcyg2CrM",
+      "state": "stub"
+    },
+    {
+      "name": "scePadControllerUpdateIsUpdateNeeded2",
+      "nid": "VtPK5EOspW8",
+      "state": "stub"
+    },
+    {
+      "name": "scePadControllerUpdateResetController",
+      "nid": "Qz310Ipt454",
+      "state": "stub"
+    },
+    {
+      "name": "scePadControllerUpdateSendData",
+      "nid": "edT2uiZ975s",
+      "state": "stub"
+    },
+    {
+      "name": "scePadControllerUpdateStart",
+      "nid": "TrqXrlUc9zU",
+      "state": "stub"
+    },
+    {
+      "name": "scePadControllerUpdateTerm",
+      "nid": "7mKPgGXQzEc",
+      "state": "stub"
+    },
+    {
+      "name": "scePadDeviceClassGetExtendedInformation",
+      "nid": "AcslpN1jHR8",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadDeviceClassParseData",
+      "nid": "IHPqcbc0zCA",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadDeviceOpen",
+      "nid": "d7bXuEBycDI",
+      "state": "stub"
+    },
+    {
+      "name": "scePadDisableActiveProfileChange",
+      "nid": "tf5nE4K2QqE",
+      "state": "stub"
+    },
+    {
+      "name": "scePadDisableActiveProfileChangeByDeviceId",
+      "nid": "LQawAdo7D+Q",
+      "state": "stub"
+    },
+    {
+      "name": "scePadDisableDataConversion",
+      "nid": "DeEXrvtWa4E",
+      "state": "stub"
+    },
+    {
+      "name": "scePadDisableTrackingLedBatterySaver",
+      "nid": "IfB5icXNVF8",
+      "state": "stub"
+    },
+    {
+      "name": "scePadDisableTransportButtons",
+      "nid": "b+SbV3m6n6U",
+      "state": "stub"
+    },
+    {
+      "name": "scePadDisableTriggerEffect",
+      "nid": "OjTEJo7cfRE",
+      "state": "stub"
+    },
+    {
+      "name": "scePadDisableVibration",
+      "nid": "0aziJjRZxqQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadDisconnectDevice",
+      "nid": "pnZXireDoeI",
+      "state": "stub"
+    },
+    {
+      "name": "scePadDisconnectPort",
+      "nid": "9ez71nWSvD0",
+      "state": "stub"
+    },
+    {
+      "name": "scePadEnableAutoDetect",
+      "nid": "77ooWxGOIVs",
+      "state": "stub"
+    },
+    {
+      "name": "scePadEnableControllerIndicator",
+      "nid": "WqhqakMfu20",
+      "state": "stub"
+    },
+    {
+      "name": "scePadEnableExtensionPort",
+      "nid": "+cE4Jx431wc",
+      "state": "inert"
+    },
+    {
+      "name": "scePadEnablePlayPauseEmulation",
+      "nid": "+poRqsdmJT8",
+      "state": "stub"
+    },
+    {
+      "name": "scePadEnableProfileIndicator",
+      "nid": "quZxp0eu0xM",
+      "state": "stub"
+    },
+    {
+      "name": "scePadEnablePs4CompatibleMode",
+      "nid": "IXqK6fQJHwY",
+      "state": "stub"
+    },
+    {
+      "name": "scePadEnableSpecificDeviceClass",
+      "nid": "E1KEw5XMGQQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadEnableUsbConnection",
+      "nid": "DD-KiRLBqkQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetAccessibilityControllerState",
+      "nid": "zBsgF0q8DIM",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadGetActiveProfileInfo",
+      "nid": "+iEuOWkGIAI",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetActiveTime",
+      "nid": "k0RJXTO3SbQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetAstonModel",
+      "nid": "KjONF4j6scc",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetBluetoothAddress",
+      "nid": "Q66U8FdrMaw",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetCapability",
+      "nid": "qtasqbvwgV4",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetControllerIdleCount",
+      "nid": "UxPKyWeAT7Y",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetControllerInformation",
+      "nid": "gjP9-KQzoUk",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadGetControllerType",
+      "nid": "1Q0VRAW2fp0",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadGetControllerTypeLeonardo",
+      "nid": "C+Qsy2AHkTk",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetDataInternal",
+      "nid": "Uq6LgTJEmQs",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetDeviceId",
+      "nid": "hDgisSGkOgw",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetDeviceInfo",
+      "nid": "4rS5zG7RFaM",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetExtControllerInformation",
+      "nid": "hGbf2QTBmqc",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadGetExtensionUnitInfo",
+      "nid": "1DmZjZAuzEM",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetFeatureReport",
+      "nid": "PZSoY8j0Pko",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetFeatureReport2",
+      "nid": "B36fgKhpfUE",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetHandle",
+      "nid": "u1GRHp+oWoY",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadGetIdleCount",
+      "nid": "kiA9bZhbnAg",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetInfoByPortType",
+      "nid": "4x5Im8pr0-4",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetInfo_nid_postfix",
+      "nid": "Yh41wm161fw",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadGetLicenseControllerInformation",
+      "nid": "vegw8qax5MI",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetLotusIrCodeSetResult",
+      "nid": "hQAGkaswAAw",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetMotionSensorPosition",
+      "nid": "WPIB7zBWxVE",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetMotionTimerUnit",
+      "nid": "k4+nDV9vbT0",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetProfileEditMode",
+      "nid": "dZPCGxlnKQw",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetProfileEditModeLeonardo",
+      "nid": "OSUVs+5URxo",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetProfileHunt",
+      "nid": "so2hkO3TU+4",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetProfileInfo",
+      "nid": "6F6JbvpIo3s",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetProfileLeonardo",
+      "nid": "779akUbTS0o",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetSavedSettingInfo",
+      "nid": "XDMMM6evPiI",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetSelectButtonCustomizeMode",
+      "nid": "mRsShUfNfdg",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetSphereRadius",
+      "nid": "do-JDWX+zRs",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetTelemetryInfo",
+      "nid": "jBC8yC+ZnWQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetTriggerEffectInternalState",
+      "nid": "ZeJhastdP00",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetTriggerEffectState",
+      "nid": "znaWI0gpuo8",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadGetUsbDetectionState",
+      "nid": "ZfvgLuRYSVI",
+      "state": "stub"
+    },
+    {
+      "name": "scePadGetVersionInfo",
+      "nid": "QuOaoOcSOw0",
+      "state": "stub"
+    },
+    {
+      "name": "scePadInit_nid_postfix",
+      "nid": "AXHhkKfdRQI",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadIsBlasterConnected",
+      "nid": "bi0WNvZ1nug",
+      "state": "inert"
+    },
+    {
+      "name": "scePadIsCoPilot",
+      "nid": "rZiqk1bQwr4",
+      "state": "stub"
+    },
+    {
+      "name": "scePadIsDS4Connected",
+      "nid": "mEC+xJKyIjQ",
+      "state": "inert"
+    },
+    {
+      "name": "scePadIsLightBarBaseBrightnessControllable",
+      "nid": "d2Qk-i8wGak",
+      "state": "stub"
+    },
+    {
+      "name": "scePadIsMoveConnected",
+      "nid": "4y9RNPSBsqg",
+      "state": "inert"
+    },
+    {
+      "name": "scePadIsMoveReproductionModel",
+      "nid": "9e56uLgk5y0",
+      "state": "stub"
+    },
+    {
+      "name": "scePadIsRemoteController",
+      "nid": "fCWdlnmB1Ks",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadIsValidHandle",
+      "nid": "pFTi-yOrVeQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadLastLotusButtonData",
+      "nid": "F9iDGS9ddCM",
+      "state": "stub"
+    },
+    {
+      "name": "scePadMbusInit",
+      "nid": "CfwUlQtCFi4",
+      "state": "stub"
+    },
+    {
+      "name": "scePadMbusTerm",
+      "nid": "s7CvzS+9ZIs",
+      "state": "stub"
+    },
+    {
+      "name": "scePadOpenExt",
+      "nid": "WFIiSfXGUq8",
+      "state": "stub"
+    },
+    {
+      "name": "scePadOpenExt2",
+      "nid": "71E9e6n+2R8",
+      "state": "stub"
+    },
+    {
+      "name": "scePadOpen_nid_postfix",
+      "nid": "YzkS6shDMhY",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadOutputReport",
+      "nid": "DrUu8cPrje8",
+      "state": "stub"
+    },
+    {
+      "name": "scePadParseUniqueDataLeonardo",
+      "nid": "d3Q+WyyvihI",
+      "state": "stub"
+    },
+    {
+      "name": "scePadReadAstonForTracker",
+      "nid": "GzlAH0Hy5uE",
+      "state": "stub"
+    },
+    {
+      "name": "scePadReadBlasterForTracker",
+      "nid": "fm1r2vv5+OU",
+      "state": "stub"
+    },
+    {
+      "name": "scePadReadExt",
+      "nid": "QjwkT2Ycmew",
+      "state": "stub"
+    },
+    {
+      "name": "scePadReadForTracker",
+      "nid": "2NhkFTRnXHk",
+      "state": "stub"
+    },
+    {
+      "name": "scePadReadHistory",
+      "nid": "3u4M8ck9vJM",
+      "state": "stub"
+    },
+    {
+      "name": "scePadReadState",
+      "nid": "YndgXqQVV7c",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadReadStateExt",
+      "nid": "5Wf4q349s+Q",
+      "state": "stub"
+    },
+    {
+      "name": "scePadRead_nid_postfix",
+      "nid": "eWmUXRZmqBg",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadRegisterCollaboInputMgrProcess",
+      "nid": "z9FKeblRpBQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadRemoteControlInsertData",
+      "nid": "D6ovvSecedE",
+      "state": "stub"
+    },
+    {
+      "name": "scePadRemoteControlInsertDataForAston",
+      "nid": "O7D+qHutj-s",
+      "state": "stub"
+    },
+    {
+      "name": "scePadResetHunt",
+      "nid": "cwlp9Yg3fpM",
+      "state": "stub"
+    },
+    {
+      "name": "scePadResetLeonardo",
+      "nid": "ALCdFMjxJc0",
+      "state": "stub"
+    },
+    {
+      "name": "scePadResetLightBar",
+      "nid": "DscD1i9HX1w",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadResetLightBarAll",
+      "nid": "+4c9xRLmiXQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadResetLightBarAllByPortType",
+      "nid": "+Yp6+orqf1M",
+      "state": "stub"
+    },
+    {
+      "name": "scePadResetOrientation",
+      "nid": "rIZnR6eSpvk",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadResetOrientationForTracker",
+      "nid": "jbAqAvLEP4A",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetActiveProfileSlot",
+      "nid": "3H8ZOMiF7MQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetAngularVelocityBiasCorrectionState",
+      "nid": "KLmYx9ij2h0",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetAngularVelocityDeadbandState",
+      "nid": "r44mAxdSG+U",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadSetAutoPowerOffCount",
+      "nid": "ew647HuKi2Y",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetButtonRemappingInfo",
+      "nid": "MbTt1EHYCTg",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetControllerTypeLeonardo",
+      "nid": "jhRuYx3Vqvg",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetExtensionReport",
+      "nid": "bsbHFI0bl5s",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetFeatureReport",
+      "nid": "xqgVCEflEDY",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetFeatureReport2",
+      "nid": "PNceMgBgrIQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetForceIntercepted",
+      "nid": "lrjFx4xWnY8",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetIsCoPilot",
+      "nid": "76EQfHq6VVM",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetLightBar",
+      "nid": "RR4novUEENY",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadSetLightBarBaseBrightness",
+      "nid": "dhQXEvmrVNQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetLightBarBlinking",
+      "nid": "etaQhgPHDRY",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetLightBarForTracker",
+      "nid": "iHuOWdvQVpg",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetLoginUserNumber",
+      "nid": "o-6Y99a8dKU",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetLotusDisableIrKey",
+      "nid": "b1GSjsAjNag",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetLotusEnableIrKey",
+      "nid": "POf2HTFW5pw",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetLotusIrCodeSetData",
+      "nid": "WN23C2CcXOQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetLotusIrCodeSetEnd",
+      "nid": "CY36SbKcUto",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetLotusIrCodeSetStart",
+      "nid": "qs0TaJZTeeY",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetMotionSensorState",
+      "nid": "clVvL4ZDntw",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadSetMuteLed",
+      "nid": "CEFjVO3Vk9Y",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetPS4BcVibrationMode",
+      "nid": "B8Rwqqw5Ejw",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetParticularMode",
+      "nid": "NKs8QDFoPTs",
+      "state": "inert"
+    },
+    {
+      "name": "scePadSetPowerSavingState",
+      "nid": "t9cXOaJgv04",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetProcessFocus",
+      "nid": "flYYxek1wy8",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetProcessPrivilege",
+      "nid": "DmBx8K+jDWw",
+      "state": "inert"
+    },
+    {
+      "name": "scePadSetProcessPrivilegeOfButtonRemapping",
+      "nid": "FbxEpTRDou8",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetProfileEditMode",
+      "nid": "bRyiCt7N-0g",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetProfileHunt",
+      "nid": "0QlcjyFtVdE",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetProfileIndicatorAnimation",
+      "nid": "dSkUDt28dFc",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetProfileLeonardo",
+      "nid": "T5InsNSz0PE",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetSavedSettingInfo",
+      "nid": "ri6R9q1LLG0",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetSelectButtonCustomizeMode",
+      "nid": "+LujDwGk-dg",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetShareButtonMaskForRemotePlay",
+      "nid": "yah8Bk4TcYY",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetStickTriggerTuningMode",
+      "nid": "yuC5H4Rgw+M",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetStickTuningParam",
+      "nid": "T6pE2PKzeyI",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetTiltCorrectionState",
+      "nid": "vDLMoJLde8I",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadSetToggleAllReleaseLeonardo",
+      "nid": "Q6JxaD5X960",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetTriggerEffect",
+      "nid": "2JgFB2n9oUM",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadSetTriggerEffectExt",
+      "nid": "+kz3JZHGCB0",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetTriggerEffectStrength",
+      "nid": "S09-gTDjaiw",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetTriggerTuningParam",
+      "nid": "DXm13aQZAi4",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetUserColor",
+      "nid": "z+GEemoTxOo",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetUserNumber",
+      "nid": "iOqpYvGEo6A",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetVibration",
+      "nid": "yFVnOdGxvZY",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadSetVibrationForce",
+      "nid": "8BOObG94-tc",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetVibrationMode",
+      "nid": "W2G-yoyMF5U",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadSetVibrationStrength",
+      "nid": "uQ7V-voEyWQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetVibrationTriggerEffectWeakWhileEmbeddedMicInUse",
+      "nid": "Yq0zOH7YNOM",
+      "state": "inert"
+    },
+    {
+      "name": "scePadSetVirtualDeviceComponentInformation",
+      "nid": "t+BxUlmGrUU",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSetVrTrackingMode",
+      "nid": "--jrY4SHfm8",
+      "state": "stub"
+    },
+    {
+      "name": "scePadShareOutputData",
+      "nid": "zFJ35q3RVnY",
+      "state": "stub"
+    },
+    {
+      "name": "scePadShareOutputDataWithFunctionType",
+      "nid": "y4y6uo3wq-k",
+      "state": "stub"
+    },
+    {
+      "name": "scePadStartRecording",
+      "nid": "80XdmVYsNPA",
+      "state": "stub"
+    },
+    {
+      "name": "scePadStopRecording",
+      "nid": "gAHvg6JPIic",
+      "state": "stub"
+    },
+    {
+      "name": "scePadSwitchConnection",
+      "nid": "Oi7FzRWFr0Y",
+      "state": "stub"
+    },
+    {
+      "name": "scePadUiReadState",
+      "nid": "FYqcaosYiIo",
+      "state": "stub"
+    },
+    {
+      "name": "scePadUiReadStateForTuning",
+      "nid": "u5POBjimeWg",
+      "state": "stub"
+    },
+    {
+      "name": "scePadUnknown_n3kSX62fgNo",
+      "nid": "svYUw4CnM3c",
+      "state": "implemented"
+    },
+    {
+      "name": "scePadVertualDeviceAddDevice",
+      "nid": "0MB5x-ieRGI",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVirtualDeviceAddDevice",
+      "nid": "N7tpsjWQ87s",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVirtualDeviceDeleteDevice",
+      "nid": "PFec14-UhEQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVirtualDeviceDisableButtonRemapping",
+      "nid": "pjPCronWdxI",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVirtualDeviceGetRemoteSetting",
+      "nid": "LKXfw7VJYqg",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVirtualDeviceInsertData",
+      "nid": "IWOyO5jKuZg",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVirtualDeviceInsertTriggerInternalState",
+      "nid": "7exHuVMAMQM",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVirtualDeviceSetTriggerEffectSetting",
+      "nid": "MiZ2UBxeTaw",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVrControllerGetDeviceInformation",
+      "nid": "mbJHDdjhVeY",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVrControllerGetPhysicalUsbConnectionStatus",
+      "nid": "1osBTRjHvrs",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVrControllerGetTriggerEffectState",
+      "nid": "OL2CJ2idmhk",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVrControllerGetTriggerEffectStates",
+      "nid": "AVr6AKXGc0M",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVrControllerRead",
+      "nid": "306mCg0ibh8",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVrControllerReadCombinedState",
+      "nid": "TABucyiW6AQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVrControllerReadState",
+      "nid": "iA-DdobUen8",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVrControllerSetTriggerEffect",
+      "nid": "6Cdc9bbjrRY",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVrControllerSetTriggerEffects",
+      "nid": "v8P+9PRqg10",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVrControllerSetVibration",
+      "nid": "DGCwN1Lmmys",
+      "state": "stub"
+    },
+    {
+      "name": "scePadVrControllerSetVibrationMode",
+      "nid": "Wf6-PNCyY20",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "libSceSystemLogger2NativeQueueClient",
+  "label": "SystemLogger2NativeQueueClient",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 5,
+  "total": 5,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSystemLogger2NativeQueueClientCheckAndMaskData",
+      "nid": "libpnl6UIGg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemLogger2NativeQueueClientGetEvent",
+      "nid": "q8a6R8SJHms",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemLogger2NativeQueueClientSetDeliveryEnable",
+      "nid": "FJyVzN8qkOo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemLogger2NativeQueueClientSetDeliveryResult",
+      "nid": "52wOUjm4hZA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSystemLogger2NativeQueueClientSetNativeQueueConfig",
+      "nid": "obQpnx50kEk",
+      "state": "stub"
+    }
+  ]
+}

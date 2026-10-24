@@ -1,0 +1,52 @@
+{
+  "name": "libSceContentDelete",
+  "label": "ContentDelete",
+  "category": "System utilities",
+  "implemented": 4,
+  "inert": 0,
+  "stub": 4,
+  "total": 8,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceContentDeleteById",
+      "nid": "pXJh3aVk8Ks",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentDeleteByIdListForSf",
+      "nid": "Nfy3bSLLwEs",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentDeleteByPath",
+      "nid": "qC3QW+AltHs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentDeleteGlobalMstat",
+      "nid": "8BjSxsOrJEU",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentDeleteInitialize",
+      "nid": "zoxb0wEChEM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentDeleteMemoryInitialize",
+      "nid": "84s1ePPSw80",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentDeleteMemoryTerminate",
+      "nid": "ZpuhzsZ33eI",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentDeleteTerminate",
+      "nid": "5XLSih32qHA",
+      "state": "implemented"
+    }
+  ]
+}

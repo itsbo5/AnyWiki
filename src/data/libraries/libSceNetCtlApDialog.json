@@ -1,0 +1,47 @@
+{
+  "name": "libSceNetCtlApDialog",
+  "label": "NetCtlApDialog",
+  "category": "Network and services",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNetCtlApDialogClose",
+      "nid": "3QtqTA0uMmU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApDialogGetResult",
+      "nid": "ZaEVF6WqBP8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApDialogGetStatus",
+      "nid": "eBWS-HorSWY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApDialogInitialize",
+      "nid": "py8-vzIY-RY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApDialogOpen",
+      "nid": "SKJQwgudGFg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApDialogTerminate",
+      "nid": "5X+QFaVtiKg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNetCtlApDialogUpdateStatus",
+      "nid": "ys1JAOGzNG0",
+      "state": "implemented"
+    }
+  ]
+}

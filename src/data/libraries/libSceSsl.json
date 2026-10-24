@@ -1,0 +1,282 @@
+{
+  "name": "libSceSsl",
+  "label": "Ssl",
+  "category": "Network and services",
+  "implemented": 33,
+  "inert": 0,
+  "stub": 21,
+  "total": 54,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "CA_MGMT_extractKeyBlobEx",
+      "nid": "Md+HYkCBZB4",
+      "state": "stub"
+    },
+    {
+      "name": "CA_MGMT_extractPublicKeyInfo",
+      "nid": "9bKYzKP6kYU",
+      "state": "stub"
+    },
+    {
+      "name": "CA_MGMT_freeKeyBlob",
+      "nid": "ipLIammTj2Q",
+      "state": "stub"
+    },
+    {
+      "name": "CRYPTO_initAsymmetricKey",
+      "nid": "PRWr3-ytpdg",
+      "state": "stub"
+    },
+    {
+      "name": "CRYPTO_uninitAsymmetricKey",
+      "nid": "cW7VCIMCh9A",
+      "state": "stub"
+    },
+    {
+      "name": "RSA_verifySignature",
+      "nid": "pBwtarKd7eg",
+      "state": "stub"
+    },
+    {
+      "name": "VLONG_freeVlongQueue",
+      "nid": "wcVuyTUr5ys",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslCheckRecvPending",
+      "nid": "1VM0h1JrUfA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslClose",
+      "nid": "viRXSHZYd0c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslConnect",
+      "nid": "zXvd6iNyfgc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslCreateConnection",
+      "nid": "tuscfitnhEo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslCreateSslConnection",
+      "nid": "P14ATpXc4J8",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslDeleteConnection",
+      "nid": "HJ1n138CQ2g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslDeleteSslConnection",
+      "nid": "hwrHV6Pprk4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslDisableOption",
+      "nid": "iLKz4+ukLqk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslDisableOptionInternal",
+      "nid": "-WqxBRAUVM4",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslDisableOptionInternalInsecure",
+      "nid": "w1+L-27nYas",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslDisableVerifyOption",
+      "nid": "PwsHbErG+e8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslEnableOption",
+      "nid": "m-zPyAsIpco",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslEnableOptionInternal",
+      "nid": "g-zCwUKstEQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslEnableVerifyOption",
+      "nid": "po1X86mgHDU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslFreeCaCerts",
+      "nid": "qIvLs0gYxi0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslFreeCaList",
+      "nid": "+DzXseDVkeI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslFreeSslCertName",
+      "nid": "RwXD8grHZHM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslGetAlpnSelected",
+      "nid": "4O7+bRkRUe8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslGetCaCerts",
+      "nid": "TDfQqO-gMbY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslGetCaList",
+      "nid": "qOn+wm28wmA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslGetFingerprint",
+      "nid": "brRtwGBu4A8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslGetIssuerName",
+      "nid": "7whYpYfHP74",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslGetMemoryPoolStats",
+      "nid": "-PoIzr3PEk0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslGetNameEntryCount",
+      "nid": "R1ePzopYPYM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslGetNameEntryInfo",
+      "nid": "7RBSTKGrmDA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslGetNanoSSLModuleId",
+      "nid": "AzUipl-DpIw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslGetNotAfter",
+      "nid": "xHpt6+2pGYk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslGetNotBefore",
+      "nid": "Eo0S65Jy28Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslGetPeerCert",
+      "nid": "-TbZc8pwPNc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslGetPem",
+      "nid": "kLB5aGoUJXg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslGetSerialNumber",
+      "nid": "DOwXL+FQMEY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslGetSslError",
+      "nid": "0XcZknp7-Wc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslGetSubjectName",
+      "nid": "dQReuBX9sD8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslInit_nid_postfix",
+      "nid": "tQIhMZwetuI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslLoadCert",
+      "nid": "Ab7+DH+gYyM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslLoadRootCACert",
+      "nid": "3-643mGVFJo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslRead",
+      "nid": "jltWpVKtetg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslRecv",
+      "nid": "hi0veU3L2pU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslReuseConnection",
+      "nid": "50R2xYaYZwE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslSend",
+      "nid": "p5bM5PPufFY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslSetAlpn",
+      "nid": "TL86glUrmUw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslSetMinSslVersion",
+      "nid": "QWSxBzf6lAg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslSetSslVersion",
+      "nid": "bKaEtQnoUuQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSslSetVerifyCallback",
+      "nid": "E4a-ahM57QQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslTerm_nid_postfix",
+      "nid": "I5nuBnLrxT8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslUnloadCert",
+      "nid": "UQ+3Qu7v3cA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSslWrite",
+      "nid": "iNjkt9Poblw",
+      "state": "implemented"
+    }
+  ]
+}

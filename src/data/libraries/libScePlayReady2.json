@@ -1,0 +1,92 @@
+{
+  "name": "libScePlayReady2",
+  "label": "PlayReady2",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 16,
+  "total": 16,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePlayReadyBufferInitWithData",
+      "nid": "QN1i7GqlP7g",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyCloneDecryptContext",
+      "nid": "fpI46m0Nc9o",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyDebugPrintf",
+      "nid": "bZqlswX9xv4",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyDebugSetLevel",
+      "nid": "jWvPL6uPnWk",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyLicenseDelete",
+      "nid": "Wf+VUrny3Fk",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyLicenseDeleteInMemory",
+      "nid": "C4i9a6cVRWM",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyLicenseGetExpirationTime",
+      "nid": "PqYIuqUdMMU",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyLicenseGetProperty",
+      "nid": "qkidjMT42sQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyReaderClose",
+      "nid": "zxs+Flq6LEY",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyReaderDecryptMultiple",
+      "nid": "---AJBmrMQc",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyReaderDecryptMultipleOpaque",
+      "nid": "IQsOlh8f-sw",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyReaderDecryptOpaque",
+      "nid": "rWxYHhhR4h4",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyReaderDecrypt_Legacy",
+      "nid": "G2+JJ+BamfE",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyReaderFreeOpaqueContent",
+      "nid": "bxmwxo3mcBw",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyReaderRetrieveOpaqueContent",
+      "nid": "Wgptd+IJcp0",
+      "state": "stub"
+    },
+    {
+      "name": "scePlayReadyReinitialize",
+      "nid": "u75oEC-8rTg",
+      "state": "stub"
+    }
+  ]
+}

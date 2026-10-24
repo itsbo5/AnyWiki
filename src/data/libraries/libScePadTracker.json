@@ -1,0 +1,42 @@
+{
+  "name": "libScePadTracker",
+  "label": "PadTracker",
+  "category": "Input and user",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 6,
+  "total": 6,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePadTrackerCalibrate",
+      "nid": "FN4UuY2CUz0",
+      "state": "stub"
+    },
+    {
+      "name": "scePadTrackerGetWorkingMemorySize",
+      "nid": "8bK-4Vxjr8E",
+      "state": "stub"
+    },
+    {
+      "name": "scePadTrackerInit",
+      "nid": "G1-RyPlIrIY",
+      "state": "stub"
+    },
+    {
+      "name": "scePadTrackerReadState",
+      "nid": "PqlxOq+k02o",
+      "state": "stub"
+    },
+    {
+      "name": "scePadTrackerTerm",
+      "nid": "Ci0PqEOATeQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePadTrackerUpdate",
+      "nid": "cri6g3qvCtc",
+      "state": "stub"
+    }
+  ]
+}

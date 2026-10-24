@@ -1,0 +1,47 @@
+{
+  "name": "libSceAc3Enc",
+  "label": "Ac3Enc",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 7,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAc3EncCreateEncoder",
+      "nid": "PGxMwm8uS0Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceAc3EncDeleteEncoder",
+      "nid": "jBntlBiKty8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAc3EncEncode",
+      "nid": "E79Au3w61PM",
+      "state": "stub"
+    },
+    {
+      "name": "sceAc3EncEncodeAsync",
+      "nid": "336zdcN++6g",
+      "state": "stub"
+    },
+    {
+      "name": "sceAc3EncFlush",
+      "nid": "0ugwOX1BRjo",
+      "state": "stub"
+    },
+    {
+      "name": "sceAc3EncIsEncoding",
+      "nid": "6eEiDgUsIPw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAc3EncWaitEncode",
+      "nid": "hemgFpeEQFA",
+      "state": "stub"
+    }
+  ]
+}

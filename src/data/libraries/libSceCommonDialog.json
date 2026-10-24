@@ -1,0 +1,22 @@
+{
+  "name": "libSceCommonDialog",
+  "label": "CommonDialog",
+  "category": "System utilities",
+  "implemented": 1,
+  "inert": 1,
+  "stub": 0,
+  "total": 2,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceCommonDialogInitialize",
+      "nid": "uoUpLGNkygk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceCommonDialogIsUsed",
+      "nid": "BQ3tey0JmQM",
+      "state": "inert"
+    }
+  ]
+}

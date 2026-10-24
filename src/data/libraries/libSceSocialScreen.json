@@ -1,0 +1,67 @@
+{
+  "name": "libSceSocialScreen",
+  "label": "SocialScreen",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 11,
+  "total": 11,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSocialScreenCloseSeparateMode",
+      "nid": "vtZIn9HtYbs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSocialScreenConfigureSeparateMode",
+      "nid": "IEzqdjIueps",
+      "state": "stub"
+    },
+    {
+      "name": "sceSocialScreenCrashDaemon",
+      "nid": "GIHvC8x7LPo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSocialScreenGetIgnoreSeparateMode",
+      "nid": "8t+XNSyIXus",
+      "state": "stub"
+    },
+    {
+      "name": "sceSocialScreenInitialize",
+      "nid": "pI7oFSPP65A",
+      "state": "stub"
+    },
+    {
+      "name": "sceSocialScreenInitializeSeparateModeParameter",
+      "nid": "VMM7wQBZoBk",
+      "state": "stub"
+    },
+    {
+      "name": "sceSocialScreenOpenSeparateMode",
+      "nid": "SvdXHHt2LLE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSocialScreenReserveHighFrameRateVideoCaptureRequest",
+      "nid": "pfTzSIZFIwQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceSocialScreenSetIgnoreSeparateMode",
+      "nid": "Kct67JaDmkY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSocialScreenSetMode",
+      "nid": "6Me4hYsy3Kc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSocialScreenTerminate",
+      "nid": "OVNpYTRqN74",
+      "state": "stub"
+    }
+  ]
+}

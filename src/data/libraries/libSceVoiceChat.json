@@ -1,0 +1,222 @@
+{
+  "name": "libSceVoiceChat",
+  "label": "VoiceChat",
+  "category": "Audio and media",
+  "implemented": 10,
+  "inert": 32,
+  "stub": 0,
+  "total": 42,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "NAME",
+      "nid": "LZrhjyMwszE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceChatAbortRequest",
+      "nid": "07Dax1oKoV8",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatCreateRequest",
+      "nid": "hR8-CKMl2JQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceChatDeleteRequest",
+      "nid": "eEMpsX1fGHU",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatGetActiveChannel",
+      "nid": "3zxg2sNJtUo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceChatGetChannelMemberActiveChannelMatchingState",
+      "nid": "wOgJGhjCAmw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceChatGetChannelMemberVoiceConnectionState",
+      "nid": "iEEU+O+wPfM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceChatGetChatChannelMemberInfoList",
+      "nid": "FNzy4vvhlPY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceChatGetChatGroupMemberInfoList",
+      "nid": "g3CyiTf6nMY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceChatGetMicState",
+      "nid": "ai3eCxzTopg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceChatGetUserVoiceVolumeGain",
+      "nid": "g0WconwlR9Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceChatInitialize",
+      "nid": "spdS-hedavE",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatProcessEvent",
+      "nid": "CscDZAFA5+c",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatRegisterChannelEventHandler",
+      "nid": "Woveyx9jX5g",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatRegisterDaemonEventHandler",
+      "nid": "80FQ0y40KX8",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatRegisterHandlers",
+      "nid": "Ptmkf9UnWBg",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatRegisterMemberEventHandler",
+      "nid": "+SyqHVdjCtg",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatRegisterMicEventHandler",
+      "nid": "ajXKK3BOVc8",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatRegisterPartyUserStateChangedHandler",
+      "nid": "g8ElF8fTEWY",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatRegisterVoiceEventHandler",
+      "nid": "iNG7ompijf8",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatSetUserVoiceVolumeGain",
+      "nid": "KYm0FsNI9G0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceChatStartAccessibilityEvent",
+      "nid": "oePYzcRsvMI",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatStartChannelEvent",
+      "nid": "lfTlK1L84SY",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatStartDaemonEvent",
+      "nid": "ETZHsR12cGM",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatStartMemberEvent",
+      "nid": "pTXebzR0hWM",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatStartRangedMemberEvent",
+      "nid": "2BhKuOJW09M",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatStartVoiceEvent",
+      "nid": "aGXepxvA+cc",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatStopAccessibilityEvent",
+      "nid": "zI0DRzXCBWU",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatStopChannelEvent",
+      "nid": "o4TT-+bt1RE",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatStopDaemonEvent",
+      "nid": "4B9d4cnI8DM",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatStopMemberEvent",
+      "nid": "cV29Hb79uCo",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatStopRangedMemberEvent",
+      "nid": "hGNnGWatphA",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatStopVoiceEvent",
+      "nid": "dTm0bY7VW7c",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatTerminate",
+      "nid": "j43P62s5SX4",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatUnregisterAccessibilityEventHandler",
+      "nid": "Aj62Tur-hFc",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatUnregisterChannelEventHandler",
+      "nid": "MYpfQ35rxcE",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatUnregisterDaemonEventHandler",
+      "nid": "mIfgVnQWryE",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatUnregisterMemberEventHandler",
+      "nid": "SY8XnIb+Tr0",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatUnregisterMicEventHandler",
+      "nid": "X8PFsyb2UTk",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatUnregisterPartyUserStateChangedHandler",
+      "nid": "xPpcNY1gVTs",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatUnregisterRangedMemberEventHandler",
+      "nid": "8lJ9lIurqsE",
+      "state": "inert"
+    },
+    {
+      "name": "sceVoiceChatUnregisterVoiceEventHandler",
+      "nid": "N2fHxrJvZJo",
+      "state": "inert"
+    }
+  ]
+}

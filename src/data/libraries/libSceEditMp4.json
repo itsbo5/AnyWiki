@@ -1,0 +1,57 @@
+{
+  "name": "libSceEditMp4",
+  "label": "EditMp4",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 9,
+  "total": 9,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceEditMp4Abort",
+      "nid": "rWapdQmQQRQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceEditMp4Edit",
+      "nid": "fXODRwVnRe4",
+      "state": "stub"
+    },
+    {
+      "name": "sceEditMp4GetStatus",
+      "nid": "W5iJUafU8r4",
+      "state": "stub"
+    },
+    {
+      "name": "sceEditMp4Initialize",
+      "nid": "TzoWJFBjBW8",
+      "state": "stub"
+    },
+    {
+      "name": "sceEditMp4InitializeParam",
+      "nid": "WVBXdDlF1TE",
+      "state": "stub"
+    },
+    {
+      "name": "sceEditMp4QueryMemSize",
+      "nid": "g8urym+l4UU",
+      "state": "stub"
+    },
+    {
+      "name": "sceEditMp4SetFinishCallback",
+      "nid": "74PbyKbRv-I",
+      "state": "stub"
+    },
+    {
+      "name": "sceEditMp4Terminate",
+      "nid": "F0Sos4cB8Zg",
+      "state": "stub"
+    },
+    {
+      "name": "sceEditMp4Unite",
+      "nid": "P9v+xD9gBQU",
+      "state": "stub"
+    }
+  ]
+}

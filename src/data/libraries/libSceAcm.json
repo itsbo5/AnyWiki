@@ -1,0 +1,72 @@
+{
+  "name": "libSceAcm",
+  "label": "Acm",
+  "category": "Audio and media",
+  "implemented": 7,
+  "inert": 1,
+  "stub": 4,
+  "total": 12,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAcmBatchJobNotification",
+      "nid": "r7z5YQFZo+U",
+      "state": "stub"
+    },
+    {
+      "name": "sceAcmBatchJobPriority",
+      "nid": "GTfJ64qFCPw",
+      "state": "stub"
+    },
+    {
+      "name": "sceAcmBatchStartBuffer",
+      "nid": "tW9W+CAG4FE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAcmBatchStartBuffers",
+      "nid": "8fe55ktlNVo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAcmBatchWait",
+      "nid": "RLN3gRlXJLE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAcmContextCreate",
+      "nid": "ZIXln2K3XMk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAcmContextDestroy",
+      "nid": "jBgBjAj02R8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAcm_ConvReverb_SharedInput",
+      "nid": "u70oWo92SYQ",
+      "state": "inert"
+    },
+    {
+      "name": "sceAcm_ConvReverb_SharedIr",
+      "nid": "9nLbWmRDpa8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAcm_FFT",
+      "nid": "KovqaFbmtsM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAcm_IFFT",
+      "nid": "DR-ZCmvVR9Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceAcm_Panner",
+      "nid": "LA4RCNKnFjg",
+      "state": "implemented"
+    }
+  ]
+}

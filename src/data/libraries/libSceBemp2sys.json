@@ -1,0 +1,167 @@
+{
+  "name": "libSceBemp2sys",
+  "label": "Bemp2sys",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 31,
+  "total": 31,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "bemp2sys_logprintf_getlevel_nid_postfix",
+      "nid": "bvS9FzeZUy0",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_logprintf_setfunc_nid_postfix",
+      "nid": "kULCDAVIbaQ",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_logprintf_setlevel_nid_postfix",
+      "nid": "Pf6uOx8mz2c",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_memmanager_set_nid_postfix",
+      "nid": "64uKbNSAqz4",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_packetizer_create_nid_postfix",
+      "nid": "+5srK2lj7QE",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_packetizer_destroy_nid_postfix",
+      "nid": "X5Nlc0GzC3o",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_packetizer_init_nid_postfix",
+      "nid": "Q8sh1SJR+Fc",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_packetizer_release_nid_postfix",
+      "nid": "zm-QQXDNASo",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_pesparser_create_nid_postfix",
+      "nid": "o9XH5ryOZZ8",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_pesparser_destroy_nid_postfix",
+      "nid": "N9qtGvGDO5s",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_pesparser_init_nid_postfix",
+      "nid": "TkA+abHJj6Y",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_pesparser_parse_nid_postfix",
+      "nid": "-zw3UWBWcLY",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_pesparser_release_nid_postfix",
+      "nid": "lnMt3yfnCr4",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_pesparser_sendmessage_nid_postfix",
+      "nid": "CBxqApDXBZg",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_psdecoder_create_nid_postfix",
+      "nid": "sRVMGAO5YVw",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_psdecoder_destroy_nid_postfix",
+      "nid": "mT6YvL4rL30",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_psdecoder_init_nid_postfix",
+      "nid": "QwtCybcHWUw",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_psdecoder_readpacket_nid_postfix",
+      "nid": "cLL9HLXvORU",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_psdecoder_release_nid_postfix",
+      "nid": "k59zLm8YE48",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_psdecoder_sendmessage_nid_postfix",
+      "nid": "dsMkot3JW0Q",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_tsdecoder_create_nid_postfix",
+      "nid": "k-HHu-MCDKY",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_tsdecoder_destroy_nid_postfix",
+      "nid": "mAsbJd75NlE",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_tsdecoder_init_nid_postfix",
+      "nid": "pLZjnRKlT8I",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_tsdecoder_readpacket_nid_postfix",
+      "nid": "AOqTxGzrItg",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_tsdecoder_release_nid_postfix",
+      "nid": "+NHDENlujBE",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_tsdecoder_sendmessage_nid_postfix",
+      "nid": "SqntT5uFvGE",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_tsfilter_create_nid_postfix",
+      "nid": "2B0+b6Jl9f0",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_tsfilter_destroy_nid_postfix",
+      "nid": "rGyTnNwjcaU",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_tsfilter_init_nid_postfix",
+      "nid": "7BcIE6z8iN8",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_tsfilter_release_nid_postfix",
+      "nid": "lb-gNglY6Oc",
+      "state": "stub"
+    },
+    {
+      "name": "bemp2sys_tsfilter_sendmessage_nid_postfix",
+      "nid": "KvWbV7MMhfc",
+      "state": "stub"
+    }
+  ]
+}

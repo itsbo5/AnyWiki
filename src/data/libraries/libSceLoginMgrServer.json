@@ -1,0 +1,162 @@
+{
+  "name": "libSceLoginMgrServer",
+  "label": "LoginMgrServer",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 30,
+  "total": 30,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceLoginMgrServerCheckSafetyNoticeShown",
+      "nid": "gdVNTX4s0XE",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerClearMorpheusRequiredUserId",
+      "nid": "m0xKuqISvWY",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerConvertToUserId",
+      "nid": "VLB2F2owln0",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerCreateUser",
+      "nid": "AT6NySjQ2gY",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerDestroyUser",
+      "nid": "REIRIXzv-H0",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerDialogGetAppId",
+      "nid": "wZ2eXClFUaE",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerDialogGetOpenParam",
+      "nid": "6+tPBogghdI",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerDialogNotifyCloseFinished",
+      "nid": "JkygqqJPGdw",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerDialogNotifyOpenFinished",
+      "nid": "ci5qfgD5F58",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerDialogSetResult",
+      "nid": "YMxfNRx4DR4",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerGetLogoutInfo",
+      "nid": "K+WAuNzvn3g",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerGetMorpheusRequiredUserId",
+      "nid": "XpuZT1pS47A",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerGetSharePlayAllowPadOperation",
+      "nid": "z4VKVtL7JbU",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerInitialize",
+      "nid": "4J3Z9DzaMzs",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerInitializeSharePlayAllowPadOperation",
+      "nid": "Xo9MQFVHpAQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerIsRequestedCdlgClose",
+      "nid": "mwCjW5FlkG4",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerLoginServiceGetRequestParam",
+      "nid": "P1su7LBMSUw",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerLoginServiceNotifyRequestFinished",
+      "nid": "bE03GJF7Bfc",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerNotifyEasySignInFinished",
+      "nid": "dxpQVn+xVYE",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerNotifyEasySignInUserCode",
+      "nid": "GF+GkOCVVLg",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerNotifyHmdConnectInfo",
+      "nid": "F+xsDVy+gqw",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerNotifySafetyNoticeShown",
+      "nid": "ozddwj2QrKI",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerNotifyShellUIState",
+      "nid": "LffcWEebPwg",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerSetLoginFlag",
+      "nid": "Jha8yMoMzrg",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerSetMorpheusAssignEnabledFlag",
+      "nid": "DnC0qZ9h+Ms",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerSetMorpheusRequiredUserId",
+      "nid": "wkIxHrwZ3+M",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerSetSharePlayMode",
+      "nid": "KxitkrVcrSg",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerSetUserStatus",
+      "nid": "-+h1C78SdyU",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerTerminate",
+      "nid": "NtHCBzSqxgo",
+      "state": "stub"
+    },
+    {
+      "name": "sceLoginMgrServerUpdateUserIdRalatedToPadUniqueId",
+      "nid": "NQY2wMTV0ms",
+      "state": "stub"
+    }
+  ]
+}

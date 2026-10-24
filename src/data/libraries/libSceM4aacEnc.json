@@ -1,0 +1,97 @@
+{
+  "name": "libSceM4aacEnc",
+  "label": "M4aacEnc",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 17,
+  "total": 17,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceM4aacEncClearContext",
+      "nid": "uPqxvaoLkbM",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncClearContextEx",
+      "nid": "rukSIqiQ-CQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncCreateEncoder",
+      "nid": "U2iepfgrDMg",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncCreateEncoderEx",
+      "nid": "sHd+Oo1+vGI",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncDeleteEncoder",
+      "nid": "z394AzuRItE",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncDeleteEncoderEx",
+      "nid": "5JywDY5LQK0",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncEncode",
+      "nid": "Fqn-wkJCOes",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncEncodeEx",
+      "nid": "0lxRS-x+kFI",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncEncodeWithPriority",
+      "nid": "GXQ2KV8thlc",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncEncodeWithPriorityEx",
+      "nid": "+dwA2Fv+uXk",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncFlush",
+      "nid": "+MdgHI0TYOw",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncFlushEx",
+      "nid": "LlCP8+zNfPo",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncFlushWithPriority",
+      "nid": "1LChgwRxJs0",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncFlushWithPriorityEx",
+      "nid": "vjjJqCmTcVo",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncGetContext",
+      "nid": "S0mnCPikRiA",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncInitialize",
+      "nid": "cFUQRjzKDvI",
+      "state": "stub"
+    },
+    {
+      "name": "sceM4aacEncTerminate",
+      "nid": "9nTsENYMulM",
+      "state": "stub"
+    }
+  ]
+}

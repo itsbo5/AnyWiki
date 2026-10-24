@@ -1,0 +1,32 @@
+{
+  "name": "libSceVideoCoreInterface",
+  "label": "VideoCoreInterface",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 4,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVideoCoreIfInitializeInterface",
+      "nid": "Te4fj9mHFME",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreIfMainLoop",
+      "nid": "a5Z4yyiPbK8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreIfSetFunctionTable",
+      "nid": "XHpx2nxF-BQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoCoreIfSetFunctionTableUnlimited",
+      "nid": "tXNLLCUCfOE",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "libSceDiscMap",
+  "label": "DiscMap",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 2,
+  "stub": 1,
+  "total": 3,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceDiscMapGetPackageSize",
+      "nid": "fl1eoDnwQ4s",
+      "state": "stub"
+    },
+    {
+      "name": "sceDiscMapIsRequestOnHDD",
+      "nid": "lbQKqsERhtE",
+      "state": "inert"
+    },
+    {
+      "name": "sceDiscMapUnknown_ioKMruft1ek",
+      "nid": "rYeuVKb2RZQ",
+      "state": "inert"
+    }
+  ]
+}

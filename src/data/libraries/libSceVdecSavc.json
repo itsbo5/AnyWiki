@@ -1,0 +1,32 @@
+{
+  "name": "libSceVdecSavc",
+  "label": "VdecSavc",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 4,
+  "total": 4,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSdecCreateSw",
+      "nid": "czjZfpELYZs",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdecDestroySw",
+      "nid": "p6Wz7W1Vu9k",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdecGetVersionSw",
+      "nid": "TSZzWjvbJGE",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdecQueryMemorySw",
+      "nid": "zid2aggMils",
+      "state": "stub"
+    }
+  ]
+}

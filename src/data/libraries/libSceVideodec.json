@@ -1,0 +1,47 @@
+{
+  "name": "libSceVideodec",
+  "label": "Videodec",
+  "category": "Graphics and video",
+  "implemented": 6,
+  "inert": 0,
+  "stub": 1,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVideodecCreateDecoder",
+      "nid": "qkgRiwHyheU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodecDecode",
+      "nid": "q0W5GJMovMs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodecDeleteDecoder",
+      "nid": "U0kpGF1cl90",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodecFlush",
+      "nid": "jeigLlKdp5I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodecMapMemory",
+      "nid": "kg+lH0V61hM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideodecQueryResourceInfo",
+      "nid": "leCAscipfFY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideodecReset",
+      "nid": "f8AgDv-1X8A",
+      "state": "implemented"
+    }
+  ]
+}

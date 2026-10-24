@@ -1,0 +1,322 @@
+{
+  "name": "libSceVideoOut",
+  "label": "VideoOut",
+  "category": "Graphics and video",
+  "implemented": 54,
+  "inert": 1,
+  "stub": 7,
+  "total": 62,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceDbgVideoOutAddOutputModeVr60Privilege",
+      "nid": "v+CRSpiQyVM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoOutAddBufferAttributeOption",
+      "nid": "MBlv8YWoyOk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutAddFlipEvent",
+      "nid": "HXzjK9yI30k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutAddOutputModeEvent",
+      "nid": "kmSe30JTs+E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutAddPreVblankStartEvent",
+      "nid": "keipklF0pMY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutAddVblankEvent",
+      "nid": "Xru92wHJRmg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutAddVrrActiveStatusEvent",
+      "nid": "LibwuIonIBw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutAddVrrStatusFlagsPrivilege",
+      "nid": "kP2L8t3j-aM",
+      "state": "inert"
+    },
+    {
+      "name": "sceVideoOutAdjustColor",
+      "nid": "ipf9hrW6kBY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutAdjustColorSpaceConversion",
+      "nid": "RJPj0N1Wc+M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutAdjustColorSpaceConversion_",
+      "nid": "dYDAfB+cJEU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutAdjustColor_",
+      "nid": "pv9CI5VC+R0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutAllowOutputResolutionWqhdDetection",
+      "nid": "w7Ipp9Xl7hg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutClearFlipMaster",
+      "nid": "T0ynQY3mH-0",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoOutClose",
+      "nid": "uquVH4-Du78",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutColorSettingsSetGamma",
+      "nid": "7wEmHVceFNg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutColorSettingsSetGamma_",
+      "nid": "DYhhWbJSeRg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutColorSpaceConversionSettingsSetDefaultSdrToHdrConversion",
+      "nid": "uXRI42H7KOw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutColorSpaceConversionSettingsSetDefaultSdrToHdrConversion_",
+      "nid": "JpAYkddCFjk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutColorSpaceConversionSettingsSetSdrToHdrConversion",
+      "nid": "5yQ7co7ZwOc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutColorSpaceConversionSettingsSetSdrToHdrConversion_",
+      "nid": "Yn8KT+VTZaE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutConfigureOutput",
+      "nid": "w0hLuNarQxY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutCursorDisable",
+      "nid": "fEPEwROdCwM",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoOutCursorEnable",
+      "nid": "UPZWCH8qTM4",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoOutCursorSetImageAddress",
+      "nid": "u-9bhWQApq8",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoOutCursorSetPosition",
+      "nid": "N17AK88NdD0",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoOutDeleteFlipEvent",
+      "nid": "-Ozn0F1AFRg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutDeleteOutputModeEvent",
+      "nid": "vwtVpHQKelI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutDeletePreVblankStartEvent",
+      "nid": "elWQ9vERF-Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutDeleteVblankEvent",
+      "nid": "oNOQn3knW6s",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutDeleteVrrActiveStatusEvent",
+      "nid": "-q-vbO859Tw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutGetBufferLabelAddress",
+      "nid": "OcQybQejHEY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutGetEventCount",
+      "nid": "Mt4QHHkxkOc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutGetEventData",
+      "nid": "rWUTcKdkUzQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutGetEventId",
+      "nid": "U2JJtSqNKZI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutGetFlipStatus",
+      "nid": "SbU3dwp80lQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutGetOutputStatus",
+      "nid": "utPrVdxio-8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutGetOutputStatusWithVrr",
+      "nid": "gWT7X8H0bYs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutGetResolutionStatus",
+      "nid": "6kPnj51T62Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutGetVblankStatus",
+      "nid": "1FZBKy8HeNU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutInitializeOutputOptions",
+      "nid": "+I4K03i3EL0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutIsFlipPending",
+      "nid": "zgXifHT9ErY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutIsOutputSupported",
+      "nid": "Nv8c-Kb+DUM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutLatencyControlWaitBeforeInput",
+      "nid": "eb-gvTYQcoY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutLatencyMeasureSetStartPoint",
+      "nid": "MCJ8SkzsQxY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutOpen",
+      "nid": "Up36PTk687E",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutRegisterBuffers",
+      "nid": "w3BY+tAEiQY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutRegisterBuffers2",
+      "nid": "rKBUtgRrtbk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutRemoveBufferAttributeOption",
+      "nid": "k4Ak+e2D1Hg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutSetBufferAttribute",
+      "nid": "i6-sR91Wt-4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutSetBufferAttribute2",
+      "nid": "PjS5uASwcV8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutSetFlipMaster",
+      "nid": "WkYtyOg30do",
+      "state": "stub"
+    },
+    {
+      "name": "sceVideoOutSetFlipRate",
+      "nid": "CBiu4mCE1DA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutSetGlobalBlendSpace",
+      "nid": "pA8xxaySl7A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutSetWindowModeMargins",
+      "nid": "MTxxrOCeSig",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutSubmitChangeBufferAttribute2",
+      "nid": "HuViW4HnrOw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutSubmitEopFlip",
+      "nid": "j8xl+92A0q4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutSubmitFlip",
+      "nid": "U46NwOiJpys",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutUnregisterBuffers",
+      "nid": "N5KDtkIjjJ4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutVrrPegToFixedRate",
+      "nid": "5tRaBjtdTzY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutVrrUnpegFromFixedRate",
+      "nid": "T4ucGB8CsnM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVideoOutWaitVblank",
+      "nid": "j6RaAUlaLv0",
+      "state": "implemented"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "libScePatchCheckerClient",
+  "label": "PatchCheckerClient",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 12,
+  "total": 12,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePatchCheckerCancel",
+      "nid": "xTJYIk5zjF8",
+      "state": "stub"
+    },
+    {
+      "name": "scePatchCheckerCheckPatch",
+      "nid": "Bm9eE0veFss",
+      "state": "stub"
+    },
+    {
+      "name": "scePatchCheckerCreateHandler",
+      "nid": "MHUY7dC9vrM",
+      "state": "stub"
+    },
+    {
+      "name": "scePatchCheckerDestroyHandler",
+      "nid": "9s6ZwdTXAmc",
+      "state": "stub"
+    },
+    {
+      "name": "scePatchCheckerDisableAutoDownload",
+      "nid": "b4t2jOPTxts",
+      "state": "stub"
+    },
+    {
+      "name": "scePatchCheckerEnableAutoDownload",
+      "nid": "Ls3rKzckGXQ",
+      "state": "stub"
+    },
+    {
+      "name": "scePatchCheckerGetApplicableTick",
+      "nid": "+hLkT-vIyQE",
+      "state": "stub"
+    },
+    {
+      "name": "scePatchCheckerGetPackageInfo",
+      "nid": "B6TZJJ+mf9Y",
+      "state": "stub"
+    },
+    {
+      "name": "scePatchCheckerInitialize",
+      "nid": "m8oc1t4Rp28",
+      "state": "stub"
+    },
+    {
+      "name": "scePatchCheckerRequestCheckPatch",
+      "nid": "TlbTYydth54",
+      "state": "stub"
+    },
+    {
+      "name": "scePatchCheckerRequestCheckPatchByType",
+      "nid": "Kru1Y4HvomI",
+      "state": "stub"
+    },
+    {
+      "name": "scePatchCheckerTerminate",
+      "nid": "rjXFQQQrE+k",
+      "state": "stub"
+    }
+  ]
+}

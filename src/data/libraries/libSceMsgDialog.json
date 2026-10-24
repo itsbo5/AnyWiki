@@ -1,0 +1,62 @@
+{
+  "name": "libSceMsgDialog",
+  "label": "MsgDialog",
+  "category": "System utilities",
+  "implemented": 10,
+  "inert": 0,
+  "stub": 0,
+  "total": 10,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceMsgDialogClose",
+      "nid": "HTrcDKlFKuM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMsgDialogGetResult",
+      "nid": "Lr8ovHH9l6A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMsgDialogGetStatus",
+      "nid": "CWVW78Qc3fI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMsgDialogInitialize",
+      "nid": "lDqxaY1UbEo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMsgDialogOpen",
+      "nid": "b06Hh0DPEaE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMsgDialogProgressBarInc",
+      "nid": "Gc5k1qcK4fs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMsgDialogProgressBarSetMsg",
+      "nid": "6H-71OdrpXM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMsgDialogProgressBarSetValue",
+      "nid": "wTpfglkmv34",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMsgDialogTerminate",
+      "nid": "ePw-kqZmelo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceMsgDialogUpdateStatus",
+      "nid": "6fIC3XKt2k0",
+      "state": "implemented"
+    }
+  ]
+}

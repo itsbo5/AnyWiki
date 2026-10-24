@@ -1,0 +1,47 @@
+{
+  "name": "libSceLoginDialog",
+  "label": "LoginDialog",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceLoginDialogClose",
+      "nid": "F0XIzrG5yvw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceLoginDialogGetResult",
+      "nid": "Btkx21f1M8k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceLoginDialogGetStatus",
+      "nid": "HAiWUEwEfGo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceLoginDialogInitialize",
+      "nid": "qP-EvQRl2Hc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceLoginDialogOpen",
+      "nid": "S56ra1+Tymg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceLoginDialogTerminate",
+      "nid": "vMQJRUKsf3U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceLoginDialogUpdateStatus",
+      "nid": "2rc+egSfb5A",
+      "state": "implemented"
+    }
+  ]
+}

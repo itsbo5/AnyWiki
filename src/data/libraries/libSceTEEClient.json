@@ -1,0 +1,62 @@
+{
+  "name": "libSceTEEClient",
+  "label": "TEEClient",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 10,
+  "total": 10,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "AMDTEE_DLM_FetchDebugStrings_nid_postfix",
+      "nid": "FBi0M+uv5SQ",
+      "state": "stub"
+    },
+    {
+      "name": "AMDTEE_DLM_GetDebugToken_nid_postfix",
+      "nid": "b1df-IRNWtk",
+      "state": "stub"
+    },
+    {
+      "name": "AMDTEE_DLM_StopTADebug_nid_postfix",
+      "nid": "ZKitLiPiXo0",
+      "state": "stub"
+    },
+    {
+      "name": "TEECI_InitASD_nid_postfix",
+      "nid": "FZ-Pyzw1fDs",
+      "state": "stub"
+    },
+    {
+      "name": "TEECI_SetTimeout_nid_postfix",
+      "nid": "ynVwY5MiL9s",
+      "state": "stub"
+    },
+    {
+      "name": "TEEC_CloseSession_nid_postfix",
+      "nid": "tB8VSQxcLgY",
+      "state": "stub"
+    },
+    {
+      "name": "TEEC_InvokeCommand_nid_postfix",
+      "nid": "NmFAwuLZv4M",
+      "state": "stub"
+    },
+    {
+      "name": "TEEC_OpenSession_nid_postfix",
+      "nid": "TgokQwGnMSQ",
+      "state": "stub"
+    },
+    {
+      "name": "TEEC_ReleaseSharedMemory_nid_postfix",
+      "nid": "RZWkG1pF3lM",
+      "state": "stub"
+    },
+    {
+      "name": "TEEC_RequestCancellation_nid_postfix",
+      "nid": "RjoKcnt0gxQ",
+      "state": "stub"
+    }
+  ]
+}

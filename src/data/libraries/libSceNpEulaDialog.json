@@ -1,0 +1,57 @@
+{
+  "name": "libSceNpEulaDialog",
+  "label": "NpEulaDialog",
+  "category": "Network and services",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 9,
+  "total": 9,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpEulaDialogCheckVersion",
+      "nid": "toOJe5IsGwg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpEulaDialogCheckVersionAbort",
+      "nid": "Utd-6hXTsFQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpEulaDialogClose",
+      "nid": "aQZPV4OQRGo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpEulaDialogGetResult",
+      "nid": "5fq+oTNFedg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpEulaDialogGetStatus",
+      "nid": "kTsZrONvKNc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpEulaDialogInitialize",
+      "nid": "KXsx2C05JqA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpEulaDialogOpen",
+      "nid": "BV1OcAHhXnA",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpEulaDialogTerminate",
+      "nid": "f8NjlGw6TgQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpEulaDialogUpdateStatus",
+      "nid": "BonkDE5m1Ss",
+      "state": "stub"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "libSceNpPartner001",
+  "label": "NpPartner001",
+  "category": "Network and services",
+  "implemented": 3,
+  "inert": 0,
+  "stub": 0,
+  "total": 3,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpEAAccessInitialize",
+      "nid": "7CxI50-xlCk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpEAAccessTerminate",
+      "nid": "pMxXhNozUX8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpHasEAAccessSubscription",
+      "nid": "+OnbUs1CV0M",
+      "state": "implemented"
+    }
+  ]
+}

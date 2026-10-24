@@ -1,0 +1,47 @@
+{
+  "name": "libScePs2EmuMenuDialog",
+  "label": "Ps2EmuMenuDialog",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 7,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "scePs2EmuMenuDialogClose",
+      "nid": "zTnim89xUWY",
+      "state": "stub"
+    },
+    {
+      "name": "scePs2EmuMenuDialogGetResult",
+      "nid": "eVkl4XZTS6M",
+      "state": "stub"
+    },
+    {
+      "name": "scePs2EmuMenuDialogGetStatus",
+      "nid": "45M67FoqnUo",
+      "state": "stub"
+    },
+    {
+      "name": "scePs2EmuMenuDialogInitialize",
+      "nid": "F70KBaPW924",
+      "state": "stub"
+    },
+    {
+      "name": "scePs2EmuMenuDialogOpen",
+      "nid": "coiMIPkR+Ro",
+      "state": "stub"
+    },
+    {
+      "name": "scePs2EmuMenuDialogTerminate",
+      "nid": "s1zGYYF-xC0",
+      "state": "stub"
+    },
+    {
+      "name": "scePs2EmuMenuDialogUpdateStatus",
+      "nid": "KVDCpwJXoxw",
+      "state": "stub"
+    }
+  ]
+}

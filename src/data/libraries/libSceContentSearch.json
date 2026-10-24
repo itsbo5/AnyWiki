@@ -1,0 +1,127 @@
+{
+  "name": "libSceContentSearch",
+  "label": "ContentSearch",
+  "category": "System utilities",
+  "implemented": 19,
+  "inert": 0,
+  "stub": 4,
+  "total": 23,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceContentBinderEnd",
+      "nid": "hvfrzWFz2aE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentBinderGetNumOfDifference",
+      "nid": "IElCGP1gobk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentBinderInitialize",
+      "nid": "V5NUMrn5cEQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentBinderIsUpdated",
+      "nid": "W4kZjfF08xU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentBinderReset",
+      "nid": "tzgPpLnmFbc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentBinderSearchDifference",
+      "nid": "gYr9dLq8Y10",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentBinderStart",
+      "nid": "mlBEgk9o0SE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentBinderTerminate",
+      "nid": "XYm1wQQEDc0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentSearchCloseMetadata",
+      "nid": "-YbpaF0XS-I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentSearchGetApplicationLastUpdateId",
+      "nid": "jGHBPci4dzU",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentSearchGetContentLastUpdateId",
+      "nid": "PD5bnBTsv6Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentSearchGetMetadataFieldInfo",
+      "nid": "EbNufIY0Zvc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentSearchGetMetadataValue",
+      "nid": "ruNe-FgCzO8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentSearchGetMyApplicationIndex",
+      "nid": "FRT4EYtZU1Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentSearchGetNumOfApplication",
+      "nid": "BU0x8ye5-dI",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentSearchGetNumOfContent",
+      "nid": "o-RBPV0qr8c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentSearchGetTotalContentSize",
+      "nid": "i2ZMZKwZpWs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentSearchInit",
+      "nid": "dPj4ZtRcIWk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentSearchOpenMetadata",
+      "nid": "G13HF1z-e4o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentSearchOpenMetadataByContentId",
+      "nid": "bjAlYWwRTJA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentSearchSearchApplication",
+      "nid": "m-S3-C-USvs",
+      "state": "stub"
+    },
+    {
+      "name": "sceContentSearchSearchContent",
+      "nid": "TEW3IKxYfXc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceContentSearchTerm",
+      "nid": "1xSZodB2geA",
+      "state": "implemented"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "name": "libSceAppContent",
+  "label": "AppContent",
+  "category": "System utilities",
+  "implemented": 16,
+  "inert": 0,
+  "stub": 16,
+  "total": 32,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAppContentAddcontDelete",
+      "nid": "ZiATpP9gEkA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentAddcontEnqueueDownload",
+      "nid": "7gxh+5QubhY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentAddcontEnqueueDownloadByEntitlemetId",
+      "nid": "kJmjt81mXKQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentAddcontEnqueueDownloadSp",
+      "nid": "TVM-aYIsG9k",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentAddcontMount",
+      "nid": "VANhIWcqYak",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentAddcontMountByEntitlemetId",
+      "nid": "efX3lrPwdKA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentAddcontShrink",
+      "nid": "D3H+cjfzzFY",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentAddcontUnmount",
+      "nid": "3rHWaV-1KC4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentAppParamGetInt",
+      "nid": "99b82IKXpH4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentAppParamGetString",
+      "nid": "+OlXCu8qxUk",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentDownload0Expand",
+      "nid": "gpGZDB4ZlrI",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentDownload0Shrink",
+      "nid": "S5eMvWnbbXg",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentDownload1Expand",
+      "nid": "B5gVeVurdUA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentDownload1Shrink",
+      "nid": "kUeYucqnb7o",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentDownloadDataFormat",
+      "nid": "CN7EbEV7MFU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentDownloadDataGetAvailableSpaceKb",
+      "nid": "Gl6w5i0JokY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentGetAddcontDownloadProgress",
+      "nid": "5bvvbUSiFs4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentGetAddcontInfo",
+      "nid": "m47juOmH0VE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentGetAddcontInfoByEntitlementId",
+      "nid": "z9hgjLd1SGA",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentGetAddcontInfoList",
+      "nid": "xnd8BJzAxmk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentGetAddcontInfoListByIroTag",
+      "nid": "3wUaDTGmjcQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentGetDownloadedStoreCountry",
+      "nid": "TCqT7kPuGx0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentGetEntitlementKey",
+      "nid": "XTWR0UXvcgs",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentGetPftFlag",
+      "nid": "xmhnAoxN3Wk",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentGetRegion",
+      "nid": "74-1x3lyZK8",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentInitialize",
+      "nid": "R9lA82OraNs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentRequestPatchInstall",
+      "nid": "bVtF7v2uqT0",
+      "state": "stub"
+    },
+    {
+      "name": "sceAppContentTemporaryDataFormat",
+      "nid": "a5N7lAG0y2Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentTemporaryDataGetAvailableSpaceKb",
+      "nid": "SaKib2Ug0yI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentTemporaryDataMount",
+      "nid": "7bOLX66Iz-U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentTemporaryDataMount2",
+      "nid": "buYbeLOGWmA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceAppContentTemporaryDataUnmount",
+      "nid": "bcolXMmp6qQ",
+      "state": "implemented"
+    }
+  ]
+}

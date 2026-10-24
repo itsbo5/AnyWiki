@@ -1,0 +1,2007 @@
+{
+  "name": "libSceLibreSsl",
+  "label": "LibreSsl",
+  "category": "Network and services",
+  "implemented": 37,
+  "inert": 3,
+  "stub": 359,
+  "total": 399,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "AES_cbc_encrypt_nid_postfix",
+      "nid": "Y0xpu2saJm8",
+      "state": "implemented"
+    },
+    {
+      "name": "AES_cfb128_encrypt_nid_postfix",
+      "nid": "5XLL1RLcFf4",
+      "state": "implemented"
+    },
+    {
+      "name": "AES_ctr128_encrypt_nid_postfix",
+      "nid": "jkCfbA0TPB0",
+      "state": "implemented"
+    },
+    {
+      "name": "AES_decrypt_nid_postfix",
+      "nid": "HR2N02YaBS0",
+      "state": "implemented"
+    },
+    {
+      "name": "AES_ecb_encrypt_nid_postfix",
+      "nid": "PTqoifzgfOw",
+      "state": "implemented"
+    },
+    {
+      "name": "AES_encrypt_nid_postfix",
+      "nid": "B3Vp3aHqEqY",
+      "state": "implemented"
+    },
+    {
+      "name": "AES_set_decrypt_key_nid_postfix",
+      "nid": "-OghmdEVljM",
+      "state": "implemented"
+    },
+    {
+      "name": "AES_set_encrypt_key_nid_postfix",
+      "nid": "haswYXb2yjM",
+      "state": "implemented"
+    },
+    {
+      "name": "ASN1_INTEGER_get_nid_postfix",
+      "nid": "N5a305RcKU4",
+      "state": "stub"
+    },
+    {
+      "name": "ASN1_STRING_data_nid_postfix",
+      "nid": "3URm6amSyGM",
+      "state": "stub"
+    },
+    {
+      "name": "ASN1_STRING_length_nid_postfix",
+      "nid": "ZQye5RgaIlc",
+      "state": "stub"
+    },
+    {
+      "name": "ASN1_STRING_print_nid_postfix",
+      "nid": "WaMw6Akbw-0",
+      "state": "stub"
+    },
+    {
+      "name": "ASN1_STRING_to_UTF8_nid_postfix",
+      "nid": "d0z09bUzsiM",
+      "state": "stub"
+    },
+    {
+      "name": "ASN1_STRING_type_nid_postfix",
+      "nid": "VoR+qwn6zvg",
+      "state": "stub"
+    },
+    {
+      "name": "ASN1_TIME_print_nid_postfix",
+      "nid": "cS-imADqrSI",
+      "state": "stub"
+    },
+    {
+      "name": "BIO_ctrl_nid_postfix",
+      "nid": "-pEqDHy0A4g",
+      "state": "stub"
+    },
+    {
+      "name": "BIO_f_ssl_nid_postfix",
+      "nid": "09-osszsvgQ",
+      "state": "stub"
+    },
+    {
+      "name": "BIO_free_nid_postfix",
+      "nid": "E+YXPxOv2go",
+      "state": "stub"
+    },
+    {
+      "name": "BIO_new_fp_nid_postfix",
+      "nid": "p7gyBp-ehu0",
+      "state": "stub"
+    },
+    {
+      "name": "BIO_new_mem_buf_nid_postfix",
+      "nid": "ft185NxI7+o",
+      "state": "stub"
+    },
+    {
+      "name": "BIO_new_nid_postfix",
+      "nid": "wscFmbqrZGQ",
+      "state": "stub"
+    },
+    {
+      "name": "BIO_new_socket_nid_postfix",
+      "nid": "YuHRb1mcg2c",
+      "state": "stub"
+    },
+    {
+      "name": "BIO_printf_nid_postfix",
+      "nid": "3nKCfY58n9M",
+      "state": "stub"
+    },
+    {
+      "name": "BIO_puts_nid_postfix",
+      "nid": "ZOB4-KQb6jE",
+      "state": "stub"
+    },
+    {
+      "name": "BIO_s_file_nid_postfix",
+      "nid": "Rcf0AIWn1k0",
+      "state": "stub"
+    },
+    {
+      "name": "BIO_s_mem_nid_postfix",
+      "nid": "+QZhTKIpjrs",
+      "state": "stub"
+    },
+    {
+      "name": "BIO_write_nid_postfix",
+      "nid": "cxzdq0wkIzA",
+      "state": "stub"
+    },
+    {
+      "name": "BN_CTX_end_nid_postfix",
+      "nid": "uIqHvoDhVEM",
+      "state": "stub"
+    },
+    {
+      "name": "BN_CTX_free_nid_postfix",
+      "nid": "oLeAXj4oX9w",
+      "state": "stub"
+    },
+    {
+      "name": "BN_CTX_new_nid_postfix",
+      "nid": "ACpd8hWYB9A",
+      "state": "stub"
+    },
+    {
+      "name": "BN_CTX_start_nid_postfix",
+      "nid": "b0RSSxEoZvE",
+      "state": "stub"
+    },
+    {
+      "name": "BN_add_word_nid_postfix",
+      "nid": "-CAnDrL3s9k",
+      "state": "stub"
+    },
+    {
+      "name": "BN_bin2bn_nid_postfix",
+      "nid": "VXolYlk9Vv0",
+      "state": "stub"
+    },
+    {
+      "name": "BN_bn2bin_nid_postfix",
+      "nid": "UpA0vT6SjBs",
+      "state": "stub"
+    },
+    {
+      "name": "BN_free_nid_postfix",
+      "nid": "RZ-ZeHAeEVY",
+      "state": "stub"
+    },
+    {
+      "name": "BN_hex2bn_nid_postfix",
+      "nid": "cER7Q3tlmSI",
+      "state": "stub"
+    },
+    {
+      "name": "BN_mod_inverse_nid_postfix",
+      "nid": "7R1Gmi8tSdQ",
+      "state": "stub"
+    },
+    {
+      "name": "BN_mul_nid_postfix",
+      "nid": "iRpFh6KZrz0",
+      "state": "stub"
+    },
+    {
+      "name": "BN_new_nid_postfix",
+      "nid": "14HohPLVJwM",
+      "state": "stub"
+    },
+    {
+      "name": "BN_num_bits_nid_postfix",
+      "nid": "0cfzAO4ua0c",
+      "state": "stub"
+    },
+    {
+      "name": "BN_print_nid_postfix",
+      "nid": "vNb02EilffE",
+      "state": "stub"
+    },
+    {
+      "name": "BN_set_word_nid_postfix",
+      "nid": "EUtnBhYor1c",
+      "state": "stub"
+    },
+    {
+      "name": "BN_sub_word_nid_postfix",
+      "nid": "Qzqu6uMS5Sw",
+      "state": "stub"
+    },
+    {
+      "name": "CMAC_CTX_free_nid_postfix",
+      "nid": "AXRIUct-3q0",
+      "state": "stub"
+    },
+    {
+      "name": "CMAC_CTX_new_nid_postfix",
+      "nid": "7ayKiB+dxC8",
+      "state": "stub"
+    },
+    {
+      "name": "CMAC_Final_nid_postfix",
+      "nid": "FNRyJV6DLAw",
+      "state": "stub"
+    },
+    {
+      "name": "CMAC_Init_nid_postfix",
+      "nid": "oua5Ejy6Kz4",
+      "state": "stub"
+    },
+    {
+      "name": "CMAC_Update_nid_postfix",
+      "nid": "BdpZ6BmUMwA",
+      "state": "stub"
+    },
+    {
+      "name": "CONF_modules_free_nid_postfix",
+      "nid": "iCdsbBN7qqI",
+      "state": "stub"
+    },
+    {
+      "name": "CONF_modules_load_file_nid_postfix",
+      "nid": "Br5OvYCqgsM",
+      "state": "stub"
+    },
+    {
+      "name": "CRYPTO_THREADID_set_callback_nid_postfix",
+      "nid": "X5GTRSttMfg",
+      "state": "stub"
+    },
+    {
+      "name": "CRYPTO_THREADID_set_numeric_nid_postfix",
+      "nid": "drwKVl4mFFk",
+      "state": "stub"
+    },
+    {
+      "name": "CRYPTO_cleanup_all_ex_data_nid_postfix",
+      "nid": "hzVS38-CYks",
+      "state": "stub"
+    },
+    {
+      "name": "CRYPTO_free_nid_postfix",
+      "nid": "B+QVADs0zQo",
+      "state": "implemented"
+    },
+    {
+      "name": "CRYPTO_malloc_nid_postfix",
+      "nid": "lq502R0Sg9g",
+      "state": "implemented"
+    },
+    {
+      "name": "CRYPTO_num_locks_nid_postfix",
+      "nid": "5pEbRgUxvO0",
+      "state": "stub"
+    },
+    {
+      "name": "CRYPTO_set_add_lock_callback_nid_postfix",
+      "nid": "CSAzACJeKVk",
+      "state": "stub"
+    },
+    {
+      "name": "CRYPTO_set_locking_callback_nid_postfix",
+      "nid": "iyyAYKZLUek",
+      "state": "stub"
+    },
+    {
+      "name": "CRYPTO_set_mem_functions_nid_postfix",
+      "nid": "JIvjODJ9NlI",
+      "state": "inert"
+    },
+    {
+      "name": "DES_ecb_encrypt_nid_postfix",
+      "nid": "W3X9NYjRZbA",
+      "state": "implemented"
+    },
+    {
+      "name": "DES_set_key_nid_postfix",
+      "nid": "PMbRbQG+loQ",
+      "state": "implemented"
+    },
+    {
+      "name": "DES_set_odd_parity_nid_postfix",
+      "nid": "RUH9EA-DHAU",
+      "state": "implemented"
+    },
+    {
+      "name": "DTLSv1_client_method_nid_postfix",
+      "nid": "deB28fpqPJ4",
+      "state": "stub"
+    },
+    {
+      "name": "DTLSv1_server_method_nid_postfix",
+      "nid": "euVv0sFpugo",
+      "state": "stub"
+    },
+    {
+      "name": "ECDH_compute_key_nid_postfix",
+      "nid": "Fa2kTACW2Bk",
+      "state": "stub"
+    },
+    {
+      "name": "ECDSA_sign_nid_postfix",
+      "nid": "WwnSMw3MVeg",
+      "state": "stub"
+    },
+    {
+      "name": "ECDSA_size_nid_postfix",
+      "nid": "5qlWf1r3-Io",
+      "state": "stub"
+    },
+    {
+      "name": "ECDSA_verify_nid_postfix",
+      "nid": "RzPYfyxmIUM",
+      "state": "stub"
+    },
+    {
+      "name": "EC_GROUP_free_nid_postfix",
+      "nid": "yn+Ou538Cq8",
+      "state": "stub"
+    },
+    {
+      "name": "EC_GROUP_get_degree_nid_postfix",
+      "nid": "J6ZGL5-WFcw",
+      "state": "stub"
+    },
+    {
+      "name": "EC_GROUP_new_by_curve_name_nid_postfix",
+      "nid": "N-RlrPAQIus",
+      "state": "stub"
+    },
+    {
+      "name": "EC_KEY_check_key_nid_postfix",
+      "nid": "PwLqNR3+D-c",
+      "state": "stub"
+    },
+    {
+      "name": "EC_KEY_free_nid_postfix",
+      "nid": "9h1KvmhW4Dw",
+      "state": "stub"
+    },
+    {
+      "name": "EC_KEY_generate_key_nid_postfix",
+      "nid": "66hlifYvhCc",
+      "state": "stub"
+    },
+    {
+      "name": "EC_KEY_get0_group_nid_postfix",
+      "nid": "qDLmP8ORmww",
+      "state": "stub"
+    },
+    {
+      "name": "EC_KEY_get0_private_key_nid_postfix",
+      "nid": "VcR4IJK3OZo",
+      "state": "stub"
+    },
+    {
+      "name": "EC_KEY_get0_public_key_nid_postfix",
+      "nid": "egQZ-2H39Ho",
+      "state": "stub"
+    },
+    {
+      "name": "EC_KEY_new_by_curve_name_nid_postfix",
+      "nid": "CfuuH0IrE3g",
+      "state": "stub"
+    },
+    {
+      "name": "EC_KEY_new_nid_postfix",
+      "nid": "pLPJpCbEAiM",
+      "state": "stub"
+    },
+    {
+      "name": "EC_KEY_set_group_nid_postfix",
+      "nid": "Fa0k4l9eg9I",
+      "state": "stub"
+    },
+    {
+      "name": "EC_KEY_set_private_key_nid_postfix",
+      "nid": "l3fytmugLQ8",
+      "state": "stub"
+    },
+    {
+      "name": "EC_KEY_set_public_key_nid_postfix",
+      "nid": "GWBrlWYqLJI",
+      "state": "stub"
+    },
+    {
+      "name": "EC_POINT_free_nid_postfix",
+      "nid": "DxRdVVJPRIA",
+      "state": "stub"
+    },
+    {
+      "name": "EC_POINT_mul_nid_postfix",
+      "nid": "futhiA0xUJ0",
+      "state": "stub"
+    },
+    {
+      "name": "EC_POINT_new_nid_postfix",
+      "nid": "lQCpM3Mvzek",
+      "state": "stub"
+    },
+    {
+      "name": "EC_POINT_oct2point_nid_postfix",
+      "nid": "mmoHAAWYbZI",
+      "state": "stub"
+    },
+    {
+      "name": "EC_POINT_point2oct_nid_postfix",
+      "nid": "Ejf0SVhkdTM",
+      "state": "stub"
+    },
+    {
+      "name": "ENGINE_by_id_nid_postfix",
+      "nid": "tjTb7-Ki1lE",
+      "state": "stub"
+    },
+    {
+      "name": "ENGINE_cleanup_nid_postfix",
+      "nid": "MsYtDUo1q3w",
+      "state": "stub"
+    },
+    {
+      "name": "ENGINE_ctrl_cmd_nid_postfix",
+      "nid": "zMfnlTErguo",
+      "state": "stub"
+    },
+    {
+      "name": "ENGINE_ctrl_nid_postfix",
+      "nid": "TYCbXfso6h0",
+      "state": "stub"
+    },
+    {
+      "name": "ENGINE_finish_nid_postfix",
+      "nid": "BCoR5SxipAc",
+      "state": "stub"
+    },
+    {
+      "name": "ENGINE_free_nid_postfix",
+      "nid": "tAgGXFxohsY",
+      "state": "stub"
+    },
+    {
+      "name": "ENGINE_get_first_nid_postfix",
+      "nid": "9x50PGOgF-Y",
+      "state": "stub"
+    },
+    {
+      "name": "ENGINE_get_id_nid_postfix",
+      "nid": "V9IvJhZvFc8",
+      "state": "stub"
+    },
+    {
+      "name": "ENGINE_get_next_nid_postfix",
+      "nid": "enS8cXXpHx8",
+      "state": "stub"
+    },
+    {
+      "name": "ENGINE_init_nid_postfix",
+      "nid": "eQCzbl0EAas",
+      "state": "stub"
+    },
+    {
+      "name": "ENGINE_load_builtin_engines_nid_postfix",
+      "nid": "5lxbadCtCro",
+      "state": "stub"
+    },
+    {
+      "name": "ENGINE_load_private_key_nid_postfix",
+      "nid": "cR1lsX9IaV0",
+      "state": "stub"
+    },
+    {
+      "name": "ENGINE_set_default_nid_postfix",
+      "nid": "4yiusdEO-B8",
+      "state": "stub"
+    },
+    {
+      "name": "ERR_clear_error_nid_postfix",
+      "nid": "EIdjjO8vk6M",
+      "state": "stub"
+    },
+    {
+      "name": "ERR_error_string_n_nid_postfix",
+      "nid": "2q1JR1EeEtE",
+      "state": "stub"
+    },
+    {
+      "name": "ERR_error_string_nid_postfix",
+      "nid": "6y7Kf28DhxM",
+      "state": "stub"
+    },
+    {
+      "name": "ERR_free_strings_nid_postfix",
+      "nid": "oB5PNtGrups",
+      "state": "stub"
+    },
+    {
+      "name": "ERR_get_error_nid_postfix",
+      "nid": "D9Pra9NpWhc",
+      "state": "stub"
+    },
+    {
+      "name": "ERR_peek_error_nid_postfix",
+      "nid": "1IBYvfyKRO0",
+      "state": "stub"
+    },
+    {
+      "name": "ERR_remove_thread_state_nid_postfix",
+      "nid": "0p2Lm0d5clk",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_CIPHER_CTX_cleanup_nid_postfix",
+      "nid": "elkglnGzy9Y",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_CIPHER_CTX_ctrl_nid_postfix",
+      "nid": "mDY1JtjFhcg",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_CIPHER_CTX_free_nid_postfix",
+      "nid": "2+rmv5MHnAQ",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_CIPHER_CTX_init_nid_postfix",
+      "nid": "oejeZiol8WU",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_CIPHER_CTX_new_nid_postfix",
+      "nid": "srweuJ1ExD0",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_CIPHER_CTX_set_padding_nid_postfix",
+      "nid": "P0PzQ1LuYSU",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_CIPHER_block_size_nid_postfix",
+      "nid": "NHPVQYGwWoQ",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_CipherFinal_ex_nid_postfix",
+      "nid": "38Hlq8vXXJM",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_CipherInit_ex_nid_postfix",
+      "nid": "tU-hHcxIwOE",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_CipherUpdate_nid_postfix",
+      "nid": "FvDCSw+mIMg",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_DecryptFinal_ex_nid_postfix",
+      "nid": "wTgGGIBvWUg",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_DecryptInit_ex_nid_postfix",
+      "nid": "MDjc6IAO-0Q",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_DecryptUpdate_nid_postfix",
+      "nid": "f00kZAZJLN4",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_DigestFinal_ex_nid_postfix",
+      "nid": "HzqDndRinOY",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_DigestInit_ex_nid_postfix",
+      "nid": "fXH3uujGuH4",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_DigestUpdate_nid_postfix",
+      "nid": "jEAf6s616t8",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_DigestVerifyFinal_nid_postfix",
+      "nid": "9Q6nljioriw",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_DigestVerifyInit_nid_postfix",
+      "nid": "+FmDsPD2m1s",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_Digest_nid_postfix",
+      "nid": "T-SBcCuOssM",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_EncryptFinal_ex_nid_postfix",
+      "nid": "D79lvSoVeRM",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_EncryptInit_ex_nid_postfix",
+      "nid": "nbmD4LpEeaI",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_EncryptUpdate_nid_postfix",
+      "nid": "kCfQMeNAfg0",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_MD_CTX_cleanup_nid_postfix",
+      "nid": "-FECM5++k+c",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_MD_CTX_create_nid_postfix",
+      "nid": "wrQe6Su+FNg",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_MD_CTX_destroy_nid_postfix",
+      "nid": "LtVInuDzOS8",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_MD_CTX_init_nid_postfix",
+      "nid": "ULtTrXUrOOk",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_MD_size_nid_postfix",
+      "nid": "T9SfSUSFtsk",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_PKEY_copy_parameters_nid_postfix",
+      "nid": "f-A34L09JPA",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_PKEY_free_nid_postfix",
+      "nid": "vJxTjQsNhpE",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_PKEY_get1_EC_KEY_nid_postfix",
+      "nid": "S0RRSisIfPs",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_PKEY_get1_RSA_nid_postfix",
+      "nid": "XpzYNQiKs88",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_PKEY_id_nid_postfix",
+      "nid": "kzQNxd34vs0",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_PKEY_new_nid_postfix",
+      "nid": "knKgNF2UC2Y",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_PKEY_set1_RSA_nid_postfix",
+      "nid": "IllSguOfhDg",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_PKEY_type_nid_postfix",
+      "nid": "w4G-7OJS340",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_aes_128_cbc_nid_postfix",
+      "nid": "gqrIXhQ75Lw",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_aes_128_cfb8_nid_postfix",
+      "nid": "neOoD53-meY",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_aes_128_ctr_nid_postfix",
+      "nid": "2Wr3QwBIAxQ",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_aes_128_gcm_nid_postfix",
+      "nid": "CDZYmQcW3E0",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_aes_192_cbc_nid_postfix",
+      "nid": "-qHZh4En5Ts",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_aes_192_cfb8_nid_postfix",
+      "nid": "oynuKc6aHfc",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_aes_192_ctr_nid_postfix",
+      "nid": "lWnsIJvnqQ8",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_aes_192_gcm_nid_postfix",
+      "nid": "EZrlB9U83mI",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_aes_256_cbc_nid_postfix",
+      "nid": "nc1sRiNyK+U",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_aes_256_cfb8_nid_postfix",
+      "nid": "mRZvORQvNTM",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_aes_256_ctr_nid_postfix",
+      "nid": "bNtrstuDtzY",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_aes_256_gcm_nid_postfix",
+      "nid": "P1zm31HPuOM",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_cleanup_nid_postfix",
+      "nid": "394cMuVLkFE",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_md5_nid_postfix",
+      "nid": "y3+BSlMF1Aw",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_sha256_nid_postfix",
+      "nid": "P14ow7m3w3o",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_sha384_nid_postfix",
+      "nid": "fHwsh4ojywE",
+      "state": "stub"
+    },
+    {
+      "name": "EVP_sha512_nid_postfix",
+      "nid": "AyQF7ngVBsw",
+      "state": "stub"
+    },
+    {
+      "name": "GENERAL_NAMES_free_nid_postfix",
+      "nid": "r51JUg0KC4k",
+      "state": "stub"
+    },
+    {
+      "name": "GENERAL_NAME_free_nid_postfix",
+      "nid": "kQviLeKUEvk",
+      "state": "stub"
+    },
+    {
+      "name": "HMAC_CTX_cleanup_nid_postfix",
+      "nid": "HdVvCkcHxmE",
+      "state": "stub"
+    },
+    {
+      "name": "HMAC_CTX_init_nid_postfix",
+      "nid": "KsR3gjHXLMM",
+      "state": "stub"
+    },
+    {
+      "name": "HMAC_Final_nid_postfix",
+      "nid": "tp86vPA7cHo",
+      "state": "stub"
+    },
+    {
+      "name": "HMAC_Init_ex_nid_postfix",
+      "nid": "lXmXcWJRlnA",
+      "state": "stub"
+    },
+    {
+      "name": "HMAC_Init_nid_postfix",
+      "nid": "HQgjouhLCHY",
+      "state": "stub"
+    },
+    {
+      "name": "HMAC_Update_nid_postfix",
+      "nid": "5MRRP0ZSDQI",
+      "state": "stub"
+    },
+    {
+      "name": "HMAC_nid_postfix",
+      "nid": "3UFZjmHXlB4",
+      "state": "stub"
+    },
+    {
+      "name": "MD4_Final_nid_postfix",
+      "nid": "D0gHC0MkQcQ",
+      "state": "implemented"
+    },
+    {
+      "name": "MD4_Init_nid_postfix",
+      "nid": "arM2GPIwNDc",
+      "state": "implemented"
+    },
+    {
+      "name": "MD4_Update_nid_postfix",
+      "nid": "87kDlCQh0R8",
+      "state": "implemented"
+    },
+    {
+      "name": "MD5_Final_nid_postfix",
+      "nid": "+vvnW8QYPS8",
+      "state": "implemented"
+    },
+    {
+      "name": "MD5_Init_nid_postfix",
+      "nid": "8uHix6ko-IU",
+      "state": "implemented"
+    },
+    {
+      "name": "MD5_Update_nid_postfix",
+      "nid": "vDSIQwpZ6ws",
+      "state": "implemented"
+    },
+    {
+      "name": "OBJ_cleanup_nid_postfix",
+      "nid": "JUq0-0MZock",
+      "state": "stub"
+    },
+    {
+      "name": "OBJ_create_nid_postfix",
+      "nid": "EAhzmwZ6wiE",
+      "state": "stub"
+    },
+    {
+      "name": "OBJ_nid2sn_nid_postfix",
+      "nid": "blbLLO3xz3M",
+      "state": "stub"
+    },
+    {
+      "name": "OBJ_obj2nid_nid_postfix",
+      "nid": "JPrZOp5GWdE",
+      "state": "stub"
+    },
+    {
+      "name": "OBJ_sn2nid_nid_postfix",
+      "nid": "HtvO6klxOXw",
+      "state": "stub"
+    },
+    {
+      "name": "OCSP_BASICRESP_free_nid_postfix",
+      "nid": "49HbshI3foo",
+      "state": "stub"
+    },
+    {
+      "name": "OCSP_RESPONSE_free_nid_postfix",
+      "nid": "8Wn1Nv5Gr7s",
+      "state": "stub"
+    },
+    {
+      "name": "OCSP_basic_add1_cert_nid_postfix",
+      "nid": "LAQmVQL+Qvw",
+      "state": "stub"
+    },
+    {
+      "name": "OCSP_basic_verify_nid_postfix",
+      "nid": "dvpgX4j3YKY",
+      "state": "stub"
+    },
+    {
+      "name": "OCSP_cert_status_str_nid_postfix",
+      "nid": "ONoWSBIOUgk",
+      "state": "stub"
+    },
+    {
+      "name": "OCSP_check_validity_nid_postfix",
+      "nid": "o1Ye8hTbBpc",
+      "state": "stub"
+    },
+    {
+      "name": "OCSP_crl_reason_str_nid_postfix",
+      "nid": "6n7qy5ifuqQ",
+      "state": "stub"
+    },
+    {
+      "name": "OCSP_resp_count_nid_postfix",
+      "nid": "4wp21cYWdgI",
+      "state": "stub"
+    },
+    {
+      "name": "OCSP_resp_get0_nid_postfix",
+      "nid": "D2LnapaNlrs",
+      "state": "stub"
+    },
+    {
+      "name": "OCSP_response_get1_basic_nid_postfix",
+      "nid": "K6qG6ir8Dnc",
+      "state": "stub"
+    },
+    {
+      "name": "OCSP_response_status_nid_postfix",
+      "nid": "wnGO7AvKp+w",
+      "state": "stub"
+    },
+    {
+      "name": "OCSP_response_status_str_nid_postfix",
+      "nid": "cr8XZ3Txank",
+      "state": "stub"
+    },
+    {
+      "name": "OCSP_single_get0_status_nid_postfix",
+      "nid": "5+Pb6xIpzuA",
+      "state": "stub"
+    },
+    {
+      "name": "OPENSSL_add_all_algorithms_noconf_nid_postfix",
+      "nid": "8vnR2l3lXHk",
+      "state": "stub"
+    },
+    {
+      "name": "OPENSSL_load_builtin_modules_nid_postfix",
+      "nid": "9dTcx-eONyU",
+      "state": "stub"
+    },
+    {
+      "name": "PEM_X509_INFO_read_bio_nid_postfix",
+      "nid": "70gssZ14WN4",
+      "state": "stub"
+    },
+    {
+      "name": "PEM_read_RSAPrivateKey_nid_postfix",
+      "nid": "6I7ceMnzqv4",
+      "state": "stub"
+    },
+    {
+      "name": "PEM_read_X509_nid_postfix",
+      "nid": "igW7evNRR1U",
+      "state": "stub"
+    },
+    {
+      "name": "PEM_read_bio_PrivateKey_nid_postfix",
+      "nid": "IWuiLJsOWpk",
+      "state": "stub"
+    },
+    {
+      "name": "PEM_read_bio_X509_AUX_nid_postfix",
+      "nid": "k33Bv6+g25o",
+      "state": "stub"
+    },
+    {
+      "name": "PEM_read_bio_X509_nid_postfix",
+      "nid": "+mv45aaYo-E",
+      "state": "stub"
+    },
+    {
+      "name": "PEM_write_bio_X509_nid_postfix",
+      "nid": "icKtIYsiO8o",
+      "state": "stub"
+    },
+    {
+      "name": "PKCS12_PBE_add_nid_postfix",
+      "nid": "fiNEkue0S-k",
+      "state": "stub"
+    },
+    {
+      "name": "PKCS12_free_nid_postfix",
+      "nid": "Nm6n15LmkW8",
+      "state": "stub"
+    },
+    {
+      "name": "PKCS12_parse_nid_postfix",
+      "nid": "sgbEu5FSZy0",
+      "state": "stub"
+    },
+    {
+      "name": "RAND_add_nid_postfix",
+      "nid": "oV0SfUPCxbg",
+      "state": "inert"
+    },
+    {
+      "name": "RAND_bytes_nid_postfix",
+      "nid": "jRkrziMoel0",
+      "state": "implemented"
+    },
+    {
+      "name": "RAND_file_name_nid_postfix",
+      "nid": "8wHpj4DngTk",
+      "state": "implemented"
+    },
+    {
+      "name": "RAND_load_file_nid_postfix",
+      "nid": "SdKyeVDfJ14",
+      "state": "implemented"
+    },
+    {
+      "name": "RAND_status_nid_postfix",
+      "nid": "y5+GMmrhelY",
+      "state": "inert"
+    },
+    {
+      "name": "RSA_flags_nid_postfix",
+      "nid": "bAokaZsqRN0",
+      "state": "stub"
+    },
+    {
+      "name": "RSA_free_nid_postfix",
+      "nid": "Y1TWTjvqSb8",
+      "state": "stub"
+    },
+    {
+      "name": "RSA_generate_key_ex_nid_postfix",
+      "nid": "iEJjjTNPxgY",
+      "state": "stub"
+    },
+    {
+      "name": "RSA_new_nid_postfix",
+      "nid": "AO43JgNKNiQ",
+      "state": "stub"
+    },
+    {
+      "name": "RSA_padding_add_PKCS1_PSS_nid_postfix",
+      "nid": "4TU9bB1rtPs",
+      "state": "stub"
+    },
+    {
+      "name": "RSA_private_decrypt_nid_postfix",
+      "nid": "ot0SSpjvbTg",
+      "state": "stub"
+    },
+    {
+      "name": "RSA_private_encrypt_nid_postfix",
+      "nid": "bI7w1me2iJc",
+      "state": "stub"
+    },
+    {
+      "name": "RSA_public_decrypt_nid_postfix",
+      "nid": "zu3YeC7nWIo",
+      "state": "stub"
+    },
+    {
+      "name": "RSA_public_encrypt_nid_postfix",
+      "nid": "TQoChHSvFL0",
+      "state": "stub"
+    },
+    {
+      "name": "RSA_sign_nid_postfix",
+      "nid": "rJselpIZ-tM",
+      "state": "stub"
+    },
+    {
+      "name": "RSA_size_nid_postfix",
+      "nid": "uyq6S8ewCTQ",
+      "state": "stub"
+    },
+    {
+      "name": "RSA_verify_PKCS1_PSS_nid_postfix",
+      "nid": "gK2J1UU212I",
+      "state": "stub"
+    },
+    {
+      "name": "RSA_verify_nid_postfix",
+      "nid": "WL67GM1f8aQ",
+      "state": "stub"
+    },
+    {
+      "name": "SHA1_Final_nid_postfix",
+      "nid": "ECfVtK-PpZI",
+      "state": "implemented"
+    },
+    {
+      "name": "SHA1_Init_nid_postfix",
+      "nid": "2EtkaueeNpA",
+      "state": "implemented"
+    },
+    {
+      "name": "SHA1_Update_nid_postfix",
+      "nid": "+X9MGKXSVjI",
+      "state": "implemented"
+    },
+    {
+      "name": "SHA224_Final_nid_postfix",
+      "nid": "x4cVKcZQfFI",
+      "state": "implemented"
+    },
+    {
+      "name": "SHA224_Init_nid_postfix",
+      "nid": "S73NSVp0huA",
+      "state": "implemented"
+    },
+    {
+      "name": "SHA224_Update_nid_postfix",
+      "nid": "QIKB5ki-OYQ",
+      "state": "implemented"
+    },
+    {
+      "name": "SHA256_Final_nid_postfix",
+      "nid": "r1SQVzADXqE",
+      "state": "implemented"
+    },
+    {
+      "name": "SHA256_Init_nid_postfix",
+      "nid": "cxx2iRCOSO8",
+      "state": "implemented"
+    },
+    {
+      "name": "SHA256_Update_nid_postfix",
+      "nid": "wFpjPOfZgpI",
+      "state": "implemented"
+    },
+    {
+      "name": "SHA256_nid_postfix",
+      "nid": "fFu+EWmlCkg",
+      "state": "stub"
+    },
+    {
+      "name": "SHA384_Final_nid_postfix",
+      "nid": "ixlCDPz42Ew",
+      "state": "implemented"
+    },
+    {
+      "name": "SHA384_Init_nid_postfix",
+      "nid": "PcS4BJRSeGw",
+      "state": "implemented"
+    },
+    {
+      "name": "SHA384_Update_nid_postfix",
+      "nid": "9-gQ-MZvjxk",
+      "state": "implemented"
+    },
+    {
+      "name": "SHA512_Final_nid_postfix",
+      "nid": "ivY1qwlcPiY",
+      "state": "stub"
+    },
+    {
+      "name": "SHA512_Init_nid_postfix",
+      "nid": "TEvtbGrB5XY",
+      "state": "implemented"
+    },
+    {
+      "name": "SHA512_Update_nid_postfix",
+      "nid": "E2u+kVKmCbQ",
+      "state": "implemented"
+    },
+    {
+      "name": "SSL_CIPHER_get_bits_nid_postfix",
+      "nid": "eTwYGynNRpM",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CIPHER_get_name_nid_postfix",
+      "nid": "4BWA+nEpswY",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CIPHER_get_version_nid_postfix",
+      "nid": "rr3DlV2+KBw",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_add_client_CA_nid_postfix",
+      "nid": "ON80jFRheDk",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_callback_ctrl_nid_postfix",
+      "nid": "s6fCMj1pD-E",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_check_private_key_nid_postfix",
+      "nid": "rkzlpdH2DvA",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_ctrl_nid_postfix",
+      "nid": "eMNV4TFVQuM",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_free_nid_postfix",
+      "nid": "2UtBxYHlJk4",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_get_cert_store_nid_postfix",
+      "nid": "Fs3lNeVJuls",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_get_ex_data_nid_postfix",
+      "nid": "GeE4IjowKf4",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_get_ex_new_index_nid_postfix",
+      "nid": "P0-WnBJa2Tg",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_get_verify_mode_nid_postfix",
+      "nid": "XUkYU2f6Las",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_load_verify_locations_nid_postfix",
+      "nid": "Iq-1vZUL9sc",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_load_verify_mem_nid_postfix",
+      "nid": "Of5A+G0xOHA",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_new_nid_postfix",
+      "nid": "h8z568QDUj4",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_sess_set_new_cb_nid_postfix",
+      "nid": "MvOaOwI0hsE",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set1_groups_list_nid_postfix",
+      "nid": "GSzUT58SaHM",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_alpn_protos_nid_postfix",
+      "nid": "YPZkeVCMq4A",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_alpn_select_cb_nid_postfix",
+      "nid": "QYvnj3PhDd8",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_cert_store_nid_postfix",
+      "nid": "eeFGS3Bherw",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_cert_verify_callback_nid_postfix",
+      "nid": "4AW6xylLFLo",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_cipher_list_nid_postfix",
+      "nid": "AqHWw8AWcTA",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_client_cert_cb_nid_postfix",
+      "nid": "GnGe9pXFpXs",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_default_passwd_cb_nid_postfix",
+      "nid": "z7DrTKMw3Zw",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_default_passwd_cb_userdata_nid_postfix",
+      "nid": "Ec3XRGhb0IM",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_ex_data_nid_postfix",
+      "nid": "wcBHMPT9nG4",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_info_callback_nid_postfix",
+      "nid": "v9lMUgJ5tgc",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_msg_callback_nid_postfix",
+      "nid": "fQHdWK-XO08",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_next_proto_select_cb_nid_postfix",
+      "nid": "Nz7Qt6FsZOA",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_quiet_shutdown_nid_postfix",
+      "nid": "6E31Sh9aPh8",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_session_id_context_nid_postfix",
+      "nid": "7TODMKNqSd8",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_set_verify_nid_postfix",
+      "nid": "G4ENP0WAniM",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_use_PrivateKey_ASN1_nid_postfix",
+      "nid": "nE8kBE2tO-8",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_use_PrivateKey_file_nid_postfix",
+      "nid": "QaYahJbrgWI",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_use_PrivateKey_nid_postfix",
+      "nid": "trrIqYsf3LI",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_use_certificate_ASN1_nid_postfix",
+      "nid": "LimhmnoCJsQ",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_use_certificate_chain_file_nid_postfix",
+      "nid": "9MDqJ9htmFQ",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_use_certificate_file_nid_postfix",
+      "nid": "74FdZHAlaiI",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_CTX_use_certificate_nid_postfix",
+      "nid": "YZn-QuYnt0M",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_SESSION_free_nid_postfix",
+      "nid": "NpfJvddFuhY",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_accept_nid_postfix",
+      "nid": "6tjQmyY6uCA",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_alert_desc_string_long_nid_postfix",
+      "nid": "lgIhDSVa014",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_check_private_key_nid_postfix",
+      "nid": "g7UsNDgH61A",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_connect_nid_postfix",
+      "nid": "u92zk8JGiLI",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_ctrl_nid_postfix",
+      "nid": "aInh-QB7dkM",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_free_nid_postfix",
+      "nid": "p8fCJnSo8Qo",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get0_alpn_selected_nid_postfix",
+      "nid": "6J6GZj4nj18",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get0_param_nid_postfix",
+      "nid": "I-i0VYLW-QA",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get1_session_nid_postfix",
+      "nid": "n4K6v9iTEbw",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_SSL_CTX_nid_postfix",
+      "nid": "FsDERGOXL30",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_certificate_nid_postfix",
+      "nid": "2F8cJlQV-Bo",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_current_cipher_nid_postfix",
+      "nid": "T+xAYQDtCJY",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_error_nid_postfix",
+      "nid": "ev9pARjYMMk",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_ex_data_X509_STORE_CTX_idx_nid_postfix",
+      "nid": "XTsYWK2RipM",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_ex_data_nid_postfix",
+      "nid": "-tCXYggC170",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_ex_new_index_nid_postfix",
+      "nid": "ITolmqky9Kw",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_fd_nid_postfix",
+      "nid": "rWXxj-QtHNg",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_peer_cert_chain_nid_postfix",
+      "nid": "OiPu7GepAnc",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_peer_certificate_nid_postfix",
+      "nid": "wZZihYzEUnM",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_privatekey_nid_postfix",
+      "nid": "77WfSdpOaUI",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_rbio_nid_postfix",
+      "nid": "ljz05LwrkFI",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_servername_nid_postfix",
+      "nid": "k4ujGXVXzKQ",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_session_nid_postfix",
+      "nid": "B25eXXXrr-U",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_shutdown_nid_postfix",
+      "nid": "AVXF-3mfXIo",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_verify_result_nid_postfix",
+      "nid": "QtPupPEvsjU",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_get_wbio_nid_postfix",
+      "nid": "wnNxML8AWsM",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_library_init_nid_postfix",
+      "nid": "IsVqAikXB6U",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_load_error_strings_nid_postfix",
+      "nid": "G3w-8k96nHY",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_new_nid_postfix",
+      "nid": "xVnRCgEiQMo",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_peek_nid_postfix",
+      "nid": "ntxWYQqvsgA",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_pending_nid_postfix",
+      "nid": "bYsnJn2NIFI",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_read_nid_postfix",
+      "nid": "yYxCIQDn1cw",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_select_next_proto_nid_postfix",
+      "nid": "9rfoBZBmGdE",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_set_SSL_CTX_nid_postfix",
+      "nid": "GLPRY9ilKu8",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_set_bio_nid_postfix",
+      "nid": "BnruKX0EqpU",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_set_connect_state_nid_postfix",
+      "nid": "bvRvvcpnCs0",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_set_ex_data_nid_postfix",
+      "nid": "7rRoljlSUuM",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_set_fd_nid_postfix",
+      "nid": "ZJom41O+XfY",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_set_session_nid_postfix",
+      "nid": "F0DND0EYZv0",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_set_verify_nid_postfix",
+      "nid": "XYyDsysu9m8",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_shutdown_nid_postfix",
+      "nid": "9u9BA3dciYI",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_use_PrivateKey_ASN1_nid_postfix",
+      "nid": "LPNs8SVEpmQ",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_use_certificate_ASN1_nid_postfix",
+      "nid": "8sGmcQvPnCA",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_version_nid_postfix",
+      "nid": "g2AeqKoV9To",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_want_nid_postfix",
+      "nid": "jZqVzoqAUUA",
+      "state": "stub"
+    },
+    {
+      "name": "SSL_write_nid_postfix",
+      "nid": "dxZ3WHNfv-E",
+      "state": "stub"
+    },
+    {
+      "name": "SSLeay_nid_postfix",
+      "nid": "X0jDcRSEUB4",
+      "state": "stub"
+    },
+    {
+      "name": "SSLv23_client_method_nid_postfix",
+      "nid": "fLwF+lPCvfQ",
+      "state": "stub"
+    },
+    {
+      "name": "SSLv23_server_method_nid_postfix",
+      "nid": "UV4kixz7D3o",
+      "state": "stub"
+    },
+    {
+      "name": "TLS_client_method_nid_postfix",
+      "nid": "hk9b9lSCs+0",
+      "state": "stub"
+    },
+    {
+      "name": "UI_OpenSSL_nid_postfix",
+      "nid": "Z3A8vFcAQPw",
+      "state": "stub"
+    },
+    {
+      "name": "UI_create_method_nid_postfix",
+      "nid": "bL8JJH0B-7o",
+      "state": "stub"
+    },
+    {
+      "name": "UI_destroy_method_nid_postfix",
+      "nid": "iSKgGPz+7s0",
+      "state": "stub"
+    },
+    {
+      "name": "UI_get0_user_data_nid_postfix",
+      "nid": "lkk+itotqx4",
+      "state": "stub"
+    },
+    {
+      "name": "UI_get_input_flags_nid_postfix",
+      "nid": "xnyAthldIp0",
+      "state": "stub"
+    },
+    {
+      "name": "UI_get_string_type_nid_postfix",
+      "nid": "gjhdufoJDz4",
+      "state": "stub"
+    },
+    {
+      "name": "UI_method_get_closer_nid_postfix",
+      "nid": "R+NGltkzcjQ",
+      "state": "stub"
+    },
+    {
+      "name": "UI_method_get_opener_nid_postfix",
+      "nid": "Zg+ENM2CCUg",
+      "state": "stub"
+    },
+    {
+      "name": "UI_method_get_reader_nid_postfix",
+      "nid": "rTZ-kug9vKw",
+      "state": "stub"
+    },
+    {
+      "name": "UI_method_get_writer_nid_postfix",
+      "nid": "+d9NRF3Ig7k",
+      "state": "stub"
+    },
+    {
+      "name": "UI_method_set_closer_nid_postfix",
+      "nid": "RddrUU4CJ7A",
+      "state": "stub"
+    },
+    {
+      "name": "UI_method_set_opener_nid_postfix",
+      "nid": "WY3iGHrIQAg",
+      "state": "stub"
+    },
+    {
+      "name": "UI_method_set_reader_nid_postfix",
+      "nid": "sDMWsdpWDIg",
+      "state": "stub"
+    },
+    {
+      "name": "UI_method_set_writer_nid_postfix",
+      "nid": "fLbkTEbCPqQ",
+      "state": "stub"
+    },
+    {
+      "name": "UI_set_result_nid_postfix",
+      "nid": "UY46pDaxIfM",
+      "state": "stub"
+    },
+    {
+      "name": "X509V3_EXT_print_nid_postfix",
+      "nid": "Us1BNxAZ9wE",
+      "state": "stub"
+    },
+    {
+      "name": "X509_EXTENSION_get_critical_nid_postfix",
+      "nid": "OFJova+0rFI",
+      "state": "stub"
+    },
+    {
+      "name": "X509_EXTENSION_get_data_nid_postfix",
+      "nid": "NJkyxE-DyTk",
+      "state": "stub"
+    },
+    {
+      "name": "X509_EXTENSION_get_object_nid_postfix",
+      "nid": "aZCEBBiq4Xc",
+      "state": "stub"
+    },
+    {
+      "name": "X509_INFO_free_nid_postfix",
+      "nid": "ZPDXyKOX814",
+      "state": "stub"
+    },
+    {
+      "name": "X509_LOOKUP_file_nid_postfix",
+      "nid": "C6mrJc5acxw",
+      "state": "stub"
+    },
+    {
+      "name": "X509_NAME_ENTRY_get_data_nid_postfix",
+      "nid": "QyjdkI1z5HU",
+      "state": "stub"
+    },
+    {
+      "name": "X509_NAME_get_entry_nid_postfix",
+      "nid": "La3WlJFIRNY",
+      "state": "stub"
+    },
+    {
+      "name": "X509_NAME_get_index_by_NID_nid_postfix",
+      "nid": "HnoCAr9LvBg",
+      "state": "stub"
+    },
+    {
+      "name": "X509_NAME_get_text_by_NID_nid_postfix",
+      "nid": "WReA+SHO+cU",
+      "state": "stub"
+    },
+    {
+      "name": "X509_NAME_oneline_nid_postfix",
+      "nid": "3aR-elTFIi8",
+      "state": "stub"
+    },
+    {
+      "name": "X509_NAME_print_ex_nid_postfix",
+      "nid": "jjxYLMJ-k1Y",
+      "state": "stub"
+    },
+    {
+      "name": "X509_STORE_CTX_get1_chain_nid_postfix",
+      "nid": "eaxDbI0MtwA",
+      "state": "stub"
+    },
+    {
+      "name": "X509_STORE_CTX_get_chain_nid_postfix",
+      "nid": "ZfyhqPpCI54",
+      "state": "stub"
+    },
+    {
+      "name": "X509_STORE_CTX_get_current_cert_nid_postfix",
+      "nid": "Lm5mk9Mtuek",
+      "state": "stub"
+    },
+    {
+      "name": "X509_STORE_CTX_get_error_depth_nid_postfix",
+      "nid": "YADLTs7k+Aw",
+      "state": "stub"
+    },
+    {
+      "name": "X509_STORE_CTX_get_error_nid_postfix",
+      "nid": "zCHcyarUhfg",
+      "state": "stub"
+    },
+    {
+      "name": "X509_STORE_CTX_get_ex_data_nid_postfix",
+      "nid": "178sT5ucvvo",
+      "state": "stub"
+    },
+    {
+      "name": "X509_STORE_CTX_set_error_nid_postfix",
+      "nid": "1qxOOb+Pck0",
+      "state": "stub"
+    },
+    {
+      "name": "X509_STORE_add_cert_nid_postfix",
+      "nid": "amZ51itRKpk",
+      "state": "stub"
+    },
+    {
+      "name": "X509_STORE_add_crl_nid_postfix",
+      "nid": "vutA3w9IZmw",
+      "state": "stub"
+    },
+    {
+      "name": "X509_STORE_add_lookup_nid_postfix",
+      "nid": "oLT3Ub9AJU4",
+      "state": "stub"
+    },
+    {
+      "name": "X509_STORE_free_nid_postfix",
+      "nid": "H3bfceYGqpo",
+      "state": "stub"
+    },
+    {
+      "name": "X509_STORE_new_nid_postfix",
+      "nid": "P-YY5tRe9dY",
+      "state": "stub"
+    },
+    {
+      "name": "X509_STORE_set_flags_nid_postfix",
+      "nid": "TVbvChTNutQ",
+      "state": "stub"
+    },
+    {
+      "name": "X509_VERIFY_PARAM_set1_host_nid_postfix",
+      "nid": "KwyXW9Km6kw",
+      "state": "stub"
+    },
+    {
+      "name": "X509_VERIFY_PARAM_set1_ip_asc_nid_postfix",
+      "nid": "y5CtGZL9ttU",
+      "state": "stub"
+    },
+    {
+      "name": "X509_VERIFY_PARAM_set_hostflags_nid_postfix",
+      "nid": "IoDO8GgS+l0",
+      "state": "stub"
+    },
+    {
+      "name": "X509_check_issued_nid_postfix",
+      "nid": "X-S5Vc2nKjI",
+      "state": "stub"
+    },
+    {
+      "name": "X509_free_nid_postfix",
+      "nid": "5TdYB88ao90",
+      "state": "stub"
+    },
+    {
+      "name": "X509_get_ext_d2i_nid_postfix",
+      "nid": "--EQy10Z8Ik",
+      "state": "stub"
+    },
+    {
+      "name": "X509_get_issuer_name_nid_postfix",
+      "nid": "sOTndn8Da80",
+      "state": "stub"
+    },
+    {
+      "name": "X509_get_pubkey_nid_postfix",
+      "nid": "IBp6BTQX588",
+      "state": "stub"
+    },
+    {
+      "name": "X509_get_serialNumber_nid_postfix",
+      "nid": "GAspmTCDydA",
+      "state": "stub"
+    },
+    {
+      "name": "X509_get_subject_name_nid_postfix",
+      "nid": "TkFWJMf1798",
+      "state": "stub"
+    },
+    {
+      "name": "X509_load_crl_file_nid_postfix",
+      "nid": "HzCSvLzC0-4",
+      "state": "stub"
+    },
+    {
+      "name": "X509_print_ex_nid_postfix",
+      "nid": "oqm4dxvmG6k",
+      "state": "stub"
+    },
+    {
+      "name": "X509_verify_cert_error_string_nid_postfix",
+      "nid": "O4QqcKy01ao",
+      "state": "implemented"
+    },
+    {
+      "name": "X509_verify_cert_nid_postfix",
+      "nid": "F0DESLRpcHo",
+      "state": "stub"
+    },
+    {
+      "name": "d2i_OCSP_RESPONSE_nid_postfix",
+      "nid": "yfEz9toIOug",
+      "state": "stub"
+    },
+    {
+      "name": "d2i_PKCS12_bio_nid_postfix",
+      "nid": "b1gLklTgKxg",
+      "state": "stub"
+    },
+    {
+      "name": "d2i_PKCS12_fp_nid_postfix",
+      "nid": "uCdp4Cz6Fvc",
+      "state": "stub"
+    },
+    {
+      "name": "d2i_RSA_PUBKEY_nid_postfix",
+      "nid": "bXrCz1Dh4k0",
+      "state": "stub"
+    },
+    {
+      "name": "d2i_X509_nid_postfix",
+      "nid": "oLgzqWCpijo",
+      "state": "stub"
+    },
+    {
+      "name": "i2a_ASN1_OBJECT_nid_postfix",
+      "nid": "-JtRnzIG45c",
+      "state": "stub"
+    },
+    {
+      "name": "i2d_X509_PUBKEY_nid_postfix",
+      "nid": "SZiAO9wlRVI",
+      "state": "stub"
+    },
+    {
+      "name": "i2t_ASN1_OBJECT_nid_postfix",
+      "nid": "jTCZqgQkn4E",
+      "state": "stub"
+    },
+    {
+      "name": "sceLibreSslGetMemoryPoolStats",
+      "nid": "rJFDhypHYaY",
+      "state": "stub"
+    },
+    {
+      "name": "sceLibreSslInit",
+      "nid": "DWzAHSX9KW8",
+      "state": "stub"
+    },
+    {
+      "name": "sceLibreSslInitEx",
+      "nid": "jri3LyXhEGw",
+      "state": "stub"
+    },
+    {
+      "name": "sceLibreSslInitEx2",
+      "nid": "xoRfQxAhHjk",
+      "state": "stub"
+    },
+    {
+      "name": "sceLibreSslTerm",
+      "nid": "n2fSRzuTEY4",
+      "state": "stub"
+    },
+    {
+      "name": "sk_num_nid_postfix",
+      "nid": "7TGvF4ig2IU",
+      "state": "stub"
+    },
+    {
+      "name": "sk_pop_free_nid_postfix",
+      "nid": "2v4Awko4p1A",
+      "state": "stub"
+    },
+    {
+      "name": "sk_pop_nid_postfix",
+      "nid": "IT0C192xiuA",
+      "state": "stub"
+    },
+    {
+      "name": "sk_value_nid_postfix",
+      "nid": "R15f2PNlDjU",
+      "state": "stub"
+    }
+  ]
+}

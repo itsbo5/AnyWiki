@@ -1,0 +1,52 @@
+{
+  "name": "libSceNpProfileDialog",
+  "label": "NpProfileDialog",
+  "category": "Network and services",
+  "implemented": 8,
+  "inert": 0,
+  "stub": 0,
+  "total": 8,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpProfileDialogClose",
+      "nid": "wkwjz0Xdo2A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpProfileDialogGetResult",
+      "nid": "8rhLl1-0W-o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpProfileDialogGetStatus",
+      "nid": "3BqoiFOjSsk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpProfileDialogInitialize",
+      "nid": "Lg+NCE6pTwQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpProfileDialogOpen",
+      "nid": "uj9Cz7Tk0cc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpProfileDialogOpenA",
+      "nid": "nrQRlLKzdwE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpProfileDialogTerminate",
+      "nid": "0Sp9vJcB1-w",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpProfileDialogUpdateStatus",
+      "nid": "haVZE9FgKqE",
+      "state": "implemented"
+    }
+  ]
+}

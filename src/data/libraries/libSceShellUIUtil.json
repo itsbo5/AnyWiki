@@ -1,0 +1,42 @@
+{
+  "name": "libSceShellUIUtil",
+  "label": "ShellUIUtil",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 6,
+  "total": 6,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceShellUIUtilCreateTaskToken",
+      "nid": "jaf5nhLNbU4",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellUIUtilGetAppUrl",
+      "nid": "EcvEiAbDsyk",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellUIUtilInitialize",
+      "nid": "-htpXyfaKlM",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellUIUtilLaunchByUri",
+      "nid": "Ni6j+eh9Hlk",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellUIUtilLaunchTask",
+      "nid": "1lACBrvq6Vg",
+      "state": "stub"
+    },
+    {
+      "name": "sceShellUIUtilTerminate",
+      "nid": "yrHudi97Mfw",
+      "state": "stub"
+    }
+  ]
+}

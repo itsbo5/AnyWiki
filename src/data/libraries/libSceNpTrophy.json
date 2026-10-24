@@ -1,0 +1,77 @@
+{
+  "name": "libSceNpTrophy",
+  "label": "NpTrophy",
+  "category": "Network and services",
+  "implemented": 11,
+  "inert": 0,
+  "stub": 2,
+  "total": 13,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpTrophyCreateContext",
+      "nid": "XbkjbobZlCY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophyCreateHandle",
+      "nid": "q7U6tEAQf7c",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophyDestroyContext",
+      "nid": "E1Wrwd07Lr8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophyDestroyHandle",
+      "nid": "GNcF4oidY0Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophyGetGameIcon",
+      "nid": "HLwz1fRIycA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophyGetGameInfo",
+      "nid": "YYP3f2W09og",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophyGetGroupIcon",
+      "nid": "w4uMPmErD4I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophyGetGroupInfo",
+      "nid": "wTUwGfspKic",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophyGetTrophyIcon",
+      "nid": "eBL+l6HG9xk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophyGetTrophyInfo",
+      "nid": "qqUVGDgQBm0",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTrophyGetTrophyUnlockState",
+      "nid": "LHuSmO3SLd8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophyRegisterContext",
+      "nid": "TJCAxto9SEU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTrophyUnlockTrophy",
+      "nid": "28xmRUFao68",
+      "state": "implemented"
+    }
+  ]
+}

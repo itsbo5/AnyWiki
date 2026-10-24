@@ -1,0 +1,192 @@
+{
+  "name": "libSceVoice",
+  "label": "Voice",
+  "category": "Audio and media",
+  "implemented": 30,
+  "inert": 0,
+  "stub": 6,
+  "total": 36,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceVoiceConnectIPortToOPort",
+      "nid": "oV9GAdJ23Gw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceCreatePort",
+      "nid": "nXpje5yNpaE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceDeletePort",
+      "nid": "b7kJI+nx2hg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceDeviceInCustomerData",
+      "nid": "WxrYyOK7Las",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceDisableChat",
+      "nid": "xHSNCLrQq3A",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceDisconnectIPortFromOPort",
+      "nid": "ajVj3QG2um4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceEnableChat",
+      "nid": "lLkJVewQK68",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceEnd_nid_postfix",
+      "nid": "f6mfgo19goM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceGetBitRate",
+      "nid": "cJLufzou6bc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceGetMemorySize",
+      "nid": "4s3lpDzi0as",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceGetMuteFlag",
+      "nid": "Pc4z1QjForU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceGetPortAttr",
+      "nid": "elcxZTEfHZM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceGetPortInfo",
+      "nid": "CrLqDwWLoXM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceGetResourceInfo",
+      "nid": "Z6QV6j7igvE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceGetVolume",
+      "nid": "jjkCjneOYSs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceInit",
+      "nid": "9TrhuGzberQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceInitHQ",
+      "nid": "IPHvnM5+g04",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoicePausePort",
+      "nid": "x0slGBQW+wY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoicePausePortAll",
+      "nid": "Dinob0yMRl8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceQAEnableRecording",
+      "nid": "SK8bEyT33Ww",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceReadFromOPort",
+      "nid": "cQ6DGsQEjV4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceResetPort",
+      "nid": "udAxvCePkUs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceResumePort",
+      "nid": "gAgN+HkiEzY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceResumePortAll",
+      "nid": "jbkJFmOZ9U0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceSetBitRate",
+      "nid": "TexwmOHQsDg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceSetMuteFlag",
+      "nid": "gwUynkEgNFY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceSetMuteFlagAll",
+      "nid": "oUha0S-Ij9Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceSetThreadsParams",
+      "nid": "clyKUyi3RYU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceSetVolume",
+      "nid": "QBFoAIjJoXQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceStart",
+      "nid": "54phPH2LZls",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceStop",
+      "nid": "Ao2YNSA7-Qo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceUpdatePort",
+      "nid": "jSZNP7xJrcw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceVADAdjustment",
+      "nid": "hg9T73LlRiU",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceVADPVTAdjustment",
+      "nid": "wXCMy4EwaLE",
+      "state": "stub"
+    },
+    {
+      "name": "sceVoiceVADSetVersion",
+      "nid": "wFeAxEeEi-8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceVoiceWriteToIPort",
+      "nid": "YeJl6yDlhW0",
+      "state": "stub"
+    }
+  ]
+}

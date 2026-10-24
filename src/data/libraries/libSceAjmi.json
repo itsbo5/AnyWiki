@@ -1,0 +1,22 @@
+{
+  "name": "libSceAjmi",
+  "label": "Ajmi",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 2,
+  "total": 2,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceAjmBatchJobInlineBuffer",
+      "nid": "stlghnic3Jc",
+      "state": "stub"
+    },
+    {
+      "name": "sceAjmBatchJobRunBufferRa",
+      "nid": "ElslOCpOIns",
+      "state": "stub"
+    }
+  ]
+}

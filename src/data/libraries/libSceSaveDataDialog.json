@@ -1,0 +1,52 @@
+{
+  "name": "libSceSaveDataDialog",
+  "label": "SaveDataDialog",
+  "category": "Network and services",
+  "implemented": 8,
+  "inert": 0,
+  "stub": 0,
+  "total": 8,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSaveDataDialogClose",
+      "nid": "fH46Lag88XY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataDialogGetResult",
+      "nid": "yEiJ-qqr6Cg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataDialogInitialize",
+      "nid": "s9e3+YpRnzw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataDialogIsReadyToDisplay",
+      "nid": "en7gNVnh878",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataDialogOpen",
+      "nid": "4tPhsP6FpDI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataDialogProgressBarInc",
+      "nid": "V-uEeFKARJU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataDialogProgressBarSetValue",
+      "nid": "hay1CfTmLyA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSaveDataDialogTerminate",
+      "nid": "YuH2FA7azqQ",
+      "state": "implemented"
+    }
+  ]
+}

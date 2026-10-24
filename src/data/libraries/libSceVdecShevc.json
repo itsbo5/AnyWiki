@@ -1,0 +1,47 @@
+{
+  "name": "libSceVdecShevc",
+  "label": "VdecShevc",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 7,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSdecCreateSwHevc",
+      "nid": "fFoSsp6H+LA",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdecDestroySwHevc",
+      "nid": "WKFvkCZNYOo",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdecExecuteSwHevc",
+      "nid": "JEG+WDtNkKw",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdecGetFrameSwHevc",
+      "nid": "yOBcAzeyqJY",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdecGetVersionSwHevc",
+      "nid": "pqkwFXiIzQc",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdecQueryMemorySwHevc",
+      "nid": "Zz5jZ8qvJ78",
+      "state": "stub"
+    },
+    {
+      "name": "sceSdecResetSwHevc",
+      "nid": "NoTstVRO3qE",
+      "state": "stub"
+    }
+  ]
+}

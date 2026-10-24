@@ -1,0 +1,11 @@
+{
+  "name": "libSceVideoRecording.native",
+  "label": "VideoRecording.native",
+  "category": "Graphics and video",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 0,
+  "total": 0,
+  "sharedSources": null,
+  "functions": []
+}

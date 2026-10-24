@@ -1,0 +1,142 @@
+{
+  "name": "libSceNpSessionSignaling",
+  "label": "NpSessionSignaling",
+  "category": "Network and services",
+  "implemented": 18,
+  "inert": 0,
+  "stub": 8,
+  "total": 26,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpSessionSignalingActivateSession",
+      "nid": "r4XacqHvkn4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingActivateUser",
+      "nid": "9r7dM3puxMk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingCreateContext",
+      "nid": "GtuZGmN-tKw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingCreateContext2",
+      "nid": "aBuX0PX-T7I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingCreateJoinActivate",
+      "nid": "UEJmRQ6PkSo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSessionSignalingDeactivate",
+      "nid": "cQkBH-pXhF0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingDestroyContext",
+      "nid": "Z9Q9LzQDXf0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingGetConnectionFromNetAddress",
+      "nid": "RcGZnakPiOk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingGetConnectionFromNetAddress2",
+      "nid": "hbNcE4fnBDs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingGetConnectionFromPeerAddress",
+      "nid": "dJJ0UPrrsok",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingGetConnectionFromPeerAddress2",
+      "nid": "DicBhsm2iR4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingGetConnectionInfo",
+      "nid": "yJw2m6UWDYU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingGetConnectionStatistics",
+      "nid": "+Q++Q49a9z8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSessionSignalingGetConnectionStatus",
+      "nid": "n1fn2KFeLDA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingGetCustomProperty",
+      "nid": "D8OtBevb2j8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSessionSignalingGetGroupFromPeerAddress",
+      "nid": "AGLBmvVgdZ8",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSessionSignalingGetGroupFromSessionId",
+      "nid": "UGcXquhVYrY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingGetGroupInfo",
+      "nid": "WtOs6cUbrx8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingGetLocalNetInfo",
+      "nid": "OTilStjd9L8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingGetMemoryInfo",
+      "nid": "lbXTXRG5nyM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSessionSignalingInitialize",
+      "nid": "ysmw6J-P8Ak",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingInitializeWithPort",
+      "nid": "tLx8lvzU-ic",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSessionSignalingJoinActivate",
+      "nid": "ovguGShbM6M",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSessionSignalingRequestPrepare",
+      "nid": "r8mVMwlafF8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpSessionSignalingSetCustomProperty",
+      "nid": "L9ZtPS92fDE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpSessionSignalingTerminate",
+      "nid": "CqJuNXo5yiM",
+      "state": "implemented"
+    }
+  ]
+}

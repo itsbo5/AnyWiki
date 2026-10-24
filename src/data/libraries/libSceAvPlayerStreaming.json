@@ -1,0 +1,177 @@
+{
+  "name": "libSceAvPlayerStreaming",
+  "label": "AvPlayerStreaming",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 33,
+  "total": 33,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "MvpHttpAbort_nid_postfix",
+      "nid": "+Wo0kSaPYuU",
+      "state": "stub"
+    },
+    {
+      "name": "MvpHttpDeInit_nid_postfix",
+      "nid": "40o8ibXrS+g",
+      "state": "stub"
+    },
+    {
+      "name": "MvpHttpGetLastError_nid_postfix",
+      "nid": "7LGzrNMI540",
+      "state": "stub"
+    },
+    {
+      "name": "MvpHttpGet_nid_postfix",
+      "nid": "rTYUI7R0kc0",
+      "state": "stub"
+    },
+    {
+      "name": "MvpHttpHeadCleanup_nid_postfix",
+      "nid": "HUluqoZ+OkY",
+      "state": "stub"
+    },
+    {
+      "name": "MvpHttpHead_nid_postfix",
+      "nid": "-k+wEL8bdYc",
+      "state": "stub"
+    },
+    {
+      "name": "MvpHttpInit_nid_postfix",
+      "nid": "iGGfxYvQkbc",
+      "state": "stub"
+    },
+    {
+      "name": "MvpHttpPost_nid_postfix",
+      "nid": "NlFHQU6-6KM",
+      "state": "stub"
+    },
+    {
+      "name": "MvpHttpSetCert_nid_postfix",
+      "nid": "20BxUBgbXhY",
+      "state": "stub"
+    },
+    {
+      "name": "MvpHttpSetRecvTimeout_nid_postfix",
+      "nid": "n9nw+Cv0sqM",
+      "state": "stub"
+    },
+    {
+      "name": "MvpHttpSetRedirectCb_nid_postfix",
+      "nid": "vkCXLN4VvmQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsCloseFile",
+      "nid": "MZbcWoK2x6s",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsDisableRepresentation",
+      "nid": "x5crCoykxlM",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsEnableRepresentation",
+      "nid": "pyoZ0o2qhgE",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsEnableStream",
+      "nid": "mD3OeD3UdZk",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsGetAvailableBW",
+      "nid": "Q5py3m4I8SA",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsGetLiveStatus",
+      "nid": "eKxoV8TKYy4",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsGetNextAuInfo",
+      "nid": "tgPoC4+mOy4",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsGetNextUnitData",
+      "nid": "5d1ETCfqFnA",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsGetRepresentationCount",
+      "nid": "rnjsFB0Fqps",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsGetRepresentationInfo",
+      "nid": "CBX4+UX-tG4",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsGetSeekWindow",
+      "nid": "OEzZq+ThEio",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsGetStreamInfo",
+      "nid": "HTQKxIObCrs",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsGetUrlEncryptionType",
+      "nid": "pXYlucRhimU",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsJumpPTS",
+      "nid": "jyGoZLZlG-M",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsOpenFile",
+      "nid": "j2in3S4xf+0",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsOpenFileEx",
+      "nid": "I4Dpeom1P6Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsReleaseBuffer",
+      "nid": "6gT5JU72smg",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsRepresentationIsEnabled",
+      "nid": "nNCXg4kNpuc",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsSetAvailableBW",
+      "nid": "ARai7ZRDpHs",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsSetStartingBW",
+      "nid": "amNUtF1PF-w",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsStartFileStreaming",
+      "nid": "aQwNhI19JpE",
+      "state": "stub"
+    },
+    {
+      "name": "sceTsStopFileStreaming",
+      "nid": "buBHKGLpYr4",
+      "state": "stub"
+    }
+  ]
+}

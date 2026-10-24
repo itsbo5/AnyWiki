@@ -1,0 +1,117 @@
+{
+  "name": "libSceUsbStorage",
+  "label": "UsbStorage",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 2,
+  "stub": 12,
+  "total": 21,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceUsbStorageClearFakeWriteProtection",
+      "nid": "RN02UVCL9kU",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbStorageGetDeviceInfo",
+      "nid": "-GvBqz54ssU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbStorageGetDeviceList",
+      "nid": "mryrNITeYvI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbStorageGetMountPointOfShellCore",
+      "nid": "1RGfzjJj4VE",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbStorageGetdentsClose",
+      "nid": "w1mZOJCxvhQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbStorageGetdentsOpen",
+      "nid": "2LrlpFmBTC8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbStorageGetdentsRead",
+      "nid": "OeJdPEmLYX4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbStorageInit",
+      "nid": "BDDZwF5kuTc",
+      "state": "inert"
+    },
+    {
+      "name": "sceUsbStorageIsExist",
+      "nid": "tO8DvyElInw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbStorageRegisterCallback",
+      "nid": "vFkdkzJgSpw",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbStorageRegisterCallbackForMapAvailable",
+      "nid": "0rG6xtn7N5Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbStorageRegisterCallbackForMapUnavailable",
+      "nid": "8mpZuu7xfbM",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbStorageRequestMap",
+      "nid": "IDYJZSeBgDs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbStorageRequestMapWSB",
+      "nid": "rx7EcAS2ARk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceUsbStorageRequestUnmap",
+      "nid": "fl3roYs7F9U",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbStorageSetFakeMapLockForDebug",
+      "nid": "dkOLeMUuEwA",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbStorageSetFakeWriteProtection",
+      "nid": "e9esEJLGY0o",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbStorageTerm",
+      "nid": "Wp8zHTocS5E",
+      "state": "inert"
+    },
+    {
+      "name": "sceUsbStorageUnregisterCallback",
+      "nid": "+Ib-MHNUf80",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbStorageUnregisterCallbackForMapAvailable",
+      "nid": "C3ETNYXsht4",
+      "state": "stub"
+    },
+    {
+      "name": "sceUsbStorageUnregisterCallbackForMapUnavailable",
+      "nid": "4YMBk1lfUm0",
+      "state": "stub"
+    }
+  ]
+}

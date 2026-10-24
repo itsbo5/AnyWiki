@@ -1,0 +1,722 @@
+{
+  "name": "libSceNpTus",
+  "label": "NpTus",
+  "category": "Network and services",
+  "implemented": 112,
+  "inert": 0,
+  "stub": 30,
+  "total": 142,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceNpTssCreateNpTitleCtx",
+      "nid": "sRVb2Cf0GHg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTssCreateNpTitleCtxA",
+      "nid": "lBtrk+7lk14",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTssGetData",
+      "nid": "-SUR+UoLS6c",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTssGetDataAsync",
+      "nid": "DS2yu3Sjj1o",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTssGetSmallStorage",
+      "nid": "lL+Z3zCKNTs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTssGetSmallStorageAsync",
+      "nid": "f2Pe4LGS2II",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTssGetStorage",
+      "nid": "IVSbAEOxJ6I",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTssGetStorageAsync",
+      "nid": "k5NZIzggbuk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusAbortRequest",
+      "nid": "2eq1bMwgZYo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusAddAndGetVariable",
+      "nid": "cRVmNrJDbG8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusAddAndGetVariableA",
+      "nid": "wPFah4-5Xec",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusAddAndGetVariableAAsync",
+      "nid": "2dB427dT3Iw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusAddAndGetVariableAVUser",
+      "nid": "Nt1runsPVJc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusAddAndGetVariableAVUserAsync",
+      "nid": "GjlEgLCh4DY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusAddAndGetVariableAsync",
+      "nid": "Q2UmHdK04c8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusAddAndGetVariableForCrossSave",
+      "nid": "EPeq43CQKxY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusAddAndGetVariableForCrossSaveAsync",
+      "nid": "mXZi1D2xwZE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusAddAndGetVariableForCrossSaveVUser",
+      "nid": "4VLlu7EIjzk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusAddAndGetVariableForCrossSaveVUserAsync",
+      "nid": "6Lu9geO5TiA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusAddAndGetVariableVUser",
+      "nid": "ukr6FBSrkJw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusAddAndGetVariableVUserAsync",
+      "nid": "lliK9T6ylJg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusChangeModeForOtherSaveDataOwners",
+      "nid": "wjNhItL2wzg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusCreateNpTitleCtx",
+      "nid": "BIkMmUfNKWM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusCreateNpTitleCtxA",
+      "nid": "1n-dGukBgnY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusCreateRequest",
+      "nid": "3bh2aBvvmvM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusCreateTitleCtx",
+      "nid": "hhy8+oecGac",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusDeleteMultiSlotData",
+      "nid": "0DT5bP6YzBo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusDeleteMultiSlotDataA",
+      "nid": "iXzUOM9sXU0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusDeleteMultiSlotDataAAsync",
+      "nid": "6-+Yqc-NppQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusDeleteMultiSlotDataAsync",
+      "nid": "OCozl1ZtxRY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusDeleteMultiSlotDataVUser",
+      "nid": "xutwCvsydkk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusDeleteMultiSlotDataVUserAsync",
+      "nid": "zDeH4tr+0cQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusDeleteMultiSlotVariable",
+      "nid": "mYhbiRtkE1Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusDeleteMultiSlotVariableA",
+      "nid": "pwnE9Oa1uF8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusDeleteMultiSlotVariableAAsync",
+      "nid": "NQIw7tzo0Ow",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusDeleteMultiSlotVariableAsync",
+      "nid": "0nDVqcYECoM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusDeleteMultiSlotVariableVUser",
+      "nid": "o02Mtf8G6V0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusDeleteMultiSlotVariableVUserAsync",
+      "nid": "WCzd3cxhubo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusDeleteNpTitleCtx",
+      "nid": "H3uq7x0sZOI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusDeleteRequest",
+      "nid": "CcIH40dYS88",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetData",
+      "nid": "XOzszO4ONWU",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetDataA",
+      "nid": "yWEHUFkY1qI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetDataAAsync",
+      "nid": "xzG8mG9YlKY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetDataAVUser",
+      "nid": "iaH+Sxlw32k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetDataAVUserAsync",
+      "nid": "uoFvgzwawAY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetDataAsync",
+      "nid": "uHtKS5V1T5k",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetDataForCrossSave",
+      "nid": "1TE3OvH61qo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetDataForCrossSaveAsync",
+      "nid": "CFPx3eyaT34",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetDataForCrossSaveVUser",
+      "nid": "-LxFGYCJwww",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetDataForCrossSaveVUserAsync",
+      "nid": "B7rBR0CoYLI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetDataVUser",
+      "nid": "GQHCksS7aLs",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetDataVUserAsync",
+      "nid": "5R6kI-8f+Hk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetFriendsDataStatus",
+      "nid": "DXigwIBTjWE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetFriendsDataStatusA",
+      "nid": "yixh7HDKWfk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetFriendsDataStatusAAsync",
+      "nid": "OheijxY5RYE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetFriendsDataStatusAsync",
+      "nid": "LUwvy0MOSqw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetFriendsDataStatusForCrossSave",
+      "nid": "TDoqRD+CE+M",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetFriendsDataStatusForCrossSaveAsync",
+      "nid": "68B6XDgSANk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetFriendsVariable",
+      "nid": "cy+pAALkHp8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetFriendsVariableA",
+      "nid": "C8TY-UnQoXg",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetFriendsVariableAAsync",
+      "nid": "wrImtTqUSGM",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetFriendsVariableAsync",
+      "nid": "YFYWOwYI6DY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetFriendsVariableForCrossSave",
+      "nid": "mD6s8HtMdpk",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetFriendsVariableForCrossSaveAsync",
+      "nid": "FabW3QpY3gQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotDataStatus",
+      "nid": "pgcNwFHoOL4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotDataStatusA",
+      "nid": "833Y2TnyonE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotDataStatusAAsync",
+      "nid": "7uLPqiNvNLc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotDataStatusAVUser",
+      "nid": "azmjx3jBAZA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotDataStatusAVUserAsync",
+      "nid": "668Ij9MYKEU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotDataStatusAsync",
+      "nid": "Qyek420uZmM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotDataStatusForCrossSave",
+      "nid": "DgpRToHWN40",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotDataStatusForCrossSaveAsync",
+      "nid": "LQ6CoHcp+ug",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotDataStatusForCrossSaveVUser",
+      "nid": "KBfBmtxCdmI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotDataStatusForCrossSaveVUserAsync",
+      "nid": "4UF2uu2eDCo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotDataStatusVUser",
+      "nid": "NGCeFUl5ckM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotDataStatusVUserAsync",
+      "nid": "bHWFSg6jvXc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotVariable",
+      "nid": "F+eQlfcka98",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotVariableA",
+      "nid": "GDXlRTxgd+M",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotVariableAAsync",
+      "nid": "2BnPSY1Oxd8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotVariableAVUser",
+      "nid": "AsziNQ9X2uk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotVariableAVUserAsync",
+      "nid": "y-DJK+d+leg",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotVariableAsync",
+      "nid": "bcPB2rnhQqo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotVariableForCrossSave",
+      "nid": "m9XZnxw9AmE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotVariableForCrossSaveAsync",
+      "nid": "DFlBYT+Lm2I",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotVariableForCrossSaveVUser",
+      "nid": "wTuuw4-6HI8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotVariableForCrossSaveVUserAsync",
+      "nid": "DPcu0qWsd7Q",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotVariableVUser",
+      "nid": "uFxVYJEkcmc",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetMultiSlotVariableVUserAsync",
+      "nid": "qp-rTrq1klk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserDataStatus",
+      "nid": "NvHjFkx2rnU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserDataStatusA",
+      "nid": "lxNDPDnWfMc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserDataStatusAAsync",
+      "nid": "kt+k6jegYZ8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserDataStatusAVUser",
+      "nid": "fJU2TZId210",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserDataStatusAVUserAsync",
+      "nid": "WBh3zfrjS38",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserDataStatusAsync",
+      "nid": "0zkr0T+NYvI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserDataStatusForCrossSave",
+      "nid": "cVeBif6zdZ4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserDataStatusForCrossSaveAsync",
+      "nid": "lq0Anwhj0wY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserDataStatusForCrossSaveVUser",
+      "nid": "w-c7U0MW2KY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserDataStatusForCrossSaveVUserAsync",
+      "nid": "H6sQJ99usfE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserDataStatusVUser",
+      "nid": "xwJIlK0bHgA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserDataStatusVUserAsync",
+      "nid": "I5dlIKkHNkQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserVariable",
+      "nid": "6G9+4eIb+cY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserVariableA",
+      "nid": "Gjixv5hqRVY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserVariableAAsync",
+      "nid": "eGunerNP9n0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserVariableAVUser",
+      "nid": "fVvocpq4mG4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserVariableAVUserAsync",
+      "nid": "V8ZA3hHrAbw",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserVariableAsync",
+      "nid": "YRje5yEXS0U",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserVariableForCrossSave",
+      "nid": "Q5uQeScvTPE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusGetMultiUserVariableForCrossSaveAsync",
+      "nid": "oZ8DMeTU-50",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserVariableForCrossSaveVUser",
+      "nid": "Djuj2+1VNL0",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserVariableForCrossSaveVUserAsync",
+      "nid": "82RP7itI-zI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserVariableVUser",
+      "nid": "zB0vaHTzA6g",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusGetMultiUserVariableVUserAsync",
+      "nid": "xZXQuNSTC6o",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusPollAsync",
+      "nid": "t7b6dmpQNiI",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusSetData",
+      "nid": "4NrufkNCkiE",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusSetDataA",
+      "nid": "VzxN3tOouj8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusSetDataAAsync",
+      "nid": "4u58d6g6uwU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusSetDataAVUser",
+      "nid": "kbWqOt3QjKU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusSetDataAVUserAsync",
+      "nid": "Fmx4tapJGzo",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusSetDataAsync",
+      "nid": "G68xdfQuiyU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusSetDataVUser",
+      "nid": "+RhzSuuXwxo",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusSetDataVUserAsync",
+      "nid": "E4BCVfx-YfM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusSetMultiSlotVariable",
+      "nid": "c6aYoa47YgI",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusSetMultiSlotVariableA",
+      "nid": "cf-WMA0jYCc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusSetMultiSlotVariableAAsync",
+      "nid": "ypMObSwfcns",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusSetMultiSlotVariableAsync",
+      "nid": "5J9GGMludxY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusSetMultiSlotVariableVUser",
+      "nid": "1Cz0hTJFyh4",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusSetMultiSlotVariableVUserAsync",
+      "nid": "CJAxTxQdwHM",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusSetThreadParam",
+      "nid": "6GKDdRCFx8c",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusSetTimeout",
+      "nid": "KMlHj+tgfdQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceNpTusTryAndSetVariable",
+      "nid": "ukC55HsotJ4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusTryAndSetVariableA",
+      "nid": "0up4MP1wNtc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusTryAndSetVariableAAsync",
+      "nid": "bGTjTkHPHTE",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusTryAndSetVariableAVUser",
+      "nid": "oGIcxlUabSA",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusTryAndSetVariableAVUserAsync",
+      "nid": "uf77muc5Bog",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusTryAndSetVariableAsync",
+      "nid": "xQfR51i4kck",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusTryAndSetVariableForCrossSave",
+      "nid": "MGvSJEHwyL8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusTryAndSetVariableForCrossSaveAsync",
+      "nid": "JKGYZ2F1yT8",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusTryAndSetVariableForCrossSaveVUser",
+      "nid": "fcCwKpi4CbU",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusTryAndSetVariableForCrossSaveVUserAsync",
+      "nid": "CjVIpztpTNc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusTryAndSetVariableVUser",
+      "nid": "ZbitD262GhY",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusTryAndSetVariableVUserAsync",
+      "nid": "trZ6QGW6jHs",
+      "state": "implemented"
+    },
+    {
+      "name": "sceNpTusWaitAsync",
+      "nid": "hYPJFWzFPjA",
+      "state": "implemented"
+    }
+  ]
+}

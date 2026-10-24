@@ -1,0 +1,52 @@
+{
+  "name": "libSceIdu",
+  "label": "Idu",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 8,
+  "total": 8,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceIduGetEnv",
+      "nid": "RANPtoAYeAA",
+      "state": "stub"
+    },
+    {
+      "name": "sceIduInit",
+      "nid": "cdxE2NbkV9g",
+      "state": "stub"
+    },
+    {
+      "name": "sceIduInstallPkg",
+      "nid": "ZYW6lkVPGBM",
+      "state": "stub"
+    },
+    {
+      "name": "sceIduIsAppInstalled",
+      "nid": "-loJgo7j+qc",
+      "state": "stub"
+    },
+    {
+      "name": "sceIduIsRifInstalled",
+      "nid": "uiDKKpAQzO0",
+      "state": "stub"
+    },
+    {
+      "name": "sceIduIsStaffMode",
+      "nid": "9v8qoOWDC48",
+      "state": "stub"
+    },
+    {
+      "name": "sceIduReboot",
+      "nid": "3ET+1J4apB0",
+      "state": "stub"
+    },
+    {
+      "name": "sceIduTerm",
+      "nid": "tmOiNISgk2I",
+      "state": "stub"
+    }
+  ]
+}

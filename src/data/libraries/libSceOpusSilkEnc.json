@@ -1,0 +1,82 @@
+{
+  "name": "libSceOpusSilkEnc",
+  "label": "OpusSilkEnc",
+  "category": "Audio and media",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 14,
+  "total": 14,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceOpusSilkEncCancel",
+      "nid": "S2yTg8ZqUtw",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusSilkEncCreate",
+      "nid": "du4P08Wq144",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusSilkEncCreateEx",
+      "nid": "RTRzcT0eBrY",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusSilkEncCtl",
+      "nid": "5nl86m-O6zg",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusSilkEncDestroy",
+      "nid": "Vq8Y0nLGy74",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusSilkEncEncode",
+      "nid": "ukkAU3uqfqc",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusSilkEncEncodeFloat",
+      "nid": "DsPrCZ82v3g",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusSilkEncEncodeFloatWithPriority",
+      "nid": "hFTzgblpaSg",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusSilkEncEncodeFloatWithPriorityAndTimeout",
+      "nid": "emNQgrM1-M8",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusSilkEncEncodeWithPriority",
+      "nid": "36SxclBwsFs",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusSilkEncEncodeWithPriorityAndTimeout",
+      "nid": "vytOYzDyTq0",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusSilkEncGetSize",
+      "nid": "gpdlKz0w448",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusSilkEncInitialize",
+      "nid": "uBN2pO1YkOM",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusSilkEncTerminate",
+      "nid": "q-89AuIWC3s",
+      "state": "stub"
+    }
+  ]
+}

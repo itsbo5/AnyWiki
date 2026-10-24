@@ -1,0 +1,82 @@
+{
+  "name": "libSceOpusDec",
+  "label": "OpusDec",
+  "category": "Audio and media",
+  "implemented": 6,
+  "inert": 0,
+  "stub": 8,
+  "total": 14,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceOpusDecCancel",
+      "nid": "RQFEW7ZfQJc",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusDecCreate",
+      "nid": "a5zvjYkJu0s",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusDecCreateEx",
+      "nid": "KAIGiqYrtI4",
+      "state": "implemented"
+    },
+    {
+      "name": "sceOpusDecCtl",
+      "nid": "m4ohLv1Fdes",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusDecDecode",
+      "nid": "+CSUx-budSk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceOpusDecDecodeFloat",
+      "nid": "2U9KB5G-W2w",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusDecDecodeFloatWithPriority",
+      "nid": "DjibZOK00TU",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusDecDecodeFloatWithPriorityAndTimeout",
+      "nid": "x2nJkPwKx04",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusDecDecodeWithPriority",
+      "nid": "vkBmwJuOKgY",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusDecDecodeWithPriorityAndTimeout",
+      "nid": "eFhsGSf+Hbw",
+      "state": "stub"
+    },
+    {
+      "name": "sceOpusDecDestroy",
+      "nid": "290AWkA-lck",
+      "state": "implemented"
+    },
+    {
+      "name": "sceOpusDecGetSize",
+      "nid": "knmEFpLg-Rk",
+      "state": "implemented"
+    },
+    {
+      "name": "sceOpusDecInitialize",
+      "nid": "2dA75YfXNrQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceOpusDecTerminate",
+      "nid": "qOpZPAFEvIs",
+      "state": "implemented"
+    }
+  ]
+}

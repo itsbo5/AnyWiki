@@ -1,0 +1,282 @@
+{
+  "name": "libSceIpmi",
+  "label": "Ipmi",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 54,
+  "total": 54,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "_ZN4IPMI4impl11SessionImpl27respondToAsyncMethodRequestEjiPKvm",
+      "nid": "uqrbCvCIBMU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI4impl11SessionImpl27respondToAsyncMethodRequestEjjiPKNS_8DataInfoEj",
+      "nid": "niK485vUNSQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI4impl11SessionImpl6getMsgEjPvPmmPj",
+      "nid": "nour4-O5aD0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI4impl11SessionImpl7destroyEv",
+      "nid": "YWOjuEzZ3Ic",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI4impl11SessionImpl7sendMsgEjPKvmPj",
+      "nid": "ptb571AzPy4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI4impl11SessionImpl9getServerEv",
+      "nid": "dzgrvhCjExA",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI4impl11SessionImpl9tryGetMsgEjPvPmm",
+      "nid": "XMR5p-AA5AQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI4impl11SessionImplC1Ev",
+      "nid": "WWpgP5pqtZ0",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI4impl11SessionImplC2Ev",
+      "nid": "pWkKuPgWHR8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI4impl11SessionImplD0Ev",
+      "nid": "NhaGXEDsWEc",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI4impl11SessionImplD1Ev",
+      "nid": "y33KR+d7Ldg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI4impl11SessionImplD2Ev",
+      "nid": "X7iya0Mw+To",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Client6Config14MsgQueueConfig20estimateMsgQueueSizeEmj",
+      "nid": "yoVdeXZzPck",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Client6Config14MsgQueueConfigC1Ev",
+      "nid": "yFtfUBc5dsc",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Client6Config14MsgQueueConfigC2Ev",
+      "nid": "pbT-iQht85o",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Client6Config24estimateClientMemorySizeEv",
+      "nid": "Rih7HnIM3JQ",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Client6Config26SyncMethodInvocationConfigC1Ev",
+      "nid": "ZHAqg71nFWw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Client6Config26SyncMethodInvocationConfigC2Ev",
+      "nid": "WxQ-nbumKpM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Client6Config27AsyncMethodInvocationConfigC1Ev",
+      "nid": "TA4rU9ZXgFM",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Client6Config27AsyncMethodInvocationConfigC2Ev",
+      "nid": "eNDYbSvB334",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Client6ConfigC1Ev",
+      "nid": "O1lQ2+do5r4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Client6ConfigC2Ev",
+      "nid": "C86F6UUBdFw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Client6createEPPS0_PKNS0_6ConfigEPvS6_",
+      "nid": "0zsTiDhM0nU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6ClientC2Ev",
+      "nid": "jt25u2q3Nvw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6ClientD0Ev",
+      "nid": "9j0AkeNr+qk",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6ClientD1Ev",
+      "nid": "hQkeuEc0BMs",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6ClientD2Ev",
+      "nid": "QLDcLR7Pzbg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Server12EventHandler15onSessionKilledEPNS_7SessionE",
+      "nid": "WemdQZJ8Ets",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Server12EventHandler20onSyncMethodDispatchEPNS_7SessionEjPKNS_8DataInfoEjPNS_10BufferInfoEj",
+      "nid": "RQD5VVIt0Bw",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Server12EventHandler20onSyncMethodDispatchEPNS_7SessionEjPvmmS4_m",
+      "nid": "iVUJ-VqTtek",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Server12EventHandler21onAsyncMethodDispatchEPNS_7SessionEjjPKNS_8DataInfoEj",
+      "nid": "v7dRprTYrgU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Server12EventHandler21onAsyncMethodDispatchEPNS_7SessionEjjPvmS4_m",
+      "nid": "wQ9pO7tm3DU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Server12EventHandlerD0Ev",
+      "nid": "ExIJ4oFvvzU",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Server12EventHandlerD1Ev",
+      "nid": "0qbsT7faz0E",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Server12EventHandlerD2Ev",
+      "nid": "Z5i0--Vqfwg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Server6ConfigC1Ev",
+      "nid": "vo2FiTXAekk",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Server6ConfigC2Ev",
+      "nid": "u5IYJtq4D-4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6Server6createEPPS0_PKNS0_6ConfigEPvS6_",
+      "nid": "hoWSsRT0ktA",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6ServerC2Ev",
+      "nid": "P72uwJlJjX4",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6ServerD0Ev",
+      "nid": "ysfNnf9JPS8",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6ServerD1Ev",
+      "nid": "bQOlflF2R5I",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI6ServerD2Ev",
+      "nid": "HkT3ygqjkCg",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI7Session6Config25estimateSessionMemorySizeEv",
+      "nid": "+0U0tMljl0I",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI7SessionC2Ev",
+      "nid": "q090kVFxvro",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI7SessionD0Ev",
+      "nid": "G2tb9MfBnFs",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI7SessionD1Ev",
+      "nid": "QfbB4i5JCvk",
+      "state": "stub"
+    },
+    {
+      "name": "_ZN4IPMI7SessionD2Ev",
+      "nid": "AHNKaOCthAE",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK4IPMI4impl11SessionImpl16isPeerPrivilegedEv",
+      "nid": "TY5vzD-y6EA",
+      "state": "stub"
+    },
+    {
+      "name": "_ZNK4IPMI6Server6Config29estimateTempWorkingMemorySizeEv",
+      "nid": "OXc1BksfEIg",
+      "state": "stub"
+    },
+    {
+      "name": "sceIpmiMgrGetIpcBlockerPid",
+      "nid": "0RFK6ZS8I9E",
+      "state": "stub"
+    },
+    {
+      "name": "sceIpmiMgrGetIpcBlockerPidByAppId",
+      "nid": "0osoVuiIg38",
+      "state": "stub"
+    },
+    {
+      "name": "sceIpmiMgrPauseDump",
+      "nid": "k+LGes6TQQI",
+      "state": "stub"
+    },
+    {
+      "name": "sceIpmiMgrRaiseExceptionToPid",
+      "nid": "2R+Q+mF1eog",
+      "state": "stub"
+    },
+    {
+      "name": "sceIpmiMgrStartDump",
+      "nid": "L4j7nnv2fVU",
+      "state": "stub"
+    }
+  ]
+}

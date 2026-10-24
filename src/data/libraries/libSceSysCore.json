@@ -1,0 +1,372 @@
+{
+  "name": "libSceSysCore",
+  "label": "SysCore",
+  "category": "System utilities",
+  "implemented": 0,
+  "inert": 0,
+  "stub": 72,
+  "total": 72,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "_sceApplicationGetAppId",
+      "nid": "e-ODUaoHXiY",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationAddProcess2",
+      "nid": "mzppT1RdIj0",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationBeginSclkChange",
+      "nid": "g-rkXpulHMc",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationBlockingKill2",
+      "nid": "FvuQlkBE3Ng",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationBlockingKill3",
+      "nid": "y55QWr8yzrY",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationContinue",
+      "nid": "+7qLP7HjL+4",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationCrashSyscore",
+      "nid": "z5e9ck9iUDc",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationCrashSystemProcess",
+      "nid": "zcvf3sc8O-U",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationEndSclkChange",
+      "nid": "tI+vyqSJZRY",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationExitSpawn",
+      "nid": "b6KysZfpTwE",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationExitSpawn2",
+      "nid": "0Ygl1mtSLhg",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationFinalize",
+      "nid": "SfPuQO4vW9M",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationGetAppInfoByAppId",
+      "nid": "kMaBFIQNsSI",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationGetAppPackageInfoForCoredump",
+      "nid": "rFCJnwsHUYA",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationGetCompiledSdkVersionByAppId",
+      "nid": "hlrJvAkqZxM",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationGetCoredumpDirAndFileName",
+      "nid": "f+HdRtISAvw",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationGetCoredumpState",
+      "nid": "DfD47ZODK8Y",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationGetCpuUsage",
+      "nid": "IQMhNqP7Ulw",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationGetCpuUsage2",
+      "nid": "pOEPVuZSH5g",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationGetDbgExecutablePath",
+      "nid": "iW2KVLVygdM",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationGetMode",
+      "nid": "cRGdsEkmjTU",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationGetProcs",
+      "nid": "GdIm4Jm2mm8",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationGetShellCoreAppId",
+      "nid": "yvbO67OvrFc",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationGetStateForDebugger",
+      "nid": "36MDnaC1OHI",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationInitialize",
+      "nid": "XFYItOxS6r0",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationInitializeForShellCore",
+      "nid": "9PCBPZcDU7Q",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationIsCrashReportBeingProcessed",
+      "nid": "K3+kZCE6lOo",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationIsPrimaryProcess",
+      "nid": "UWQ3JZbb5bM",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationIsResumable",
+      "nid": "os4QwIWwOJw",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationIsSuspendable",
+      "nid": "8aPSCSE8msA",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationKickCoredump",
+      "nid": "t6NwIzt2IE8",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationKickCoredump2",
+      "nid": "zrxj3h66ScY",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationKill",
+      "nid": "eAU7XCnlXMk",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationLocalProcessKill",
+      "nid": "BVfIVVqL1DA",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationLocalProcessKill2",
+      "nid": "OITH4TZEdRY",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationLocalProcessResume",
+      "nid": "AumF38kir6s",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationLocalProcessSuspend",
+      "nid": "slkr1eWM1o8",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationNotifyCoredumpRequestEnd",
+      "nid": "W+VrzBY+LBA",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationNotifyCoredumpRequestProgress",
+      "nid": "+dLapxrRdJM",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationNotifyVshMainOnStandby",
+      "nid": "f6zbafRlX3s",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationNotifyVshReady",
+      "nid": "dqwCM7RWifY",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationOnAllResourceReleased",
+      "nid": "kSqKbSK1s2c",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationRaiseException",
+      "nid": "IgqBZdkIvqM",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationRaiseExceptionToLocalPid",
+      "nid": "++DyHhMUeQA",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationRaiseExceptionToPid",
+      "nid": "fQZV+2VLPWI",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationRequestToChangeRenderingMode",
+      "nid": "i8x4exnuJ8o",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationRestore",
+      "nid": "Kh-3sEIzTyM",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationResume",
+      "nid": "Fv+LV+3CjIE",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSave",
+      "nid": "KYBFFsmh0a0",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSendDebugSpawnResult2",
+      "nid": "5DIzIUbaYkc",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSendResultOfDebuggerKillRequest",
+      "nid": "GPC-wPiKvKk",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSendResultOfDebuggerResumeRequest",
+      "nid": "n2oTCajh0fE",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSendResultOfDebuggerSuspendRequest",
+      "nid": "aDloR-BDH7k",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSendResultOfDebuggerTitleIdLaunchRequest",
+      "nid": "DReLgJ4LPj8",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSetApplicationFocus",
+      "nid": "S5pL+zLvJPI",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSetControllerFocus",
+      "nid": "bn3xT3DX1o8",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSetControllerFocusPermissionToSubProcess",
+      "nid": "8X5O9jV-bFs",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSetMemoryPstate",
+      "nid": "K62IGGSMrME",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSignalShellCoreHeartBeat",
+      "nid": "MW+T6ZCK7wo",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSpawn2",
+      "nid": "znS+s4RFPNk",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSuspend",
+      "nid": "C9ElcezDvIE",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSuspendSystemForDebugger",
+      "nid": "2Skcwb8RW2w",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSwitchToBaseMode",
+      "nid": "Oj6EZyXtQkk",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSwitchToNeoMode",
+      "nid": "60RuiO+Dep4",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSwitchToNeoMode2",
+      "nid": "BIqhORVcFnI",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSystemReboot",
+      "nid": "F0VSNgqS1+g",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSystemShutdown2",
+      "nid": "kP9AaRQ4bs0",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSystemSuspend",
+      "nid": "g8rs9gM3qAQ",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplicationSystemSuspend2",
+      "nid": "ksIBN+9hdXw",
+      "state": "stub"
+    },
+    {
+      "name": "sceApplictionGetStateForDebugger",
+      "nid": "nfI5R0ENsAg",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysCoreGetEventCount",
+      "nid": "SI++DtNK+-M",
+      "state": "stub"
+    },
+    {
+      "name": "sceSysCoreReceiveEvent",
+      "nid": "0YmjfSJ8X98",
+      "state": "stub"
+    }
+  ]
+}

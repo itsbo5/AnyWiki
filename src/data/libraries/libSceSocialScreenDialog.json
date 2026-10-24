@@ -1,0 +1,47 @@
+{
+  "name": "libSceSocialScreenDialog",
+  "label": "SocialScreenDialog",
+  "category": "System utilities",
+  "implemented": 7,
+  "inert": 0,
+  "stub": 0,
+  "total": 7,
+  "sharedSources": null,
+  "functions": [
+    {
+      "name": "sceSocialScreenDialogClose",
+      "nid": "4ej3RtYH320",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSocialScreenDialogGetResult",
+      "nid": "WjHT5TmV0TQ",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSocialScreenDialogGetStatus",
+      "nid": "3foHkmhq6ak",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSocialScreenDialogInitialize",
+      "nid": "PEe0R7gBHbc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSocialScreenDialogOpen",
+      "nid": "eL54zY-B+-Y",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSocialScreenDialogTerminate",
+      "nid": "A4KPdcTIVuc",
+      "state": "implemented"
+    },
+    {
+      "name": "sceSocialScreenDialogUpdateStatus",
+      "nid": "BEhMn+TyoGA",
+      "state": "implemented"
+    }
+  ]
+}

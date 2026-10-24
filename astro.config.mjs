@@ -11,10 +11,6 @@ export default defineConfig({
 		starlight({
 			title: 'AnyPS5',
 			description: 'Documentation for AnyPS5: Native executable conversion and runtime libraries',
-			logo: {
-				alt: 'AnyPS5',
-				text: 'AnyPS5',
-			},
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/boykopovar/AnyPS5' },
 				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/BHFztBPUe' },

@@ -1,0 +1,3653 @@
+[
+  {
+    "username": "xXPBSXx",
+    "prCount": 65,
+    "summary": "Contributed to Tests, fix, Documentation",
+    "recentPrs": [
+      {
+        "pr": 8717,
+        "branch": "test/nid-patcher-symbol-versions-windows"
+      },
+      {
+        "pr": 9139,
+        "branch": "fix/sgpr-fill-keys-test-resubmits"
+      },
+      {
+        "pr": 8673,
+        "branch": "test/run-guarded-checks-on-windows"
+      },
+      {
+        "pr": 8921,
+        "branch": "docs/udp-disconnect-windows-bound-address"
+      },
+      {
+        "pr": 8657,
+        "branch": "docs/environment-aps5-no-wgi"
+      }
+    ]
+  },
+  {
+    "username": "xdCloudy",
+    "prCount": 56,
+    "summary": "Contributed to feat, Graphics/AGC, libSceAgcVsh",
+    "recentPrs": [
+      {
+        "pr": 8970,
+        "branch": "feat/pr-overlap-main-export-check"
+      },
+      {
+        "pr": 8944,
+        "branch": "feat/ps5-agc-exports"
+      },
+      {
+        "pr": 9990,
+        "branch": "feat/libSceAgcVsh-150-pending-exports"
+      },
+      {
+        "pr": 10068,
+        "branch": "feat/libSceCamera-pending-exports"
+      },
+      {
+        "pr": 9695,
+        "branch": "feat/ps5-ipmi-pending-89-round1"
+      }
+    ]
+  },
+  {
+    "username": "hypermoist",
+    "prCount": 44,
+    "summary": "Contributed to libc, Graphics/AGC, feat",
+    "recentPrs": [
+      {
+        "pr": 8994,
+        "branch": "feat/libc-filesystem-primitives"
+      },
+      {
+        "pr": 8318,
+        "branch": "fix/agc-semaphore-memory-firmware"
+      },
+      {
+        "pr": 8435,
+        "branch": "feat/libc-libatomic-sized"
+      },
+      {
+        "pr": 8901,
+        "branch": "feat/libc-sce-v2-exceptions"
+      },
+      {
+        "pr": 8885,
+        "branch": "feat/libc-sce-v2-thread-sync"
+      }
+    ]
+  },
+  {
+    "username": "thuanquang",
+    "prCount": 37,
+    "summary": "Contributed to Graphics/AGC, Documentation, perf",
+    "recentPrs": [
+      {
+        "pr": 9077,
+        "branch": "docs/debt-agc-htile-msaa-stale"
+      },
+      {
+        "pr": 8453,
+        "branch": "docs/debt-acb-atomic-gds-signature"
+      },
+      {
+        "pr": 8450,
+        "branch": "docs/debt-converted-unorm-image-loads"
+      },
+      {
+        "pr": 8451,
+        "branch": "docs/debt-buffer-label-eop-flip"
+      },
+      {
+        "pr": 8425,
+        "branch": "docs/debt-packed-ancillary-whole-word"
+      }
+    ]
+  },
+  {
+    "username": "orezraey",
+    "prCount": 36,
+    "summary": "Contributed to libkernel, Graphics/AGC, libc",
+    "recentPrs": [
+      {
+        "pr": 10230,
+        "branch": "fix/libkernel-module-info-from-addr-measured-ps5"
+      },
+      {
+        "pr": 9876,
+        "branch": "fix/libkernel-aio-limits-measured-ps5"
+      },
+      {
+        "pr": 9153,
+        "branch": "fix/libkernel-dmem-available-measured-ps5"
+      },
+      {
+        "pr": 10308,
+        "branch": "fix/libkernel-socket-receive-measured-ps5"
+      },
+      {
+        "pr": 8728,
+        "branch": "fix/libkernel-msync-measured-ps5"
+      }
+    ]
+  },
+  {
+    "username": "MarcZX10",
+    "prCount": 35,
+    "summary": "Contributed to codex, libc, Relinker",
+    "recentPrs": [
+      {
+        "pr": 7838,
+        "branch": "codex/linux-thread-stack-reuse-7700"
+      },
+      {
+        "pr": 10003,
+        "branch": "codex/libc-acoshf-msun"
+      },
+      {
+        "pr": 7741,
+        "branch": "codex/macos-main-thread-mxcsr"
+      },
+      {
+        "pr": 10258,
+        "branch": "fix/relinker-same-file-missing-paths"
+      },
+      {
+        "pr": 10296,
+        "branch": "fix/env-reference-utf8-output"
+      }
+    ]
+  },
+  {
+    "username": "JJenkx",
+    "prCount": 34,
+    "summary": "Contributed to fix, windows, libc",
+    "recentPrs": [
+      {
+        "pr": 8632,
+        "branch": "fix/srt-unsigned-bound-compare"
+      },
+      {
+        "pr": 8851,
+        "branch": "windows/ngs2-debt-ppsa33655-modules"
+      },
+      {
+        "pr": 10384,
+        "branch": "windows/libc-strcasecmp-sign"
+      },
+      {
+        "pr": 9857,
+        "branch": "windows/libc-trigf-msun"
+      },
+      {
+        "pr": 10306,
+        "branch": "windows/libc-expm1-msun"
+      }
+    ]
+  },
+  {
+    "username": "al3w0f205",
+    "prCount": 30,
+    "summary": "Contributed to Tests, perf, fix",
+    "recentPrs": [
+      {
+        "pr": 10287,
+        "branch": "test/videorecording-info-code-coverage"
+      },
+      {
+        "pr": 10280,
+        "branch": "test/imedialog-panel-size-position-coverage"
+      },
+      {
+        "pr": 10286,
+        "branch": "test/npcommon-lwmutex-lock-coverage"
+      },
+      {
+        "pr": 10290,
+        "branch": "test/systemgesture-debug-version-coverage"
+      },
+      {
+        "pr": 10282,
+        "branch": "test/npentitlementaccess-flags-and-transaction-coverage"
+      }
+    ]
+  },
+  {
+    "username": "MarrasFederico",
+    "prCount": 29,
+    "summary": "Contributed to Graphics/AGC, feat, fix",
+    "recentPrs": [
+      {
+        "pr": 7992,
+        "branch": "fix/agc-store-idle-results-deadline"
+      },
+      {
+        "pr": 8525,
+        "branch": "feat/audio-out-mastering"
+      },
+      {
+        "pr": 8354,
+        "branch": "feat/system-service-app-title-id"
+      },
+      {
+        "pr": 8357,
+        "branch": "feat/http-memory-pool-stats"
+      },
+      {
+        "pr": 10311,
+        "branch": "fix/import-audit-unterminated-dynamic"
+      }
+    ]
+  },
+  {
+    "username": "emirplus",
+    "prCount": 28,
+    "summary": "Contributed to fix, libc",
+    "recentPrs": [
+      {
+        "pr": 10217,
+        "branch": "fix/env-reference-stream-reconfigure"
+      },
+      {
+        "pr": 10266,
+        "branch": "fix/nid-names-stream-reconfigure"
+      },
+      {
+        "pr": 10260,
+        "branch": "fix/check-skips-stream-reconfigure"
+      },
+      {
+        "pr": 10269,
+        "branch": "fix/trace-digest-stream-reconfigure"
+      },
+      {
+        "pr": 10252,
+        "branch": "fix/unwrap-self-stream-reconfigure"
+      }
+    ]
+  },
+  {
+    "username": "milescoviello",
+    "prCount": 27,
+    "summary": "Contributed to fix, Tests, perf",
+    "recentPrs": [
+      {
+        "pr": 10496,
+        "branch": "fix/share-identical-resource-plans"
+      },
+      {
+        "pr": 10438,
+        "branch": "fix/cache-key-target-digest"
+      },
+      {
+        "pr": 9254,
+        "branch": "test/interpolation-zero-ilogb"
+      },
+      {
+        "pr": 8121,
+        "branch": "fix/one-sample-color-iter"
+      },
+      {
+        "pr": 9250,
+        "branch": "fix/journal-loaded-entry-init"
+      }
+    ]
+  },
+  {
+    "username": "YossiYad",
+    "prCount": 23,
+    "summary": "Contributed to Shader recompiler, feat, fix",
+    "recentPrs": [
+      {
+        "pr": 9212,
+        "branch": "feat/gnm-neo-shaders-workloads"
+      },
+      {
+        "pr": 8264,
+        "branch": "feat/npcppwebapi-offline-patterns"
+      },
+      {
+        "pr": 9040,
+        "branch": "feat/kernel-sys-workaround-process-type"
+      },
+      {
+        "pr": 9208,
+        "branch": "feat/gnm-neo-draw-packets"
+      },
+      {
+        "pr": 9037,
+        "branch": "feat/npcommon-utilities"
+      }
+    ]
+  },
+  {
+    "username": "DavidSamir",
+    "prCount": 16,
+    "summary": "Contributed to libkernel, Relinker, Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 9273,
+        "branch": "feat/libkernel-sys-pselect"
+      },
+      {
+        "pr": 7937,
+        "branch": "feat/libkernel-jit-shared-memory-macos"
+      },
+      {
+        "pr": 8343,
+        "branch": "fix/relinker-windows-page-spanning-relocation"
+      },
+      {
+        "pr": 8339,
+        "branch": "feat/agc-barycentric-rect-list"
+      },
+      {
+        "pr": 6741,
+        "branch": "fix/agc-unobserved-last-provoking-vertex"
+      }
+    ]
+  },
+  {
+    "username": "savvaniss",
+    "prCount": 12,
+    "summary": "Contributed to feat, fix, Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 9896,
+        "branch": "feat/np-cusa03312-imports"
+      },
+      {
+        "pr": 8111,
+        "branch": "feat/camera-not-attached"
+      },
+      {
+        "pr": 8112,
+        "branch": "feat/companion-httpd-no-device"
+      },
+      {
+        "pr": 9319,
+        "branch": "feat/gamelivestreaming-enable-live-streaming"
+      },
+      {
+        "pr": 8162,
+        "branch": "fix/windows-runtime-module-start"
+      }
+    ]
+  },
+  {
+    "username": "dantdmdarealguy",
+    "prCount": 11,
+    "summary": "Contributed to Documentation, fix, Tests",
+    "recentPrs": [
+      {
+        "pr": 9016,
+        "branch": "docs/build-python-launcher-windows"
+      },
+      {
+        "pr": 9036,
+        "branch": "docs/environment-row-corrections"
+      },
+      {
+        "pr": 8909,
+        "branch": "docs/usage-mimalloc-dlls"
+      },
+      {
+        "pr": 8995,
+        "branch": "fix/env-reference-environmentnumber"
+      },
+      {
+        "pr": 9730,
+        "branch": "fix/voice-set-threads-params-gta"
+      }
+    ]
+  },
+  {
+    "username": "Ondra97",
+    "prCount": 11,
+    "summary": "Contributed to codex",
+    "recentPrs": [
+      {
+        "pr": 9530,
+        "branch": "codex/feat-freetype-gasp"
+      },
+      {
+        "pr": 9350,
+        "branch": "codex/feat-freetype-lists"
+      },
+      {
+        "pr": 9538,
+        "branch": "codex/feat-freetype-outline-orientation"
+      },
+      {
+        "pr": 9329,
+        "branch": "codex/feat-freetype-transform"
+      },
+      {
+        "pr": 9309,
+        "branch": "codex/feat-freetype-char-size"
+      }
+    ]
+  },
+  {
+    "username": "simonbronk",
+    "prCount": 11,
+    "summary": "Contributed to libSceCesCs, libkernel_sys, feat",
+    "recentPrs": [
+      {
+        "pr": 8993,
+        "branch": "feat/libSceCesCs-mbc-sjis-code"
+      },
+      {
+        "pr": 8976,
+        "branch": "feat/libSceCesCs-gbk-euc-cn"
+      },
+      {
+        "pr": 8972,
+        "branch": "feat/libSceCesCs-sbc-mbcs-utf16-utf32"
+      },
+      {
+        "pr": 8987,
+        "branch": "feat/libkernel_sys-pthread-barrier"
+      },
+      {
+        "pr": 8967,
+        "branch": "feat/libSceCesCs-japanese-scalar"
+      }
+    ]
+  },
+  {
+    "username": "Retr0G28",
+    "prCount": 10,
+    "summary": "Contributed to libkernel, fix",
+    "recentPrs": [
+      {
+        "pr": 8533,
+        "branch": "docs/libkernel-dup-directory-debt"
+      },
+      {
+        "pr": 9105,
+        "branch": "fix/connect-port0-connected-dgram"
+      },
+      {
+        "pr": 8544,
+        "branch": "fix/fcntl-getfl-pipe-rdwr"
+      },
+      {
+        "pr": 9108,
+        "branch": "fix/socket-address-length-exact"
+      },
+      {
+        "pr": 8546,
+        "branch": "fix/tzname-no-dst"
+      }
+    ]
+  },
+  {
+    "username": "oneandonlydean",
+    "prCount": 10,
+    "summary": "Contributed to Documentation, Tests, fix",
+    "recentPrs": [
+      {
+        "pr": 10436,
+        "branch": "docs/game-bring-up-links"
+      },
+      {
+        "pr": 10371,
+        "branch": "test/pad-drop-unimplemented-throw-asserts"
+      },
+      {
+        "pr": 10029,
+        "branch": "fix/convertkeycode-ime-keyboard-type"
+      },
+      {
+        "pr": 9303,
+        "branch": "fix/getdents-app0-symlink-type"
+      },
+      {
+        "pr": 9301,
+        "branch": "fix/avplayer-sync-tolerance-wait"
+      }
+    ]
+  },
+  {
+    "username": "veosett",
+    "prCount": 9,
+    "summary": "Contributed to Shader recompiler, codex",
+    "recentPrs": [
+      {
+        "pr": 8978,
+        "branch": "codex/rect-list-corner-spirv13"
+      },
+      {
+        "pr": 9241,
+        "branch": "codex/audit-sdk-symbol-names"
+      },
+      {
+        "pr": 10227,
+        "branch": "codex/select-tests-windows-batches"
+      },
+      {
+        "pr": 10216,
+        "branch": "codex/env-reader-whitespace"
+      },
+      {
+        "pr": 10054,
+        "branch": "codex/check-skips-report-root"
+      }
+    ]
+  },
+  {
+    "username": "santhoshkumar-dev",
+    "prCount": 9,
+    "summary": "Contributed to codex, Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 8286,
+        "branch": "codex/freetype-bitmap-conversion"
+      },
+      {
+        "pr": 7800,
+        "branch": "codex/agc-memory-hardening"
+      },
+      {
+        "pr": 7811,
+        "branch": "codex/fix-pixel-wqm-interpolation"
+      },
+      {
+        "pr": 9090,
+        "branch": "codex/freetype-face-properties"
+      },
+      {
+        "pr": 9054,
+        "branch": "codex/freetype-sfnt-names"
+      }
+    ]
+  },
+  {
+    "username": "HQasper",
+    "prCount": 9,
+    "summary": "Contributed to fix, claude, Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 7605,
+        "branch": "fix/poll-kqueues"
+      },
+      {
+        "pr": 9033,
+        "branch": "claude/project-thread-w0s18y-aes"
+      },
+      {
+        "pr": 9103,
+        "branch": "claude/project-thread-w0s18y-chown"
+      },
+      {
+        "pr": 9041,
+        "branch": "claude/project-thread-w0s18y-rand"
+      },
+      {
+        "pr": 9265,
+        "branch": "claude/project-thread-6o4na3"
+      }
+    ]
+  },
+  {
+    "username": "EagleBearerYS",
+    "prCount": 9,
+    "summary": "Contributed to fix, feat, Shader recompiler",
+    "recentPrs": [
+      {
+        "pr": 9907,
+        "branch": "fix/ir-dump-memory-offsets"
+      },
+      {
+        "pr": 10172,
+        "branch": "feat/netctl-get-result-ipv4-events"
+      },
+      {
+        "pr": 8883,
+        "branch": "perf/shader-plan-retention"
+      },
+      {
+        "pr": 7644,
+        "branch": "perf/agc-lazy-resolve-shader-abi"
+      },
+      {
+        "pr": 6682,
+        "branch": "fix/agc-bda-publish-unit-shadow"
+      }
+    ]
+  },
+  {
+    "username": "mazen320",
+    "prCount": 8,
+    "summary": "Contributed to libc, fix, Documentation",
+    "recentPrs": [
+      {
+        "pr": 9845,
+        "branch": "feat/libc-num-put-iw-vtable"
+      },
+      {
+        "pr": 10180,
+        "branch": "feat/libc-codecvt-iw-vtable"
+      },
+      {
+        "pr": 7888,
+        "branch": "fix/pixel-function-lds-buffer"
+      },
+      {
+        "pr": 6313,
+        "branch": "fix/savedata-convert-completion-event"
+      },
+      {
+        "pr": 9203,
+        "branch": "docs/entry-register-contract"
+      }
+    ]
+  },
+  {
+    "username": "klosixgaming-arch",
+    "prCount": 8,
+    "summary": "Contributed to fix, libc, Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 10053,
+        "branch": "fix/window-narrowing-switch-cap"
+      },
+      {
+        "pr": 9952,
+        "branch": "feat/libc-bad-cast-doraise"
+      },
+      {
+        "pr": 9260,
+        "branch": "fix/agc-msaa-storage-srgb-twin"
+      },
+      {
+        "pr": 7880,
+        "branch": "fix/shader-indirect-column-phi-pointer"
+      },
+      {
+        "pr": 7882,
+        "branch": "fix/image-table-sampler-deduplication"
+      }
+    ]
+  },
+  {
+    "username": "Dripl1x",
+    "prCount": 8,
+    "summary": "Contributed to codex, perf",
+    "recentPrs": [
+      {
+        "pr": 7465,
+        "branch": "codex/defer-small-host-imports"
+      },
+      {
+        "pr": 8857,
+        "branch": "perf/direct-memory-section-pool"
+      },
+      {
+        "pr": 7473,
+        "branch": "codex/skip-clean-resident-write-watch"
+      },
+      {
+        "pr": 7470,
+        "branch": "codex/exact-resident-release"
+      },
+      {
+        "pr": 7468,
+        "branch": "codex/direct-memory-alias-index"
+      }
+    ]
+  },
+  {
+    "username": "rooklz",
+    "prCount": 8,
+    "summary": "Contributed to feat, fix",
+    "recentPrs": [
+      {
+        "pr": 9210,
+        "branch": "feat/cescs-gb18030"
+      },
+      {
+        "pr": 9204,
+        "branch": "feat/cescs-jisx0208"
+      },
+      {
+        "pr": 9152,
+        "branch": "feat/np-profile-dialog"
+      },
+      {
+        "pr": 9142,
+        "branch": "feat/videodec-query"
+      },
+      {
+        "pr": 9144,
+        "branch": "feat/npmanager-signedout"
+      }
+    ]
+  },
+  {
+    "username": "ymatrix1",
+    "prCount": 7,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 8329,
+        "branch": "feat/appinstutil-missing-exports"
+      },
+      {
+        "pr": 8330,
+        "branch": "feat/regmgr-missing-exports"
+      },
+      {
+        "pr": 8332,
+        "branch": "feat/avsetting-hid-missing-exports"
+      },
+      {
+        "pr": 8333,
+        "branch": "feat/gamelivestreaming-missing-exports"
+      },
+      {
+        "pr": 8335,
+        "branch": "feat/systemservice-missing-exports"
+      }
+    ]
+  },
+  {
+    "username": "LeandroLP23",
+    "prCount": 7,
+    "summary": "Contributed to Graphics/AGC, perf, fix",
+    "recentPrs": [
+      {
+        "pr": 9022,
+        "branch": "docs/agc-drop-cmask-gpl-off-debt"
+      },
+      {
+        "pr": 10124,
+        "branch": "perf/build-windows-test-exit-once"
+      },
+      {
+        "pr": 10189,
+        "branch": "fix/main-push-builds-finish"
+      },
+      {
+        "pr": 8622,
+        "branch": "perf/agc-import-remapped-ranges-on-use"
+      },
+      {
+        "pr": 9736,
+        "branch": "feat/libkernel-kern-proc-env"
+      }
+    ]
+  },
+  {
+    "username": "valenciana-nc",
+    "prCount": 7,
+    "summary": "Contributed to fix, Relinker",
+    "recentPrs": [
+      {
+        "pr": 10232,
+        "branch": "fix/vertex-descriptor-diagnostics"
+      },
+      {
+        "pr": 8864,
+        "branch": "fix/bessel-float-zero-exceptions"
+      },
+      {
+        "pr": 8565,
+        "branch": "fix/relinker-preserve-metadata-inputs"
+      },
+      {
+        "pr": 8545,
+        "branch": "fix/performance-compare-recorded-identity"
+      },
+      {
+        "pr": 8532,
+        "branch": "fix/unwrap-self-minimal-alignment"
+      }
+    ]
+  },
+  {
+    "username": "Queuse",
+    "prCount": 7,
+    "summary": "Contributed to codex, libc",
+    "recentPrs": [
+      {
+        "pr": 10020,
+        "branch": "codex/keep-host-diagnostics-unbuffered"
+      },
+      {
+        "pr": 8873,
+        "branch": "codex/test-stdio-host-handle"
+      },
+      {
+        "pr": 9000,
+        "branch": "codex/test-kernel-variant-runtime"
+      },
+      {
+        "pr": 9013,
+        "branch": "codex/test-long-pipeline-cache-paths"
+      },
+      {
+        "pr": 9544,
+        "branch": "codex/net-buffer-validation"
+      }
+    ]
+  },
+  {
+    "username": "nikowolf123",
+    "prCount": 6,
+    "summary": "Contributed to libkernel, libcinternal, feat",
+    "recentPrs": [
+      {
+        "pr": 8701,
+        "branch": "feat/libkernel-sys-underscore-openat"
+      },
+      {
+        "pr": 8703,
+        "branch": "feat/libcinternal-double-underscore-inet"
+      },
+      {
+        "pr": 8702,
+        "branch": "feat/libcinternal-underscore-err-warn-progname"
+      },
+      {
+        "pr": 8700,
+        "branch": "feat/libkernel-underscore-socket-signal-entries"
+      },
+      {
+        "pr": 8923,
+        "branch": "feat/cescs-sbc-profiles"
+      }
+    ]
+  },
+  {
+    "username": "tkcm01",
+    "prCount": 6,
+    "summary": "Contributed to libc, libkernel, fix",
+    "recentPrs": [
+      {
+        "pr": 8920,
+        "branch": "fix/libc-fflush-read-stream-macos"
+      },
+      {
+        "pr": 9911,
+        "branch": "fix/libc-rename-dangling-symlink-macos"
+      },
+      {
+        "pr": 9960,
+        "branch": "fix/libkernel-stack-lock-static-destruction"
+      },
+      {
+        "pr": 8574,
+        "branch": "fix/env-reference-relative-skip-parts"
+      },
+      {
+        "pr": 8543,
+        "branch": "fix/unwrap-self-bss-segments"
+      }
+    ]
+  },
+  {
+    "username": "adriadam10",
+    "prCount": 6,
+    "summary": "Contributed to fix, Documentation",
+    "recentPrs": [
+      {
+        "pr": 10555,
+        "branch": "fix/select-tests-excluded-definitions"
+      },
+      {
+        "pr": 10517,
+        "branch": "fix/select-tests-define-args"
+      },
+      {
+        "pr": 10058,
+        "branch": "fix/main-conventions-shard-timeout"
+      },
+      {
+        "pr": 9647,
+        "branch": "fix/main-pipelined-indirect"
+      },
+      {
+        "pr": 9021,
+        "branch": "docs/reverse-engineering-guide"
+      }
+    ]
+  },
+  {
+    "username": "ntamas94",
+    "prCount": 6,
+    "summary": "Contributed to fix, Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 10312,
+        "branch": "fix/ps4-libc-strerror"
+      },
+      {
+        "pr": 10353,
+        "branch": "fix/ps4-json2-array-assign"
+      },
+      {
+        "pr": 8631,
+        "branch": "fix/rtc-ps4-limits"
+      },
+      {
+        "pr": 8180,
+        "branch": "fix/agc-copied-writer-label-drain"
+      },
+      {
+        "pr": 10057,
+        "branch": "fix/ps4-jpegenc-encode-size"
+      }
+    ]
+  },
+  {
+    "username": "mugurc",
+    "prCount": 6,
+    "summary": "Contributed to fix, libc, libkernel",
+    "recentPrs": [
+      {
+        "pr": 8288,
+        "branch": "fix/tests-zone-race-yield"
+      },
+      {
+        "pr": 4627,
+        "branch": "fix/libc-macos-host"
+      },
+      {
+        "pr": 8279,
+        "branch": "fix/libs-macos-build-main"
+      },
+      {
+        "pr": 8284,
+        "branch": "fix/tests-path-length-macos"
+      },
+      {
+        "pr": 8287,
+        "branch": "fix/tests-fenv-masks-rosetta"
+      }
+    ]
+  },
+  {
+    "username": "JAB-dev",
+    "prCount": 6,
+    "summary": "Contributed to Graphics/AGC, fix",
+    "recentPrs": [
+      {
+        "pr": 8564,
+        "branch": "feat/agc-4-4-4-4-partial-writes"
+      },
+      {
+        "pr": 8563,
+        "branch": "feat/agc-4-4-4-4-color-target"
+      },
+      {
+        "pr": 9838,
+        "branch": "fix/audioout2-system-debug-state-validation"
+      },
+      {
+        "pr": 9837,
+        "branch": "fix/ngs2-pan-init-validation"
+      },
+      {
+        "pr": 8690,
+        "branch": "fix/audiopropagation-remove-inline-helpers"
+      }
+    ]
+  },
+  {
+    "username": "akkadbakkad89",
+    "prCount": 6,
+    "summary": "Contributed to libc, feat",
+    "recentPrs": [
+      {
+        "pr": 8352,
+        "branch": "feat/libc-dinkumware-locale-threads"
+      },
+      {
+        "pr": 8959,
+        "branch": "feat/np-webapi-session-ingc"
+      },
+      {
+        "pr": 9061,
+        "branch": "feat/prx-declare-inventory-5libs"
+      },
+      {
+        "pr": 8290,
+        "branch": "feat/psml-mfsr-queries"
+      },
+      {
+        "pr": 7907,
+        "branch": "feat/prx-declare-inventory-74"
+      }
+    ]
+  },
+  {
+    "username": "ycbuzi",
+    "prCount": 6,
+    "summary": "Contributed to libkernel, libc, Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 8866,
+        "branch": "feat/libkernel-sigintr"
+      },
+      {
+        "pr": 9336,
+        "branch": "fix/libkernel-sys-link-follow-windows"
+      },
+      {
+        "pr": 8880,
+        "branch": "feat/libc-num-get-objects"
+      },
+      {
+        "pr": 8807,
+        "branch": "fix/agc-driver-frame-dump-wait"
+      },
+      {
+        "pr": 8534,
+        "branch": "pr/windows-reparse-non-link"
+      }
+    ]
+  },
+  {
+    "username": "jagrat04",
+    "prCount": 5,
+    "summary": "Contributed to libSceNpTrophy2, libSceNet, libSceNpWebApi2",
+    "recentPrs": [
+      {
+        "pr": 8218,
+        "branch": "feat/libSceNpTrophy2-reward-icon"
+      },
+      {
+        "pr": 8225,
+        "branch": "feat/libSceNet-show-policy"
+      },
+      {
+        "pr": 8215,
+        "branch": "feat/libSceNpWebApi2-add-web-trace-tag"
+      },
+      {
+        "pr": 8228,
+        "branch": "feat/libSceNet-show-route6"
+      },
+      {
+        "pr": 8222,
+        "branch": "feat/libSceNet-show-route"
+      }
+    ]
+  },
+  {
+    "username": "Zenodeon",
+    "prCount": 5,
+    "summary": "Contributed 5 pull requests",
+    "recentPrs": [
+      {
+        "pr": 8380,
+        "branch": "agc-budgeted-host-imports"
+      },
+      {
+        "pr": 7307,
+        "branch": "agc-submit-progress-pr"
+      },
+      {
+        "pr": 7919,
+        "branch": "astro-small-resource-fixes"
+      },
+      {
+        "pr": 6718,
+        "branch": "stk-resource-performance-pr"
+      },
+      {
+        "pr": 6759,
+        "branch": "write-watch-page-restoration-main"
+      }
+    ]
+  },
+  {
+    "username": "Noxy-HNR",
+    "prCount": 5,
+    "summary": "Contributed to libc, fix, codex",
+    "recentPrs": [
+      {
+        "pr": 9264,
+        "branch": "codex/libc-unsized-find-range"
+      },
+      {
+        "pr": 9644,
+        "branch": "fix/png-gray-transparency"
+      },
+      {
+        "pr": 9643,
+        "branch": "fix/libc-float-domain-errors"
+      },
+      {
+        "pr": 9642,
+        "branch": "fix/guest-byte-case-locale"
+      },
+      {
+        "pr": 8136,
+        "branch": "codex/uds-locale-independent-floats"
+      }
+    ]
+  },
+  {
+    "username": "Filip722",
+    "prCount": 5,
+    "summary": "Contributed to submit, feat",
+    "recentPrs": [
+      {
+        "pr": 10342,
+        "branch": "submit/got-20261023"
+      },
+      {
+        "pr": 10339,
+        "branch": "submit/rex-20261023"
+      },
+      {
+        "pr": 10341,
+        "branch": "submit/phnum-20261023"
+      },
+      {
+        "pr": 10343,
+        "branch": "submit/cfg-20261023"
+      },
+      {
+        "pr": 8558,
+        "branch": "feat/freetype-kerning"
+      }
+    ]
+  },
+  {
+    "username": "Celegans12",
+    "prCount": 5,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 9934,
+        "branch": "feat/agc-nv-diagnostics-config"
+      },
+      {
+        "pr": 8104,
+        "branch": "perf/agc-address-build-staging"
+      },
+      {
+        "pr": 7691,
+        "branch": "fix/agc-vertex-table-read-order"
+      },
+      {
+        "pr": 8962,
+        "branch": "fix/agc-r128-texture-max-mip"
+      },
+      {
+        "pr": 8206,
+        "branch": "feat/agc-skip-refused-draws"
+      }
+    ]
+  },
+  {
+    "username": "Felipebmaitan",
+    "prCount": 5,
+    "summary": "Contributed to libc, feat",
+    "recentPrs": [
+      {
+        "pr": 9216,
+        "branch": "feat/libc-fegetexcept"
+      },
+      {
+        "pr": 10166,
+        "branch": "feat/jobmanager-engine"
+      },
+      {
+        "pr": 10188,
+        "branch": "feat/jobmanager-compute-storage"
+      },
+      {
+        "pr": 9846,
+        "branch": "feat/freetype-request-size"
+      },
+      {
+        "pr": 8516,
+        "branch": "feat/rudp-context-options"
+      }
+    ]
+  },
+  {
+    "username": "voidlakhan",
+    "prCount": 5,
+    "summary": "Contributed to fix, feat",
+    "recentPrs": [
+      {
+        "pr": 9211,
+        "branch": "fix/savedata-dialog-getresult-output-buffer"
+      },
+      {
+        "pr": 8990,
+        "branch": "fix/savedata-null-argument-parameter-error"
+      },
+      {
+        "pr": 10098,
+        "branch": "fix/shareplay-prohibit-controller-invalid-args"
+      },
+      {
+        "pr": 9053,
+        "branch": "feat/npcommerce-dialog-initialize-internal"
+      },
+      {
+        "pr": 9114,
+        "branch": "feat/appcontent-temporary-data-mount"
+      }
+    ]
+  },
+  {
+    "username": "jotitadev",
+    "prCount": 5,
+    "summary": "Contributed to Relinker, fix",
+    "recentPrs": [
+      {
+        "pr": 8416,
+        "branch": "fix/relinker-module-init-array-without-size"
+      },
+      {
+        "pr": 6929,
+        "branch": "fix/relinker-tls-tests-preserve-rbx"
+      },
+      {
+        "pr": 9689,
+        "branch": "fix/main-sync-pulls-from-subdirectory"
+      },
+      {
+        "pr": 9660,
+        "branch": "fix/conventions-env-reference-from-subdirectory"
+      },
+      {
+        "pr": 9666,
+        "branch": "fix/pr-overlap-from-subdirectory"
+      }
+    ]
+  },
+  {
+    "username": "imellag",
+    "prCount": 4,
+    "summary": "Contributed to libkernel, Shader recompiler, Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 9074,
+        "branch": "fix/libkernel-posix-raise-deferral"
+      },
+      {
+        "pr": 8612,
+        "branch": "perf/shader-fused-exact-arithmetic-moltenvk"
+      },
+      {
+        "pr": 8567,
+        "branch": "perf/agc-highest-index-vectorized"
+      },
+      {
+        "pr": 8578,
+        "branch": "perf/agc-f32-flush-probe-moltenvk"
+      }
+    ]
+  },
+  {
+    "username": "p3n1cillin",
+    "prCount": 4,
+    "summary": "Contributed to claude, codex, libc",
+    "recentPrs": [
+      {
+        "pr": 9945,
+        "branch": "claude/windows-missing-standard-handles"
+      },
+      {
+        "pr": 8739,
+        "branch": "codex/opus-native-decoder-20261021"
+      },
+      {
+        "pr": 8758,
+        "branch": "codex/pthread-getprio-20261021"
+      },
+      {
+        "pr": 8733,
+        "branch": "codex/libc-unlocked-status-20261020"
+      }
+    ]
+  },
+  {
+    "username": "UnhealthyKraken",
+    "prCount": 4,
+    "summary": "Contributed to libc, libkernel",
+    "recentPrs": [
+      {
+        "pr": 9342,
+        "branch": "feat/libc-gets"
+      },
+      {
+        "pr": 8890,
+        "branch": "feat/libkernel-pthread-timedjoin"
+      },
+      {
+        "pr": 8850,
+        "branch": "feat/libkernel-cfsetspeed"
+      },
+      {
+        "pr": 8842,
+        "branch": "feat/libc-index"
+      }
+    ]
+  },
+  {
+    "username": "slopggobblercobbler81",
+    "prCount": 4,
+    "summary": "Contributed to fix, Relinker, libkernel",
+    "recentPrs": [
+      {
+        "pr": 10023,
+        "branch": "fix/recompiler-cache-path-separators"
+      },
+      {
+        "pr": 9230,
+        "branch": "fix/relinker-relocation-type-validation"
+      },
+      {
+        "pr": 9168,
+        "branch": "fix/relinker-elf-reader-bounds"
+      },
+      {
+        "pr": 9218,
+        "branch": "feat/libkernel-setresuid-setresgid"
+      }
+    ]
+  },
+  {
+    "username": "cadenasynyster",
+    "prCount": 4,
+    "summary": "Contributed to fix, libc",
+    "recentPrs": [
+      {
+        "pr": 10363,
+        "branch": "fix/windows-mkdirat-loop"
+      },
+      {
+        "pr": 8687,
+        "branch": "fix/win-loop-errors"
+      },
+      {
+        "pr": 8655,
+        "branch": "fix/win-open-loop-inside"
+      },
+      {
+        "pr": 8636,
+        "branch": "fix/libc-thrd-detach"
+      }
+    ]
+  },
+  {
+    "username": "frankea",
+    "prCount": 4,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 9721,
+        "branch": "fix/one-sample-depth-comp-z"
+      },
+      {
+        "pr": 9068,
+        "branch": "table-callee-range"
+      },
+      {
+        "pr": 10077,
+        "branch": "fix/system-service-registry-parameters"
+      },
+      {
+        "pr": 7965,
+        "branch": "ps5-measured-1340"
+      }
+    ]
+  },
+  {
+    "username": "AMRYB",
+    "prCount": 4,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 9226,
+        "branch": "fix/audit-windows-module-extension-case"
+      },
+      {
+        "pr": 8803,
+        "branch": "fix/self-overlapping-load-regions"
+      },
+      {
+        "pr": 8799,
+        "branch": "fix/progress-snapshot-validation"
+      },
+      {
+        "pr": 8794,
+        "branch": "fix/web-release-publication-rollback"
+      }
+    ]
+  },
+  {
+    "username": "meh7an",
+    "prCount": 4,
+    "summary": "Contributed to Graphics/AGC, Shader recompiler",
+    "recentPrs": [
+      {
+        "pr": 8908,
+        "branch": "fix/agc-write-back-ready-barrier-hole-copies"
+      },
+      {
+        "pr": 6292,
+        "branch": "perf/agc-draw-path-locks"
+      },
+      {
+        "pr": 6522,
+        "branch": "fix/agc-multisample-commands-on-target-device"
+      },
+      {
+        "pr": 6611,
+        "branch": "perf/shader-validate-vertex-inputs"
+      }
+    ]
+  },
+  {
+    "username": "priyanshrv-netizen",
+    "prCount": 4,
+    "summary": "Contributed to libc",
+    "recentPrs": [
+      {
+        "pr": 8593,
+        "branch": "feat/libc-vacopy"
+      },
+      {
+        "pr": 8576,
+        "branch": "feat/libc-float-characteristics"
+      },
+      {
+        "pr": 8570,
+        "branch": "feat/libc-dinkumware-constants"
+      },
+      {
+        "pr": 8579,
+        "branch": "feat/libc-feraise"
+      }
+    ]
+  },
+  {
+    "username": "fma-rc",
+    "prCount": 4,
+    "summary": "Contributed to Graphics/AGC, fix, Documentation",
+    "recentPrs": [
+      {
+        "pr": 7647,
+        "branch": "fix/agc-heap-mirror-resident"
+      },
+      {
+        "pr": 8777,
+        "branch": "fix/conventions-asm-duplicate-exports"
+      },
+      {
+        "pr": 4442,
+        "branch": "docs/issue-forms"
+      },
+      {
+        "pr": 8015,
+        "branch": "fix/shader-mimg-sample-c-o-a"
+      }
+    ]
+  },
+  {
+    "username": "zaryabzip",
+    "prCount": 4,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 9322,
+        "branch": "feat/kernel-sys-condattr-getclock"
+      },
+      {
+        "pr": 9531,
+        "branch": "feat/nptus-tss-title-contexts"
+      },
+      {
+        "pr": 9347,
+        "branch": "feat/vorbisdec-libvorbisfile"
+      },
+      {
+        "pr": 9325,
+        "branch": "feat/posixforwebkit-wrap-forwarders"
+      }
+    ]
+  },
+  {
+    "username": "KernelPanicNT",
+    "prCount": 4,
+    "summary": "Contributed to fix, libkernel, feat",
+    "recentPrs": [
+      {
+        "pr": 8341,
+        "branch": "fix/ngs2-system-option-flag-bit1"
+      },
+      {
+        "pr": 9200,
+        "branch": "feat/libkernel-sys-lchmod"
+      },
+      {
+        "pr": 8338,
+        "branch": "feat/ngs2-calc-waveform-block-pcm"
+      },
+      {
+        "pr": 8337,
+        "branch": "feat/systemservice-player-dialog-param"
+      }
+    ]
+  },
+  {
+    "username": "Amoenus",
+    "prCount": 4,
+    "summary": "Contributed to codex",
+    "recentPrs": [
+      {
+        "pr": 8361,
+        "branch": "codex/test-array-window-view-bounds"
+      },
+      {
+        "pr": 7948,
+        "branch": "codex/feat-native-owner-fmask"
+      },
+      {
+        "pr": 7371,
+        "branch": "codex/fix-native-htile-clear-handoff"
+      },
+      {
+        "pr": 6887,
+        "branch": "codex/test-msaa-reader-retile-main143"
+      }
+    ]
+  },
+  {
+    "username": "Get-fix",
+    "prCount": 4,
+    "summary": "Contributed to Shader recompiler, ps4, Relinker",
+    "recentPrs": [
+      {
+        "pr": 9430,
+        "branch": "ps4/gcn-shaders"
+      },
+      {
+        "pr": 9433,
+        "branch": "ps4/limbo-libs"
+      },
+      {
+        "pr": 9429,
+        "branch": "ps4/relinker-own-tls"
+      },
+      {
+        "pr": 6519,
+        "branch": "ps4/kernel-system-module-path"
+      }
+    ]
+  },
+  {
+    "username": "hugodearaujo",
+    "prCount": 3,
+    "summary": "Contributed to fix, Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 10347,
+        "branch": "fix/ngs2-reverb-channel-conversion"
+      },
+      {
+        "pr": 7920,
+        "branch": "feat/agc-amd-buffer-marker-checkpoints"
+      },
+      {
+        "pr": 9459,
+        "branch": "fix/netctl-starts-initialized"
+      }
+    ]
+  },
+  {
+    "username": "Pacuka",
+    "prCount": 3,
+    "summary": "Contributed to Graphics/AGC, Shader recompiler",
+    "recentPrs": [
+      {
+        "pr": 9856,
+        "branch": "feat/agc-driver-mem-semaphore"
+      },
+      {
+        "pr": 9812,
+        "branch": "fix/agc-mem-semaphore-address"
+      },
+      {
+        "pr": 9249,
+        "branch": "fix/shader-3d-store-2d-array-tsharp"
+      }
+    ]
+  },
+  {
+    "username": "ionut27001",
+    "prCount": 3,
+    "summary": "Contributed to libc, libkernel, perf",
+    "recentPrs": [
+      {
+        "pr": 8979,
+        "branch": "fix/libc-random-seeding"
+      },
+      {
+        "pr": 7653,
+        "branch": "fix/libkernel-kevent-timer-readd"
+      },
+      {
+        "pr": 7870,
+        "branch": "perf/image-memory-pool"
+      }
+    ]
+  },
+  {
+    "username": "juanpimg",
+    "prCount": 3,
+    "summary": "Contributed to feat, Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 8472,
+        "branch": "feat/prx-declare-ps5-3.20-exports-tier3"
+      },
+      {
+        "pr": 8445,
+        "branch": "test/agc-recorder-registrations"
+      },
+      {
+        "pr": 8431,
+        "branch": "feat/prx-declare-ps5-3.20-exports-tier2"
+      }
+    ]
+  },
+  {
+    "username": "Chuk49",
+    "prCount": 3,
+    "summary": "Contributed to Graphics/AGC, libc",
+    "recentPrs": [
+      {
+        "pr": 8969,
+        "branch": "test/agc-array-window-view-clamp"
+      },
+      {
+        "pr": 8968,
+        "branch": "fix/agc-capture-skip-float-probe"
+      },
+      {
+        "pr": 8396,
+        "branch": "feat/libc-wcstombs-s"
+      }
+    ]
+  },
+  {
+    "username": "mantavisual",
+    "prCount": 3,
+    "summary": "Contributed to Relinker, Documentation, libkernel",
+    "recentPrs": [
+      {
+        "pr": 8619,
+        "branch": "docs/build-antivirus-relinker-test-temp"
+      },
+      {
+        "pr": 8568,
+        "branch": "docs/build-windows-script-policy"
+      },
+      {
+        "pr": 8594,
+        "branch": "fix/libkernel-utimes-rejected-keeps-atime"
+      }
+    ]
+  },
+  {
+    "username": "krishalivaibhav",
+    "prCount": 3,
+    "summary": "Contributed to Tests, codex, feat",
+    "recentPrs": [
+      {
+        "pr": 9853,
+        "branch": "test/draw-cache-user-vsharp-base"
+      },
+      {
+        "pr": 6747,
+        "branch": "codex/command-memory-reuse"
+      },
+      {
+        "pr": 9664,
+        "branch": "feat/pad-tracker-device-queries"
+      }
+    ]
+  },
+  {
+    "username": "mehmetbayoglu",
+    "prCount": 3,
+    "summary": "Contributed to fix, perf, libkernel",
+    "recentPrs": [
+      {
+        "pr": 9046,
+        "branch": "fix/recompiler-cache-line-endings"
+      },
+      {
+        "pr": 9386,
+        "branch": "perf/netctl-host-query-cache"
+      },
+      {
+        "pr": 8714,
+        "branch": "fix/libkernel-process-time-tsc"
+      }
+    ]
+  },
+  {
+    "username": "Sam-mon7",
+    "prCount": 3,
+    "summary": "Contributed to feat, fix",
+    "recentPrs": [
+      {
+        "pr": 8740,
+        "branch": "feat/frame-replay"
+      },
+      {
+        "pr": 8552,
+        "branch": "fix/copy-kernel-variant"
+      },
+      {
+        "pr": 8394,
+        "branch": "fix/apr-staging-off-stack"
+      }
+    ]
+  },
+  {
+    "username": "Dom3005",
+    "prCount": 3,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 9256,
+        "branch": "fix/windows-fcntl-append"
+      },
+      {
+        "pr": 9840,
+        "branch": "fix/fstatfs-character-device"
+      },
+      {
+        "pr": 8640,
+        "branch": "fix/windows-open-symlink-loop-eloop"
+      }
+    ]
+  },
+  {
+    "username": "MaxLikesCode",
+    "prCount": 3,
+    "summary": "Contributed to fix, Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 9164,
+        "branch": "fix/kernel-sema-einval"
+      },
+      {
+        "pr": 9227,
+        "branch": "fix/kqueue-snapshot-path-before-state"
+      },
+      {
+        "pr": 7696,
+        "branch": "feat/agc-set-index-indirect-args"
+      }
+    ]
+  },
+  {
+    "username": "TheSovietWaffle",
+    "prCount": 3,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 9017,
+        "branch": "fix/recompiler-stencil-replay-exec-copy"
+      },
+      {
+        "pr": 8145,
+        "branch": "fix/recompiler-stencil-replay-readonly-bda"
+      },
+      {
+        "pr": 8144,
+        "branch": "fix/recompiler-domain-computed-control-point"
+      }
+    ]
+  },
+  {
+    "username": "hamb3r",
+    "prCount": 3,
+    "summary": "Contributed to Shader recompiler, libc",
+    "recentPrs": [
+      {
+        "pr": 8727,
+        "branch": "perf/shader-cse-srt-readconst"
+      },
+      {
+        "pr": 8721,
+        "branch": "perf/shader-fold-buffer-format"
+      },
+      {
+        "pr": 8137,
+        "branch": "feat/libc-backtrace-windows"
+      }
+    ]
+  },
+  {
+    "username": "Raghav314",
+    "prCount": 3,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 8120,
+        "branch": "fix/agc-driver-memory-write-watch"
+      },
+      {
+        "pr": 6946,
+        "branch": "perf/agc-draw-pipeline"
+      },
+      {
+        "pr": 5656,
+        "branch": "perf/agc-data-hit-user-word-mask"
+      }
+    ]
+  },
+  {
+    "username": "johandavidcm",
+    "prCount": 3,
+    "summary": "Contributed to Graphics/AGC, libkernel",
+    "recentPrs": [
+      {
+        "pr": 8117,
+        "branch": "perf/agc-sampled-key-scans"
+      },
+      {
+        "pr": 9832,
+        "branch": "fix/libkernel-dlopen-unrelinked"
+      },
+      {
+        "pr": 8075,
+        "branch": "feat/agc-sample-committer"
+      }
+    ]
+  },
+  {
+    "username": "billythemenace2",
+    "prCount": 3,
+    "summary": "Contributed to Graphics/AGC, fix",
+    "recentPrs": [
+      {
+        "pr": 7292,
+        "branch": "fix/agc-import-pieces-over-allocation-limit"
+      },
+      {
+        "pr": 8539,
+        "branch": "fix/kernel-raise-host-code-limit"
+      },
+      {
+        "pr": 8637,
+        "branch": "fix/kernel-raise-system-call-wait"
+      }
+    ]
+  },
+  {
+    "username": "ags-arnab",
+    "prCount": 3,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 10024,
+        "branch": "feat/ngs2-matrix-module-info"
+      },
+      {
+        "pr": 9060,
+        "branch": "feat/net-ioctl"
+      },
+      {
+        "pr": 8805,
+        "branch": "feat/nptus-multislot-variables"
+      }
+    ]
+  },
+  {
+    "username": "fisherjoey",
+    "prCount": 3,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 9866,
+        "branch": "fix/idle-publish-wait-radv"
+      },
+      {
+        "pr": 7984,
+        "branch": "fix/idle-publish-wait"
+      },
+      {
+        "pr": 7981,
+        "branch": "fix/import-window-digests"
+      }
+    ]
+  },
+  {
+    "username": "SwetabhSingh17",
+    "prCount": 3,
+    "summary": "Contributed to libc",
+    "recentPrs": [
+      {
+        "pr": 8444,
+        "branch": "feat/libc-mem-utilities"
+      },
+      {
+        "pr": 8389,
+        "branch": "feat/libc-math-significand"
+      },
+      {
+        "pr": 8388,
+        "branch": "feat/libc-paf-mspace-posix-memalign"
+      }
+    ]
+  },
+  {
+    "username": "MrMha",
+    "prCount": 3,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 7440,
+        "branch": "feat/audit-strict-stubs-20261018"
+      },
+      {
+        "pr": 7436,
+        "branch": "feat/explain-test-selection-20261018"
+      },
+      {
+        "pr": 7433,
+        "branch": "feat/trace-thread-filter-20261018"
+      }
+    ]
+  },
+  {
+    "username": "Kernel-Hunter",
+    "prCount": 2,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 7918,
+        "branch": "fix/rosetta-xsaveopt"
+      },
+      {
+        "pr": 8142,
+        "branch": "fix/rosetta-masked-stores"
+      }
+    ]
+  },
+  {
+    "username": "Gabrieljr42",
+    "prCount": 2,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 8377,
+        "branch": "feat/progress-library-report"
+      },
+      {
+        "pr": 8468,
+        "branch": "feat/ajm-mp3-frame-metadata"
+      }
+    ]
+  },
+  {
+    "username": "Bram910",
+    "prCount": 2,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 10241,
+        "branch": "fix/registry-offset-locale"
+      },
+      {
+        "pr": 9280,
+        "branch": "fix/patch-entry-widths"
+      }
+    ]
+  },
+  {
+    "username": "Tripchipp",
+    "prCount": 2,
+    "summary": "Contributed to Documentation, fix",
+    "recentPrs": [
+      {
+        "pr": 8639,
+        "branch": "docs/debt-type0-null-image-link"
+      },
+      {
+        "pr": 8638,
+        "branch": "fix/doc-links-inline-code-labels"
+      }
+    ]
+  },
+  {
+    "username": "slider",
+    "prCount": 2,
+    "summary": "Contributed to libkernel",
+    "recentPrs": [
+      {
+        "pr": 9167,
+        "branch": "feat/libkernel-named-semaphores"
+      },
+      {
+        "pr": 8400,
+        "branch": "feat/libkernel-mutex-np"
+      }
+    ]
+  },
+  {
+    "username": "harisibrar1",
+    "prCount": 2,
+    "summary": "Contributed to Relinker, ci",
+    "recentPrs": [
+      {
+        "pr": 9518,
+        "branch": "fix/relinker-tests-nonascii-paths"
+      },
+      {
+        "pr": 8892,
+        "branch": "ci/conventions-current-base"
+      }
+    ]
+  },
+  {
+    "username": "SandstromPL",
+    "prCount": 2,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 10050,
+        "branch": "test/agc-pooled-buffer-gpu-case"
+      },
+      {
+        "pr": 9253,
+        "branch": "test/agc-fixture-gpu-selection"
+      }
+    ]
+  },
+  {
+    "username": "AnthonyClemens",
+    "prCount": 2,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 7705,
+        "branch": "fix/agc-bound-depth-plane-copies"
+      },
+      {
+        "pr": 7930,
+        "branch": "perf/agc-skip-empty-indirect"
+      }
+    ]
+  },
+  {
+    "username": "notaxeltv",
+    "prCount": 2,
+    "summary": "Contributed to libc, fix",
+    "recentPrs": [
+      {
+        "pr": 6086,
+        "branch": "feat/libc-thread-hardware-concurrency-ppsa34015"
+      },
+      {
+        "pr": 6604,
+        "branch": "fix/recompiler-default-past-num-interp"
+      }
+    ]
+  },
+  {
+    "username": "roboterspinne",
+    "prCount": 2,
+    "summary": "Contributed to claude",
+    "recentPrs": [
+      {
+        "pr": 10357,
+        "branch": "claude/new-session-2p8mgt"
+      },
+      {
+        "pr": 9220,
+        "branch": "claude/new-session-2p8mgt"
+      }
+    ]
+  },
+  {
+    "username": "zmeizy",
+    "prCount": 2,
+    "summary": "Contributed to claude",
+    "recentPrs": [
+      {
+        "pr": 9274,
+        "branch": "claude/f32-hardware-flush-float-mode"
+      },
+      {
+        "pr": 6011,
+        "branch": "claude/cvt-pk-u8-f32-round-mode"
+      }
+    ]
+  },
+  {
+    "username": "teepean",
+    "prCount": 2,
+    "summary": "Contributed to perf",
+    "recentPrs": [
+      {
+        "pr": 8895,
+        "branch": "perf/space-scan-skip"
+      },
+      {
+        "pr": 8556,
+        "branch": "perf/one-fold-per-store-run-5f7e"
+      }
+    ]
+  },
+  {
+    "username": "wachi35676",
+    "prCount": 2,
+    "summary": "Contributed to Shader recompiler",
+    "recentPrs": [
+      {
+        "pr": 8489,
+        "branch": "fix/shader-amd-lds-fence-scope"
+      },
+      {
+        "pr": 8134,
+        "branch": "fix/shader-amd-wave-lds-memory-barrier"
+      }
+    ]
+  },
+  {
+    "username": "eliasbruno124-dev",
+    "prCount": 2,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 8672,
+        "branch": "fix/cold-device-storage-pressure-20261020"
+      },
+      {
+        "pr": 8527,
+        "branch": "fix/host-import-settle-order-20261020"
+      }
+    ]
+  },
+  {
+    "username": "ArjenS-LA",
+    "prCount": 2,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 8718,
+        "branch": "fix/audit-module-weak-imports"
+      },
+      {
+        "pr": 8719,
+        "branch": "fix/audit-windows-system-suffixes"
+      }
+    ]
+  },
+  {
+    "username": "DoubleAAGuy",
+    "prCount": 2,
+    "summary": "Contributed to libkernel",
+    "recentPrs": [
+      {
+        "pr": 8910,
+        "branch": "fix/libkernel-unknown-sysctl-enoent"
+      },
+      {
+        "pr": 8732,
+        "branch": "feat/libkernel-osreldate-sysctl"
+      }
+    ]
+  },
+  {
+    "username": "StoneDC",
+    "prCount": 2,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 9995,
+        "branch": "feat/pad-irkey-and-virtual-device"
+      },
+      {
+        "pr": 9311,
+        "branch": "feat/ult-condition-variable-creation-options"
+      }
+    ]
+  },
+  {
+    "username": "jacob6769",
+    "prCount": 2,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 9107,
+        "branch": "feat/ces-korean-big5-scalars"
+      },
+      {
+        "pr": 7884,
+        "branch": "feat/ces-korean-big5"
+      }
+    ]
+  },
+  {
+    "username": "NFSS10",
+    "prCount": 2,
+    "summary": "Contributed to Graphics/AGC, nfss10",
+    "recentPrs": [
+      {
+        "pr": 8026,
+        "branch": "perf/agc-sampled-snapshot-buffer-reuse"
+      },
+      {
+        "pr": 6848,
+        "branch": "nfss10/performance_improvements"
+      }
+    ]
+  },
+  {
+    "username": "javierUDP",
+    "prCount": 2,
+    "summary": "Contributed to Tests, fix",
+    "recentPrs": [
+      {
+        "pr": 8597,
+        "branch": "test/wide-store-execution"
+      },
+      {
+        "pr": 8599,
+        "branch": "fix/interp-outside-code-scan"
+      }
+    ]
+  },
+  {
+    "username": "Th3EvilGod",
+    "prCount": 2,
+    "summary": "Contributed to codex",
+    "recentPrs": [
+      {
+        "pr": 8507,
+        "branch": "codex/rudp-precise-poll-wait"
+      },
+      {
+        "pr": 9337,
+        "branch": "codex/ngs2-userfx-module-id"
+      }
+    ]
+  },
+  {
+    "username": "xTRACKGOD",
+    "prCount": 2,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 10059,
+        "branch": "fix/select-tests-unbuilt-executables"
+      },
+      {
+        "pr": 8515,
+        "branch": "fix/tools-check-compile-external-sources"
+      }
+    ]
+  },
+  {
+    "username": "saarthakpant",
+    "prCount": 2,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 7968,
+        "branch": "perf/agc-indexed-copy-kernel"
+      },
+      {
+        "pr": 8336,
+        "branch": "perf/agc-discrete-written-shadow"
+      }
+    ]
+  },
+  {
+    "username": "alfalfa-star",
+    "prCount": 2,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 6951,
+        "branch": "perf/agc-span-mirror"
+      },
+      {
+        "pr": 6948,
+        "branch": "fix/agc-linear-readback-store"
+      }
+    ]
+  },
+  {
+    "username": "harry-z-kang",
+    "prCount": 2,
+    "summary": "Contributed to codex",
+    "recentPrs": [
+      {
+        "pr": 6218,
+        "branch": "codex/issue-6119-packed-storage"
+      },
+      {
+        "pr": 8087,
+        "branch": "codex/windows-seh-runtime"
+      }
+    ]
+  },
+  {
+    "username": "realshinmalphur",
+    "prCount": 2,
+    "summary": "Contributed to Graphics/AGC, feat",
+    "recentPrs": [
+      {
+        "pr": 8643,
+        "branch": "fix/gpu-command-validation"
+      },
+      {
+        "pr": 8204,
+        "branch": "feat/net-ether-address-parser"
+      }
+    ]
+  },
+  {
+    "username": "Lindamea1",
+    "prCount": 2,
+    "summary": "Contributed to libkernel, fix",
+    "recentPrs": [
+      {
+        "pr": 8617,
+        "branch": "fix/libkernel-mutex-unlock-static-eperm"
+      },
+      {
+        "pr": 8618,
+        "branch": "fix/commondialog-second-init-system-initialized"
+      }
+    ]
+  },
+  {
+    "username": "janzezno",
+    "prCount": 2,
+    "summary": "Contributed to fix, Tests",
+    "recentPrs": [
+      {
+        "pr": 8751,
+        "branch": "fix/hook-sync-recorded-store"
+      },
+      {
+        "pr": 8715,
+        "branch": "test/sgpr-fill-retired-batch"
+      }
+    ]
+  },
+  {
+    "username": "erickerxhalli",
+    "prCount": 2,
+    "summary": "Contributed to claude, feat",
+    "recentPrs": [
+      {
+        "pr": 9214,
+        "branch": "claude/anyps5-contribution-5p5n20"
+      },
+      {
+        "pr": 8540,
+        "branch": "feat/libsceimedialog-force-close"
+      }
+    ]
+  },
+  {
+    "username": "babyhuey",
+    "prCount": 2,
+    "summary": "Contributed to fix, libc",
+    "recentPrs": [
+      {
+        "pr": 9936,
+        "branch": "fix/pr-overlap-explicit-nids"
+      },
+      {
+        "pr": 7897,
+        "branch": "fix/libc-adopt-guest-heap-only-when-replaced"
+      }
+    ]
+  },
+  {
+    "username": "Nixitov",
+    "prCount": 2,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 8113,
+        "branch": "feat/videodec2-init-library"
+      },
+      {
+        "pr": 8255,
+        "branch": "feat/process-abi-type"
+      }
+    ]
+  },
+  {
+    "username": "fogydes",
+    "prCount": 2,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 7818,
+        "branch": "feat/vorbisdec-firmware-exports"
+      },
+      {
+        "pr": 7795,
+        "branch": "feat/remoteplay-firmware-exports"
+      }
+    ]
+  },
+  {
+    "username": "Dragost",
+    "prCount": 2,
+    "summary": "Contributed to libSceAvPlayer, libkernel",
+    "recentPrs": [
+      {
+        "pr": 8102,
+        "branch": "fix/libSceAvPlayer-sync-tolerance-and-eof-cleanup"
+      },
+      {
+        "pr": 8061,
+        "branch": "fix/libkernel-pthread-yield-busy-spin"
+      }
+    ]
+  },
+  {
+    "username": "parl0v",
+    "prCount": 2,
+    "summary": "Contributed to perf",
+    "recentPrs": [
+      {
+        "pr": 7427,
+        "branch": "perf/clear-keys-hand-over"
+      },
+      {
+        "pr": 7560,
+        "branch": "perf/window-store-liveness"
+      }
+    ]
+  },
+  {
+    "username": "ebarr24",
+    "prCount": 2,
+    "summary": "Contributed to libc, libkernel",
+    "recentPrs": [
+      {
+        "pr": 8600,
+        "branch": "ws/libc-fopen-streams"
+      },
+      {
+        "pr": 8596,
+        "branch": "ws/libkernel-kevent-note-lowat-above-1-on-e"
+      }
+    ]
+  },
+  {
+    "username": "BunnyFl",
+    "prCount": 1,
+    "summary": "Contributed to libkernel",
+    "recentPrs": [
+      {
+        "pr": 10110,
+        "branch": "feat/libkernel-version-trace-queries"
+      }
+    ]
+  },
+  {
+    "username": "yash27git",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 7822,
+        "branch": "fix/refuse-truncated-branch-rewrites"
+      }
+    ]
+  },
+  {
+    "username": "00xDisaster",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 9836,
+        "branch": "fix/pipeline-journal-no-workflows"
+      }
+    ]
+  },
+  {
+    "username": "adriaespii",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 8350,
+        "branch": "feat/pad-get-controller-type"
+      }
+    ]
+  },
+  {
+    "username": "simnJS",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 9190,
+        "branch": "feat/usbd-descriptor-queries"
+      }
+    ]
+  },
+  {
+    "username": "primesoul-web",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 8399,
+        "branch": "feat/usb-storage-no-device-path"
+      }
+    ]
+  },
+  {
+    "username": "Destroyers212x",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 7706,
+        "branch": "fix/macos-gs-trap-branch-target"
+      }
+    ]
+  },
+  {
+    "username": "muteburrito",
+    "prCount": 1,
+    "summary": "Contributed to Relinker",
+    "recentPrs": [
+      {
+        "pr": 7837,
+        "branch": "test/relinker-embedded-code-data"
+      }
+    ]
+  },
+  {
+    "username": "xQuakes",
+    "prCount": 1,
+    "summary": "Contributed to Shader recompiler",
+    "recentPrs": [
+      {
+        "pr": 6657,
+        "branch": "fix/shader-local-relative-index"
+      }
+    ]
+  },
+  {
+    "username": "kiaramaldonado",
+    "prCount": 1,
+    "summary": "Contributed to Documentation",
+    "recentPrs": [
+      {
+        "pr": 7953,
+        "branch": "docs/rosetta-m2-macos14"
+      }
+    ]
+  },
+  {
+    "username": "Ninot1Quyi",
+    "prCount": 1,
+    "summary": "Contributed to codex",
+    "recentPrs": [
+      {
+        "pr": 8876,
+        "branch": "codex/protect-audit-cmake-inputs"
+      }
+    ]
+  },
+  {
+    "username": "prosperkartik",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 9741,
+        "branch": "fix/app-archive-fresh-root"
+      }
+    ]
+  },
+  {
+    "username": "rocklouis055",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 9072,
+        "branch": "feat/fiber-attach-context"
+      }
+    ]
+  },
+  {
+    "username": "Logan1h",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 9333,
+        "branch": "fix/agc-clip-cntl-message"
+      }
+    ]
+  },
+  {
+    "username": "lulebo",
+    "prCount": 1,
+    "summary": "Contributed to Relinker",
+    "recentPrs": [
+      {
+        "pr": 8664,
+        "branch": "test/relinker-unused-import-asan-option"
+      }
+    ]
+  },
+  {
+    "username": "ZSWolt",
+    "prCount": 1,
+    "summary": "Contributed to libc",
+    "recentPrs": [
+      {
+        "pr": 8306,
+        "branch": "feat/libc-swscanf-wide-synonyms"
+      }
+    ]
+  },
+  {
+    "username": "Kapy2003",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 10372,
+        "branch": "feat/ngs2-custom-mastering-rack-0x4003"
+      }
+    ]
+  },
+  {
+    "username": "Nciibi",
+    "prCount": 1,
+    "summary": "Contributed to Relinker",
+    "recentPrs": [
+      {
+        "pr": 10242,
+        "branch": "fix/relinker-inplace-follower-wide-store"
+      }
+    ]
+  },
+  {
+    "username": "CrimsonMac",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 10396,
+        "branch": "fix/lds-misaligned-atomic64-fault"
+      }
+    ]
+  },
+  {
+    "username": "iAbdulrrahman",
+    "prCount": 1,
+    "summary": "Contributed to libc",
+    "recentPrs": [
+      {
+        "pr": 8919,
+        "branch": "feat/libc-isascii-toascii"
+      }
+    ]
+  },
+  {
+    "username": "wail-arch",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 9261,
+        "branch": "fix/linux-sdk-homebrew-imports"
+      }
+    ]
+  },
+  {
+    "username": "edubox",
+    "prCount": 1,
+    "summary": "Contributed to libc",
+    "recentPrs": [
+      {
+        "pr": 10079,
+        "branch": "feat/libc-nothrow-delete"
+      }
+    ]
+  },
+  {
+    "username": "noamroger",
+    "prCount": 1,
+    "summary": "Contributed to claude",
+    "recentPrs": [
+      {
+        "pr": 10212,
+        "branch": "claude/project-thread-a44tqk"
+      }
+    ]
+  },
+  {
+    "username": "root-over",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 10138,
+        "branch": "fix/agc-shadow-tests-skip-import-stamps"
+      }
+    ]
+  },
+  {
+    "username": "sivasdeadknight",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 9854,
+        "branch": "fix/np-async-request-lifecycle"
+      }
+    ]
+  },
+  {
+    "username": "AkulTyagi11",
+    "prCount": 1,
+    "summary": "Contributed to Tests",
+    "recentPrs": [
+      {
+        "pr": 10329,
+        "branch": "test/savedata-ps4-mount-and-transfer"
+      }
+    ]
+  },
+  {
+    "username": "tibzejoker",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 9305,
+        "branch": "fix/bit-exact-reciprocal"
+      }
+    ]
+  },
+  {
+    "username": "Longziip",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 8126,
+        "branch": "fix/agc-direct-write-completion-stamp"
+      }
+    ]
+  },
+  {
+    "username": "Project-MOC",
+    "prCount": 1,
+    "summary": "Contributed to codex",
+    "recentPrs": [
+      {
+        "pr": 10224,
+        "branch": "codex/fix-unwrap-self-atomic-output"
+      }
+    ]
+  },
+  {
+    "username": "enfuego27826",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 8942,
+        "branch": "feat/libscezlib-requests"
+      }
+    ]
+  },
+  {
+    "username": "Prophet069",
+    "prCount": 1,
+    "summary": "Contributed to codex",
+    "recentPrs": [
+      {
+        "pr": 5426,
+        "branch": "codex/review-scratch-offsets-20261013"
+      }
+    ]
+  },
+  {
+    "username": "SuarezPM",
+    "prCount": 1,
+    "summary": "Contributed to ai",
+    "recentPrs": [
+      {
+        "pr": 8792,
+        "branch": "ai/image-atomics-keyed-tables"
+      }
+    ]
+  },
+  {
+    "username": "LuPetro",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 10323,
+        "branch": "fix/tools-compile-database-validation"
+      }
+    ]
+  },
+  {
+    "username": "SeifKaroui",
+    "prCount": 1,
+    "summary": "Contributed to Shader recompiler",
+    "recentPrs": [
+      {
+        "pr": 8713,
+        "branch": "fix/shader-unused-phi-cycles"
+      }
+    ]
+  },
+  {
+    "username": "vittoriosalvadore",
+    "prCount": 1,
+    "summary": "Contributed to codex",
+    "recentPrs": [
+      {
+        "pr": 8633,
+        "branch": "codex/fix-font-point-dpi-scales"
+      }
+    ]
+  },
+  {
+    "username": "bcortezf",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 5965,
+        "branch": "feat/audioout-get-system-state"
+      }
+    ]
+  },
+  {
+    "username": "QRMOE",
+    "prCount": 1,
+    "summary": "Contributed 1 pull request",
+    "recentPrs": [
+      {
+        "pr": 6469,
+        "branch": "fix-low-guest-address-mappings"
+      }
+    ]
+  },
+  {
+    "username": "yabanana",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 8495,
+        "branch": "fix/borrowed-memory-regions"
+      }
+    ]
+  },
+  {
+    "username": "m335671",
+    "prCount": 1,
+    "summary": "Contributed to perf",
+    "recentPrs": [
+      {
+        "pr": 8278,
+        "branch": "perf/dispatch-complete-record-split"
+      }
+    ]
+  },
+  {
+    "username": "Izamaru",
+    "prCount": 1,
+    "summary": "Contributed to perf",
+    "recentPrs": [
+      {
+        "pr": 8139,
+        "branch": "perf/sparse-page-permissions"
+      }
+    ]
+  },
+  {
+    "username": "ebosido444-ai",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 8109,
+        "branch": "fix/agc-depth-storage-layer-pitch"
+      }
+    ]
+  },
+  {
+    "username": "Capmare",
+    "prCount": 1,
+    "summary": "Contributed to Shader recompiler",
+    "recentPrs": [
+      {
+        "pr": 7816,
+        "branch": "fix/shader-frontend-call-analysis-wave-size"
+      }
+    ]
+  },
+  {
+    "username": "taovuokko",
+    "prCount": 1,
+    "summary": "Contributed to Relinker",
+    "recentPrs": [
+      {
+        "pr": 9801,
+        "branch": "fix/relinker-absolute-function-symbols"
+      }
+    ]
+  },
+  {
+    "username": "mitul72",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 6169,
+        "branch": "fix/agc-collect-memo-generation"
+      }
+    ]
+  },
+  {
+    "username": "SleglJan",
+    "prCount": 1,
+    "summary": "Contributed to pr",
+    "recentPrs": [
+      {
+        "pr": 8608,
+        "branch": "pr/capture-validation-linear"
+      }
+    ]
+  },
+  {
+    "username": "THEGABOALE",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 9955,
+        "branch": "fix/env-reference-multiline"
+      }
+    ]
+  },
+  {
+    "username": "maximilianfv",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 10052,
+        "branch": "fix/libscenet-macos-udp-shutdown"
+      }
+    ]
+  },
+  {
+    "username": "atharvjairath",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 10065,
+        "branch": "feat/libressl-x509-error-strings"
+      }
+    ]
+  },
+  {
+    "username": "pipe1os",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 10022,
+        "branch": "feat/common-dialog-facebook-gamecustomdata"
+      }
+    ]
+  },
+  {
+    "username": "PhialsBasement",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 7692,
+        "branch": "fix/agc-versioned-defaults-compact-types"
+      }
+    ]
+  },
+  {
+    "username": "VakzOs",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 9047,
+        "branch": "feat/libressl-des"
+      }
+    ]
+  },
+  {
+    "username": "dotaku22",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 8775,
+        "branch": "fix/trace-digest-invalid-structure"
+      }
+    ]
+  },
+  {
+    "username": "Ragbie",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 8359,
+        "branch": "fix/windows-pwrite-append"
+      }
+    ]
+  },
+  {
+    "username": "leorossi2005",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 8493,
+        "branch": "fix/cmake-mingw-ranlib-detection"
+      }
+    ]
+  },
+  {
+    "username": "Danigamer05",
+    "prCount": 1,
+    "summary": "Contributed to libkernel",
+    "recentPrs": [
+      {
+        "pr": 8641,
+        "branch": "fix/libkernel-windows-birthtime"
+      }
+    ]
+  },
+  {
+    "username": "elieh999",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 8537,
+        "branch": "fix/setrlimit-nproc"
+      }
+    ]
+  },
+  {
+    "username": "SirDarky",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 9209,
+        "branch": "feat/hw-oracle-windows"
+      }
+    ]
+  },
+  {
+    "username": "EdouardSence",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 9233,
+        "branch": "feat/ngs2-custom-gain"
+      }
+    ]
+  },
+  {
+    "username": "kyon-eth",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 9452,
+        "branch": "feat/jemspace-pending-exports"
+      }
+    ]
+  },
+  {
+    "username": "3mro777o",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 7517,
+        "branch": "feat/vdecsw-hevc-picture-info"
+      }
+    ]
+  },
+  {
+    "username": "THEBIGTOMMY13DEV",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 8902,
+        "branch": "fix/self-program-header-overlap"
+      }
+    ]
+  },
+  {
+    "username": "DProkos",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 8561,
+        "branch": "feat/npcppwebapi-user-profile-offline"
+      }
+    ]
+  },
+  {
+    "username": "verusferro",
+    "prCount": 1,
+    "summary": "Contributed to libkernel",
+    "recentPrs": [
+      {
+        "pr": 9008,
+        "branch": "feat/libkernel-sys-fstat"
+      }
+    ]
+  },
+  {
+    "username": "Joacoorandom",
+    "prCount": 1,
+    "summary": "Contributed to Tests",
+    "recentPrs": [
+      {
+        "pr": 9534,
+        "branch": "test/pad-timeline-repeat-boundaries"
+      }
+    ]
+  },
+  {
+    "username": "alvaroelpob",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 9540,
+        "branch": "feat/libscejxr-pkfree"
+      }
+    ]
+  },
+  {
+    "username": "DangerChamp",
+    "prCount": 1,
+    "summary": "Contributed to codex",
+    "recentPrs": [
+      {
+        "pr": 6645,
+        "branch": "codex/fix-completed-pixel-lane-proofs"
+      }
+    ]
+  },
+  {
+    "username": "mossyanwar",
+    "prCount": 1,
+    "summary": "Contributed to Relinker",
+    "recentPrs": [
+      {
+        "pr": 9234,
+        "branch": "fix/relinker-linux-named-imports"
+      }
+    ]
+  },
+  {
+    "username": "CPritch",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 8678,
+        "branch": "fix/agc-drop-queued-prebuilds"
+      }
+    ]
+  },
+  {
+    "username": "superhe11",
+    "prCount": 1,
+    "summary": "Contributed to codex",
+    "recentPrs": [
+      {
+        "pr": 9296,
+        "branch": "codex/fix-snprintf-size-overflow"
+      }
+    ]
+  },
+  {
+    "username": "LuisAguilarDev",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 8099,
+        "branch": "fix/agc-stencil-clear-absent-plane"
+      }
+    ]
+  },
+  {
+    "username": "SP4C3B4R-8",
+    "prCount": 1,
+    "summary": "Contributed to refactor",
+    "recentPrs": [
+      {
+        "pr": 8992,
+        "branch": "refactor/draw-prepare-record"
+      }
+    ]
+  },
+  {
+    "username": "whamre",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 7927,
+        "branch": "feat/agc-depth-mips"
+      }
+    ]
+  },
+  {
+    "username": "mrfelek",
+    "prCount": 1,
+    "summary": "Contributed to Documentation",
+    "recentPrs": [
+      {
+        "pr": 8135,
+        "branch": "docs/game-testing-budgets"
+      }
+    ]
+  },
+  {
+    "username": "boykopovar",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 9137,
+        "branch": "fix/funcs-abi-debt-2026-10-20"
+      }
+    ]
+  },
+  {
+    "username": "Tamalero",
+    "prCount": 1,
+    "summary": "Contributed to Shader recompiler",
+    "recentPrs": [
+      {
+        "pr": 8991,
+        "branch": "fix/shader-image-table-split-tsharp-halves"
+      }
+    ]
+  },
+  {
+    "username": "Gruzzberry",
+    "prCount": 1,
+    "summary": "Contributed to Documentation",
+    "recentPrs": [
+      {
+        "pr": 8313,
+        "branch": "docs/readme-trademark-notice"
+      }
+    ]
+  },
+  {
+    "username": "FitzVB",
+    "prCount": 1,
+    "summary": "Contributed to libkernel",
+    "recentPrs": [
+      {
+        "pr": 2528,
+        "branch": "fix/libkernel-sync-on-address-buckets"
+      }
+    ]
+  },
+  {
+    "username": "NoOverflow",
+    "prCount": 1,
+    "summary": "Contributed to libSceNpAuth",
+    "recentPrs": [
+      {
+        "pr": 8471,
+        "branch": "feat/libSceNpAuth-a-variants"
+      }
+    ]
+  },
+  {
+    "username": "AlexOfTheForest",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 7525,
+        "branch": "feat/scanf-wide-linux"
+      }
+    ]
+  },
+  {
+    "username": "christophermonterocortes-cr",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 8843,
+        "branch": "feat/npcppwebapi-demangled-signatures"
+      }
+    ]
+  },
+  {
+    "username": "shanu337",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 8430,
+        "branch": "fix/systemservice-tournament-stub"
+      }
+    ]
+  },
+  {
+    "username": "Rajkamalcode",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 7912,
+        "branch": "fix/agc-storage-writeback"
+      }
+    ]
+  },
+  {
+    "username": "slick-daddy",
+    "prCount": 1,
+    "summary": "Contributed 1 pull request",
+    "recentPrs": [
+      {
+        "pr": 8094,
+        "branch": "newwy"
+      }
+    ]
+  },
+  {
+    "username": "adhimiw",
+    "prCount": 1,
+    "summary": "Contributed to libSceCesCs",
+    "recentPrs": [
+      {
+        "pr": 8240,
+        "branch": "feat/libSceCesCs-pending-exports"
+      }
+    ]
+  },
+  {
+    "username": "NumberGuan",
+    "prCount": 1,
+    "summary": "Contributed to codex",
+    "recentPrs": [
+      {
+        "pr": 8494,
+        "branch": "codex/videoout-eop-test-chunks"
+      }
+    ]
+  },
+  {
+    "username": "aarushkha",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 8554,
+        "branch": "fix/pipeline-cache-header-long-path"
+      }
+    ]
+  },
+  {
+    "username": "AasishDairelSahayaGrinspan",
+    "prCount": 1,
+    "summary": "Contributed to Relinker",
+    "recentPrs": [
+      {
+        "pr": 8063,
+        "branch": "fix/relinker-gs-memory-only-traps"
+      }
+    ]
+  },
+  {
+    "username": "Nejilu",
+    "prCount": 1,
+    "summary": "Contributed to Relinker",
+    "recentPrs": [
+      {
+        "pr": 8757,
+        "branch": "codex/relinker-tls-file-bounds"
+      }
+    ]
+  },
+  {
+    "username": "MayankManas",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 8249,
+        "branch": "test/agc-f64-denormal-modes-skip-without-float64"
+      }
+    ]
+  },
+  {
+    "username": "Henryisdjfunkyho",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 8241,
+        "branch": "fix/check-compile-response-files"
+      }
+    ]
+  },
+  {
+    "username": "Unkown607",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 8095,
+        "branch": "fix/videoout-119hz-display-fallback"
+      }
+    ]
+  },
+  {
+    "username": "KarthikeyaAnna",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 7966,
+        "branch": "fix/agc-1d-depth-compare-2d"
+      }
+    ]
+  },
+  {
+    "username": "mpratsaki",
+    "prCount": 1,
+    "summary": "Contributed to Relinker",
+    "recentPrs": [
+      {
+        "pr": 8745,
+        "branch": "fix/relinker-windows-same-file-checks"
+      }
+    ]
+  },
+  {
+    "username": "T3cm0",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 7826,
+        "branch": "feat/hmd2-slots-writers"
+      }
+    ]
+  },
+  {
+    "username": "Scramblrrrr",
+    "prCount": 1,
+    "summary": "Contributed to codex",
+    "recentPrs": [
+      {
+        "pr": 7480,
+        "branch": "codex/videoout-force-sdr-main"
+      }
+    ]
+  },
+  {
+    "username": "altuux",
+    "prCount": 1,
+    "summary": "Contributed to libkernel",
+    "recentPrs": [
+      {
+        "pr": 8312,
+        "branch": "fix/libkernel-sys-readlink-notdir"
+      }
+    ]
+  },
+  {
+    "username": "Aryansh1520",
+    "prCount": 1,
+    "summary": "Contributed to libkernel",
+    "recentPrs": [
+      {
+        "pr": 8304,
+        "branch": "feat/libkernel-umtx-ops-sync"
+      }
+    ]
+  },
+  {
+    "username": "Athen2045",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 8268,
+        "branch": "feat/net-dns-info"
+      }
+    ]
+  },
+  {
+    "username": "011010",
+    "prCount": 1,
+    "summary": "Contributed to feat",
+    "recentPrs": [
+      {
+        "pr": 6148,
+        "branch": "feat/audio3d-mix"
+      }
+    ]
+  },
+  {
+    "username": "XairRrR",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 7154,
+        "branch": "fix/agc-depth-plane-buffer-coherence"
+      }
+    ]
+  },
+  {
+    "username": "Agnibha007",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 7443,
+        "branch": "fix/debt-split-staying-entry-paragraphs"
+      }
+    ]
+  },
+  {
+    "username": "IshmamDC217",
+    "prCount": 1,
+    "summary": "Contributed to Relinker",
+    "recentPrs": [
+      {
+        "pr": 7417,
+        "branch": "feat/relinker-trace-imports-linux"
+      }
+    ]
+  },
+  {
+    "username": "nicolasabosch",
+    "prCount": 1,
+    "summary": "Contributed to Graphics/AGC",
+    "recentPrs": [
+      {
+        "pr": 6658,
+        "branch": "perf/gpu-wake-sleeps"
+      }
+    ]
+  },
+  {
+    "username": "mopga",
+    "prCount": 1,
+    "summary": "Contributed to Relinker",
+    "recentPrs": [
+      {
+        "pr": 8001,
+        "branch": "fix/relinker-amd-only-claimed-followers"
+      }
+    ]
+  },
+  {
+    "username": "bl4nkTHEBUNKER",
+    "prCount": 1,
+    "summary": "Contributed to fix",
+    "recentPrs": [
+      {
+        "pr": 8138,
+        "branch": "fix/pad-touchpad-resolution"
+      }
+    ]
+  }
+]

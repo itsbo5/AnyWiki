@@ -1,0 +1,46 @@
+---
+title: AnyPS5 documentation
+description: Documentation for AnyPS5, a tool that converts PS5 executables to run natively on Linux and Windows.
+template: splash
+hero:
+  tagline: AnyPS5 converts PS5 executables to run natively on Linux and Windows without emulation.
+  actions:
+    - text: User guide
+      link: /AnyWiki/getting-started/overview/
+      icon: right-arrow
+      variant: primary
+    - text: Developer guide
+      link: /AnyWiki/dev/building/
+      icon: document
+      variant: secondary
+    - text: Contributor guide
+      link: /AnyWiki/contributing/workflow/
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+AnyPS5 is a static binary conversion tool and runtime library suite. It relinks clean x86-64 ELF executables from PlayStation 5 packages into native Linux ELF, Windows PE, or macOS Mach-O binaries. System calls and console services link against native reimplementations of PlayStation 5 system libraries, running directly on host hardware without an emulation layer or hypervisor.
+
+<CardGrid>
+  <Card title="User documentation" icon="rocket">
+    Prepare clean ELF binaries, run the relinker on Windows, Linux, macOS, or in a web browser, and set up runtime libraries, input bindings, and graphics caches.
+    <LinkCard title="Read the user guide" href="/AnyWiki/user-guide/relinker-cli/" />
+  </Card>
+
+  <Card title="Architecture and internals" icon="puzzle">
+    Inspect the relinker pipeline, System V calling convention bridging, Vulkan and AGC driver translation, and the SPIR-V shader recompiler.
+    <LinkCard title="Explore the architecture" href="/AnyWiki/architecture/relinker-internals/" />
+  </Card>
+
+  <Card title="Contributor workflow" icon="pencil">
+    Review code conventions, branch overlap validation, technical debt tracking rules, and pull request review standards.
+    <LinkCard title="Learn how to contribute" href="/AnyWiki/contributing/workflow/" />
+  </Card>
+
+  <Card title="Reference data" icon="open-book">
+    Query function exports across 368 system libraries, 1,166 RDNA2 shader opcodes, runtime error messages, and command-line options.
+    <LinkCard title="Browse the reference library" href="/AnyWiki/reference/libraries/" />
+  </Card>
+</CardGrid>

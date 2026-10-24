@@ -1,0 +1,89 @@
+---
+title: Quick start
+description: Convert and run a PlayStation 5 application on Linux or Windows in five steps.
+---
+
+import { Steps, Tabs, TabItem, FileTree, Aside } from '@astrojs/starlight/components';
+
+Follow these steps to convert an application binary and prepare the runtime layout for execution.
+
+<Aside type="note">
+Verified against upstream commit `5b65588957f8b2020adb1f264a3d9408c997297f`.
+</Aside>
+
+<Steps>
+
+1. ### Organize the input files
+
+   Ensure the target executable is a decrypted, clean ELF binary. Place the main executable in a source directory with bundled modules in `sce_module/`:
+
+   <FileTree>
+   - source/
+     - input.elf
+     - sce_module/
+       - libSceFoo.prx
+   </FileTree>
+
+2. ### Obtain the relinker and system libraries
+
+   Download the matching release bundle for your operating system or compile the project from source. Ensure you have the `relinker` binary and the built system PRX libraries in `build/core/libs/libs/` or a release folder.
+
+3. ### Run the relinker
+
+   Execute the relinker command for your target operating system.
+
+   <Tabs syncKey="os">
+     <TabItem label="Linux">
+       ```sh
+       ./relinker source/input.elf app.elf
+       ```
+     </TabItem>
+     <TabItem label="Windows">
+       ```powershell
+       .\relinker.exe --windows source\input.elf app.exe
+       ```
+     </TabItem>
+   </Tabs>
+
+   For Intel processors, add `--to-intel` to convert AMD-specific instructions.
+
+4. ### Assemble the runtime folder structure
+
+   The output executable expects runtime libraries in `libs/` and game assets in `app0/`:
+
+   <FileTree>
+   - game-root/
+     - app.exe (or app.elf on Linux)
+     - libs/
+       - *.prx (AnyPS5 host system libraries)
+       - libgcc_s_seh-1.dll (Windows only)
+       - libstdc++-6.dll (Windows only)
+       - libwinpthread-1.dll (Windows only)
+     - app0/
+       - eboot.bin (original binary)
+       - sce_sys/
+         - param.json
+       - sce_module/
+         - <converted guest modules>
+   </FileTree>
+
+   Copy the built host libraries from `build/core/libs/libs/*.prx` into `libs/`. On Windows, copy `libgcc_s_seh-1.dll`, `libstdc++-6.dll`, and `libwinpthread-1.dll` from your MinGW toolchain into `libs/`.
+
+5. ### Launch the application
+
+   Run the native binary from your terminal:
+
+   <Tabs syncKey="os">
+     <TabItem label="Linux">
+       ```sh
+       ./app.elf
+       ```
+     </TabItem>
+     <TabItem label="Windows">
+       ```powershell
+       .\app.exe
+       ```
+     </TabItem>
+   </Tabs>
+
+</Steps>

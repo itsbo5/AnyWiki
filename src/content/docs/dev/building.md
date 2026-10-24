@@ -1,0 +1,83 @@
+---
+title: Building from source
+description: Detailed instructions for compiling the AnyPS5 relinker, runtime libraries, and test suites.
+---
+
+import { Steps, Tabs, TabItem, Aside } from '@astrojs/starlight/components';
+
+AnyPS5 supports two primary build configurations: the full runtime build (Windows and Linux) and the relinker-only build (Windows, Linux, and macOS).
+
+## Relinker-only build
+
+The relinker-only mode builds the conversion tool and its automated tests without downloading or compiling third-party submodules (SDL2, Vulkan, FreeType, FFmpeg, or the shader recompiler).
+
+```sh
+cmake -S . -B build-relinker -G Ninja \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DANYPS5_RELINKER_ONLY=ON \
+    -DBUILD_TESTING=ON
+cmake --build build-relinker --parallel
+ctest --test-dir build-relinker --output-on-failure
+```
+
+The compiled executable is placed at:
+- Windows: `build-relinker/core/relinker/relinker.exe`
+- Linux and macOS: `build-relinker/core/relinker/relinker`
+
+## Full build
+
+The full build compiles the relinker, the shader recompiler, and all host system PRX libraries.
+
+### 1. Initialize submodules
+
+Fetch all 21 submodules:
+
+```sh
+git submodule update --init --recursive
+```
+
+### 2. Configure with CMake
+
+<Tabs syncKey="os">
+  <TabItem label="Windows">
+    Ensure WinLibs MinGW-w64 GCC and Git are in your session `PATH`:
+
+    ```powershell
+    $env:PATH = "C:\tools\winlibs\mingw64\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin;$env:PATH"
+    cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DBUILD_TESTING=ON
+    ```
+  </TabItem>
+  <TabItem label="Linux">
+    ```sh
+    cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=ON
+    ```
+  </TabItem>
+</Tabs>
+
+### 3. Compile binaries and system libraries
+
+Run the default build, then explicitly invoke the `libs` target:
+
+```sh
+cmake --build build --parallel
+cmake --build build --target libs --parallel
+```
+
+<Aside type="important">
+The `libs` target compiles the system PRX libraries located in `core/libs/prx/`. These libraries are configured with `EXCLUDE_FROM_ALL`. If you do not execute `cmake --build build --target libs`, the system will not generate the `.prx` files under `build/core/libs/libs/`.
+</Aside>
+
+## CMake options reference
+
+The following options configure feature flags in `CMakeLists.txt`:
+
+| CMake option | Default | Description |
+| :--- | :--- | :--- |
+| `BUILD_TESTING` | `OFF` | Builds and registers automated CTest unit and regression tests. |
+| `ANYPS5_RELINKER_ONLY` | `OFF` | Builds the relinker without system libraries or third-party dependencies. Compatible with macOS. |
+| `ANYPS5_BUILD_WASM` | `OFF` | Compiles the relinker as WebAssembly for in-browser execution using Emscripten (`emcmake`). |
+| `ANYPS5_ENABLE_SPIRV_TOOLS` | `OFF` | Enables SPIRV-Tools validation and optimization on recompiled shaders. |
+| `ANYPS5_ENABLE_ASAN` | `OFF` | Builds Linux targets with AddressSanitizer and configures an ASan-compatible guest arena memory range. |
+| `APS5_ENABLE_TIMING_LOG` | `OFF` | Writes asynchronous presentation frame timing records to `frame-timing.log`. |
+| `APS5_ENABLE_TRACY` | `OFF` | Integrates the Tracy profiler client into performance instrumentation zones. |
+| `ANYPS5_USE_SYSTEM_DEPS` | `OFF` | Resolves SDL2, FreeType, Vulkan-Headers, SPIRV-Headers, glslang, and SPIRV-Tools from the operating system packages instead of submodules. |

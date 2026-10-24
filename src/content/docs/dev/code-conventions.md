@@ -1,0 +1,51 @@
+---
+title: Code conventions
+description: Coding standards, formatting rules, comment restrictions, and commit guidelines.
+---
+
+import { Aside } from '@astrojs/starlight/components';
+
+AnyPS5 enforces strict coding standards to maintain consistency across hundreds of system libraries and subsystems.
+
+## The no-comment rule
+
+Source code must not contain inline comments, explanatory paragraphs, or TODO markers.
+
+- **Permitted comments**: Comments are permitted only on `#endif` preprocessor directives and at namespace closures:
+  ```cpp
+  #endif // CORE_LIBS_PRX_LIBC_INCLUDE_GENERAL_MACROS_HPP
+
+  } // namespace Relinker
+  ```
+- **Where notes belong**: Explanations of hardware discrepancies, missing parameters, and unimplemented features belong in `docs/dev/debt/<library>.md`.
+- **Enforcement**: `tools/check_conventions.py` scans pull request changes and rejects unauthorized comments.
+
+## Implementation rules
+
+Every system function must either implement expected console behavior correctly or throw an exception:
+
+- **No made-up return codes**: If a function cannot be implemented, call `NotImplemented_nid_no_patch(__func__)`. Never return fabricated success codes (such as `0` or `SCE_OK`) to bypass an error, as this causes silent state corruption later in execution.
+- **No title-specific special-casing**: Implement general behavior for all inputs. Never hardcode an exception for a specific ID, file path, or value observed in one title's trace log. If the general behavior is unknown, throw `std::runtime_error` and log the limitation in technical debt.
+- **Silent UI stubs**: A silent stub (returning success without action) is permitted only when it unblocks title startup during early UI initialization. It must be explicitly documented under `### Silent stubs` in `docs/dev/debt/<library>.md`.
+- **C++20 standard library**: The relinker uses only the C++20 standard library. Do not introduce dependencies on external runtime packages.
+
+## Naming conventions
+
+- **Public exports**: Match the original PlayStation 5 SDK symbol name (for example, `sceKernelCreateThread`, `scePadOpen`).
+- **Types, classes, and structs**: Use PascalCase (for example, `ElfReader`, `ConversionOptions`).
+- **Functions and methods**: Use PascalCase in relinker core classes; match SDK casing in PRX export functions.
+- **Local variables and parameters**: Use camelCase (for example, `sourceBytes`, `inputPath`).
+- **Internal helpers**: Helper functions that must not be exported as NID symbols must end with `_nid_no_patch` or `_nid_no_patch_cut`.
+
+## Conventional Commits
+
+All commit subjects and pull request titles must follow the Conventional Commits specification:
+
+```text
+<type>(<scope>): <imperative subject>
+```
+
+- Allowed types: `feat`, `fix`, `docs`, `test`, `refactor`, `perf`, `chore`.
+- Keep the subject line to 72 characters or fewer.
+- Write in the imperative mood, present tense ("add feature", not "added feature").
+- Example: `fix(libkernel): return correct error for unmapped direct memory`.

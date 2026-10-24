@@ -1,0 +1,59 @@
+---
+title: libc
+description: Implementation status, export declarations, and host mapping for the standard C runtime library.
+---
+
+import data from '../../../../data/libraries/libc.json';
+
+The `libc` library provides standard C and C++ runtime library functions for PlayStation 5 applications. In AnyPS5, calls to `libc` link against native host C runtime implementations and memory management primitives.
+
+## Subsystem overview
+
+On the PlayStation 5, `libc` provides standard POSIX and C99 functions including string manipulation, memory allocation, mathematical computations, wide character formatting, and file I/O operations.
+
+- **Host dynamic library**: Built as `libs/libc.prx`.
+- **Calling convention**: System V AMD64 ABI on Linux; Windows builds use `APS5_VABI` (`__attribute__((sysv_abi))`) to bridge directly from converted PE executables.
+- **Memory allocation**: Mapped to host `mimalloc` or operating system memory arenas to match PlayStation 5 heap alignment guarantees.
+
+## Implementation coverage
+
+- **Total declared exports**: {data.total}
+- **Implemented functions**: {data.implemented} ({((data.implemented / data.total) * 100).toFixed(1)}%)
+- **Inert stubs**: {data.inert} ({((data.inert / data.total) * 100).toFixed(1)}%)
+- **Unimplemented stubs**: {data.stub} ({((data.stub / data.total) * 100).toFixed(1)}%)
+- **Overall progress**: {((data.implemented + data.inert) / data.total * 100).toFixed(1)}%
+
+## Known limitations and debt
+
+Known technical debt and platform discrepancies are cataloged in `docs/dev/debt/libc.md` in the upstream repository:
+
+- Filesystem operations such as `rename` and `remove` follow FreeBSD path normalization semantics, rejecting paths ending in `.` or `..` with `EINVAL`.
+- Wide character formatting functions (`num_put`) map to host libc++ vtables.
+- Thread-local storage (`__cxa_thread_atexit`) delegates to host runtime destructors.
+
+## Exported functions
+
+The table below lists all {data.total} function exports declared in `libc`, their 11-character NID hashes, and their current implementation status.
+
+<table>
+  <thead>
+    <tr>
+      <th>Function symbol</th>
+      <th>NID</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {data.functions.map((fn) => (
+      <tr key={fn.nid}>
+        <td><code>{fn.name}</code></td>
+        <td><code>{fn.nid}</code></td>
+        <td>
+          {fn.state === 'implemented' && <span style="color: #22c55e;">Implemented</span>}
+          {fn.state === 'inert' && <span style="color: #eab308;">Inert</span>}
+          {fn.state === 'stub' && <span style="color: #ef4444;">Stub</span>}
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>

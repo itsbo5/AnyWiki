@@ -1,0 +1,59 @@
+---
+title: libScePad
+description: Implementation status, export declarations, and SDL controller mapping for libScePad.
+---
+
+import data from '../../../../data/libraries/libScePad.json';
+
+The `libScePad` library handles controller input polling, button states, analog stick coordinates, motion sensors, rumble vibration, and touch surface packets for PlayStation 5 game controllers.
+
+## Subsystem overview
+
+PlayStation 5 titles read controller inputs primarily via `scePadReadState`. In AnyPS5, input polling maps to host input subsystems:
+
+- **Host dynamic library**: Built as `libs/libScePad.prx`.
+- **Physical controllers**: Enumerates gamepads using SDL2 controller mappings, supporting physical DualSense and compatible USB/Bluetooth devices.
+- **Keyboard and mouse mapping**: Translated through `anyps5-input.ini` configuration files.
+- **Deterministic testing**: Allows input injection from recorded files using `APS5_PAD_INPUT_FILE`.
+
+## Implementation coverage
+
+- **Total declared exports**: {data.total}
+- **Implemented functions**: {data.implemented} ({((data.implemented / data.total) * 100).toFixed(1)}%)
+- **Inert stubs**: {data.inert} ({((data.inert / data.total) * 100).toFixed(1)}%)
+- **Unimplemented stubs**: {data.stub} ({((data.stub / data.total) * 100).toFixed(1)}%)
+- **Overall progress**: {((data.implemented + data.inert) / data.total * 100).toFixed(1)}%
+
+## Known limitations and debt
+
+Technical debt entries are tracked in `docs/dev/debt/libScePad.md` in the upstream repository:
+
+- Advanced DualSense haptic feedback and adaptive trigger resistance motors are inert on non-DualSense controllers.
+- Multi-user controller assignment maps to sequential SDL gamepad indices.
+
+## Exported functions
+
+The table below lists all {data.total} function exports declared in `libScePad`, their 11-character NID hashes, and their implementation status.
+
+<table>
+  <thead>
+    <tr>
+      <th>Function symbol</th>
+      <th>NID</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {data.functions.map((fn) => (
+      <tr key={fn.nid}>
+        <td><code>{fn.name}</code></td>
+        <td><code>{fn.nid}</code></td>
+        <td>
+          {fn.state === 'implemented' && <span style="color: #22c55e;">Implemented</span>}
+          {fn.state === 'inert' && <span style="color: #eab308;">Inert</span>}
+          {fn.state === 'stub' && <span style="color: #ef4444;">Stub</span>}
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>

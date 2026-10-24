@@ -1,0 +1,59 @@
+---
+title: libSceVideoOut
+description: Implementation status, export declarations, and display swapchain presentation for libSceVideoOut.
+---
+
+import data from '../../../../data/libraries/libSceVideoOut.json';
+
+The `libSceVideoOut` library controls display output, swapchain buffer acquisition, presentation timing, HDR color space configuration, and vertical synchronization.
+
+## Subsystem overview
+
+PlayStation 5 titles present frames to the display through `libSceVideoOut`. In AnyPS5, presentation calls translate to host window surfaces:
+
+- **Host dynamic library**: Built as `libs/libSceVideoOut.prx`.
+- **Swapchain presentation**: Implemented using Vulkan `VkSwapchainKHR` surface queues managed by SDL2 windowing.
+- **Flip submission**: Frame pacing and flip synchronization are handled in `sceVideoOutSubmitFlip`, reporting frame counts under `APS5_PROFILE_DRAW=1`.
+- **Display format**: Translates PlayStation 5 pixel formats (such as 10-bit HDR and standard 8-bit sRGB) to host surface formats.
+
+## Implementation coverage
+
+- **Total declared exports**: {data.total}
+- **Implemented functions**: {data.implemented} ({((data.implemented / data.total) * 100).toFixed(1)}%)
+- **Inert stubs**: {data.inert} ({((data.inert / data.total) * 100).toFixed(1)}%)
+- **Unimplemented stubs**: {data.stub} ({((data.stub / data.total) * 100).toFixed(1)}%)
+- **Overall progress**: {((data.implemented + data.inert) / data.total * 100).toFixed(1)}%
+
+## Known limitations and debt
+
+Technical debt entries are tracked in `docs/dev/debt/libSceVideoOut.md` in the upstream repository:
+
+- 120 Hz presentation modes require host displays capable of 120 Hz refresh rates; titles requesting 120 Hz on 60 Hz monitors require fallback adaptation.
+- Headless execution on Linux requires an active Xwayland or Weston environment providing DRI3 rendering.
+
+## Exported functions
+
+The table below lists all {data.total} function exports declared in `libSceVideoOut`, their 11-character NID hashes, and their implementation status.
+
+<table>
+  <thead>
+    <tr>
+      <th>Function symbol</th>
+      <th>NID</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {data.functions.map((fn) => (
+      <tr key={fn.nid}>
+        <td><code>{fn.name}</code></td>
+        <td><code>{fn.nid}</code></td>
+        <td>
+          {fn.state === 'implemented' && <span style="color: #22c55e;">Implemented</span>}
+          {fn.state === 'inert' && <span style="color: #eab308;">Inert</span>}
+          {fn.state === 'stub' && <span style="color: #ef4444;">Stub</span>}
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>

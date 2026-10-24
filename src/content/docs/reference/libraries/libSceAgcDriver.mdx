@@ -1,0 +1,60 @@
+---
+title: libSceAgcDriver
+description: Implementation status, export declarations, and Vulkan translation for the AGC graphics driver.
+---
+
+import data from '../../../../data/libraries/libSceAgcDriver.json';
+
+The `libSceAgcDriver` library provides the primary graphics hardware interface for PlayStation 5 titles, handling command buffer submission, GPU memory synchronization, register state management, and compute dispatch.
+
+## Subsystem overview
+
+PlayStation 5 titles communicate with the GPU through the Autonomous Graphics Controller (AGC) driver. In AnyPS5, `libSceAgcDriver` translates hardware command packets directly into Vulkan 1.3 API calls:
+
+- **Host dynamic library**: Built as `libs/libSceAgcDriver.prx`.
+- **Command submission**: Translates draw and dispatch packets into Vulkan secondary command buffers submitted to graphics and compute queues.
+- **Memory synchronization**: Reinterprets `MEM_SEMAPHORE` wait and signal operations as Vulkan timeline semaphores and pipeline barriers.
+- **Shader execution**: Directs embedded RDNA2 shader bytecode to the shader recompiler to produce SPIR-V pipelines.
+
+## Implementation coverage
+
+- **Total declared exports**: {data.total}
+- **Implemented functions**: {data.implemented} ({((data.implemented / data.total) * 100).toFixed(1)}%)
+- **Inert stubs**: {data.inert} ({((data.inert / data.total) * 100).toFixed(1)}%)
+- **Unimplemented stubs**: {data.stub} ({((data.stub / data.total) * 100).toFixed(1)}%)
+- **Overall progress**: {((data.implemented + data.inert) / data.total * 100).toFixed(1)}%
+
+## Known limitations and debt
+
+Technical debt items are documented in `docs/dev/debt/libSceAgcDriver.md` in the upstream repository:
+
+- GPU tests require Vulkan validation layers (`VK_LAYER_KHRONOS_validation`) with zero new `VUID-` validation errors compared to the `main` branch.
+- Host memory import budgets (`APS5_HOST_IMPORT_MIB`) cap zero-copy CPU-GPU allocations.
+- Texture cache eviction cycles are logged every 10 seconds under `APS5_PROFILE_DRAW=1`.
+
+## Exported functions
+
+The table below lists all {data.total} function exports declared in `libSceAgcDriver`, their 11-character NID hashes, and their implementation status.
+
+<table>
+  <thead>
+    <tr>
+      <th>Function symbol</th>
+      <th>NID</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {data.functions.map((fn) => (
+      <tr key={fn.nid}>
+        <td><code>{fn.name}</code></td>
+        <td><code>{fn.nid}</code></td>
+        <td>
+          {fn.state === 'implemented' && <span style="color: #22c55e;">Implemented</span>}
+          {fn.state === 'inert' && <span style="color: #eab308;">Inert</span>}
+          {fn.state === 'stub' && <span style="color: #ef4444;">Stub</span>}
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>

@@ -112,6 +112,17 @@ export default defineConfig({
 					items: [
 						{ label: 'Library model', slug: 'reference/library-model' },
 						{ label: 'Library index', slug: 'reference/libraries' },
+						{
+							label: 'Core libraries',
+							items: [
+								{ label: 'libc', slug: 'reference/libraries/libc' },
+								{ label: 'libkernel', slug: 'reference/libraries/libkernel' },
+								{ label: 'libSceAgcDriver', slug: 'reference/libraries/libsceagcdriver' },
+								{ label: 'libSceVideoOut', slug: 'reference/libraries/libscevideoout' },
+								{ label: 'libScePad', slug: 'reference/libraries/libscepad' },
+								{ label: 'libSceAudioOut', slug: 'reference/libraries/libsceaudioout' },
+							],
+						},
 						{ label: 'System calls', slug: 'reference/syscalls' },
 						{ label: 'Relinker pipeline', slug: 'reference/relinker-pipeline' },
 						{ label: 'CMake options', slug: 'reference/cmake-options' },

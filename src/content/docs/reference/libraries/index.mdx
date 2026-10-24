@@ -3,8 +3,10 @@ title: System library index
 description: Index and implementation status of all 368 PlayStation 5 system PRX libraries in AnyPS5.
 ---
 
-import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Tabs, TabItem, CardGrid, LinkCard } from '@astrojs/starlight/components';
 import data from '../../../../data/libraries.json';
+
+export const priorityLibs = new Set(['libc', 'libkernel', 'libSceAgcDriver', 'libSceVideoOut', 'libScePad', 'libSceAudioOut']);
 
 AnyPS5 provides native reimplementations and export declarations for 368 system PRX libraries. When a converted executable runs, the host dynamic linker resolves imported symbols directly against these libraries.
 
@@ -19,9 +21,22 @@ The project tracks implementation coverage across known function exports:
 - **Unimplemented stubs**: {data.summary.stub} ({((data.summary.stub / data.summary.total) * 100).toFixed(1)}%)
 - **Effective coverage**: {data.summary.percent}% (implemented plus inert functions)
 
-For details on the function states and NID hashing specification, refer to the [library model guide](/AnyWiki/reference/library-model/).
+For details on function states and the NID hashing algorithm, refer to the [library model guide](/AnyWiki/reference/library-model/).
 
-## Libraries by category
+## Core prioritized libraries
+
+Dedicated reference guides detailing export tables, NID mappings, and host translations are available for core system libraries:
+
+<CardGrid>
+  <LinkCard title="libc (1,318 exports)" href="/AnyWiki/reference/libraries/libc/" description="Standard C and C++ runtime, memory allocation, and math primitives." />
+  <LinkCard title="libkernel (704 exports)" href="/AnyWiki/reference/libraries/libkernel/" description="Threads, synchronization, direct memory allocation, and clocks." />
+  <LinkCard title="libSceAgcDriver (130 exports)" href="/AnyWiki/reference/libraries/libsceagcdriver/" description="Low-level AGC command buffer submission and Vulkan translation." />
+  <LinkCard title="libSceVideoOut (62 exports)" href="/AnyWiki/reference/libraries/libscevideoout/" description="Display presentation, swapchain flip submission, and HDR modes." />
+  <LinkCard title="libScePad (192 exports)" href="/AnyWiki/reference/libraries/libscepad/" description="DualSense controller input polling, vibration, and touch surface." />
+  <LinkCard title="libSceAudioOut (146 exports)" href="/AnyWiki/reference/libraries/libsceaudioout/" description="Audio output stream management, downmixing, and SDL sound routing." />
+</CardGrid>
+
+## All 368 libraries by category
 
 <Tabs>
   <TabItem label="Core system">
@@ -40,7 +55,13 @@ For details on the function states and NID hashing specification, refer to the [
       <tbody>
         {data.libraries.filter(l => l.category === 'Core system').map(lib => (
           <tr key={lib.name}>
-            <td><code>{lib.name}</code></td>
+            <td>
+              {priorityLibs.has(lib.name) ? (
+                <a href={`/AnyWiki/reference/libraries/${lib.name.toLowerCase()}/`}><code>{lib.name}</code></a>
+              ) : (
+                <code>{lib.name}</code>
+              )}
+            </td>
             <td>{lib.implemented}</td>
             <td>{lib.inert}</td>
             <td>{lib.stub}</td>
@@ -68,7 +89,13 @@ For details on the function states and NID hashing specification, refer to the [
       <tbody>
         {data.libraries.filter(l => l.category === 'Graphics and video').map(lib => (
           <tr key={lib.name}>
-            <td><code>{lib.name}</code></td>
+            <td>
+              {priorityLibs.has(lib.name) ? (
+                <a href={`/AnyWiki/reference/libraries/${lib.name.toLowerCase()}/`}><code>{lib.name}</code></a>
+              ) : (
+                <code>{lib.name}</code>
+              )}
+            </td>
             <td>{lib.implemented}</td>
             <td>{lib.inert}</td>
             <td>{lib.stub}</td>
@@ -96,7 +123,13 @@ For details on the function states and NID hashing specification, refer to the [
       <tbody>
         {data.libraries.filter(l => l.category === 'Audio and media').map(lib => (
           <tr key={lib.name}>
-            <td><code>{lib.name}</code></td>
+            <td>
+              {priorityLibs.has(lib.name) ? (
+                <a href={`/AnyWiki/reference/libraries/${lib.name.toLowerCase()}/`}><code>{lib.name}</code></a>
+              ) : (
+                <code>{lib.name}</code>
+              )}
+            </td>
             <td>{lib.implemented}</td>
             <td>{lib.inert}</td>
             <td>{lib.stub}</td>
@@ -124,7 +157,13 @@ For details on the function states and NID hashing specification, refer to the [
       <tbody>
         {data.libraries.filter(l => l.category === 'Input and user').map(lib => (
           <tr key={lib.name}>
-            <td><code>{lib.name}</code></td>
+            <td>
+              {priorityLibs.has(lib.name) ? (
+                <a href={`/AnyWiki/reference/libraries/${lib.name.toLowerCase()}/`}><code>{lib.name}</code></a>
+              ) : (
+                <code>{lib.name}</code>
+              )}
+            </td>
             <td>{lib.implemented}</td>
             <td>{lib.inert}</td>
             <td>{lib.stub}</td>
@@ -152,7 +191,13 @@ For details on the function states and NID hashing specification, refer to the [
       <tbody>
         {data.libraries.filter(l => l.category === 'Network and services').map(lib => (
           <tr key={lib.name}>
-            <td><code>{lib.name}</code></td>
+            <td>
+              {priorityLibs.has(lib.name) ? (
+                <a href={`/AnyWiki/reference/libraries/${lib.name.toLowerCase()}/`}><code>{lib.name}</code></a>
+              ) : (
+                <code>{lib.name}</code>
+              )}
+            </td>
             <td>{lib.implemented}</td>
             <td>{lib.inert}</td>
             <td>{lib.stub}</td>
@@ -180,7 +225,13 @@ For details on the function states and NID hashing specification, refer to the [
       <tbody>
         {data.libraries.filter(l => l.category === 'System utilities').map(lib => (
           <tr key={lib.name}>
-            <td><code>{lib.name}</code></td>
+            <td>
+              {priorityLibs.has(lib.name) ? (
+                <a href={`/AnyWiki/reference/libraries/${lib.name.toLowerCase()}/`}><code>{lib.name}</code></a>
+              ) : (
+                <code>{lib.name}</code>
+              )}
+            </td>
             <td>{lib.implemented}</td>
             <td>{lib.inert}</td>
             <td>{lib.stub}</td>

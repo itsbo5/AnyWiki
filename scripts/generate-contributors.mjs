@@ -15,6 +15,17 @@ const BOTS = new Set([
   'ci',
 ]);
 
+const USERNAME_ALIASES = {
+  'dean': 'oneandonlydean',
+  'dean galvin': 'oneandonlydean',
+  'adrià': 'adriadam10',
+  'adrià franch': 'adriadam10',
+  'adria': 'adriadam10',
+  'federico marras': 'MarrasFederico',
+  'yossi yadgar': 'YossiYad',
+  'hypermist': 'hypermoist',
+};
+
 function extractContributors() {
   if (!fs.existsSync(UPSTREAM_DIR)) {
     if (fs.existsSync(OUTPUT_FILE)) {
@@ -24,12 +35,13 @@ function extractContributors() {
     throw new Error(`Upstream repo not found at ${UPSTREAM_DIR} and no snapshot exists.`);
   }
 
-  console.log(`Extracting contributors and PR history from ${UPSTREAM_DIR}...`);
-  // Read merged PR subjects
-  const logOutput = execSync('git log --grep="Merge pull request #" -n 1000 --format="%s"', {
+  console.log(`Extracting all contributors and PR history from ${UPSTREAM_DIR}...`);
+
+  // 1. Read all merge commits
+  const logOutput = execSync('git log --merges --format="%s"', {
     cwd: UPSTREAM_DIR,
     encoding: 'utf-8',
-    maxBuffer: 20 * 1024 * 1024,
+    maxBuffer: 50 * 1024 * 1024,
   });
 
   const lines = logOutput.split(/\r?\n/).filter(Boolean);
@@ -41,12 +53,18 @@ function extractContributors() {
     const match = line.match(prRegex);
     if (!match) continue;
     const [, prNum, author, branch] = match;
-    const cleanAuthor = author.trim();
+    let cleanAuthor = author.trim();
     if (BOTS.has(cleanAuthor.toLowerCase())) continue;
+
+    const aliasKey = cleanAuthor.toLowerCase();
+    if (USERNAME_ALIASES[aliasKey]) {
+      cleanAuthor = USERNAME_ALIASES[aliasKey];
+    }
 
     if (!userMap.has(cleanAuthor)) {
       userMap.set(cleanAuthor, {
         username: cleanAuthor,
+        commits: 0,
         prCount: 0,
         prs: [],
         areas: new Set(),
@@ -60,7 +78,6 @@ function extractContributors() {
       branch: branch.trim(),
     });
 
-    // Extract area from branch name
     const branchParts = branch.split('/');
     if (branchParts.length >= 2) {
       const topic = branchParts[1];
@@ -82,39 +99,71 @@ function extractContributors() {
     }
   }
 
-  // Also read commit counts from shortlog
-  const shortlogOutput = execSync('git shortlog -sn --no-merges', {
+  // 2. Read direct commits for all authors
+  const commitLog = execSync('git log --no-merges --format="%an|%ae"', {
     cwd: UPSTREAM_DIR,
     encoding: 'utf-8',
-    maxBuffer: 20 * 1024 * 1024,
+    maxBuffer: 50 * 1024 * 1024,
   });
 
-  const shortlogLines = shortlogOutput.split(/\r?\n/).filter(Boolean);
-  const authorCommitCounts = new Map();
-  for (const line of shortlogLines) {
-    const match = line.trim().match(/^(\d+)\s+(.+)$/);
-    if (match) {
-      const count = parseInt(match[1], 10);
-      const name = match[2].trim();
-      authorCommitCounts.set(name, count);
+  const commitLines = commitLog.split(/\r?\n/).filter(Boolean);
+  for (const line of commitLines) {
+    const [name, email] = line.split('|');
+    const cleanName = name ? name.trim() : '';
+    if (!cleanName || BOTS.has(cleanName.toLowerCase())) continue;
+
+    // Check alias
+    let mappedUser = cleanName;
+    const aliasKey = cleanName.toLowerCase();
+    if (USERNAME_ALIASES[aliasKey]) {
+      mappedUser = USERNAME_ALIASES[aliasKey];
+    } else if (email && email.includes('users.noreply.github.com')) {
+      const emailUser = email.split('@')[0].replace(/^\d+\+/, '');
+      if (emailUser && !BOTS.has(emailUser.toLowerCase())) {
+        mappedUser = emailUser;
+      }
     }
+
+    if (!userMap.has(mappedUser)) {
+      userMap.set(mappedUser, {
+        username: mappedUser,
+        commits: 0,
+        prCount: 0,
+        prs: [],
+        areas: new Set(),
+      });
+    }
+
+    userMap.get(mappedUser).commits++;
+  }
+
+  // Special handling for creator boykopovar
+  if (userMap.has('boykopovar')) {
+    const boyko = userMap.get('boykopovar');
+    boyko.areas.add('Project Creator');
+    boyko.areas.add('Relinker core');
+    boyko.areas.add('PRX system libraries');
+    boyko.areas.add('Architecture');
   }
 
   const result = Array.from(userMap.values())
+    .filter(u => u.commits > 0 || u.prCount > 0)
     .map(user => {
-      // Create plain description of contributions
       const areaList = Array.from(user.areas).slice(0, 3);
       const desc = areaList.length > 0
-        ? `Contributed to ${areaList.join(', ')}`
-        : `Contributed ${user.prCount} pull request${user.prCount > 1 ? 's' : ''}`;
+        ? areaList.join(', ')
+        : (user.commits > 0 ? `${user.commits} commits` : `${user.prCount} pull requests`);
+
       return {
         username: user.username,
+        commits: user.commits,
         prCount: user.prCount,
+        totalContributions: user.commits + user.prCount,
         summary: desc,
         recentPrs: user.prs.slice(0, 5),
       };
     })
-    .sort((a, b) => b.prCount - a.prCount);
+    .sort((a, b) => b.totalContributions - a.totalContributions);
 
   fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 2) + '\n', 'utf-8');

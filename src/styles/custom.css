@@ -1,0 +1,45 @@
+/* High-contrast custom theme colors for AnyPS5 documentation */
+:root {
+  --sl-color-accent-low: #0f2d4a;
+  --sl-color-accent: #1f6feb;
+  --sl-color-accent-high: #79c0ff;
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #e6edf3;
+  --sl-color-gray-2: #c9d1d9;
+  --sl-color-gray-3: #8b949e;
+  --sl-color-gray-4: #484f58;
+  --sl-color-gray-5: #30363d;
+  --sl-color-gray-6: #161b22;
+  --sl-color-black: #0d1117;
+}
+
+[data-theme='light'] {
+  --sl-color-accent-low: #ddf4ff;
+  --sl-color-accent: #0969da;
+  --sl-color-accent-high: #05418b;
+  --sl-color-white: #1f2328;
+  --sl-color-gray-1: #24292f;
+  --sl-color-gray-2: #57606a;
+  --sl-color-gray-3: #6e7781;
+  --sl-color-gray-4: #afb8c1;
+  --sl-color-gray-5: #d0d7de;
+  --sl-color-gray-6: #f6f8fa;
+  --sl-color-black: #ffffff;
+}
+
+/* Ensure code blocks and tables have clear borders and padding */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+th, td {
+  border: 1px solid var(--sl-color-gray-5);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: var(--sl-color-gray-6);
+}
